@@ -1,0 +1,11 @@
+key: 主要人物
+type: character.group
+status: confirmed
+members:
+  - key: 晏林
+    primary:
+      - characters/major/晏林/主卡.md
+      - characters/major/晏林/形象.md
+      - characters/major/晏林/衣装.md
+      - characters/major/晏林/星契.md
+note: 共 1 人

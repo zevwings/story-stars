@@ -1,0 +1,35 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: state.rag.yml
+
+entries:
+  - key: 伴侣与关系形态
+    type: state
+    primary:
+      - worldbuilding/society/伴侣与关系形态.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 伴侣与关系形态
+    status: confirmed
+  - key: 保密与公开性
+    type: state
+    primary:
+      - worldbuilding/society/保密与公开性.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 保密与公开性
+    status: confirmed
+  - key: 觉醒与登记
+    type: state
+    primary:
+      - worldbuilding/society/觉醒与登记.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 觉醒与登记
+    status: confirmed
