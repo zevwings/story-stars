@@ -1,0 +1,54 @@
+# .prewrite/ 与 .analysis/ 常用于施工层和待确认事项, 默认不忽略。
+
+# macOS local metadata
+.DS_Store
+**/.DS_Store
+
+# Claude local metadata
+.claude/*
+!.claude/settings.json
+!.claude/skills
+!.claude/skills/
+!.claude/skills/**
+!.claude/scripts/
+!.claude/scripts/**
+
+# Codex local metadata
+.codex/*
+!.codex/config.toml
+!.codex/skills
+!.codex/skills/
+!.codex/skills/**
+claude-mem-*.tgz
+_mem/mem-*.md
+
+# Python local caches
+__pycache__/
+*.pyc
+.venv/
+.uv-cache/
+
+# Local metadata for analysis, export, and validation outputs
+.analysis/*
+!.analysis/README.md
+!.analysis/blueprints/
+!.analysis/blueprints/**
+!.analysis/plotlines/
+!.analysis/plotlines/**
+.analysis/archived/
+.analysis/archived/**
+.analysis/reports/
+.analysis/reports/**
+
+# GraphRAG 生成缓存。正式事实不在这里。
+.rag/generated/
+.rag/briefs/
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+
+# Tool runtime output
+tmp/
+temp/

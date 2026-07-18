@@ -1,0 +1,61 @@
+version: 1
+scope: worldbuilding.lookup_manifest
+status: routing_only
+routes:
+  - file: factions.rag.yml
+    types:
+      - faction
+    tags:
+      - factions
+      - 星契管理院
+      - 星辰家族
+      - 黑市
+      - 黑暗契约者
+    examples:
+      - 星契管理院
+      - 星辰家族
+      - 黑市
+      - 黑暗契约者
+  - file: places.rag.yml
+    types:
+      - place
+    tags:
+      - regions
+      - 主城·江州
+      - 地理总则
+    examples:
+      - 主城·江州
+      - 地理总则
+  - file: state.rag.yml
+    types:
+      - state
+    tags:
+      - society
+      - 伴侣与关系形态
+      - 保密与公开性
+      - 觉醒与登记
+    examples:
+      - 伴侣与关系形态
+      - 保密与公开性
+      - 觉醒与登记
+  - file: systems.rag.yml
+    types:
+      - worldbuilding.systems
+      - worldbuilding.technology
+    tags:
+      - systems
+      - technology
+      - 战斗规则
+      - 时代背景
+      - 星辰之力
+      - 星辰之印
+      - 星辰契约
+      - 星辰异变
+      - 星辰控制
+      - 星辰权柄
+    examples:
+      - 战斗规则
+      - 时代背景
+      - 星辰之力
+      - 星辰之印
+      - 星辰契约

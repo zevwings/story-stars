@@ -1,0 +1,15 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: technology.rag.yml
+
+entries:
+  - key: 药剂
+    type: worldbuilding.technology
+    primary:
+      - worldbuilding/technology/药剂.md
+    related:
+      - worldbuilding/technology/_index.md
+    tags:
+      - technology
+      - 药剂
+    status: confirmed

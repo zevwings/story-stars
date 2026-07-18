@@ -1,0 +1,43 @@
+key: 预备人物
+type: character.group
+status: confirmed
+members:
+  - key: 安若曦
+    primary:
+      - characters/preentry/安若曦/主卡.md
+      - characters/preentry/安若曦/形象.md
+      - characters/preentry/安若曦/衣装.md
+      - characters/preentry/安若曦/星契.md
+  - key: 苏璃
+    primary:
+      - characters/preentry/苏璃/主卡.md
+      - characters/preentry/苏璃/形象.md
+      - characters/preentry/苏璃/衣装.md
+  - key: 温婉
+    primary:
+      - characters/preentry/温婉/主卡.md
+      - characters/preentry/温婉/形象.md
+      - characters/preentry/温婉/衣装.md
+  - key: 林芷兰
+    primary:
+      - characters/preentry/林芷兰/主卡.md
+      - characters/preentry/林芷兰/形象.md
+      - characters/preentry/林芷兰/衣装.md
+      - characters/preentry/林芷兰/星契.md
+  - key: 江岚
+    primary:
+      - characters/preentry/江岚/主卡.md
+      - characters/preentry/江岚/形象.md
+      - characters/preentry/江岚/衣装.md
+  - key: 苏晚乔
+    primary:
+      - characters/preentry/苏晚乔/主卡.md
+      - characters/preentry/苏晚乔/形象.md
+      - characters/preentry/苏晚乔/衣装.md
+      - characters/preentry/苏晚乔/星契.md
+  - key: 唐语薇
+    primary:
+      - characters/preentry/唐语薇/主卡.md
+      - characters/preentry/唐语薇/形象.md
+      - characters/preentry/唐语薇/衣装.md
+note: 共 7 人

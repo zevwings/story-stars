@@ -1,0 +1,8 @@
+# GraphRAG ignore file.
+# One pattern per line, relative to project root.
+# Used by GraphRAG directory scans for worldbuilding/ and characters/.
+#
+# Examples:
+# worldbuilding/drafts/
+# characters/private/
+# characters/preentry/scratch.md

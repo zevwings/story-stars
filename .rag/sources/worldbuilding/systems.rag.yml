@@ -1,0 +1,115 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: systems.rag.yml
+
+entries:
+  - key: 战斗规则
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/战斗规则.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 战斗规则
+    status: confirmed
+  - key: 时代背景
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/时代背景.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 时代背景
+    status: confirmed
+  - key: 星辰之力
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰之力.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰之力
+    status: confirmed
+  - key: 星辰之印
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰之印.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰之印
+    status: confirmed
+  - key: 星辰契约
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰契约.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰契约
+    status: confirmed
+  - key: 星辰异变
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰异变.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰异变
+    status: confirmed
+  - key: 星辰控制
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰控制.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰控制
+    status: confirmed
+  - key: 星辰权柄
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰权柄.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰权柄
+    status: confirmed
+  - key: 精神之海
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/精神之海.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 精神之海
+    status: confirmed
+  - key: 精神侵蚀
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/精神侵蚀.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 精神侵蚀
+    status: confirmed
+  - key: 能力边界
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/能力边界.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 能力边界
+    status: confirmed

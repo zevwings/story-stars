@@ -1,0 +1,8 @@
+version: 1
+scope: characters.specialty.intimacy.rules_index
+status: routing_only
+specialty: intimacy
+required:
+  - story-writer://rules/intimacy/_index
+  - story-writer://rules/intimacy/亲密边界与红线
+note: 涉及成人写法专项时必须先读 required, 再读取角色专项档案。

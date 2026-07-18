@@ -1,0 +1,45 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: factions.rag.yml
+
+entries:
+  - key: 星契管理院
+    type: faction
+    primary:
+      - worldbuilding/factions/星契管理院.md
+    related:
+      - worldbuilding/factions/_index.md
+    tags:
+      - factions
+      - 星契管理院
+    status: confirmed
+  - key: 星辰家族
+    type: faction
+    primary:
+      - worldbuilding/factions/星辰家族.md
+    related:
+      - worldbuilding/factions/_index.md
+    tags:
+      - factions
+      - 星辰家族
+    status: confirmed
+  - key: 黑市
+    type: faction
+    primary:
+      - worldbuilding/factions/黑市.md
+    related:
+      - worldbuilding/factions/_index.md
+    tags:
+      - factions
+      - 黑市
+    status: confirmed
+  - key: 黑暗契约者
+    type: faction
+    primary:
+      - worldbuilding/factions/黑暗契约者.md
+    related:
+      - worldbuilding/factions/_index.md
+    tags:
+      - factions
+      - 黑暗契约者
+    status: confirmed

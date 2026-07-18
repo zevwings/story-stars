@@ -1,0 +1,11 @@
+key: 晏林/温婉
+type: character.specialty.static
+specialty: intimacy
+status: confirmed
+primary:
+  - intimacy/characters/晏林/温婉.md
+tags:
+  - 成人写法
+  - 晏林
+  - 温婉
+note: 只用于定位成人写法专项静态档案; 查询前必须先读取专项规则。

@@ -1,0 +1,25 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: places.rag.yml
+
+entries:
+  - key: 主城·江州
+    type: place
+    primary:
+      - worldbuilding/regions/主城·江州.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 主城·江州
+    status: confirmed
+  - key: 地理总则
+    type: place
+    primary:
+      - worldbuilding/regions/地理总则.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 地理总则
+    status: confirmed

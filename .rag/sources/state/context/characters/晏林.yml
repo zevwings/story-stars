@@ -1,0 +1,328 @@
+{
+  "category": "character_dynamic",
+  "entity": "晏林",
+  "group": null,
+  "source": "context/characters/晏林.md",
+  "records": [
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "晏林——男主角，私人心理诊所医生，未报备的双子星契主。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——正式章节尚未开始。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "暂无（随第一卷大纲确立）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "暂无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "27 岁。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "四权柄可用（亮星梦境＋幻境，暗伴星截断＋逆流）；精神之海川境（未登记，无官方评级记录）；星辰异变潜伏级——偶有小异样，本人有察觉，无外人知。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "健康。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "单身，无进行中关系线。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "江州执业中，明面生活完全合法平稳；星契身份对圈层与官方均隐藏。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "私人心理诊所经营者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "江州（诊所具体位置待定）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "待第一卷大纲确立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "待第一卷大纲确立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "暂无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "初始建档。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "他的星契身份是隐藏的——开篇前没有任何人（官方、家族、圈层）确知他是契约者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "主动向他人暴露权柄或契约者身份。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无（初始状态）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "核心记忆与转折",
+      "value": "待前史与觉醒时点拍板后补录。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "四权柄可用——梦境三动作（入梦／造梦／控梦）与幻境覆盖为诊疗日用；截断掐住模型熟练；逆流默认只打出崩散级，完整返还从未在实战打出；复合能力断幕、梦岸可用，虚渡属川境后期方向。具体掌握深度随正文确立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "对普通患者严守医疗伦理；星契身份绝不外露。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "清朗温和的君子壳，诊室内绝对收束。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "观察、侧写、病历是现实职业素养，不是异能。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "27 岁，江州私人心理诊所医生（合法登记），星契未报备；唯一双子星契主（转圜向），亮星持梦境＋幻境，暗伴星持截断＋逆流，合计四权柄；精神之海川境，星辰异变潜伏级。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "晏林",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

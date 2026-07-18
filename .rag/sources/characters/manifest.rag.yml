@@ -1,0 +1,20 @@
+version: 1
+scope: characters.lookup_manifest
+status: routing_only
+routes:
+  - key: 晏林
+    static: characters/major/晏林/主卡.md
+  - key: 安若曦
+    static: characters/preentry/安若曦/主卡.md
+  - key: 苏璃
+    static: characters/preentry/苏璃/主卡.md
+  - key: 温婉
+    static: characters/preentry/温婉/主卡.md
+  - key: 林芷兰
+    static: characters/preentry/林芷兰/主卡.md
+  - key: 江岚
+    static: characters/preentry/江岚/主卡.md
+  - key: 苏晚乔
+    static: characters/preentry/苏晚乔/主卡.md
+  - key: 唐语薇
+    static: characters/preentry/唐语薇/主卡.md
