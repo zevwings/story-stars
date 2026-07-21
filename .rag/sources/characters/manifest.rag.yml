@@ -4,17 +4,31 @@ status: routing_only
 routes:
   - key: 晏林
     static: characters/major/晏林/主卡.md
+  - key: 唐雨宸
+    static: characters/preentry/唐雨宸/形象.md
+  - key: 徐清
+    static: characters/preentry/徐清/形象.md
+  - key: 唐雨霖
+    static: characters/preentry/唐雨霖/形象.md
   - key: 安若曦
-    static: characters/preentry/安若曦/主卡.md
+    static: characters/preentry/安若曦/形象.md
   - key: 苏璃
-    static: characters/preentry/苏璃/主卡.md
+    static: characters/preentry/苏璃/形象.md
   - key: 温婉
-    static: characters/preentry/温婉/主卡.md
+    static: characters/preentry/温婉/形象.md
   - key: 林芷兰
-    static: characters/preentry/林芷兰/主卡.md
+    static: characters/preentry/林芷兰/形象.md
   - key: 江岚
-    static: characters/preentry/江岚/主卡.md
+    static: characters/preentry/江岚/形象.md
   - key: 苏晚乔
-    static: characters/preentry/苏晚乔/主卡.md
+    static: characters/preentry/苏晚乔/形象.md
   - key: 唐语薇
-    static: characters/preentry/唐语薇/主卡.md
+    static: characters/preentry/唐语薇/形象.md
+  - key: 许知夏
+    static: characters/preentry/许知夏/形象.md
+  - key: 许知秋
+    static: characters/preentry/许知秋/形象.md
+  - key: 阮清黎
+    static: characters/preentry/阮清黎/形象.md
+  - key: 沈宁
+    static: characters/preentry/沈宁/形象.md

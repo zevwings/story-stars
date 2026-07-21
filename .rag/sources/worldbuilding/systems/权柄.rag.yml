@@ -1,0 +1,60 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: systems/权柄.rag.yml
+
+entries:
+  - key: 侵蚀与修复权柄
+    type: worldbuilding.systems.权柄
+    primary:
+      - worldbuilding/systems/权柄/侵蚀与修复.md
+    related:
+      - worldbuilding/systems/权柄/_index.md
+    tags:
+      - systems
+      - 权柄
+      - 侵蚀与修复权柄
+    status: confirmed
+  - key: 意识与认知权柄
+    type: worldbuilding.systems.权柄
+    primary:
+      - worldbuilding/systems/权柄/意识与认知.md
+    related:
+      - worldbuilding/systems/权柄/_index.md
+    tags:
+      - systems
+      - 权柄
+      - 意识与认知权柄
+    status: confirmed
+  - key: 感知与信息权柄
+    type: worldbuilding.systems.权柄
+    primary:
+      - worldbuilding/systems/权柄/感知与信息.md
+    related:
+      - worldbuilding/systems/权柄/_index.md
+    tags:
+      - systems
+      - 权柄
+      - 感知与信息权柄
+    status: confirmed
+  - key: 现实与趋势权柄
+    type: worldbuilding.systems.权柄
+    primary:
+      - worldbuilding/systems/权柄/现实与趋势.md
+    related:
+      - worldbuilding/systems/权柄/_index.md
+    tags:
+      - systems
+      - 权柄
+      - 现实与趋势权柄
+    status: confirmed
+  - key: 连接与关系权柄
+    type: worldbuilding.systems.权柄
+    primary:
+      - worldbuilding/systems/权柄/连接与关系.md
+    related:
+      - worldbuilding/systems/权柄/_index.md
+    tags:
+      - systems
+      - 权柄
+      - 连接与关系权柄
+    status: confirmed

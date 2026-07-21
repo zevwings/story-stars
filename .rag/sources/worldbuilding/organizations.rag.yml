@@ -1,0 +1,15 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: organizations.rag.yml
+
+entries:
+  - key: 江城映彩媒体有限公司
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江城映彩媒体有限公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江城映彩媒体有限公司
+    status: confirmed

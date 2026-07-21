@@ -5,7 +5,7 @@
 [[characters.roots]]
 path = "characters"
 type = "character.static"
-static_cards = ["主卡.md", "形象.md", "衣装.md", "星契.md"]
+static_cards = ["主卡.md", "形象.md", "衣装.md", "契约.md"]
 
 [[context.roots]]
 path = "context/characters"
@@ -30,7 +30,7 @@ state = []
 name = "intimacy"
 label = "成人写法"
 dir = "intimacy"
-keywords = ["亲密", "双修", "吻", "身体回应", "尺度", "暧昧", "回房", "成年", "HD", "A场", "B场", "愿意信号", "胁迫", "受害方失衡", "SM", "BDSM", "共鸣", "星契同步", "欲望显影", "边界交付", "星庭共居", "修罗场"]
+keywords = ["亲密", "双修", "吻", "身体回应", "尺度", "暧昧", "回房", "成年", "HD", "A场", "B场", "愿意信号", "胁迫", "受害方失衡", "SM", "BDSM", "共鸣", "星辰契约同步", "欲望显影", "边界交付", "星庭共居", "修罗场"]
 rules = ["story-writer://rules/intimacy/_index", "story-writer://rules/intimacy/亲密边界与红线"]
 state_categories = ["intimacy_dynamic", "intimacy_static"]
 check_priority = "P2"
