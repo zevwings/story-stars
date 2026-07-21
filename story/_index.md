@@ -10,4 +10,4 @@
 - `timeline.md`
 - `boon.md`（金手指，按需生成；默认不存在）
 - [题材口径](genres/_index.md)
-- [分卷弧线](arcs/README.md)
+- [阶段弧线](arcs/_index.md)：已启用阶段一至阶段五及独立尾声正式弧线；未确认章序与场景参数仍留在施工层。
