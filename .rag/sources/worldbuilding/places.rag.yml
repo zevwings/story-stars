@@ -77,3 +77,14 @@ entries:
       - 江州
       - 栖云山
     status: confirmed
+  - key: 心动酒吧
+    type: place
+    primary:
+      - worldbuilding/regions/江州/心动酒吧.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 心动酒吧
+    status: confirmed

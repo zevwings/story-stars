@@ -62,4 +62,44 @@ members:
       - characters/preentry/沈宁/形象.md
       - characters/preentry/沈宁/衣装.md
       - characters/preentry/沈宁/契约.md
-note: 共 14 人
+  - key: 白玥
+    primary:
+      - characters/preentry/白玥/形象.md
+      - characters/preentry/白玥/衣装.md
+      - characters/preentry/白玥/契约.md
+  - key: 齐心
+    primary:
+      - characters/preentry/齐心/形象.md
+      - characters/preentry/齐心/衣装.md
+      - characters/preentry/齐心/契约.md
+  - key: 陆佳凝
+    primary:
+      - characters/preentry/陆佳凝/形象.md
+      - characters/preentry/陆佳凝/衣装.md
+  - key: 顾清言
+    primary:
+      - characters/preentry/顾清言/形象.md
+      - characters/preentry/顾清言/衣装.md
+      - characters/preentry/顾清言/契约.md
+  - key: 裴崇礼
+    primary:
+      - characters/preentry/裴崇礼/契约.md
+  - key: 裴怀山
+    primary:
+      - characters/preentry/裴怀山/契约.md
+  - key: 裴兰馨
+    primary:
+      - characters/preentry/裴兰馨/契约.md
+  - key: 裴怀安
+    primary:
+      - characters/preentry/裴怀安/契约.md
+  - key: 任群
+    primary:
+      - characters/preentry/任群/契约.md
+  - key: 程叙
+    primary:
+      - characters/preentry/程叙/主卡.md
+  - key: 乔宁
+    primary:
+      - characters/preentry/乔宁/主卡.md
+note: 共 25 人

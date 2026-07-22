@@ -32,3 +32,25 @@ routes:
     static: characters/preentry/阮清黎/形象.md
   - key: 沈宁
     static: characters/preentry/沈宁/形象.md
+  - key: 白玥
+    static: characters/preentry/白玥/形象.md
+  - key: 齐心
+    static: characters/preentry/齐心/形象.md
+  - key: 陆佳凝
+    static: characters/preentry/陆佳凝/形象.md
+  - key: 顾清言
+    static: characters/preentry/顾清言/形象.md
+  - key: 裴崇礼
+    static: characters/preentry/裴崇礼/契约.md
+  - key: 裴怀山
+    static: characters/preentry/裴怀山/契约.md
+  - key: 裴兰馨
+    static: characters/preentry/裴兰馨/契约.md
+  - key: 裴怀安
+    static: characters/preentry/裴怀安/契约.md
+  - key: 任群
+    static: characters/preentry/任群/契约.md
+  - key: 程叙
+    static: characters/preentry/程叙/主卡.md
+  - key: 乔宁
+    static: characters/preentry/乔宁/主卡.md
