@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { StoryData } from '../types'
-import { CytoscapeView, type ViewEdge, type ViewNode } from './CytoscapeView'
+import { GraphFlowView, type ViewEdge, type ViewNode } from './GraphFlowView'
 import './CoverageView.css'
 
 export function CoverageView({ data }: { data: StoryData }) {
@@ -24,7 +24,7 @@ export function CoverageView({ data }: { data: StoryData }) {
       path: characterData?.path,
       description: characterData?.role,
       x: 130,
-      y: Math.max(110, 80 + ((rowCount - 1) * 82) / 2),
+      y: 80,
     }]
     related.forEach((edge, index) => {
       const plotline = plotlines.get(edge.plotline)
@@ -45,10 +45,9 @@ export function CoverageView({ data }: { data: StoryData }) {
   }, [character, data.characters, data.coverage, data.plotlines.nodes])
 
   return (
-    <CytoscapeView
+    <GraphFlowView
       {...model}
       layout="preset"
-      directed
       readableStart
       title="人物 × 剧情"
       subtitle="一次聚焦一位人物，只显示其正式剧情覆盖，避免全量关系互相遮挡。"

@@ -4,12 +4,10 @@
 
 ## 已启用视图
 
-- **剧情依赖**：Cytoscape.js 展示 67 个正式剧情节点的上下游。
-- **阶段编排**：React Flow 按六阶段泳道展示节点首次调用与跨线依赖。
-- **人物关系**：只从人物主卡的「关系定调」表生成。
-- **人物×剧情**：从正式节点内的人物名引用生成覆盖边。
-- **案件责任链**：聚合案件／反派节点、参与人物与正式世界观引用。
-- **能力机制**：从人物契约卡生成「人物 → 星辰 → 权柄 → 公共机制」。
+- **剧情编排**：React Flow 按六阶段泳道合并展示节点首次调用与正式上下游。
+- **人物关系**：React Flow 从人物主卡的「关系定调」表生成。
+- **人物×剧情**：React Flow 按所选人物展示正式节点覆盖。
+- **案件责任链**：React Flow 聚合案件／反派节点、参与人物与正式世界观引用。
 
 ## 数据门禁
 
@@ -22,26 +20,22 @@
 在 `.plotlines/` 中执行：
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 常用操作：
 
 ```bash
-npm run refresh  # 刷新正式剧情数据及其他派生图谱数据
-npm run check    # 数据生成 + TypeScript 检查 + 生产构建
-npm run build    # 生成 dist/
-npm run preview  # 预览生产构建
+yarn gen      # 生成正式剧情数据及其他派生图谱数据
+yarn check    # 数据生成 + TypeScript 检查 + 生产构建
+yarn build    # 生成 dist/
+yarn preview  # 预览生产构建
 ```
 
 ## 目录边界
 
-- `graph-layout.yml`：项目展示分组和阶段覆盖，不复制剧情事实。
-- `generated/graph-data.js`：`story-writer plotline graph build` 的正式剧情节点派生数据。
-- `scripts/generate-data.mjs`：只读正式 Markdown 与上述剧情派生数据，写入 `src/generated/story-data.json`。
-- `src/generated/story-data.json`：前端统一数据入口，可随时重建。
+- 图谱分组直接来自 `story/plotlines/` 的正式目录，阶段覆盖来自 `story/arcs/`，不维护第二份布局配置。
+- `generated/story-graph.json`：`story-writer plotline graph build` 生成的完整中立图谱数据，前端直接读取。
 - `src/`：应用与视图实现。
-- `dist/`、`node_modules/`：本地产物，不纳入版本控制。
-
-`vendor/x6.min.js` 依然可能被上游 `story-writer plotline graph build` 复制，新工程不加载它。
+- `generated/`、`dist/`、`node_modules/`：本地派生产物，不纳入版本控制。

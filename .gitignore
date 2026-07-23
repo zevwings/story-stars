@@ -54,3 +54,4 @@ tmp/
 temp/
 .plotlines/node_modules/
 .plotlines/dist/
+.plotlines/generated/

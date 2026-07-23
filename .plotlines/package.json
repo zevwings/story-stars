@@ -4,21 +4,18 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "refresh": "cd .. && story-writer plotline graph build && cd .plotlines && node scripts/generate-data.mjs",
-    "data": "node scripts/generate-data.mjs",
-    "dev": "npm run refresh && vite",
-    "build": "npm run refresh && vite build",
+    "gen": "cd .. && story-writer plotline graph build",
+    "dev": "yarn gen && vite",
+    "build": "yarn gen && vite build",
     "preview": "vite preview",
-    "check": "npm run data && tsc --noEmit && vite build"
+    "check": "yarn gen && tsc --noEmit && vite build"
   },
   "dependencies": {
     "@xyflow/react": "^12.8.5",
-    "cytoscape": "^3.33.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@types/cytoscape": "^3.21.9",
     "@types/node": "^22.15.30",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",

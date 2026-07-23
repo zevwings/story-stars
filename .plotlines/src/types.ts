@@ -57,7 +57,6 @@ export type StoryData = {
   relationships: Relationship[]
   coverage: { id: string; character: string; plotline: string }[]
   cases: { nodes: DerivedNode[]; edges: DerivedEdge[] }
-  abilities: { nodes: DerivedNode[]; edges: DerivedEdge[] }
   deferred: {
     chapters: { enabled: boolean; count: number }
     clues: { enabled: boolean; count: number }

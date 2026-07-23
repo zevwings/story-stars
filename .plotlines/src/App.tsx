@@ -1,9 +1,9 @@
 import { lazy, Suspense, useMemo, useState } from 'react'
-import rawData from './generated/story-data.json'
-import type { ViewEdge, ViewNode } from './components/CytoscapeView'
+import rawData from '../generated/story-graph.json'
+import type { ViewEdge, ViewNode } from './components/GraphFlowView'
 import type { StoryData } from './types'
 
-const CytoscapeView = lazy(() => import('./components/CytoscapeView').then((module) => ({ default: module.CytoscapeView })))
+const GraphFlowView = lazy(() => import('./components/GraphFlowView').then((module) => ({ default: module.GraphFlowView })))
 const StageFlowView = lazy(() => import('./components/StageFlowView').then((module) => ({ default: module.StageFlowView })))
 const CoverageView = lazy(() => import('./components/CoverageView').then((module) => ({ default: module.CoverageView })))
 
@@ -66,9 +66,9 @@ export default function App() {
   const cases = useMemo(() => derivedModel(data.cases), [])
   let content
   if (view === 'stages') content = <StageFlowView graph={data.plotlines} />
-  else if (view === 'relationships') content = <CytoscapeView {...relationships} layout="preset" title="人物关系图" subtitle="核心人物居中、直接关系在内圈；点击人物后才显示关系说明。" />
+  else if (view === 'relationships') content = <GraphFlowView {...relationships} layout="preset" title="人物关系图" subtitle="核心人物居中、直接关系在内圈；点击人物后才显示关系说明。" />
   else if (view === 'coverage') content = <CoverageView data={data} />
-  else if (view === 'cases') content = <CytoscapeView {...cases} title="案件与责任链" subtitle="聚合案件／反派节点、正式参与人物及世界观依据。" />
+  else if (view === 'cases') content = <GraphFlowView {...cases} title="案件与责任链" subtitle="聚合案件／反派节点、正式参与人物及世界观依据。" />
   else content = <DeferredView kind={view} />
 
   return (

@@ -11,14 +11,15 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
   const stageIndex = useMemo(() => new Map(graph.stages.map((stage, index) => [stage.id, index])), [graph.stages])
   const groupIndex = useMemo(() => new Map(graph.groups.map((group, index) => [group.id, index])), [graph.groups])
   const model = useMemo(() => {
+    const columnOf = (item: PlotlineNode) => item.stages.length ? Math.min(...item.stages.map((stage) => stageIndex.get(stage) ?? graph.stages.length)) : graph.stages.length
     const counts = new Map<number, number>()
-    const ordered = graph.nodes.filter((item) => item.stages.length).sort((a, b) => {
-      const aColumn = Math.min(...a.stages.map((stage) => stageIndex.get(stage) ?? 0))
-      const bColumn = Math.min(...b.stages.map((stage) => stageIndex.get(stage) ?? 0))
+    const ordered = [...graph.nodes].sort((a, b) => {
+      const aColumn = columnOf(a)
+      const bColumn = columnOf(b)
       return aColumn - bColumn || (groupIndex.get(a.group) || 0) - (groupIndex.get(b.group) || 0) || a.id.localeCompare(b.id)
     })
     const plotNodes: Node[] = ordered.map((item) => {
-      const column = Math.min(...item.stages.map((stage) => stageIndex.get(stage) ?? 0))
+      const column = columnOf(item)
       const row = counts.get(column) || 0
       counts.set(column, row + 1)
       return {
@@ -32,7 +33,8 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
       }
     })
     const canvasHeight = Math.max(920, ...plotNodes.map((node) => node.position.y + 120))
-    const stageNodes: Node[] = graph.stages.map((stage, column) => ({
+    const lanes = [...graph.stages, { id: 'unassigned', label: '未编排', title: '等待阶段调用' }]
+    const stageNodes: Node[] = lanes.map((stage, column) => ({
       id: `stage:${stage.id}`,
       position: { x: column * 330, y: 0 },
       data: { label: <div className="stage-card"><strong>{stage.label}</strong><span>{stage.title}</span></div> },
