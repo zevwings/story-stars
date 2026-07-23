@@ -1,0 +1,25 @@
+.graph-tools {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.graph-tools button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 8px 11px;
+  cursor: pointer;
+}
+
+.graph-tools button:hover {
+  background: var(--surface-2);
+}
+
+@media (max-width: 900px) {
+  .graph-tools {
+    justify-content: flex-start;
+  }
+}

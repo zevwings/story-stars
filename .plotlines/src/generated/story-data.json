@@ -1,0 +1,5658 @@
+{
+  "sources": [
+    "story/plotlines/",
+    "story/arcs/",
+    "characters/",
+    "worldbuilding/"
+  ],
+  "plotlines": {
+    "meta": {
+      "generatedFrom": [
+        "story/plotlines/",
+        "story/arcs/",
+        ".plotlines/graph-layout.yml"
+      ],
+      "fingerprint": "1510d20380d4a39835a00dc29777da25c0bdecf958c24557838d671de927dbbf",
+      "nodeCount": 67,
+      "edgeCount": 132
+    },
+    "stages": [
+      {
+        "id": "phase-1",
+        "label": "阶段一",
+        "title": "点燃与首兑"
+      },
+      {
+        "id": "phase-2",
+        "label": "阶段二",
+        "title": "分轨与协查"
+      },
+      {
+        "id": "phase-3",
+        "label": "阶段三",
+        "title": "可见化与施压"
+      },
+      {
+        "id": "phase-4",
+        "label": "阶段四",
+        "title": "暴露与外压"
+      },
+      {
+        "id": "phase-5",
+        "label": "阶段五",
+        "title": "成阵与清算"
+      },
+      {
+        "id": "epilogue",
+        "label": "尾声",
+        "title": "日常余温"
+      }
+    ],
+    "groups": [
+      {
+        "id": "an-jiang",
+        "label": "安若曦—江岚线",
+        "kind": "intimacy",
+        "order": 10,
+        "nodes": [
+          "PL-M-001",
+          "PL-S-001",
+          "PL-I-001",
+          "PL-S-027",
+          "PL-I-002",
+          "PL-S-002",
+          "PL-S-015",
+          "PL-I-015",
+          "PL-I-010",
+          "PL-I-011",
+          "PL-I-012",
+          "PL-S-028",
+          "PL-S-033"
+        ]
+      },
+      {
+        "id": "cluster-a",
+        "label": "A 簇·苏璃—唐雨薇",
+        "kind": "intimacy",
+        "order": 20,
+        "nodes": [
+          "PL-I-003",
+          "PL-S-003",
+          "PL-I-004",
+          "PL-I-016",
+          "PL-I-013"
+        ]
+      },
+      {
+        "id": "cluster-b",
+        "label": "B 簇·苏晚乔",
+        "kind": "intimacy",
+        "order": 30,
+        "nodes": [
+          "PL-S-029",
+          "PL-I-005",
+          "PL-I-017",
+          "PL-S-019",
+          "PL-I-018"
+        ]
+      },
+      {
+        "id": "twins",
+        "label": "许知夏—许知秋线",
+        "kind": "intimacy",
+        "order": 40,
+        "nodes": [
+          "PL-S-016",
+          "PL-S-032",
+          "PL-I-006",
+          "PL-I-019",
+          "PL-S-020",
+          "PL-S-021",
+          "PL-S-031"
+        ]
+      },
+      {
+        "id": "lin-zhilan",
+        "label": "林芷兰·治疗前信任线",
+        "kind": "relation",
+        "order": 50,
+        "nodes": [
+          "PL-S-018",
+          "PL-S-037",
+          "PL-S-038",
+          "PL-S-039",
+          "PL-S-040",
+          "PL-S-004",
+          "PL-I-008",
+          "PL-I-020"
+        ]
+      },
+      {
+        "id": "wen-wan",
+        "label": "温婉·生活与外线",
+        "kind": "relation",
+        "order": 60,
+        "nodes": [
+          "PL-S-030",
+          "PL-I-007"
+        ]
+      },
+      {
+        "id": "bai-yue",
+        "label": "白玥·保护性合作与暗线",
+        "kind": "relation",
+        "order": 70,
+        "nodes": [
+          "PL-S-023",
+          "PL-I-014"
+        ]
+      },
+      {
+        "id": "tang-family",
+        "label": "唐雨薇归家与继承",
+        "kind": "main",
+        "order": 80,
+        "nodes": [
+          "PL-S-012",
+          "PL-M-005"
+        ]
+      },
+      {
+        "id": "management",
+        "label": "管理局与工作室制度线",
+        "kind": "case",
+        "order": 90,
+        "nodes": [
+          "PL-S-005",
+          "PL-S-006",
+          "PL-S-007",
+          "PL-S-013"
+        ]
+      },
+      {
+        "id": "case-chain",
+        "label": "案件产业链与反派线",
+        "kind": "villain",
+        "order": 100,
+        "nodes": [
+          "PL-S-010",
+          "PL-S-014",
+          "PL-S-034",
+          "PL-S-035",
+          "PL-S-026",
+          "PL-M-002",
+          "PL-M-003",
+          "PL-S-008",
+          "PL-S-009",
+          "PL-S-011",
+          "PL-S-025",
+          "PL-M-006",
+          "PL-M-004"
+        ]
+      },
+      {
+        "id": "inner-circle",
+        "label": "内圈知情、成阵与解释权",
+        "kind": "main",
+        "order": 110,
+        "nodes": [
+          "PL-S-022",
+          "PL-S-036",
+          "PL-S-024",
+          "PL-M-007"
+        ]
+      },
+      {
+        "id": "supporting",
+        "label": "配角独立关系",
+        "kind": "intimacy",
+        "order": 120,
+        "nodes": [
+          "PL-I-009"
+        ]
+      },
+      {
+        "id": "retired",
+        "label": "已退役节点",
+        "kind": "retired",
+        "order": 999,
+        "nodes": [
+          "PL-S-017"
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "PL-I-001",
+        "title": "异常截断后的第一次自愿亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "酒吧异常截断后的第一次自愿亲密选择；确认欲望权柄可以参与亲密，但不能替代双方的知情、自愿、拒绝与暂停条件。",
+        "path": "story/plotlines/亲密线/晏林/安若曦/异常截断后的第一次自愿亲密.md",
+        "upstream": [
+          "PL-M-001"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-002",
+        "title": "正常状态下的再次主动选择与关系确认",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "安若曦在完全清醒、无能力或药物影响的正常状态下再次主动选择晏林，并由此确认关系已经成为持续的现实选择。",
+        "path": "story/plotlines/亲密线/晏林/安若曦/正常状态下的再次主动选择与关系确认.md",
+        "upstream": [
+          "PL-I-001"
+        ],
+        "downstream": [
+          "PL-S-002"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-003",
+        "title": "苏璃与晏林的定情与第一次自愿亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段一 A 簇苏璃回路启动；苏璃与晏林在双人旅行中定情先于身体、完成第一次清醒自愿亲密，并确立“能力不介入感情”的关系硬边界与相互契约告知（苏璃全告知、晏林登记方向为梦境且保留其余）。",
+        "path": "story/plotlines/亲密线/晏林/苏璃/苏璃与晏林的定情与第一次自愿亲密.md",
+        "upstream": [],
+        "downstream": [
+          "PL-S-003",
+          "PL-I-016",
+          "PL-I-013"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "cluster-a",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-004",
+        "title": "唐雨薇的独立定情与第一次自愿亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段二 A 簇唐雨薇双人回路；唐雨薇在车行完成正常保养工作后主动邀请晏林吃饭，亲自坦白感情并取得晏林对她本人的独立回应，于唐家正式施压前完成定情与第一次自愿亲密。",
+        "path": "story/plotlines/亲密线/晏林/唐雨薇/唐雨薇的独立定情与第一次自愿亲密.md",
+        "upstream": [
+          "PL-S-003"
+        ],
+        "downstream": [
+          "PL-I-016",
+          "PL-I-013",
+          "PL-S-012",
+          "PL-M-005"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "cluster-a",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-005",
+        "title": "苏晚乔的关系追问与第一次自愿亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段一 B 簇苏晚乔回路启动；苏晚乔把维持约一年的未命名暧昧逼成必须认真回答的选择，独立完成关系确认与第一次身体兑现，不依附苏璃关系、不由跨簇暴露触发。",
+        "path": "story/plotlines/亲密线/晏林/苏晚乔/苏晚乔的关系追问与第一次自愿亲密.md",
+        "upstream": [],
+        "downstream": [
+          "PL-S-029",
+          "PL-I-017",
+          "PL-S-019"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "cluster-b",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-006",
+        "title": "许知夏许知秋的同场关系确认与首次共同兑现",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段三 E 簇关系确认与首次兑现；许知夏、许知秋沿不同路径各自动心、先完成姐妹间的独立意愿确认，再在同一场关系事件中共同提出请求、分别表态、三人同时建立关系，并于当晚完成首次共同兑现，成为晏林的非核心长期伴侣。",
+        "path": "story/plotlines/亲密线/晏林/许知夏许知秋/许知夏许知秋的姐妹结盟与同场关系确认.md",
+        "upstream": [
+          "PL-S-016",
+          "PL-S-032"
+        ],
+        "downstream": [
+          "PL-I-019",
+          "PL-S-020",
+          "PL-S-021",
+          "PL-S-031",
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-007",
+        "title": "温婉的知情后主动确认与第一次完整兑现",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段五 D 簇温婉回路启动；温婉在获得影响自身安全与选择的必要事实后，主动确认关系并完成第一次完整兑现，拒绝被固定为内圈照护者，要求危机决定中的知情与选择席位。",
+        "path": "story/plotlines/亲密线/晏林/温婉/温婉的知情后主动确认与第一次完整兑现.md",
+        "upstream": [
+          "PL-S-030"
+        ],
+        "downstream": [
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "wen-wan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-I-008",
+        "title": "脱离治疗场后的关系确认与第一次兑现",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段五；林芷兰在治疗关系与授权已经切开后，于普通生活场景主动确认关系并完成第一次兑现，来自私人感情而非秘密绑定、治疗回报或危机奖励；治疗授权与亲密授权彼此独立、不互为条件。",
+        "path": "story/plotlines/亲密线/晏林/林芷兰/脱离治疗场后的关系确认与第一次兑现.md",
+        "upstream": [
+          "PL-S-004"
+        ],
+        "downstream": [
+          "PL-I-020",
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-I-009",
+        "title": "唐雨宸与阮清黎的不带方案坦白与权力之外的交付",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "已婚两年、关系稳定的唐雨宸与阮清黎，在家族继承压力下完成从信息筛选到完整交付的关系质变——唐雨宸不带方案地坦白犹豫，阮清黎守住专业分权与婚姻坦白同时成立。承担世界、主题对照与呼吸价值，不与男主主色抢频率。",
+        "path": "story/plotlines/亲密线/配角/唐雨宸阮清黎/唐雨宸与阮清黎的不带方案坦白.md",
+        "upstream": [],
+        "downstream": [],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "supporting",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-010",
+        "title": "三人首次兑现后江岚与晏林的第一次独立亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段二；江岚在首次三人共同亲密后，确认即使安若曦不在场，她仍独立想要晏林，并与他完成第一次双人亲密。",
+        "path": "story/plotlines/亲密线/晏林/江岚/独立动心与第一次自愿亲密.md",
+        "upstream": [
+          "PL-I-015"
+        ],
+        "downstream": [
+          "PL-I-011",
+          "PL-I-012"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-011",
+        "title": "江岚与晏林的关系定义",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段四将已经发生的独立亲密明确为江岚—晏林的双人关系位置。",
+        "path": "story/plotlines/亲密线/晏林/江岚/关系定义.md",
+        "upstream": [
+          "PL-I-010",
+          "PL-I-012"
+        ],
+        "downstream": [
+          "PL-I-012"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-012",
+        "title": "安若曦、江岚与晏林的最低三人互动秩序",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "首次三人共同亲密与江岚—晏林独立双人回路成立后，建立可重复执行的三人告知、独处、陪伴、暂停与重新协商秩序。",
+        "path": "story/plotlines/亲密线/晏林/安若曦江岚/最低三人互动秩序.md",
+        "upstream": [
+          "PL-I-015",
+          "PL-I-010"
+        ],
+        "downstream": [
+          "PL-I-011",
+          "PL-S-022"
+        ],
+        "stages": [
+          "phase-3",
+          "phase-4"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-013",
+        "title": "A 簇首次三人共同亲密回路",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段三 A 簇内部回路；苏璃—晏林、唐雨薇—晏林、苏璃—唐雨薇三条双人关系分别成立后，三人第一次建立可逐次确认、暂停和重新协商的共同亲密回路。",
+        "path": "story/plotlines/亲密线/晏林/苏璃唐雨薇/A簇首次三人共同亲密回路.md",
+        "upstream": [
+          "PL-I-003",
+          "PL-I-004",
+          "PL-I-016",
+          "PL-S-003"
+        ],
+        "downstream": [
+          "PL-S-019",
+          "PL-S-022"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "cluster-a",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-014",
+        "title": "白玥的独立选择与隐秘长期关系确认",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段五；白玥完成清醒坦白、证据合作与责任处置，并与晏林的案件权力关系完成切分后，主动确认一段对公众和外围圈层不公开的长期关系。她是非核心长期伴侣，不进入七位核心女主序列。",
+        "path": "story/plotlines/亲密线/晏林/白玥/独立选择与隐秘长期关系确认.md",
+        "upstream": [
+          "PL-S-023"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "bai-yue",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-I-015",
+        "title": "安若曦与江岚揭晓恋人关系并与晏林首次共同亲密",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段二；安若曦与江岚在共同商量后，以酒店 Cos 私拍为入口向晏林揭晓两人的秘密恋人关系，并在分别确认当次意愿后完成首次三人共同亲密。",
+        "path": "story/plotlines/亲密线/晏林/安若曦江岚/恋人身份揭晓与首次共同亲密.md",
+        "upstream": [
+          "PL-S-002",
+          "PL-S-015",
+          "PL-S-028"
+        ],
+        "downstream": [
+          "PL-I-010"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-016",
+        "title": "苏璃与唐雨薇从闺蜜进入独立女女关系",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段二后段至阶段三前段；唐雨薇—晏林关系成立并与苏璃—晏林线并行后，苏璃辨认自己对唐雨薇不止是闺蜜感情，主动追求；唐雨薇在不出于补偿、报答或维持三人平衡的前提下独立选择苏璃。",
+        "path": "story/plotlines/亲密线/苏璃/唐雨薇/从闺蜜进入独立女女关系.md",
+        "upstream": [
+          "PL-S-003",
+          "PL-I-004",
+          "PL-I-003"
+        ],
+        "downstream": [
+          "PL-I-013",
+          "PL-S-019"
+        ],
+        "stages": [
+          "phase-2",
+          "phase-3"
+        ],
+        "group": "cluster-a",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-017",
+        "title": "苏晚乔稳定双人亲密回路与主动权回摆",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段二；在 `PL-I-005` 已完成独立定情与首次兑现的基础上，苏晚乔与晏林把主动索要、郑重回应、节奏交付、暂停和复盘建立为可重复的双人亲密回路。",
+        "path": "story/plotlines/亲密线/晏林/苏晚乔/稳定双人亲密回路与主动权回摆.md",
+        "upstream": [
+          "PL-I-005"
+        ],
+        "downstream": [
+          "PL-S-019",
+          "PL-I-018"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "cluster-b",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-018",
+        "title": "苏璃、苏晚乔与晏林首次共同亲密边界",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段三；`PL-S-019` 完成必要事实、隐瞒账单、继续意愿与暂停边界后，苏璃、苏晚乔与晏林第一次把“谁也不肯退、但仍选择一起”落实到共同身体层，同时保留两条双人关系。",
+        "path": "story/plotlines/亲密线/晏林/苏璃苏晚乔/首次共同亲密边界.md",
+        "upstream": [
+          "PL-S-019",
+          "PL-I-003",
+          "PL-I-017"
+        ],
+        "downstream": [
+          "PL-S-022",
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "cluster-b",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-019",
+        "title": "许知夏、许知秋与晏林的稳定共同游戏与注意力修正",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "`PL-I-006` 完成关系确认与首次共同兑现后，三人建立能够反复执行、暴露并修正注意力失衡的共同游戏回路，同时保留两条双人关系的独立位置。",
+        "path": "story/plotlines/亲密线/晏林/许知夏许知秋/稳定共同游戏与注意力修正.md",
+        "upstream": [
+          "PL-I-006"
+        ],
+        "downstream": [
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-4",
+          "epilogue"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-I-020",
+        "title": "静燃失序的双向主权与现实回位",
+        "type": "亲密线",
+        "status": "pending",
+        "position": "阶段五至尾声；两人在 `PL-I-008` 已成立的独立关系与第一次兑现基础上，建立可交付、可逆转、可停止、可解除并能回到现实生活的双向主权回路。",
+        "path": "story/plotlines/亲密线/晏林/林芷兰/静燃失序的双向主权与现实回位.md",
+        "upstream": [
+          "PL-I-008"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5",
+          "epilogue"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-M-001",
+        "title": "晏林截断安若曦的外来欲望连接",
+        "type": "主线",
+        "status": "pending",
+        "position": "阶段一开局星辰契约案件入口；让唐家外围压力、黑市一次性交易与欲望方向精神侵蚀显影，并让晏林第一次在安若曦事件中动用未登记的截断能力止损。",
+        "path": "story/plotlines/主线/晏林/安若曦/外来欲望连接截断.md",
+        "upstream": [],
+        "downstream": [
+          "PL-S-001",
+          "PL-S-023"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-M-002",
+        "title": "共同精神控制方法显影",
+        "type": "主线",
+        "status": "pending",
+        "position": "多个独立案件首次呈现同源的精神侵蚀、关系控制与自我解释替换方法。",
+        "path": "story/plotlines/主线/反派/共同精神控制方法显影.md",
+        "upstream": [
+          "PL-M-001",
+          "PL-S-006"
+        ],
+        "downstream": [
+          "PL-M-003"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-M-003",
+        "title": "解释权争夺与非法种印链",
+        "type": "主线",
+        "status": "pending",
+        "position": "黑市、精神污染、星辰之印、失踪与记录伪造被证明属于可串联的解释权争夺。",
+        "path": "story/plotlines/主线/反派/解释权争夺与非法种印链.md",
+        "upstream": [
+          "PL-M-002"
+        ],
+        "downstream": [
+          "PL-M-006",
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-M-004",
+        "title": "核心反派责任链清算",
+        "type": "主线",
+        "status": "pending",
+        "position": "通过有效证言、现实记录与跨案件证据完成齐心、陆佳凝及分层共犯责任链的追查、审判与后果落地。",
+        "path": "story/plotlines/主线/反派/核心反派责任链清算.md",
+        "upstream": [
+          "PL-M-006",
+          "PL-M-003"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-M-005",
+        "title": "唐雨薇主动归家与继承选择",
+        "type": "主线",
+        "status": "pending",
+        "position": "唐雨薇主动回到唐家处理候选资格与继承考察，在食品子公司的经营整改中取得真实竞争资格、确认自己有能力承担最高席位后，主动支持唐雨宸继承，并保留个人财产与本人事项的决定权。",
+        "path": "story/plotlines/主线/唐雨薇/主动归家与继承选择.md",
+        "upstream": [
+          "PL-S-012",
+          "PL-S-028"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-3",
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "tang-family",
+        "kind": "main"
+      },
+      {
+        "id": "PL-M-006",
+        "title": "陆佳凝境外承接网络显影",
+        "type": "主线",
+        "status": "pending",
+        "position": "阶段四后段至阶段五清算前；境内精神控制、失踪与黑产线索同陆家跨境产业接口发生可验证交叉，陆佳凝的境外接收、资源协调、异常处置与责任链切割由隐藏事实转为可追责对象。",
+        "path": "story/plotlines/主线/反派/陆佳凝境外承接网络显影.md",
+        "upstream": [
+          "PL-M-003"
+        ],
+        "downstream": [
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-M-007",
+        "title": "双子星主体解释权与分层公开边界",
+        "type": "主线",
+        "status": "pending",
+        "position": "阶段五至终局；双子星在对敌与公共风险中无法继续只作为私人秘密处理，晏林与女主阵营以知情、自愿、可撤回为基础，建立兼顾主体权、他人安全与制度责任的分层解释边界。",
+        "path": "story/plotlines/主线/晏林/双子星主体解释权与分层公开边界.md",
+        "upstream": [
+          "PL-S-005",
+          "PL-S-007",
+          "PL-S-036",
+          "PL-M-003"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "inner-circle",
+        "kind": "main"
+      },
+      {
+        "id": "PL-S-001",
+        "title": "安若曦酒吧越界后的现实切割",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段一安若曦现实压力与选择权节点；承接酒吧越界后的证据留存、事实分层、职场代价与阶段末现实切割。",
+        "path": "story/plotlines/副线/安若曦/唐雨霖/酒吧越界后的现实切割.md",
+        "upstream": [
+          "PL-M-001"
+        ],
+        "downstream": [
+          "PL-S-028"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-002",
+        "title": "安若曦向江岚坦白与关系后果",
+        "type": "副线",
+        "status": "pending",
+        "position": "安若曦向江岚完整说明酒吧事件、晏林介入、阶段一两次亲密、阶段二再次选择与关系确认，并承接江岚的独立反应和后续协商空间。",
+        "path": "story/plotlines/副线/安若曦/江岚/向江岚坦白与关系后果.md",
+        "upstream": [
+          "PL-I-002"
+        ],
+        "downstream": [
+          "PL-I-015",
+          "PL-I-010"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-003",
+        "title": "苏璃知情、肯定唐雨薇与晏林并退出批准者位置",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段二 A 簇内部知情；苏璃察觉唐雨薇因顾虑自己而回避，在两人单独确认后承认嫉妒、肯定两人的真实感情，并以不代替任何人表达或选择的方式提供一次独处机会。",
+        "path": "story/plotlines/副线/苏璃/唐雨薇/苏璃知情唐雨薇与晏林并划定非分配者位置.md",
+        "upstream": [
+          "PL-I-003"
+        ],
+        "downstream": [
+          "PL-I-004",
+          "PL-I-016",
+          "PL-I-013"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "cluster-a",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-004",
+        "title": "治疗即坦白与保密、登记不完整的知情选择",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；晏林在黑暗线冲突后受污染或结构损伤，依授权铁律完整开放精神之海接受林芷兰治疗，林芷兰单点获得双子星与登记不完整的知情，并承接治疗授权铁律、治疗与感情分离、保密与登记不完整的独立伦理选择。",
+        "path": "story/plotlines/副线/林芷兰/治疗即坦白与保密选择.md",
+        "upstream": [
+          "PL-S-040"
+        ],
+        "downstream": [
+          "PL-I-008",
+          "PL-S-036",
+          "PL-S-007"
+        ],
+        "stages": [
+          "phase-2",
+          "phase-4"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-005",
+        "title": "晏林登记外能力疑点与分层备案",
+        "type": "副线",
+        "status": "pending",
+        "position": "管理局及相关关系人通过多案材料确认晏林登记范围存在疑点，并形成需要进入正式复评的分层结论。",
+        "path": "story/plotlines/副线/晏林/登记外能力疑点与分层备案.md",
+        "upstream": [
+          "PL-S-006",
+          "PL-S-010",
+          "PL-S-023"
+        ],
+        "downstream": [
+          "PL-S-007"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "management",
+        "kind": "case"
+      },
+      {
+        "id": "PL-S-006",
+        "title": "星辰管理局首次个案协查",
+        "type": "副线",
+        "status": "pending",
+        "position": "管理局以独立精神污染案件建立与晏林的首次松散、有偿个案协查关系。",
+        "path": "story/plotlines/副线/管理局/首次个案协查.md",
+        "upstream": [],
+        "downstream": [
+          "PL-S-010"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "management",
+        "kind": "case"
+      },
+      {
+        "id": "PL-S-007",
+        "title": "管理局受控合作与必要更正",
+        "type": "副线",
+        "status": "pending",
+        "position": "多案协查后，管理局将合作收束为受控个案合作，并完成必要的登记更正与分层公开。",
+        "path": "story/plotlines/副线/管理局/受控合作与必要更正.md",
+        "upstream": [
+          "PL-S-006",
+          "PL-S-005"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "management",
+        "kind": "case"
+      },
+      {
+        "id": "PL-S-008",
+        "title": "顾清言的隔离、解印与责任分层",
+        "type": "副线",
+        "status": "pending",
+        "position": "高端商务会所实际管理者顾清言作为第一环责任人、主动涉黑经营者与成年受印者，进入隔离、评估、授权解印和责任分层流程。",
+        "path": "story/plotlines/副线/黑暗契约者/非法种印首案的隔离解印与责任分层.md",
+        "upstream": [
+          "PL-S-010"
+        ],
+        "downstream": [
+          "PL-M-004",
+          "PL-S-011"
+        ],
+        "stages": [
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-009",
+        "title": "黑市星表、药剂、目标与实验链串联",
+        "type": "副线",
+        "status": "pending",
+        "position": "星表目标、异常药剂、失踪、实验与记录伪造被交叉验证为一条可追责的黑市资源链。",
+        "path": "story/plotlines/副线/黑市/星表药剂目标实验链串联.md",
+        "upstream": [
+          "PL-S-010",
+          "PL-M-003"
+        ],
+        "downstream": [
+          "PL-S-025",
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-3",
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-010",
+        "title": "高端商务会所异常药剂与联合验证",
+        "type": "副线",
+        "status": "pending",
+        "position": "会所异常药剂事件从现实违法疑点推进为普通调查与管理局协查共同验证的入口。",
+        "path": "story/plotlines/副线/高端商务会所/异常药剂与联合验证.md",
+        "upstream": [
+          "PL-S-006"
+        ],
+        "downstream": [
+          "PL-S-005",
+          "PL-S-008",
+          "PL-S-009",
+          "PL-S-023",
+          "PL-M-003"
+        ],
+        "stages": [
+          "phase-2",
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-011",
+        "title": "管理局直属疗养院收容、复核与回流",
+        "type": "副线",
+        "status": "pending",
+        "position": "非法种印首案目标在管理局直属疗养院完成收容、稳定、复核并决定回流路径。",
+        "path": "story/plotlines/副线/管理局疗养院/收容复核与回流.md",
+        "upstream": [
+          "PL-S-008"
+        ],
+        "downstream": [
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-012",
+        "title": "唐家公共压力与授权链分流",
+        "type": "副线",
+        "status": "pending",
+        "position": "唐家从外围职场压力进入中期授权链分流，公共势力线与唐雨薇个人选择线完成交接。",
+        "path": "story/plotlines/副线/唐家/公共压力与授权链分流.md",
+        "upstream": [
+          "PL-S-001"
+        ],
+        "downstream": [
+          "PL-M-005",
+          "PL-S-009"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "tang-family",
+        "kind": "main"
+      },
+      {
+        "id": "PL-S-013",
+        "title": "工作室运营权限与异常接待分层",
+        "type": "副线",
+        "status": "pending",
+        "position": "工作室在普通咨询、异常接待与管理局协查持续交叉后，完成运营权限、记录、保密与异常接待的现实分层。",
+        "path": "story/plotlines/副线/工作室/运营权限与异常接待分层.md",
+        "upstream": [
+          "PL-S-006"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-2",
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "management",
+        "kind": "case"
+      },
+      {
+        "id": "PL-S-014",
+        "title": "训练馆异常补剂与现实边界教育",
+        "type": "副线",
+        "status": "pending",
+        "position": "训练馆异常补剂从供应旁证转化为训练馆现实管理、身体风险和边界教育的持续变化。",
+        "path": "story/plotlines/副线/训练馆/异常补剂与现实边界教育.md",
+        "upstream": [
+          "PL-S-010"
+        ],
+        "downstream": [
+          "PL-S-009"
+        ],
+        "stages": [
+          "phase-2",
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-015",
+        "title": "漫展私人面相遇与边界信任",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段一；江岚在法律合作之外显露 coser 私人面，晏林在认出她后先确认她是否愿意被认出，为江岚后续独立重审两人交往提供正式前置。",
+        "path": "story/plotlines/副线/晏林/江岚/漫展私人面与边界信任.md",
+        "upstream": [],
+        "downstream": [
+          "PL-S-002",
+          "PL-I-015"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-016",
+        "title": "第一次工作外共同出行",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段一；许知夏、许知秋主动组织一次不服务于咨询、记录或异常任务的共同出行，三人的相处第一次正式离开工作空间。",
+        "path": "story/plotlines/副线/晏林/许知夏许知秋/第一次工作外共同出行.md",
+        "upstream": [
+          "PL-S-013"
+        ],
+        "downstream": [
+          "PL-S-032"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-017",
+        "title": "车行责任事件与主动权交还",
+        "type": "副线",
+        "status": "retired",
+        "position": "",
+        "path": "story/plotlines/副线/唐雨薇/车行/车行责任事件与主动权交还.md",
+        "upstream": [],
+        "downstream": [],
+        "stages": [],
+        "group": "retired",
+        "kind": "retired"
+      },
+      {
+        "id": "PL-S-018",
+        "title": "首次案件合作与专业互认",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段二；林芷兰以登记在册的复原向契约者身份进入独立精神污染案，先完成净化与修复，晏林再以梦境引导承接治疗后的主观体验；两人由此建立“治疗不扩权—引导不改写”的首次专业互认。",
+        "path": "story/plotlines/副线/林芷兰/首次案件合作与专业互认.md",
+        "upstream": [
+          "PL-S-006"
+        ],
+        "downstream": [
+          "PL-S-037"
+        ],
+        "stages": [
+          "phase-2"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-019",
+        "title": "苏璃与苏晚乔首次跨簇可见与继续选择",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段三；苏璃与苏晚乔第一次确认对方也是从阶段一开始成立并持续兑现的现实伴侣，晏林必须承担长期隐瞒、限定性真话、时间切割与补偿性安排造成的后果。",
+        "path": "story/plotlines/副线/晏林/苏璃苏晚乔/首次跨簇可见与继续选择.md",
+        "upstream": [
+          "PL-I-003",
+          "PL-S-003",
+          "PL-I-004",
+          "PL-I-016",
+          "PL-I-013",
+          "PL-I-005"
+        ],
+        "downstream": [
+          "PL-I-018",
+          "PL-S-022"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "cluster-b",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-020",
+        "title": "许知夏的岗位异常知情与安全边界",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；关系已经成立后，许知夏独立要求把工作室异常接待中与自身安全、岗位职责和应急协助直接相关的具体知识说清。",
+        "path": "story/plotlines/副线/晏林/许知夏/挑明异常知情与感情.md",
+        "upstream": [
+          "PL-I-006",
+          "PL-S-013"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-021",
+        "title": "许知秋的岗位异常知情与安全边界",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；关系已经成立后，许知秋独立要求把前台异常接待中与自身安全、岗位职责和应急升级直接相关的具体知识说清。",
+        "path": "story/plotlines/副线/晏林/许知秋/挑明异常知情与感情.md",
+        "upstream": [
+          "PL-I-006",
+          "PL-S-013"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-022",
+        "title": "A/B/C 分波知情与最低危机责任",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；管理局或黑暗线危机使 A、B、C 三簇的真实关系与安全风险无法继续分开处理，已确认关系者分波获得影响自身选择的必要事实，并形成只对当前危机有效的最低责任规则。",
+        "path": "story/plotlines/副线/晏林/内圈/A-B-C分波知情与最低危机责任.md",
+        "upstream": [
+          "PL-S-019",
+          "PL-I-011",
+          "PL-I-012",
+          "PL-M-003",
+          "PL-S-008",
+          "PL-S-009"
+        ],
+        "downstream": [
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "inner-circle",
+        "kind": "main"
+      },
+      {
+        "id": "PL-S-023",
+        "title": "白玥欲望逆流后的清醒坦白与保护性合作",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；白玥在发现 KTV 涉及人口贩卖、毒品与齐心相关线索并试图脱身后，与晏林发生精神连接交锋。她的欲望作用被完整逆流返还；效果结束后，她清醒、自主地再次陈述并交付可核验线索，由此从主动逐利的会所合作者转为承担旧账的案件合作者。",
+        "path": "story/plotlines/副线/白玥/欲望逆流后的清醒坦白与保护性合作.md",
+        "upstream": [
+          "PL-M-001",
+          "PL-S-010"
+        ],
+        "downstream": [
+          "PL-I-014",
+          "PL-M-003"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "bai-yue",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-024",
+        "title": "长期关系共同秩序与协商成阵",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段五；在各段关系分别成立、阶段四最低危机责任已经实际运行后，长期关系者把临时危机协作推进为可在生活、公开、职业、亲密与后续危机中持续执行的共同秩序。",
+        "path": "story/plotlines/副线/晏林/内圈/长期关系共同秩序与协商成阵.md",
+        "upstream": [
+          "PL-S-022"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "inner-circle",
+        "kind": "main"
+      },
+      {
+        "id": "PL-S-025",
+        "title": "裴家人员招募、转送与境外实验链",
+        "type": "副线",
+        "status": "pending",
+        "position": "裴家万安文化的人员筛选、万安健康的控制与记录伪造，同齐心出售、陆佳凝境外转送及裴家实验节点完成交叉验证。",
+        "path": "story/plotlines/副线/裴家/人员招募转送与境外实验链.md",
+        "upstream": [
+          "PL-S-009",
+          "PL-M-006"
+        ],
+        "downstream": [
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-3",
+          "phase-4",
+          "phase-5"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-026",
+        "title": "万安文化艺人压迫与咨询显影",
+        "type": "副线",
+        "status": "pending",
+        "position": "由程叙的现实危机与咨询入口显影万安文化反复压低求助紧迫感、阻止关键发声并配合职业封锁的艺人压迫模式，再与乔宁、梁予安及何知远的独立案件交叉验证。",
+        "path": "story/plotlines/副线/万安文化/艺人压迫与咨询显影.md",
+        "upstream": [
+          "PL-S-013",
+          "PL-S-025",
+          "PL-S-034",
+          "PL-S-035"
+        ],
+        "downstream": [
+          "PL-M-004"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-027",
+        "title": "晏林向安若曦交还风险知情与选择权",
+        "type": "副线",
+        "status": "pending",
+        "position": "酒吧异常与首次亲密之后，晏林区分自己的契约秘密与安若曦有权知道的风险，把继续调查和继续接触的选择权交还给她。",
+        "path": "story/plotlines/副线/安若曦/晏林/风险知情与选择权交还.md",
+        "upstream": [
+          "PL-M-001",
+          "PL-I-001"
+        ],
+        "downstream": [
+          "PL-S-033",
+          "PL-I-002",
+          "PL-S-028"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-028",
+        "title": "安若曦离开江城映彩并转入食品经营线",
+        "type": "副线",
+        "status": "pending",
+        "position": "安若曦主动辞去江城映彩职位，完成离职交割后进入唐雨薇接受经营考察的食品子公司，转为品牌与经营管理职责。",
+        "path": "story/plotlines/副线/安若曦/职业转向/离开江城映彩并转入食品经营线.md",
+        "upstream": [
+          "PL-S-001",
+          "PL-S-027"
+        ],
+        "downstream": [
+          "PL-M-005"
+        ],
+        "stages": [
+          "phase-1",
+          "phase-2",
+          "phase-4"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-029",
+        "title": "现实自保训练回收与必要风险告知",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段一；晏林在现实冲突中使用长期自保训练完成保护或撤离，苏晚乔由此确认他把训练用于真实危险，并与他建立必要风险告知边界。",
+        "path": "story/plotlines/副线/晏林/苏晚乔/现实自保训练回收与风险告知.md",
+        "upstream": [
+          "PL-I-005"
+        ],
+        "downstream": [
+          "PL-S-022"
+        ],
+        "stages": [
+          "phase-1"
+        ],
+        "group": "cluster-b",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-030",
+        "title": "动物情报外线与风险选择权交还",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段四；温婉在日常诊疗、寄存、回访或动物救助中，通过多个动物重复出现的当前情绪、回避方向与简单意向发现可核验异常，由此与管理局建立有限外线联系，并在晏林的必要风险告知后自己决定是否继续参与。",
+        "path": "story/plotlines/副线/晏林/温婉/动物情报外线与风险选择权交还.md",
+        "upstream": [
+          "PL-S-006"
+        ],
+        "downstream": [
+          "PL-I-007"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "wen-wan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-031",
+        "title": "许知夏许知秋完成进修并分别独立执业",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段五至尾声；许知夏、许知秋基于各自职业选择完成继续训练与独立执业要求，分别获得独立开展访谈与咨询的专业位置。",
+        "path": "story/plotlines/副线/许知夏许知秋/回校进修与独立执业.md",
+        "upstream": [
+          "PL-S-013",
+          "PL-I-006"
+        ],
+        "downstream": [],
+        "stages": [
+          "phase-5",
+          "epilogue"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-032",
+        "title": "员工宿舍从职住安排转为共同生活空间",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段二至阶段三；晏林、许知夏、许知秋将开业初期的员工住宿安排逐步运行成三人共同参与、分别保有私人边界的生活共同体，为后续两条独立感情线提供可继承的生活基础。",
+        "path": "story/plotlines/副线/晏林/许知夏许知秋/共同生活空间形成.md",
+        "upstream": [
+          "PL-S-016"
+        ],
+        "downstream": [
+          "PL-I-006"
+        ],
+        "stages": [
+          "phase-2",
+          "phase-3"
+        ],
+        "group": "twins",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-033",
+        "title": "安若曦重新取得低压生活选择权",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段一至阶段三；安若曦在高压事件与职业切割之外，逐步把判断权从持续防御转回自主生活，能够表达普通偏好、限定可接受的照顾，并在低压相处中主动选择靠近或停下。",
+        "path": "story/plotlines/副线/安若曦/晏林/低压生活选择权.md",
+        "upstream": [
+          "PL-S-027"
+        ],
+        "downstream": [
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-1",
+          "phase-2",
+          "phase-3"
+        ],
+        "group": "an-jiang",
+        "kind": "intimacy"
+      },
+      {
+        "id": "PL-S-034",
+        "title": "合作医院转介与危机处置链",
+        "type": "副线",
+        "status": "pending",
+        "position": "由合作方江城第一医院承接工作室无法完成的精神科评估、急性危机处置、用药、必要留观与复诊，建立医疗、咨询、管理局核验和司法取证之间可继承的转介边界。",
+        "path": "story/plotlines/副线/合作医院/转介与危机处置链.md",
+        "upstream": [
+          "PL-S-013"
+        ],
+        "downstream": [
+          "PL-S-035"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-035",
+        "title": "程叙危机后咨询与自主恢复",
+        "type": "副线",
+        "status": "pending",
+        "position": "程叙经现实医疗处置并稳定后，在本人同意下进入林语心理咨询工作室，由晏林承接持续风险管理、心理咨询、医疗协作与支持系统重建，把他从案件入口恢复为能分阶段选择的当事人。",
+        "path": "story/plotlines/副线/程叙/危机后咨询与自主恢复.md",
+        "upstream": [
+          "PL-S-034"
+        ],
+        "downstream": [
+          "PL-S-026"
+        ],
+        "stages": [
+          "phase-4"
+        ],
+        "group": "case-chain",
+        "kind": "villain"
+      },
+      {
+        "id": "PL-S-036",
+        "title": "七位核心女主完整知情与共同应急边界",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段五；林芷兰单点完整知情之后，晏林不再替其他核心女主删减会影响其安全与危机选择的双子星事实，七位核心女主最终分别取得完整知情并建立共同应急边界。",
+        "path": "story/plotlines/副线/晏林/内圈/七位核心女主完整知情与共同应急边界.md",
+        "upstream": [
+          "PL-S-004",
+          "PL-S-022",
+          "PL-S-030"
+        ],
+        "downstream": [
+          "PL-S-024"
+        ],
+        "stages": [
+          "phase-5"
+        ],
+        "group": "inner-circle",
+        "kind": "main"
+      },
+      {
+        "id": "PL-S-037",
+        "title": "花店生活入口与案外主动往来",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段二末至阶段三前段；林芷兰与晏林在首次精神污染案后完成必要复盘，并以花店为生活入口建立不依赖管理局任务的双向主动往来。",
+        "path": "story/plotlines/副线/林芷兰/花店生活入口与案外主动往来.md",
+        "upstream": [
+          "PL-S-018"
+        ],
+        "downstream": [
+          "PL-S-038",
+          "PL-S-039"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-038",
+        "title": "不该修复的改变与治疗边界重认",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段三前中段；林芷兰在一次后续治疗中面对当事人对部分可修复改变的明确保留选择，从以原始结构为默认完整模板，推进为由当事人定义什么是损伤、什么是已经成立的改变。",
+        "path": "story/plotlines/副线/林芷兰/不该修复的改变与治疗边界重认.md",
+        "upstream": [
+          "PL-S-037"
+        ],
+        "downstream": [
+          "PL-S-040"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-039",
+        "title": "双向拒绝被尊重与私人信任建立",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段三中后段；林芷兰与晏林分别面对对方对检查或帮助的拒绝，并在最想帮助对方时仍完整停手，为后续自主开放与有限依靠建立安全前置。",
+        "path": "story/plotlines/副线/林芷兰/双向拒绝被尊重与私人信任建立.md",
+        "upstream": [
+          "PL-S-037"
+        ],
+        "downstream": [
+          "PL-S-040"
+        ],
+        "stages": [
+          "phase-3"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      },
+      {
+        "id": "PL-S-040",
+        "title": "半征用压力、职业拒绝权与第一次主动求助",
+        "type": "副线",
+        "status": "pending",
+        "position": "阶段三后段至阶段四前段；林芷兰面对按案协查滑向默认调用的半征用压力，建立可执行的职业拒绝与转介边界，并在不转移决定权的前提下第一次主动请求晏林提供明确、有限、可结束的现实帮助。",
+        "path": "story/plotlines/副线/林芷兰/半征用压力与第一次主动求助.md",
+        "upstream": [
+          "PL-S-038",
+          "PL-S-039"
+        ],
+        "downstream": [
+          "PL-S-004"
+        ],
+        "stages": [
+          "phase-3",
+          "phase-4"
+        ],
+        "group": "lin-zhilan",
+        "kind": "relation"
+      }
+    ],
+    "edges": [
+      {
+        "from": "PL-I-001",
+        "to": "PL-I-002"
+      },
+      {
+        "from": "PL-I-001",
+        "to": "PL-S-027"
+      },
+      {
+        "from": "PL-I-002",
+        "to": "PL-S-002"
+      },
+      {
+        "from": "PL-I-003",
+        "to": "PL-I-013"
+      },
+      {
+        "from": "PL-I-003",
+        "to": "PL-I-016"
+      },
+      {
+        "from": "PL-I-003",
+        "to": "PL-I-018"
+      },
+      {
+        "from": "PL-I-003",
+        "to": "PL-S-003"
+      },
+      {
+        "from": "PL-I-003",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-004",
+        "to": "PL-I-013"
+      },
+      {
+        "from": "PL-I-004",
+        "to": "PL-I-016"
+      },
+      {
+        "from": "PL-I-004",
+        "to": "PL-M-005"
+      },
+      {
+        "from": "PL-I-004",
+        "to": "PL-S-012"
+      },
+      {
+        "from": "PL-I-004",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-005",
+        "to": "PL-I-017"
+      },
+      {
+        "from": "PL-I-005",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-005",
+        "to": "PL-S-029"
+      },
+      {
+        "from": "PL-I-006",
+        "to": "PL-I-019"
+      },
+      {
+        "from": "PL-I-006",
+        "to": "PL-S-020"
+      },
+      {
+        "from": "PL-I-006",
+        "to": "PL-S-021"
+      },
+      {
+        "from": "PL-I-006",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-I-006",
+        "to": "PL-S-031"
+      },
+      {
+        "from": "PL-I-007",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-I-008",
+        "to": "PL-I-020"
+      },
+      {
+        "from": "PL-I-008",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-I-010",
+        "to": "PL-I-011"
+      },
+      {
+        "from": "PL-I-010",
+        "to": "PL-I-012"
+      },
+      {
+        "from": "PL-I-011",
+        "to": "PL-I-012"
+      },
+      {
+        "from": "PL-I-011",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-I-012",
+        "to": "PL-I-011"
+      },
+      {
+        "from": "PL-I-012",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-I-013",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-013",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-I-015",
+        "to": "PL-I-010"
+      },
+      {
+        "from": "PL-I-015",
+        "to": "PL-I-012"
+      },
+      {
+        "from": "PL-I-016",
+        "to": "PL-I-013"
+      },
+      {
+        "from": "PL-I-016",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-017",
+        "to": "PL-I-018"
+      },
+      {
+        "from": "PL-I-017",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-I-018",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-I-018",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-I-019",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-M-001",
+        "to": "PL-I-001"
+      },
+      {
+        "from": "PL-M-001",
+        "to": "PL-M-002"
+      },
+      {
+        "from": "PL-M-001",
+        "to": "PL-S-001"
+      },
+      {
+        "from": "PL-M-001",
+        "to": "PL-S-023"
+      },
+      {
+        "from": "PL-M-001",
+        "to": "PL-S-027"
+      },
+      {
+        "from": "PL-M-002",
+        "to": "PL-M-003"
+      },
+      {
+        "from": "PL-M-003",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-M-003",
+        "to": "PL-M-006"
+      },
+      {
+        "from": "PL-M-003",
+        "to": "PL-M-007"
+      },
+      {
+        "from": "PL-M-003",
+        "to": "PL-S-009"
+      },
+      {
+        "from": "PL-M-003",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-M-006",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-M-006",
+        "to": "PL-S-025"
+      },
+      {
+        "from": "PL-S-001",
+        "to": "PL-S-012"
+      },
+      {
+        "from": "PL-S-001",
+        "to": "PL-S-028"
+      },
+      {
+        "from": "PL-S-002",
+        "to": "PL-I-010"
+      },
+      {
+        "from": "PL-S-002",
+        "to": "PL-I-015"
+      },
+      {
+        "from": "PL-S-003",
+        "to": "PL-I-004"
+      },
+      {
+        "from": "PL-S-003",
+        "to": "PL-I-013"
+      },
+      {
+        "from": "PL-S-003",
+        "to": "PL-I-016"
+      },
+      {
+        "from": "PL-S-003",
+        "to": "PL-S-019"
+      },
+      {
+        "from": "PL-S-004",
+        "to": "PL-I-008"
+      },
+      {
+        "from": "PL-S-004",
+        "to": "PL-S-007"
+      },
+      {
+        "from": "PL-S-004",
+        "to": "PL-S-036"
+      },
+      {
+        "from": "PL-S-005",
+        "to": "PL-M-007"
+      },
+      {
+        "from": "PL-S-005",
+        "to": "PL-S-007"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-M-002"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-005"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-007"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-010"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-013"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-018"
+      },
+      {
+        "from": "PL-S-006",
+        "to": "PL-S-030"
+      },
+      {
+        "from": "PL-S-007",
+        "to": "PL-M-007"
+      },
+      {
+        "from": "PL-S-008",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-S-008",
+        "to": "PL-S-011"
+      },
+      {
+        "from": "PL-S-008",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-S-009",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-S-009",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-S-009",
+        "to": "PL-S-025"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-M-003"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-S-005"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-S-008"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-S-009"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-S-014"
+      },
+      {
+        "from": "PL-S-010",
+        "to": "PL-S-023"
+      },
+      {
+        "from": "PL-S-011",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-S-012",
+        "to": "PL-M-005"
+      },
+      {
+        "from": "PL-S-012",
+        "to": "PL-S-009"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-016"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-020"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-021"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-026"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-031"
+      },
+      {
+        "from": "PL-S-013",
+        "to": "PL-S-034"
+      },
+      {
+        "from": "PL-S-014",
+        "to": "PL-S-009"
+      },
+      {
+        "from": "PL-S-015",
+        "to": "PL-I-015"
+      },
+      {
+        "from": "PL-S-015",
+        "to": "PL-S-002"
+      },
+      {
+        "from": "PL-S-016",
+        "to": "PL-I-006"
+      },
+      {
+        "from": "PL-S-016",
+        "to": "PL-S-032"
+      },
+      {
+        "from": "PL-S-018",
+        "to": "PL-S-037"
+      },
+      {
+        "from": "PL-S-019",
+        "to": "PL-I-018"
+      },
+      {
+        "from": "PL-S-019",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-S-022",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-S-022",
+        "to": "PL-S-036"
+      },
+      {
+        "from": "PL-S-023",
+        "to": "PL-I-014"
+      },
+      {
+        "from": "PL-S-023",
+        "to": "PL-M-003"
+      },
+      {
+        "from": "PL-S-023",
+        "to": "PL-S-005"
+      },
+      {
+        "from": "PL-S-025",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-S-025",
+        "to": "PL-S-026"
+      },
+      {
+        "from": "PL-S-026",
+        "to": "PL-M-004"
+      },
+      {
+        "from": "PL-S-027",
+        "to": "PL-I-002"
+      },
+      {
+        "from": "PL-S-027",
+        "to": "PL-S-028"
+      },
+      {
+        "from": "PL-S-027",
+        "to": "PL-S-033"
+      },
+      {
+        "from": "PL-S-028",
+        "to": "PL-I-015"
+      },
+      {
+        "from": "PL-S-028",
+        "to": "PL-M-005"
+      },
+      {
+        "from": "PL-S-029",
+        "to": "PL-S-022"
+      },
+      {
+        "from": "PL-S-030",
+        "to": "PL-I-007"
+      },
+      {
+        "from": "PL-S-030",
+        "to": "PL-S-036"
+      },
+      {
+        "from": "PL-S-032",
+        "to": "PL-I-006"
+      },
+      {
+        "from": "PL-S-033",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-S-034",
+        "to": "PL-S-026"
+      },
+      {
+        "from": "PL-S-034",
+        "to": "PL-S-035"
+      },
+      {
+        "from": "PL-S-035",
+        "to": "PL-S-026"
+      },
+      {
+        "from": "PL-S-036",
+        "to": "PL-M-007"
+      },
+      {
+        "from": "PL-S-036",
+        "to": "PL-S-024"
+      },
+      {
+        "from": "PL-S-037",
+        "to": "PL-S-038"
+      },
+      {
+        "from": "PL-S-037",
+        "to": "PL-S-039"
+      },
+      {
+        "from": "PL-S-038",
+        "to": "PL-S-040"
+      },
+      {
+        "from": "PL-S-039",
+        "to": "PL-S-040"
+      },
+      {
+        "from": "PL-S-040",
+        "to": "PL-S-004"
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "M-01",
+      "name": "晏林",
+      "status": "核心已定",
+      "role": "唯一男主，后宫阵营核心",
+      "identity": "江州私人执业心理咨询师；工作室依法登记，本人具备相应执业资格",
+      "contractStatus": "选择性报备的唯一双子星契约者；只登记梦境，隐瞒幻境、暗伴星、截断与逆流",
+      "path": "characters/major/晏林/主卡.md"
+    },
+    {
+      "id": "F-17",
+      "name": "乔宁",
+      "status": "预备建档",
+      "role": "被万安文化定向提供给权贵的女艺人、存活证人与主动证据转移者",
+      "identity": "万安文化旗下上升期影视演员",
+      "contractStatus": "",
+      "path": "characters/preentry/乔宁/主卡.md"
+    },
+    {
+      "id": "M-08",
+      "name": "任群",
+      "status": "预备建档",
+      "role": "万安文化的外部长期合作者、艺人压迫与关键信息封锁执行者",
+      "identity": "独立娱乐危机公关公司负责人",
+      "contractStatus": "",
+      "path": "characters/preentry/任群/主卡.md"
+    },
+    {
+      "id": "M-02",
+      "name": "唐雨宸",
+      "status": "预备建档",
+      "role": "预备人物；唐家继承候选人；唐雨薇同父同母的亲哥哥",
+      "identity": "唐家金融与资产管理分支实际负责人；第一梯队稳健型家主候选人",
+      "contractStatus": "非契约者",
+      "path": "characters/preentry/唐雨宸/主卡.md"
+    },
+    {
+      "id": "F-07",
+      "name": "唐雨薇",
+      "status": "预备建档",
+      "role": "七位核心女主之一；预备人物；破势前锋",
+      "identity": "车行维修／改装学徒型技师；京城商学院毕业后出走的唐家女儿",
+      "contractStatus": "契约者；预感权柄；迎锋向",
+      "path": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "M-04",
+      "name": "唐雨霖",
+      "status": "预备建档",
+      "role": "预备人物；阶段性反派；唐家外围压力入口",
+      "identity": "江城映彩副总经理；唐家广告与城市媒体分支继承候选人",
+      "contractStatus": "非契约者",
+      "path": "characters/preentry/唐雨霖/主卡.md"
+    },
+    {
+      "id": "F-01",
+      "name": "安若曦",
+      "status": "预备建档",
+      "role": "七位核心女主之一；预备人物；内圈边界判断者",
+      "identity": "唐家关联集团事业部负责人，总经理级职业经理人",
+      "contractStatus": "契约者；真言权柄；对齐向",
+      "path": "characters/preentry/安若曦/主卡.md"
+    },
+    {
+      "id": "M-03",
+      "name": "徐清",
+      "status": "预备建档",
+      "role": "沈宁的男性长期伴侣、管理局非星辰契约工作人员",
+      "identity": "异能事件获救者、管理局辅助内勤",
+      "contractStatus": "未建立星辰契约",
+      "path": "characters/preentry/徐清/主卡.md"
+    },
+    {
+      "id": "F-04",
+      "name": "林芷兰",
+      "status": "预备建档",
+      "role": "七位核心女主之一；当前归入预备人物层",
+      "identity": "社区小花店老板兼唯一花艺师",
+      "contractStatus": "契约者；复原向星辰；净化＋修复双权柄",
+      "path": "characters/preentry/林芷兰/主卡.md"
+    },
+    {
+      "id": "F-05",
+      "name": "江岚",
+      "status": "预备建档",
+      "role": "七位核心女主之一；当前归入预备人物层",
+      "identity": "中型商事精品所刚转正不久的执业律师",
+      "contractStatus": "契约者；脉络权柄；定势向",
+      "path": "characters/preentry/江岚/主卡.md"
+    },
+    {
+      "id": "F-11",
+      "name": "沈宁",
+      "status": "预备建档",
+      "role": "星辰管理局副局长、局内二把手",
+      "identity": "星辰管理局副局长",
+      "contractStatus": "单星契约；静默权柄",
+      "path": "characters/preentry/沈宁/主卡.md"
+    },
+    {
+      "id": "F-03",
+      "name": "温婉",
+      "status": "预备建档",
+      "role": "七位核心女主之一；预备人物；归处型稳定点",
+      "identity": "新近受聘于“宠你宠物诊所”的执业兽医师",
+      "contractStatus": "契约者；灵犀权柄；归息向",
+      "path": "characters/preentry/温婉/主卡.md"
+    },
+    {
+      "id": "F-12",
+      "name": "白玥",
+      "status": "预备建档",
+      "role": "会所欲望生意中的灰度合作者，后续转为案件合作者与非核心长期暗线伴侣",
+      "identity": "与 KTV 管理方长期按单合作的欲望契约者",
+      "contractStatus": "契约者；欲望权柄",
+      "path": "characters/preentry/白玥/主卡.md"
+    },
+    {
+      "id": "M-09",
+      "name": "程叙",
+      "status": "预备建档",
+      "role": "万安文化艺人压迫案的自杀未遂存活者、林语心理咨询工作室异常显影入口",
+      "identity": "万安文化旗下创作型男歌手",
+      "contractStatus": "",
+      "path": "characters/preentry/程叙/主卡.md"
+    },
+    {
+      "id": "F-06",
+      "name": "苏晚乔",
+      "status": "预备建档",
+      "role": "七位核心女主之一；预备人物；亮色锋刃",
+      "identity": "专业搏击训练馆的搏击与体能教练；保留业余赛事参赛线",
+      "contractStatus": "契约者；御物权柄；落定向",
+      "path": "characters/preentry/苏晚乔/主卡.md"
+    },
+    {
+      "id": "F-02",
+      "name": "苏璃",
+      "status": "预备建档",
+      "role": "七位核心女主之一；预备人物；信息桥梁与关系调温者",
+      "identity": "心动酒吧调酒师",
+      "contractStatus": "契约者；情绪权柄；调温向",
+      "path": "characters/preentry/苏璃/主卡.md"
+    },
+    {
+      "id": "F-16",
+      "name": "裴兰馨",
+      "status": "预备建档",
+      "role": "裴崇礼之女、万安文化总裁、裴家人员筛选与包装核心负责人",
+      "identity": "万安文化总裁",
+      "contractStatus": "",
+      "path": "characters/preentry/裴兰馨/主卡.md"
+    },
+    {
+      "id": "M-05",
+      "name": "裴崇礼",
+      "status": "预备建档",
+      "role": "裴家最高控制者、万安集团董事长、裴家犯罪资源分流的最终决策者",
+      "identity": "万安集团董事长",
+      "contractStatus": "已建立星辰契约；心念权柄",
+      "path": "characters/preentry/裴崇礼/主卡.md"
+    },
+    {
+      "id": "M-07",
+      "name": "裴怀安",
+      "status": "预备建档",
+      "role": "裴家幼子、未涉案家族成员、正规医院医生与清算后合法医疗保全者",
+      "identity": "正规医院执业医生",
+      "contractStatus": "已建立星辰契约；观测权柄",
+      "path": "characters/preentry/裴怀安/主卡.md"
+    },
+    {
+      "id": "M-06",
+      "name": "裴怀山",
+      "status": "预备建档",
+      "role": "裴家长子、万安健康总裁、裴家医疗犯罪核心负责人",
+      "identity": "万安健康总裁",
+      "contractStatus": "",
+      "path": "characters/preentry/裴怀山/主卡.md"
+    },
+    {
+      "id": "F-08",
+      "name": "许知夏",
+      "status": "预备建档",
+      "role": "林语心理咨询工作室常驻人员；预备人物；非核心长期关系角色",
+      "identity": "栖云大学应用心理学本科毕业生；咨询行政助理",
+      "contractStatus": "普通人；始终不建立星辰契约",
+      "path": "characters/preentry/许知夏/主卡.md"
+    },
+    {
+      "id": "F-09",
+      "name": "许知秋",
+      "status": "预备建档",
+      "role": "林语心理咨询工作室常驻人员；预备人物；非核心长期关系角色",
+      "identity": "栖云大学应用心理学本科毕业生；前台兼预约运营",
+      "contractStatus": "普通人；始终不建立星辰契约",
+      "path": "characters/preentry/许知秋/主卡.md"
+    },
+    {
+      "id": "F-10",
+      "name": "阮清黎",
+      "status": "预备建档",
+      "role": "预备人物；唐家线核心配角；唐雨宸的妻子",
+      "identity": "唐家金融与资产管理分支 CFO（首席财务官）兼财务负责人；与唐雨宸结婚两年",
+      "contractStatus": "非契约者",
+      "path": "characters/preentry/阮清黎/主卡.md"
+    },
+    {
+      "id": "F-14",
+      "name": "陆佳凝",
+      "status": "预备建档",
+      "role": "核心反派伴侣、黑色产业境外承接负责人、完全知情的主动共犯",
+      "identity": "齐心公益基金会秘书长、专职日常负责人",
+      "contractStatus": "非契约者",
+      "path": "characters/preentry/陆佳凝/主卡.md"
+    },
+    {
+      "id": "F-15",
+      "name": "顾清言",
+      "status": "预备建档",
+      "role": "高端商务会所实际管理者、主动涉黑经营者与非法种印首案当事人",
+      "identity": "会所夜间运营与核心客户管理负责人",
+      "contractStatus": "湖境回响契约者；未登记",
+      "path": "characters/preentry/顾清言/主卡.md"
+    },
+    {
+      "id": "F-13",
+      "name": "齐心",
+      "status": "预备建档",
+      "role": "贯穿型核心反派、隐藏的篡心契约者",
+      "identity": "地产开发商、慈善活动常客；借陆家境外产业接口起家",
+      "contractStatus": "海境篡心契约者；见[契约档案](契约.md)",
+      "path": "characters/preentry/齐心/主卡.md"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-1",
+      "source": "唐雨宸",
+      "target": "唐雨薇",
+      "relation": "同父同母的亲兄妹；真心疼爱并保护过妹妹",
+      "boundary": "保护不能替代选择。他必须接受唐雨薇回来与他竞争、取得真实胜算，再由她主动决定是否支持他。",
+      "sourcePath": "characters/preentry/唐雨宸/主卡.md"
+    },
+    {
+      "id": "rel-2",
+      "source": "唐雨宸",
+      "target": "阮清黎",
+      "relation": "妻子；结婚两年，关系稳定；分支 CFO 兼财务负责人",
+      "boundary": "她可以正式参与产业决策、审查资金并反对高风险方案；他不得以丈夫或分支负责人身份绕过程序压她签字。两人既是经营搭档，也必须在婚姻中停止信息筛选。",
+      "sourcePath": "characters/preentry/唐雨宸/主卡.md"
+    },
+    {
+      "id": "rel-3",
+      "source": "唐雨宸",
+      "target": "晏林",
+      "relation": "唐雨薇关系线中的重要协作者与镜像",
+      "boundary": "两人都可能以保护为名替唐雨薇筛选风险；晏林不能代替唐雨宸处理唐家责任，唐雨宸也不能借兄长身份否定唐雨薇的关系选择。",
+      "sourcePath": "characters/preentry/唐雨宸/主卡.md"
+    },
+    {
+      "id": "rel-4",
+      "source": "唐雨薇",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "她会抗拒被安排、被管束或被替她决定；关系推进必须写成她抢回节奏后的主动选择。",
+      "sourcePath": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "rel-5",
+      "source": "唐雨薇",
+      "target": "苏璃",
+      "relation": "多年闺蜜基础上的独立女女关系线",
+      "boundary": "嘴上不肯认输，行动上护短，也知道苏璃的玩笑什么时候是在替她留台阶；接受苏璃追求必须出于自身欲望与选择，不用于补偿嫉妒、报答帮助或维持三人平衡。",
+      "sourcePath": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "rel-6",
+      "source": "唐雨薇",
+      "target": "安若曦",
+      "relation": "前期互不知情，中期相认",
+      "boundary": "唐家档案未建前不补家族关系细节。",
+      "sourcePath": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "rel-7",
+      "source": "唐雨薇",
+      "target": "唐雨宸",
+      "relation": "同父同母的亲哥哥",
+      "boundary": "真心疼爱并保护过她；兄妹冲突落在保护是否能够越过她的知情权与选择权。她最终支持哥哥继承，必须是取得真实竞争筹码后的主动选择。",
+      "sourcePath": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "rel-8",
+      "source": "唐雨薇",
+      "target": "阮清黎",
+      "relation": "嫂子；与唐雨宸结婚两年；哥哥分支 CFO",
+      "boundary": "关系亲近且存在正式财务信息接口；阮清黎可以交付涉及她本人权益的完整材料，但不替哥哥解释，也不替她决定归家、参争或退出。",
+      "sourcePath": "characters/preentry/唐雨薇/主卡.md"
+    },
+    {
+      "id": "rel-9",
+      "source": "唐雨霖",
+      "target": "安若曦",
+      "relation": "公司下属部门负责人；被其持续觊觎和骚扰",
+      "boundary": "他把拒绝重新解释为仍可谈判，并借项目、评价和外部酒局压缩空间；这不是追爱线。",
+      "sourcePath": "characters/preentry/唐雨霖/主卡.md"
+    },
+    {
+      "id": "rel-10",
+      "source": "唐雨霖",
+      "target": "阮清黎",
+      "relation": "唐雨宸的妻子；金融与资产管理分支 CFO",
+      "boundary": "他觊觎其外貌，又忌惮唐雨宸及她掌握财务证据、项目审查与授权留痕的能力，只敢用目光、敬酒和看似得体的赞美试探；阮清黎拥有自己的表态、留证与追责权。",
+      "sourcePath": "characters/preentry/唐雨霖/主卡.md"
+    },
+    {
+      "id": "rel-11",
+      "source": "唐雨霖",
+      "target": "唐雨宸",
+      "relation": "同族竞争者；第一梯队候选人",
+      "boundary": "他既忌惮唐雨宸的能力与位置，也可能试图把外围事件责任转入对方授权链；两人不是对等竞争者。",
+      "sourcePath": "characters/preentry/唐雨霖/主卡.md"
+    },
+    {
+      "id": "rel-12",
+      "source": "唐雨霖",
+      "target": "唐雨薇",
+      "relation": "同族继承候选人",
+      "boundary": "她的休眠分支与重新参争会进一步压缩他的空间；不得擅自补写近亲程度或私人前史。",
+      "sourcePath": "characters/preentry/唐雨霖/主卡.md"
+    },
+    {
+      "id": "rel-13",
+      "source": "安若曦",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "她会被他的可靠与失态同时撩动，也会检查他是否尊重边界和选择权；不能被写成晏林能力的附属零件",
+      "sourcePath": "characters/preentry/安若曦/主卡.md"
+    },
+    {
+      "id": "rel-14",
+      "source": "安若曦",
+      "target": "江岚",
+      "relation": "私下恋人，对外闺蜜；cos 同好",
+      "boundary": "彼此熟悉边界，能共同商量并主动发起三人亲密；既有关系不替代江岚与晏林的独立动心、当次同意及后续双人选择，也不得把江岚写成安若曦递出或收下的礼物",
+      "sourcePath": "characters/preentry/安若曦/主卡.md"
+    },
+    {
+      "id": "rel-15",
+      "source": "徐清",
+      "target": "沈宁",
+      "relation": "年长五岁的女性长期伴侣；曾带队将他从异能事件中救回",
+      "boundary": "不在她的直接管理链内；不用救命关系、年龄差、职级或涉密信息建立控制关系。接得住她私下的依赖，也保留自己的需要与边界",
+      "sourcePath": "characters/preentry/徐清/主卡.md"
+    },
+    {
+      "id": "rel-16",
+      "source": "林芷兰",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "她会先观察他的状态，再决定如何靠近，也会提醒他不是所有缺口都能靠一次手术式处理解决。",
+      "sourcePath": "characters/preentry/林芷兰/主卡.md"
+    },
+    {
+      "id": "rel-17",
+      "source": "江岚",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "必须通过法律合作、私人相遇与三人交集独立建立吸引；首次兑现可以发生在安若曦共同参与的三人场，但后续须由不依赖安若曦在场的双人亲密确认独立回路。",
+      "sourcePath": "characters/preentry/江岚/主卡.md"
+    },
+    {
+      "id": "rel-18",
+      "source": "沈宁",
+      "target": "徐清",
+      "relation": "男性长期伴侣；曾由她带领的行动组从异能事件中救回",
+      "boundary": "不在她的直接管理链内；两人不互相索取职责之外的涉密信息。她在外强势，私下愿意依偎和示弱，但不失去判断与自主性",
+      "sourcePath": "characters/preentry/沈宁/主卡.md"
+    },
+    {
+      "id": "rel-19",
+      "source": "沈宁",
+      "target": "晏林",
+      "relation": "受关注的长期协查者",
+      "boundary": "不发展暧昧、恋爱或身体关系；只保留制度张力与有边界的合作",
+      "sourcePath": "characters/preentry/沈宁/主卡.md"
+    },
+    {
+      "id": "rel-20",
+      "source": "温婉",
+      "target": "晏林",
+      "relation": "核心关系线；通过安安的寄存与日常医疗建立现实交集",
+      "boundary": "她先以执业兽医师身份对待晏林与安安，不因灵犀权柄跳过检查与诊疗；她会看见他可靠外壳下的疲惫，也会提醒他不是所有人都需要被他一个人接住。",
+      "sourcePath": "characters/preentry/温婉/主卡.md"
+    },
+    {
+      "id": "rel-21",
+      "source": "白玥",
+      "target": "齐心",
+      "relation": "无合作、从属、控制或直接接触关系",
+      "boundary": "白玥只在后期发现与齐心有关的线索",
+      "sourcePath": "characters/preentry/白玥/主卡.md"
+    },
+    {
+      "id": "rel-22",
+      "source": "白玥",
+      "target": "晏林",
+      "relation": "前期敌对交锋，后转为清醒坦白与保护性合作；远期非核心长期暗线伴侣",
+      "boundary": "逆流、救援、证据合作和监管均不能自动制造爱意或忠诚",
+      "sourcePath": "characters/preentry/白玥/主卡.md"
+    },
+    {
+      "id": "rel-23",
+      "source": "苏晚乔",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "她会主动靠近和索要回应，但这份主动必须被认真接住，不能被写成轻易得到的热闹。",
+      "sourcePath": "characters/preentry/苏晚乔/主卡.md"
+    },
+    {
+      "id": "rel-24",
+      "source": "苏璃",
+      "target": "晏林",
+      "relation": "核心关系线",
+      "boundary": "她会先试探他是否看得懂玩笑背后的真话，也会观察他对边界和知情自愿的态度。",
+      "sourcePath": "characters/preentry/苏璃/主卡.md"
+    },
+    {
+      "id": "rel-25",
+      "source": "许知夏",
+      "target": "晏林",
+      "relation": "雇主与熟人",
+      "boundary": "玩笑建立在熟人信任和知情基础上，不拿来访者隐私开玩笑；感情线须由她独立表达和确认，不由许知秋代答。",
+      "sourcePath": "characters/preentry/许知夏/主卡.md"
+    },
+    {
+      "id": "rel-26",
+      "source": "许知夏",
+      "target": "许知秋",
+      "relation": "双胞胎妹妹",
+      "boundary": "最深的默契与最日常的拌嘴；会讨论、调侃甚至争夺晏林的注意，但两人是两个人，不写成镜像或绑定套餐。",
+      "sourcePath": "characters/preentry/许知夏/主卡.md"
+    },
+    {
+      "id": "rel-27",
+      "source": "许知秋",
+      "target": "晏林",
+      "relation": "雇主与熟人",
+      "boundary": "捉弄是熟人间调侃，不利用前台权限窥探隐私；感情线须由她独立表达和确认，不顺着许知夏代答。",
+      "sourcePath": "characters/preentry/许知秋/主卡.md"
+    },
+    {
+      "id": "rel-28",
+      "source": "许知秋",
+      "target": "许知夏",
+      "relation": "双胞胎姐姐",
+      "boundary": "最深的默契与最日常的拆台；会讨论、调侃甚至争夺晏林的注意，但两人是两个人，不写成镜像或绑定套餐。",
+      "sourcePath": "characters/preentry/许知秋/主卡.md"
+    },
+    {
+      "id": "rel-29",
+      "source": "阮清黎",
+      "target": "唐雨宸",
+      "relation": "丈夫；结婚两年，关系稳定；经营搭档",
+      "boundary": "她可以正式参与产业决策、提出反对意见并在权限内卡住高风险资金，但不替他承担家主候选人的最终政治选择。两人的核心校验是专业分权与婚姻坦白能否同时成立。",
+      "sourcePath": "characters/preentry/阮清黎/主卡.md"
+    },
+    {
+      "id": "rel-30",
+      "source": "阮清黎",
+      "target": "唐雨薇",
+      "relation": "小姑；唐雨薇称她嫂子",
+      "boundary": "她可以在合法权限内向唐雨薇说明个人财产、年度收益保障、授权及涉及本人的财务事实，但不替她决定归家、参争、退出或最终支持谁。",
+      "sourcePath": "characters/preentry/阮清黎/主卡.md"
+    },
+    {
+      "id": "rel-31",
+      "source": "阮清黎",
+      "target": "唐雨霖",
+      "relation": "唐家亲属；对其保持明确警惕",
+      "boundary": "能识别他借注视、敬酒和得体赞美实施的越界试探；唐雨霖既觊觎她的外貌，也忌惮她掌握财务证据和授权留痕的能力。她会自行决定如何表态、留证、公开或追责。",
+      "sourcePath": "characters/preentry/阮清黎/主卡.md"
+    },
+    {
+      "id": "rel-32",
+      "source": "陆佳凝",
+      "target": "齐心",
+      "relation": "妻子、平等恋人；共同设计并经营犯罪体系",
+      "boundary": "两人婚姻和睦但不排他，性生活可以各自安排，也可以共同邀请或参与其他成年人的自愿活动。陆佳凝不被篡心，也不是被胁迫或被挟持的软肋；她拥有拒绝、暂停、离开和重新协商的能力，同时为境外接收、资源协调、异常处置与责任链切割承担独立责任。",
+      "sourcePath": "characters/preentry/陆佳凝/主卡.md"
+    },
+    {
+      "id": "rel-33",
+      "source": "顾清言",
+      "target": "白玥",
+      "relation": "长期按单合作的欲望契约者",
+      "boundary": "顾清言负责现实运营、客源和结算，白玥负责欲望侧催化；双方均为主动合作者，责任分别认定",
+      "sourcePath": "characters/preentry/顾清言/主卡.md"
+    },
+    {
+      "id": "rel-34",
+      "source": "顾清言",
+      "target": "齐心",
+      "relation": "长期黑产合作方；顾清言试图退出后遭其强行种印",
+      "boundary": "既有合作不构成种印授权；顾清言受控经历不消除种印前主动犯罪",
+      "sourcePath": "characters/preentry/顾清言/主卡.md"
+    },
+    {
+      "id": "rel-35",
+      "source": "齐心",
+      "target": "陆佳凝",
+      "relation": "妻子、平等恋人、犯罪体系共同经营者",
+      "boundary": "两人婚姻和睦但不排他，性生活可以各自安排，也可以共同邀请或参与其他成年人的自愿活动。齐心对她遵守知情、自愿与可撤回，不使用篡心、药物或星辰之印控制她；两人分别对总体决策、节点控制、境外承接与现实处置承担责任。",
+      "sourcePath": "characters/preentry/齐心/主卡.md"
+    },
+    {
+      "id": "rel-36",
+      "source": "齐心",
+      "target": "晏林",
+      "relation": "核心镜像对手",
+      "boundary": "晏林帮助别人看清但不替别人选择；齐心替别人制造答案，再使其相信那是自己的选择。",
+      "sourcePath": "characters/preentry/齐心/主卡.md"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "coverage-1",
+      "character": "晏林",
+      "plotline": "PL-I-001"
+    },
+    {
+      "id": "coverage-2",
+      "character": "唐雨霖",
+      "plotline": "PL-I-001"
+    },
+    {
+      "id": "coverage-3",
+      "character": "安若曦",
+      "plotline": "PL-I-001"
+    },
+    {
+      "id": "coverage-4",
+      "character": "江岚",
+      "plotline": "PL-I-001"
+    },
+    {
+      "id": "coverage-5",
+      "character": "苏璃",
+      "plotline": "PL-I-001"
+    },
+    {
+      "id": "coverage-6",
+      "character": "晏林",
+      "plotline": "PL-I-002"
+    },
+    {
+      "id": "coverage-7",
+      "character": "唐雨霖",
+      "plotline": "PL-I-002"
+    },
+    {
+      "id": "coverage-8",
+      "character": "安若曦",
+      "plotline": "PL-I-002"
+    },
+    {
+      "id": "coverage-9",
+      "character": "江岚",
+      "plotline": "PL-I-002"
+    },
+    {
+      "id": "coverage-10",
+      "character": "晏林",
+      "plotline": "PL-I-003"
+    },
+    {
+      "id": "coverage-11",
+      "character": "唐雨薇",
+      "plotline": "PL-I-003"
+    },
+    {
+      "id": "coverage-12",
+      "character": "安若曦",
+      "plotline": "PL-I-003"
+    },
+    {
+      "id": "coverage-13",
+      "character": "苏璃",
+      "plotline": "PL-I-003"
+    },
+    {
+      "id": "coverage-14",
+      "character": "晏林",
+      "plotline": "PL-I-004"
+    },
+    {
+      "id": "coverage-15",
+      "character": "唐雨薇",
+      "plotline": "PL-I-004"
+    },
+    {
+      "id": "coverage-16",
+      "character": "苏璃",
+      "plotline": "PL-I-004"
+    },
+    {
+      "id": "coverage-17",
+      "character": "晏林",
+      "plotline": "PL-I-005"
+    },
+    {
+      "id": "coverage-18",
+      "character": "安若曦",
+      "plotline": "PL-I-005"
+    },
+    {
+      "id": "coverage-19",
+      "character": "苏晚乔",
+      "plotline": "PL-I-005"
+    },
+    {
+      "id": "coverage-20",
+      "character": "苏璃",
+      "plotline": "PL-I-005"
+    },
+    {
+      "id": "coverage-21",
+      "character": "晏林",
+      "plotline": "PL-I-006"
+    },
+    {
+      "id": "coverage-22",
+      "character": "安若曦",
+      "plotline": "PL-I-006"
+    },
+    {
+      "id": "coverage-23",
+      "character": "江岚",
+      "plotline": "PL-I-006"
+    },
+    {
+      "id": "coverage-24",
+      "character": "许知夏",
+      "plotline": "PL-I-006"
+    },
+    {
+      "id": "coverage-25",
+      "character": "许知秋",
+      "plotline": "PL-I-006"
+    },
+    {
+      "id": "coverage-26",
+      "character": "晏林",
+      "plotline": "PL-I-007"
+    },
+    {
+      "id": "coverage-27",
+      "character": "温婉",
+      "plotline": "PL-I-007"
+    },
+    {
+      "id": "coverage-28",
+      "character": "晏林",
+      "plotline": "PL-I-008"
+    },
+    {
+      "id": "coverage-29",
+      "character": "林芷兰",
+      "plotline": "PL-I-008"
+    },
+    {
+      "id": "coverage-30",
+      "character": "顾清言",
+      "plotline": "PL-I-008"
+    },
+    {
+      "id": "coverage-31",
+      "character": "晏林",
+      "plotline": "PL-I-009"
+    },
+    {
+      "id": "coverage-32",
+      "character": "唐雨宸",
+      "plotline": "PL-I-009"
+    },
+    {
+      "id": "coverage-33",
+      "character": "唐雨薇",
+      "plotline": "PL-I-009"
+    },
+    {
+      "id": "coverage-34",
+      "character": "唐雨霖",
+      "plotline": "PL-I-009"
+    },
+    {
+      "id": "coverage-35",
+      "character": "阮清黎",
+      "plotline": "PL-I-009"
+    },
+    {
+      "id": "coverage-36",
+      "character": "晏林",
+      "plotline": "PL-I-010"
+    },
+    {
+      "id": "coverage-37",
+      "character": "安若曦",
+      "plotline": "PL-I-010"
+    },
+    {
+      "id": "coverage-38",
+      "character": "江岚",
+      "plotline": "PL-I-010"
+    },
+    {
+      "id": "coverage-39",
+      "character": "晏林",
+      "plotline": "PL-I-011"
+    },
+    {
+      "id": "coverage-40",
+      "character": "安若曦",
+      "plotline": "PL-I-011"
+    },
+    {
+      "id": "coverage-41",
+      "character": "江岚",
+      "plotline": "PL-I-011"
+    },
+    {
+      "id": "coverage-42",
+      "character": "晏林",
+      "plotline": "PL-I-012"
+    },
+    {
+      "id": "coverage-43",
+      "character": "安若曦",
+      "plotline": "PL-I-012"
+    },
+    {
+      "id": "coverage-44",
+      "character": "江岚",
+      "plotline": "PL-I-012"
+    },
+    {
+      "id": "coverage-45",
+      "character": "晏林",
+      "plotline": "PL-I-013"
+    },
+    {
+      "id": "coverage-46",
+      "character": "唐雨薇",
+      "plotline": "PL-I-013"
+    },
+    {
+      "id": "coverage-47",
+      "character": "苏晚乔",
+      "plotline": "PL-I-013"
+    },
+    {
+      "id": "coverage-48",
+      "character": "苏璃",
+      "plotline": "PL-I-013"
+    },
+    {
+      "id": "coverage-49",
+      "character": "晏林",
+      "plotline": "PL-I-014"
+    },
+    {
+      "id": "coverage-50",
+      "character": "白玥",
+      "plotline": "PL-I-014"
+    },
+    {
+      "id": "coverage-51",
+      "character": "晏林",
+      "plotline": "PL-I-015"
+    },
+    {
+      "id": "coverage-52",
+      "character": "安若曦",
+      "plotline": "PL-I-015"
+    },
+    {
+      "id": "coverage-53",
+      "character": "江岚",
+      "plotline": "PL-I-015"
+    },
+    {
+      "id": "coverage-54",
+      "character": "晏林",
+      "plotline": "PL-I-016"
+    },
+    {
+      "id": "coverage-55",
+      "character": "唐雨薇",
+      "plotline": "PL-I-016"
+    },
+    {
+      "id": "coverage-56",
+      "character": "苏晚乔",
+      "plotline": "PL-I-016"
+    },
+    {
+      "id": "coverage-57",
+      "character": "苏璃",
+      "plotline": "PL-I-016"
+    },
+    {
+      "id": "coverage-58",
+      "character": "晏林",
+      "plotline": "PL-I-017"
+    },
+    {
+      "id": "coverage-59",
+      "character": "苏晚乔",
+      "plotline": "PL-I-017"
+    },
+    {
+      "id": "coverage-60",
+      "character": "苏璃",
+      "plotline": "PL-I-017"
+    },
+    {
+      "id": "coverage-61",
+      "character": "晏林",
+      "plotline": "PL-I-018"
+    },
+    {
+      "id": "coverage-62",
+      "character": "唐雨薇",
+      "plotline": "PL-I-018"
+    },
+    {
+      "id": "coverage-63",
+      "character": "苏晚乔",
+      "plotline": "PL-I-018"
+    },
+    {
+      "id": "coverage-64",
+      "character": "苏璃",
+      "plotline": "PL-I-018"
+    },
+    {
+      "id": "coverage-65",
+      "character": "晏林",
+      "plotline": "PL-I-019"
+    },
+    {
+      "id": "coverage-66",
+      "character": "许知夏",
+      "plotline": "PL-I-019"
+    },
+    {
+      "id": "coverage-67",
+      "character": "许知秋",
+      "plotline": "PL-I-019"
+    },
+    {
+      "id": "coverage-68",
+      "character": "晏林",
+      "plotline": "PL-I-020"
+    },
+    {
+      "id": "coverage-69",
+      "character": "林芷兰",
+      "plotline": "PL-I-020"
+    },
+    {
+      "id": "coverage-70",
+      "character": "晏林",
+      "plotline": "PL-M-001"
+    },
+    {
+      "id": "coverage-71",
+      "character": "唐雨霖",
+      "plotline": "PL-M-001"
+    },
+    {
+      "id": "coverage-72",
+      "character": "安若曦",
+      "plotline": "PL-M-001"
+    },
+    {
+      "id": "coverage-73",
+      "character": "白玥",
+      "plotline": "PL-M-001"
+    },
+    {
+      "id": "coverage-74",
+      "character": "苏璃",
+      "plotline": "PL-M-001"
+    },
+    {
+      "id": "coverage-75",
+      "character": "晏林",
+      "plotline": "PL-M-002"
+    },
+    {
+      "id": "coverage-76",
+      "character": "林芷兰",
+      "plotline": "PL-M-002"
+    },
+    {
+      "id": "coverage-77",
+      "character": "晏林",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-78",
+      "character": "林芷兰",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-79",
+      "character": "江岚",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-80",
+      "character": "白玥",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-81",
+      "character": "陆佳凝",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-82",
+      "character": "顾清言",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-83",
+      "character": "齐心",
+      "plotline": "PL-M-003"
+    },
+    {
+      "id": "coverage-84",
+      "character": "晏林",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-85",
+      "character": "任群",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-86",
+      "character": "裴兰馨",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-87",
+      "character": "裴崇礼",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-88",
+      "character": "裴怀安",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-89",
+      "character": "裴怀山",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-90",
+      "character": "陆佳凝",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-91",
+      "character": "顾清言",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-92",
+      "character": "齐心",
+      "plotline": "PL-M-004"
+    },
+    {
+      "id": "coverage-93",
+      "character": "晏林",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-94",
+      "character": "唐雨宸",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-95",
+      "character": "唐雨薇",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-96",
+      "character": "唐雨霖",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-97",
+      "character": "安若曦",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-98",
+      "character": "江岚",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-99",
+      "character": "苏璃",
+      "plotline": "PL-M-005"
+    },
+    {
+      "id": "coverage-100",
+      "character": "陆佳凝",
+      "plotline": "PL-M-006"
+    },
+    {
+      "id": "coverage-101",
+      "character": "齐心",
+      "plotline": "PL-M-006"
+    },
+    {
+      "id": "coverage-102",
+      "character": "晏林",
+      "plotline": "PL-M-007"
+    },
+    {
+      "id": "coverage-103",
+      "character": "晏林",
+      "plotline": "PL-S-001"
+    },
+    {
+      "id": "coverage-104",
+      "character": "唐雨霖",
+      "plotline": "PL-S-001"
+    },
+    {
+      "id": "coverage-105",
+      "character": "安若曦",
+      "plotline": "PL-S-001"
+    },
+    {
+      "id": "coverage-106",
+      "character": "江岚",
+      "plotline": "PL-S-001"
+    },
+    {
+      "id": "coverage-107",
+      "character": "苏璃",
+      "plotline": "PL-S-001"
+    },
+    {
+      "id": "coverage-108",
+      "character": "晏林",
+      "plotline": "PL-S-002"
+    },
+    {
+      "id": "coverage-109",
+      "character": "安若曦",
+      "plotline": "PL-S-002"
+    },
+    {
+      "id": "coverage-110",
+      "character": "江岚",
+      "plotline": "PL-S-002"
+    },
+    {
+      "id": "coverage-111",
+      "character": "晏林",
+      "plotline": "PL-S-003"
+    },
+    {
+      "id": "coverage-112",
+      "character": "唐雨薇",
+      "plotline": "PL-S-003"
+    },
+    {
+      "id": "coverage-113",
+      "character": "苏璃",
+      "plotline": "PL-S-003"
+    },
+    {
+      "id": "coverage-114",
+      "character": "晏林",
+      "plotline": "PL-S-004"
+    },
+    {
+      "id": "coverage-115",
+      "character": "林芷兰",
+      "plotline": "PL-S-004"
+    },
+    {
+      "id": "coverage-116",
+      "character": "顾清言",
+      "plotline": "PL-S-004"
+    },
+    {
+      "id": "coverage-117",
+      "character": "晏林",
+      "plotline": "PL-S-005"
+    },
+    {
+      "id": "coverage-118",
+      "character": "安若曦",
+      "plotline": "PL-S-005"
+    },
+    {
+      "id": "coverage-119",
+      "character": "林芷兰",
+      "plotline": "PL-S-005"
+    },
+    {
+      "id": "coverage-120",
+      "character": "江岚",
+      "plotline": "PL-S-005"
+    },
+    {
+      "id": "coverage-121",
+      "character": "白玥",
+      "plotline": "PL-S-005"
+    },
+    {
+      "id": "coverage-122",
+      "character": "晏林",
+      "plotline": "PL-S-006"
+    },
+    {
+      "id": "coverage-123",
+      "character": "安若曦",
+      "plotline": "PL-S-006"
+    },
+    {
+      "id": "coverage-124",
+      "character": "林芷兰",
+      "plotline": "PL-S-006"
+    },
+    {
+      "id": "coverage-125",
+      "character": "晏林",
+      "plotline": "PL-S-007"
+    },
+    {
+      "id": "coverage-126",
+      "character": "晏林",
+      "plotline": "PL-S-008"
+    },
+    {
+      "id": "coverage-127",
+      "character": "林芷兰",
+      "plotline": "PL-S-008"
+    },
+    {
+      "id": "coverage-128",
+      "character": "顾清言",
+      "plotline": "PL-S-008"
+    },
+    {
+      "id": "coverage-129",
+      "character": "齐心",
+      "plotline": "PL-S-008"
+    },
+    {
+      "id": "coverage-130",
+      "character": "晏林",
+      "plotline": "PL-S-010"
+    },
+    {
+      "id": "coverage-131",
+      "character": "白玥",
+      "plotline": "PL-S-010"
+    },
+    {
+      "id": "coverage-132",
+      "character": "顾清言",
+      "plotline": "PL-S-010"
+    },
+    {
+      "id": "coverage-133",
+      "character": "齐心",
+      "plotline": "PL-S-010"
+    },
+    {
+      "id": "coverage-134",
+      "character": "林芷兰",
+      "plotline": "PL-S-011"
+    },
+    {
+      "id": "coverage-135",
+      "character": "晏林",
+      "plotline": "PL-S-012"
+    },
+    {
+      "id": "coverage-136",
+      "character": "唐雨薇",
+      "plotline": "PL-S-012"
+    },
+    {
+      "id": "coverage-137",
+      "character": "唐雨霖",
+      "plotline": "PL-S-012"
+    },
+    {
+      "id": "coverage-138",
+      "character": "安若曦",
+      "plotline": "PL-S-012"
+    },
+    {
+      "id": "coverage-139",
+      "character": "晏林",
+      "plotline": "PL-S-013"
+    },
+    {
+      "id": "coverage-140",
+      "character": "许知夏",
+      "plotline": "PL-S-013"
+    },
+    {
+      "id": "coverage-141",
+      "character": "许知秋",
+      "plotline": "PL-S-013"
+    },
+    {
+      "id": "coverage-142",
+      "character": "晏林",
+      "plotline": "PL-S-014"
+    },
+    {
+      "id": "coverage-143",
+      "character": "苏晚乔",
+      "plotline": "PL-S-014"
+    },
+    {
+      "id": "coverage-144",
+      "character": "晏林",
+      "plotline": "PL-S-015"
+    },
+    {
+      "id": "coverage-145",
+      "character": "安若曦",
+      "plotline": "PL-S-015"
+    },
+    {
+      "id": "coverage-146",
+      "character": "江岚",
+      "plotline": "PL-S-015"
+    },
+    {
+      "id": "coverage-147",
+      "character": "许知夏",
+      "plotline": "PL-S-015"
+    },
+    {
+      "id": "coverage-148",
+      "character": "许知秋",
+      "plotline": "PL-S-015"
+    },
+    {
+      "id": "coverage-149",
+      "character": "晏林",
+      "plotline": "PL-S-016"
+    },
+    {
+      "id": "coverage-150",
+      "character": "江岚",
+      "plotline": "PL-S-016"
+    },
+    {
+      "id": "coverage-151",
+      "character": "许知夏",
+      "plotline": "PL-S-016"
+    },
+    {
+      "id": "coverage-152",
+      "character": "许知秋",
+      "plotline": "PL-S-016"
+    },
+    {
+      "id": "coverage-153",
+      "character": "晏林",
+      "plotline": "PL-S-017"
+    },
+    {
+      "id": "coverage-154",
+      "character": "唐雨薇",
+      "plotline": "PL-S-017"
+    },
+    {
+      "id": "coverage-155",
+      "character": "苏璃",
+      "plotline": "PL-S-017"
+    },
+    {
+      "id": "coverage-156",
+      "character": "晏林",
+      "plotline": "PL-S-018"
+    },
+    {
+      "id": "coverage-157",
+      "character": "安若曦",
+      "plotline": "PL-S-018"
+    },
+    {
+      "id": "coverage-158",
+      "character": "林芷兰",
+      "plotline": "PL-S-018"
+    },
+    {
+      "id": "coverage-159",
+      "character": "晏林",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-160",
+      "character": "唐雨薇",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-161",
+      "character": "安若曦",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-162",
+      "character": "江岚",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-163",
+      "character": "苏晚乔",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-164",
+      "character": "苏璃",
+      "plotline": "PL-S-019"
+    },
+    {
+      "id": "coverage-165",
+      "character": "晏林",
+      "plotline": "PL-S-020"
+    },
+    {
+      "id": "coverage-166",
+      "character": "许知夏",
+      "plotline": "PL-S-020"
+    },
+    {
+      "id": "coverage-167",
+      "character": "许知秋",
+      "plotline": "PL-S-020"
+    },
+    {
+      "id": "coverage-168",
+      "character": "晏林",
+      "plotline": "PL-S-021"
+    },
+    {
+      "id": "coverage-169",
+      "character": "许知夏",
+      "plotline": "PL-S-021"
+    },
+    {
+      "id": "coverage-170",
+      "character": "许知秋",
+      "plotline": "PL-S-021"
+    },
+    {
+      "id": "coverage-171",
+      "character": "晏林",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-172",
+      "character": "唐雨薇",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-173",
+      "character": "安若曦",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-174",
+      "character": "江岚",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-175",
+      "character": "苏晚乔",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-176",
+      "character": "苏璃",
+      "plotline": "PL-S-022"
+    },
+    {
+      "id": "coverage-177",
+      "character": "晏林",
+      "plotline": "PL-S-023"
+    },
+    {
+      "id": "coverage-178",
+      "character": "安若曦",
+      "plotline": "PL-S-023"
+    },
+    {
+      "id": "coverage-179",
+      "character": "白玥",
+      "plotline": "PL-S-023"
+    },
+    {
+      "id": "coverage-180",
+      "character": "顾清言",
+      "plotline": "PL-S-023"
+    },
+    {
+      "id": "coverage-181",
+      "character": "齐心",
+      "plotline": "PL-S-023"
+    },
+    {
+      "id": "coverage-182",
+      "character": "晏林",
+      "plotline": "PL-S-024"
+    },
+    {
+      "id": "coverage-183",
+      "character": "许知夏",
+      "plotline": "PL-S-024"
+    },
+    {
+      "id": "coverage-184",
+      "character": "许知秋",
+      "plotline": "PL-S-024"
+    },
+    {
+      "id": "coverage-185",
+      "character": "乔宁",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-186",
+      "character": "任群",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-187",
+      "character": "程叙",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-188",
+      "character": "裴兰馨",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-189",
+      "character": "裴崇礼",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-190",
+      "character": "裴怀安",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-191",
+      "character": "裴怀山",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-192",
+      "character": "陆佳凝",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-193",
+      "character": "齐心",
+      "plotline": "PL-S-025"
+    },
+    {
+      "id": "coverage-194",
+      "character": "晏林",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-195",
+      "character": "乔宁",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-196",
+      "character": "任群",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-197",
+      "character": "林芷兰",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-198",
+      "character": "程叙",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-199",
+      "character": "裴兰馨",
+      "plotline": "PL-S-026"
+    },
+    {
+      "id": "coverage-200",
+      "character": "晏林",
+      "plotline": "PL-S-027"
+    },
+    {
+      "id": "coverage-201",
+      "character": "安若曦",
+      "plotline": "PL-S-027"
+    },
+    {
+      "id": "coverage-202",
+      "character": "林芷兰",
+      "plotline": "PL-S-027"
+    },
+    {
+      "id": "coverage-203",
+      "character": "晏林",
+      "plotline": "PL-S-028"
+    },
+    {
+      "id": "coverage-204",
+      "character": "唐雨薇",
+      "plotline": "PL-S-028"
+    },
+    {
+      "id": "coverage-205",
+      "character": "唐雨霖",
+      "plotline": "PL-S-028"
+    },
+    {
+      "id": "coverage-206",
+      "character": "安若曦",
+      "plotline": "PL-S-028"
+    },
+    {
+      "id": "coverage-207",
+      "character": "江岚",
+      "plotline": "PL-S-028"
+    },
+    {
+      "id": "coverage-208",
+      "character": "晏林",
+      "plotline": "PL-S-029"
+    },
+    {
+      "id": "coverage-209",
+      "character": "苏晚乔",
+      "plotline": "PL-S-029"
+    },
+    {
+      "id": "coverage-210",
+      "character": "晏林",
+      "plotline": "PL-S-030"
+    },
+    {
+      "id": "coverage-211",
+      "character": "温婉",
+      "plotline": "PL-S-030"
+    },
+    {
+      "id": "coverage-212",
+      "character": "晏林",
+      "plotline": "PL-S-031"
+    },
+    {
+      "id": "coverage-213",
+      "character": "许知夏",
+      "plotline": "PL-S-031"
+    },
+    {
+      "id": "coverage-214",
+      "character": "许知秋",
+      "plotline": "PL-S-031"
+    },
+    {
+      "id": "coverage-215",
+      "character": "晏林",
+      "plotline": "PL-S-032"
+    },
+    {
+      "id": "coverage-216",
+      "character": "许知夏",
+      "plotline": "PL-S-032"
+    },
+    {
+      "id": "coverage-217",
+      "character": "许知秋",
+      "plotline": "PL-S-032"
+    },
+    {
+      "id": "coverage-218",
+      "character": "晏林",
+      "plotline": "PL-S-033"
+    },
+    {
+      "id": "coverage-219",
+      "character": "安若曦",
+      "plotline": "PL-S-033"
+    },
+    {
+      "id": "coverage-220",
+      "character": "江岚",
+      "plotline": "PL-S-033"
+    },
+    {
+      "id": "coverage-221",
+      "character": "晏林",
+      "plotline": "PL-S-034"
+    },
+    {
+      "id": "coverage-222",
+      "character": "程叙",
+      "plotline": "PL-S-034"
+    },
+    {
+      "id": "coverage-223",
+      "character": "晏林",
+      "plotline": "PL-S-035"
+    },
+    {
+      "id": "coverage-224",
+      "character": "乔宁",
+      "plotline": "PL-S-035"
+    },
+    {
+      "id": "coverage-225",
+      "character": "程叙",
+      "plotline": "PL-S-035"
+    },
+    {
+      "id": "coverage-226",
+      "character": "裴兰馨",
+      "plotline": "PL-S-035"
+    },
+    {
+      "id": "coverage-227",
+      "character": "晏林",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-228",
+      "character": "唐雨薇",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-229",
+      "character": "安若曦",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-230",
+      "character": "林芷兰",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-231",
+      "character": "江岚",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-232",
+      "character": "温婉",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-233",
+      "character": "白玥",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-234",
+      "character": "苏晚乔",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-235",
+      "character": "苏璃",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-236",
+      "character": "许知夏",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-237",
+      "character": "许知秋",
+      "plotline": "PL-S-036"
+    },
+    {
+      "id": "coverage-238",
+      "character": "晏林",
+      "plotline": "PL-S-037"
+    },
+    {
+      "id": "coverage-239",
+      "character": "林芷兰",
+      "plotline": "PL-S-037"
+    },
+    {
+      "id": "coverage-240",
+      "character": "晏林",
+      "plotline": "PL-S-038"
+    },
+    {
+      "id": "coverage-241",
+      "character": "林芷兰",
+      "plotline": "PL-S-038"
+    },
+    {
+      "id": "coverage-242",
+      "character": "晏林",
+      "plotline": "PL-S-039"
+    },
+    {
+      "id": "coverage-243",
+      "character": "林芷兰",
+      "plotline": "PL-S-039"
+    },
+    {
+      "id": "coverage-244",
+      "character": "晏林",
+      "plotline": "PL-S-040"
+    },
+    {
+      "id": "coverage-245",
+      "character": "林芷兰",
+      "plotline": "PL-S-040"
+    }
+  ],
+  "cases": {
+    "nodes": [
+      {
+        "id": "PL-M-002",
+        "label": "共同精神控制方法显影",
+        "kind": "plotline",
+        "path": "story/plotlines/主线/反派/共同精神控制方法显影.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-M-003",
+        "label": "解释权争夺与非法种印链",
+        "kind": "plotline",
+        "path": "story/plotlines/主线/反派/解释权争夺与非法种印链.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-M-004",
+        "label": "核心反派责任链清算",
+        "kind": "plotline",
+        "path": "story/plotlines/主线/反派/核心反派责任链清算.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-M-006",
+        "label": "陆佳凝境外承接网络显影",
+        "kind": "plotline",
+        "path": "story/plotlines/主线/反派/陆佳凝境外承接网络显影.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-005",
+        "label": "晏林登记外能力疑点与分层备案",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/晏林/登记外能力疑点与分层备案.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-006",
+        "label": "星辰管理局首次个案协查",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/管理局/首次个案协查.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-007",
+        "label": "管理局受控合作与必要更正",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/管理局/受控合作与必要更正.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-008",
+        "label": "顾清言的隔离、解印与责任分层",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/黑暗契约者/非法种印首案的隔离解印与责任分层.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-009",
+        "label": "黑市星表、药剂、目标与实验链串联",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/黑市/星表药剂目标实验链串联.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-010",
+        "label": "高端商务会所异常药剂与联合验证",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/高端商务会所/异常药剂与联合验证.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-011",
+        "label": "管理局直属疗养院收容、复核与回流",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/管理局疗养院/收容复核与回流.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-013",
+        "label": "工作室运营权限与异常接待分层",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/工作室/运营权限与异常接待分层.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-014",
+        "label": "训练馆异常补剂与现实边界教育",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/训练馆/异常补剂与现实边界教育.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-025",
+        "label": "裴家人员招募、转送与境外实验链",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/裴家/人员招募转送与境外实验链.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-026",
+        "label": "万安文化艺人压迫与咨询显影",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/万安文化/艺人压迫与咨询显影.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-034",
+        "label": "合作医院转介与危机处置链",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/合作医院/转介与危机处置链.md",
+        "status": "pending"
+      },
+      {
+        "id": "PL-S-035",
+        "label": "程叙危机后咨询与自主恢复",
+        "kind": "plotline",
+        "path": "story/plotlines/副线/程叙/危机后咨询与自主恢复.md",
+        "status": "pending"
+      },
+      {
+        "id": "character:晏林",
+        "label": "晏林",
+        "kind": "character",
+        "path": "characters/major/晏林/主卡.md"
+      },
+      {
+        "id": "character:林芷兰",
+        "label": "林芷兰",
+        "kind": "character",
+        "path": "characters/preentry/林芷兰/主卡.md"
+      },
+      {
+        "id": "character:江岚",
+        "label": "江岚",
+        "kind": "character",
+        "path": "characters/preentry/江岚/主卡.md"
+      },
+      {
+        "id": "character:白玥",
+        "label": "白玥",
+        "kind": "character",
+        "path": "characters/preentry/白玥/主卡.md"
+      },
+      {
+        "id": "character:陆佳凝",
+        "label": "陆佳凝",
+        "kind": "character",
+        "path": "characters/preentry/陆佳凝/主卡.md"
+      },
+      {
+        "id": "character:顾清言",
+        "label": "顾清言",
+        "kind": "character",
+        "path": "characters/preentry/顾清言/主卡.md"
+      },
+      {
+        "id": "character:齐心",
+        "label": "齐心",
+        "kind": "character",
+        "path": "characters/preentry/齐心/主卡.md"
+      },
+      {
+        "id": "character:任群",
+        "label": "任群",
+        "kind": "character",
+        "path": "characters/preentry/任群/主卡.md"
+      },
+      {
+        "id": "character:裴兰馨",
+        "label": "裴兰馨",
+        "kind": "character",
+        "path": "characters/preentry/裴兰馨/主卡.md"
+      },
+      {
+        "id": "character:裴崇礼",
+        "label": "裴崇礼",
+        "kind": "character",
+        "path": "characters/preentry/裴崇礼/主卡.md"
+      },
+      {
+        "id": "character:裴怀安",
+        "label": "裴怀安",
+        "kind": "character",
+        "path": "characters/preentry/裴怀安/主卡.md"
+      },
+      {
+        "id": "character:裴怀山",
+        "label": "裴怀山",
+        "kind": "character",
+        "path": "characters/preentry/裴怀山/主卡.md"
+      },
+      {
+        "id": "character:安若曦",
+        "label": "安若曦",
+        "kind": "character",
+        "path": "characters/preentry/安若曦/主卡.md"
+      },
+      {
+        "id": "character:许知夏",
+        "label": "许知夏",
+        "kind": "character",
+        "path": "characters/preentry/许知夏/主卡.md"
+      },
+      {
+        "id": "character:许知秋",
+        "label": "许知秋",
+        "kind": "character",
+        "path": "characters/preentry/许知秋/主卡.md"
+      },
+      {
+        "id": "character:苏晚乔",
+        "label": "苏晚乔",
+        "kind": "character",
+        "path": "characters/preentry/苏晚乔/主卡.md"
+      },
+      {
+        "id": "character:乔宁",
+        "label": "乔宁",
+        "kind": "character",
+        "path": "characters/preentry/乔宁/主卡.md"
+      },
+      {
+        "id": "character:程叙",
+        "label": "程叙",
+        "kind": "character",
+        "path": "characters/preentry/程叙/主卡.md"
+      }
+    ],
+    "edges": [
+      {
+        "id": "case-dep-1",
+        "source": "PL-M-002",
+        "target": "PL-M-003",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-2",
+        "source": "PL-M-003",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-3",
+        "source": "PL-M-003",
+        "target": "PL-M-006",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-4",
+        "source": "PL-M-003",
+        "target": "PL-S-009",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-5",
+        "source": "PL-M-006",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-6",
+        "source": "PL-M-006",
+        "target": "PL-S-025",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-7",
+        "source": "PL-S-005",
+        "target": "PL-S-007",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-8",
+        "source": "PL-S-006",
+        "target": "PL-M-002",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-9",
+        "source": "PL-S-006",
+        "target": "PL-S-005",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-10",
+        "source": "PL-S-006",
+        "target": "PL-S-007",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-11",
+        "source": "PL-S-006",
+        "target": "PL-S-010",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-12",
+        "source": "PL-S-006",
+        "target": "PL-S-013",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-13",
+        "source": "PL-S-008",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-14",
+        "source": "PL-S-008",
+        "target": "PL-S-011",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-15",
+        "source": "PL-S-009",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-16",
+        "source": "PL-S-009",
+        "target": "PL-S-025",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-17",
+        "source": "PL-S-010",
+        "target": "PL-M-003",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-18",
+        "source": "PL-S-010",
+        "target": "PL-S-005",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-19",
+        "source": "PL-S-010",
+        "target": "PL-S-008",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-20",
+        "source": "PL-S-010",
+        "target": "PL-S-009",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-21",
+        "source": "PL-S-010",
+        "target": "PL-S-014",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-22",
+        "source": "PL-S-011",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-23",
+        "source": "PL-S-013",
+        "target": "PL-S-026",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-24",
+        "source": "PL-S-013",
+        "target": "PL-S-034",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-25",
+        "source": "PL-S-014",
+        "target": "PL-S-009",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-26",
+        "source": "PL-S-025",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-27",
+        "source": "PL-S-025",
+        "target": "PL-S-026",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-28",
+        "source": "PL-S-026",
+        "target": "PL-M-004",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-29",
+        "source": "PL-S-034",
+        "target": "PL-S-026",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-30",
+        "source": "PL-S-034",
+        "target": "PL-S-035",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-dep-31",
+        "source": "PL-S-035",
+        "target": "PL-S-026",
+        "relation": "上下游"
+      },
+      {
+        "id": "case-person-32",
+        "source": "character:晏林",
+        "target": "PL-M-002",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-33",
+        "source": "character:林芷兰",
+        "target": "PL-M-002",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-34",
+        "source": "character:晏林",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-35",
+        "source": "character:林芷兰",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-36",
+        "source": "character:江岚",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-37",
+        "source": "character:白玥",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-38",
+        "source": "character:陆佳凝",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-39",
+        "source": "character:顾清言",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-40",
+        "source": "character:齐心",
+        "target": "PL-M-003",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-41",
+        "source": "character:晏林",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-42",
+        "source": "character:任群",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-43",
+        "source": "character:裴兰馨",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-44",
+        "source": "character:裴崇礼",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-45",
+        "source": "character:裴怀安",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-46",
+        "source": "character:裴怀山",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-47",
+        "source": "character:陆佳凝",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-48",
+        "source": "character:顾清言",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-49",
+        "source": "character:齐心",
+        "target": "PL-M-004",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-50",
+        "source": "character:陆佳凝",
+        "target": "PL-M-006",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-51",
+        "source": "character:齐心",
+        "target": "PL-M-006",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-52",
+        "source": "character:晏林",
+        "target": "PL-S-005",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-53",
+        "source": "character:安若曦",
+        "target": "PL-S-005",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-54",
+        "source": "character:林芷兰",
+        "target": "PL-S-005",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-55",
+        "source": "character:江岚",
+        "target": "PL-S-005",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-56",
+        "source": "character:白玥",
+        "target": "PL-S-005",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-57",
+        "source": "character:晏林",
+        "target": "PL-S-006",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-58",
+        "source": "character:安若曦",
+        "target": "PL-S-006",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-59",
+        "source": "character:林芷兰",
+        "target": "PL-S-006",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-60",
+        "source": "character:晏林",
+        "target": "PL-S-007",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-61",
+        "source": "character:晏林",
+        "target": "PL-S-008",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-62",
+        "source": "character:林芷兰",
+        "target": "PL-S-008",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-63",
+        "source": "character:顾清言",
+        "target": "PL-S-008",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-64",
+        "source": "character:齐心",
+        "target": "PL-S-008",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-65",
+        "source": "character:晏林",
+        "target": "PL-S-010",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-66",
+        "source": "character:白玥",
+        "target": "PL-S-010",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-67",
+        "source": "character:顾清言",
+        "target": "PL-S-010",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-68",
+        "source": "character:齐心",
+        "target": "PL-S-010",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-69",
+        "source": "character:林芷兰",
+        "target": "PL-S-011",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-70",
+        "source": "character:晏林",
+        "target": "PL-S-013",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-71",
+        "source": "character:许知夏",
+        "target": "PL-S-013",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-72",
+        "source": "character:许知秋",
+        "target": "PL-S-013",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-73",
+        "source": "character:晏林",
+        "target": "PL-S-014",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-74",
+        "source": "character:苏晚乔",
+        "target": "PL-S-014",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-75",
+        "source": "character:乔宁",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-76",
+        "source": "character:任群",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-77",
+        "source": "character:程叙",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-78",
+        "source": "character:裴兰馨",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-79",
+        "source": "character:裴崇礼",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-80",
+        "source": "character:裴怀安",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-81",
+        "source": "character:裴怀山",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-82",
+        "source": "character:陆佳凝",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-83",
+        "source": "character:齐心",
+        "target": "PL-S-025",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-84",
+        "source": "character:晏林",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-85",
+        "source": "character:乔宁",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-86",
+        "source": "character:任群",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-87",
+        "source": "character:林芷兰",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-88",
+        "source": "character:程叙",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-89",
+        "source": "character:裴兰馨",
+        "target": "PL-S-026",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-90",
+        "source": "character:晏林",
+        "target": "PL-S-034",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-91",
+        "source": "character:程叙",
+        "target": "PL-S-034",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-92",
+        "source": "character:晏林",
+        "target": "PL-S-035",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-93",
+        "source": "character:乔宁",
+        "target": "PL-S-035",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-94",
+        "source": "character:程叙",
+        "target": "PL-S-035",
+        "relation": "参与"
+      },
+      {
+        "id": "case-person-95",
+        "source": "character:裴兰馨",
+        "target": "PL-S-035",
+        "relation": "参与"
+      }
+    ]
+  },
+  "abilities": {
+    "nodes": [
+      {
+        "id": "system:星辰契约.md",
+        "label": "星辰契约",
+        "kind": "system",
+        "path": "worldbuilding/systems/星辰契约.md"
+      },
+      {
+        "id": "system:星辰权柄.md",
+        "label": "星辰权柄",
+        "kind": "system",
+        "path": "worldbuilding/systems/星辰权柄.md"
+      },
+      {
+        "id": "system:能力边界.md",
+        "label": "能力边界",
+        "kind": "system",
+        "path": "worldbuilding/systems/能力边界.md"
+      },
+      {
+        "id": "system:精神之海.md",
+        "label": "精神之海",
+        "kind": "system",
+        "path": "worldbuilding/systems/精神之海.md"
+      },
+      {
+        "id": "system:星辰异变.md",
+        "label": "星辰异变",
+        "kind": "system",
+        "path": "worldbuilding/systems/星辰异变.md"
+      },
+      {
+        "id": "character:晏林",
+        "label": "晏林",
+        "kind": "character",
+        "path": "characters/major/晏林/主卡.md"
+      },
+      {
+        "id": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "label": "晏林的星、亮星、暗伴星；不设专名",
+        "kind": "star",
+        "path": "characters/major/晏林/契约.md"
+      },
+      {
+        "id": "authority:梦境",
+        "label": "梦境",
+        "kind": "authority",
+        "description": "睡眠状态中的梦境体验",
+        "path": "characters/major/晏林/契约.md"
+      },
+      {
+        "id": "authority:幻境",
+        "label": "幻境",
+        "kind": "authority",
+        "description": "目标精神之海接收的五感体验",
+        "path": "characters/major/晏林/契约.md"
+      },
+      {
+        "id": "authority:截断",
+        "label": "截断",
+        "kind": "authority",
+        "description": "既有通道中正在传递的力量",
+        "path": "characters/major/晏林/契约.md"
+      },
+      {
+        "id": "authority:逆流",
+        "label": "逆流",
+        "kind": "authority",
+        "description": "尚未落地且仍沿通道传递的星辰之力与能力作用",
+        "path": "characters/major/晏林/契约.md"
+      },
+      {
+        "id": "character:任群",
+        "label": "任群",
+        "kind": "character",
+        "path": "characters/preentry/任群/主卡.md"
+      },
+      {
+        "id": "star:任群:任群的契约星辰",
+        "label": "任群的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/任群/契约.md"
+      },
+      {
+        "id": "character:唐雨薇",
+        "label": "唐雨薇",
+        "kind": "character",
+        "path": "characters/preentry/唐雨薇/主卡.md"
+      },
+      {
+        "id": "star:唐雨薇:唐雨薇的预感星；不设星名",
+        "label": "唐雨薇的预感星；不设星名",
+        "kind": "star",
+        "path": "characters/preentry/唐雨薇/契约.md"
+      },
+      {
+        "id": "authority:预感",
+        "label": "预感",
+        "kind": "authority",
+        "description": "尚未发生的危险可能性片段",
+        "path": "characters/preentry/唐雨薇/契约.md"
+      },
+      {
+        "id": "character:安若曦",
+        "label": "安若曦",
+        "kind": "character",
+        "path": "characters/preentry/安若曦/主卡.md"
+      },
+      {
+        "id": "star:安若曦:安若曦的真言星；不设专名",
+        "label": "安若曦的真言星；不设专名",
+        "kind": "star",
+        "path": "characters/preentry/安若曦/契约.md"
+      },
+      {
+        "id": "authority:真言",
+        "label": "真言",
+        "kind": "authority",
+        "description": "使目标不能说出其自身认知中明确为假的陈述",
+        "path": "characters/preentry/安若曦/契约.md"
+      },
+      {
+        "id": "character:林芷兰",
+        "label": "林芷兰",
+        "kind": "character",
+        "path": "characters/preentry/林芷兰/主卡.md"
+      },
+      {
+        "id": "star:林芷兰:林芷兰的星；不设星名",
+        "label": "林芷兰的星；不设星名",
+        "kind": "star",
+        "path": "characters/preentry/林芷兰/契约.md"
+      },
+      {
+        "id": "authority:净化",
+        "label": "净化",
+        "kind": "authority",
+        "description": "精神之海中可辨认、可接触的外来失序结构及其残留",
+        "path": "characters/preentry/林芷兰/契约.md"
+      },
+      {
+        "id": "authority:修复",
+        "label": "修复",
+        "kind": "authority",
+        "description": "精神之海中已经受损的结构",
+        "path": "characters/preentry/林芷兰/契约.md"
+      },
+      {
+        "id": "character:江岚",
+        "label": "江岚",
+        "kind": "character",
+        "path": "characters/preentry/江岚/主卡.md"
+      },
+      {
+        "id": "star:江岚:江岚的脉络星；不设星名",
+        "label": "江岚的脉络星；不设星名",
+        "kind": "star",
+        "path": "characters/preentry/江岚/契约.md"
+      },
+      {
+        "id": "authority:脉络",
+        "label": "脉络",
+        "kind": "authority",
+        "description": "当下已经成立的关系连接与因果流向",
+        "path": "characters/preentry/江岚/契约.md"
+      },
+      {
+        "id": "character:沈宁",
+        "label": "沈宁",
+        "kind": "character",
+        "path": "characters/preentry/沈宁/主卡.md"
+      },
+      {
+        "id": "star:沈宁:沈宁的静默星；不设专名",
+        "label": "沈宁的静默星；不设专名",
+        "kind": "star",
+        "path": "characters/preentry/沈宁/契约.md"
+      },
+      {
+        "id": "authority:静默",
+        "label": "静默",
+        "kind": "authority",
+        "description": "以沈宁为中心、近距离范围内可被感知和追踪的精神信号",
+        "path": "characters/preentry/沈宁/契约.md"
+      },
+      {
+        "id": "character:温婉",
+        "label": "温婉",
+        "kind": "character",
+        "path": "characters/preentry/温婉/主卡.md"
+      },
+      {
+        "id": "star:温婉:温婉的灵犀星；不设星名",
+        "label": "温婉的灵犀星；不设星名",
+        "kind": "star",
+        "path": "characters/preentry/温婉/契约.md"
+      },
+      {
+        "id": "authority:灵犀",
+        "label": "灵犀",
+        "kind": "authority",
+        "description": "动物当前的情绪与简单意向",
+        "path": "characters/preentry/温婉/契约.md"
+      },
+      {
+        "id": "character:白玥",
+        "label": "白玥",
+        "kind": "character",
+        "path": "characters/preentry/白玥/主卡.md"
+      },
+      {
+        "id": "star:白玥:白玥的契约星辰",
+        "label": "白玥的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/白玥/契约.md"
+      },
+      {
+        "id": "authority:欲望",
+        "label": "欲望",
+        "kind": "authority",
+        "description": "目标已经存在并可被连接触及的欲望、虚荣、证明欲、依赖或被选中感",
+        "path": "characters/preentry/白玥/契约.md"
+      },
+      {
+        "id": "character:苏晚乔",
+        "label": "苏晚乔",
+        "kind": "character",
+        "path": "characters/preentry/苏晚乔/主卡.md"
+      },
+      {
+        "id": "star:苏晚乔:苏晚乔的御物星",
+        "label": "苏晚乔的御物星",
+        "kind": "star",
+        "path": "characters/preentry/苏晚乔/契约.md"
+      },
+      {
+        "id": "authority:御物",
+        "label": "御物",
+        "kind": "authority",
+        "description": "既有非生命物体",
+        "path": "characters/preentry/苏晚乔/契约.md"
+      },
+      {
+        "id": "character:苏璃",
+        "label": "苏璃",
+        "kind": "character",
+        "path": "characters/preentry/苏璃/主卡.md"
+      },
+      {
+        "id": "star:苏璃:苏璃的情绪星；不设星名",
+        "label": "苏璃的情绪星；不设星名",
+        "kind": "star",
+        "path": "characters/preentry/苏璃/契约.md"
+      },
+      {
+        "id": "authority:情绪",
+        "label": "情绪",
+        "kind": "authority",
+        "description": "目标当前既有的情绪",
+        "path": "characters/preentry/苏璃/契约.md"
+      },
+      {
+        "id": "character:裴兰馨",
+        "label": "裴兰馨",
+        "kind": "character",
+        "path": "characters/preentry/裴兰馨/主卡.md"
+      },
+      {
+        "id": "star:裴兰馨:裴兰馨的契约星辰",
+        "label": "裴兰馨的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/裴兰馨/契约.md"
+      },
+      {
+        "id": "character:裴崇礼",
+        "label": "裴崇礼",
+        "kind": "character",
+        "path": "characters/preentry/裴崇礼/主卡.md"
+      },
+      {
+        "id": "star:裴崇礼:裴崇礼的契约星辰",
+        "label": "裴崇礼的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/裴崇礼/契约.md"
+      },
+      {
+        "id": "character:裴怀安",
+        "label": "裴怀安",
+        "kind": "character",
+        "path": "characters/preentry/裴怀安/主卡.md"
+      },
+      {
+        "id": "star:裴怀安:裴怀安的契约星辰",
+        "label": "裴怀安的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/裴怀安/契约.md"
+      },
+      {
+        "id": "character:裴怀山",
+        "label": "裴怀山",
+        "kind": "character",
+        "path": "characters/preentry/裴怀山/主卡.md"
+      },
+      {
+        "id": "star:裴怀山:裴怀山的契约星辰",
+        "label": "裴怀山的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/裴怀山/契约.md"
+      },
+      {
+        "id": "character:顾清言",
+        "label": "顾清言",
+        "kind": "character",
+        "path": "characters/preentry/顾清言/主卡.md"
+      },
+      {
+        "id": "star:顾清言:顾清言的契约星辰",
+        "label": "顾清言的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/顾清言/契约.md"
+      },
+      {
+        "id": "character:齐心",
+        "label": "齐心",
+        "kind": "character",
+        "path": "characters/preentry/齐心/主卡.md"
+      },
+      {
+        "id": "star:齐心:齐心的契约星辰",
+        "label": "齐心的契约星辰",
+        "kind": "star",
+        "path": "characters/preentry/齐心/契约.md"
+      }
+    ],
+    "edges": [
+      {
+        "id": "ability-1",
+        "source": "character:晏林",
+        "target": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-2",
+        "source": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-3",
+        "source": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "target": "authority:梦境",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-4",
+        "source": "authority:梦境",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-5",
+        "source": "authority:梦境",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-6",
+        "source": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "target": "authority:幻境",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-7",
+        "source": "authority:幻境",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-8",
+        "source": "authority:幻境",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-9",
+        "source": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "target": "authority:截断",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-10",
+        "source": "authority:截断",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-11",
+        "source": "authority:截断",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-12",
+        "source": "star:晏林:晏林的星、亮星、暗伴星；不设专名",
+        "target": "authority:逆流",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-13",
+        "source": "authority:逆流",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-14",
+        "source": "authority:逆流",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-15",
+        "source": "character:晏林",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-16",
+        "source": "character:晏林",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-17",
+        "source": "character:任群",
+        "target": "star:任群:任群的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-18",
+        "source": "star:任群:任群的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-19",
+        "source": "character:任群",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-20",
+        "source": "character:任群",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-21",
+        "source": "character:唐雨薇",
+        "target": "star:唐雨薇:唐雨薇的预感星；不设星名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-22",
+        "source": "star:唐雨薇:唐雨薇的预感星；不设星名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-23",
+        "source": "star:唐雨薇:唐雨薇的预感星；不设星名",
+        "target": "authority:预感",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-24",
+        "source": "authority:预感",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-25",
+        "source": "authority:预感",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-26",
+        "source": "character:唐雨薇",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-27",
+        "source": "character:唐雨薇",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-28",
+        "source": "character:安若曦",
+        "target": "star:安若曦:安若曦的真言星；不设专名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-29",
+        "source": "star:安若曦:安若曦的真言星；不设专名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-30",
+        "source": "star:安若曦:安若曦的真言星；不设专名",
+        "target": "authority:真言",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-31",
+        "source": "authority:真言",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-32",
+        "source": "authority:真言",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-33",
+        "source": "character:安若曦",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-34",
+        "source": "character:安若曦",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-35",
+        "source": "character:林芷兰",
+        "target": "star:林芷兰:林芷兰的星；不设星名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-36",
+        "source": "star:林芷兰:林芷兰的星；不设星名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-37",
+        "source": "star:林芷兰:林芷兰的星；不设星名",
+        "target": "authority:净化",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-38",
+        "source": "authority:净化",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-39",
+        "source": "authority:净化",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-40",
+        "source": "star:林芷兰:林芷兰的星；不设星名",
+        "target": "authority:修复",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-41",
+        "source": "authority:修复",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-42",
+        "source": "authority:修复",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-43",
+        "source": "character:林芷兰",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-44",
+        "source": "character:林芷兰",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-45",
+        "source": "character:江岚",
+        "target": "star:江岚:江岚的脉络星；不设星名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-46",
+        "source": "star:江岚:江岚的脉络星；不设星名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-47",
+        "source": "star:江岚:江岚的脉络星；不设星名",
+        "target": "authority:脉络",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-48",
+        "source": "authority:脉络",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-49",
+        "source": "authority:脉络",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-50",
+        "source": "character:江岚",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-51",
+        "source": "character:江岚",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-52",
+        "source": "character:沈宁",
+        "target": "star:沈宁:沈宁的静默星；不设专名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-53",
+        "source": "star:沈宁:沈宁的静默星；不设专名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-54",
+        "source": "star:沈宁:沈宁的静默星；不设专名",
+        "target": "authority:静默",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-55",
+        "source": "authority:静默",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-56",
+        "source": "authority:静默",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-57",
+        "source": "character:沈宁",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-58",
+        "source": "character:沈宁",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-59",
+        "source": "character:温婉",
+        "target": "star:温婉:温婉的灵犀星；不设星名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-60",
+        "source": "star:温婉:温婉的灵犀星；不设星名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-61",
+        "source": "star:温婉:温婉的灵犀星；不设星名",
+        "target": "authority:灵犀",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-62",
+        "source": "authority:灵犀",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-63",
+        "source": "authority:灵犀",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-64",
+        "source": "character:温婉",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-65",
+        "source": "character:温婉",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-66",
+        "source": "character:白玥",
+        "target": "star:白玥:白玥的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-67",
+        "source": "star:白玥:白玥的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-68",
+        "source": "star:白玥:白玥的契约星辰",
+        "target": "authority:欲望",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-69",
+        "source": "authority:欲望",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-70",
+        "source": "authority:欲望",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-71",
+        "source": "character:白玥",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-72",
+        "source": "character:白玥",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-73",
+        "source": "character:苏晚乔",
+        "target": "star:苏晚乔:苏晚乔的御物星",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-74",
+        "source": "star:苏晚乔:苏晚乔的御物星",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-75",
+        "source": "star:苏晚乔:苏晚乔的御物星",
+        "target": "authority:御物",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-76",
+        "source": "authority:御物",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-77",
+        "source": "authority:御物",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-78",
+        "source": "character:苏晚乔",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-79",
+        "source": "character:苏晚乔",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-80",
+        "source": "character:苏璃",
+        "target": "star:苏璃:苏璃的情绪星；不设星名",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-81",
+        "source": "star:苏璃:苏璃的情绪星；不设星名",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-82",
+        "source": "star:苏璃:苏璃的情绪星；不设星名",
+        "target": "authority:情绪",
+        "relation": "持有"
+      },
+      {
+        "id": "ability-83",
+        "source": "authority:情绪",
+        "target": "system:星辰权柄.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-84",
+        "source": "authority:情绪",
+        "target": "system:能力边界.md",
+        "relation": "受限"
+      },
+      {
+        "id": "ability-85",
+        "source": "character:苏璃",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-86",
+        "source": "character:苏璃",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-87",
+        "source": "character:裴兰馨",
+        "target": "star:裴兰馨:裴兰馨的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-88",
+        "source": "star:裴兰馨:裴兰馨的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-89",
+        "source": "character:裴兰馨",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-90",
+        "source": "character:裴兰馨",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-91",
+        "source": "character:裴崇礼",
+        "target": "star:裴崇礼:裴崇礼的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-92",
+        "source": "star:裴崇礼:裴崇礼的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-93",
+        "source": "character:裴崇礼",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-94",
+        "source": "character:裴崇礼",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-95",
+        "source": "character:裴怀安",
+        "target": "star:裴怀安:裴怀安的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-96",
+        "source": "star:裴怀安:裴怀安的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-97",
+        "source": "character:裴怀安",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-98",
+        "source": "character:裴怀安",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-99",
+        "source": "character:裴怀山",
+        "target": "star:裴怀山:裴怀山的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-100",
+        "source": "star:裴怀山:裴怀山的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-101",
+        "source": "character:裴怀山",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-102",
+        "source": "character:裴怀山",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-103",
+        "source": "character:顾清言",
+        "target": "star:顾清言:顾清言的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-104",
+        "source": "star:顾清言:顾清言的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-105",
+        "source": "character:顾清言",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-106",
+        "source": "character:顾清言",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      },
+      {
+        "id": "ability-107",
+        "source": "character:齐心",
+        "target": "star:齐心:齐心的契约星辰",
+        "relation": "结契"
+      },
+      {
+        "id": "ability-108",
+        "source": "star:齐心:齐心的契约星辰",
+        "target": "system:星辰契约.md",
+        "relation": "遵循"
+      },
+      {
+        "id": "ability-109",
+        "source": "character:齐心",
+        "target": "system:精神之海.md",
+        "relation": "承载"
+      },
+      {
+        "id": "ability-110",
+        "source": "character:齐心",
+        "target": "system:星辰异变.md",
+        "relation": "风险"
+      }
+    ]
+  },
+  "deferred": {
+    "chapters": {
+      "enabled": false,
+      "count": 0
+    },
+    "clues": {
+      "enabled": false,
+      "count": 0
+    }
+  }
+}
