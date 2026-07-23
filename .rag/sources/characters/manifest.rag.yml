@@ -54,3 +54,11 @@ routes:
     static: characters/preentry/程叙/主卡.md
   - key: 乔宁
     static: characters/preentry/乔宁/主卡.md
+  - key: 刘斌文
+    static: characters/preentry/刘斌文/主卡.md
+  - key: 童颜
+    static: characters/preentry/童颜/形象.md
+  - key: 杨柳
+    static: characters/preentry/杨柳/主卡.md
+  - key: 周晓莉
+    static: characters/preentry/周晓莉/主卡.md

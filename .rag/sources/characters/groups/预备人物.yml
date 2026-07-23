@@ -102,4 +102,18 @@ members:
   - key: 乔宁
     primary:
       - characters/preentry/乔宁/主卡.md
-note: 共 25 人
+  - key: 刘斌文
+    primary:
+      - characters/preentry/刘斌文/主卡.md
+  - key: 童颜
+    primary:
+      - characters/preentry/童颜/形象.md
+      - characters/preentry/童颜/衣装.md
+      - characters/preentry/童颜/契约.md
+  - key: 杨柳
+    primary:
+      - characters/preentry/杨柳/主卡.md
+  - key: 周晓莉
+    primary:
+      - characters/preentry/周晓莉/主卡.md
+note: 共 29 人
