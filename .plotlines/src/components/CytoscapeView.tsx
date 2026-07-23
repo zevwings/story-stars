@@ -1,5 +1,5 @@
 import cytoscape, { type Core, type ElementDefinition, type NodeSingular } from 'cytoscape'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { GraphDetail } from './GraphDetail'
 import './CytoscapeView.css'
 
@@ -21,7 +21,7 @@ const palette: Record<string, string> = {
   character: '#4f83b9', plotline: '#c85d8b', faction: '#c7504a', place: '#349284', mechanism: '#b88a0a', star: '#8c6bc1', authority: '#c85d8b', system: '#349284',
 }
 
-export function CytoscapeView({ nodes, edges, layout = 'cose', title, subtitle, readableStart = false, directed = false }: { nodes: ViewNode[]; edges: ViewEdge[]; layout?: 'preset' | 'cose' | 'breadthfirst'; title: string; subtitle: string; readableStart?: boolean; directed?: boolean }) {
+export function CytoscapeView({ nodes, edges, layout = 'cose', title, subtitle, readableStart = false, directed = false, toolbar }: { nodes: ViewNode[]; edges: ViewEdge[]; layout?: 'preset' | 'cose' | 'breadthfirst' | 'concentric'; title: string; subtitle: string; readableStart?: boolean; directed?: boolean; toolbar?: ReactNode }) {
   const containerRef = useRef<HTMLDivElement>(null)
   const coreRef = useRef<Core | null>(null)
   const [detail, setDetail] = useState<ViewNode | null>(null)
@@ -44,18 +44,24 @@ export function CytoscapeView({ nodes, edges, layout = 'cose', title, subtitle, 
     const cy = cytoscape({
       container: containerRef.current,
       elements,
-      layout: layout === 'preset' ? { name: 'preset', fit: true, padding: 70 } : layout === 'breadthfirst' ? { name: 'breadthfirst', directed: true, spacingFactor: 1.35, padding: 60 } : { name: 'cose', animate: false, nodeRepulsion: () => 9000, idealEdgeLength: () => 130, padding: 60 },
+      layout: layout === 'preset'
+        ? { name: 'preset', fit: true, padding: 70 }
+        : layout === 'breadthfirst'
+          ? { name: 'breadthfirst', directed: true, spacingFactor: 1.35, padding: 60 }
+          : layout === 'concentric'
+            ? { name: 'concentric', minNodeSpacing: 80, spacingFactor: 1.25, levelWidth: () => 2, padding: 80 }
+            : { name: 'cose', animate: false, nodeRepulsion: () => 13000, idealEdgeLength: () => 170, padding: 70 },
       minZoom: 0.12,
       maxZoom: 2.6,
       wheelSensitivity: 0.2,
       style: [
         { selector: 'node', style: { width: 230, height: 60, shape: 'round-rectangle', label: 'data(label)', 'font-family': 'system-ui, PingFang SC, Microsoft YaHei, sans-serif', 'font-size': '12px', 'font-weight': 500, color: text, 'text-wrap': 'wrap', 'text-max-width': '204px', 'text-valign': 'center', 'background-color': surface, 'background-opacity': 1, 'border-color': (element: NodeSingular) => palette[element.data('kind')] || '#4f83b9', 'border-width': 1.8, 'overlay-opacity': 0, 'z-index': 10 } },
         { selector: 'node[kind = "stage"]', style: { width: 214, height: 34, 'background-opacity': 0, 'border-width': 0, color: muted, 'font-size': '13px', 'font-weight': 500 } },
-        { selector: 'edge', style: { width: 1.15, 'curve-style': directed ? 'taxi' : 'bezier', 'taxi-direction': directed ? 'rightward' : 'auto', 'taxi-turn-min-distance': directed ? '22px' : '12px', 'line-color': muted, 'target-arrow-color': muted, 'target-arrow-shape': 'triangle', 'arrow-scale': 0.7, opacity: 0.26, label: 'data(label)', 'font-size': '9px', color: muted, 'text-background-color': surface, 'text-background-opacity': 0.88, 'text-background-padding': '2px', 'overlay-opacity': 0, 'z-index': 0 } },
+        { selector: 'edge', style: { width: 1.15, 'curve-style': directed ? 'taxi' : 'bezier', 'taxi-direction': directed ? 'rightward' : 'auto', 'taxi-turn-min-distance': directed ? '22px' : '12px', 'line-color': muted, 'target-arrow-color': muted, 'target-arrow-shape': 'triangle', 'arrow-scale': 0.7, opacity: 0.26, label: '', 'font-size': '9px', color: muted, 'text-background-color': surface, 'text-background-opacity': 0.96, 'text-background-padding': '3px', 'overlay-opacity': 0, 'z-index': 0 } },
         { selector: '.dim', style: { opacity: 0.08 } },
         { selector: 'node.neighbor', style: { 'background-color': surface2, 'background-opacity': 1, 'border-width': 2.2 } },
         { selector: 'node.focus', style: { 'background-color': surface2, 'background-opacity': 1, 'border-color': accent, 'border-width': 3 } },
-        { selector: 'edge.neighbor', style: { opacity: 0.95, width: 2.4, 'line-color': accent, 'target-arrow-color': accent } },
+        { selector: 'edge.neighbor', style: { opacity: 0.95, width: 2.4, 'line-color': accent, 'target-arrow-color': accent, label: 'data(label)' } },
       ],
     })
     coreRef.current = cy
@@ -102,7 +108,7 @@ export function CytoscapeView({ nodes, edges, layout = 'cose', title, subtitle, 
 
   return (
     <section className="view">
-      <div className="view-heading"><div><h1>{title}</h1><p>{subtitle}</p></div><div className="graph-tools"><label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ID 或名称" /></label>{readableStart && <button type="button" onClick={readableGraph}>可读视图</button>}<button type="button" onClick={fitGraph}>适应全图</button></div></div>
+      <div className="view-heading"><div><h1>{title}</h1><p>{subtitle}</p></div><div className="graph-tools">{toolbar}<label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ID 或名称" /></label>{readableStart && <button type="button" onClick={readableGraph}>可读视图</button>}<button type="button" onClick={fitGraph}>适应全图</button></div></div>
       <div className="graph-layout"><div className="graph-canvas" ref={containerRef} role="img" aria-label={title} /><GraphDetail detail={detail} /></div>
     </section>
   )
