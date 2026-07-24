@@ -3,16 +3,6 @@
 # 输出: factions.rag.yml
 
 entries:
-  - key: 星契管理院
-    type: faction
-    primary:
-      - worldbuilding/factions/星契管理院.md
-    related:
-      - worldbuilding/factions/_index.md
-    tags:
-      - factions
-      - 星契管理院
-    status: confirmed
   - key: 星辰家族
     type: faction
     primary:
@@ -42,4 +32,14 @@ entries:
     tags:
       - factions
       - 黑暗契约者
+    status: confirmed
+  - key: 星辰管理局
+    type: faction
+    primary:
+      - worldbuilding/factions/星辰管理局.md
+    related:
+      - worldbuilding/factions/_index.md
+    tags:
+      - factions
+      - 星辰管理局
     status: confirmed

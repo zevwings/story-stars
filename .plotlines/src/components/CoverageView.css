@@ -1,0 +1,15 @@
+.coverage-picker {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+}
+
+.coverage-picker select {
+  min-width: 150px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 8px 30px 8px 10px;
+  color: var(--text);
+}

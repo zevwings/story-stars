@@ -52,3 +52,6 @@ __pycache__/
 # Tool runtime output
 tmp/
 temp/
+.plotlines/node_modules/
+.plotlines/dist/
+.plotlines/generated/

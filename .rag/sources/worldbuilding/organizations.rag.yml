@@ -1,0 +1,55 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: organizations.rag.yml
+
+entries:
+  - key: 江城映彩媒体有限公司
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江城映彩媒体有限公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江城映彩媒体有限公司
+    status: confirmed
+  - key: 宠你宠物诊所
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/宠你宠物诊所.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 宠你宠物诊所
+    status: confirmed
+  - key: 裴家健康文化产业网络
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/裴家健康文化产业网络.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 裴家健康文化产业网络
+    status: confirmed
+  - key: 陆家境外产业网络
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/陆家境外产业网络.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 陆家境外产业网络
+    status: confirmed
+  - key: 齐心公益基金会
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/齐心公益基金会.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 齐心公益基金会
+    status: confirmed

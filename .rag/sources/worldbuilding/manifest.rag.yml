@@ -7,25 +7,58 @@ routes:
       - faction
     tags:
       - factions
-      - 星契管理院
       - 星辰家族
+      - 星辰管理局
       - 黑市
       - 黑暗契约者
     examples:
-      - 星契管理院
       - 星辰家族
+      - 星辰管理局
       - 黑市
       - 黑暗契约者
+  - file: organizations.rag.yml
+    types:
+      - worldbuilding.organizations
+      - worldbuilding.systems
+      - worldbuilding.systems.权柄
+      - worldbuilding.technology
+    tags:
+      - organizations
+      - systems
+      - technology
+      - 侵蚀与修复权柄
+      - 宠你宠物诊所
+      - 意识与认知权柄
+      - 感知与信息权柄
+      - 战斗规则
+      - 时代背景
+      - 星辰之力
+    examples:
+      - 宠你宠物诊所
+      - 江城映彩媒体有限公司
+      - 裴家健康文化产业网络
+      - 陆家境外产业网络
+      - 齐心公益基金会
   - file: places.rag.yml
     types:
       - place
     tags:
       - regions
       - 主城·江州
+      - 国内映射
       - 地理总则
+      - 心动酒吧
+      - 林语心理咨询工作室
+      - 栖云大学
+      - 栖云山
+      - 江州
+      - 江州中央商务区
     examples:
       - 主城·江州
+      - 国内映射
       - 地理总则
+      - 江州中央商务区
+      - 心动酒吧
   - file: state.rag.yml
     types:
       - state
@@ -38,24 +71,3 @@ routes:
       - 伴侣与关系形态
       - 保密与公开性
       - 觉醒与登记
-  - file: systems.rag.yml
-    types:
-      - worldbuilding.systems
-      - worldbuilding.technology
-    tags:
-      - systems
-      - technology
-      - 战斗规则
-      - 时代背景
-      - 星辰之力
-      - 星辰之印
-      - 星辰契约
-      - 星辰异变
-      - 星辰控制
-      - 星辰权柄
-    examples:
-      - 战斗规则
-      - 时代背景
-      - 星辰之力
-      - 星辰之印
-      - 星辰契约
