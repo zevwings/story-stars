@@ -18,3 +18,4 @@
 | [technology](technology/_index.md) | 肉体兴奋药剂，以及针对星辰异变的催化与研究性净化药剂 | 已升格的正式设定 |
 | [society](society/_index.md) | 星辰契约社会的公开性、登记制度与关系形态 | 已升格的正式设定 |
 | [regions](regions/_index.md) | 影射式架空的地理映射、城市命名与主城空间结构 | 已升格的正式设定 |
+| [organizations](organizations/_index.md) | 现实公司、机构与跨剧情线长期复用的组织 | 已升格的正式设定 |

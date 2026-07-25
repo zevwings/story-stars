@@ -110,10 +110,14 @@ members:
       - characters/preentry/童颜/形象.md
       - characters/preentry/童颜/衣装.md
       - characters/preentry/童颜/契约.md
+  - key: 楚辞
+    primary:
+      - characters/preentry/楚辞/形象.md
+      - characters/preentry/楚辞/衣装.md
   - key: 杨柳
     primary:
       - characters/preentry/杨柳/主卡.md
   - key: 周晓莉
     primary:
       - characters/preentry/周晓莉/主卡.md
-note: 共 29 人
+note: 共 30 人

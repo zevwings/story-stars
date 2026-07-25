@@ -58,6 +58,8 @@ routes:
     static: characters/preentry/刘斌文/主卡.md
   - key: 童颜
     static: characters/preentry/童颜/形象.md
+  - key: 楚辞
+    static: characters/preentry/楚辞/形象.md
   - key: 杨柳
     static: characters/preentry/杨柳/主卡.md
   - key: 周晓莉
