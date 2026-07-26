@@ -14,45 +14,6 @@ members:
     primary:
       - characters/preentry/唐雨霖/形象.md
       - characters/preentry/唐雨霖/衣装.md
-  - key: 安若曦
-    primary:
-      - characters/preentry/安若曦/形象.md
-      - characters/preentry/安若曦/衣装.md
-      - characters/preentry/安若曦/契约.md
-  - key: 苏璃
-    primary:
-      - characters/preentry/苏璃/形象.md
-      - characters/preentry/苏璃/衣装.md
-  - key: 温婉
-    primary:
-      - characters/preentry/温婉/形象.md
-      - characters/preentry/温婉/衣装.md
-  - key: 林芷兰
-    primary:
-      - characters/preentry/林芷兰/形象.md
-      - characters/preentry/林芷兰/衣装.md
-      - characters/preentry/林芷兰/契约.md
-  - key: 江岚
-    primary:
-      - characters/preentry/江岚/形象.md
-      - characters/preentry/江岚/衣装.md
-  - key: 苏晚乔
-    primary:
-      - characters/preentry/苏晚乔/形象.md
-      - characters/preentry/苏晚乔/衣装.md
-      - characters/preentry/苏晚乔/契约.md
-  - key: 唐雨薇
-    primary:
-      - characters/preentry/唐雨薇/形象.md
-      - characters/preentry/唐雨薇/衣装.md
-  - key: 许知夏
-    primary:
-      - characters/preentry/许知夏/形象.md
-      - characters/preentry/许知夏/衣装.md
-  - key: 许知秋
-    primary:
-      - characters/preentry/许知秋/形象.md
-      - characters/preentry/许知秋/衣装.md
   - key: 阮清黎
     primary:
       - characters/preentry/阮清黎/形象.md
@@ -62,11 +23,6 @@ members:
       - characters/preentry/沈宁/形象.md
       - characters/preentry/沈宁/衣装.md
       - characters/preentry/沈宁/契约.md
-  - key: 白玥
-    primary:
-      - characters/preentry/白玥/形象.md
-      - characters/preentry/白玥/衣装.md
-      - characters/preentry/白玥/契约.md
   - key: 齐心
     primary:
       - characters/preentry/齐心/形象.md
@@ -90,9 +46,6 @@ members:
   - key: 裴兰馨
     primary:
       - characters/preentry/裴兰馨/契约.md
-  - key: 裴怀安
-    primary:
-      - characters/preentry/裴怀安/契约.md
   - key: 任群
     primary:
       - characters/preentry/任群/契约.md
@@ -105,19 +58,28 @@ members:
   - key: 刘斌文
     primary:
       - characters/preentry/刘斌文/主卡.md
-  - key: 童颜
+  - key: 赵梦娜
     primary:
-      - characters/preentry/童颜/形象.md
-      - characters/preentry/童颜/衣装.md
-      - characters/preentry/童颜/契约.md
-  - key: 楚辞
+      - characters/preentry/赵梦娜/主卡.md
+  - key: 朱岑郁
     primary:
-      - characters/preentry/楚辞/形象.md
-      - characters/preentry/楚辞/衣装.md
+      - characters/preentry/朱岑郁/主卡.md
+  - key: 黄锦一
+    primary:
+      - characters/preentry/黄锦一/主卡.md
+  - key: 李垣羲
+    primary:
+      - characters/preentry/李垣羲/主卡.md
+  - key: 莫思绮
+    primary:
+      - characters/preentry/莫思绮/主卡.md
   - key: 杨柳
     primary:
       - characters/preentry/杨柳/主卡.md
   - key: 周晓莉
     primary:
       - characters/preentry/周晓莉/主卡.md
-note: 共 30 人
+  - key: 郑文悦
+    primary:
+      - characters/preentry/郑文悦/主卡.md
+note: 共 23 人

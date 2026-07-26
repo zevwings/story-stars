@@ -4,19 +4,22 @@
 
 > `characters/` 只放静态人物档案；会随章节变化的内容请放到角色动态目录 `context/characters/`。
 
-## 必备静态模板
+## 基础静态模板
 
-新建人物时，在 `characters/major/人物名/`、`characters/minor/人物名/` 或 `characters/preentry/人物名/` 下复制：
+新建人物时，先在 `characters/major/人物名/`、`characters/minor/人物名/` 或 `characters/preentry/人物名/` 下创建：
 
 - [主卡.md](主卡.md)
-- [形象.md](形象.md)
-- [衣装.md](衣装.md)
 
 ## 按需静态模板
 
+人物需要稳定视觉或衣装调用时再创建：
+
+- [形象.md](形象.md)
+- [衣装.md](衣装.md)
+
 - [契约.md](契约.md)：只在角色星辰契约身份及至少一项权柄方向已经确认时创建；非契约者或契约状态未确认者不创建正式契约档案，缺口转入施工层待确认记录。
 
-复制后到 `characters/_index.md` 与对应层级索引登记编号、状态和已有子档。
+创建后到 `characters/_index.md` 与对应层级索引登记编号、状态和实际已有子档。没有形象或衣装页的人物可在后续需要稳定调用时补建，不保留空文件。
 
 ## 动态模板
 

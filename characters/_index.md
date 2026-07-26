@@ -7,7 +7,7 @@
 - [主要人物](major/_index.md)
 - [次要人物](minor/_index.md)
 - [预备人物](preentry/_index.md)
-- [人物模板](_template/_index.md)（新建人物复制三个必备页；角色专属契约档案按需创建）
+- [人物模板](_template/_index.md)（新建人物先建主卡；形象、衣装与角色专属契约档案按调用需要创建）
 
 ## 在场人物
 
