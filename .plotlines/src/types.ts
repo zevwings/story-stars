@@ -3,6 +3,8 @@ export type PlotlineNode = {
   title: string
   type: string
   status: string
+  shape: 'progression' | 'loop'
+  progressionKind: 'single' | 'chain' | ''
   position: string
   path: string
   upstream: string[]

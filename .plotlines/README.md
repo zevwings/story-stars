@@ -36,6 +36,8 @@ yarn preview  # 预览生产构建
 ## 目录边界
 
 - 图谱分组直接来自 `story/plotlines/` 的正式目录，阶段覆盖来自 `story/arcs/`，不维护第二份布局配置。
+- 节点形态直接读取正式节点的 `节点形态` 与 `推进结构`：颜色表示线路归属，徽标与边框表示推进节点、回路节点、单点和递进链。
+- 回路节点只在首次建立阶段显示一张卡；后续重复调用不复制正式节点，将来由章节消费链承接。
 - `generated/story-graph.json`：`story-writer plotline graph build` 生成的完整中立图谱数据，前端直接读取。
 - `src/`：应用与视图实现。
 - `generated/`、`dist/`、`node_modules/`：本地派生产物，不纳入版本控制。

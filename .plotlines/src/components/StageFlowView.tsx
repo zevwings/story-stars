@@ -4,10 +4,17 @@ import type { PlotlineGraph, PlotlineNode } from '../types'
 import { GraphDetail } from './GraphDetail'
 
 const colors: Record<string, string> = { main: '#b88a0a', villain: '#c7504a', intimacy: '#c85d8b', relation: '#4f83b9', case: '#349284', retired: '#858585' }
+type ShapeFilter = 'all' | 'progression' | 'loop' | 'single' | 'chain'
+
+function shapeLabel(item: PlotlineNode): string {
+  if (item.shape === 'loop') return '回路'
+  return item.progressionKind === 'chain' ? '递进链' : '单点'
+}
 
 export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
   const [selected, setSelected] = useState<PlotlineNode | null>(null)
   const [query, setQuery] = useState('')
+  const [shapeFilter, setShapeFilter] = useState<ShapeFilter>('all')
   const stageIndex = useMemo(() => new Map(graph.stages.map((stage, index) => [stage.id, index])), [graph.stages])
   const groupIndex = useMemo(() => new Map(graph.groups.map((group, index) => [group.id, index])), [graph.groups])
   const model = useMemo(() => {
@@ -25,8 +32,8 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
       return {
         id: item.id,
         position: { x: column * 330 + 30 + (row % 2) * 14, y: row * 76 + 82 },
-        data: { label: <div className="flow-card"><span>{item.id}</span><strong>{item.title}</strong></div> },
-        style: { width: 260, minHeight: 54, borderColor: colors[item.kind] || colors.relation, background: `color-mix(in srgb, ${colors[item.kind] || colors.relation} 15%, var(--surface))`, color: 'var(--text)', borderRadius: 9, fontSize: 11 },
+        data: { label: <div className="flow-card"><div><span>{item.id}</span><em className={`shape-badge ${item.shape}`}>{shapeLabel(item)}</em></div><strong>{item.title}</strong></div> },
+        style: { width: 260, minHeight: 54, borderColor: colors[item.kind] || colors.relation, borderStyle: item.shape === 'loop' ? 'double' : 'solid', borderWidth: item.shape === 'loop' ? 3 : 1, background: `color-mix(in srgb, ${colors[item.kind] || colors.relation} 15%, var(--surface))`, color: 'var(--text)', borderRadius: item.shape === 'loop' ? 15 : 9, fontSize: 11 },
         sourcePosition: Position.Right,
         targetPosition: Position.Left,
         zIndex: 2,
@@ -59,7 +66,13 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
   const visibleNodes = useMemo(() => model.nodes.map((node) => {
     if (node.id.startsWith('stage:')) return node
     const plotline = graph.nodes.find((item) => item.id === node.id)
-    const hidden = query.trim() ? !plotline?.title.toLowerCase().includes(query.toLowerCase()) && !node.id.toLowerCase().includes(query.toLowerCase()) : false
+    const missesQuery = query.trim() ? !plotline?.title.toLowerCase().includes(query.toLowerCase()) && !node.id.toLowerCase().includes(query.toLowerCase()) : false
+    const missesShape = shapeFilter === 'progression' ? plotline?.shape !== 'progression'
+      : shapeFilter === 'loop' ? plotline?.shape !== 'loop'
+      : shapeFilter === 'single' ? plotline?.progressionKind !== 'single'
+      : shapeFilter === 'chain' ? plotline?.progressionKind !== 'chain'
+      : false
+    const hidden = missesQuery || missesShape
     const isSelected = selected?.id === node.id
     const isDimmed = highlightedIds != null && !highlightedIds.has(node.id)
     return {
@@ -68,12 +81,12 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
       style: {
         ...node.style,
         opacity: isDimmed ? 0.12 : 1,
-        borderWidth: isSelected ? 3 : 1,
+        borderWidth: isSelected ? 3 : node.style?.borderWidth,
         borderColor: isSelected ? 'var(--accent)' : node.style?.borderColor,
         boxShadow: isSelected ? '0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent)' : 'none',
       },
     }
-  }), [graph.nodes, highlightedIds, model.nodes, query, selected])
+  }), [graph.nodes, highlightedIds, model.nodes, query, selected, shapeFilter])
   const visibleEdges = useMemo(() => model.edges.map((edge) => {
     const isNeighbor = selected != null && (edge.source === selected.id || edge.target === selected.id)
     return {
@@ -94,8 +107,8 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
 
   return (
     <section className="view">
-      <div className="view-heading"><div><h1>剧情编排</h1><p>阶段泳道与正式上下游合并展示；节点按组排序并错开放置。</p></div><label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="剧情节点" /></label></div>
-      <div className="graph-layout"><div className="flow-shell"><ReactFlow nodes={visibleNodes} edges={visibleEdges} onNodeClick={(_, node) => setSelected(graph.nodes.find((item) => item.id === node.id) || null)} onPaneClick={() => setSelected(null)} fitView minZoom={0.12} maxZoom={2}><Background gap={18} size={1} /><Controls /></ReactFlow></div><GraphDetail detail={selected ? { id: selected.id, label: selected.title, kind: selected.type, description: selected.position, path: selected.path, facts: [{ label: '阶段', value: selected.stages.map((id) => graph.stages.find((stage) => stage.id === id)?.label || id).join(' · ') }, { label: '上游', value: selected.upstream.join('、') }, { label: '下游', value: selected.downstream.join('、') }] } : null} /></div>
+      <div className="view-heading"><div><h1>剧情编排</h1><p>阶段泳道与正式上下游合并展示；颜色表示线路归属，徽标表示节点形态。</p></div><div className="plotline-tools"><div className="shape-filters">{([['all', '全部'], ['progression', '推进'], ['loop', '回路'], ['single', '单点'], ['chain', '递进链']] as [ShapeFilter, string][]).map(([value, label]) => <button key={value} className={shapeFilter === value ? 'active' : ''} onClick={() => setShapeFilter(value)}>{label}</button>)}</div><label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="剧情节点" /></label></div></div>
+      <div className="graph-layout"><div className="flow-shell"><ReactFlow nodes={visibleNodes} edges={visibleEdges} onNodeClick={(_, node) => setSelected(graph.nodes.find((item) => item.id === node.id) || null)} onPaneClick={() => setSelected(null)} fitView minZoom={0.12} maxZoom={2}><Background gap={18} size={1} /><Controls /></ReactFlow></div><GraphDetail detail={selected ? { id: selected.id, label: selected.title, kind: selected.type, description: selected.position, path: selected.path, facts: [{ label: '形态', value: selected.shape === 'loop' ? '回路节点' : `推进节点 · ${selected.progressionKind === 'chain' ? '递进链' : '单点'}` }, { label: '阶段', value: selected.stages.map((id) => graph.stages.find((stage) => stage.id === id)?.label || id).join(' · ') }, { label: '状态', value: selected.status }, { label: '上游', value: selected.upstream.join('、') }, { label: '下游', value: selected.downstream.join('、') }] } : null} /></div>
     </section>
   )
 }

@@ -1,8 +1,6 @@
 # .prewrite/ 与 .analysis/ 常用于施工层和待确认事项, 默认不忽略。
 
 # macOS local metadata
-.DS_Store
-**/.DS_Store
 
 # Claude local metadata
 .claude/*
@@ -55,3 +53,6 @@ temp/
 .plotlines/node_modules/
 .plotlines/dist/
 .plotlines/generated/
+
+# 目录放行规则之后再次排除 macOS 元数据。
+.DS_Store
