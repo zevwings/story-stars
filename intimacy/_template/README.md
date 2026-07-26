@@ -15,10 +15,10 @@
 
 | Skill | 触发 | 输入 | 产物 |
 | :--- | :--- | :--- | :--- |
-| `intimacy-planner`（正文亲密） | `chapter-writer` 自动 / 主文衔接 | 主文 + 角色卡 | `intimacy/chapters/ch-XXX/scene_NN/design.a.md` |
-| `intimacy-writer`（正文亲密正文） | `chapter-writer` 自动 / 衔接段 | `design.a.md` | 回写 `chapters/ch-XXX/draft.md` |
-| `/intimacy-hd-planner`（B 场） | **仅手动** | `design.a.md` + 主文 + 角色卡 | `design.b.md` + `outline.md` |
-| `/intimacy-hd-writer`（B 场正文） | **仅手动** | `outline.md` | `intimacy/chapters/ch-XXX/scene_NN/draft.md` / `final.md` |
+| `intimacy-planner`（正文亲密） | `chapter-writer` 自动 / 主文衔接 | 主文 + 角色卡 | `intimacy/chapters/chXXX/scene_NN/design.a.md` |
+| `intimacy-writer`（正文亲密正文） | `chapter-writer` 自动 / 衔接段 | `design.a.md` | 回写 `chapters/chXXX/draft.md` |
+| `/intimacy-hd-planner`（B 场） | **仅手动** | `design.a.md` + 主文 + 角色卡 | `intimacy/chapters/chXXX/scene_NN/design.b.md` |
+| `/intimacy-hd-writer`（B 场正文） | **仅手动** | `design.a.md` + `design.b.md` | `intimacy/chapters/chXXX/scene_NN/draft.md`；作者明确要求定稿时才写 `final.md` |
 
 `design.b.md` 文件名固定单一，模板源按场型选（solo / multi）。
 
@@ -80,7 +80,7 @@
 
 1. 先判断这是 `正文亲密` 还是 `B 场`
 2. 正文亲密只需 `design.a.md`，由 `intimacy-planner` 自动产出
-3. 走 B 场时手动触发 `/intimacy-hd-planner`，它会按场型选模板源（solo / multi），输出统一文件名 `design.b.md` + `outline.md`
+3. 走 B 场时手动触发 `/intimacy-hd-planner`，它会按场型选模板源（solo / multi），输出唯一的 B 场设计真源 `design.b.md`，不再生成平行 `outline.md`
 4. 落正文前先读主文上下文、角色卡和必要规则（`BIBLE.md` → `STYLE.md` → 角色卡）
 
 ## 提醒
