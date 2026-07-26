@@ -53,3 +53,73 @@ entries:
       - organizations
       - 齐心公益基金会
     status: confirmed
+  - key: 兰纳安吉旅游集团
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/兰纳安吉旅游集团.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 兰纳安吉旅游集团
+    status: confirmed
+  - key: 心动酒吧
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/心动酒吧.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 心动酒吧
+    status: confirmed
+  - key: 林语心理咨询工作室
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/林语心理咨询工作室.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 林语心理咨询工作室
+    status: confirmed
+  - key: 江州城市投资集团
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江州城市投资集团.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州城市投资集团
+    status: confirmed
+  - key: 江州第一医院
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江州第一医院.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州第一医院
+    status: confirmed
+  - key: 野人户外
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/野人户外.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 野人户外
+    status: confirmed
+  - key: 锦云大学
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/锦云大学.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 锦云大学
+    status: confirmed

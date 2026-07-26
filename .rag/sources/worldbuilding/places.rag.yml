@@ -88,3 +88,45 @@ entries:
       - 江州
       - 心动酒吧
     status: confirmed
+  - key: 兰纳共和国
+    type: place
+    primary:
+      - worldbuilding/regions/兰纳共和国.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 兰纳共和国
+    status: confirmed
+  - key: 玉屏区
+    type: place
+    primary:
+      - worldbuilding/regions/江州/玉屏区.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 玉屏区
+    status: confirmed
+  - key: 锦云山
+    type: place
+    primary:
+      - worldbuilding/regions/江州/锦云山.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 锦云山
+    status: confirmed
+  - key: 金洲共和国
+    type: place
+    primary:
+      - worldbuilding/regions/金洲共和国.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 金洲共和国
+    status: confirmed

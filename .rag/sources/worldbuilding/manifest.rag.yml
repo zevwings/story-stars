@@ -16,9 +16,11 @@ routes:
       - 星辰管理局
       - 黑市
       - 黑暗契约者
-  - file: organizations.rag.yml
+  - file: organizations/万安集团.rag.yml
     types:
       - worldbuilding.organizations
+      - worldbuilding.organizations.万安集团
+      - worldbuilding.organizations.大唐集团
       - worldbuilding.systems
       - worldbuilding.systems.权柄
       - worldbuilding.technology
@@ -26,39 +28,39 @@ routes:
       - organizations
       - systems
       - technology
+      - 万安健康
+      - 万安影视文化
+      - 万安集团
       - 侵蚀与修复权柄
-      - 宠你宠物诊所
-      - 意识与认知权柄
-      - 感知与信息权柄
-      - 战斗规则
-      - 时代背景
-      - 星辰之力
+      - 兰纳安吉旅游集团
+      - 大唐产业投资有限公司
+      - 大唐置业发展有限公司
     examples:
+      - 万安健康
+      - 万安影视文化
+      - 兰纳安吉旅游集团
       - 宠你宠物诊所
-      - 江州映彩媒体有限公司
-      - 裴家健康文化产业网络
-      - 陆家境外产业网络
-      - 齐心公益基金会
+      - 心动酒吧
   - file: places.rag.yml
     types:
       - place
     tags:
       - regions
       - 主城·江州
+      - 兰纳共和国
       - 国内映射
       - 地理总则
-      - 心动酒吧
-      - 林语心理咨询工作室
-      - 栖云大学
-      - 栖云山
       - 江州
       - 江州中央商务区
+      - 玉屏区
+      - 金洲共和国
+      - 锦云山
     examples:
       - 主城·江州
+      - 兰纳共和国
       - 国内映射
       - 地理总则
       - 江州中央商务区
-      - 心动酒吧
   - file: state.rag.yml
     types:
       - state

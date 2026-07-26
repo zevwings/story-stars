@@ -1,0 +1,27 @@
+# 自动生成的路由文件 - 手写条目已保留
+# 来源: worldbuilding/ 目录扫描
+# 输出: organizations/万安集团.rag.yml
+
+entries:
+  - key: 万安健康
+    type: worldbuilding.organizations.万安集团
+    primary:
+      - worldbuilding/organizations/万安集团/万安健康.md
+    related:
+      - worldbuilding/organizations/万安集团/_index.md
+    tags:
+      - organizations
+      - 万安集团
+      - 万安健康
+    status: confirmed
+  - key: 万安影视文化
+    type: worldbuilding.organizations.万安集团
+    primary:
+      - worldbuilding/organizations/万安集团/万安影视文化.md
+    related:
+      - worldbuilding/organizations/万安集团/_index.md
+    tags:
+      - organizations
+      - 万安集团
+      - 万安影视文化
+    status: confirmed

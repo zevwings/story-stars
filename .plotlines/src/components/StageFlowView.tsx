@@ -32,7 +32,7 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
       return {
         id: item.id,
         position: { x: column * 330 + 30 + (row % 2) * 14, y: row * 76 + 82 },
-        data: { label: <div className="flow-card"><div><span>{item.id}</span><em className={`shape-badge ${item.shape}`}>{shapeLabel(item)}</em></div><strong>{item.title}</strong></div> },
+        data: { label: <div className="flow-card"><div><span>{item.id}</span><em className={`shape-badge ${item.shape} ${item.progressionKind}`}>{shapeLabel(item)}</em></div><strong>{item.title}</strong></div> },
         style: { width: 260, minHeight: 54, borderColor: colors[item.kind] || colors.relation, borderStyle: item.shape === 'loop' ? 'double' : 'solid', borderWidth: item.shape === 'loop' ? 3 : 1, background: `color-mix(in srgb, ${colors[item.kind] || colors.relation} 15%, var(--surface))`, color: 'var(--text)', borderRadius: item.shape === 'loop' ? 15 : 9, fontSize: 11 },
         sourcePosition: Position.Right,
         targetPosition: Position.Left,
@@ -107,7 +107,7 @@ export function StageFlowView({ graph }: { graph: PlotlineGraph }) {
 
   return (
     <section className="view">
-      <div className="view-heading"><div><h1>剧情编排</h1><p>阶段泳道与正式上下游合并展示；颜色表示线路归属，徽标表示节点形态。</p></div><div className="plotline-tools"><div className="shape-filters">{([['all', '全部'], ['progression', '推进'], ['loop', '回路'], ['single', '单点'], ['chain', '递进链']] as [ShapeFilter, string][]).map(([value, label]) => <button key={value} className={shapeFilter === value ? 'active' : ''} onClick={() => setShapeFilter(value)}>{label}</button>)}</div><label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="剧情节点" /></label></div></div>
+      <div className="view-heading"><div><h1>剧情编排</h1><p>卡片颜色表示线路归属；蓝色是单点，琥珀色是递进链，青绿色是可重复回路。</p></div><div className="plotline-tools"><div className="shape-filters">{([['all', '全部'], ['progression', '推进节点'], ['single', '单点推进'], ['chain', '递进链'], ['loop', '可重复回路']] as [ShapeFilter, string][]).map(([value, label]) => <button key={value} data-shape={value} className={shapeFilter === value ? 'active' : ''} onClick={() => setShapeFilter(value)}>{label}</button>)}</div><label className="search">搜索<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="剧情节点" /></label></div></div>
       <div className="graph-layout"><div className="flow-shell"><ReactFlow nodes={visibleNodes} edges={visibleEdges} onNodeClick={(_, node) => setSelected(graph.nodes.find((item) => item.id === node.id) || null)} onPaneClick={() => setSelected(null)} fitView minZoom={0.12} maxZoom={2}><Background gap={18} size={1} /><Controls /></ReactFlow></div><GraphDetail detail={selected ? { id: selected.id, label: selected.title, kind: selected.type, description: selected.position, path: selected.path, facts: [{ label: '形态', value: selected.shape === 'loop' ? '回路节点' : `推进节点 · ${selected.progressionKind === 'chain' ? '递进链' : '单点'}` }, { label: '阶段', value: selected.stages.map((id) => graph.stages.find((stage) => stage.id === id)?.label || id).join(' · ') }, { label: '状态', value: selected.status }, { label: '上游', value: selected.upstream.join('、') }, { label: '下游', value: selected.downstream.join('、') }] } : null} /></div>
     </section>
   )
