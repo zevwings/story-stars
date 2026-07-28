@@ -1,0 +1,10 @@
+key: 次要人物
+type: character.group
+status: confirmed
+members:
+  - key: 赵梦娜
+    primary:
+      - characters/minor/赵梦娜/主卡.md
+      - characters/minor/赵梦娜/形象.md
+      - characters/minor/赵梦娜/衣装.md
+note: 共 1 人

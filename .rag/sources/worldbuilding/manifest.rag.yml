@@ -39,8 +39,8 @@ routes:
       - 万安健康
       - 万安影视文化
       - 兰纳安吉旅游集团
-      - 宠你宠物诊所
       - 心动酒吧
+      - 林语心理咨询工作室
   - file: places.rag.yml
     types:
       - place
