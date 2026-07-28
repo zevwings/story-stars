@@ -55,12 +55,9 @@ members:
   - key: 乔宁
     primary:
       - characters/preentry/乔宁/主卡.md
-  - key: 刘斌文
+  - key: 刘秉文
     primary:
-      - characters/preentry/刘斌文/主卡.md
-  - key: 赵梦娜
-    primary:
-      - characters/preentry/赵梦娜/主卡.md
+      - characters/preentry/刘秉文/主卡.md
   - key: 朱岑郁
     primary:
       - characters/preentry/朱岑郁/主卡.md
@@ -82,4 +79,16 @@ members:
   - key: 郑文悦
     primary:
       - characters/preentry/郑文悦/主卡.md
-note: 共 23 人
+  - key: 章绍衡
+    primary:
+      - characters/preentry/章绍衡/主卡.md
+  - key: 姜禾
+    primary:
+      - characters/preentry/姜禾/主卡.md
+  - key: 孟舒桐
+    primary:
+      - characters/preentry/孟舒桐/主卡.md
+  - key: 高承岳
+    primary:
+      - characters/preentry/高承岳/主卡.md
+note: 共 26 人

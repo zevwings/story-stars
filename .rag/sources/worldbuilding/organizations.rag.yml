@@ -123,3 +123,13 @@ entries:
       - organizations
       - 锦云大学
     status: confirmed
+  - key: 江州市公安局
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江州市公安局.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州市公安局
+    status: confirmed

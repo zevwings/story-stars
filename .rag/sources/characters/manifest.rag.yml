@@ -28,6 +28,8 @@ routes:
     static: characters/major/童颜/主卡.md
   - key: 楚辞
     static: characters/major/楚辞/主卡.md
+  - key: 赵梦娜
+    static: characters/minor/赵梦娜/主卡.md
   - key: 唐雨宸
     static: characters/preentry/唐雨宸/形象.md
   - key: 徐清
@@ -56,10 +58,8 @@ routes:
     static: characters/preentry/程叙/主卡.md
   - key: 乔宁
     static: characters/preentry/乔宁/主卡.md
-  - key: 刘斌文
-    static: characters/preentry/刘斌文/主卡.md
-  - key: 赵梦娜
-    static: characters/preentry/赵梦娜/主卡.md
+  - key: 刘秉文
+    static: characters/preentry/刘秉文/主卡.md
   - key: 朱岑郁
     static: characters/preentry/朱岑郁/主卡.md
   - key: 黄锦一
@@ -74,3 +74,11 @@ routes:
     static: characters/preentry/周晓莉/主卡.md
   - key: 郑文悦
     static: characters/preentry/郑文悦/主卡.md
+  - key: 章绍衡
+    static: characters/preentry/章绍衡/主卡.md
+  - key: 姜禾
+    static: characters/preentry/姜禾/主卡.md
+  - key: 孟舒桐
+    static: characters/preentry/孟舒桐/主卡.md
+  - key: 高承岳
+    static: characters/preentry/高承岳/主卡.md
