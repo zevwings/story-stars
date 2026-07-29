@@ -21,7 +21,7 @@
 
 ## 施工与派生目录
 
-- `.construction/`: 已确认的执行规格；具体单元使用稳定 `CON-xxxx` ID，并由 `_status/` 五态管理。
+- `story/construction/`: 已确认的执行规格；具体单元使用稳定 `CON-xxxx` ID，并由 `_status/` 五态管理。
 - `.plotlines/`: 剧情图谱工作台。
 - `.prewrite/`: 分章节写前上下文包。
 

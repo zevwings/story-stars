@@ -94,3 +94,5 @@ routes:
     static: characters/preentry/高承岳/主卡.md
   - key: 方成越
     static: characters/preentry/方成越/主卡.md
+  - key: 于静
+    static: characters/preentry/于静/主卡.md

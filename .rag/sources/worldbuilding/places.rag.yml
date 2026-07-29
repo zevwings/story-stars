@@ -13,15 +13,15 @@ entries:
       - regions
       - 主城·江州
     status: confirmed
-  - key: 地理总则
+  - key: 兰纳共和国
     type: place
     primary:
-      - worldbuilding/regions/地理总则.md
+      - worldbuilding/regions/兰纳共和国.md
     related:
       - worldbuilding/regions/_index.md
     tags:
       - regions
-      - 地理总则
+      - 兰纳共和国
     status: confirmed
   - key: 国内映射
     type: place
@@ -33,6 +33,16 @@ entries:
       - regions
       - 国内映射
     status: confirmed
+  - key: 地理总则
+    type: place
+    primary:
+      - worldbuilding/regions/地理总则.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 地理总则
+    status: confirmed
   - key: 江州中央商务区
     type: place
     primary:
@@ -43,60 +53,6 @@ entries:
       - regions
       - 江州
       - 江州中央商务区
-    status: confirmed
-  - key: 林语心理咨询工作室
-    type: place
-    primary:
-      - worldbuilding/regions/江州/林语心理咨询工作室.md
-    related:
-      - worldbuilding/regions/_index.md
-    tags:
-      - regions
-      - 江州
-      - 林语心理咨询工作室
-    status: confirmed
-  - key: 栖云大学
-    type: place
-    primary:
-      - worldbuilding/regions/江州/栖云大学.md
-    related:
-      - worldbuilding/regions/_index.md
-    tags:
-      - regions
-      - 江州
-      - 栖云大学
-    status: confirmed
-  - key: 栖云山
-    type: place
-    primary:
-      - worldbuilding/regions/江州/栖云山.md
-    related:
-      - worldbuilding/regions/_index.md
-    tags:
-      - regions
-      - 江州
-      - 栖云山
-    status: confirmed
-  - key: 心动酒吧
-    type: place
-    primary:
-      - worldbuilding/regions/江州/心动酒吧.md
-    related:
-      - worldbuilding/regions/_index.md
-    tags:
-      - regions
-      - 江州
-      - 心动酒吧
-    status: confirmed
-  - key: 兰纳共和国
-    type: place
-    primary:
-      - worldbuilding/regions/兰纳共和国.md
-    related:
-      - worldbuilding/regions/_index.md
-    tags:
-      - regions
-      - 兰纳共和国
     status: confirmed
   - key: 玉屏区
     type: place

@@ -16,14 +16,14 @@
 1. 先读 `ENTRY.md`。
 2. 再读 `BIBLE.md`。
 3. 写正文、续写、润色、审读、对白优化或亲密正文回写时, 再读 `STYLE.md`。
-4. 再按任务进入正式故事目录；涉及已登记施工包时读取 `.construction/_index.md` 与 `_status/`，只继承 `active` 或目标匹配的 `bound` 单元。
+4. 再按任务进入正式故事目录；涉及已登记施工包时读取 `story/construction/_index.md` 与 `_status/`，只继承 `active` 或目标匹配的 `bound` 单元。
 5. 最后按需进入 story-writer runtime 规则。
 
 若本文、`ENTRY.md`、工具说明或 story-writer 公共规则与 `BIBLE.md` 冲突, 以 `BIBLE.md` 为准。
 
 ## 施工与派生目录
 
-目录职责与真源边界以 `BIBLE.md`「十一、施工与派生目录」为准。`.construction/` 从 `_index.md` 进入，具体单元状态以 `_status/` 为唯一真源；`.plotlines/` 与 `.prewrite/` 均不得作为故事事实来源。
+目录职责与真源边界以 `BIBLE.md`「十一、施工与派生目录」为准。`story/construction/` 从 `_index.md` 进入，具体单元状态以 `_status/` 为唯一真源；`.plotlines/` 与 `.prewrite/` 均不得作为故事事实来源。
 
 ## 真源与待确认
 

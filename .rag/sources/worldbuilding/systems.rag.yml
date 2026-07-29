@@ -73,16 +73,6 @@ entries:
       - systems
       - 星辰控制
     status: confirmed
-  - key: 星辰权柄
-    type: worldbuilding.systems
-    primary:
-      - worldbuilding/systems/星辰权柄.md
-    related:
-      - worldbuilding/systems/_index.md
-    tags:
-      - systems
-      - 星辰权柄
-    status: confirmed
   - key: 精神之海
     type: worldbuilding.systems
     primary:

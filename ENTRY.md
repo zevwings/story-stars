@@ -11,7 +11,7 @@
 1. 先读 `BIBLE.md`。
 2. 写正文、续写、润色、审读、对白优化或亲密正文回写时, 再读 `STYLE.md`。
 3. 再按任务进入 `chapters/`, `characters/`, `context/`, `clues/`, `story/`, `worldbuilding/` 或已启用专项目录。
-4. 若任务涉及已登记施工包，先读 `.construction/_index.md` 与 `_status/`，再读取当前任务命中的 `active` 或目标匹配的 `bound` 单元。
+4. 若任务涉及已登记施工包，先读 `story/construction/_index.md` 与 `_status/`，沿状态表中的施工单元链接读取当前任务命中的 `active` 或目标匹配的 `bound` 单元，并核对其正式剧情节点接口。
 5. 公共规则与参考材料通过 story-writer runtime 读取, 例如 `story-writer://rules/...` 与 `story-writer://references/...`。
 6. `.rag/`, `.plotlines/`, `.prewrite/`, `.analysis/` 不作为故事事实来源。
 
@@ -29,7 +29,7 @@
 
 ## 施工与派生目录
 
-- `.construction/`: 已确认的执行规格，入口为 `.construction/_index.md`，生命周期状态以 `.construction/_status/` 为准。
+- `story/construction/`: 只服务正式剧情节点的已确认执行规格；入口为 `story/construction/_index.md`，生命周期、施工源文件、主要剧情线归属与正式节点接口以 `story/construction/_status/` 为准。
 - `.plotlines/`: 从正式真源生成的剧情图谱工作台。
 - `.prewrite/`: 按章节生成的写前上下文包。
 

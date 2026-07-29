@@ -1,7 +1,10 @@
 # RAG / GraphRAG 工具配置。
 # 本文件只用于检索、路由和 brief 候选生成, 不是故事正典。
 # 正式事实仍以 chapters/、characters/、context/、clues/、story/、worldbuilding/ 等真源目录为准。
-# 已确认执行规格位于 .construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
+# 已确认剧情线执行规格位于 story/construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
+
+[project.truth_roots]
+construction = "story/construction"
 
 [[characters.roots]]
 path = "characters"
