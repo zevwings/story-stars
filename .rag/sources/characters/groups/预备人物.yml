@@ -2,41 +2,6 @@ key: 预备人物
 type: character.group
 status: confirmed
 members:
-  - key: 唐雨宸
-    primary:
-      - characters/preentry/唐雨宸/形象.md
-      - characters/preentry/唐雨宸/衣装.md
-  - key: 徐清
-    primary:
-      - characters/preentry/徐清/形象.md
-      - characters/preentry/徐清/衣装.md
-  - key: 唐雨霖
-    primary:
-      - characters/preentry/唐雨霖/形象.md
-      - characters/preentry/唐雨霖/衣装.md
-  - key: 阮清黎
-    primary:
-      - characters/preentry/阮清黎/形象.md
-      - characters/preentry/阮清黎/衣装.md
-  - key: 沈宁
-    primary:
-      - characters/preentry/沈宁/形象.md
-      - characters/preentry/沈宁/衣装.md
-      - characters/preentry/沈宁/契约.md
-  - key: 齐心
-    primary:
-      - characters/preentry/齐心/形象.md
-      - characters/preentry/齐心/衣装.md
-      - characters/preentry/齐心/契约.md
-  - key: 陆佳凝
-    primary:
-      - characters/preentry/陆佳凝/形象.md
-      - characters/preentry/陆佳凝/衣装.md
-  - key: 顾清言
-    primary:
-      - characters/preentry/顾清言/形象.md
-      - characters/preentry/顾清言/衣装.md
-      - characters/preentry/顾清言/契约.md
   - key: 裴崇礼
     primary:
       - characters/preentry/裴崇礼/契约.md
@@ -67,9 +32,6 @@ members:
   - key: 李垣羲
     primary:
       - characters/preentry/李垣羲/主卡.md
-  - key: 莫思绮
-    primary:
-      - characters/preentry/莫思绮/主卡.md
   - key: 杨柳
     primary:
       - characters/preentry/杨柳/主卡.md
@@ -79,9 +41,6 @@ members:
   - key: 郑文悦
     primary:
       - characters/preentry/郑文悦/主卡.md
-  - key: 章绍衡
-    primary:
-      - characters/preentry/章绍衡/主卡.md
   - key: 姜禾
     primary:
       - characters/preentry/姜禾/主卡.md
@@ -91,4 +50,7 @@ members:
   - key: 高承岳
     primary:
       - characters/preentry/高承岳/主卡.md
-note: 共 26 人
+  - key: 方成越
+    primary:
+      - characters/preentry/方成越/主卡.md
+note: 共 17 人

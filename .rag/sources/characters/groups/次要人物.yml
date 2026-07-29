@@ -7,4 +7,83 @@ members:
       - characters/minor/赵梦娜/主卡.md
       - characters/minor/赵梦娜/形象.md
       - characters/minor/赵梦娜/衣装.md
-note: 共 1 人
+  - key: 唐雨宸
+    primary:
+      - characters/minor/唐雨宸/主卡.md
+      - characters/minor/唐雨宸/形象.md
+      - characters/minor/唐雨宸/衣装.md
+  - key: 徐清
+    primary:
+      - characters/minor/徐清/主卡.md
+      - characters/minor/徐清/形象.md
+      - characters/minor/徐清/衣装.md
+  - key: 唐雨霖
+    primary:
+      - characters/minor/唐雨霖/主卡.md
+      - characters/minor/唐雨霖/形象.md
+      - characters/minor/唐雨霖/衣装.md
+  - key: 阮清黎
+    primary:
+      - characters/minor/阮清黎/主卡.md
+      - characters/minor/阮清黎/形象.md
+      - characters/minor/阮清黎/衣装.md
+  - key: 沈宁
+    primary:
+      - characters/minor/沈宁/主卡.md
+      - characters/minor/沈宁/形象.md
+      - characters/minor/沈宁/衣装.md
+      - characters/minor/沈宁/契约.md
+  - key: 齐心
+    primary:
+      - characters/minor/齐心/主卡.md
+      - characters/minor/齐心/形象.md
+      - characters/minor/齐心/衣装.md
+      - characters/minor/齐心/契约.md
+  - key: 陆佳凝
+    primary:
+      - characters/minor/陆佳凝/主卡.md
+      - characters/minor/陆佳凝/形象.md
+      - characters/minor/陆佳凝/衣装.md
+  - key: 顾清言
+    primary:
+      - characters/minor/顾清言/主卡.md
+      - characters/minor/顾清言/形象.md
+      - characters/minor/顾清言/衣装.md
+      - characters/minor/顾清言/契约.md
+  - key: 梦露（化名）
+    primary:
+      - characters/minor/梦露/主卡.md
+      - characters/minor/梦露/形象.md
+      - characters/minor/梦露/衣装.md
+  - key: 月月（艺名）
+    primary:
+      - characters/minor/月月/主卡.md
+      - characters/minor/月月/形象.md
+      - characters/minor/月月/衣装.md
+  - key: 淼淼（艺名）
+    primary:
+      - characters/minor/淼淼/主卡.md
+      - characters/minor/淼淼/形象.md
+      - characters/minor/淼淼/衣装.md
+  - key: 小娜（艺名）
+    primary:
+      - characters/minor/小娜/主卡.md
+      - characters/minor/小娜/形象.md
+      - characters/minor/小娜/衣装.md
+  - key: 阿九（自称）
+    primary:
+      - characters/minor/阿九/主卡.md
+      - characters/minor/阿九/形象.md
+      - characters/minor/阿九/衣装.md
+  - key: 章绍衡
+    primary:
+      - characters/minor/章绍衡/主卡.md
+      - characters/minor/章绍衡/形象.md
+      - characters/minor/章绍衡/衣装.md
+  - key: 罗东海
+    primary:
+      - characters/minor/罗东海/主卡.md
+      - characters/minor/罗东海/形象.md
+      - characters/minor/罗东海/衣装.md
+      - characters/minor/罗东海/契约.md
+note: 共 16 人

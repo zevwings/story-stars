@@ -11,8 +11,9 @@
 1. 先读 `BIBLE.md`。
 2. 写正文、续写、润色、审读、对白优化或亲密正文回写时, 再读 `STYLE.md`。
 3. 再按任务进入 `chapters/`, `characters/`, `context/`, `clues/`, `story/`, `worldbuilding/` 或已启用专项目录。
-4. 公共规则与参考材料通过 story-writer runtime 读取, 例如 `story-writer://rules/...` 与 `story-writer://references/...`。
-5. `.rag/`, `.prewrite/`, `.analysis/` 是派生层、skills 上下文包层、施工层或分析层, 不得升格为正式正典。
+4. 若任务涉及已登记施工包，先读 `.construction/_index.md` 与 `_status/`，再读取当前任务命中的 `active` 或目标匹配的 `bound` 单元。
+5. 公共规则与参考材料通过 story-writer runtime 读取, 例如 `story-writer://rules/...` 与 `story-writer://references/...`。
+6. `.rag/`, `.plotlines/`, `.prewrite/`, `.analysis/` 不作为故事事实来源。
 
 ## 项目目录
 
@@ -26,13 +27,21 @@
 - `worldbuilding/`: 世界观正式设定。
 - 已启用专项目录: 由 `.story.config.toml` 的 `[[specialties]]` 声明。
 
+## 施工与派生目录
+
+- `.construction/`: 已确认的执行规格，入口为 `.construction/_index.md`，生命周期状态以 `.construction/_status/` 为准。
+- `.plotlines/`: 从正式真源生成的剧情图谱工作台。
+- `.prewrite/`: 按章节生成的写前上下文包。
+
+完整职责与边界见 `BIBLE.md`「十一、施工与派生目录」。
+
 ## 写作边界
 
 - 默认按任务闭包读取, 不全量扫库。
 - 进入正式内容目录时, 先读对应 `_index.md`, 再按索引进入具体文件。
 - 信息不足或可能冲突时, 先指出缺口, 不把推测补成正典。
 - 当前人物与世界观待确认项已清空；后续新增未确认设定、角色关系、线索真相和世界观改动时, 剧情线内部缺口写入对应 `.analysis/plotlines/`, 跨线或正式设定级问题再按需新建 `.analysis/blueprints/待确认/`。不得以占位字段或缺口清单进入正式真源。
-- 拍板时间、更新时间、更新原因、方案比较与废案过程属于施工记录或历史记录, 不进入正式真源。
+- 拍板时间、更新时间、更新原因、方案比较与废案过程属于分析或历史记录, 不进入正式真源或施工真源。
 - 普通修文默认只改目标草稿; 只有作者明确触发定稿、补录摘要或状态维护时, 才同步长期状态文件。
 
 ## story-writer 边界

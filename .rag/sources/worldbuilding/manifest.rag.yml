@@ -22,7 +22,7 @@ routes:
       - worldbuilding.organizations.万安集团
       - worldbuilding.organizations.大唐集团
       - worldbuilding.systems
-      - worldbuilding.systems.权柄
+      - worldbuilding.systems.星辰权柄
       - worldbuilding.technology
     tags:
       - organizations
@@ -33,14 +33,14 @@ routes:
       - 万安集团
       - 侵蚀与修复权柄
       - 兰纳安吉旅游集团
+      - 基础权柄
       - 大唐产业投资有限公司
-      - 大唐置业发展有限公司
     examples:
       - 万安健康
       - 万安影视文化
       - 兰纳安吉旅游集团
       - 心动酒吧
-      - 林语心理咨询工作室
+      - 星辰监管所
   - file: places.rag.yml
     types:
       - place

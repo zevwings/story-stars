@@ -31,21 +31,35 @@ routes:
   - key: 赵梦娜
     static: characters/minor/赵梦娜/主卡.md
   - key: 唐雨宸
-    static: characters/preentry/唐雨宸/形象.md
+    static: characters/minor/唐雨宸/主卡.md
   - key: 徐清
-    static: characters/preentry/徐清/形象.md
+    static: characters/minor/徐清/主卡.md
   - key: 唐雨霖
-    static: characters/preentry/唐雨霖/形象.md
+    static: characters/minor/唐雨霖/主卡.md
   - key: 阮清黎
-    static: characters/preentry/阮清黎/形象.md
+    static: characters/minor/阮清黎/主卡.md
   - key: 沈宁
-    static: characters/preentry/沈宁/形象.md
+    static: characters/minor/沈宁/主卡.md
   - key: 齐心
-    static: characters/preentry/齐心/形象.md
+    static: characters/minor/齐心/主卡.md
   - key: 陆佳凝
-    static: characters/preentry/陆佳凝/形象.md
+    static: characters/minor/陆佳凝/主卡.md
   - key: 顾清言
-    static: characters/preentry/顾清言/形象.md
+    static: characters/minor/顾清言/主卡.md
+  - key: 梦露（化名）
+    static: characters/minor/梦露/主卡.md
+  - key: 月月（艺名）
+    static: characters/minor/月月/主卡.md
+  - key: 淼淼（艺名）
+    static: characters/minor/淼淼/主卡.md
+  - key: 小娜（艺名）
+    static: characters/minor/小娜/主卡.md
+  - key: 阿九（自称）
+    static: characters/minor/阿九/主卡.md
+  - key: 章绍衡
+    static: characters/minor/章绍衡/主卡.md
+  - key: 罗东海
+    static: characters/minor/罗东海/主卡.md
   - key: 裴崇礼
     static: characters/preentry/裴崇礼/契约.md
   - key: 裴怀山
@@ -66,19 +80,17 @@ routes:
     static: characters/preentry/黄锦一/主卡.md
   - key: 李垣羲
     static: characters/preentry/李垣羲/主卡.md
-  - key: 莫思绮
-    static: characters/preentry/莫思绮/主卡.md
   - key: 杨柳
     static: characters/preentry/杨柳/主卡.md
   - key: 周晓莉
     static: characters/preentry/周晓莉/主卡.md
   - key: 郑文悦
     static: characters/preentry/郑文悦/主卡.md
-  - key: 章绍衡
-    static: characters/preentry/章绍衡/主卡.md
   - key: 姜禾
     static: characters/preentry/姜禾/主卡.md
   - key: 孟舒桐
     static: characters/preentry/孟舒桐/主卡.md
   - key: 高承岳
     static: characters/preentry/高承岳/主卡.md
+  - key: 方成越
+    static: characters/preentry/方成越/主卡.md

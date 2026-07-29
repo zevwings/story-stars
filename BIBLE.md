@@ -3,8 +3,6 @@
 > 本文件是本项目**最高真源**。故事事实、写作边界、重大红线、真源优先级以本文为准。
 >
 > 本文只保存**定调、硬规则、红线与索引**；具体世界观设定以 `worldbuilding/` 为正式真源。任何来源与本文冲突，以本文为准；文风方法与 `STYLE.md` 冲突，以 `STYLE.md` 为准。
->
-> 世界观基础机制已升格进 `worldbuilding/`。当前人物与世界观待确认项已清空；后续若出现跨线或正式设定级未拍板事项，再按需新建 `.analysis/blueprints/待确认/`。历史设计稿存入 `.analysis/archived/`，均不得作为正式正典引用。
 
 ---
 
@@ -24,13 +22,15 @@
 2. `STYLE.md`：文风真源。
 3. 正式目录：`chapters/`、`characters/`、`context/`、`clues/`、`story/`、`worldbuilding/`。
 4. 专项目录：由 `.story.config.toml` 的 `[[specialties]]` 声明（现启用 `intimacy`）。
-5. 派生 / 施工 / 分析层：`.rag/`、`.prewrite/`、`.analysis/`——**不得升格为正典**。
+5. `.construction/`：施工真源，只保存已经确认、写作时必须继承的执行规格；不是长期正典，冲突时服从以上层级。
+6. 派生 / 分析层：`.rag/`、`.plotlines/`、`.prewrite/`、`.analysis/`——**不是真源**。
 
 ## 三、读取策略
 
 - 默认按任务闭包读取，不全量扫库。
 - 写正文、续写、润色、审读、对白优化或亲密正文回写前，先读本文，再读 `STYLE.md`。
 - 进正式目录先读对应 `_index.md`，再按索引进具体文件。
+- 涉及已登记施工包时，先读 `.construction/_index.md` 与 `_status/`；普通任务只继承 `active`，指定章节或场景时再读取匹配的 `bound`，不得从 `.analysis/` 继承未确认内容。
 
 ## 四、题材口径与尺度红线
 
@@ -121,16 +121,20 @@
 - 时间线跳跃或对已定事件发生日期的修改。
 - 项目尺度、题材口径、结局承诺或主线结构变化。
 
-## 十一、施工边界
+## 十一、施工与派生目录
 
-- 当前人物与世界观待确认项已清空；`.analysis/blueprints/待确认/` 仅保留跨线、正式设定级或需要统一协调的未拍板参数，属于施工层，不是正式正典。
-- 正式文件只保留已确认事实与硬边界，不保存待确认内容；不得根据施工清单自行补成事实。
-- 作者确认后，先回写对应正式真源，再从施工清单删除已解决事项。
+- `.construction/`：已确认、写作时必须继承的执行规格，统一从 `.construction/_index.md` 进入，并由 `_status/` 五态登记具体施工单元。它是施工真源，但不是长期正典；不得混入候选或决策过程，也不得覆盖正式真源。
+- `.plotlines/`：从 `story/plotlines/`、`story/arcs/`、人物卡和世界观等正式真源生成剧情图谱；它是可重建的派生工具，不是真源，不得保存或反向定义故事事实。
+- `.prewrite/`：按章节保存写前 brief、上下文筛选结果与临时施工材料；它是写作前的上下文包，不是真源，不得替代正式章纲、人物状态、线索状态或世界观设定。
+- `.analysis/`：保存候选、推演、缺口、待确认项、方案比较与历史过程，不是真源；剧情线内部缺口进入 `.analysis/plotlines/`，跨线或正式设定级未决项进入 `.analysis/blueprints/待确认/`。
+- 作者确认后，长期事实回写正式真源，具体执行规格写入 `.construction/`，并从待确认清单删除该项；正文或定稿完全取代某个施工单元后，将其转为 `consumed` 并登记兑现位置，不再进入默认检索。
 
 ## 十二、快速索引
 
 - `ENTRY.md`：项目入口。`STYLE.md`：文风真源。
 - `worldbuilding/_index.md`：世界观正式真源入口。
-- `.analysis/blueprints/`：阶段草案、亲密总控与首卷启动分析等施工材料；其中 `待确认/` 只保存跨线、正式设定级或需要统一协调的未拍板参数。
+- `.construction/_index.md`：已确认施工规格的唯一总入口。
+- `.construction/_status/`：施工单元生命周期的唯一状态真源；使用 `active`、`bound`、`consumed`、`superseded`、`retired` 五态，不记录“已读／未读”。
+- `.analysis/blueprints/`：候选设计、阶段推演与方案比较；其中 `待确认/` 只保存跨线、正式设定级或需要统一协调的未拍板参数。
 - `.analysis/archived/`：历史分析与旧设计稿，只供追溯，不参与当前设定读取。
 - 其他正式目录入口：`characters/_index.md`、`story/_index.md`、`clues/_index.md`、`context/_index.md`、`chapters/_index.md`。

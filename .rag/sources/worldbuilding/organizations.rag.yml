@@ -133,3 +133,13 @@ entries:
       - organizations
       - 江州市公安局
     status: confirmed
+  - key: 星辰监管所
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/星辰监管所.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 星辰监管所
+    status: confirmed

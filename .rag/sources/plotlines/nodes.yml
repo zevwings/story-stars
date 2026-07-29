@@ -19,8 +19,8 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`story/arcs/阶段四.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/裴崇礼/主卡.md`"
       - "`characters/preentry/裴怀山/主卡.md`"
       - "`characters/preentry/裴兰馨/主卡.md`"
@@ -77,7 +77,7 @@ nodes:
       - "`worldbuilding/factions/黑市.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
       - "`worldbuilding/organizations/陆家境外产业网络.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`characters/preentry/周晓莉/主卡.md`"
       - "`story/arcs/阶段四.md`"
@@ -112,12 +112,12 @@ nodes:
       - "`BIBLE.md`"
       - "`story/arcs/阶段五.md`"
       - "`worldbuilding/factions/黑暗契约者.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/任群/主卡.md`"
       - "`characters/preentry/任群/契约.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/章绍衡/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/郑文悦/主卡.md`"
       - "`worldbuilding/organizations/陆家境外产业网络.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
@@ -143,7 +143,7 @@ nodes:
       - "`worldbuilding/systems/星辰之印.md`"
       - "`worldbuilding/systems/精神侵蚀.md`"
       - "`story/arcs/阶段四.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
     source_file: story/plotlines/主线/反派/解释权争夺与非法种印链.md
   - id: PL-M-006
@@ -169,8 +169,8 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`story/arcs/阶段四.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`characters/preentry/朱岑郁/主卡.md`"
       - "`intimacy/characters/齐心/陆佳凝.md`"
@@ -304,7 +304,7 @@ nodes:
       - "`story/synopsis.md`"
       - "`story/arcs/阶段一.md`"
       - "`characters/major/安若曦/主卡.md`"
-      - "`characters/preentry/唐雨霖/主卡.md`"
+      - "`characters/minor/唐雨霖/主卡.md`"
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
       - "`characters/major/苏璃/主卡.md`"
@@ -391,7 +391,7 @@ nodes:
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
       - "`characters/major/安若曦/主卡.md`"
-      - "`worldbuilding/systems/星辰权柄.md`"
+      - "`worldbuilding/systems/星辰权柄/_index.md`"
       - "`worldbuilding/systems/精神侵蚀.md`"
     source_file: story/plotlines/亲密线/晏林/安若曦/异常截断后的第一次自愿亲密.md
   - id: PL-I-002
@@ -467,6 +467,31 @@ nodes:
       - "`story/arcs/阶段四.md`"
       - "`story/arcs/阶段五.md`"
     source_file: story/plotlines/亲密线/晏林/安若曦江岚/最低三人互动秩序.md
+  - id: PL-I-034
+    type: 亲密线
+    name: 梦露介绍、商 K离场与付费性服务关系
+    status: pending
+    locator: 21 岁、大三、使用艺名的独立车模兼 Coser 月月，未与万安签约，同时独立低频从事成年人性服务交易；她经梦露在云顶 KTV
+      的普通社交介绍认识晏林，独立确认费用、离场与服务范围，并以主动编排身体展示和观看节奏完成服务，形成有限回归、不进入恋爱与长期伴侣结构的付费性服务关系。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要明确月月 21 岁、大三，并使用艺名。
+      - 正文或定稿摘要明确梦露只作普通介绍，不替月月作出离场或亲密决定。
+      - 正文或定稿摘要至少一次验证月月能够修改、拒绝、暂停或离开。
+      - 正文或定稿摘要明确费用、服务范围与停止点分别确认，并体现月月主动编排身体展示和观看节奏。
+      - 正文或定稿摘要明确两人只形成有限回归的付费性服务关系，不进入恋爱或长期伴侣结构。
+      - 正文或定稿摘要明确月月未与万安签约，且未把项目合作、商 K 出现或梦境材料直接写成犯罪证据。
+    upstream: "[PL-I-030｜松散兼职付费亲密与阶段性结束](../梦露/松散兼职付费亲密与阶段性结束.md)。"
+    downstream: "[PL-S-076｜多场所亲密入口、入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口入梦与线索拼合.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/minor/梦露/主卡.md`"
+      - "`worldbuilding/organizations/万安集团/万安影视文化.md`"
+      - "`story/plotlines/亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+    source_file: story/plotlines/亲密线/晏林/月月/梦露介绍商K离场与付费性服务关系.md
   - id: PL-I-008
     type: 亲密线
     name: 脱离治疗场后的关系确认与第一次兑现
@@ -489,7 +514,7 @@ nodes:
       - "`characters/major/林芷兰/主卡.md`"
       - "`characters/major/林芷兰/契约.md`"
       - "`characters/major/晏林/主卡.md`"
-      - "`worldbuilding/systems/星辰权柄.md`"
+      - "`worldbuilding/systems/星辰权柄/_index.md`"
     source_file: story/plotlines/亲密线/晏林/林芷兰/脱离治疗场后的关系确认与第一次兑现.md
   - id: PL-I-020
     type: 亲密线
@@ -514,6 +539,60 @@ nodes:
       - "`characters/major/林芷兰/契约.md`"
       - "`characters/major/晏林/主卡.md`"
     source_file: story/plotlines/亲密线/晏林/林芷兰/静燃失序的双向主权与现实回位.md
+  - id: PL-I-030
+    type: 亲密线
+    name: 松散兼职付费亲密与阶段性结束
+    status: pending
+    locator: 野人在云间取得创业五年来第一次重大外部渠道突破后，晏林在代理经销商提前安排的商务 KTV 关系维护局中认识以化名活动的 22 岁自由
+      Coser／活动模特梦露；作为独立兼职性服务交易者，她主动以造型、姿态、称呼与有限角色语言组织完整体验。两人通过兼职账号松散预约有限数次，最终不转入长期伴侣结构并结束单独付费回路，但梦露仍可在小娜本人发起、三人分别确认的共同关系中低频出现。
+    shape: progression
+    progression_kind: single
+    criteria:
+      - 正文或定稿摘要明确梦露 22 岁，双方知道关系属于付费交易。
+      - 正文或定稿摘要明确价格、时间和身体范围分别成立，并体现梦露主动组织完整角色体验；既往交易与角色称呼不产生后续自动权限。
+      - 正文或定稿摘要至少一次验证梦露能够修改、拒绝、暂停或按约离开。
+      - 正文或定稿摘要明确梦露没有拒绝晏林入梦，且这次入梦没有产生任何案件信息。
+      - 正文或定稿摘要明确单独付费关系只持续有限数次，并在不进入长期伴侣圈的情况下降频和阶段性结束；后续共同关系不被写成稳定双人关系重启。
+      - 正文或定稿摘要未让亲密关系直接交换核心证据或抹除现实结构失衡。
+    upstream: "[PL-S-077｜云间区域渠道合作与外部市场突破](../../../副线/野人户外/云间区域渠道合作与外部市场突破.md)。"
+    downstream: "[PL-I-034｜梦露介绍、商
+      K离场与付费性服务关系](../月月/梦露介绍商K离场与付费性服务关系.md)、[PL-I-036｜商
+      K同行、共同邀请与三人付费性服务关系](../梦露小娜/商K同行共同邀请与三人付费性服务关系.md)、[PL-S-076｜多场所亲密入口、入梦与线\
+      索拼合](../../../副线/高端商务会所/多场所亲密入口入梦与线索拼合.md)、[PL-S-067｜顾清言星辰之印排异发作与首次截断止损](\
+      ../../../副线/顾清言/星辰之印排异发作与首次截断止损.md)（会所常态入口）；单独关系结束后只保留普通社会辨认、必要的本人亲历核验及分别\
+      确认的低频共同关系。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/major/晏林/主卡.md`"
+      - "`characters/minor/梦露/主卡.md`"
+      - "`story/plotlines/副线/高端商务会所/异常药剂与联合验证.md`"
+    source_file: story/plotlines/亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md
+  - id: PL-I-036
+    type: 亲密线
+    name: 商 K同行、共同邀请与三人付费性服务关系
+    status: pending
+    locator: 20 岁、大二、使用艺名的普通学生小娜，也是独立低频性服务交易者；她作为梦露的私人朋友与梦露共同出现在云顶
+      KTV，由本人提出共同服务邀请，三人分别确认费用、参与、范围与退出，形成不进入长期伴侣结构的低频三人付费性服务关系。
+    shape: loop
+    progression_kind: ""
+    criteria:
+      - 正文或定稿摘要明确小娜 20 岁、大二，并使用艺名。
+      - 正文或定稿摘要明确小娜本人提出共同服务邀请，三人分别确认费用、参与、称呼和边界。
+      - 正文或定稿摘要体现梦露负责完整角色体验、小娜追逐明确反馈的差异，且反馈不产生新增授权。
+      - 正文或定稿摘要至少一次验证任何一方能够暂停、退出或拒绝具体行为。
+      - 正文或定稿摘要明确三人关系只低频回归，不进入长期伴侣结构。
+      - 正文或定稿摘要明确小娜梦境只有裸贷与私密影像压力，不出现赌场线信息。
+      - 正文或定稿摘要未以梦境替小娜作出清醒说明、求助、报警或继续关系的决定。
+    upstream: "[PL-I-030｜松散兼职付费亲密与阶段性结束](../梦露/松散兼职付费亲密与阶段性结束.md)。"
+    downstream: "[PL-S-079｜裸贷压力显影与清醒处置选择](../../../副线/小娜/裸贷压力显影与清醒处置选择.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/minor/梦露/主卡.md`"
+      - "`story/plotlines/亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+    source_file: story/plotlines/亲密线/晏林/梦露小娜/商K同行共同邀请与三人付费性服务关系.md
   - id: PL-I-029
     type: 亲密线
     name: 靠岸后的自由复选与长期关系确认
@@ -583,6 +662,30 @@ nodes:
       - "`characters/major/江岚/主卡.md`"
       - "`characters/major/安若曦/主卡.md`"
     source_file: story/plotlines/亲密线/晏林/江岚/独立动心与第一次自愿亲密.md
+  - id: PL-I-035
+    type: 亲密线
+    name: 活动邀约、商 K离场与付费性服务关系
+    status: pending
+    locator: 20 岁、大二、使用艺名的独立职业车模淼淼，未与万安签约，同时独立低频从事成年人性服务交易；她因单次公开项目或汽车品牌客户活动出现在云顶
+      KTV，梦露不在场，淼淼独立确认费用、离场与服务范围，以主动询问、复述和准确执行形成有限回归的付费性服务关系。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要明确淼淼 20 岁、大二，并使用艺名。
+      - 正文或定稿摘要明确梦露不在相识及第一次亲密现场。
+      - 正文或定稿摘要至少一次验证淼淼能够修改、拒绝、暂停或离开。
+      - 正文或定稿摘要明确费用、服务范围与停止点分别确认，并体现淼淼主动询问、复述与执行的闭环。
+      - 正文或定稿摘要明确两人只形成有限回归的付费性服务关系，不进入恋爱或长期伴侣结构。
+      - 正文或定稿摘要明确活动邀约、车辆、房卡与结算碎片只形成核查方向，现实材料承担验证。
+    upstream: "[PL-S-026｜万安影视文化艺人压迫与咨询显影](../../../副线/万安影视文化/艺人压迫与咨询显影.md)。"
+    downstream: "[PL-S-076｜多场所亲密入口、入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口入梦与线索拼合.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`worldbuilding/organizations/万安集团/万安影视文化.md`"
+      - "`story/plotlines/副线/万安影视文化/艺人压迫与咨询显影.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+    source_file: story/plotlines/亲密线/晏林/淼淼/活动邀约商K离场与付费性服务关系.md
   - id: PL-I-022
     type: 亲密线
     name: 案件合作前的早期自愿关系
@@ -657,7 +760,8 @@ nodes:
     type: 亲密线
     name: 付费相遇、第一次身体关系与梦魇显影
     status: pending
-    locator: 晏林在不知童颜不能自由退出 KTV 体系的情况下真实买春；两人完成当次局部确认，睡后因梦魇异常直接入梦，显影结构危险。
+    locator: 晏林在云顶 KTV
+      生态中独立认识童颜，并在不知她不能自由退出长期工作体系的情况下真实买春；两人完成当次局部确认，睡后因梦魇异常直接入梦，显影结构危险。
     shape: progression
     progression_kind: chain
     criteria:
@@ -666,17 +770,19 @@ nodes:
       - 定稿事实明确晏林在童颜睡后直接入梦，且只见不能等同真实记忆的梦境碎片。
       - 定稿事实明确晏林因看见她的恐惧而愿意帮助她，并在醒后转向现实询问与核实。
       - 定稿事实明确第一次关系与后续帮助不自动形成恋爱交换或长期身体许可。
-    upstream: "[PL-S-076｜多场所亲密入口、灰色入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口灰色入梦与线索拼合.md)\
-      、[PL-S-051｜顾清言会所黑产经营、特殊目标入口与退出失控](../../../副线/顾清言/会所黑产经营特殊目标入口与退出失控.md)（场\
-      域入口）、晏林普通城市生活入口。"
-    downstream: "[PL-S-052｜清醒求助与家庭、会所控制切断](../../../副线/童颜/清醒求助与控制切断.md)、[PL-I-024｜独\
-      立状态下的欲望确认与自由兑现](独立状态下的欲望确认与自由兑现.md)。"
+      - 定稿事实明确童颜从云顶 KTV 体系独立出现，第一次现场不与梦露、月月、淼淼或小娜共享。
+      - 定稿事实明确梦魇显影后停止身体推进，后续自由兑现留待现实离开能力成立。
+    upstream: "[PL-S-076｜多场所亲密入口、入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口入梦与线索拼合.md)、晏林普\
+      通城市生活与云顶 KTV 入口。"
+    downstream: "[PL-S-052｜清醒求助与家庭、商
+      K控制切断](../../../副线/童颜/清醒求助与控制切断.md)、[PL-I-024｜独立状态下的欲望确认与自由兑现](独立状态下的欲望确认\
+      与自由兑现.md)。"
     related: ""
     sources:
       - "`BIBLE.md`"
       - "`characters/major/童颜/主卡.md`"
       - "`characters/major/晏林/契约.md`"
-      - "`worldbuilding/systems/权柄/感知与信息.md`"
+      - "`worldbuilding/systems/星辰权柄/感知与信息.md`"
     source_file: story/plotlines/亲密线/晏林/童颜/付费相遇与梦魇显影.md
   - id: PL-I-024
     type: 亲密线
@@ -778,7 +884,7 @@ nodes:
       - "`characters/major/苏晚乔/契约.md`"
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
-      - "`worldbuilding/systems/星辰权柄.md`"
+      - "`worldbuilding/systems/星辰权柄/_index.md`"
       - "`worldbuilding/systems/战斗规则.md`"
     source_file: story/plotlines/亲密线/晏林/苏晚乔/苏晚乔的关系追问与第一次自愿亲密.md
   - id: PL-I-003
@@ -809,7 +915,7 @@ nodes:
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
       - "`worldbuilding/systems/星辰契约.md`"
-      - "`worldbuilding/systems/星辰权柄.md`"
+      - "`worldbuilding/systems/星辰权柄/_index.md`"
       - "`worldbuilding/systems/精神之海.md`"
     source_file: story/plotlines/亲密线/晏林/苏璃/苏璃与晏林的定情与第一次自愿亲密.md
   - id: PL-I-013
@@ -868,31 +974,6 @@ nodes:
       - "`intimacy/characters/晏林/苏璃.md`"
       - "`intimacy/characters/晏林/苏晚乔.md`"
     source_file: story/plotlines/亲密线/晏林/苏璃苏晚乔/首次共同亲密边界.md
-  - id: PL-I-030
-    type: 亲密线
-    name: 会所有限付费亲密与阶段性结束
-    status: pending
-    locator: 晏林通过高端商务会所认识成年商业模特莫思绮；双方在明确交易、能够拒绝与逐次确认的条件下发生有限数次亲密关系，随后不转入长期伴侣结构而自然结束。
-    shape: progression
-    progression_kind: single
-    criteria:
-      - 正文或定稿摘要明确莫思绮首次登场已经成年，双方知道关系属于付费交易。
-      - 正文或定稿摘要明确价格、时间和身体范围分别成立，既往交易不产生后续自动权限。
-      - 正文或定稿摘要至少一次验证莫思绮能够修改、拒绝、暂停或按约离开。
-      - 正文或定稿摘要明确性同意不等于入梦授权，莫思绮能够通过停止过夜、修改范围或结束关系维护精神隐私。
-      - 正文或定稿摘要明确关系只持续有限数次，并在不进入长期伴侣圈的情况下自然结束。
-      - 正文或定稿摘要未让亲密关系直接交换核心证据或抹除现实结构失衡。
-    upstream: "[PL-S-010｜高端商务会所异常药剂与联合验证](../../../副线/高端商务会所/异常药剂与联合验证.md)。"
-    downstream: "[PL-S-076｜多场所亲密入口、灰色入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口灰色入梦与线索拼合.m\
-      d)、[PL-S-067｜顾清言星辰之印排异发作与首次截断止损](../../../副线/顾清言/星辰之印排异发作与首次截断止损.md)（会所常态\
-      入口）；关系结束后只保留普通社会辨认与必要的本人亲历核验。"
-    related: ""
-    sources:
-      - "`BIBLE.md`"
-      - "`characters/major/晏林/主卡.md`"
-      - "`characters/preentry/莫思绮/主卡.md`"
-      - "`story/plotlines/副线/高端商务会所/异常药剂与联合验证.md`"
-    source_file: story/plotlines/亲密线/晏林/莫思绮/会所有限付费亲密与阶段性结束.md
   - id: PL-I-027
     type: 亲密线
     name: 户外测试结束后的露营共同亲密回路
@@ -997,8 +1078,32 @@ nodes:
       - "`characters/major/晏林/主卡.md`"
       - "`characters/minor/赵梦娜/主卡.md`"
       - "`characters/major/楚辞/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
     source_file: story/plotlines/亲密线/晏林/赵梦娜/航程限定关系与楚辞欲望确认.md
+  - id: PL-I-037
+    type: 亲密线
+    name: 商 K肉偿相遇、当次付费关系与梦魇显影
+    status: pending
+    locator: 25 岁、原从事销售工作的阿九在裸贷与地下赌博债务叠加后，被云顶 KTV 接收并经 PUA
+      式服从塑造与服务规训，成为会主动使用“主人／母狗”话术的脚本化服务人员，再与晏林相遇。双方通过有限选项区分服务脚本与本人选择，确认成年人身份、付费关系、地点、当次身体范围及“母狗”语言与身份层，完成一次结构失衡真实在场的自愿交换场，睡后梦魇再使晏林取得必须清醒核实的赌场方向。
+    shape: progression
+    progression_kind: single
+    criteria:
+      - 正文或定稿摘要明确阿九 25 岁、原从事销售工作、已被云顶接收规训为脚本化服务人员，并以“阿九”向晏林自我介绍。
+      - 正文或定稿摘要通过有限选项分别确认成年人身份、付费关系、地点、当次身体范围及“母狗”语言与身份层，并至少一次让阿九明确排除、拒绝、暂停或停止一项。
+      - 正文或定稿摘要允许阿九主动使用「主人／母狗」服务话术，但没有由这套脚本推出疼痛、束缚、扮演式强制、永久从属或其他未确认项目。
+      - 正文或定稿摘要同时保留当次真实选择与裸贷、赌博、肉偿安排造成的结构失衡，没有让任一事实吞并另一事实。
+      - 正文或定稿摘要明确梦境只形成需要清醒核实的赌场方向，不能直接识别人、地点或责任网络。
+      - 正文或定稿摘要没有用帮助、保密、债务处置或案件资源交换身体、证言、身份资料与后续联系。
+      - 正文或定稿摘要没有把当次关系自动推进为再次亲密、恋爱或长期伴侣位置。
+    upstream: "[PL-S-076｜多场所亲密入口、入梦与线索拼合](../../../副线/高端商务会所/多场所亲密入口入梦与线索拼合.md)。"
+    downstream: "[PL-S-081｜裸贷、异能诱赌与肉偿相遇](../../../副线/晏林/阿九/裸贷异能诱赌与肉偿相遇.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`story/plotlines/副线/晏林/阿九/裸贷异能诱赌与肉偿相遇.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+    source_file: story/plotlines/亲密线/晏林/阿九/商K肉偿相遇当次付费关系与梦魇显影.md
   - id: PL-I-032
     type: 亲密线
     name: 长期临界暧昧与尾声自由兑现
@@ -1021,7 +1126,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/major/晏林/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`story/plotlines/副线/顾清言/星辰之印排异发作与首次截断止损.md`"
       - "`story/plotlines/副线/顾清言/反复止损姐弟关系与有限交底.md`"
       - "`story/plotlines/副线/黑暗契约者/非法种印首案的隔离解印与责任分层.md`"
@@ -1074,8 +1179,8 @@ nodes:
       - "`BIBLE.md`"
       - "`worldbuilding/organizations/大唐集团/_index.md`"
       - "`worldbuilding/organizations/大唐集团/大唐产业投资有限公司.md`"
-      - "`characters/preentry/唐雨宸/主卡.md`"
-      - "`characters/preentry/阮清黎/主卡.md`"
+      - "`characters/minor/唐雨宸/主卡.md`"
+      - "`characters/minor/阮清黎/主卡.md`"
     source_file: story/plotlines/亲密线/配角/唐雨宸阮清黎/唐雨宸与阮清黎的不带方案坦白.md
   - id: PL-I-031
     type: 亲密线
@@ -1096,8 +1201,8 @@ nodes:
     related: ""
     sources:
       - "`BIBLE.md`"
-      - "`characters/preentry/沈宁/主卡.md`"
-      - "`characters/preentry/徐清/主卡.md`"
+      - "`characters/minor/沈宁/主卡.md`"
+      - "`characters/minor/徐清/主卡.md`"
       - "`worldbuilding/factions/星辰管理局.md`"
       - "`story/plotlines/副线/管理局/首次个案协查.md`"
       - "`story/plotlines/副线/管理局/受控合作与必要更正.md`"
@@ -1122,8 +1227,8 @@ nodes:
     related: ""
     sources:
       - "`BIBLE.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/裴怀山/主卡.md`"
       - "`characters/preentry/朱岑郁/主卡.md`"
       - "`characters/preentry/李垣羲/主卡.md`"
@@ -1186,8 +1291,8 @@ nodes:
       - "`BIBLE.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`characters/preentry/郑文悦/主卡.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`worldbuilding/organizations/陆家境外产业网络.md`"
     source_file: story/plotlines/副线/刘秉文/招聘链人员转移与交接显影.md
   - id: PL-S-050
@@ -1211,7 +1316,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/周晓莉/主卡.md`"
       - "`worldbuilding/organizations/陆家境外产业网络.md`"
     source_file: story/plotlines/副线/刘秉文/风险暴露后的首次成功人员转移.md
@@ -1351,7 +1456,7 @@ nodes:
       - "`story/synopsis.md`"
       - "`story/arcs/阶段一.md`"
       - "`characters/major/安若曦/主卡.md`"
-      - "`characters/preentry/唐雨霖/主卡.md`"
+      - "`characters/minor/唐雨霖/主卡.md`"
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/苏璃/主卡.md`"
       - "`worldbuilding/organizations/大唐集团/_index.md`"
@@ -1463,6 +1568,30 @@ nodes:
       - "`story/arcs/阶段四.md`"
       - "`story/plotlines/副线/唐家/唐雨薇/候选资格重启与主动归家.md`"
     source_file: story/plotlines/副线/安若曦/职业转向/离开江州映彩并转入食品经营线.md
+  - id: PL-S-079
+    type: 副线
+    name: 裸贷压力显影与清醒处置选择
+    status: pending
+    locator: 20
+      岁、大二、使用艺名的普通学生小娜，在共同亲密后的梦境中显出裸贷、私密影像与泄露压力；晏林只取得核查方向，小娜醒后自行决定说明、求助、报警、债务处理与关系是否继续。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要明确小娜 20 岁、大二，并使用艺名。
+      - 正文或定稿摘要明确梦境只提供裸贷与私密影像风险方向，不出现赌场线信息。
+      - 正文或定稿摘要由小娜清醒决定说明、求助、报警或沉默的范围。
+      - 正文或定稿摘要明确现实材料承担核验，梦境不作证据。
+      - 正文或定稿摘要明确帮助、债务处置与亲密关系不互相交换。
+    upstream: "[PL-I-036｜商 K同行、共同邀请与三人付费性服务关系](../../亲密线/晏林/梦露小娜/商K同行共同邀请与三人付费性服务关系.md)。"
+    downstream: 小娜后续是否进入持续保护、报案或生活后果节点，仅在清醒选择和现实结果成立后另行登记。
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/minor/小娜/主卡.md`"
+      - "`story/plotlines/亲密线/晏林/梦露小娜/商K同行共同邀请与三人付费性服务关系.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+      - "`story/plotlines/副线/章绍衡/地下赌局非法放贷与债务诱导形成.md`"
+    source_file: story/plotlines/副线/小娜/裸贷压力显影与清醒处置选择.md
   - id: PL-S-013
     type: 副线
     name: 工作室运营权限与异常接待分层
@@ -1590,6 +1719,34 @@ nodes:
       - "`characters/major/江岚/主卡.md`"
       - "`characters/major/晏林/主卡.md`"
     source_file: story/plotlines/副线/晏林/江岚/漫展私人面与边界信任.md
+  - id: PL-S-080
+    type: 副线
+    name: 赌场外围协查、临时搭档与一星期夜宵
+    status: pending
+    locator: 地下赌博与异常行为方向达到外围复核门槛后，七组正式安排温婉承担公安侧协调，管理局向晏林发出限定个案委托；两人临时搭档进入赌场外围，在晏林视角中完成异常升级、看见罗东海被控制并退出行动，再由最小结案通知得知赌贷团伙基本收网、章绍衡潜逃，最后以“一星期夜宵”的私人玩笑延续案件之外的低压生活往来。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要明确温婉经七组正式任务流转、晏林经管理局限定委托参与，双方权限没有混同。
+      - 正文或定稿摘要先保留普通赌博心理和赌场话术等现实解释，再由重复行为与晏林受影响形成能力异常方向。
+      - 正文或定稿摘要明确晏林不以逆流反击，只退出并发出约定信号。
+      - 正文或定稿摘要固定晏林视角呈现赌场连续场景，并明确温婉完成记录与升级联络。
+      - 正文或定稿摘要明确普通警方控制现场、晏林亲眼看见罗东海被实际控制，管理局在现场只承接能力风险。
+      - 正文或定稿摘要明确两人交接后退出行动，后续只由温婉简短告知赌贷团伙基本收网、章绍衡潜逃且去向不明。
+      - 正文或定稿摘要明确“一星期夜宵”是私人玩笑和普通生活约定，不是履职或协查条件。
+      - 正文或定稿摘要至少兑现一次案件外夜宵，同时不完成告白、关系确认或身体关系。
+    upstream: "[PL-S-006｜星辰管理局首次个案协查](../../管理局/首次个案协查.md)、[PL-S-076｜多场所亲密入口、入梦与线索拼\
+      合](../../高端商务会所/多场所亲密入口入梦与线索拼合.md)。"
+    downstream: "[PL-S-078｜罗东海落网、赌贷团伙收网与章绍衡潜逃](../../章绍衡/地下赌局查获罗东海落网与异能诱赌显影.md)、温婉阶\
+      段四关系确认前置。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/major/温婉/主卡.md`"
+      - "`characters/major/温婉/契约.md`"
+      - "`story/plotlines/副线/管理局/首次个案协查.md`"
+      - "`story/plotlines/副线/章绍衡/地下赌局查获罗东海落网与异能诱赌显影.md`"
+    source_file: story/plotlines/副线/晏林/温婉/赌场外围协查临时搭档与一星期夜宵.md
   - id: PL-S-005
     type: 副线
     name: 晏林登记外能力疑点与分层备案
@@ -1760,6 +1917,38 @@ nodes:
       - "`characters/major/晏林/主卡.md`"
       - "`worldbuilding/organizations/林语心理咨询工作室.md`"
     source_file: story/plotlines/副线/晏林/许知秋/挑明异常知情与感情.md
+  - id: PL-S-081
+    type: 副线
+    name: 裸贷、异能诱赌与肉偿相遇
+    status: pending
+    locator: 25
+      岁、原从事销售工作的阿九先因裸贷与私密影像承受债务压力，随后进入地下赌博并在罗东海的继续下注暗示下扩大债务，又遭章绍衡亲自并组织手下实施强制性侵害，随后被送入云顶
+      KTV。云顶店级管理链接收后安排专人实施 PUA
+      式服从塑造与服务规训，把她训练成会主动使用“主人／母狗”话术的脚本化服务人员，再投入债务性服务；她与晏林完成一次分别确认的付费关系，并只允许晏林匿名提交最低必要的赌场方向。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要明确阿九 25 岁、原从事销售工作，被云顶接收规训后以“阿九”向晏林自我介绍。
+      - 正文或定稿摘要明确她先承受裸贷与私密影像压力，后进入地下赌博并受到继续下注暗示，最终被安排以性交易抵债。
+      - 正文或定稿摘要明确章绍衡亲自并组织现场手下实施多人强制性侵害，事后只减免一个月利息；该事件没有被写成偿债交易、有效同意或阿九的情趣来源。
+      - 正文或定稿摘要明确云顶接收阿九后安排专人实施 PUA 式服从塑造与服务规训，并区分具体执行者、云顶店级管理链和顾清言的最终经营责任。
+      - 正文或定稿摘要没有把裸贷、赌博、肉偿安排和对晏林的具体亲密合并成一次概括授权。
+      - 正文或定稿摘要明确她与晏林的当次关系分别确认，同时保留结构失衡与外围侵害。
+      - 正文或定稿摘要明确梦境只形成赌场方向，不能直接识别章绍衡、罗东海或完整责任链。
+      - 正文或定稿摘要明确阿九只允许匿名提交最低必要赌场方向，不提交身份、联系方式、完整经历或交易细节。
+      - 正文或定稿摘要没有让阿九承担后续辨认、作证、保护、职业恢复或生活后果线。
+    upstream: "[PL-S-074｜地下赌局、非法放贷与债务诱导形成](../../章绍衡/地下赌局非法放贷与债务诱导形成.md)、[PL-S-076｜\
+      多场所亲密入口、入梦与线索拼合](../../高端商务会所/多场所亲密入口入梦与线索拼合.md)、[PL-I-037｜商
+      K肉偿相遇、当次付费关系与梦魇显影](../../../亲密线/晏林/阿九/商K肉偿相遇当次付费关系与梦魇显影.md)。"
+    downstream: "[PL-S-080｜赌场外围协查、临时搭档与一星期夜宵](../温婉/赌场外围协查临时搭档与一星期夜宵.md)、[PL-S-078｜\
+      罗东海落网、赌贷团伙收网与章绍衡潜逃](../../章绍衡/地下赌局查获罗东海落网与异能诱赌显影.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`story/plotlines/副线/章绍衡/地下赌局非法放贷与债务诱导形成.md`"
+      - "`story/plotlines/副线/章绍衡/地下赌局查获罗东海落网与异能诱赌显影.md`"
+      - "`story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md`"
+    source_file: story/plotlines/副线/晏林/阿九/裸贷异能诱赌与肉偿相遇.md
   - id: PL-S-038
     type: 副线
     name: 不该修复的改变与治疗边界重认
@@ -1919,7 +2108,7 @@ nodes:
     progression_kind: single
     criteria:
       - 正文或定稿摘要明确楚辞首次登场已经成年，是第一次被万安安排陪侍的新人艺人；裴怀山临时缺席且此后与她没有私人交集。
-      - 正文或定稿摘要明确对象更换后由楚辞重新选择，并与晏林完成当次交易性关系；当次同意不扩张为入梦或未来授权。
+      - 正文或定稿摘要明确对象更换后由楚辞重新选择，并与晏林完成当次交易性关系；当次身体同意不扩张为未来身体授权；入梦只受明确拒绝门禁约束。
       - 正文或定稿摘要明确顾清言在交易后分别询问双方，因晏林喜欢且楚辞愿意再见才决定暂留。
       - 正文或定稿摘要明确顾清言以私人留用名义暂留楚辞，既包含保护和训练，也保留把她当作资源安排的现实逻辑。
       - 正文或定稿摘要明确训练形成职业能力与服从惯性，但不等于楚辞对晏林或顾清言的身体授权。
@@ -1933,7 +2122,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/major/楚辞/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`story/plotlines/副线/顾清言/会所黑产经营特殊目标入口与退出失控.md`"
     source_file: story/plotlines/副线/楚辞/会所初遇暂留与邮轮登船前置.md
   - id: PL-S-073
@@ -2049,7 +2238,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/major/白玥/主卡.md`"
-      - "`characters/preentry/沈宁/主卡.md`"
+      - "`characters/minor/沈宁/主卡.md`"
       - "`characters/major/晏林/契约.md`"
       - "`worldbuilding/factions/星辰管理局.md`"
       - "`worldbuilding/systems/星辰之印.md`"
@@ -2075,7 +2264,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/major/白玥/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`worldbuilding/factions/星辰管理局.md`"
       - "`worldbuilding/factions/黑市.md`"
@@ -2103,7 +2292,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`characters/major/白玥/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`worldbuilding/factions/黑市.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
@@ -2138,6 +2327,7 @@ nodes:
     progression_kind: chain
     criteria:
       - 正文或定稿摘要明确章绍衡与顾清言分别承担债务入口和场所经营责任。
+      - 正文或定稿摘要以阿九为具名样本，明确章绍衡转入、云顶接收、专人规训、投入服务及顾清言最终经营责任的分层。
       - 正文或定稿摘要区分能够当次拒绝离开的成年人和无法自由退出者。
       - 正文或定稿摘要明确债务对象不必自称受害者，梦境方向与现实证据分别承担不同作用。
       - 正文或定稿摘要以独立材料确认裴家、齐心和顾清言共享部分收益。
@@ -2149,33 +2339,72 @@ nodes:
     related: ""
     sources:
       - "`BIBLE.md`"
-      - "`characters/preentry/章绍衡/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
       - "`worldbuilding/organizations/万安集团/万安影视文化.md`"
     source_file: story/plotlines/副线/章绍衡/债务对象进入娱乐场所与共同分利.md
+  - id: PL-S-078
+    type: 副线
+    name: 罗东海落网、赌贷团伙收网与章绍衡潜逃
+    status: pending
+    locator: 晏林与温婉完成赌场外围复核后，普通警方控制现场，晏林亲眼看见罗东海被控制；管理局随后以定向记忆复核打开赌局、放贷与催收团伙方向，警方完成连续收网，主要执行成员基本归案，但章绍衡在收网前潜逃、不知所踪。
+    shape: progression
+    progression_kind: chain
+    criteria:
+      - 正文或定稿摘要以晏林视角完成赌场连续场景，不读取温婉、罗东海或承办人员的未表达心理。
+      - 正文或定稿摘要先保留普通现实解释，再由罗东海对晏林实施继续下注暗示形成异常升级。
+      - 正文或定稿摘要明确晏林没有使用逆流，只退出并发出约定信号。
+      - 正文或定稿摘要明确普通警方控制现场，晏林亲眼看见罗东海被实际控制；星辰管理局现场承接能力风险，后续记忆复核另按正式授权实施。
+      - 正文或定稿摘要明确晏林与温婉交接后退出，不参与讯问、证据链、收押、审理或继续追查。
+      - 正文或定稿摘要明确管理局只在正式授权和限定范围内复核罗东海相关记忆，记忆方向仍由警方现实材料承接。
+      - 正文或定稿摘要明确除章绍衡外，赌局、放贷、催收、账务与看场等主要执行成员基本归案，原团伙失去继续经营能力。
+      - 正文或定稿摘要明确章绍衡在收网前潜逃、不知所踪，罗东海记忆不能提供其逃离后的实时位置。
+      - 正文或定稿摘要只以温婉的简短任务通知向晏林交代团伙基本收网、章绍衡在逃，不展开过程。
+      - 正文或定稿摘要没有由本次收束直接揭开顾清言、齐心、裴家或完整黑市网络。
+    upstream: "[PL-S-074｜地下赌局、非法放贷与债务诱导形成](地下赌局非法放贷与债务诱导形成.md)、[PL-S-081｜裸贷、异能诱赌与肉偿\
+      相遇](../晏林/阿九/裸贷异能诱赌与肉偿相遇.md)、[PL-S-080｜赌场外围协查、临时搭档与一星期夜宵](../晏林/温婉/赌场外围协查\
+      临时搭档与一星期夜宵.md)。"
+    downstream: 无案件下游；人物关系回到 `PL-S-080` 的普通夜宵回路。
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
+      - "`characters/minor/罗东海/主卡.md`"
+      - "`characters/minor/罗东海/契约.md`"
+      - "`characters/major/温婉/主卡.md`"
+      - "`worldbuilding/factions/星辰管理局.md`"
+    source_file: story/plotlines/副线/章绍衡/地下赌局查获罗东海落网与异能诱赌显影.md
   - id: PL-S-074
     type: 副线
     name: 地下赌局、非法放贷与债务诱导形成
     status: pending
-    locator: 章绍衡利用已有赌博意愿、资金缺口与夜场周转需求建立地下赌局和非法借贷入口，再以高息、额外费用、违约压力与债务转单把部分成年人推进可持续控制状态。
+    locator: 章绍衡通过地下赌局、心理／异能诱导与非法借贷制造债务入口，再以高息、额外费用、违约压力、直接性侵害与债务转单把部分成年人推进可持续控制状态。
     shape: progression
     progression_kind: chain
     criteria:
       - 正文或定稿摘要呈现至少两种不同债务来源。
       - 正文或定稿摘要明确至少一名债务对象清醒时仍把责任归于自己，梦境与现实材料只逐步显出退出障碍。
       - 正文或定稿摘要明确章绍衡主动经营非法借贷、扩大债务控制并从中获利。
+      - 正文或定稿摘要明确阿九个案中的多人强制性侵害由章绍衡亲自实施并组织，事后一个月利息减免不构成同意、偿债交易或责任减轻。
+      - 正文或定稿摘要明确部分连续下注受到心理／异能诱导影响，施术者与章绍衡分工成立，且该诱导被写作非法加害而非普通娱乐。
+      - 正文或定稿摘要明确罗东海是赌场线唯一主要能力执行者，其他参与者只按现实职责或受影响对象分别承担责任。
       - 正文或定稿摘要没有把赌博、借贷、场所进入和身体交易合并成一次概括授权。
       - 正文或定稿摘要形成进入顾清言多场所经营与共同分利节点的现实接口。
     upstream: ""
-    downstream: "[PL-S-075｜债务对象进入娱乐场所与共同分利](债务对象进入娱乐场所与共同分利.md)、[PL-S-051｜多场所黑产经营、共\
-      同分利与第一责任切割](../顾清言/会所黑产经营特殊目标入口与退出失控.md)。"
+    downstream: "[PL-S-075｜债务对象进入娱乐场所与共同分利](债务对象进入娱乐场所与共同分利.md)、[PL-S-078｜罗东海落网、赌贷团\
+      伙收网与章绍衡潜逃](地下赌局查获罗东海落网与异能诱赌显影.md)、[PL-S-051｜多场所黑产经营、共同分利与第一责任切割](../顾清言/会\
+      所黑产经营特殊目标入口与退出失控.md)。"
     related: ""
     sources:
       - "`BIBLE.md`"
-      - "`characters/preentry/章绍衡/主卡.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
+      - "`characters/minor/阿九/主卡.md`"
+      - "`characters/minor/罗东海/主卡.md`"
+      - "`characters/major/白玥/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
+      - "`story/plotlines/副线/晏林/阿九/裸贷异能诱赌与肉偿相遇.md`"
     source_file: story/plotlines/副线/章绍衡/地下赌局非法放贷与债务诱导形成.md
   - id: PL-S-053
     type: 副线
@@ -2191,7 +2420,7 @@ nodes:
       - 定稿事实通过至少两次普通生活互动表现童颜被接纳，而不是只用口头保证概括安全。
       - 定稿事实明确童颜可以提出生活需要，也不必用家务、乖巧或身体回报暂住。
       - 定稿事实明确客厅应急不被固化为童颜的长期居住位置。
-    upstream: "[PL-S-052｜清醒求助与家庭、会所控制切断](清醒求助与控制切断.md)。"
+    upstream: "[PL-S-052｜清醒求助与家庭、商 K控制切断](清醒求助与控制切断.md)。"
     downstream: "[PL-S-059｜四居室搬迁与共同生活边界重排](../晏林/童颜/四居室搬迁与共同生活边界重排.md)。"
     related: ""
     sources:
@@ -2232,8 +2461,9 @@ nodes:
       - 定稿事实明确她形成独立账户、安排或外部关系。
       - 定稿事实明确她在尚未确定长期职业时拥有试课、改变方向和重新选择的空间。
       - 定稿事实至少出现一次学校生活进入家中、家中支持又不过度接管学校选择的双向连接。
-    upstream: "[PL-S-052｜清醒求助与家庭、会所控制切断](清醒求助与控制切断.md)、[PL-S-059｜四居室搬迁与共同生活边界重排](..\
-      /晏林/童颜/四居室搬迁与共同生活边界重排.md)。"
+    upstream: "[PL-S-052｜清醒求助与家庭、商
+      K控制切断](清醒求助与控制切断.md)、[PL-S-059｜四居室搬迁与共同生活边界重排](../晏林/童颜/四居室搬迁与共同生活边界重排.md\
+      )。"
     downstream: "[PL-I-024｜独立状态下的欲望确认与自由兑现](../../亲密线/晏林/童颜/独立状态下的欲望确认与自由兑现.md)、[PL\
       -S-061｜赌债清算、父亲追责与母亲选择](赌债清算与原生家庭处置.md)。"
     related: ""
@@ -2243,19 +2473,19 @@ nodes:
     source_file: story/plotlines/副线/童颜/新学校入学与独立生活启动.md
   - id: PL-S-052
     type: 副线
-    name: 清醒求助与家庭、会所控制切断
+    name: 清醒求助与家庭、商 K控制切断
     status: pending
-    locator: 酒店梦魇显影后，童颜由否认、退回控制推进到清醒求助，并通过普通警察与管理局协查接口切断父亲及 KTV 的即时控制。
+    locator: 酒店梦魇显影后，童颜由否认、退回控制推进到清醒求助，并由普通警察主导切断父亲及云顶 KTV
+      体系对她的即时控制；只有实际出现契约危害时，管理局才在限定范围内协查。
     shape: progression
     progression_kind: chain
     criteria:
       - 定稿事实明确童颜清醒主动求助。
       - 定稿事实明确未支付赎身款，父亲赌债不转移给童颜。
-      - 定稿事实明确普通警察与管理局接口分工。
+      - 定稿事实明确普通警察主导现实救助；管理局仅在实际出现契约危害时有限协查。
       - 定稿事实明确童颜自行选择临时去向。
-    upstream: "[PL-I-023｜付费相遇、第一次身体关系与梦魇显影](../../亲密线/晏林/童颜/付费相遇与梦魇显影.md)、[PL-S-010\
-      ｜高端商务会所异常药剂与联合验证](../高端商务会所/异常药剂与联合验证.md)、[PL-S-048｜成年当事人保护、回流与长期后果](../当\
-      事人/成年当事人保护回流与长期后果.md)。"
+    upstream: "[PL-I-023｜付费相遇、第一次身体关系与梦魇显影](../../亲密线/晏林/童颜/付费相遇与梦魇显影.md)、[PL-S-048\
+      ｜成年当事人保护、回流与长期后果](../当事人/成年当事人保护回流与长期后果.md)。"
     downstream: "[PL-S-053｜临时安置与非交换性安全建立](临时安置与安全建立.md)。"
     related: ""
     sources:
@@ -2276,8 +2506,8 @@ nodes:
       - 定稿事实明确她以自己的经历和判断面对父亲，并自行决定陈述范围。
       - 定稿事实明确是否联系母亲由她本人决定。
       - 定稿事实保留未被追回的现实损失。
-    upstream: "[PL-S-052｜清醒求助与家庭、会所控制切断](清醒求助与控制切断.md)、[PL-S-054｜新学校入学与独立生活启动](新学校入\
-      学与独立生活启动.md)。"
+    upstream: "[PL-S-052｜清醒求助与家庭、商
+      K控制切断](清醒求助与控制切断.md)、[PL-S-054｜新学校入学与独立生活启动](新学校入学与独立生活启动.md)。"
     downstream: "[PL-S-048｜成年当事人保护、回流与长期后果](../当事人/成年当事人保护回流与长期后果.md)、尾声生活后果。"
     related: ""
     sources:
@@ -2304,7 +2534,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`worldbuilding/factions/星辰管理局.md`"
-      - "`characters/preentry/沈宁/主卡.md`"
+      - "`characters/minor/沈宁/主卡.md`"
       - "`story/arcs/阶段四.md`"
       - "`story/arcs/阶段五.md`"
     source_file: story/plotlines/副线/管理局/受控合作与必要更正.md
@@ -2326,7 +2556,7 @@ nodes:
     sources:
       - "`BIBLE.md`"
       - "`worldbuilding/factions/星辰管理局.md`"
-      - "`characters/preentry/沈宁/主卡.md`"
+      - "`characters/minor/沈宁/主卡.md`"
       - "`story/arcs/阶段二.md`"
     source_file: story/plotlines/副线/管理局/首次个案协查.md
   - id: PL-S-011
@@ -2430,8 +2660,8 @@ nodes:
       - "`worldbuilding/organizations/万安集团/万安影视文化.md`"
       - "`worldbuilding/organizations/江州城市投资集团.md`"
       - "`worldbuilding/organizations/陆家境外产业网络.md`"
-      - "`characters/preentry/齐心/主卡.md`"
-      - "`characters/preentry/陆佳凝/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
+      - "`characters/minor/陆佳凝/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
       - "`characters/preentry/裴崇礼/主卡.md`"
       - "`characters/preentry/裴怀山/主卡.md`"
@@ -2491,7 +2721,7 @@ nodes:
       - "`worldbuilding/factions/黑市.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
       - "`characters/major/白玥/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/裴怀山/主卡.md`"
     source_file: story/plotlines/副线/裴家/黑市订单后台与信息分层.md
   - id: PL-S-014
@@ -2540,6 +2770,28 @@ nodes:
       - "`worldbuilding/organizations/野人户外.md`"
       - "`worldbuilding/regions/江州/玉屏区.md`"
     source_file: story/plotlines/副线/野人户外/中试中心论证与落地.md
+  - id: PL-S-077
+    type: 副线
+    name: 云间区域渠道合作与外部市场突破
+    status: pending
+    locator: 稳定经营约五年的野人第一次把外部渠道拓展推进到核心城市市场；方成越、晏林与渠道负责人共同赴云间，与拥有当地户外零售网络、合作终端、会员社群和活动资源的代理经销商达成区域线下合作，使公司从以江州本地经营为主迈出实质性的跨区域一步。
+    shape: progression
+    progression_kind: single
+    criteria:
+      - 正文或定稿摘要明确云间代理经销商拥有当地线下零售、会员或活动渠道，而不是单一门店采购者。
+      - 正文或定稿摘要明确方成越、渠道负责人和晏林共同参与，并分别承担经营、渠道和产品职责。
+      - 正文或定稿摘要明确双方取得实质性区域线下合作成果，同时保留自营渠道和正式合同约束。
+      - 正文或定稿摘要把该成果写成野人创业五年来第一次重大外部渠道突破，但不写成已经垄断或占领整个云间市场。
+      - 正文或定稿摘要明确后续商务 KTV 局只是关系维护，不替代正式合作程序。
+    upstream: 野人既有稳定经营、产品迭代和少量合作门店基础；不要求中试中心已经建成。
+    downstream: "[PL-I-030｜松散兼职付费亲密与阶段性结束](../../亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md)。"
+    related: ""
+    sources:
+      - "`BIBLE.md`"
+      - "`characters/major/晏林/主卡.md`"
+      - "`worldbuilding/organizations/野人户外.md`"
+      - "`worldbuilding/regions/国内映射.md`"
+    source_file: story/plotlines/副线/野人户外/云间区域渠道合作与外部市场突破.md
   - id: PL-S-062
     type: 副线
     name: 产品会议、样品立项与测试任务形成
@@ -2586,26 +2838,28 @@ nodes:
     type: 副线
     name: 多场所黑产经营、共同分利与第一责任切割
     status: pending
-    locator: 顾清言从长期主动经营裴家—齐心共同控制的多家娱乐场所、组织色情交易与欲望订单并参与分利，推进到确认上层保留主要收益与目标处置权、却把公开经营和第一环责任集中压向她，最终尝试退出并遭齐心强行种印。
+    locator: 顾清言从长期统筹裴家—齐心共同控制的私域与云顶
+      KTV、组织色情交易与欲望订单并参与分利，推进到确认上层保留主要收益与目标处置权、却把公开经营和第一环责任集中压向她，最终尝试退出并遭齐心强行种印。
     shape: progression
     progression_kind: chain
     criteria:
-      - 正文或定稿摘要明确顾清言长期主动经营多家娱乐场所黑产并从中获利，不因后续受印而消除既有责任。
+      - 正文或定稿摘要明确私域与云顶各有店级负责人，顾清言作为最终负责人长期主动统筹两店黑产并从中获利，不因后续受印而消除既有责任。
       - 正文或定稿摘要明确万安影视文化与章绍衡分别提供部分人员／项目和债务入口，顾清言承担场所接收后的经营责任。
+      - 正文或定稿摘要以阿九的接收、规训与投入服务为具名事实，且没有用她被训练出的主动表现替顾清言或店级管理链免责。
       - 正文或定稿摘要以独立现实材料确认裴家、齐心和顾清言共享部分场所收益，但没有合并全部产业。
       - 正文或定稿摘要明确场所因察觉异常而换人、调店或清理名单，且反制留下新的现实调度痕迹。
       - 正文或定稿摘要明确顾清言因第一责任切割风险保存场所端材料并尝试退出，随后遭齐心强行种印。
-    upstream: "[PL-S-076｜多场所亲密入口、灰色入梦与线索拼合](../高端商务会所/多场所亲密入口灰色入梦与线索拼合.md)、[PL-S-01\
-      0｜高端商务会所异常药剂与联合验证](../高端商务会所/异常药剂与联合验证.md)、[PL-S-026｜万安影视文化艺人压迫与咨询显影](../\
-      万安影视文化/艺人压迫与咨询显影.md)、[PL-S-074｜地下赌局、非法放贷与债务诱导形成](../章绍衡/地下赌局非法放贷与债务诱导形成.m\
-      d)、[PL-S-075｜债务对象进入娱乐场所与共同分利](../章绍衡/债务对象进入娱乐场所与共同分利.md)。"
+    upstream: "[PL-S-076｜多场所亲密入口、入梦与线索拼合](../高端商务会所/多场所亲密入口入梦与线索拼合.md)、[PL-S-010｜高端\
+      商务会所异常药剂与联合验证](../高端商务会所/异常药剂与联合验证.md)、[PL-S-026｜万安影视文化艺人压迫与咨询显影](../万安影视\
+      文化/艺人压迫与咨询显影.md)、[PL-S-074｜地下赌局、非法放贷与债务诱导形成](../章绍衡/地下赌局非法放贷与债务诱导形成.md)、[\
+      PL-S-075｜债务对象进入娱乐场所与共同分利](../章绍衡/债务对象进入娱乐场所与共同分利.md)。"
     downstream: "[PL-S-008｜顾清言的隔离、解印与责任分层](../黑暗契约者/非法种印首案的隔离解印与责任分层.md)。"
     related: ""
     sources:
       - "`BIBLE.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
-      - "`characters/preentry/章绍衡/主卡.md`"
-      - "`characters/preentry/齐心/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
+      - "`characters/minor/齐心/主卡.md`"
       - "`characters/preentry/裴兰馨/主卡.md`"
       - "`worldbuilding/organizations/万安集团/_index.md`"
       - "`worldbuilding/organizations/万安集团/万安影视文化.md`"
@@ -2626,8 +2880,8 @@ nodes:
       - 正文或定稿摘要明确顾清言交代种印与本人经手交易的浅层事实，没有交出完整责任链。
       - 正文或定稿摘要明确顾清言只提供一条本人记忆中的异常交接入口，且该入口由门禁、排班、车辆、通讯或其他现实记录独立核验，不能单凭陈述定案。
       - 正文或定稿摘要明确顾清言通过普通来宾推荐为晏林建立云梦号公开登船入口。
-    upstream: "[PL-S-067｜顾清言星辰之印排异发作与首次截断止损](星辰之印排异发作与首次截断止损.md)、[PL-I-030｜会所有限付费亲密\
-      与阶段性结束](../../亲密线/晏林/莫思绮/会所有限付费亲密与阶段性结束.md)。"
+    upstream: "[PL-S-067｜顾清言星辰之印排异发作与首次截断止损](星辰之印排异发作与首次截断止损.md)、[PL-I-030｜松散兼职付费亲密\
+      与阶段性结束](../../亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md)。"
     downstream: "[PL-I-028｜航程限定关系、楚辞欲望确认与靠岸分流](../../亲密线/晏林/赵梦娜/航程限定关系与楚辞欲望确认.md)、[\
       PL-M-013｜云梦号六人会谈与跨境运营重组](../../主线/反派/云梦号六人会谈与跨境运营重组.md)、[PL-M-006｜陆佳凝合法出境\
       组织与境外交接显影](../../主线/反派/陆佳凝境外承接网络显影.md)、[PL-S-008｜顾清言的隔离、解印与责任分层](../黑暗契约者\
@@ -2638,8 +2892,8 @@ nodes:
       - "`BIBLE.md`"
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
-      - "`characters/preentry/顾清言/契约.md`"
+      - "`characters/minor/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/契约.md`"
       - "`worldbuilding/organizations/野人户外.md`"
       - "`story/plotlines/副线/顾清言/会所黑产经营特殊目标入口与退出失控.md`"
     source_file: story/plotlines/副线/顾清言/反复止损姐弟关系与有限交底.md
@@ -2656,46 +2910,61 @@ nodes:
       - 正文或定稿摘要明确顾清言只承认受到控制，尚未交代控制者和完整事实。
       - 正文或定稿摘要明确顾清言决定寻找第二次验证机会，但两人尚未形成稳定合作。
     upstream: "[PL-S-051｜顾清言会所黑产经营、特殊目标入口与退出失控](会所黑产经营特殊目标入口与退出失控.md)、[PL-S-043｜裴家把\
-      柄、订单异常与白玥主动留证](../白玥/裴家把柄订单异常与主动留证.md)、[PL-I-030｜会所有限付费亲密与阶段性结束](../../亲密\
-      线/晏林/莫思绮/会所有限付费亲密与阶段性结束.md)。"
+      柄、订单异常与白玥主动留证](../白玥/裴家把柄订单异常与主动留证.md)、[PL-I-030｜松散兼职付费亲密与阶段性结束](../../亲密\
+      线/晏林/梦露/松散兼职付费亲密与阶段性结束.md)。"
     downstream: "[PL-S-068｜反复止损、姐弟关系与有限交底](反复止损姐弟关系与有限交底.md)、[PL-I-032｜长期临界暧昧与尾声自由兑\
       现](../../亲密线/晏林/顾清言/长期临界暧昧与尾声自由兑现.md)。"
     related: ""
     sources:
       - "`BIBLE.md`"
       - "`characters/major/晏林/契约.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
-      - "`characters/preentry/顾清言/契约.md`"
+      - "`characters/minor/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/契约.md`"
       - "`story/plotlines/副线/顾清言/会所黑产经营特殊目标入口与退出失控.md`"
     source_file: story/plotlines/副线/顾清言/星辰之印排异发作与首次截断止损.md
   - id: PL-S-076
     type: 副线
-    name: 多场所亲密入口、灰色入梦与线索拼合
+    name: 多场所亲密入口、入梦与线索拼合
     status: pending
-    locator: 晏林以真实消费者身份接触自由交易者、合同受限者、场所从业者及其他成年对象，在当场可见条件下分别确认具体亲密行为；关系后的普通聊天与未经专项授权或授权范围模糊的入梦，使多人的主观梦境碎片逐步形成多场所、万安项目与债务入口的调查方向，同时引发关系后果和场所反制。
+    locator: 晏林以真实消费者身份在云顶 KTV
+      接触自由交易者、合同受限者、场所从业者及其他成年对象，并逐步进入私域；关系后的普通聊天与入梦，使多人的主观梦境碎片逐步形成云顶—私域、万安项目与债务入口的调查方向，同时引发场所反制。
     shape: progression
     progression_kind: chain
     criteria:
       - 正文或定稿摘要明确至少一名自由交易者与一名处于结构性限制中的成年人不能使用同一授权口径。
-      - 正文或定稿摘要明确晏林进行至少一次未经专项授权或授权范围模糊的灰色入梦，并承认性同意不等于入梦授权。
+      - 正文或定稿摘要保持梦露、月月、淼淼、小娜、童颜与阿九六人的入口、自由程度和信息功能分轴，没有互相借用身份或线索。
+      - 正文或定稿摘要明确至少一次入梦及其规则：对方未明确拒绝时可以进入，明确拒绝后不得强制进入或继续。
       - 正文或定稿摘要以多个梦境的重复碎片形成调查方向，同时出现至少一次误读或无法确认的归因。
       - 正文或定稿摘要明确梦境不作证据，现实材料独立完成至少一项交叉验证。
-      - 正文或定稿摘要出现关系边界变化或场所反制，使灰色搜集承担现实后果。
-    upstream: "[PL-I-030｜会所有限付费亲密与阶段性结束](../../亲密线/晏林/莫思绮/会所有限付费亲密与阶段性结束.md)、[PL-S-\
-      074｜地下赌局、非法放贷与债务诱导形成](../章绍衡/地下赌局非法放贷与债务诱导形成.md)、[PL-S-026｜万安影视文化艺人压迫与咨询显\
-      影](../万安影视文化/艺人压迫与咨询显影.md)。"
+      - 正文或定稿摘要明确晏林只有限披露与犯罪、现实危险或调查目标直接相关的线索，没有泄露梦中无关隐私。
+      - 正文或定稿摘要出现误读、能力负担或场所反制，使线索搜集承担现实后果。
+    upstream: "[PL-I-030｜松散兼职付费亲密与阶段性结束](../../亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md)、[PL-I-0\
+      34｜梦露介绍、商
+      K离场与付费性服务关系](../../亲密线/晏林/月月/梦露介绍商K离场与付费性服务关系.md)、[PL-I-035｜活动邀约、商
+      K离场与付费性服务关系](../../亲密线/晏林/淼淼/活动邀约商K离场与付费性服务关系.md)、[PL-I-036｜商
+      K同行、共同邀请与三人付费性服务关系](../../亲密线/晏林/梦露小娜/商K同行共同邀请与三人付费性服务关系.md)、[PL-S-074｜地下\
+      赌局、非法放贷与债务诱导形成](../章绍衡/地下赌局非法放贷与债务诱导形成.md)、[PL-S-026｜万安影视文化艺人压迫与咨询显影](../\
+      万安影视文化/艺人压迫与咨询显影.md)。"
     downstream: "[PL-S-010｜高端商务会所异常药剂与联合验证](异常药剂与联合验证.md)、[PL-S-051｜多场所黑产经营、共同分利与第一\
       责任切割](../顾清言/会所黑产经营特殊目标入口与退出失控.md)、[PL-I-023｜付费相遇、第一次身体关系与梦魇显影](../../亲密线\
-      /晏林/童颜/付费相遇与梦魇显影.md)。"
+      /晏林/童颜/付费相遇与梦魇显影.md)、[PL-I-037｜商
+      K肉偿相遇、当次付费关系与梦魇显影](../../亲密线/晏林/阿九/商K肉偿相遇当次付费关系与梦魇显影.md)、[PL-S-052｜清醒求助与家\
+      庭、商
+      K控制切断](../童颜/清醒求助与控制切断.md)、[PL-S-079｜裸贷压力显影与清醒处置选择](../小娜/裸贷压力显影与清醒处置选择.m\
+      d)、[PL-S-081｜裸贷、异能诱赌与肉偿相遇](../晏林/阿九/裸贷异能诱赌与肉偿相遇.md)。"
     related: ""
     sources:
       - "`BIBLE.md`"
       - "`characters/major/晏林/主卡.md`"
       - "`characters/major/晏林/契约.md`"
-      - "`characters/preentry/莫思绮/主卡.md`"
-      - "`story/plotlines/亲密线/晏林/莫思绮/会所有限付费亲密与阶段性结束.md`"
+      - "`characters/minor/梦露/主卡.md`"
+      - "`story/plotlines/亲密线/晏林/梦露/松散兼职付费亲密与阶段性结束.md`"
+      - "`story/plotlines/亲密线/晏林/月月/梦露介绍商K离场与付费性服务关系.md`"
+      - "`story/plotlines/亲密线/晏林/淼淼/活动邀约商K离场与付费性服务关系.md`"
+      - "`story/plotlines/亲密线/晏林/梦露小娜/商K同行共同邀请与三人付费性服务关系.md`"
+      - "`story/plotlines/亲密线/晏林/阿九/商K肉偿相遇当次付费关系与梦魇显影.md`"
       - "`story/plotlines/副线/顾清言/会所黑产经营特殊目标入口与退出失控.md`"
-    source_file: story/plotlines/副线/高端商务会所/多场所亲密入口灰色入梦与线索拼合.md
+    source_file: story/plotlines/副线/高端商务会所/多场所亲密入口入梦与线索拼合.md
   - id: PL-S-010
     type: 副线
     name: 高端商务会所异常药剂与联合验证
@@ -2708,11 +2977,11 @@ nodes:
       - 正文或定稿摘要明确普通调查与管理局职责分工不同。
       - 正文或定稿摘要明确成年求救者重新取得去向、求助与信息转交选择权。
       - 正文或定稿摘要明确公开经营、普通员工与黑产责任按实际知情和行为分层。
-      - 正文或定稿摘要明确梦境只提供私人核查方向，现实证据独立成立，并承接晏林灰色入梦的协查可信度后果。
+      - 正文或定稿摘要明确梦境只提供核查方向，晏林按必要范围披露相关线索、保留无关隐私，现实证据独立成立。
       - 正文或定稿摘要明确会所线索为后续种印、黑市与反派主线提供证据接口。
       - 正文或定稿摘要明确本案为管理局留下一次可归档的晏林登记外能力疑点，但不因单案直接完成复评或定性。
       - 正文或定稿摘要明确会所违法业务进入查封、资产处置或黑产接口拆除，同时不以此替代对齐心及上游的追查。
-    upstream: "`PL-S-006`、[PL-S-076｜多场所亲密入口、灰色入梦与线索拼合](多场所亲密入口灰色入梦与线索拼合.md)。"
+    upstream: "`PL-S-006`、[PL-S-076｜多场所亲密入口、入梦与线索拼合](多场所亲密入口入梦与线索拼合.md)。"
     downstream: "[PL-S-005｜晏林登记外能力疑点与分层备案](../晏林/登记外能力疑点与分层备案.md)、[PL-S-051｜多场所黑产经营\
       、共同分利与第一责任切割](../顾清言/会所黑产经营特殊目标入口与退出失控.md)、[PL-S-074｜地下赌局、非法放贷与债务诱导形成](..\
       /章绍衡/地下赌局非法放贷与债务诱导形成.md)、`PL-S-009`、[PL-S-041｜白玥多笔订单与行为责任形成](../白玥/多笔订单与行\
@@ -2725,8 +2994,8 @@ nodes:
       - "`story/arcs/阶段二.md`"
       - "`story/arcs/阶段三.md`"
       - "`characters/major/白玥/主卡.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
-      - "`characters/preentry/章绍衡/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
+      - "`characters/minor/章绍衡/主卡.md`"
     source_file: story/plotlines/副线/高端商务会所/异常药剂与联合验证.md
   - id: PL-S-009
     type: 副线
@@ -2756,7 +3025,8 @@ nodes:
     type: 副线
     name: 顾清言的隔离、解印与责任分层
     status: pending
-    locator: 多家会所、KTV与酒店私密活动空间的明面负责人顾清言作为第一环责任人、主动涉黑经营者与成年受印者，进入隔离、评估、授权解印和责任分层流程。
+    locator: 私域与云顶 KTV
+      的最终负责人顾清言作为第一环责任人、主动涉黑经营者与成年受印者，进入隔离、评估、授权解印和责任分层流程；两店各有店级负责人，但不削弱她的最终经营责任。
     shape: progression
     progression_kind: single
     criteria:
@@ -2777,6 +3047,6 @@ nodes:
       - "`worldbuilding/factions/黑暗契约者.md`"
       - "`story/arcs/阶段四.md`"
       - "`story/arcs/阶段五.md`"
-      - "`characters/preentry/顾清言/主卡.md`"
+      - "`characters/minor/顾清言/主卡.md`"
       - "`characters/preentry/刘秉文/主卡.md`"
     source_file: story/plotlines/副线/黑暗契约者/非法种印首案的隔离解印与责任分层.md
