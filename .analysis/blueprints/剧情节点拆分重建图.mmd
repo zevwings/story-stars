@@ -1,0 +1,126 @@
+flowchart LR
+  ROOT["当前迁移状态<br/>141 个正式节点文件<br/>133 pending / 8 retired"]:::source
+  TARGET["目标<br/>约 235—245 个原子节点<br/>一个节点＝一个可独立完成的状态变化"]:::target
+
+  ROOT --> RULES
+  RULES["原子化门禁<br/>可独立完成｜独立上下游｜单一归档主体｜施工动作不升格"]:::rule
+
+  subgraph B1["批次 1｜云顶、赌场与债务链"]
+    direction TB
+    B1O["旧节点<br/>S074 / S075 / S076 / S078 / S080 / S081 / S082"]:::old
+    B1A["S087—S090<br/>赌贷网络、能力合作<br/>人员转送、共同分利"]:::done
+    B1B["S091—S096<br/>六名人物各自的<br/>最小入口或风险方向"]:::done
+    B1C["S097—S102<br/>会员审核、被动标记、私域首入<br/>梦境方向、能力代价、现实核验"]:::done
+    B1D["S103—S106<br/>现场落网、记忆复核<br/>团伙收网、正式移交"]:::done
+    B1E["S107—S109<br/>秦瑶签贷、暗示扩大债务<br/>转入云顶控制"]:::done
+    B1F["S110—S111<br/>公共余额清零<br/>于静收监与云顶关停"]:::done
+    B1O --> B1A
+    B1O --> B1B
+    B1O --> B1C
+    B1O --> B1D
+    B1O --> B1E
+    B1O --> B1F
+  end
+
+  subgraph B2["批次 2｜顾清言止损、解印、责任与离场"]
+    direction TB
+    B2O["旧节点<br/>S008 / S051 / S067 / S068 / I032"]:::old
+    B2A["经营、分利、留证与退出失败"]:::new
+    B2B["首次排异止损与反复止损回路"]:::new
+    B2C["姐弟协作与有限交底"]:::new
+    B2D["隔离授权、核心剥离与长期修复"]:::new
+    B2E["责任分层、收监与永久能力后果"]:::new
+    B2F["阶段身体关系、程序停止与关系离场"]:::new
+    B2O --> B2A
+    B2O --> B2B
+    B2O --> B2C
+    B2O --> B2D
+    B2O --> B2E
+    B2O --> B2F
+  end
+
+  subgraph B3["批次 3｜白玥订单、逆流与入案"]
+    direction TB
+    B3O["旧节点<br/>S041—S047 / I021—I022"]:::old
+    B3A["持续接单与主动责任形成"]:::new
+    B3B["杨柳拒绝、白玥越界与晏林完整逆流"]:::new
+    B3C["第一次、次日复选与缓冲期"]:::new
+    B3D["线上记录入案与私域方向入案"]:::new
+    B3E["程序隔离、保护方案与有限监管印"]:::new
+    B3F["记录核验、认责与受保护退出"]:::new
+    B3G["裴家后台显影、账户切割与剪裁甩锅"]:::new
+    B3O --> B3A
+    B3O --> B3B
+    B3O --> B3C
+    B3O --> B3D
+    B3O --> B3E
+    B3O --> B3F
+    B3O --> B3G
+  end
+
+  subgraph B4["批次 4｜童颜、秦瑶与现实脱离"]
+    direction TB
+    B4O["旧节点<br/>S052—S061 / S079 / S081 / S083 / S085—S086<br/>I023—I025 / I037 / I039—I040"]:::old
+    B4A["求助、控制切断、安置与教育生活"]:::new
+    B4B["夜间依恋、称呼重认与独立睡眠"]:::new
+    B4C["童颜自由兑现与稳定高需求回路"]:::new
+    B4D["秦瑶三晚递进、有限陈述与债务脱离"]:::new
+    B4E["临行主动复选、普通生活与私人回归"]:::new
+    B4F["何雯娜裸贷显影、清零与影像余波"]:::new
+    B4O --> B4A
+    B4O --> B4B
+    B4O --> B4C
+    B4O --> B4D
+    B4O --> B4E
+    B4O --> B4F
+  end
+
+  subgraph B5["批次 5｜跨境反派与最终清算"]
+    direction TB
+    B5O["旧节点<br/>M002 / M004 / M006—M008 / M013<br/>S025—S026 / S046—S050"]:::old
+    B5A["共同控制方法与多案交叉验证"]:::new
+    B5B["合法出境、境外交接与实验承接"]:::new
+    B5C["运营重组、三方分轴控制与反派反制"]:::new
+    B5D["人员转送、实验方向与幸存者证据"]:::new
+    B5E["责任主体分别裁判"]:::new
+    B5F["合法产业接管与受害后果承接"]:::new
+    B5O --> B5A
+    B5O --> B5B
+    B5O --> B5C
+    B5O --> B5D
+    B5O --> B5E
+    B5O --> B5F
+  end
+
+  subgraph B6["批次 6｜关系、共同秩序与职业轻拆"]
+    direction TB
+    B6O["旧节点<br/>M014—M016<br/>S002—S005 / S012—S014 / S028—S036<br/>S062—S073<br/>I002—I006 / I010 / I015 / I019 / I024 / I026 / I029"]:::old
+    B6A["必要告知与关系确认分离"]:::new
+    B6B["定情与第一次身体兑现分离"]:::new
+    B6C["危机分波知情与长期共同秩序分离"]:::new
+    B6D["职业离开、进入、考察、决选与交接分离"]:::new
+    B6E["产品立项、实测、尽调、融资与落地分离"]:::new
+    B6O --> B6A
+    B6O --> B6B
+    B6O --> B6C
+    B6O --> B6D
+    B6O --> B6E
+  end
+
+  RULES --> B1O
+  B1F --> B2O
+  B2F --> B3O
+  B3G --> B4O
+  B4F --> B5O
+  B5F --> B6O
+  B6E --> TARGET
+
+  GRAPH["重建后的绘图规则<br/>阶段折叠｜局部 DAG｜仅直接因果边<br/>相关引用默认隐藏｜共享场景经 CON-* 汇合"]:::rule
+  TARGET --> GRAPH
+
+  classDef source fill:#334155,color:#ffffff,stroke:#0f172a,stroke-width:2px;
+  classDef target fill:#166534,color:#ffffff,stroke:#14532d,stroke-width:2px;
+  classDef rule fill:#fef3c7,color:#78350f,stroke:#d97706,stroke-width:1.5px;
+  classDef old fill:#fee2e2,color:#7f1d1d,stroke:#dc2626;
+  classDef new fill:#dbeafe,color:#1e3a8a,stroke:#2563eb;
+  classDef done fill:#dcfce7,color:#14532d,stroke:#16a34a,stroke-width:1.5px;
