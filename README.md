@@ -22,7 +22,7 @@
 ## 施工与派生目录
 
 - `story/construction/`: 已确认的执行规格；具体单元使用稳定 `CON-xxxx` ID，并由 `_status/` 五态管理。
-- `.plotlines/`: 剧情图谱工作台。
+- 剧情线 Preview：使用 `story-writer plotline preview` 从正式剧情线直接打开，临时产物不写入本仓。
 - `.prewrite/`: 分章节写前上下文包。
 
 完整职责与真源边界见 `BIBLE.md`「十一、施工与派生目录」。

@@ -50,9 +50,6 @@ __pycache__/
 # Tool runtime output
 tmp/
 temp/
-.plotlines/node_modules/
-.plotlines/dist/
-.plotlines/generated/
 
 # 目录放行规则之后再次排除 macOS 元数据。
 .DS_Store
