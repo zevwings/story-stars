@@ -50,31 +50,34 @@ members:
       - characters/minor/顾清言/形象.md
       - characters/minor/顾清言/衣装.md
       - characters/minor/顾清言/契约.md
-  - key: 梦露（化名）
+  - key: 言溪（艺名：梦露）
     primary:
-      - characters/minor/梦露/主卡.md
-      - characters/minor/梦露/形象.md
-      - characters/minor/梦露/衣装.md
-  - key: 月月（艺名）
+      - characters/minor/言溪/主卡.md
+  - key: 俞予安（艺名：小鱼儿）
     primary:
-      - characters/minor/月月/主卡.md
-      - characters/minor/月月/形象.md
-      - characters/minor/月月/衣装.md
-  - key: 淼淼（艺名）
+      - characters/minor/俞予安/主卡.md
+      - characters/minor/俞予安/形象.md
+      - characters/minor/俞予安/衣装.md
+  - key: 王诗悦（艺名：悦悦）
     primary:
-      - characters/minor/淼淼/主卡.md
-      - characters/minor/淼淼/形象.md
-      - characters/minor/淼淼/衣装.md
-  - key: 小娜（艺名）
+      - characters/minor/王诗悦/主卡.md
+      - characters/minor/王诗悦/形象.md
+      - characters/minor/王诗悦/衣装.md
+  - key: 江妙妙（艺名：淼淼）
     primary:
-      - characters/minor/小娜/主卡.md
-      - characters/minor/小娜/形象.md
-      - characters/minor/小娜/衣装.md
-  - key: 阿九（自称）
+      - characters/minor/江妙妙/主卡.md
+      - characters/minor/江妙妙/形象.md
+      - characters/minor/江妙妙/衣装.md
+  - key: 何雯娜（艺名：娜娜）
     primary:
-      - characters/minor/阿九/主卡.md
-      - characters/minor/阿九/形象.md
-      - characters/minor/阿九/衣装.md
+      - characters/minor/何雯娜/主卡.md
+      - characters/minor/何雯娜/形象.md
+      - characters/minor/何雯娜/衣装.md
+  - key: 秦瑶（场所昵称：阿九）
+    primary:
+      - characters/minor/秦瑶/主卡.md
+      - characters/minor/秦瑶/形象.md
+      - characters/minor/秦瑶/衣装.md
   - key: 章绍衡
     primary:
       - characters/minor/章绍衡/主卡.md
@@ -86,4 +89,4 @@ members:
       - characters/minor/罗东海/形象.md
       - characters/minor/罗东海/衣装.md
       - characters/minor/罗东海/契约.md
-note: 共 16 人
+note: 共 17 人

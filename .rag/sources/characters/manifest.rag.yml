@@ -14,8 +14,6 @@ routes:
     static: characters/major/江岚/主卡.md
   - key: 唐雨薇
     static: characters/major/唐雨薇/主卡.md
-  - key: 林芷兰
-    static: characters/major/林芷兰/主卡.md
   - key: 温婉
     static: characters/major/温婉/主卡.md
   - key: 许知夏
@@ -46,16 +44,18 @@ routes:
     static: characters/minor/陆佳凝/主卡.md
   - key: 顾清言
     static: characters/minor/顾清言/主卡.md
-  - key: 梦露（化名）
-    static: characters/minor/梦露/主卡.md
-  - key: 月月（艺名）
-    static: characters/minor/月月/主卡.md
-  - key: 淼淼（艺名）
-    static: characters/minor/淼淼/主卡.md
-  - key: 小娜（艺名）
-    static: characters/minor/小娜/主卡.md
-  - key: 阿九（自称）
-    static: characters/minor/阿九/主卡.md
+  - key: 言溪（艺名：梦露）
+    static: characters/minor/言溪/主卡.md
+  - key: 俞予安（艺名：小鱼儿）
+    static: characters/minor/俞予安/主卡.md
+  - key: 王诗悦（艺名：悦悦）
+    static: characters/minor/王诗悦/主卡.md
+  - key: 江妙妙（艺名：淼淼）
+    static: characters/minor/江妙妙/主卡.md
+  - key: 何雯娜（艺名：娜娜）
+    static: characters/minor/何雯娜/主卡.md
+  - key: 秦瑶（场所昵称：阿九）
+    static: characters/minor/秦瑶/主卡.md
   - key: 章绍衡
     static: characters/minor/章绍衡/主卡.md
   - key: 罗东海

@@ -1,6 +1,6 @@
 key: 温婉
 type: character.static
-status: confirmed
+status: unknown
 primary:
   - characters/major/温婉/主卡.md
   - characters/major/温婉/形象.md
@@ -8,4 +8,4 @@ primary:
   - characters/major/温婉/契约.md
 tags:
   - 主要人物
-  - 核心已定
+  - 主要配角已定
