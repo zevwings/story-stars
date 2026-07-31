@@ -53,6 +53,36 @@ members:
   - key: 言溪（艺名：梦露）
     primary:
       - characters/minor/言溪/主卡.md
+  - key: 舒歆（常用名：猫猫）
+    primary:
+      - characters/minor/舒歆/主卡.md
+      - characters/minor/舒歆/形象.md
+      - characters/minor/舒歆/衣装.md
+  - key: 孔蔓盈（常用名：盈盈）
+    primary:
+      - characters/minor/孔蔓盈/主卡.md
+      - characters/minor/孔蔓盈/形象.md
+      - characters/minor/孔蔓盈/衣装.md
+  - key: 周语棠（艺名：海棠）
+    primary:
+      - characters/minor/周语棠/主卡.md
+      - characters/minor/周语棠/形象.md
+      - characters/minor/周语棠/衣装.md
+  - key: 钱韵（工作称呼：书书）
+    primary:
+      - characters/minor/钱韵/主卡.md
+      - characters/minor/钱韵/形象.md
+      - characters/minor/钱韵/衣装.md
+  - key: 万芳（艺名：慢慢）
+    primary:
+      - characters/minor/万芳/主卡.md
+      - characters/minor/万芳/形象.md
+      - characters/minor/万芳/衣装.md
+  - key: 宁悠悠
+    primary:
+      - characters/minor/宁悠悠/主卡.md
+      - characters/minor/宁悠悠/形象.md
+      - characters/minor/宁悠悠/衣装.md
   - key: 俞予安（艺名：小鱼儿）
     primary:
       - characters/minor/俞予安/主卡.md
@@ -89,4 +119,4 @@ members:
       - characters/minor/罗东海/形象.md
       - characters/minor/罗东海/衣装.md
       - characters/minor/罗东海/契约.md
-note: 共 17 人
+note: 共 23 人

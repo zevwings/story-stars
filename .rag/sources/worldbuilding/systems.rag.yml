@@ -103,3 +103,13 @@ entries:
       - systems
       - 能力边界
     status: confirmed
+  - key: 星辰回响
+    type: worldbuilding.systems
+    primary:
+      - worldbuilding/systems/星辰回响.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰回响
+    status: confirmed
