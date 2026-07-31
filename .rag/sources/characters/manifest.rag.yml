@@ -46,6 +46,18 @@ routes:
     static: characters/minor/顾清言/主卡.md
   - key: 言溪（艺名：梦露）
     static: characters/minor/言溪/主卡.md
+  - key: 舒歆（常用名：猫猫）
+    static: characters/minor/舒歆/主卡.md
+  - key: 孔蔓盈（常用名：盈盈）
+    static: characters/minor/孔蔓盈/主卡.md
+  - key: 周语棠（艺名：海棠）
+    static: characters/minor/周语棠/主卡.md
+  - key: 钱韵（工作称呼：书书）
+    static: characters/minor/钱韵/主卡.md
+  - key: 万芳（艺名：慢慢）
+    static: characters/minor/万芳/主卡.md
+  - key: 宁悠悠
+    static: characters/minor/宁悠悠/主卡.md
   - key: 俞予安（艺名：小鱼儿）
     static: characters/minor/俞予安/主卡.md
   - key: 王诗悦（艺名：悦悦）
@@ -72,6 +84,14 @@ routes:
     static: characters/preentry/程叙/主卡.md
   - key: 乔宁
     static: characters/preentry/乔宁/主卡.md
+  - key: 霍临川
+    static: characters/preentry/霍临川/主卡.md
+  - key: 燕舒
+    static: characters/preentry/燕舒/主卡.md
+  - key: 侯瑞驰
+    static: characters/preentry/侯瑞驰/主卡.md
+  - key: 鲁林霞
+    static: characters/preentry/鲁林霞/主卡.md
   - key: 刘秉文
     static: characters/preentry/刘秉文/主卡.md
   - key: 朱岑郁
@@ -96,3 +116,7 @@ routes:
     static: characters/preentry/方成越/主卡.md
   - key: 于静
     static: characters/preentry/于静/主卡.md
+  - key: 杨玉琴
+    static: characters/preentry/杨玉琴/主卡.md
+  - key: 孙雅琪（暂名）
+    static: characters/preentry/孙雅琪/形象.md

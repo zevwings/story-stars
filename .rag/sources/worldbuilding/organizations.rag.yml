@@ -133,3 +133,13 @@ entries:
       - organizations
       - 齐心公益基金会
     status: confirmed
+  - key: 江州风归数字内容有限公司
+    type: worldbuilding.organizations
+    primary:
+      - worldbuilding/organizations/江州风归数字内容有限公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州风归数字内容有限公司
+    status: confirmed

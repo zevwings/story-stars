@@ -20,6 +20,18 @@ members:
   - key: 乔宁
     primary:
       - characters/preentry/乔宁/主卡.md
+  - key: 霍临川
+    primary:
+      - characters/preentry/霍临川/主卡.md
+  - key: 燕舒
+    primary:
+      - characters/preentry/燕舒/主卡.md
+  - key: 侯瑞驰
+    primary:
+      - characters/preentry/侯瑞驰/主卡.md
+  - key: 鲁林霞
+    primary:
+      - characters/preentry/鲁林霞/主卡.md
   - key: 刘秉文
     primary:
       - characters/preentry/刘秉文/主卡.md
@@ -56,4 +68,11 @@ members:
   - key: 于静
     primary:
       - characters/preentry/于静/主卡.md
-note: 共 18 人
+  - key: 杨玉琴
+    primary:
+      - characters/preentry/杨玉琴/主卡.md
+  - key: 孙雅琪（暂名）
+    primary:
+      - characters/preentry/孙雅琪/形象.md
+      - characters/preentry/孙雅琪/衣装.md
+note: 共 24 人
