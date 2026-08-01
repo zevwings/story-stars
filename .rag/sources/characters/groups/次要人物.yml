@@ -78,6 +78,11 @@ members:
       - characters/minor/万芳/主卡.md
       - characters/minor/万芳/形象.md
       - characters/minor/万芳/衣装.md
+  - key: 田恬（艺名：甜甜）
+    primary:
+      - characters/minor/田恬/主卡.md
+      - characters/minor/田恬/形象.md
+      - characters/minor/田恬/衣装.md
   - key: 宁悠悠
     primary:
       - characters/minor/宁悠悠/主卡.md
@@ -98,11 +103,6 @@ members:
       - characters/minor/江妙妙/主卡.md
       - characters/minor/江妙妙/形象.md
       - characters/minor/江妙妙/衣装.md
-  - key: 何雯娜（艺名：娜娜）
-    primary:
-      - characters/minor/何雯娜/主卡.md
-      - characters/minor/何雯娜/形象.md
-      - characters/minor/何雯娜/衣装.md
   - key: 秦瑶（场所昵称：阿九）
     primary:
       - characters/minor/秦瑶/主卡.md
@@ -119,4 +119,62 @@ members:
       - characters/minor/罗东海/形象.md
       - characters/minor/罗东海/衣装.md
       - characters/minor/罗东海/契约.md
-note: 共 23 人
+  - key: 孟舒桐
+    primary:
+      - characters/minor/孟舒桐/主卡.md
+      - characters/minor/孟舒桐/形象.md
+      - characters/minor/孟舒桐/衣装.md
+  - key: 裴崇礼
+    primary:
+      - characters/minor/裴崇礼/主卡.md
+      - characters/minor/裴崇礼/形象.md
+      - characters/minor/裴崇礼/衣装.md
+      - characters/minor/裴崇礼/契约.md
+  - key: 裴怀山
+    primary:
+      - characters/minor/裴怀山/主卡.md
+      - characters/minor/裴怀山/形象.md
+      - characters/minor/裴怀山/衣装.md
+      - characters/minor/裴怀山/契约.md
+  - key: 任群
+    primary:
+      - characters/minor/任群/主卡.md
+      - characters/minor/任群/形象.md
+      - characters/minor/任群/衣装.md
+      - characters/minor/任群/契约.md
+  - key: 程叙
+    primary:
+      - characters/minor/程叙/主卡.md
+      - characters/minor/程叙/形象.md
+      - characters/minor/程叙/衣装.md
+  - key: 霍临川
+    primary:
+      - characters/minor/霍临川/主卡.md
+      - characters/minor/霍临川/形象.md
+      - characters/minor/霍临川/衣装.md
+  - key: 侯瑞驰
+    primary:
+      - characters/minor/侯瑞驰/主卡.md
+      - characters/minor/侯瑞驰/形象.md
+      - characters/minor/侯瑞驰/衣装.md
+  - key: 刘秉文
+    primary:
+      - characters/minor/刘秉文/主卡.md
+      - characters/minor/刘秉文/形象.md
+      - characters/minor/刘秉文/衣装.md
+  - key: 朱岑郁
+    primary:
+      - characters/minor/朱岑郁/主卡.md
+      - characters/minor/朱岑郁/形象.md
+      - characters/minor/朱岑郁/衣装.md
+  - key: 方成越
+    primary:
+      - characters/minor/方成越/主卡.md
+      - characters/minor/方成越/形象.md
+      - characters/minor/方成越/衣装.md
+  - key: 曲修远
+    primary:
+      - characters/minor/曲修远/主卡.md
+      - characters/minor/曲修远/形象.md
+      - characters/minor/曲修远/衣装.md
+note: 共 34 人

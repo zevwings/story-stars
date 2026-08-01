@@ -2,42 +2,19 @@ key: 预备人物
 type: character.group
 status: confirmed
 members:
-  - key: 裴崇礼
-    primary:
-      - characters/preentry/裴崇礼/契约.md
-  - key: 裴怀山
-    primary:
-      - characters/preentry/裴怀山/契约.md
   - key: 裴兰馨
     primary:
       - characters/preentry/裴兰馨/契约.md
-  - key: 任群
-    primary:
-      - characters/preentry/任群/契约.md
-  - key: 程叙
-    primary:
-      - characters/preentry/程叙/主卡.md
   - key: 乔宁
     primary:
-      - characters/preentry/乔宁/主卡.md
-  - key: 霍临川
-    primary:
-      - characters/preentry/霍临川/主卡.md
+      - characters/preentry/乔宁/形象.md
+      - characters/preentry/乔宁/衣装.md
   - key: 燕舒
     primary:
       - characters/preentry/燕舒/主卡.md
-  - key: 侯瑞驰
-    primary:
-      - characters/preentry/侯瑞驰/主卡.md
   - key: 鲁林霞
     primary:
       - characters/preentry/鲁林霞/主卡.md
-  - key: 刘秉文
-    primary:
-      - characters/preentry/刘秉文/主卡.md
-  - key: 朱岑郁
-    primary:
-      - characters/preentry/朱岑郁/主卡.md
   - key: 黄锦一
     primary:
       - characters/preentry/黄锦一/主卡.md
@@ -56,15 +33,9 @@ members:
   - key: 姜禾
     primary:
       - characters/preentry/姜禾/主卡.md
-  - key: 孟舒桐
-    primary:
-      - characters/preentry/孟舒桐/主卡.md
   - key: 高承岳
     primary:
       - characters/preentry/高承岳/主卡.md
-  - key: 方成越
-    primary:
-      - characters/preentry/方成越/主卡.md
   - key: 于静
     primary:
       - characters/preentry/于静/主卡.md
@@ -75,4 +46,8 @@ members:
     primary:
       - characters/preentry/孙雅琪/形象.md
       - characters/preentry/孙雅琪/衣装.md
-note: 共 24 人
+  - key: 何雯娜
+    primary:
+      - characters/preentry/何雯娜/形象.md
+      - characters/preentry/何雯娜/衣装.md
+note: 共 15 人

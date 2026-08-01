@@ -2,7 +2,9 @@ key: 方成越
 type: character.static
 status: unknown
 primary:
-  - characters/preentry/方成越/主卡.md
+  - characters/minor/方成越/主卡.md
+  - characters/minor/方成越/形象.md
+  - characters/minor/方成越/衣装.md
 tags:
-  - 预备人物
-  - 野人户外联合创始人、CEO、最大自然人股东与经营治理负责人
+  - 次要人物
+  - 阶段位置已定

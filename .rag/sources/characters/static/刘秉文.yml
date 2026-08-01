@@ -2,7 +2,9 @@ key: 刘秉文
 type: character.static
 status: unknown
 primary:
-  - characters/preentry/刘秉文/主卡.md
+  - characters/minor/刘秉文/主卡.md
+  - characters/minor/刘秉文/形象.md
+  - characters/minor/刘秉文/衣装.md
 tags:
-  - 预备人物
-  - 非契约者；陆佳凝长期使用、主要对接招聘／用工接口的人员转移与交接执行者
+  - 次要人物
+  - 阶段位置已定
