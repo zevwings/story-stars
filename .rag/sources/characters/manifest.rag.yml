@@ -14,8 +14,6 @@ routes:
     static: characters/major/江岚/主卡.md
   - key: 唐雨薇
     static: characters/major/唐雨薇/主卡.md
-  - key: 温婉
-    static: characters/major/温婉/主卡.md
   - key: 许知夏
     static: characters/major/许知夏/主卡.md
   - key: 许知秋
@@ -36,6 +34,8 @@ routes:
     static: characters/minor/唐雨霖/主卡.md
   - key: 阮清黎
     static: characters/minor/阮清黎/主卡.md
+  - key: 温婉
+    static: characters/minor/温婉/主卡.md
   - key: 沈宁
     static: characters/minor/沈宁/主卡.md
   - key: 齐心
@@ -64,8 +64,8 @@ routes:
     static: characters/minor/俞予安/主卡.md
   - key: 王诗悦（艺名：悦悦）
     static: characters/minor/王诗悦/主卡.md
-  - key: 江妙妙（艺名：淼淼）
-    static: characters/minor/江妙妙/主卡.md
+  - key: 何雯娜（艺名：淼淼）
+    static: characters/minor/何雯娜/主卡.md
   - key: 秦瑶（场所昵称：阿九）
     static: characters/minor/秦瑶/主卡.md
   - key: 章绍衡
@@ -98,8 +98,8 @@ routes:
     static: characters/preentry/裴兰馨/契约.md
   - key: 乔宁
     static: characters/preentry/乔宁/形象.md
-  - key: 燕舒
-    static: characters/preentry/燕舒/主卡.md
+  - key: 燕若淇
+    static: characters/preentry/燕若淇/形象.md
   - key: 鲁林霞
     static: characters/preentry/鲁林霞/主卡.md
   - key: 黄锦一
@@ -122,5 +122,3 @@ routes:
     static: characters/preentry/杨钰琪/主卡.md
   - key: 孙雅琪（暂名）
     static: characters/preentry/孙雅琪/形象.md
-  - key: 何雯娜
-    static: characters/preentry/何雯娜/形象.md

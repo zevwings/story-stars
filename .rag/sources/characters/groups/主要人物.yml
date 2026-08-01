@@ -38,12 +38,6 @@ members:
       - characters/major/唐雨薇/形象.md
       - characters/major/唐雨薇/衣装.md
       - characters/major/唐雨薇/契约.md
-  - key: 温婉
-    primary:
-      - characters/major/温婉/主卡.md
-      - characters/major/温婉/形象.md
-      - characters/major/温婉/衣装.md
-      - characters/major/温婉/契约.md
   - key: 许知夏
     primary:
       - characters/major/许知夏/主卡.md
@@ -70,4 +64,4 @@ members:
       - characters/major/楚辞/主卡.md
       - characters/major/楚辞/形象.md
       - characters/major/楚辞/衣装.md
-note: 共 12 人
+note: 共 11 人

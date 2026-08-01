@@ -73,4 +73,4 @@
 - `characters/minor/俞予安/主卡.md`
 - `worldbuilding/organizations/万安集团/万安影视文化.md`
 - `story/plotlines/亲密线/晏林/俞予安-松散兼职付费亲密与阶段性结束.md`
-- `story/plotlines/副线/组织/云顶KTV/多场所亲密入口入梦与线索拼合.md`
+- `story/plotlines/副线/组织/云顶KTV/多人梦境碎片形成核查方向.md`

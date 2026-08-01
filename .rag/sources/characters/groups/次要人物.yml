@@ -27,6 +27,12 @@ members:
       - characters/minor/阮清黎/主卡.md
       - characters/minor/阮清黎/形象.md
       - characters/minor/阮清黎/衣装.md
+  - key: 温婉
+    primary:
+      - characters/minor/温婉/主卡.md
+      - characters/minor/温婉/形象.md
+      - characters/minor/温婉/衣装.md
+      - characters/minor/温婉/契约.md
   - key: 沈宁
     primary:
       - characters/minor/沈宁/主卡.md
@@ -98,11 +104,11 @@ members:
       - characters/minor/王诗悦/主卡.md
       - characters/minor/王诗悦/形象.md
       - characters/minor/王诗悦/衣装.md
-  - key: 江妙妙（艺名：淼淼）
+  - key: 何雯娜（艺名：淼淼）
     primary:
-      - characters/minor/江妙妙/主卡.md
-      - characters/minor/江妙妙/形象.md
-      - characters/minor/江妙妙/衣装.md
+      - characters/minor/何雯娜/主卡.md
+      - characters/minor/何雯娜/形象.md
+      - characters/minor/何雯娜/衣装.md
   - key: 秦瑶（场所昵称：阿九）
     primary:
       - characters/minor/秦瑶/主卡.md
@@ -177,4 +183,4 @@ members:
       - characters/minor/曲修远/主卡.md
       - characters/minor/曲修远/形象.md
       - characters/minor/曲修远/衣装.md
-note: 共 34 人
+note: 共 35 人

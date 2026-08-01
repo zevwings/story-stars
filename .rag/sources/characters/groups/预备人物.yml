@@ -9,9 +9,10 @@ members:
     primary:
       - characters/preentry/乔宁/形象.md
       - characters/preentry/乔宁/衣装.md
-  - key: 燕舒
+  - key: 燕若淇
     primary:
-      - characters/preentry/燕舒/主卡.md
+      - characters/preentry/燕若淇/形象.md
+      - characters/preentry/燕若淇/衣装.md
   - key: 鲁林霞
     primary:
       - characters/preentry/鲁林霞/主卡.md
@@ -46,8 +47,4 @@ members:
     primary:
       - characters/preentry/孙雅琪/形象.md
       - characters/preentry/孙雅琪/衣装.md
-  - key: 何雯娜
-    primary:
-      - characters/preentry/何雯娜/形象.md
-      - characters/preentry/何雯娜/衣装.md
-note: 共 15 人
+note: 共 14 人
