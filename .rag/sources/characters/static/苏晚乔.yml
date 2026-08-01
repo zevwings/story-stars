@@ -1,11 +1,11 @@
 key: 苏晚乔
 type: character.static
-status: unknown
+status: confirmed
 primary:
-  - characters/preentry/苏晚乔/主卡.md
-  - characters/preentry/苏晚乔/形象.md
-  - characters/preentry/苏晚乔/衣装.md
-  - characters/preentry/苏晚乔/星契.md
+  - characters/major/苏晚乔/主卡.md
+  - characters/major/苏晚乔/形象.md
+  - characters/major/苏晚乔/衣装.md
+  - characters/major/苏晚乔/契约.md
 tags:
-  - 预备人物
-  - 御物角色细则（能力／成立条件／异变／登记）、圈层入口、赛事级别口径
+  - 主要人物
+  - 核心已定

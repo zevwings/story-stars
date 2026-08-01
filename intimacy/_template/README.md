@@ -2,7 +2,7 @@
 
 > 这里放亲密场景设计模板与角色亲密卡模板。先判断场型（正文亲密 / B 场），再选模板，不要默认所有亲密都走同一种 `design`。
 >
-> 本项目亲密口径：**写实＋美感修辞、不用异能滤镜、张弛结合**（见 `STYLE.md`）；亲密不功利化四红线见 `BIBLE.md`。模板只规定结构和检查项，不构成角色事实、关系事实或剧情事实。
+> 本项目亲密口径：**写实＋美感修辞、不用异能滤镜、张弛结合**（见 `STYLE.md`）；亲密不功利化·软支撑红线见 `BIBLE.md`。模板只规定结构和检查项，不构成角色事实、关系事实或剧情事实。
 
 ## 模板列表
 
@@ -15,10 +15,10 @@
 
 | Skill | 触发 | 输入 | 产物 |
 | :--- | :--- | :--- | :--- |
-| `intimacy-planner`（正文亲密） | `chapter-writer` 自动 / 主文衔接 | 主文 + 角色卡 | `intimacy/chapters/ch-XXX/scene_NN/design.a.md` |
-| `intimacy-writer`（正文亲密正文） | `chapter-writer` 自动 / 衔接段 | `design.a.md` | 回写 `chapters/ch-XXX/draft.md` |
-| `/intimacy-hd-planner`（B 场） | **仅手动** | `design.a.md` + 主文 + 角色卡 | `design.b.md` + `outline.md` |
-| `/intimacy-hd-writer`（B 场正文） | **仅手动** | `outline.md` | `intimacy/chapters/ch-XXX/scene_NN/draft.md` / `final.md` |
+| `intimacy-planner`（正文亲密） | `chapter-writer` 自动 / 主文衔接 | 主文 + 角色卡 | `intimacy/chapters/chXXX/scene_NN/design.a.md` |
+| `intimacy-writer`（正文亲密正文） | `chapter-writer` 自动 / 衔接段 | `design.a.md` | 回写 `chapters/chXXX/draft.md` |
+| `/intimacy-hd-planner`（B 场） | **仅手动** | `design.a.md` + 主文 + 角色卡 | `intimacy/chapters/chXXX/scene_NN/design.b.md` |
+| `/intimacy-hd-writer`（B 场正文） | **仅手动** | `design.a.md` + `design.b.md` | `intimacy/chapters/chXXX/scene_NN/draft.md`；作者明确要求定稿时才写 `final.md` |
 
 `design.b.md` 文件名固定单一，模板源按场型选（solo / multi）。
 
@@ -29,7 +29,7 @@
 适用：
 
 - 正文内亲密段
-- 重点在发生理由、临界动作、愿意信号、B 场起点、软切黑切点或含蓄交融载体、余波落点
+- 重点在发生理由、临界动作、B 场起点、软切黑切点或含蓄交融载体、余波落点
 - 不承担完整 B 场身体流程展开
 - 默认选择 1 个主抓手写深，再用 1 个辅助抓手承接；短场可以只保留 1 个抓手，但必须写到亲密成立、关系变化清楚可见
 
@@ -38,7 +38,7 @@
 - 这场为什么现在发生
 - 怎么按高暧昧默认写法成立正文亲密
 - 本场是软切黑型、写实含蓄型还是混合型
-- 双方愿意信号分别是什么
+- 大纲指定的关系与人物状态是什么
 - B 场占位卡片从哪里开始
 - 软切黑停在哪一步，或写实含蓄怎样继续承接主文
 - 非 HD 边界内选择哪 1 个主抓手写深，再用哪 1 个辅助抓手承接
@@ -80,15 +80,15 @@
 
 1. 先判断这是 `正文亲密` 还是 `B 场`
 2. 正文亲密只需 `design.a.md`，由 `intimacy-planner` 自动产出
-3. 走 B 场时手动触发 `/intimacy-hd-planner`，它会按场型选模板源（solo / multi），输出统一文件名 `design.b.md` + `outline.md`
+3. 走 B 场时手动触发 `/intimacy-hd-planner`，它会按场型选模板源（solo / multi），输出唯一的 B 场设计真源 `design.b.md`，不再生成平行 `outline.md`
 4. 落正文前先读主文上下文、角色卡和必要规则（`BIBLE.md` → `STYLE.md` → 角色卡）
 
 ## 提醒
 
 - `正文亲密` 不要抢成完整 `B 场`，也不要弱成“普通暧昧 + 占位”；它本身就是旧称 A 场的高暧昧默认写法，可按需要选择软切黑型或写实含蓄型
-- 正文亲密必须明确已经成立：临界点、愿意信号、身体距离变化、主动回应、A 场类型落点、事后余温都要有；B 场卡片是完整版本起点，不是主文停止点
+- 正文亲密按大纲和人物关系自然成立；B 场卡片是完整版本起点，不是主文停止点
 - `正文亲密` 默认在非 HD 边界内写满，不要把谨慎写成浅写
-- **亲密不功利化四红线**：亲密不回星力、不涨战力、不提数值；只在情感 / 救赎维度起作用；心神安稳只能是自然结果，不是目的（见 `BIBLE.md`）
+- **亲密不功利化·软支撑红线**：亲密 / 共鸣不回星力、不提控制精度、不直接兑现战斗输出、不提数值；只在情感 / 救赎维度起作用；唯一可养的是精神之海承载度（幕后机制、不进正文）；心神安稳只能是自然结果，不是目的（见 `BIBLE.md`）
 - SM / BDSM 亲密元素只适用于成年人之间明确同意、可拒绝、可停止、事后回稳的亲密场景；胁迫和受害方失衡不归入 SM / BDSM
 - 黑暗 HD / 压迫场不走本目录正向模板，走双声部铁律与专属流程
 - `B 场 / solo` 不要写成只有热度没有新增事实

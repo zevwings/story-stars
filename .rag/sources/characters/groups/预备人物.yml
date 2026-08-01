@@ -2,42 +2,52 @@ key: 预备人物
 type: character.group
 status: confirmed
 members:
-  - key: 安若曦
+  - key: 裴兰馨
     primary:
-      - characters/preentry/安若曦/主卡.md
-      - characters/preentry/安若曦/形象.md
-      - characters/preentry/安若曦/衣装.md
-      - characters/preentry/安若曦/星契.md
-  - key: 苏璃
+      - characters/preentry/裴兰馨/契约.md
+  - key: 乔宁
     primary:
-      - characters/preentry/苏璃/主卡.md
-      - characters/preentry/苏璃/形象.md
-      - characters/preentry/苏璃/衣装.md
-  - key: 温婉
+      - characters/preentry/乔宁/形象.md
+      - characters/preentry/乔宁/衣装.md
+  - key: 燕舒
     primary:
-      - characters/preentry/温婉/主卡.md
-      - characters/preentry/温婉/形象.md
-      - characters/preentry/温婉/衣装.md
-  - key: 林芷兰
+      - characters/preentry/燕舒/主卡.md
+  - key: 鲁林霞
     primary:
-      - characters/preentry/林芷兰/主卡.md
-      - characters/preentry/林芷兰/形象.md
-      - characters/preentry/林芷兰/衣装.md
-      - characters/preentry/林芷兰/星契.md
-  - key: 江岚
+      - characters/preentry/鲁林霞/主卡.md
+  - key: 黄锦一
     primary:
-      - characters/preentry/江岚/主卡.md
-      - characters/preentry/江岚/形象.md
-      - characters/preentry/江岚/衣装.md
-  - key: 苏晚乔
+      - characters/preentry/黄锦一/主卡.md
+  - key: 李垣羲
     primary:
-      - characters/preentry/苏晚乔/主卡.md
-      - characters/preentry/苏晚乔/形象.md
-      - characters/preentry/苏晚乔/衣装.md
-      - characters/preentry/苏晚乔/星契.md
-  - key: 唐语薇
+      - characters/preentry/李垣羲/主卡.md
+  - key: 杨柳
     primary:
-      - characters/preentry/唐语薇/主卡.md
-      - characters/preentry/唐语薇/形象.md
-      - characters/preentry/唐语薇/衣装.md
-note: 共 7 人
+      - characters/preentry/杨柳/主卡.md
+  - key: 周晓莉
+    primary:
+      - characters/preentry/周晓莉/主卡.md
+  - key: 郑文悦
+    primary:
+      - characters/preentry/郑文悦/主卡.md
+  - key: 姜禾
+    primary:
+      - characters/preentry/姜禾/主卡.md
+  - key: 高承岳
+    primary:
+      - characters/preentry/高承岳/主卡.md
+  - key: 于静
+    primary:
+      - characters/preentry/于静/主卡.md
+  - key: 杨钰琪
+    primary:
+      - characters/preentry/杨钰琪/主卡.md
+  - key: 孙雅琪（暂名）
+    primary:
+      - characters/preentry/孙雅琪/形象.md
+      - characters/preentry/孙雅琪/衣装.md
+  - key: 何雯娜
+    primary:
+      - characters/preentry/何雯娜/形象.md
+      - characters/preentry/何雯娜/衣装.md
+note: 共 15 人

@@ -1,0 +1,180 @@
+key: 次要人物
+type: character.group
+status: confirmed
+members:
+  - key: 赵梦娜
+    primary:
+      - characters/minor/赵梦娜/主卡.md
+      - characters/minor/赵梦娜/形象.md
+      - characters/minor/赵梦娜/衣装.md
+  - key: 唐雨宸
+    primary:
+      - characters/minor/唐雨宸/主卡.md
+      - characters/minor/唐雨宸/形象.md
+      - characters/minor/唐雨宸/衣装.md
+  - key: 徐清
+    primary:
+      - characters/minor/徐清/主卡.md
+      - characters/minor/徐清/形象.md
+      - characters/minor/徐清/衣装.md
+  - key: 唐雨霖
+    primary:
+      - characters/minor/唐雨霖/主卡.md
+      - characters/minor/唐雨霖/形象.md
+      - characters/minor/唐雨霖/衣装.md
+  - key: 阮清黎
+    primary:
+      - characters/minor/阮清黎/主卡.md
+      - characters/minor/阮清黎/形象.md
+      - characters/minor/阮清黎/衣装.md
+  - key: 沈宁
+    primary:
+      - characters/minor/沈宁/主卡.md
+      - characters/minor/沈宁/形象.md
+      - characters/minor/沈宁/衣装.md
+      - characters/minor/沈宁/契约.md
+  - key: 齐心
+    primary:
+      - characters/minor/齐心/主卡.md
+      - characters/minor/齐心/形象.md
+      - characters/minor/齐心/衣装.md
+      - characters/minor/齐心/契约.md
+  - key: 陆佳凝
+    primary:
+      - characters/minor/陆佳凝/主卡.md
+      - characters/minor/陆佳凝/形象.md
+      - characters/minor/陆佳凝/衣装.md
+  - key: 顾清言
+    primary:
+      - characters/minor/顾清言/主卡.md
+      - characters/minor/顾清言/形象.md
+      - characters/minor/顾清言/衣装.md
+      - characters/minor/顾清言/契约.md
+  - key: 言溪（艺名：梦露）
+    primary:
+      - characters/minor/言溪/主卡.md
+  - key: 舒歆（常用名：猫猫）
+    primary:
+      - characters/minor/舒歆/主卡.md
+      - characters/minor/舒歆/形象.md
+      - characters/minor/舒歆/衣装.md
+  - key: 孔蔓盈（常用名：盈盈）
+    primary:
+      - characters/minor/孔蔓盈/主卡.md
+      - characters/minor/孔蔓盈/形象.md
+      - characters/minor/孔蔓盈/衣装.md
+  - key: 周语棠（艺名：海棠）
+    primary:
+      - characters/minor/周语棠/主卡.md
+      - characters/minor/周语棠/形象.md
+      - characters/minor/周语棠/衣装.md
+  - key: 钱韵（工作称呼：书书）
+    primary:
+      - characters/minor/钱韵/主卡.md
+      - characters/minor/钱韵/形象.md
+      - characters/minor/钱韵/衣装.md
+  - key: 万芳（艺名：慢慢）
+    primary:
+      - characters/minor/万芳/主卡.md
+      - characters/minor/万芳/形象.md
+      - characters/minor/万芳/衣装.md
+  - key: 田恬（艺名：甜甜）
+    primary:
+      - characters/minor/田恬/主卡.md
+      - characters/minor/田恬/形象.md
+      - characters/minor/田恬/衣装.md
+  - key: 宁悠悠
+    primary:
+      - characters/minor/宁悠悠/主卡.md
+      - characters/minor/宁悠悠/形象.md
+      - characters/minor/宁悠悠/衣装.md
+  - key: 俞予安（艺名：小鱼儿）
+    primary:
+      - characters/minor/俞予安/主卡.md
+      - characters/minor/俞予安/形象.md
+      - characters/minor/俞予安/衣装.md
+  - key: 王诗悦（艺名：悦悦）
+    primary:
+      - characters/minor/王诗悦/主卡.md
+      - characters/minor/王诗悦/形象.md
+      - characters/minor/王诗悦/衣装.md
+  - key: 江妙妙（艺名：淼淼）
+    primary:
+      - characters/minor/江妙妙/主卡.md
+      - characters/minor/江妙妙/形象.md
+      - characters/minor/江妙妙/衣装.md
+  - key: 秦瑶（场所昵称：阿九）
+    primary:
+      - characters/minor/秦瑶/主卡.md
+      - characters/minor/秦瑶/形象.md
+      - characters/minor/秦瑶/衣装.md
+  - key: 章绍衡
+    primary:
+      - characters/minor/章绍衡/主卡.md
+      - characters/minor/章绍衡/形象.md
+      - characters/minor/章绍衡/衣装.md
+  - key: 罗东海
+    primary:
+      - characters/minor/罗东海/主卡.md
+      - characters/minor/罗东海/形象.md
+      - characters/minor/罗东海/衣装.md
+      - characters/minor/罗东海/契约.md
+  - key: 孟舒桐
+    primary:
+      - characters/minor/孟舒桐/主卡.md
+      - characters/minor/孟舒桐/形象.md
+      - characters/minor/孟舒桐/衣装.md
+  - key: 裴崇礼
+    primary:
+      - characters/minor/裴崇礼/主卡.md
+      - characters/minor/裴崇礼/形象.md
+      - characters/minor/裴崇礼/衣装.md
+      - characters/minor/裴崇礼/契约.md
+  - key: 裴怀山
+    primary:
+      - characters/minor/裴怀山/主卡.md
+      - characters/minor/裴怀山/形象.md
+      - characters/minor/裴怀山/衣装.md
+      - characters/minor/裴怀山/契约.md
+  - key: 任群
+    primary:
+      - characters/minor/任群/主卡.md
+      - characters/minor/任群/形象.md
+      - characters/minor/任群/衣装.md
+      - characters/minor/任群/契约.md
+  - key: 程叙
+    primary:
+      - characters/minor/程叙/主卡.md
+      - characters/minor/程叙/形象.md
+      - characters/minor/程叙/衣装.md
+  - key: 霍临川
+    primary:
+      - characters/minor/霍临川/主卡.md
+      - characters/minor/霍临川/形象.md
+      - characters/minor/霍临川/衣装.md
+  - key: 侯瑞驰
+    primary:
+      - characters/minor/侯瑞驰/主卡.md
+      - characters/minor/侯瑞驰/形象.md
+      - characters/minor/侯瑞驰/衣装.md
+  - key: 刘秉文
+    primary:
+      - characters/minor/刘秉文/主卡.md
+      - characters/minor/刘秉文/形象.md
+      - characters/minor/刘秉文/衣装.md
+  - key: 朱岑郁
+    primary:
+      - characters/minor/朱岑郁/主卡.md
+      - characters/minor/朱岑郁/形象.md
+      - characters/minor/朱岑郁/衣装.md
+  - key: 方成越
+    primary:
+      - characters/minor/方成越/主卡.md
+      - characters/minor/方成越/形象.md
+      - characters/minor/方成越/衣装.md
+  - key: 曲修远
+    primary:
+      - characters/minor/曲修远/主卡.md
+      - characters/minor/曲修远/形象.md
+      - characters/minor/曲修远/衣装.md
+note: 共 34 人

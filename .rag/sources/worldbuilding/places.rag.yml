@@ -13,6 +13,26 @@ entries:
       - regions
       - 主城·江州
     status: confirmed
+  - key: 兰纳共和国
+    type: place
+    primary:
+      - worldbuilding/regions/兰纳共和国.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 兰纳共和国
+    status: confirmed
+  - key: 国内映射
+    type: place
+    primary:
+      - worldbuilding/regions/国内映射.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 国内映射
+    status: confirmed
   - key: 地理总则
     type: place
     primary:
@@ -22,4 +42,47 @@ entries:
     tags:
       - regions
       - 地理总则
+    status: confirmed
+  - key: 江州中央商务区
+    type: place
+    primary:
+      - worldbuilding/regions/江州/中央商务区.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 江州中央商务区
+    status: confirmed
+  - key: 玉屏区
+    type: place
+    primary:
+      - worldbuilding/regions/江州/玉屏区.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 玉屏区
+    status: confirmed
+  - key: 锦云山
+    type: place
+    primary:
+      - worldbuilding/regions/江州/锦云山.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 锦云山
+    status: confirmed
+  - key: 金洲共和国
+    type: place
+    primary:
+      - worldbuilding/regions/金洲共和国.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 金洲共和国
     status: confirmed

@@ -1,6 +1,6 @@
 # GraphRAG ignore file.
 # One pattern per line, relative to project root.
-# Used by GraphRAG directory scans for worldbuilding/ and characters/.
+# Used by GraphRAG directory scans for worldbuilding/, characters/, and story/construction/.
 #
 # Examples:
 # worldbuilding/drafts/

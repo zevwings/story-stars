@@ -1,10 +1,35 @@
 key: 苏璃
 type: character.static
-status: unknown
+status: confirmed
 primary:
-  - characters/preentry/苏璃/主卡.md
-  - characters/preentry/苏璃/形象.md
-  - characters/preentry/苏璃/衣装.md
+  - characters/major/苏璃/主卡.md
+  - characters/major/苏璃/形象.md
+  - characters/major/苏璃/衣装.md
+  - characters/major/苏璃/契约.md
 tags:
-  - 预备人物
-  - 星契状态、圈层入口、职业长期方向、桂花清酿配方与来历、与唐语薇相识经过
+  - 主要人物
+  - 核心已定
+related:
+  - characters/major/苏璃/关系/_index.md
+  - characters/major/苏璃/关系/唐雨薇.md
+specialty_required_when:
+  - 亲密
+  - 双修
+  - 吻
+  - 身体回应
+  - 尺度
+  - 暧昧
+  - 回房
+  - 成年
+  - HD
+  - A场
+  - B场
+  - 胁迫
+  - 受害方失衡
+  - SM
+  - BDSM
+  - 共鸣
+  - 星辰契约同步
+  - 欲望显影
+  - 星庭共居
+  - 修罗场
