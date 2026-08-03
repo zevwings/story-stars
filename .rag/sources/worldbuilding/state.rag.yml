@@ -1,10 +1,7 @@
-# 自动生成的路由文件 - 手写条目已保留
-# 来源: worldbuilding/ 目录扫描
-# 输出: state.rag.yml
-
 entries:
   - key: 伴侣与关系形态
     type: state
+    aliases: []
     primary:
       - worldbuilding/society/伴侣与关系形态.md
     related:
@@ -13,8 +10,11 @@ entries:
       - society
       - 伴侣与关系形态
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 保密与公开性
     type: state
+    aliases: []
     primary:
       - worldbuilding/society/保密与公开性.md
     related:
@@ -23,8 +23,11 @@ entries:
       - society
       - 保密与公开性
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 觉醒与登记
     type: state
+    aliases: []
     primary:
       - worldbuilding/society/觉醒与登记.md
     related:
@@ -33,3 +36,5 @@ entries:
       - society
       - 觉醒与登记
     status: confirmed
+    read_policy: primary_first
+    note: ""

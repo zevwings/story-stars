@@ -130,7 +130,7 @@
       "status": "planted",
       "section": "线索核心 / 深层真相",
       "field": "线索核心 / 深层真相",
-      "value": "私域可以被晏林盘下并终止旧黑产经营、旧人员控制与旧权限，但经营重置只改变后续运行方式，不洗白取得资金的来源。",
+      "value": "私域被晏林盘下后，旧黑产经营、旧人员控制与旧权限终止，后续运行方式随之重置。",
       "chapter_refs": [],
       "valid_from": null
     },
@@ -181,16 +181,6 @@
       "section": "信息分层 / 角色当前知道什么",
       "field": "信息分层 / 角色当前知道什么",
       "value": "管理局和司法流程对顾清言主要责任的认定不依赖这笔藏款作为唯一证据。",
-      "chapter_refs": [],
-      "valid_from": null
-    },
-    {
-      "entity": "顾清言私域托付与资金来源污点",
-      "group": "planted",
-      "status": "planted",
-      "section": "信息分层 / 叙事当前不能提前说破什么",
-      "field": "信息分层 / 叙事当前不能提前说破什么",
-      "value": "不提前交代具体账号、金额、流转路径、控制人、提取方式或规避调查方法。",
       "chapter_refs": [],
       "valid_from": null
     },
@@ -268,16 +258,6 @@
       "entity": "顾清言私域托付与资金来源污点",
       "group": "planted",
       "status": "planted",
-      "section": "推进方式 / 现在不该怎么推进",
-      "field": "推进方式 / 现在不该怎么推进",
-      "value": "不展开资金清洗、转移、隐匿、套现或规避追查流程。",
-      "chapter_refs": [],
-      "valid_from": null
-    },
-    {
-      "entity": "顾清言私域托付与资金来源污点",
-      "group": "planted",
-      "status": "planted",
       "section": "推进方式 / 回收条件",
       "field": "推进方式 / 回收条件",
       "value": "顾清言进入疗养监管前完成私域托付，晏林明确只接受场所托付，不答应等待、不保留旧权限、不让资金来源合法化。",
@@ -321,16 +301,6 @@
       "section": "状态流转记录",
       "field": "表格",
       "value": "未分章 | 建立 planted 登记 | 作者确认私域托付可以建立线索；首次正文埋设章节待补录。",
-      "chapter_refs": [],
-      "valid_from": null
-    },
-    {
-      "entity": "顾清言私域托付与资金来源污点",
-      "group": "planted",
-      "status": "planted",
-      "section": "写作提醒",
-      "field": "写作提醒",
-      "value": "只洗白后续经营秩序，不洗白钱的来源。",
       "chapter_refs": [],
       "valid_from": null
     },

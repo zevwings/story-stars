@@ -1,10 +1,7 @@
-# 自动生成的路由文件 - 手写条目已保留
-# 来源: worldbuilding/ 目录扫描
-# 输出: organizations.rag.yml
-
 entries:
   - key: 云顶 KTV
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/云顶KTV.md
     related:
@@ -13,8 +10,11 @@ entries:
       - organizations
       - 云顶 KTV
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 兰纳安吉旅游集团
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/兰纳安吉旅游集团.md
     related:
@@ -23,8 +23,11 @@ entries:
       - organizations
       - 兰纳安吉旅游集团
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 心动酒吧
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/心动酒吧.md
     related:
@@ -33,8 +36,11 @@ entries:
       - organizations
       - 心动酒吧
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 星辰监管所
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/星辰监管所.md
     related:
@@ -43,8 +49,11 @@ entries:
       - organizations
       - 星辰监管所
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 林语心理咨询工作室
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/林语心理咨询工作室.md
     related:
@@ -53,8 +62,11 @@ entries:
       - organizations
       - 林语心理咨询工作室
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州城市投资集团
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/江州城市投资集团.md
     related:
@@ -63,8 +75,11 @@ entries:
       - organizations
       - 江州城市投资集团
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州市公安局
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/江州市公安局.md
     related:
@@ -73,8 +88,11 @@ entries:
       - organizations
       - 江州市公安局
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州第一医院
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/江州第一医院.md
     related:
@@ -83,8 +101,11 @@ entries:
       - organizations
       - 江州第一医院
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 私域
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/私域.md
     related:
@@ -93,8 +114,11 @@ entries:
       - organizations
       - 私域
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 野人户外
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/野人户外.md
     related:
@@ -103,8 +127,11 @@ entries:
       - organizations
       - 野人户外
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 锦云大学
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/锦云大学.md
     related:
@@ -113,8 +140,11 @@ entries:
       - organizations
       - 锦云大学
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 陆家境外产业网络
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/陆家境外产业网络.md
     related:
@@ -123,8 +153,11 @@ entries:
       - organizations
       - 陆家境外产业网络
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 齐心公益基金会
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/齐心公益基金会.md
     related:
@@ -133,8 +166,11 @@ entries:
       - organizations
       - 齐心公益基金会
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州风归数字内容有限公司
     type: worldbuilding.organizations
+    aliases: []
     primary:
       - worldbuilding/organizations/江州风归数字内容有限公司.md
     related:
@@ -143,3 +179,5 @@ entries:
       - organizations
       - 江州风归数字内容有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""
