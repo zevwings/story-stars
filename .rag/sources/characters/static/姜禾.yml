@@ -1,8 +1,7 @@
 key: 姜禾
-type: character.static
-status: unknown
 primary:
   - characters/preentry/姜禾/主卡.md
+status: confirmed
 tags:
   - 预备人物
-  - 催眠方向契约者；金洲万安康复研究院受试编号“金康-17”的成年实验幸存者与有限证言提供者
+type: character.static

@@ -1,53 +1,34 @@
 key: 主要人物
-type: character.group
-status: confirmed
 members:
-  - key: 晏林
-    primary:
-      - characters/major/晏林/主卡.md
-      - characters/major/晏林/形象.md
-      - characters/major/晏林/衣装.md
-      - characters/major/晏林/契约.md
-  - key: 安若曦
-    primary:
-      - characters/major/安若曦/主卡.md
-      - characters/major/安若曦/形象.md
-      - characters/major/安若曦/衣装.md
-      - characters/major/安若曦/契约.md
-  - key: 苏璃
-    primary:
-      - characters/major/苏璃/主卡.md
-      - characters/major/苏璃/形象.md
-      - characters/major/苏璃/衣装.md
-      - characters/major/苏璃/契约.md
-  - key: 苏晚乔
-    primary:
-      - characters/major/苏晚乔/主卡.md
-      - characters/major/苏晚乔/形象.md
-      - characters/major/苏晚乔/衣装.md
-      - characters/major/苏晚乔/契约.md
-  - key: 江岚
-    primary:
-      - characters/major/江岚/主卡.md
-      - characters/major/江岚/形象.md
-      - characters/major/江岚/衣装.md
-      - characters/major/江岚/契约.md
   - key: 唐雨薇
     primary:
       - characters/major/唐雨薇/主卡.md
       - characters/major/唐雨薇/形象.md
       - characters/major/唐雨薇/衣装.md
       - characters/major/唐雨薇/契约.md
-  - key: 许知夏
+  - key: 安若曦
     primary:
-      - characters/major/许知夏/主卡.md
-      - characters/major/许知夏/形象.md
-      - characters/major/许知夏/衣装.md
-  - key: 许知秋
+      - characters/major/安若曦/主卡.md
+      - characters/major/安若曦/形象.md
+      - characters/major/安若曦/衣装.md
+      - characters/major/安若曦/契约.md
+  - key: 晏林
     primary:
-      - characters/major/许知秋/主卡.md
-      - characters/major/许知秋/形象.md
-      - characters/major/许知秋/衣装.md
+      - characters/major/晏林/主卡.md
+      - characters/major/晏林/形象.md
+      - characters/major/晏林/衣装.md
+      - characters/major/晏林/契约.md
+  - key: 楚辞
+    primary:
+      - characters/major/楚辞/主卡.md
+      - characters/major/楚辞/形象.md
+      - characters/major/楚辞/衣装.md
+  - key: 江岚
+    primary:
+      - characters/major/江岚/主卡.md
+      - characters/major/江岚/形象.md
+      - characters/major/江岚/衣装.md
+      - characters/major/江岚/契约.md
   - key: 白玥
     primary:
       - characters/major/白玥/主卡.md
@@ -59,9 +40,28 @@ members:
       - characters/major/童颜/主卡.md
       - characters/major/童颜/形象.md
       - characters/major/童颜/衣装.md
-  - key: 楚辞
+  - key: 苏晚乔
     primary:
-      - characters/major/楚辞/主卡.md
-      - characters/major/楚辞/形象.md
-      - characters/major/楚辞/衣装.md
+      - characters/major/苏晚乔/主卡.md
+      - characters/major/苏晚乔/形象.md
+      - characters/major/苏晚乔/衣装.md
+      - characters/major/苏晚乔/契约.md
+  - key: 苏璃
+    primary:
+      - characters/major/苏璃/主卡.md
+      - characters/major/苏璃/形象.md
+      - characters/major/苏璃/衣装.md
+      - characters/major/苏璃/契约.md
+  - key: 许知夏
+    primary:
+      - characters/major/许知夏/主卡.md
+      - characters/major/许知夏/形象.md
+      - characters/major/许知夏/衣装.md
+  - key: 许知秋
+    primary:
+      - characters/major/许知秋/主卡.md
+      - characters/major/许知秋/形象.md
+      - characters/major/许知秋/衣装.md
 note: 共 11 人
+status: confirmed
+type: character.group

@@ -1,8 +1,7 @@
 key: 高承岳
-type: character.static
-status: unknown
 primary:
   - characters/preentry/高承岳/主卡.md
+status: confirmed
 tags:
   - 预备人物
-  - 野人户外供应链与质量负责人；江州城市投资集团种子投资后加入公司
+type: character.static

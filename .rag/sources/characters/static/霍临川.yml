@@ -1,10 +1,9 @@
 key: 霍临川
-type: character.static
-status: unknown
 primary:
   - characters/minor/霍临川/主卡.md
   - characters/minor/霍临川/形象.md
   - characters/minor/霍临川/衣装.md
+status: confirmed
 tags:
   - 次要人物
-  - 阶段位置已定
+type: character.static

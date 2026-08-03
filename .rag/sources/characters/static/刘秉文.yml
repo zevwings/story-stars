@@ -1,10 +1,9 @@
 key: 刘秉文
-type: character.static
-status: unknown
 primary:
   - characters/minor/刘秉文/主卡.md
   - characters/minor/刘秉文/形象.md
   - characters/minor/刘秉文/衣装.md
+status: confirmed
 tags:
   - 次要人物
-  - 阶段位置已定
+type: character.static

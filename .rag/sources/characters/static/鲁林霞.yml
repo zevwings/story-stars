@@ -1,8 +1,7 @@
 key: 鲁林霞
-type: character.static
-status: unknown
 primary:
   - characters/preentry/鲁林霞/主卡.md
+status: confirmed
 tags:
   - 预备人物
-  - 46 岁；某位富商的伴侣；明知用途后对侯瑞驰多次使用药剂的女性消费者与直接责任人
+type: character.static

@@ -1,11 +1,10 @@
 key: 任群
-type: character.static
-status: unknown
 primary:
   - characters/minor/任群/主卡.md
   - characters/minor/任群/形象.md
   - characters/minor/任群/衣装.md
   - characters/minor/任群/契约.md
+status: confirmed
 tags:
   - 次要人物
-  - 阶段位置已定
+type: character.static

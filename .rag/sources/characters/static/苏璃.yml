@@ -1,16 +1,10 @@
 key: 苏璃
-type: character.static
-status: confirmed
 primary:
   - characters/major/苏璃/主卡.md
   - characters/major/苏璃/形象.md
   - characters/major/苏璃/衣装.md
   - characters/major/苏璃/契约.md
-tags:
-  - 主要人物
-  - 核心已定
 related:
-  - characters/major/苏璃/关系/_index.md
   - characters/major/苏璃/关系/唐雨薇.md
 specialty_required_when:
   - 亲密
@@ -33,3 +27,7 @@ specialty_required_when:
   - 欲望显影
   - 星庭共居
   - 修罗场
+status: confirmed
+tags:
+  - 主要人物
+type: character.static
