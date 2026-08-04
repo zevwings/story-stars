@@ -68,6 +68,7 @@ routes:
       - place
       - place
       - place
+      - place
   - examples:
       - 伴侣与关系形态
       - 保密与公开性

@@ -36,9 +36,6 @@ routes:
     key: 万芳
     static: characters/minor/万芳/主卡.md
   - character_id: ""
-    key: 任群
-    static: characters/minor/任群/主卡.md
-  - character_id: ""
     key: 何雯娜
     static: characters/minor/何雯娜/主卡.md
   - character_id: ""
@@ -144,6 +141,12 @@ routes:
     key: 于静
     static: characters/preentry/于静/主卡.md
   - character_id: ""
+    key: 华盛
+    static: characters/preentry/华盛/主卡.md
+  - character_id: ""
+    key: 周景尧
+    static: characters/preentry/周景尧/主卡.md
+  - character_id: ""
     key: 姜禾
     static: characters/preentry/姜禾/主卡.md
   - character_id: ""
@@ -170,6 +173,9 @@ routes:
   - character_id: ""
     key: 燕若淇
     static: characters/preentry/燕若淇/主卡.md
+  - character_id: ""
+    key: 翠花
+    static: characters/preentry/翠花/主卡.md
   - character_id: ""
     key: 裴兰馨
     static: characters/preentry/裴兰馨/主卡.md

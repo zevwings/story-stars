@@ -5,12 +5,6 @@ members:
       - characters/minor/万芳/主卡.md
       - characters/minor/万芳/形象.md
       - characters/minor/万芳/衣装.md
-  - key: 任群
-    primary:
-      - characters/minor/任群/主卡.md
-      - characters/minor/任群/形象.md
-      - characters/minor/任群/衣装.md
-      - characters/minor/任群/契约.md
   - key: 何雯娜
     primary:
       - characters/minor/何雯娜/主卡.md
@@ -183,6 +177,6 @@ members:
       - characters/minor/齐心/形象.md
       - characters/minor/齐心/衣装.md
       - characters/minor/齐心/契约.md
-note: 共 35 人
+note: 共 34 人
 status: confirmed
 type: character.group
