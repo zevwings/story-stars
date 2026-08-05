@@ -48,6 +48,7 @@ __pycache__/
 *~
 
 # Tool runtime output
+.sessions/
 tmp/
 temp/
 

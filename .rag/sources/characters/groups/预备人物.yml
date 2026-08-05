@@ -13,6 +13,8 @@ members:
   - key: 华靖
     primary:
       - characters/preentry/华靖/主卡.md
+      - characters/preentry/华靖/形象.md
+      - characters/preentry/华靖/衣装.md
   - key: 周景尧
     primary:
       - characters/preentry/周景尧/主卡.md
@@ -73,6 +75,9 @@ members:
       - characters/preentry/郑文悦/主卡.md
       - characters/preentry/郑文悦/形象.md
       - characters/preentry/郑文悦/衣装.md
+  - key: 骆志莲
+    primary:
+      - characters/preentry/骆志莲/主卡.md
   - key: 高承岳
     primary:
       - characters/preentry/高承岳/主卡.md
@@ -84,6 +89,6 @@ members:
       - characters/preentry/黄锦一/主卡.md
       - characters/preentry/黄锦一/形象.md
       - characters/preentry/黄锦一/衣装.md
-note: 共 19 人
+note: 共 20 人
 status: confirmed
 type: character.group

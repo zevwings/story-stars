@@ -181,3 +181,55 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 江州光线影视文化公司
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/江州光线影视文化公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州光线影视文化公司
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 江州电影学院
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/江州电影学院.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州电影学院
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 江州绮镜美妆有限公司
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/江州绮镜美妆有限公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州绮镜美妆有限公司
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 繁星珠宝有限公司
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/繁星珠宝有限公司.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 繁星珠宝有限公司
+    status: confirmed
+    read_policy: primary_first
+    note: ""

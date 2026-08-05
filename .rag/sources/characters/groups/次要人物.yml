@@ -1,5 +1,8 @@
 key: 次要人物
 members:
+  - key: 丁宇
+    primary:
+      - characters/minor/丁宇/主卡.md
   - key: 万芳
     primary:
       - characters/minor/万芳/主卡.md
@@ -25,6 +28,9 @@ members:
       - characters/minor/刘秉文/主卡.md
       - characters/minor/刘秉文/形象.md
       - characters/minor/刘秉文/衣装.md
+  - key: 周博
+    primary:
+      - characters/minor/周博/主卡.md
   - key: 周语棠
     primary:
       - characters/minor/周语棠/主卡.md
@@ -107,6 +113,9 @@ members:
       - characters/minor/程叙/主卡.md
       - characters/minor/程叙/形象.md
       - characters/minor/程叙/衣装.md
+  - key: 穆珂宜
+    primary:
+      - characters/minor/穆珂宜/主卡.md
   - key: 章绍衡
     primary:
       - characters/minor/章绍衡/主卡.md
@@ -177,6 +186,6 @@ members:
       - characters/minor/齐心/形象.md
       - characters/minor/齐心/衣装.md
       - characters/minor/齐心/契约.md
-note: 共 34 人
+note: 共 37 人
 status: confirmed
 type: character.group

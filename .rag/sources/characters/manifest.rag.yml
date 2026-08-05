@@ -33,6 +33,9 @@ routes:
     key: 许知秋
     static: characters/major/许知秋/主卡.md
   - character_id: ""
+    key: 丁宇
+    static: characters/minor/丁宇/主卡.md
+  - character_id: ""
     key: 万芳
     static: characters/minor/万芳/主卡.md
   - character_id: ""
@@ -47,6 +50,9 @@ routes:
   - character_id: ""
     key: 刘秉文
     static: characters/minor/刘秉文/主卡.md
+  - character_id: ""
+    key: 周博
+    static: characters/minor/周博/主卡.md
   - character_id: ""
     key: 周语棠
     static: characters/minor/周语棠/主卡.md
@@ -95,6 +101,9 @@ routes:
   - character_id: ""
     key: 程叙
     static: characters/minor/程叙/主卡.md
+  - character_id: ""
+    key: 穆珂宜
+    static: characters/minor/穆珂宜/主卡.md
   - character_id: ""
     key: 章绍衡
     static: characters/minor/章绍衡/主卡.md
@@ -182,6 +191,9 @@ routes:
   - character_id: ""
     key: 郑文悦
     static: characters/preentry/郑文悦/主卡.md
+  - character_id: ""
+    key: 骆志莲
+    static: characters/preentry/骆志莲/主卡.md
   - character_id: ""
     key: 高承岳
     static: characters/preentry/高承岳/主卡.md
