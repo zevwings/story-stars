@@ -141,8 +141,8 @@ routes:
     key: 于静
     static: characters/preentry/于静/主卡.md
   - character_id: ""
-    key: 华盛
-    static: characters/preentry/华盛/主卡.md
+    key: 华靖
+    static: characters/preentry/华靖/主卡.md
   - character_id: ""
     key: 周景尧
     static: characters/preentry/周景尧/主卡.md
