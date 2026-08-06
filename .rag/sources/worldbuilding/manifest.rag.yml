@@ -1,75 +1,132 @@
-version: 1
-scope: worldbuilding.lookup_manifest
-status: routing_only
 routes:
-  - file: factions.rag.yml
+  - examples:
+      - 星辰家族
+      - 星辰管理局
+      - 黑市
+      - 黑暗契约者
+    file: factions.rag.yml
     types:
       - faction
-    tags:
-      - factions
-      - 星辰家族
-      - 星辰管理局
-      - 黑市
-      - 黑暗契约者
-    examples:
-      - 星辰家族
-      - 星辰管理局
-      - 黑市
-      - 黑暗契约者
-  - file: organizations/万安集团.rag.yml
-    types:
-      - worldbuilding.organizations
-      - worldbuilding.organizations.万安集团
-      - worldbuilding.organizations.大唐集团
-      - worldbuilding.systems
-      - worldbuilding.systems.星辰权柄
-      - worldbuilding.technology
-    tags:
-      - organizations
-      - systems
-      - technology
-      - 万安健康
-      - 万安影视文化
-      - 万安集团
+      - faction
+      - faction
+      - faction
+  - examples:
       - 云顶 KTV
-      - 侵蚀与修复权柄
-      - 兰纳安吉旅游集团
-      - 基础权柄
-    examples:
-      - 万安健康
-      - 万安影视文化
-      - 云顶 KTV
+      - 兔子快递
       - 兰纳安吉旅游集团
       - 心动酒吧
-  - file: places.rag.yml
+      - 星辰监管所
+    file: organizations.rag.yml
+    types:
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+  - examples:
+      - 万安健康
+      - 万安影视文化
+    file: organizations/万安集团.rag.yml
+    types:
+      - worldbuilding.organizations.万安集团
+      - worldbuilding.organizations.万安集团
+  - examples:
+      - 大唐产业投资有限公司
+      - 大唐置业发展有限公司
+      - 江州丰年食品饮料有限公司
+      - 江州商贸物流有限公司
+      - 江州映彩媒体有限公司
+    file: organizations/大唐集团.rag.yml
+    types:
+      - worldbuilding.organizations.大唐集团
+      - worldbuilding.organizations.大唐集团
+      - worldbuilding.organizations.大唐集团
+      - worldbuilding.organizations.大唐集团
+      - worldbuilding.organizations.大唐集团
+  - examples:
+      - 主城·江州
+      - 兰纳共和国
+      - 国内映射
+      - 地理总则
+      - 江州中央商务区
+    file: places.rag.yml
     types:
       - place
-    tags:
-      - regions
-      - 主城·江州
-      - 兰纳共和国
-      - 国内映射
-      - 地理总则
-      - 江州
-      - 江州中央商务区
-      - 玉屏区
-      - 金洲共和国
-      - 锦云山
-    examples:
-      - 主城·江州
-      - 兰纳共和国
-      - 国内映射
-      - 地理总则
-      - 江州中央商务区
-  - file: state.rag.yml
+      - place
+      - place
+      - place
+      - place
+      - place
+      - place
+      - place
+      - place
+  - examples:
+      - 伴侣与关系形态
+      - 保密与公开性
+      - 星契动物
+      - 星辰系统
+      - 暗色星辰
+    file: state.rag.yml
     types:
       - state
-    tags:
-      - society
-      - 伴侣与关系形态
-      - 保密与公开性
-      - 觉醒与登记
-    examples:
-      - 伴侣与关系形态
-      - 保密与公开性
-      - 觉醒与登记
+      - state
+      - state
+      - state
+      - state
+      - state
+  - examples:
+      - 战斗规则
+      - 时代背景
+      - 星辰之力
+      - 星辰之印
+      - 星辰之桥
+    file: systems.rag.yml
+    types:
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+      - worldbuilding.systems
+  - examples:
+      - 侵蚀与修复权柄
+      - 基础权柄
+      - 意识与认知权柄
+      - 感知与信息权柄
+      - 现实与趋势权柄
+    file: systems/星辰权柄.rag.yml
+    types:
+      - worldbuilding.systems.星辰权柄
+      - worldbuilding.systems.星辰权柄
+      - worldbuilding.systems.星辰权柄
+      - worldbuilding.systems.星辰权柄
+      - worldbuilding.systems.星辰权柄
+      - worldbuilding.systems.星辰权柄
+  - examples:
+      - 药剂
+    file: technology.rag.yml
+    types:
+      - worldbuilding.technology
+scope: worldbuilding.lookup_manifest
+status: routing_only
+version: 1

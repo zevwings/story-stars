@@ -1,10 +1,7 @@
-# 自动生成的路由文件 - 手写条目已保留
-# 来源: worldbuilding/ 目录扫描
-# 输出: organizations/大唐集团.rag.yml
-
 entries:
   - key: 大唐产业投资有限公司
     type: worldbuilding.organizations.大唐集团
+    aliases: []
     primary:
       - worldbuilding/organizations/大唐集团/大唐产业投资有限公司.md
     related:
@@ -14,8 +11,11 @@ entries:
       - 大唐集团
       - 大唐产业投资有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 大唐置业发展有限公司
     type: worldbuilding.organizations.大唐集团
+    aliases: []
     primary:
       - worldbuilding/organizations/大唐集团/大唐置业发展有限公司.md
     related:
@@ -25,8 +25,11 @@ entries:
       - 大唐集团
       - 大唐置业发展有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州丰年食品饮料有限公司
     type: worldbuilding.organizations.大唐集团
+    aliases: []
     primary:
       - worldbuilding/organizations/大唐集团/江州丰年食品饮料有限公司.md
     related:
@@ -36,8 +39,11 @@ entries:
       - 大唐集团
       - 江州丰年食品饮料有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州商贸物流有限公司
     type: worldbuilding.organizations.大唐集团
+    aliases: []
     primary:
       - worldbuilding/organizations/大唐集团/江州商贸物流有限公司.md
     related:
@@ -47,8 +53,11 @@ entries:
       - 大唐集团
       - 江州商贸物流有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""
   - key: 江州映彩媒体有限公司
     type: worldbuilding.organizations.大唐集团
+    aliases: []
     primary:
       - worldbuilding/organizations/大唐集团/江州映彩媒体有限公司.md
     related:
@@ -58,3 +67,5 @@ entries:
       - 大唐集团
       - 江州映彩媒体有限公司
     status: confirmed
+    read_policy: primary_first
+    note: ""

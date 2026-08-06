@@ -1,126 +1,211 @@
-version: 1
+routes:
+  - character_id: ""
+    key: 唐雨薇
+    static: characters/major/唐雨薇/主卡.md
+  - character_id: ""
+    key: 孙雅琪
+    static: characters/major/孙雅琪/主卡.md
+  - character_id: ""
+    key: 安若曦
+    static: characters/major/安若曦/主卡.md
+  - character_id: ""
+    key: 晏林
+    static: characters/major/晏林/主卡.md
+  - character_id: ""
+    key: 楚辞
+    static: characters/major/楚辞/主卡.md
+  - character_id: ""
+    key: 江岚
+    static: characters/major/江岚/主卡.md
+  - character_id: ""
+    key: 白玥
+    static: characters/major/白玥/主卡.md
+  - character_id: ""
+    key: 童颜
+    static: characters/major/童颜/主卡.md
+  - character_id: ""
+    key: 苏晚乔
+    static: characters/major/苏晚乔/主卡.md
+  - character_id: ""
+    key: 苏璃
+    static: characters/major/苏璃/主卡.md
+  - character_id: ""
+    key: 许知夏
+    static: characters/major/许知夏/主卡.md
+  - character_id: ""
+    key: 许知秋
+    static: characters/major/许知秋/主卡.md
+  - character_id: ""
+    key: 丁宇
+    static: characters/minor/丁宇/主卡.md
+  - character_id: ""
+    key: 万芳
+    static: characters/minor/万芳/主卡.md
+  - character_id: ""
+    key: 何雯娜
+    static: characters/minor/何雯娜/主卡.md
+  - character_id: ""
+    key: 侯瑞驰
+    static: characters/minor/侯瑞驰/主卡.md
+  - character_id: ""
+    key: 俞予安
+    static: characters/minor/俞予安/主卡.md
+  - character_id: ""
+    key: 刘秉文
+    static: characters/minor/刘秉文/主卡.md
+  - character_id: ""
+    key: 周博
+    static: characters/minor/周博/主卡.md
+  - character_id: ""
+    key: 周语棠
+    static: characters/minor/周语棠/主卡.md
+  - character_id: ""
+    key: 唐雨宸
+    static: characters/minor/唐雨宸/主卡.md
+  - character_id: ""
+    key: 唐雨霖
+    static: characters/minor/唐雨霖/主卡.md
+  - character_id: ""
+    key: 孔蔓盈
+    static: characters/minor/孔蔓盈/主卡.md
+  - character_id: ""
+    key: 孟舒桐
+    static: characters/minor/孟舒桐/主卡.md
+  - character_id: ""
+    key: 宁悠悠
+    static: characters/minor/宁悠悠/主卡.md
+  - character_id: ""
+    key: 徐清
+    static: characters/minor/徐清/主卡.md
+  - character_id: ""
+    key: 方成越
+    static: characters/minor/方成越/主卡.md
+  - character_id: ""
+    key: 曲修远
+    static: characters/minor/曲修远/主卡.md
+  - character_id: ""
+    key: 朱岑郁
+    static: characters/minor/朱岑郁/主卡.md
+  - character_id: ""
+    key: 沈宁
+    static: characters/minor/沈宁/主卡.md
+  - character_id: ""
+    key: 温婉
+    static: characters/minor/温婉/主卡.md
+  - character_id: ""
+    key: 王诗悦
+    static: characters/minor/王诗悦/主卡.md
+  - character_id: ""
+    key: 田恬
+    static: characters/minor/田恬/主卡.md
+  - character_id: ""
+    key: 秦瑶
+    static: characters/minor/秦瑶/主卡.md
+  - character_id: ""
+    key: 程叙
+    static: characters/minor/程叙/主卡.md
+  - character_id: ""
+    key: 穆珂宜
+    static: characters/minor/穆珂宜/主卡.md
+  - character_id: ""
+    key: 章绍衡
+    static: characters/minor/章绍衡/主卡.md
+  - character_id: ""
+    key: 罗东海
+    static: characters/minor/罗东海/主卡.md
+  - character_id: ""
+    key: 舒歆
+    static: characters/minor/舒歆/主卡.md
+  - character_id: ""
+    key: 裴崇礼
+    static: characters/minor/裴崇礼/主卡.md
+  - character_id: ""
+    key: 裴怀山
+    static: characters/minor/裴怀山/主卡.md
+  - character_id: ""
+    key: 裴怀真
+    static: characters/minor/裴怀真/主卡.md
+  - character_id: ""
+    key: 言溪
+    static: characters/minor/言溪/主卡.md
+  - character_id: ""
+    key: 赵梦娜
+    static: characters/minor/赵梦娜/主卡.md
+  - character_id: ""
+    key: 钱韵
+    static: characters/minor/钱韵/主卡.md
+  - character_id: ""
+    key: 阮清黎
+    static: characters/minor/阮清黎/主卡.md
+  - character_id: ""
+    key: 陆佳凝
+    static: characters/minor/陆佳凝/主卡.md
+  - character_id: ""
+    key: 霍临川
+    static: characters/minor/霍临川/主卡.md
+  - character_id: ""
+    key: 顾清言
+    static: characters/minor/顾清言/主卡.md
+  - character_id: ""
+    key: 齐心
+    static: characters/minor/齐心/主卡.md
+  - character_id: ""
+    key: 乔宁
+    static: characters/preentry/乔宁/主卡.md
+  - character_id: ""
+    key: 于静
+    static: characters/preentry/于静/主卡.md
+  - character_id: ""
+    key: 华靖
+    static: characters/preentry/华靖/主卡.md
+  - character_id: ""
+    key: 周景尧
+    static: characters/preentry/周景尧/主卡.md
+  - character_id: ""
+    key: 姜禾
+    static: characters/preentry/姜禾/主卡.md
+  - character_id: ""
+    key: 晓彤
+    static: characters/preentry/晓彤/主卡.md
+  - character_id: ""
+    key: 李垣羲
+    static: characters/preentry/李垣羲/主卡.md
+  - character_id: ""
+    key: 杨柳
+    static: characters/preentry/杨柳/主卡.md
+  - character_id: ""
+    key: 杨钰琪
+    static: characters/preentry/杨钰琪/主卡.md
+  - character_id: ""
+    key: 林昭昭
+    static: characters/preentry/林昭昭/主卡.md
+  - character_id: ""
+    key: 灵儿
+    static: characters/preentry/灵儿/主卡.md
+  - character_id: ""
+    key: 燕若淇
+    static: characters/preentry/燕若淇/主卡.md
+  - character_id: ""
+    key: 翠花
+    static: characters/preentry/翠花/主卡.md
+  - character_id: ""
+    key: 裴兰馨
+    static: characters/preentry/裴兰馨/主卡.md
+  - character_id: ""
+    key: 郑文悦
+    static: characters/preentry/郑文悦/主卡.md
+  - character_id: ""
+    key: 骆志莲
+    static: characters/preentry/骆志莲/主卡.md
+  - character_id: ""
+    key: 高承岳
+    static: characters/preentry/高承岳/主卡.md
+  - character_id: ""
+    key: 鲁林霞
+    static: characters/preentry/鲁林霞/主卡.md
+  - character_id: ""
+    key: 黄锦一
+    static: characters/preentry/黄锦一/主卡.md
 scope: characters.lookup_manifest
 status: routing_only
-routes:
-  - key: 晏林
-    static: characters/major/晏林/主卡.md
-  - key: 安若曦
-    static: characters/major/安若曦/主卡.md
-  - key: 苏璃
-    static: characters/major/苏璃/主卡.md
-  - key: 苏晚乔
-    static: characters/major/苏晚乔/主卡.md
-  - key: 江岚
-    static: characters/major/江岚/主卡.md
-  - key: 唐雨薇
-    static: characters/major/唐雨薇/主卡.md
-  - key: 温婉
-    static: characters/major/温婉/主卡.md
-  - key: 许知夏
-    static: characters/major/许知夏/主卡.md
-  - key: 许知秋
-    static: characters/major/许知秋/主卡.md
-  - key: 白玥
-    static: characters/major/白玥/主卡.md
-  - key: 童颜
-    static: characters/major/童颜/主卡.md
-  - key: 楚辞
-    static: characters/major/楚辞/主卡.md
-  - key: 赵梦娜
-    static: characters/minor/赵梦娜/主卡.md
-  - key: 唐雨宸
-    static: characters/minor/唐雨宸/主卡.md
-  - key: 徐清
-    static: characters/minor/徐清/主卡.md
-  - key: 唐雨霖
-    static: characters/minor/唐雨霖/主卡.md
-  - key: 阮清黎
-    static: characters/minor/阮清黎/主卡.md
-  - key: 沈宁
-    static: characters/minor/沈宁/主卡.md
-  - key: 齐心
-    static: characters/minor/齐心/主卡.md
-  - key: 陆佳凝
-    static: characters/minor/陆佳凝/主卡.md
-  - key: 顾清言
-    static: characters/minor/顾清言/主卡.md
-  - key: 言溪（艺名：梦露）
-    static: characters/minor/言溪/主卡.md
-  - key: 舒歆（常用名：猫猫）
-    static: characters/minor/舒歆/主卡.md
-  - key: 孔蔓盈（常用名：盈盈）
-    static: characters/minor/孔蔓盈/主卡.md
-  - key: 周语棠（艺名：海棠）
-    static: characters/minor/周语棠/主卡.md
-  - key: 钱韵（工作称呼：书书）
-    static: characters/minor/钱韵/主卡.md
-  - key: 万芳（艺名：慢慢）
-    static: characters/minor/万芳/主卡.md
-  - key: 田恬（艺名：甜甜）
-    static: characters/minor/田恬/主卡.md
-  - key: 宁悠悠
-    static: characters/minor/宁悠悠/主卡.md
-  - key: 俞予安（艺名：小鱼儿）
-    static: characters/minor/俞予安/主卡.md
-  - key: 王诗悦（艺名：悦悦）
-    static: characters/minor/王诗悦/主卡.md
-  - key: 江妙妙（艺名：淼淼）
-    static: characters/minor/江妙妙/主卡.md
-  - key: 秦瑶（场所昵称：阿九）
-    static: characters/minor/秦瑶/主卡.md
-  - key: 章绍衡
-    static: characters/minor/章绍衡/主卡.md
-  - key: 罗东海
-    static: characters/minor/罗东海/主卡.md
-  - key: 孟舒桐
-    static: characters/minor/孟舒桐/主卡.md
-  - key: 裴崇礼
-    static: characters/minor/裴崇礼/主卡.md
-  - key: 裴怀山
-    static: characters/minor/裴怀山/主卡.md
-  - key: 任群
-    static: characters/minor/任群/主卡.md
-  - key: 程叙
-    static: characters/minor/程叙/主卡.md
-  - key: 霍临川
-    static: characters/minor/霍临川/主卡.md
-  - key: 侯瑞驰
-    static: characters/minor/侯瑞驰/主卡.md
-  - key: 刘秉文
-    static: characters/minor/刘秉文/主卡.md
-  - key: 朱岑郁
-    static: characters/minor/朱岑郁/主卡.md
-  - key: 方成越
-    static: characters/minor/方成越/主卡.md
-  - key: 曲修远
-    static: characters/minor/曲修远/主卡.md
-  - key: 裴兰馨
-    static: characters/preentry/裴兰馨/契约.md
-  - key: 乔宁
-    static: characters/preentry/乔宁/形象.md
-  - key: 燕舒
-    static: characters/preentry/燕舒/主卡.md
-  - key: 鲁林霞
-    static: characters/preentry/鲁林霞/主卡.md
-  - key: 黄锦一
-    static: characters/preentry/黄锦一/主卡.md
-  - key: 李垣羲
-    static: characters/preentry/李垣羲/主卡.md
-  - key: 杨柳
-    static: characters/preentry/杨柳/主卡.md
-  - key: 周晓莉
-    static: characters/preentry/周晓莉/主卡.md
-  - key: 郑文悦
-    static: characters/preentry/郑文悦/主卡.md
-  - key: 姜禾
-    static: characters/preentry/姜禾/主卡.md
-  - key: 高承岳
-    static: characters/preentry/高承岳/主卡.md
-  - key: 于静
-    static: characters/preentry/于静/主卡.md
-  - key: 杨钰琪
-    static: characters/preentry/杨钰琪/主卡.md
-  - key: 孙雅琪（暂名）
-    static: characters/preentry/孙雅琪/形象.md
-  - key: 何雯娜
-    static: characters/preentry/何雯娜/形象.md
+version: 1

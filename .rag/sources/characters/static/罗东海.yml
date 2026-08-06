@@ -1,11 +1,10 @@
 key: 罗东海
-type: character.static
-status: unknown
 primary:
   - characters/minor/罗东海/主卡.md
   - characters/minor/罗东海/形象.md
   - characters/minor/罗东海/衣装.md
   - characters/minor/罗东海/契约.md
+status: confirmed
 tags:
   - 次要人物
-  - 阶段位置已定
+type: character.static

@@ -9,6 +9,10 @@
 - `STYLE.md`: 项目文风真源。
 - `AGENTS.md`、`CLAUDE.md`、`GEMINI.md`: 不同 Agent 的入口文件。
 
+## 结构说明
+
+- `REFERENCES.md`: 项目目录引用方向的辅助图解；不保存故事事实，不作为正式真源或 Agent 必读入口。
+
 ## 故事目录
 
 - `chapters/`
@@ -29,7 +33,7 @@
 
 ## RAG 配置
 
-- `.story.config.toml` 是 RAG / GraphRAG 的检索与路由配置, 不是故事正典。
+- `.story.config.toml` 保存稳定项目身份及 RAG / GraphRAG 路由配置，不是故事正典。
 - `construction` GraphRAG 域只索引 `_status/` 已登记单元，普通查询只返回 `active`，指定目标时补入匹配的 `bound`。
 - `project.truth_roots` 和各模块 `roots` 声明基础扫描入口, 用来定位章节、人物动态上下文、线索、故事规划和世界观目录。
 - `characters.roots[].static_cards` 声明静态角色档案包含哪些卡片; 默认是 `主卡.md`、`形象.md`、`衣装.md`。

@@ -1,28 +1,22 @@
 key: 晏林
-type: character.static
-status: confirmed
 primary:
   - characters/major/晏林/主卡.md
   - characters/major/晏林/形象.md
   - characters/major/晏林/衣装.md
   - characters/major/晏林/契约.md
-tags:
-  - 主要人物
-  - 核心已定
 related:
-  - worldbuilding/organizations/林语心理咨询工作室.md
-  - characters/major/晏林/关系/_index.md
   - characters/major/晏林/关系/万芳.md
   - characters/major/晏林/关系/乔宁.md
+  - characters/major/晏林/关系/何雯娜.md
   - characters/major/晏林/关系/俞予安.md
   - characters/major/晏林/关系/周语棠.md
   - characters/major/晏林/关系/唐雨薇.md
   - characters/major/晏林/关系/孔蔓盈.md
+  - characters/major/晏林/关系/孙雅琪.md
   - characters/major/晏林/关系/宁悠悠.md
   - characters/major/晏林/关系/安若曦.md
   - characters/major/晏林/关系/本人基线.md
   - characters/major/晏林/关系/楚辞.md
-  - characters/major/晏林/关系/江妙妙.md
   - characters/major/晏林/关系/江岚.md
   - characters/major/晏林/关系/王诗悦.md
   - characters/major/晏林/关系/田恬.md
@@ -58,4 +52,7 @@ specialty_required_when:
   - 星辰契约同步
   - 欲望显影
   - 星庭共居
-  - 修罗场
+status: confirmed
+tags:
+  - 主要人物
+type: character.static

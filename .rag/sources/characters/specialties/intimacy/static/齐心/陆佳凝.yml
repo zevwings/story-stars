@@ -1,11 +1,10 @@
 key: 齐心/陆佳凝
-type: character.specialty.static
-specialty: intimacy
-status: confirmed
 primary:
   - intimacy/characters/齐心/陆佳凝.md
+specialty: intimacy
+status: confirmed
 tags:
   - 成人写法
   - 齐心
   - 陆佳凝
-note: 只用于定位成人写法专项静态档案; 查询前必须先读取专项规则。
+type: character.specialty.static

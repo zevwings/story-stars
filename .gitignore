@@ -33,10 +33,6 @@ __pycache__/
 !.analysis/blueprints/**
 !.analysis/plotlines/
 !.analysis/plotlines/**
-.analysis/archived/
-.analysis/archived/**
-.analysis/reports/
-.analysis/reports/**
 
 # GraphRAG 生成缓存。正式事实不在这里。
 .rag/generated/
@@ -48,6 +44,7 @@ __pycache__/
 *~
 
 # Tool runtime output
+.sessions/
 tmp/
 temp/
 

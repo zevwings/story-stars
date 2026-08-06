@@ -1,11 +1,10 @@
 key: 温婉
-type: character.static
-status: unknown
 primary:
-  - characters/major/温婉/主卡.md
-  - characters/major/温婉/形象.md
-  - characters/major/温婉/衣装.md
-  - characters/major/温婉/契约.md
+  - characters/minor/温婉/主卡.md
+  - characters/minor/温婉/形象.md
+  - characters/minor/温婉/衣装.md
+  - characters/minor/温婉/契约.md
+status: confirmed
 tags:
-  - 主要人物
-  - 主要配角已定
+  - 次要人物
+type: character.static

@@ -1,11 +1,10 @@
 key: 江岚
-type: character.static
-status: confirmed
 primary:
   - characters/major/江岚/主卡.md
   - characters/major/江岚/形象.md
   - characters/major/江岚/衣装.md
   - characters/major/江岚/契约.md
+status: confirmed
 tags:
   - 主要人物
-  - 核心已定
+type: character.static
