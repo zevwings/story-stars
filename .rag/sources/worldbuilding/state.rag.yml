@@ -51,3 +51,29 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 星契动物
+    type: state
+    aliases: []
+    primary:
+      - worldbuilding/society/星契动物.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 星契动物
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 星辰系统
+    type: state
+    aliases: []
+    primary:
+      - worldbuilding/society/星辰系统.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 星辰系统
+    status: confirmed
+    read_policy: primary_first
+    note: ""

@@ -142,3 +142,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 星辰之桥
+    type: worldbuilding.systems
+    aliases: []
+    primary:
+      - worldbuilding/systems/星辰之桥.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰之桥
+    status: confirmed
+    read_policy: primary_first
+    note: ""

@@ -6,6 +6,12 @@ members:
       - characters/major/唐雨薇/形象.md
       - characters/major/唐雨薇/衣装.md
       - characters/major/唐雨薇/契约.md
+  - key: 孙雅琪
+    primary:
+      - characters/major/孙雅琪/主卡.md
+      - characters/major/孙雅琪/形象.md
+      - characters/major/孙雅琪/衣装.md
+      - characters/major/孙雅琪/契约.md
   - key: 安若曦
     primary:
       - characters/major/安若曦/主卡.md
@@ -62,6 +68,6 @@ members:
       - characters/major/许知秋/主卡.md
       - characters/major/许知秋/形象.md
       - characters/major/许知秋/衣装.md
-note: 共 11 人
+note: 共 12 人
 status: confirmed
 type: character.group

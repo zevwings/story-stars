@@ -6,9 +6,6 @@
 [project]
 id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
 
-[project.truth_roots]
-construction = "story/construction"
-
 [[characters.roots]]
 path = "characters"
 type = "character.static"
@@ -40,3 +37,5 @@ state_categories = ["intimacy_static"]
 [features]
 
 plotlines = true
+construction = true
+decisions = true

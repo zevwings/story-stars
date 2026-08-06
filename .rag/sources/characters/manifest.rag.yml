@@ -3,6 +3,9 @@ routes:
     key: 唐雨薇
     static: characters/major/唐雨薇/主卡.md
   - character_id: ""
+    key: 孙雅琪
+    static: characters/major/孙雅琪/主卡.md
+  - character_id: ""
     key: 安若曦
     static: characters/major/安若曦/主卡.md
   - character_id: ""
@@ -161,9 +164,6 @@ routes:
   - character_id: ""
     key: 姜禾
     static: characters/preentry/姜禾/主卡.md
-  - character_id: ""
-    key: 孙雅琪
-    static: characters/preentry/孙雅琪/主卡.md
   - character_id: ""
     key: 晓彤
     static: characters/preentry/晓彤/主卡.md

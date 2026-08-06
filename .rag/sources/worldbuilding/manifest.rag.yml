@@ -77,10 +77,13 @@ routes:
   - examples:
       - 伴侣与关系形态
       - 保密与公开性
+      - 星契动物
+      - 星辰系统
       - 暗色星辰
-      - 觉醒与登记
     file: state.rag.yml
     types:
+      - state
+      - state
       - state
       - state
       - state
@@ -90,9 +93,10 @@ routes:
       - 时代背景
       - 星辰之力
       - 星辰之印
-      - 星辰回响
+      - 星辰之桥
     file: systems.rag.yml
     types:
+      - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
