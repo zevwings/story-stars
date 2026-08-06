@@ -16,18 +16,19 @@
 2. 再读 `BIBLE.md`。
 3. 写正文、续写、润色、审读、对白优化或亲密正文回写时, 再读 `STYLE.md`。
 4. 再按任务进入正式故事目录；涉及已登记施工包时读取 `story/construction/_index.md` 与 `_status/`，只继承 `active` 或目标匹配的 `bound` 单元。
-5. 最后按需进入 story-writer runtime 规则。
+5. 规划、章纲、预写、正文、亲密专项场景或定稿任务已经确定目标章、`PL-*` 或 `CON-*` 时，检查 `story/decisions/_index.md`；命中到期决策门时停止对应写入。
+6. 最后按需进入 story-writer runtime 规则。
 
 若本文、`ENTRY.md`、工具说明或 story-writer 公共规则与 `BIBLE.md` 冲突, 以 `BIBLE.md` 为准。
 
 ## 施工与派生目录
 
-目录职责与真源边界以 `BIBLE.md`「十一、施工与派生目录」为准。`story/construction/` 从 `_index.md` 进入，具体单元状态以 `_status/` 为唯一真源；`.prewrite/` 不得作为故事事实来源。剧情线 Preview 只读取正式剧情线、状态与阶段入口，临时产物不写入本仓。
+目录职责与真源边界以 `BIBLE.md`「十一、施工与派生目录」为准。`story/construction/` 从 `_index.md` 进入，具体单元状态以 `_status/` 为唯一真源；`story/decisions/` 只作流程门禁，不提供故事事实；`.prewrite/` 不得作为故事事实来源。剧情线 Preview 只读取正式剧情线、状态与阶段入口，临时产物不写入本仓。
 
 ## 真源与待确认
 
 - 正式真源只保存已经确认且当前有效的事实、规则与边界。
-- 未拍板内容统一写入 `.analysis/blueprints/`, 并在文件正文标明未决状态。
+- 未形成明确执行目标或仍需整体推演的内容写入 `.analysis/blueprints/`；已经形成目标、选择后果和最迟决策点的延迟选择写入 `story/decisions/`。
 - 确认后的内容按 `BIBLE.md` 的目录边界归档；真源不保留方案比较、废案或确认过程。
 
 ## 视角执行门禁

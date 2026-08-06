@@ -144,6 +144,10 @@ members:
       - characters/minor/裴怀山/形象.md
       - characters/minor/裴怀山/衣装.md
       - characters/minor/裴怀山/契约.md
+  - key: 裴怀真
+    primary:
+      - characters/minor/裴怀真/主卡.md
+      - characters/minor/裴怀真/契约.md
   - key: 言溪
     primary:
       - characters/minor/言溪/主卡.md
@@ -186,6 +190,6 @@ members:
       - characters/minor/齐心/形象.md
       - characters/minor/齐心/衣装.md
       - characters/minor/齐心/契约.md
-note: 共 37 人
+note: 共 38 人
 status: confirmed
 type: character.group

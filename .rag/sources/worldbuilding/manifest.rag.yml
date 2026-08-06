@@ -12,12 +12,13 @@ routes:
       - faction
   - examples:
       - 云顶 KTV
+      - 兔子快递
       - 兰纳安吉旅游集团
       - 心动酒吧
       - 星辰监管所
-      - 林语心理咨询工作室
     file: organizations.rag.yml
     types:
+      - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
@@ -76,9 +77,11 @@ routes:
   - examples:
       - 伴侣与关系形态
       - 保密与公开性
+      - 暗色星辰
       - 觉醒与登记
     file: state.rag.yml
     types:
+      - state
       - state
       - state
       - state

@@ -233,3 +233,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 兔子快递
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/兔子快递.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 兔子快递
+    status: confirmed
+    read_policy: primary_first
+    note: ""

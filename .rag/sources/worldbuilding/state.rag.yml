@@ -38,3 +38,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 暗色星辰
+    type: state
+    aliases: []
+    primary:
+      - worldbuilding/society/暗色星辰.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 暗色星辰
+    status: confirmed
+    read_policy: primary_first
+    note: ""

@@ -20,10 +20,11 @@
 
 1. `BIBLE.md`：最高真源。
 2. `STYLE.md`：文风真源。
-3. 正式目录：`chapters/`、`characters/`、`context/`、`clues/`、`story/`、`worldbuilding/`。
+3. 正式目录：`chapters/`、`characters/`、`context/`、`clues/`、`story/`、`worldbuilding/`；其中 `story/decisions/` 是下述流程门禁例外，不是故事事实。
 4. 专项目录：由 `.story.config.toml` 的 `[[specialties]]` 声明（现启用 `intimacy`）。
 5. `story/construction/`：剧情线施工真源，只保存已挂接正式剧情节点、已经确认且写作时必须继承的执行规格；不是长期正典，冲突时服从以上层级。
-6. 派生 / 分析层：`.rag/`、`.prewrite/`、`.analysis/`——**不是真源**。剧情线 Preview 的 HTML、payload 与 manifest 位于系统临时目录，不进入本仓。
+6. `story/decisions/`：决策门层，只登记当前可延后、但到明确执行点前必须由作者解决的问题；可阻塞流程，不提供故事事实。
+7. 派生 / 分析层：`.rag/`、`.prewrite/`、`.analysis/`——**不是真源**。剧情线 Preview 的 HTML、payload 与 manifest 位于系统临时目录，不进入本仓。
 
 ### 正式引用方向
 
@@ -31,6 +32,7 @@
 - `worldbuilding/` 不依赖人物、剧情节点、章节或动态上下文；具体人物任职、控制与个人责任由人物侧引用组织和世界设定。
 - `characters/` 可以依赖世界观、组织与其他静态人物事实；剧情、施工、专项与动态状态从各自目录引用人物档案，不反向定义静态人物。
 - `story/arcs/` 调用和编排 `story/plotlines/`；剧情节点不反向引用阶段页。节点与施工单元之间的双向链接只属于执行接口，不进入事实依赖图。
+- `story/decisions/` 只以 `decision_gate` 单向指向剧情节点、施工单元或章节；正式文件不得反向引用决策文件。决策完成后先正式回写，再删除决策登记和文件。
 - `.analysis/`、`.prewrite/`、`.rag/` 与 Preview 可以读取正式真源；正式真源不得引用这些派生层作为事实来源。
 
 ## 三、读取策略
@@ -39,6 +41,7 @@
 - 写正文、续写、润色、审读、对白优化或亲密正文回写前，先读本文，再读 `STYLE.md`。
 - 进正式目录先读对应 `_index.md`，再按索引进具体文件。
 - 涉及已登记施工包时，先读 `story/construction/_index.md` 与 `_status/`；普通任务只继承 `active`，指定章节或场景时再读取匹配的 `bound`。每个施工单元必须由状态表中的源文件链接进入，并能追溯到至少一个正式 `PL-*` 节点；不得从 `.analysis/` 继承未确认内容。
+- 规划、章纲、预写、正文、亲密专项场景或定稿任务存在明确目标章、`PL-*` 或 `CON-*` 时，检查 `story/decisions/_index.md`。命中 `blocking` 或已经到达最迟决策点的 `scheduled` 条目时停止对应写入；不得从候选方案自行选择后继续。
 
 ## 四、题材口径与尺度红线
 
@@ -138,6 +141,7 @@
 - 剧情线 Preview：只读取 `.story.config.toml` 的剧情线门禁、`story/plotlines/`、`story/plotlines/_status/` 与 `story/arcs/`；人物和世界观关联只解析正式节点已经写明的引用路径，不读取被引用文件正文。HTML、payload 与 manifest 写入系统临时目录，可随时丢弃，不构成本项目目录或事实层。
 - `.prewrite/`：按章节保存写前 brief、上下文筛选结果与临时施工材料；它是写作前的上下文包，不是真源，不得替代正式章纲、人物状态、线索状态或世界观设定。
 - `.analysis/`：保存候选、推演、缺口、待确认项、方案比较与历史过程，不是真源；剧情线内部缺口进入 `.analysis/plotlines/`，跨线、正式设定级或需要统一协调的分析统一进入 `.analysis/blueprints/`，不再按确认状态拆分子目录。
+- `story/decisions/`：保存已经形成明确目标、不同选择后果和最迟决策点的延迟决策门。`scheduled` 不阻塞无关任务；`blocking` 或已经命中最迟时点的条目阻塞对应目标。决策结果不得留在本目录，完成正式回写后删除登记和文件。
 - 作者确认后，长期事实回写正式真源，具体执行规格写入 `story/construction/`，并从待确认清单删除该项；正文或定稿完全取代某个施工单元后，将其转为 `consumed` 并登记兑现位置，不再进入默认检索。
 
 ## 十二、快速索引
@@ -146,6 +150,7 @@
 - `worldbuilding/_index.md`：世界观正式真源入口。
 - `story/construction/_index.md`：已确认施工规格的唯一总入口。
 - `story/construction/_status/`：施工单元生命周期的唯一状态真源；使用 `active`、`bound`、`consumed`、`superseded`、`retired` 五态，不记录“已读／未读”。
+- `story/decisions/_index.md`：当前延迟决策门的唯一索引；只登记 `scheduled`、`blocking`，解决并正式回写后删除。
 - `.analysis/blueprints/`：候选设计、阶段推演、方案比较与跨线未拍板参数的统一入口；确认状态由文件正文说明，不设置 `待确认/` 子目录。
 - `.analysis/archived/`：历史分析与旧设计稿，只供追溯，不参与当前设定读取。
 - 其他正式目录入口：`characters/_index.md`、`story/_index.md`、`clues/_index.md`、`context/_index.md`、`chapters/_index.md`。

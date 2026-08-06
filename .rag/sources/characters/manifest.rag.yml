@@ -120,6 +120,9 @@ routes:
     key: 裴怀山
     static: characters/minor/裴怀山/主卡.md
   - character_id: ""
+    key: 裴怀真
+    static: characters/minor/裴怀真/主卡.md
+  - character_id: ""
     key: 言溪
     static: characters/minor/言溪/主卡.md
   - character_id: ""
