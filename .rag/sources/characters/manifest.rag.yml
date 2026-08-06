@@ -120,11 +120,11 @@ routes:
     key: 裴崇礼
     static: characters/minor/裴崇礼/主卡.md
   - character_id: ""
-    key: 裴怀山
-    static: characters/minor/裴怀山/主卡.md
+    key: 裴怀安
+    static: characters/minor/裴怀安/主卡.md
   - character_id: ""
-    key: 裴怀真
-    static: characters/minor/裴怀真/主卡.md
+    key: 裴怀民
+    static: characters/minor/裴怀民/主卡.md
   - character_id: ""
     key: 言溪
     static: characters/minor/言溪/主卡.md
