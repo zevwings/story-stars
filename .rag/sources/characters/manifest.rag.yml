@@ -66,6 +66,9 @@ routes:
     key: 周博
     static: characters/minor/周博/主卡.md
   - character_id: ""
+    key: 周景尧
+    static: characters/minor/周景尧/主卡.md
+  - character_id: ""
     key: 周语棠
     static: characters/minor/周语棠/主卡.md
   - character_id: ""
@@ -138,6 +141,9 @@ routes:
     key: 舒歆
     static: characters/minor/舒歆/主卡.md
   - character_id: ""
+    key: 裴兰馨
+    static: characters/minor/裴兰馨/主卡.md
+  - character_id: ""
     key: 裴崇礼
     static: characters/minor/裴崇礼/主卡.md
   - character_id: ""
@@ -171,14 +177,17 @@ routes:
     key: 顾清言
     static: characters/minor/顾清言/主卡.md
   - character_id: ""
+    key: 骆志莲
+    static: characters/minor/骆志莲/主卡.md
+  - character_id: ""
+    key: 高承岳
+    static: characters/minor/高承岳/主卡.md
+  - character_id: ""
     key: 黄锦一
     static: characters/minor/黄锦一/主卡.md
   - character_id: ""
     key: 齐心
     static: characters/minor/齐心/主卡.md
-  - character_id: ""
-    key: 周景尧
-    static: characters/preentry/周景尧/主卡.md
   - character_id: ""
     key: 姜禾
     static: characters/preentry/姜禾/主卡.md
@@ -198,17 +207,11 @@ routes:
     key: 翠花
     static: characters/preentry/翠花/主卡.md
   - character_id: ""
-    key: 裴兰馨
-    static: characters/preentry/裴兰馨/主卡.md
+    key: 蒋曼琳
+    static: characters/preentry/蒋曼琳/主卡.md
   - character_id: ""
-    key: 骆志莲
-    static: characters/preentry/骆志莲/主卡.md
-  - character_id: ""
-    key: 高承岳
-    static: characters/preentry/高承岳/主卡.md
-  - character_id: ""
-    key: 鲁林霞
-    static: characters/preentry/鲁林霞/主卡.md
+    key: 陈瑶白卡
+    static: characters/preentry/陈瑶白卡/主卡.md
 scope: characters.lookup_manifest
 status: routing_only
 version: 1
