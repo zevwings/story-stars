@@ -1,0 +1,438 @@
+{
+  "category": "character_dynamic",
+  "entity": "蒋曼琳",
+  "group": null,
+  "source": "context/characters/蒋曼琳.md",
+  "records": [
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "蒋曼琳——独立艺术顾问、何绍庭的未婚长期排他伴侣、阶段四药剂侵害线的客户侧直接责任人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "阶段四待显影；正式章节尚未实现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "正式剧情线已经锁定她明知控制用途后仍多次使用药剂的责任结构，但尚无定稿章节可确认该线推进到了哪一步。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与何绍庭的长期排他伴侣关系是当前基线；与侯瑞驰之间的加害关系属于已登记剧情线，具体接触与事件进度尚待定稿章节承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "46 岁；截至当前项目基线。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "现实职业能力与成熟社交能力稳定；尚无正式真源登记她具备契约者能力或超自然控制手段。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势；能够正常承担艺术咨询、展览现场与公开社交活动。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与何绍庭为未婚长期排他伴侣；何绍庭不知道她在外私下接触侯瑞驰、购买和使用药剂或实施侵害。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "以个人名义从事独立艺术顾问工作，不在繁星珠宝任职；尚无定稿章节确认新的职业、司法或公开声誉变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "按项目为私人收藏、小型展览与高端艺术项目提供审美、作品与陈列咨询；在正式药剂线中承担客户侧直接责任。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与何绍庭的排他伴侣关系已经成立；与侯瑞驰的具体接触、用药和侵害进度不得越过定稿章节提前填写。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "待显影初始建档；当前具体年龄从静态人物资料迁入动态状态层。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（待显影建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已实现节点；正式规划节点见 PL-S-118｜明知用途后的多次药剂侵害。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "剧情线中的完整责任结构不等于所有规划事件已经在当前时间点发生；具体次数、场所、调查与落网状态只能由定稿章节推进。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "把侯瑞驰的身体反应、药效状态、沉默或求生配合解释成同意；把黑市隐瞒长期风险解释成蒋曼琳不知道主要控制用途。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "不恢复繁星珠宝高管、品牌主理人或依附伴侣生活的身份；她的独立职业与个人责任必须同时成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "已经形成独立艺术顾问的个人执业方式，服务私人收藏、小型展览与高端艺术项目。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "与何绍庭建立未婚长期排他伴侣关系；该关系不授予她繁星珠宝的公司权限。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "当前项目基线",
+      "value": "未登记契约者能力或实力变化；职业审美、社交熟练与持续注视均按现实能力处理。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与何绍庭",
+      "field": "**当前关系阶段**",
+      "value": "未婚长期排他伴侣关系已经成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与何绍庭",
+      "field": "**最近变化**",
+      "value": "无定稿章节中的新变化；何绍庭当前不知晓她在外的药剂相关行为。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与何绍庭",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与侯瑞驰",
+      "field": "**当前关系阶段**",
+      "value": "正式剧情线已经登记蒋曼琳为客户侧直接责任人；具体接触与侵害进度尚无定稿章节确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与侯瑞驰",
+      "field": "**最近变化**",
+      "value": "无已实现节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与侯瑞驰",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "真笑时眉眼与双颊一起打开；明确拒绝后笑意迅速回收，目光多留一拍，物件先靠近，身体再跟半步。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "外向、明艳、真心喜欢美与被看见；对拒绝的低容忍必须通过逐步越界表现，不能用永久冷脸代替。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "她有独立职业，不是繁星员工；当前年龄只由本动态档维护；规划中的多次侵害和现场中止尚不能当作已完成事实。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "当前项目基线",
+      "value": "46 岁，以个人名义从事独立艺术顾问工作；与何绍庭的未婚长期排他伴侣关系已经成立；阶段四药剂侵害线待正式显影。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到[章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "独立艺术顾问身份、稳定性格、形象与权限边界已经进入正式人物卡；当前具体年龄只由本动态档维护。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "当前年龄随故事时间推进在本页更新；静态人物卡和静态索引只保留成年与成熟年龄段，不重复维护具体数值。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不重复完整形象、衣装、职业工作流、药剂机制或犯罪责任细则。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "只有定稿、补录摘要或上下文整理任务确认变化后，才更新具体接触、用药次数、调查与司法状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "蒋曼琳主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "蒋曼琳",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "繁星珠宝有限公司",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

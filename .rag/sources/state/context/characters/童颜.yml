@@ -1,0 +1,458 @@
+{
+  "category": "character_dynamic",
+  "entity": "童颜",
+  "group": null,
+  "source": "context/characters/童颜.md",
+  "records": [
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "童颜——阶段性重要角色、非核心长期伴侣；会所成年当事人、生活重建与恢复教育线的完整个案。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "阶段三待入场；以首次登场为角色年龄锚点，正式节点尚未完成。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "能够对具体人和具体行为表达局部选择，却没有退出父亲与云顶共同控制的完整自由。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "尚无已完成章节变化；与晏林的独立相遇、求助、安置和长期关系均不得提前写成已经成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "首次登场时 20 岁；以阶段三入场节点为锚点，具体生日未设定，不据此反推主线开篇前的精确年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "非契约者；不具备星辰权柄，也不在后续获得异能。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "尚无定稿章节确认的具体伤势；不得用推测补写伤痕、病症或身体损害。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "处于入场前的受控状态；需要安全感，但仍具备判断、表达局部选择和拒绝具体行为的能力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "高中教育因家庭暴力、赌债与债务控制中断；仍受父亲与云顶共同限制，没有稳定住处、复学方案或完整离开计划。PL-S-095 尚未完成。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "无正式职业与组织职责；是家庭与商 K 控制线的成年当事人，不承担异能协查、案件研判或证据核验职责。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "江州；具体当日位置尚无章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚未形成完整长期目标；入场前首先是避免继续被安排，并确认是否存在现实可用的安全出口。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "父亲的家庭暴力与赌债转嫁、云顶的人员控制、教育中断、无稳定住处及对帮助需要偿还的习惯性理解。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与晏林的第一次独立相遇尚未完成；与许知夏、许知秋的共同居住关系尚未建立；父亲仍是现实控制来源。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "人物动态初始建档；首次登场 20 岁由作者确认并从候选分析层落入动态真源。成年边界继续由静态主卡维护，角色事实没有被改成未成年或养成关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（阶段三待入场建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "PL-S-095、PL-S-163—PL-S-173 均为 pending，尚未形成当前事实。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "20 岁和教育中断必须同时成立；恢复高中教育是成年后的现实选择，不是把她重新写成未成年人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "提前拥有完整求助、证据、住处与复学方案；把局部同意写成能够自由退出整个控制体系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无已完成章节变化可供回退；任何 pending 的求助、安置、入学、独立生活与关系重认都不能提前兑现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "入场前",
+      "value": "父亲赌博、家暴并以债务实施控制，童颜的高中教育因此中断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "入场前",
+      "value": "父亲与云顶共同压缩她拒绝工作和自由离开的空间；她没有成熟的长期计划。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "待完成",
+      "value": "由她本人在清醒状态下表达最小求助，现实安置与教育选择随后分别成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "阶段三待入场",
+      "value": "20 岁，非契约者；生活能力被环境压缩，但判断、表达与具体拒绝能力仍在。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "成长与实力轨迹",
+      "value": "后续轨迹只在对应正式节点或定稿摘要完成后更新，不把生活重建预写成现状。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "尚未完成阶段三的独立相遇；不存在长期关系、救助授权、同住或亲密默认许可。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与父亲",
+      "field": "**当前关系阶段**",
+      "value": "家庭暴力、赌债转嫁与现实控制仍在；亲属身份不赋予决定她住所、教育或身体的权利。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与父亲",
+      "field": "**最近变化**",
+      "value": "即时控制切断节点尚未完成。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与父亲",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "进入陌生空间先确认门、人员和距离；保护姿态不等于儿童人格或失去表达能力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "警觉、缺少长期计划，但并非浑噩；她能说出具体想要、不要和需要。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "首次登场 20 岁；与晏林相遇、求助、安置、复学、共同生活和长期关系目前全部仍是 pending。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "阶段三入场基线",
+      "value": "童颜首次登场时 20 岁，高中教育已中断，仍受父亲和云顶共同控制，没有稳定住处、复学方案或完整离开计划；她能够表达局部选择，但尚未完成与晏林的独立相遇和清醒求助。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "首次登场具体年龄只由本动态档维护；成年边界、入场背景、成长方向和关系边界仍以静态人物资料为准。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "“首次登场 20 岁”是角色入场年龄锚点，不等于已设定生日，也不自动给出主线开篇前的精确年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "住处、教育、账户、同学、个人日程、位置、关系进度与现实离开能力随正式节点推进在本页更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "身高、体重、围度、罩杯、面容和衣装语法是静态虚构设计，不迁入本页。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "童颜主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "童颜",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "晏林—童颜关系档",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}
