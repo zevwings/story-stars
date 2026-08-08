@@ -1,46 +1,21 @@
 key: 预备人物
 members:
-  - key: 乔宁
-    primary:
-      - characters/preentry/乔宁/主卡.md
-      - characters/preentry/乔宁/形象.md
-      - characters/preentry/乔宁/衣装.md
-  - key: 于静
-    primary:
-      - characters/preentry/于静/主卡.md
-      - characters/preentry/于静/形象.md
-      - characters/preentry/于静/衣装.md
-  - key: 华靖
-    primary:
-      - characters/preentry/华靖/主卡.md
-      - characters/preentry/华靖/形象.md
-      - characters/preentry/华靖/衣装.md
   - key: 周景尧
     primary:
       - characters/preentry/周景尧/主卡.md
   - key: 姜禾
     primary:
       - characters/preentry/姜禾/主卡.md
+  - key: 应挽霞
+    primary:
+      - characters/preentry/应挽霞/主卡.md
+      - characters/preentry/应挽霞/形象.md
+      - characters/preentry/应挽霞/衣装.md
   - key: 晓彤
     primary:
       - characters/preentry/晓彤/主卡.md
       - characters/preentry/晓彤/形象.md
       - characters/preentry/晓彤/衣装.md
-  - key: 李垣羲
-    primary:
-      - characters/preentry/李垣羲/主卡.md
-      - characters/preentry/李垣羲/形象.md
-      - characters/preentry/李垣羲/衣装.md
-  - key: 杨柳
-    primary:
-      - characters/preentry/杨柳/主卡.md
-      - characters/preentry/杨柳/形象.md
-      - characters/preentry/杨柳/衣装.md
-  - key: 杨钰琪
-    primary:
-      - characters/preentry/杨钰琪/主卡.md
-      - characters/preentry/杨钰琪/形象.md
-      - characters/preentry/杨钰琪/衣装.md
   - key: 林昭昭
     primary:
       - characters/preentry/林昭昭/主卡.md
@@ -51,11 +26,6 @@ members:
       - characters/preentry/灵儿/主卡.md
       - characters/preentry/灵儿/形象.md
       - characters/preentry/灵儿/衣装.md
-  - key: 燕若淇
-    primary:
-      - characters/preentry/燕若淇/主卡.md
-      - characters/preentry/燕若淇/形象.md
-      - characters/preentry/燕若淇/衣装.md
   - key: 翠花
     primary:
       - characters/preentry/翠花/主卡.md
@@ -65,11 +35,6 @@ members:
     primary:
       - characters/preentry/裴兰馨/主卡.md
       - characters/preentry/裴兰馨/契约.md
-  - key: 郑文悦
-    primary:
-      - characters/preentry/郑文悦/主卡.md
-      - characters/preentry/郑文悦/形象.md
-      - characters/preentry/郑文悦/衣装.md
   - key: 骆志莲
     primary:
       - characters/preentry/骆志莲/主卡.md
@@ -79,11 +44,6 @@ members:
   - key: 鲁林霞
     primary:
       - characters/preentry/鲁林霞/主卡.md
-  - key: 黄锦一
-    primary:
-      - characters/preentry/黄锦一/主卡.md
-      - characters/preentry/黄锦一/形象.md
-      - characters/preentry/黄锦一/衣装.md
-note: 共 19 人
+note: 共 11 人
 status: confirmed
 type: character.group

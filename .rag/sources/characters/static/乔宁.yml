@@ -1,9 +1,9 @@
 key: 乔宁
 primary:
-  - characters/preentry/乔宁/主卡.md
-  - characters/preentry/乔宁/形象.md
-  - characters/preentry/乔宁/衣装.md
+  - characters/minor/乔宁/主卡.md
+  - characters/minor/乔宁/形象.md
+  - characters/minor/乔宁/衣装.md
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

@@ -1,10 +1,10 @@
 key: 华靖
 primary:
-  - characters/preentry/华靖/主卡.md
-  - characters/preentry/华靖/形象.md
-  - characters/preentry/华靖/衣装.md
+  - characters/minor/华靖/主卡.md
+  - characters/minor/华靖/形象.md
+  - characters/minor/华靖/衣装.md
 related:
-  - characters/preentry/华靖/关系/晏林.md
+  - characters/minor/华靖/关系/晏林.md
 specialty_required_when:
   - 亲密
   - 双修
@@ -27,5 +27,5 @@ specialty_required_when:
   - 星庭共居
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

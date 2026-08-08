@@ -83,3 +83,17 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 净化与修复权柄
+    type: worldbuilding.systems.星辰权柄
+    aliases: []
+    primary:
+      - worldbuilding/systems/星辰权柄/侵蚀与修复.md
+    related:
+      - worldbuilding/systems/星辰权柄/_index.md
+    tags:
+      - systems
+      - 星辰权柄
+      - 净化与修复权柄
+    status: confirmed
+    read_policy: primary_first
+    note: ""

@@ -1,14 +1,27 @@
 entries:
-  - key: 药剂
+  - key: 精神检测与复评技术
     type: worldbuilding.technology
     aliases: []
     primary:
-      - worldbuilding/technology/药剂.md
+      - worldbuilding/technology/精神检测与复评技术.md
     related:
       - worldbuilding/technology/_index.md
     tags:
       - technology
-      - 药剂
+      - 精神检测与复评技术
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 近场精神异常筛查设备
+    type: worldbuilding.technology
+    aliases: []
+    primary:
+      - worldbuilding/technology/近场精神异常筛查设备.md
+    related:
+      - worldbuilding/technology/_index.md
+    tags:
+      - technology
+      - 近场精神异常筛查设备
     status: confirmed
     read_policy: primary_first
     note: ""

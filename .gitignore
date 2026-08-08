@@ -31,12 +31,19 @@ __pycache__/
 !.analysis/README.md
 !.analysis/blueprints/
 !.analysis/blueprints/**
+!.analysis/archived/
+.analysis/archived/*
+!.analysis/archived/科技与精神之海机制分析.md
+!.analysis/archived/统一星表观测网与新契约者发现登记蓝图.md
 !.analysis/plotlines/
 !.analysis/plotlines/**
 
 # GraphRAG 生成缓存。正式事实不在这里。
 .rag/generated/
 .rag/briefs/
+
+# 正式剧情节点导出的机器可读派生图；按需由 sw plotline export 重建。
+/.story.plotlines.json
 
 # Editor and temporary files
 *.swp

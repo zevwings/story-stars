@@ -1,0 +1,57 @@
+entries:
+  - key: 异变向精神药剂
+    type: worldbuilding.technology.药剂
+    aliases: []
+    primary:
+      - worldbuilding/technology/药剂/异变向精神药剂.md
+    related:
+      - worldbuilding/technology/药剂/_index.md
+    tags:
+      - technology
+      - 药剂
+      - 异变向精神药剂
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 情欲向精神药剂
+    type: worldbuilding.technology.药剂
+    aliases: []
+    primary:
+      - worldbuilding/technology/药剂/情欲向精神药剂.md
+    related:
+      - worldbuilding/technology/药剂/_index.md
+    tags:
+      - technology
+      - 药剂
+      - 情欲向精神药剂
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 控制向精神药剂
+    type: worldbuilding.technology.药剂
+    aliases: []
+    primary:
+      - worldbuilding/technology/药剂/控制向精神药剂.md
+    related:
+      - worldbuilding/technology/药剂/_index.md
+    tags:
+      - technology
+      - 药剂
+      - 控制向精神药剂
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 肉体兴奋药剂
+    type: worldbuilding.technology.药剂
+    aliases: []
+    primary:
+      - worldbuilding/technology/药剂/肉体兴奋药剂.md
+    related:
+      - worldbuilding/technology/药剂/_index.md
+    tags:
+      - technology
+      - 药剂
+      - 肉体兴奋药剂
+    status: confirmed
+    read_policy: primary_first
+    note: ""

@@ -109,7 +109,7 @@ routes:
       - worldbuilding.systems
       - worldbuilding.systems
   - examples:
-      - 侵蚀与修复权柄
+      - 净化与修复权柄
       - 基础权柄
       - 意识与认知权柄
       - 感知与信息权柄
@@ -123,10 +123,23 @@ routes:
       - worldbuilding.systems.星辰权柄
       - worldbuilding.systems.星辰权柄
   - examples:
-      - 药剂
+      - 精神检测与复评技术
+      - 近场精神异常筛查设备
     file: technology.rag.yml
     types:
       - worldbuilding.technology
+      - worldbuilding.technology
+  - examples:
+      - 异变向精神药剂
+      - 情欲向精神药剂
+      - 控制向精神药剂
+      - 肉体兴奋药剂
+    file: technology/药剂.rag.yml
+    types:
+      - worldbuilding.technology.药剂
+      - worldbuilding.technology.药剂
+      - worldbuilding.technology.药剂
+      - worldbuilding.technology.药剂
 scope: worldbuilding.lookup_manifest
 status: routing_only
 version: 1

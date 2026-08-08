@@ -1,9 +1,9 @@
 key: 于静
 primary:
-  - characters/preentry/于静/主卡.md
-  - characters/preentry/于静/形象.md
-  - characters/preentry/于静/衣装.md
+  - characters/minor/于静/主卡.md
+  - characters/minor/于静/形象.md
+  - characters/minor/于静/衣装.md
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static
