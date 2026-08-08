@@ -12,7 +12,7 @@
 
 1. 执行任何项目任务前，先完整读取 `ENTRY.md`。
 2. 按 `ENTRY.md` 的任务路由读取 `BIBLE.md`、`STYLE.md`、目标目录索引与相关真源。
-3. 最后按任务需要进入 story-writer runtime 规则。
+3. 最后按任务需要进入项目已 vendoring 的专项协议与参考；题材中立能力再进入 story-writer runtime。
 
 本文件只负责 Claude 启动与上述内容边界开关，不定义故事事实、文风、目录职责或流程门禁。故事事实与写作边界以 `BIBLE.md` 为准，文风以 `STYLE.md` 为准，读取顺序与任务路由以 `ENTRY.md` 为准。
 

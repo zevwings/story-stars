@@ -1,7 +1,0 @@
-required:
-  - "story-writer://rules/intimacy/_index"
-  - "story-writer://rules/intimacy/亲密边界与红线"
-scope: characters.specialty.intimacy.rules_index
-specialty: intimacy
-status: routing_only
-version: 1

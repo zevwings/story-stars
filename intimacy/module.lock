@@ -1,0 +1,495 @@
+schema_version = 2
+module_id = "intimacy"
+kind = "specialty"
+installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
+required_paths = [
+    "_index.md",
+    "_template/README.md",
+    "chapters/_index.md",
+    "characters/_index.md",
+    "context/_index.md",
+    "mechanisms/_index.md",
+    "protocols/_index.md",
+    "protocols/workflows/_index.md",
+    "references/_index.md",
+    "references/library/_index.md",
+]
+
+[package]
+module_id = "intimacy"
+version = "1.0.0"
+runtime_api = 1
+label = "亲密写作"
+keywords = [
+    "亲密",
+    "回房",
+    "身体回应",
+    "HD",
+]
+rules = [
+    "protocols/_index.md",
+    "protocols/亲密边界与红线.md",
+]
+state_categories = ["intimacy_static"]
+check_priority = "P2"
+fingerprint_algorithm = "sha256-v1"
+fingerprint = "sha256:fc0a563ce1f31d98d883a246a6d700610715987289f96149e1173631718b2313"
+managed_roots = [
+    "protocols",
+    "references/library",
+]
+required_paths = [
+    "protocols/_index.md",
+    "protocols/workflows/_index.md",
+    "references/library/_index.md",
+]
+
+[[package.files]]
+path = "protocols/B场HD四维细则.md"
+mode = 420
+size = 1318
+sha256 = "1b708d4fe225c768d6698e32a6ed63edb5899162fe1959de3542aa11fbf0ba7a"
+
+[[package.files]]
+path = "protocols/B场HD微观感官与才艺解构.md"
+mode = 420
+size = 3453
+sha256 = "55e99bb34e2e380f4b5d2edc7fac22f6a11e6979fa46650876f9500921dd175f"
+
+[[package.files]]
+path = "protocols/B场HD总纲.md"
+mode = 420
+size = 1936
+sha256 = "9660fb659fd07511a3c37ebdc66b941696c0c87d6c39eca6e0729c9a90b7524d"
+
+[[package.files]]
+path = "protocols/B场HD模式红线.md"
+mode = 420
+size = 395
+sha256 = "abe2c2eade17eb818cd47f582334b415a846f505f0c9bb2b71cd66b180041e01"
+
+[[package.files]]
+path = "protocols/B场HD节奏镜头.md"
+mode = 420
+size = 1983
+sha256 = "b99a503b7bd43e2e4410d303749cfdc00d27e69321f98686280ba4171a6f3b4c"
+
+[[package.files]]
+path = "protocols/B场黑暗HD微观感官与双声部规则.md"
+mode = 420
+size = 4083
+sha256 = "bcc2223fb00a6aa272473b5fba3fe3ab31961c2d4fb1e0a68aa77effd4478d45"
+
+[[package.files]]
+path = "protocols/HD约束总览.md"
+mode = 420
+size = 632
+sha256 = "7595e23f5c04b9a61aeeac823673499548de5289cf889e4d87e07cd00d36882d"
+
+[[package.files]]
+path = "protocols/_index.md"
+mode = 420
+size = 2797
+sha256 = "450519344b90d73a2b9efb31401cc5ab8f3b5e4d27570e2c57ee9035332abd9b"
+
+[[package.files]]
+path = "protocols/workflows/_index.md"
+mode = 420
+size = 830
+sha256 = "f02eda28ac0cd4182aa34ba5b26bb9d511845a0732e10c77dad9bcca8a00d219"
+
+[[package.files]]
+path = "protocols/workflows/dark-planner/design-protocol.md"
+mode = 420
+size = 3254
+sha256 = "93c684e2385b8f2dcc3cbc67315957acdcb7c380e0357f4397d69a0427ece058"
+
+[[package.files]]
+path = "protocols/workflows/dark-writer/execution-protocol.md"
+mode = 420
+size = 3271
+sha256 = "014c1b2c75a373f455a2f6a9dffa12761f28757ee4c7fb3bfc639b2001a36bd8"
+
+[[package.files]]
+path = "protocols/workflows/planner/choreography-logic.md"
+mode = 420
+size = 3266
+sha256 = "4a31d7dafa2d547231472843b16a52844cb2cde914a244b80512668bc1070c41"
+
+[[package.files]]
+path = "protocols/workflows/planner/distillation-protocol.md"
+mode = 420
+size = 1325
+sha256 = "dcbec86088bad0708c297e7043f74ac257bcfab151de274eca434a9185a14b89"
+
+[[package.files]]
+path = "protocols/workflows/planner/material-extraction.md"
+mode = 420
+size = 2283
+sha256 = "73e303223e2de7b0cab7e8b825ce830747093e3a7affdad75343743a74cb5037"
+
+[[package.files]]
+path = "protocols/workflows/planner/script-generation.md"
+mode = 420
+size = 1451
+sha256 = "1398f4adbf34c199a8a85db4d3a0e43eb16dfe86688ed35e1a15d70eb1176274"
+
+[[package.files]]
+path = "protocols/workflows/writer/execution-protocol.md"
+mode = 420
+size = 3616
+sha256 = "26ca522f84a4345e07448c88e716cc9962ae9964da64102bc36da8ac299eee99"
+
+[[package.files]]
+path = "protocols/亲密写前写后校验.md"
+mode = 420
+size = 647
+sha256 = "6dd6a99f2782e139b3e0a5acd19b9966d65e9162e5c3bb7a51fbf151fdab2a3d"
+
+[[package.files]]
+path = "protocols/亲密设计规划协议.md"
+mode = 420
+size = 1271
+sha256 = "61863d93ac1edd76543c18680fa0f94465d0092e1232169b7401cf9cc3495389"
+
+[[package.files]]
+path = "protocols/亲密边界与红线.md"
+mode = 420
+size = 1252
+sha256 = "8380bc4d3da6bba4537541e57a6fa7a258d738984ed4c56b4d53e204a799d2a9"
+
+[[package.files]]
+path = "protocols/正向亲密质量检查清单.md"
+mode = 420
+size = 518
+sha256 = "c719152daa9e48ce531bed749c372b6eaf985b82cdb002263e278f1fdbf5c073"
+
+[[package.files]]
+path = "protocols/正文亲密写法.md"
+mode = 420
+size = 6657
+sha256 = "c3fde2f6250cd48a4fe5044fc884f6c5b8c8bb5fb6621f31ae4349b4bb9a26a7"
+
+[[package.files]]
+path = "protocols/黑暗HD流程.md"
+mode = 420
+size = 658
+sha256 = "e3ab5fe5874b200912d945d5e36fbf92e6f48b18ce9ed30ee7c844af0d847fcb"
+
+[[package.files]]
+path = "references/library/11_女性身体_A.md"
+mode = 420
+size = 8329
+sha256 = "5cd7f3186ace4a5bc1a7bf7d3de7b2dc25425868b234816da51187282231013f"
+
+[[package.files]]
+path = "references/library/12_女性身体_B.md"
+mode = 420
+size = 25851
+sha256 = "19e6432f8b1c627f04996e49bfd7cb6c9c3fbb213f5cf20b6e9639af9dea189d"
+
+[[package.files]]
+path = "references/library/13_男性身体_A.md"
+mode = 420
+size = 11000
+sha256 = "c95f8756a019e0821b10ff04689dd8d596dd10419aa564de45e3fbfa426ac714"
+
+[[package.files]]
+path = "references/library/14_男性身体_B.md"
+mode = 420
+size = 4126
+sha256 = "e3d0106d69db7d5b0bc647ddfbc7dbb999d60cf02d6b9899eee75b4ed5f30439"
+
+[[package.files]]
+path = "references/library/15_感官_A.md"
+mode = 420
+size = 13546
+sha256 = "43e2917d3b6b509c8798b6eceff2185ae32e90abaabf070546c8b9036cebe0f7"
+
+[[package.files]]
+path = "references/library/16_感官_B.md"
+mode = 420
+size = 9933
+sha256 = "df586fb5224006c816f05407d8c8851f41b79ec6c2e034ae359d13f465a7aeda"
+
+[[package.files]]
+path = "references/library/17_词汇库_A.md"
+mode = 420
+size = 5105
+sha256 = "ed33ed87ec8c49eb43a3755c0d167ec31deb04526425ff13896c47cb2a9c0bde"
+
+[[package.files]]
+path = "references/library/18_词汇库_B.md"
+mode = 420
+size = 3737
+sha256 = "d337fff660e8e964cef1c9ca0f8812d2485d0f684f6f83a18459d6ebf9e6e4ed"
+
+[[package.files]]
+path = "references/library/21_对话与声音_A.md"
+mode = 420
+size = 3596
+sha256 = "ec9807d9156573614d32fd8a8e2865a7e65ccf534159124080f12ee7c3b5d0d7"
+
+[[package.files]]
+path = "references/library/22_对话与声音_B.md"
+mode = 420
+size = 4583
+sha256 = "dbc24a8f1988e945251c14211b1d2ac6f43ba1d21daa2d38099890cc517b26cd"
+
+[[package.files]]
+path = "references/library/23_语言技法.md"
+mode = 420
+size = 17071
+sha256 = "4ff84ebfb5f7fd246e9d094b1f9a5c6ffc235269126033292ac94c5fec0da3bb"
+
+[[package.files]]
+path = "references/library/24_体位与动作_A.md"
+mode = 420
+size = 6214
+sha256 = "229b9f20a7cb25aa7faf92d415e1439689d751b453afed08040504624f26c6c8"
+
+[[package.files]]
+path = "references/library/25_体位与动作_B.md"
+mode = 420
+size = 9957
+sha256 = "3fb659bac7090a19a20fd2aba6e9c571351953c6d214cb0fb273d31231698683"
+
+[[package.files]]
+path = "references/library/26_结构.md"
+mode = 420
+size = 21407
+sha256 = "6875096c9aead774fe2a0e9e12d76eef1224f039bf994de23bd4e185781b4b15"
+
+[[package.files]]
+path = "references/library/27_转场.md"
+mode = 420
+size = 9448
+sha256 = "22a94db8da06d5cf07ef7d41186248c0314047f17697dc926d411a5c7193deac"
+
+[[package.files]]
+path = "references/library/28_节奏.md"
+mode = 420
+size = 5726
+sha256 = "cf64dd3e810eda2cd30e5a78a36cc02bb2d8725381170354218c855929d2fa86"
+
+[[package.files]]
+path = "references/library/29_进阶技法.md"
+mode = 420
+size = 8937
+sha256 = "b87a7d6f4a95d2521832ffd418ebb08cfbf19201b3e6604f0c4627f315a6b76c"
+
+[[package.files]]
+path = "references/library/31_A场美学与性张力.md"
+mode = 420
+size = 24809
+sha256 = "b3e426ca28238faa6fcd1c370b478eed4963cc212dd6d566409ecd84e13eb905"
+
+[[package.files]]
+path = "references/library/32_美学意象.md"
+mode = 420
+size = 5102
+sha256 = "48898c02a66c49e8c1d9ffc50f3e7d5e11179b83ddf049e22b67f47564c48484"
+
+[[package.files]]
+path = "references/library/33_非性行为亲密.md"
+mode = 420
+size = 5100
+sha256 = "dcd8d48bbe8ee06c001651a17b80ca282db4027f125417bf84531ea7a536d6f0"
+
+[[package.files]]
+path = "references/library/34_事后回归.md"
+mode = 420
+size = 4876
+sha256 = "5945af474e42c43c827a7bf836aaea53ea7f5ecafefb4d27777da6429bfa5db9"
+
+[[package.files]]
+path = "references/library/35_特殊场景_A.md"
+mode = 420
+size = 7562
+sha256 = "6aa6d2e37ecf9c6b53b5e4ff5aaa6fb3806673b40a57cc425663f7730b5fddf3"
+
+[[package.files]]
+path = "references/library/36_特殊场景_B.md"
+mode = 420
+size = 5053
+sha256 = "5b96a5f181531cfd4ab2d252290ca28e213e7f5d2fdf19107781d8f1c2989217"
+
+[[package.files]]
+path = "references/library/37_多人场景.md"
+mode = 420
+size = 16076
+sha256 = "cd94e8b43dc86175b1f9dcb46590ea9d7d52f80b4972f60c0de447c677457b23"
+
+[[package.files]]
+path = "references/library/41_边界与协商.md"
+mode = 420
+size = 8674
+sha256 = "f74f4cb90f0d6c430a0cf792e27e74d9e551d7cf53477c8faefa7490d45ab9ee"
+
+[[package.files]]
+path = "references/library/42_情绪与心理.md"
+mode = 420
+size = 35862
+sha256 = "e17cdd3babad6a20f54a92a80fb560193b7a6eed2c5d80e1d47f4c03d40e3b6c"
+
+[[package.files]]
+path = "references/library/43_关系与情节.md"
+mode = 420
+size = 16316
+sha256 = "023757c47538d2e5427d29b37b4841e4655119d3cc385c0de65a88a2e2bd6274"
+
+[[package.files]]
+path = "references/library/44_身体文化与欲望书写.md"
+mode = 420
+size = 6908
+sha256 = "84383fd7931f20b5786724c6c65da1a0ce963b8392266fc7912e34ecadea5de6"
+
+[[package.files]]
+path = "references/library/91_黑暗HD压迫场.md"
+mode = 420
+size = 4545
+sha256 = "c62486333b9f8bd37335a11e780f3cec27615179c345c6856677a66bf5e5d501"
+
+[[package.files]]
+path = "references/library/92_黑暗HD类型谱系.md"
+mode = 420
+size = 5959
+sha256 = "7179c61d5286666e4ee3752a33a3441c3a9ab9a7b8bde610de0ae7622fd3933a"
+
+[[package.files]]
+path = "references/library/93_黑暗HD受害方声部与后果.md"
+mode = 420
+size = 5875
+sha256 = "9925fd66f5c6d832ac5e68305bd0d1384b27374f1003fbabb9ce200cfdd3165b"
+
+[[package.files]]
+path = "references/library/94_黑暗HD压迫方视角.md"
+mode = 420
+size = 9969
+sha256 = "22b63bd44b2832a9e4db1fc2311e7ecd0a629f4c74f891661a0d288324a8dd56"
+
+[[package.files]]
+path = "references/library/95_黑暗HD动作与伤害.md"
+mode = 420
+size = 3904
+sha256 = "d3d0e94fed07287f50d0ddf5bfa5b98affd552f7533861e1aaf34580692d6d6d"
+
+[[package.files]]
+path = "references/library/_index.md"
+mode = 420
+size = 7846
+sha256 = "4eca4537445e24e8ad776510a6de60ece1630d51eab28b1b676bd04c7b2e1fc4"
+
+[[package.files]]
+path = "references/library/scenarios/11_宿敌与征服.md"
+mode = 420
+size = 1750
+sha256 = "e67313a41644fca5a065a7962f4c01b07da03e693883398ba8aa5d2a42365f69"
+
+[[package.files]]
+path = "references/library/scenarios/12_契约与交易.md"
+mode = 420
+size = 2161
+sha256 = "c6180efcdffc32dd1ae0fde7f4bace93e84992e750fbe35ffdf0a544aa245a60"
+
+[[package.files]]
+path = "references/library/scenarios/13_深度依恋.md"
+mode = 420
+size = 1671
+sha256 = "86df80bb0aa9dc2f5f7e60489da903a7d7f294ce05b4fcaed42242344382b2f4"
+
+[[package.files]]
+path = "references/library/scenarios/14_多人博弈.md"
+mode = 420
+size = 1738
+sha256 = "b803180846a711adb8cccf7927a6bde039689839b0da4acaf3bc247270da5ec6"
+
+[[package.files]]
+path = "references/library/scenarios/15_偷情禁区.md"
+mode = 420
+size = 1627
+sha256 = "62cbd138f37ffea099257d1a73116fb06c82296bbf09b3642bc7f5bb9a5abf1c"
+
+[[package.files]]
+path = "references/library/scenarios/21_禁忌与位阶.md"
+mode = 420
+size = 1928
+sha256 = "16e9bc61ab534a3bcfc96cddda2cd5321744bb26fccb230d95775154d0c47c40"
+
+[[package.files]]
+path = "references/library/scenarios/22_视觉剥夺与扮演.md"
+mode = 420
+size = 1768
+sha256 = "1b419ea4c8b3446dc557b06c24acd5e06df4a3d3ab483a9b37c927782c520db1"
+
+[[package.files]]
+path = "references/library/scenarios/23_权力与调教.md"
+mode = 420
+size = 1733
+sha256 = "8ce38e622804ee33b7c8afb474f1d0e66f3fe78916da10b7e471d3d9ea1c84ac"
+
+[[package.files]]
+path = "references/library/scenarios/24_特殊癖好.md"
+mode = 420
+size = 1676
+sha256 = "1651a3b343e8b4eec626a1b925c8265f4078aa120a8a8c5124fcac1398b8a301"
+
+[[package.files]]
+path = "references/library/scenarios/25_主奴关系.md"
+mode = 420
+size = 1720
+sha256 = "9b9b6d53150545c5ec8c6dc10b1d4f16f6a4566c4310d58a840fa3d4037cd3b1"
+
+[[package.files]]
+path = "references/library/scenarios/31_虚幻与意识.md"
+mode = 420
+size = 1690
+sha256 = "386c4ed5299502b78abe5b83711c2045fa698109b9dd98f9e1d853ee0f6520b1"
+
+[[package.files]]
+path = "references/library/scenarios/32_极端环境与救赎.md"
+mode = 420
+size = 1775
+sha256 = "ee8fc746a5ff072af03230f069a987a1a6d10974f7a772d24ff344de12c44e52"
+
+[[package.files]]
+path = "references/library/scenarios/33_自我亲密.md"
+mode = 420
+size = 1571
+sha256 = "8abc468c031fc98718511dc2d0c01064d07eeeb71b3ca0f22000cba089240559"
+
+[[package.files]]
+path = "references/library/scenarios/_index.md"
+mode = 420
+size = 2499
+sha256 = "e6a19a63d785aea960bdc80461f945b97fc6534dee6c639ab69e3e0e14bc2ed4"
+
+[metadata]
+label = "成人写法"
+keywords = [
+    "亲密",
+    "双修",
+    "吻",
+    "身体回应",
+    "尺度",
+    "暧昧",
+    "回房",
+    "成年",
+    "HD",
+    "A场",
+    "B场",
+    "胁迫",
+    "受害方失衡",
+    "SM",
+    "BDSM",
+    "共鸣",
+    "星辰契约同步",
+    "欲望显影",
+    "星庭共居",
+]
+rules = [
+    "protocols/_index.md",
+    "protocols/亲密边界与红线.md",
+]
+state_categories = ["intimacy_static"]
+check_priority = "P2"

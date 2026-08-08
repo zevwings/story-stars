@@ -54,6 +54,9 @@ __pycache__/
 *~
 
 # Tool runtime output
+/.story.config.lock
+/.story-transaction-*/
+/.story-staging-*/
 .sessions/
 tmp/
 temp/
