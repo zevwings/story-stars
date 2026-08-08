@@ -1,0 +1,388 @@
+{
+  "category": "character_dynamic",
+  "entity": "舒歆",
+  "group": null,
+  "source": "context/characters/舒歆.md",
+  "records": [
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "舒歆——与风归存在职业合作、以商业拍摄和线下商演为主要公开工作方向的成年从业者；会所阶段固定双主位之一的关系结构尚待正式剧情兑现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——正式章节尚未开始，风归回流与固定双主位节点均未进入定稿事实。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与晏林的会所阶段固定长期关系尚未在定稿章节中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "25 岁；截至主线开篇前。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "无已登记的契约、能力或异常状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势；当前不维护精确体重。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与晏林的会所阶段固定长期关系尚未由定稿章节兑现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "与江州风归数字内容有限公司存在职业合作，以商业拍摄和线下商演为主要公开工作方向；具体合同形式不作设定。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "风归职业合作体系内的成年从业者；会所阶段固定双主位属于已经登记的后续关系结构，当前尚未兑现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与晏林尚未建立定稿关系；PL-I-044 与 PL-S-127 均处于 pending。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；当前年龄从静态人物资料迁移至动态状态层，角色年龄事实未改变。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "不能把尚未兑现的固定双主位和长期关系写成开篇前已经发生，也不能把职业合作、会所安排、拍摄与本人授权合并判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "因为身高、常用名、职业熟练或既有安排而默认接受亲密、影像、保存、传播或第三方观看。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无（初始状态）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "已经形成以商业拍摄和线下商演为主的公开工作方向，并与风归建立职业合作关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "成长与实力轨迹",
+      "value": "尚无需要维护的能力或实力轨迹。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "尚未在定稿章节中建立；会所阶段固定长期关系由 PL-I-044 承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先确认位置、范围和他人动作半径，再进入工作状态；离开镜头后迅速卸下展示姿态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "明亮亲和但不幼态，职业配合与私人许可始终分开。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "固定双主位与私密拍摄节点当前仍是 pending；职业合作不能替代她本人逐次授权。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "25 岁；与风归存在职业合作，以商业拍摄和线下商演为主要公开工作方向；与晏林的固定双主位及会所阶段长期关系尚未在定稿章节中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "当前具体年龄只由本动态档维护；稳定职业、性格、形象和关系边界已经进入静态人物档。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "当前年龄随故事时间推进在本页更新；静态人物卡只保留成年边界，不重复维护具体数字。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "身高、肩宽、围度与罩杯属于虚构制衣基线，见静态形象卡；体重若未来成为剧情需要维护的当前身体状态，再在本页登记。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "舒歆主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "舒歆",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "晏林—舒歆关系档",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

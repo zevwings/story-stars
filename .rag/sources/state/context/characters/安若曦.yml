@@ -1,0 +1,418 @@
+{
+  "category": "character_dynamic",
+  "entity": "安若曦",
+  "group": null,
+  "source": "context/characters/安若曦.md",
+  "records": [
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "安若曦——核心女主之一，江州映彩媒体运营部负责人，已完整登记的双子星契约者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——刚升任部门负责人，正式章节尚未开始。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与江岚的私下恋人关系已经稳定成立；与晏林的关系线尚未在当前叙事中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "27 岁；截至主线开篇前。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "扩展型双子星湖境；净化星与修复星均已完整登记，具有精神之锚。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与江岚私下保持恋人关系，对外以闺蜜身份相处；与晏林尚未建立当前关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "供职于大唐集团旗下江州映彩，近期刚升任媒体运营部负责人，仍处于证明自己能够稳定承担完整部门责任的阶段。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "江州映彩媒体运营部负责人；内圈边界判断者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "江州。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与江岚的秘密恋人关系已成立；与晏林的核心关系线尚未启动。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；当前年龄从静态人物卡迁移至动态状态层。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她刚开始承担完整部门责任，不是成熟到能够统管公司各板块的高管；与江岚的既有恋人关系不能被新关系覆盖。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "用净化或修复自动识破合同、动机、谎言或客观真相。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无（初始状态）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "与江岚在京城大学相识并成为秘密恋人；商学院硕士一年级时，两人在校内湖边观景台共同经历同一事件并分别完成双子星觉醒。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "扩展型双子星湖境；净化星与修复星两契同立，完整登记，具有精神之锚。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与江岚",
+      "field": "**当前关系阶段**",
+      "value": "私下恋人，对外闺蜜。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与江岚",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与江岚",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "核心关系线尚未在当前叙事中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先凭现实经验拆分事实、影响范围与选择，再决定是否靠近或调用权柄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "安静自持，初见容易被误读为清冷；刚升任后的责任感与经验缺口同时存在。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "她与江岚的恋人关系已经成立；净化与修复不提供事实判断、读心或测谎能力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "在江州映彩担任媒体运营部负责人，刚升任不久；与江岚保持私下恋人关系；双子星契约已完整登记，当前为扩展型双子星湖境；与晏林的关系线尚未启动。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "当前年龄只由本动态档维护；其余静态身份、契约和关系基础已进入正式人物卡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "当前年龄随故事时间推进在本页更新；静态人物卡只保留成年边界，不重复维护具体数值。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "安若曦主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "安若曦契约",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "安若曦",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "安若曦与江岚关系档",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

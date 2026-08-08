@@ -1,0 +1,438 @@
+{
+  "category": "character_dynamic",
+  "entity": "许知夏",
+  "group": null,
+  "source": "context/characters/许知夏.md",
+  "records": [
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "许知夏——主要人物，野人产品助理兼项目协调，普通人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——已经在野人任职，正式章节尚未开始。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与晏林的雇佣关系和熟人基础已经成立；长期私人关系尚未在当前叙事中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前年岁 / 年龄**",
+      "value": "24 岁；截至主线开篇前。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "普通人；始终不建立星辰契约。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势；具备参与徒步、骑行、露营和长期试穿等常规户外体验测试的现实耐力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与晏林保持雇佣关系和熟人往来；长期私人关系尚未在定稿章节中建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "在江州野人户外用品有限公司任产品助理兼项目协调，承担会议材料、样品追踪、测试安排和跨部门行动项的持续跟进。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "野人产品助理兼项目协调；产品工作中的执行闭环与材料接口。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "江州；具体当日位置尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认；开篇前维持岗位职责与个人生活边界。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与许知秋为双胞胎姐妹；两人的意愿、责任和关系选择分别成立。与晏林的长期关系节点尚未实现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；当前年龄从静态人物卡迁移至动态状态层。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已实现节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她的可靠来自材料、样品、计划和行动项闭环，不是心理咨询权威；她与许知秋外形高度相似，但不共享意愿、责任或关系决定。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "因安静而默认服从、因双胞胎默契替许知秋回答，或把心理学本科背景写成读心与专业执业资格。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无（初始状态）；不得把待实现的共同生活、长期关系确认或异常知情节点提前写成现状。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "与许知秋完成锦云大学应用心理学本科阶段；两人均保持普通人身份。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "进入野人户外用品有限公司，形成产品助理兼项目协调的既有岗位基础。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "普通人；依靠现实教育、工作训练与户外测试经验处理问题，不具有星辰能力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "雇佣关系与熟人；长期私人关系尚未建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与许知秋",
+      "field": "**当前关系阶段**",
+      "value": "双胞胎姐妹；生活习惯与衣柜大量共享，意愿、权限和责任始终独立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与许知秋",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与许知秋",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "视线先锚定问题或手边物；被打断前留下断点，动作以完成和可恢复收尾。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "沉稳、安静、耐心；容易把自身需要压后，但确认后能够直接行动和表达。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "她可以快速行动；她的年龄与许知秋同步，但岗位、位置、关系状态和选择不自动同步。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "24 岁，在江州野人户外用品有限公司担任产品助理兼项目协调；普通人，无星辰契约；与晏林为雇佣关系和熟人，与许知秋保持亲密但边界独立的双胞胎姐妹关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "当前年龄只由本动态档维护；其余身份、职业和普通人边界已进入正式人物卡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "当前年龄随故事时间推进在本页更新；静态人物卡只保留成年、同龄与双胞胎姐姐顺序。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "当前未确认具体生日；只有作者确认生日或明确时间跳跃后，才与许知秋同步更新年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "年龄同步不代表岗位、关系、位置、伤势、意愿或责任同步。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "许知夏主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "许知夏",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "许知秋主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}
