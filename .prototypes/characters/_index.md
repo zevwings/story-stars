@@ -12,18 +12,18 @@
 
 | 视觉原型／来源白卡 | 当前角色 | 现有维护备注 | 当前正式入口 |
 | --- | --- | --- | --- |
-| 刘亦菲 | [安若曦](安若曦.md) | 核心女主；视觉分析已完成并同步正式人物卡 | [主卡](../../characters/major/安若曦/主卡.md)｜[形象](../../characters/major/安若曦/形象.md)｜[衣装](../../characters/major/安若曦/衣装.md) |
-| 李一桐 | 苏璃 | 核心女主 | [主卡](../../characters/major/苏璃/主卡.md)｜[形象](../../characters/major/苏璃/形象.md)｜[衣装](../../characters/major/苏璃/衣装.md) |
-| 祝绪丹 | 苏晚乔 | 核心女主 | [主卡](../../characters/major/苏晚乔/主卡.md)｜[形象](../../characters/major/苏晚乔/形象.md)｜[衣装](../../characters/major/苏晚乔/衣装.md) |
-| 王楚然 | 江岚 | 核心女主；与安若曦的既有关系独立成立 | [主卡](../../characters/major/江岚/主卡.md)｜[形象](../../characters/major/江岚/形象.md)｜[衣装](../../characters/major/江岚/衣装.md) |
-| 田曦薇 | 唐雨薇 | 核心女主 | [主卡](../../characters/major/唐雨薇/主卡.md)｜[形象](../../characters/major/唐雨薇/形象.md)｜[衣装](../../characters/major/唐雨薇/衣装.md) |
+| 刘亦菲 | [安若曦](安若曦.md) | 核心女主；视觉复核已完成，已同步主卡、形象、衣装、晏林关系卡与对应 HD 专项锚点 | [主卡](../../characters/major/安若曦/主卡.md)｜[形象](../../characters/major/安若曦/形象.md)｜[衣装](../../characters/major/安若曦/衣装.md) |
+| 李一桐 | [苏璃](苏璃.md) | 核心女主；视觉复核已完成，已同步主卡、形象、衣装、关系档与对应 HD 专项视觉锚点 | [主卡](../../characters/major/苏璃/主卡.md)｜[形象](../../characters/major/苏璃/形象.md)｜[衣装](../../characters/major/苏璃/衣装.md) |
+| 祝绪丹 | [苏晚乔](苏晚乔.md) | 核心女主；主要视觉原型复核与正式同步均已完成；动态年龄等事实已迁入 context，面容、职业身体、衣装、契约边界及关系／HD 视觉锚点已对齐 | [主卡](../../characters/major/苏晚乔/主卡.md)｜[形象](../../characters/major/苏晚乔/形象.md)｜[衣装](../../characters/major/苏晚乔/衣装.md) |
+| 王楚然（2023—2024 年公开样本） | [江岚](江岚.md) | 核心女主；强主视觉原型已确认，面容结构、黑长发、高挑长线与表情切换已完成角色化并同步正式人物卡 | [主卡](../../characters/major/江岚/主卡.md)｜[形象](../../characters/major/江岚/形象.md)｜[衣装](../../characters/major/江岚/衣装.md) |
+| 田曦薇 | [唐雨薇](唐雨薇.md) | 核心女主；主要面容与动态原型分析已完成并同步正式人物卡 | [主卡](../../characters/major/唐雨薇/主卡.md)｜[形象](../../characters/major/唐雨薇/形象.md)｜[衣装](../../characters/major/唐雨薇/衣装.md) |
 
 ### 非核心长期伴侣
 
 | 视觉原型／来源白卡 | 当前角色 | 现有维护备注 | 当前正式入口 |
 | --- | --- | --- | --- |
-| 张晓雯 | 许知夏 | 非核心长期伴侣 | [主卡](../../characters/major/许知夏/主卡.md)｜[形象](../../characters/major/许知夏/形象.md)｜[衣装](../../characters/major/许知夏/衣装.md) |
-| 张晓霏 | 许知秋 | 非核心长期伴侣 | [主卡](../../characters/major/许知秋/主卡.md)｜[形象](../../characters/major/许知秋/形象.md)｜[衣装](../../characters/major/许知秋/衣装.md) |
+| 张晓雯 | [许知夏](许知夏×许知秋.md) | 非核心长期伴侣；与许知秋共用双胞胎原型档；主要共同视觉原型已确认，已同步主卡、形象、衣装与动态年龄档 | [主卡](../../characters/major/许知夏/主卡.md)｜[形象](../../characters/major/许知夏/形象.md)｜[衣装](../../characters/major/许知夏/衣装.md) |
+| 张晓霏 | [许知秋](许知夏×许知秋.md) | 非核心长期伴侣；与许知夏共用双胞胎原型档；主要共同视觉原型已确认，已同步主卡、形象、衣装与动态年龄档 | [主卡](../../characters/major/许知秋/主卡.md)｜[形象](../../characters/major/许知秋/形象.md)｜[衣装](../../characters/major/许知秋/衣装.md) |
 | 白欣禾 | 白玥 | 非核心长期暗线伴侣 | [主卡](../../characters/major/白玥/主卡.md)｜[形象](../../characters/major/白玥/形象.md)｜[衣装](../../characters/major/白玥/衣装.md) |
 | 艾米 | 童颜 | 非核心长期伴侣 | [主卡](../../characters/major/童颜/主卡.md)｜[形象](../../characters/major/童颜/形象.md)｜[衣装](../../characters/major/童颜/衣装.md) |
 | 赵今麦 | 楚辞 | 非核心长期伴侣 | [主卡](../../characters/major/楚辞/主卡.md)｜[形象](../../characters/major/楚辞/形象.md)｜[衣装](../../characters/major/楚辞/衣装.md) |
@@ -33,7 +33,7 @@
 | 视觉原型／来源白卡 | 当前角色 | 现有维护备注 | 当前正式入口 |
 | --- | --- | --- | --- |
 | 施梦露 | 言溪（艺名：梦露） | 会所阶段固定长期伴侣 | [主卡](../../characters/minor/言溪/主卡.md)｜[形象](../../characters/minor/言溪/形象.md)｜[衣装](../../characters/minor/言溪/衣装.md) |
-| 白舒 | [舒歆（常用名：猫猫）](舒歆.md) | 会所阶段固定长期伴侣；候选原型身份与成年素材证据不足，视觉方案未同步正式人物卡 | [主卡](../../characters/minor/舒歆/主卡.md)｜[形象](../../characters/minor/舒歆/形象.md)｜[衣装](../../characters/minor/舒歆/衣装.md) |
+| 白舒（2024 年公开赛事成组样本） | [舒歆（常用名：猫猫）](舒歆.md) | 会所阶段固定长期伴侣；强主视觉原型已确认并完成正式同步，当前年龄已迁入 context，面容、身形、动态、衣装与 HD 视觉锚点均已对齐 | [主卡](../../characters/minor/舒歆/主卡.md)｜[形象](../../characters/minor/舒歆/形象.md)｜[衣装](../../characters/minor/舒歆/衣装.md) |
 
 ### 阶段性私人关系
 
@@ -118,7 +118,7 @@
 | --- | --- | --- | --- |
 | 章若楠 | [温婉](温婉.md) | 主要面容与表情动态候选；视觉分析已完成，候选方案待确认，未同步正式人物卡；只与晏林保留职业协作和有限案件外往来 | [主卡](../../characters/minor/温婉/主卡.md)｜[形象](../../characters/minor/温婉/形象.md)｜[衣装](../../characters/minor/温婉/衣装.md) |
 | 待补 | 姜禾 | 当前没有已确认的主要配对；尚无形象与衣装卡 | [主卡](../../characters/preentry/姜禾/主卡.md) |
-| 迪丽热巴（23—26 岁阶段） | 杨柳 | 胭脂只提供立体浓颜与深黑长发的底板 | [主卡](../../characters/minor/杨柳/主卡.md)｜[形象](../../characters/minor/杨柳/形象.md)｜[衣装](../../characters/minor/杨柳/衣装.md)|
+| 迪丽热巴（23—26 岁公开样本） | [杨柳](杨柳.md) | 视觉分析已完成；候选原型只提供局部面容、笑容动态与职业镜头参考，待确认，未同步正式人物卡 | [主卡](../../characters/minor/杨柳/主卡.md)｜[形象](../../characters/minor/杨柳/形象.md)｜[衣装](../../characters/minor/杨柳/衣装.md)|
 | sunny☀️ | 孙雅琪 | 第六位核心女主；独立唱作人 | [主卡](../../characters/major/孙雅琪/主卡.md)｜[形象](../../characters/major/孙雅琪/形象.md)｜[衣装](../../characters/major/孙雅琪/衣装.md) |
 
 ### 白卡角色
@@ -130,7 +130,12 @@
 | 毛晓彤 | 晓彤 | 甜亮精巧、轻盈灵动，盛装后转为复古明艳 | [主卡](../../characters/preentry/晓彤/主卡.md)｜[形象](../../characters/preentry/晓彤/形象.md)｜[衣装](../../characters/preentry/晓彤/衣装.md) |
 | 陈都灵 | 灵儿 | 细窄清秀、静时清疏、动时甜亮 | [主卡](../../characters/preentry/灵儿/主卡.md)｜[形象](../../characters/preentry/灵儿/形象.md)｜[衣装](../../characters/preentry/灵儿/衣装.md) |
 | 河野华 | 翠花 | 清纯娇小明媚；轻巧体态与不怯场的动态表现 | [主卡](../../characters/preentry/翠花/主卡.md)｜[形象](../../characters/preentry/翠花/形象.md)｜[衣装](../../characters/preentry/翠花/衣装.md) |
-| 陈瑶 | 瑶瑶（暂名） | 极小巴掌脸、高头身比与娇俏/帅飒双重反差 | [主卡](../../characters/preentry/陈瑶白卡/主卡.md)｜[形象](../../characters/preentry/陈瑶白卡/形象.md)｜[衣装](../../characters/preentry/陈瑶白卡/衣装.md) |
+
+### 已建立静态身份的预备人物
+
+| 视觉原型／来源白卡 | 当前角色 | 现有维护备注 | 当前正式入口 |
+| --- | --- | --- | --- |
+| 陈瑶 | [瑶瑶](陈瑶.md) | 高保真视觉原型已确认；紧凑小脸、醒目眼面比例、笑开形变与头颈肩关系已角色化；建筑与公共空间光环境设计职业、169 cm 虚构身形及三层衣装系统已同步，当前年龄与动态状态暂不建档 | [主卡](../../characters/preentry/瑶瑶/主卡.md)｜[形象](../../characters/preentry/瑶瑶/形象.md)｜[衣装](../../characters/preentry/瑶瑶/衣装.md) |
 
 ## 职业通用视觉底板
 

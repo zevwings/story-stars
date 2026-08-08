@@ -23,6 +23,11 @@ members:
       - characters/preentry/灵儿/主卡.md
       - characters/preentry/灵儿/形象.md
       - characters/preentry/灵儿/衣装.md
+  - key: 瑶瑶
+    primary:
+      - characters/preentry/瑶瑶/主卡.md
+      - characters/preentry/瑶瑶/形象.md
+      - characters/preentry/瑶瑶/衣装.md
   - key: 翠花
     primary:
       - characters/preentry/翠花/主卡.md
@@ -33,11 +38,6 @@ members:
       - characters/preentry/蒋曼琳/主卡.md
       - characters/preentry/蒋曼琳/形象.md
       - characters/preentry/蒋曼琳/衣装.md
-  - key: 陈瑶白卡
-    primary:
-      - characters/preentry/陈瑶白卡/主卡.md
-      - characters/preentry/陈瑶白卡/形象.md
-      - characters/preentry/陈瑶白卡/衣装.md
 note: 共 8 人
 status: confirmed
 type: character.group

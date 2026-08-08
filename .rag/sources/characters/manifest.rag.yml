@@ -204,14 +204,14 @@ routes:
     key: 灵儿
     static: characters/preentry/灵儿/主卡.md
   - character_id: ""
+    key: 瑶瑶
+    static: characters/preentry/瑶瑶/主卡.md
+  - character_id: ""
     key: 翠花
     static: characters/preentry/翠花/主卡.md
   - character_id: ""
     key: 蒋曼琳
     static: characters/preentry/蒋曼琳/主卡.md
-  - character_id: ""
-    key: 陈瑶白卡
-    static: characters/preentry/陈瑶白卡/主卡.md
 scope: characters.lookup_manifest
 status: routing_only
 version: 1
