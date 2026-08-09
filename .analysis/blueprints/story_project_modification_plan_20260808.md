@@ -37,7 +37,6 @@ flowchart LR
 - `sw plotline validate`：通过。
 - `sw rag construction validate`：通过。
 - `sw check references`：通过。
-- `sw check links`：当前已有 3 个缺失链接，均位于既有的 `角色生图公共能力实现方案.md`，指向仓外 `story-writer` 源码；本计划新增链接全部有效，后续验收要求“不新增缺失”，不把这 3 项误算为本批回归。
 - 时间图当前为空；本轮按 [`story/timeline.md`](../../story/timeline.md) 和阶段真源人工排依赖，不在规划阶段构建派生图。
 - 当前工作树已有多组其他未提交修改，覆盖人物索引/契约、预备人物、世界系统与技术等路径；实际执行前必须重新读取完整 dirty path 清单。其中：
   - `characters/preentry/瑶瑶/` 及预备人物索引已在候选修改中移除“接替第六核心”旧功能位；
