@@ -17,7 +17,7 @@ required_paths = [
 
 [package]
 module_id = "intimacy"
-version = "1.0.0"
+version = "1.0.1"
 runtime_api = 1
 label = "亲密写作"
 keywords = [
@@ -33,7 +33,7 @@ rules = [
 state_categories = ["intimacy_static"]
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:fc0a563ce1f31d98d883a246a6d700610715987289f96149e1173631718b2313"
+fingerprint = "sha256:98988602f45ad678cee231874b139a0e859406dffb96c44cb9bf3ff42a1ef360"
 managed_roots = [
     "protocols",
     "references/library",
@@ -95,8 +95,8 @@ sha256 = "450519344b90d73a2b9efb31401cc5ab8f3b5e4d27570e2c57ee9035332abd9b"
 [[package.files]]
 path = "protocols/workflows/_index.md"
 mode = 420
-size = 830
-sha256 = "f02eda28ac0cd4182aa34ba5b26bb9d511845a0732e10c77dad9bcca8a00d219"
+size = 833
+sha256 = "fef57ee8401764ac485a82a9221936f05abb9f4f38be24666694d37aa80a178b"
 
 [[package.files]]
 path = "protocols/workflows/dark-planner/design-protocol.md"

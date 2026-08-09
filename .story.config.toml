@@ -33,6 +33,24 @@ kind = "specialty"
 target = "intimacy"
 installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
 
+[installations.plotlines]
+schema_version = 1
+kind = "feature"
+target = "story/plotlines"
+installation_id = "48d21a1b-31a7-4ee2-95c9-dcf3beee62c3"
+
+[installations.construction]
+schema_version = 1
+kind = "feature"
+target = "story/construction"
+installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
+
+[installations.decisions]
+schema_version = 1
+kind = "feature"
+target = "story/decisions"
+installation_id = "a9f9350f-abc2-4b1a-a1fc-0d491ec6afe1"
+
 [features]
 
 plotlines = true

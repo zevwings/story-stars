@@ -15,4 +15,4 @@
 - [设计协议](dark-planner/design-protocol.md)
 - [正文执行协议](dark-writer/execution-protocol.md)
 
-所有协议中的 `$SPECIALTY_ROOT` 均指 `sw module resolve intimacy` 返回的项目专项目录；不得将它硬编码为项目根下的 `intimacy/`。
+所有协议中的 `$SPECIALTY_ROOT` 均指 `sw specialty resolve intimacy` 返回的项目专项目录；不得将它硬编码为项目根下的 `intimacy/`。
