@@ -33,6 +33,10 @@ kind = "specialty"
 target = "intimacy"
 installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
 
+[visuals]
+metadata_root = "visuals"
+asset_root = "visual-assets"
+
 [features]
 
 plotlines = true
