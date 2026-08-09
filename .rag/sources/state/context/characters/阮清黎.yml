@@ -10,7 +10,7 @@
       "status": null,
       "section": "用途",
       "field": "用途",
-      "value": "记录阮清黎在剧情推进中的当前年龄、职业阶段、关系进度、位置与出场承接。",
+      "value": "记录阮清黎在剧情推进中的观感年龄、职业阶段、关系进度、位置与出场承接；实际年龄锚点见静态人物主卡。",
       "chapter_refs": [],
       "valid_from": null
     },
@@ -79,8 +79,8 @@
       "group": null,
       "status": null,
       "section": "状态区",
-      "field": "**当前年岁 / 年龄**",
-      "value": "28 岁。",
+      "field": "**观感年龄**",
+      "value": "二十多岁后段；职业状态完整时更显稳重，熟人私下真笑时会明显年轻，但不幼态。",
       "chapter_refs": [],
       "valid_from": null
     },
@@ -370,7 +370,7 @@
       "status": null,
       "section": "近章连续性提醒",
       "field": "**写到该人物时最容易漏掉的点**",
-      "value": "CFO 正式权限与伴侣身份并存但不互相替代；具体年龄只从本动态档读取。",
+      "value": "CFO 正式权限与伴侣身份并存但不互相替代；实际年龄锚点只从静态人物主卡读取。",
       "chapter_refs": [],
       "valid_from": null
     },
@@ -430,7 +430,7 @@
       "status": null,
       "section": "备注",
       "field": "备注",
-      "value": "当前具体年龄由本页维护；静态人物卡只保留年龄层。",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造或精神状态发生有证据的变化时更新。",
       "chapter_refs": [],
       "valid_from": null
     },

@@ -195,6 +195,9 @@ routes:
     key: 应挽霞
     static: characters/preentry/应挽霞/主卡.md
   - character_id: ""
+    key: 星澜
+    static: characters/preentry/星澜/主卡.md
+  - character_id: ""
     key: 晓彤
     static: characters/preentry/晓彤/主卡.md
   - character_id: ""

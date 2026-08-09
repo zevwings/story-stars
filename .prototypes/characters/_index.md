@@ -134,6 +134,7 @@
 | 毛晓彤 | 晓彤 | 甜亮精巧、轻盈灵动，盛装后转为复古明艳 | [主卡](../../characters/preentry/晓彤/主卡.md)｜[形象](../../characters/preentry/晓彤/形象.md)｜[衣装](../../characters/preentry/晓彤/衣装.md) |
 | 陈都灵 | 灵儿 | 细窄清秀、静时清疏、动时甜亮 | [主卡](../../characters/preentry/灵儿/主卡.md)｜[形象](../../characters/preentry/灵儿/形象.md)｜[衣装](../../characters/preentry/灵儿/衣装.md) |
 | 河野华 | 翠花 | 清纯娇小明媚；轻巧体态与不怯场的动态表现 | [主卡](../../characters/preentry/翠花/主卡.md)｜[形象](../../characters/preentry/翠花/形象.md)｜[衣装](../../characters/preentry/翠花/衣装.md) |
+| 作者提供的七段动态影像＋林星阑公开职业资料 | [星澜](星澜.md) | 面容、妆造与作者确认的虚构身形 `165 cm／45 kg／87-63-88 cm` 已同步白卡；现实职业资料保留证据分级，身份与剧情功能未接入 | [主卡](../../characters/preentry/星澜/主卡.md)｜[形象](../../characters/preentry/星澜/形象.md)｜[衣装](../../characters/preentry/星澜/衣装.md) |
 
 ### 已建立静态身份的预备人物
 
