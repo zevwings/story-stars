@@ -35,9 +35,6 @@ __pycache__/
 !.analysis/blueprints/
 !.analysis/blueprints/**
 !.analysis/archived/
-.analysis/archived/*
-!.analysis/archived/科技与精神之海机制分析.md
-!.analysis/archived/统一星表观测网与新契约者发现登记蓝图.md
 !.analysis/plotlines/
 !.analysis/plotlines/**
 
