@@ -6,12 +6,6 @@ members:
       - characters/major/唐雨薇/形象.md
       - characters/major/唐雨薇/衣装.md
       - characters/major/唐雨薇/契约.md
-  - key: 孙雅琪
-    primary:
-      - characters/major/孙雅琪/主卡.md
-      - characters/major/孙雅琪/形象.md
-      - characters/major/孙雅琪/衣装.md
-      - characters/major/孙雅琪/契约.md
   - key: 安若曦
     primary:
       - characters/major/安若曦/主卡.md
@@ -24,6 +18,12 @@ members:
       - characters/major/晏林/形象.md
       - characters/major/晏林/衣装.md
       - characters/major/晏林/契约.md
+  - key: 景雪瑶
+    primary:
+      - characters/major/景雪瑶/主卡.md
+      - characters/major/景雪瑶/形象.md
+      - characters/major/景雪瑶/衣装.md
+      - characters/major/景雪瑶/契约.md
   - key: 楚辞
     primary:
       - characters/major/楚辞/主卡.md

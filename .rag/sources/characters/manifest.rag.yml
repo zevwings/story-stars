@@ -3,14 +3,14 @@ routes:
     key: 唐雨薇
     static: characters/major/唐雨薇/主卡.md
   - character_id: ""
-    key: 孙雅琪
-    static: characters/major/孙雅琪/主卡.md
-  - character_id: ""
     key: 安若曦
     static: characters/major/安若曦/主卡.md
   - character_id: ""
     key: 晏林
     static: characters/major/晏林/主卡.md
+  - character_id: ""
+    key: 景雪瑶
+    static: characters/major/景雪瑶/主卡.md
   - character_id: ""
     key: 楚辞
     static: characters/major/楚辞/主卡.md
@@ -192,6 +192,9 @@ routes:
     key: 姜禾
     static: characters/preentry/姜禾/主卡.md
   - character_id: ""
+    key: 孙雅琪
+    static: characters/preentry/孙雅琪/主卡.md
+  - character_id: ""
     key: 应挽霞
     static: characters/preentry/应挽霞/主卡.md
   - character_id: ""
@@ -206,9 +209,6 @@ routes:
   - character_id: ""
     key: 灵儿
     static: characters/preentry/灵儿/主卡.md
-  - character_id: ""
-    key: 瑶瑶
-    static: characters/preentry/瑶瑶/主卡.md
   - character_id: ""
     key: 翠花
     static: characters/preentry/翠花/主卡.md
