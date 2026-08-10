@@ -43,6 +43,11 @@ members:
       - characters/preentry/蒋曼琳/主卡.md
       - characters/preentry/蒋曼琳/形象.md
       - characters/preentry/蒋曼琳/衣装.md
-note: 共 9 人
+  - key: 雯雯
+    primary:
+      - characters/preentry/雯雯/主卡.md
+      - characters/preentry/雯雯/形象.md
+      - characters/preentry/雯雯/衣装.md
+note: 共 10 人
 status: confirmed
 type: character.group

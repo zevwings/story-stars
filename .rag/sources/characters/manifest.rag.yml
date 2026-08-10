@@ -215,6 +215,9 @@ routes:
   - character_id: ""
     key: 蒋曼琳
     static: characters/preentry/蒋曼琳/主卡.md
+  - character_id: ""
+    key: 雯雯
+    static: characters/preentry/雯雯/主卡.md
 scope: characters.lookup_manifest
 status: routing_only
 version: 1
