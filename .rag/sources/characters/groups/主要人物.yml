@@ -46,12 +46,6 @@ members:
       - characters/major/童颜/主卡.md
       - characters/major/童颜/形象.md
       - characters/major/童颜/衣装.md
-  - key: 苏晚乔
-    primary:
-      - characters/major/苏晚乔/主卡.md
-      - characters/major/苏晚乔/形象.md
-      - characters/major/苏晚乔/衣装.md
-      - characters/major/苏晚乔/契约.md
   - key: 苏璃
     primary:
       - characters/major/苏璃/主卡.md
@@ -68,6 +62,12 @@ members:
       - characters/major/许知秋/主卡.md
       - characters/major/许知秋/形象.md
       - characters/major/许知秋/衣装.md
+  - key: 谢晚乔
+    primary:
+      - characters/major/谢晚乔/主卡.md
+      - characters/major/谢晚乔/形象.md
+      - characters/major/谢晚乔/衣装.md
+      - characters/major/谢晚乔/契约.md
 note: 共 12 人
 status: confirmed
 type: character.group

@@ -24,9 +24,6 @@ routes:
     key: 童颜
     static: characters/major/童颜/主卡.md
   - character_id: ""
-    key: 苏晚乔
-    static: characters/major/苏晚乔/主卡.md
-  - character_id: ""
     key: 苏璃
     static: characters/major/苏璃/主卡.md
   - character_id: ""
@@ -35,6 +32,9 @@ routes:
   - character_id: ""
     key: 许知秋
     static: characters/major/许知秋/主卡.md
+  - character_id: ""
+    key: 谢晚乔
+    static: characters/major/谢晚乔/主卡.md
   - character_id: ""
     key: 丁宇
     static: characters/minor/丁宇/主卡.md
