@@ -114,7 +114,7 @@ nodes:
     type: 主线
     name: 晏林截断安若曦的外来欲望连接
     status: pending
-    locator: 阶段一开局星辰契约案件入口；让唐家外围压力、黑市一次性交易与欲望方向精神侵蚀显影，并让晏林第一次在安若曦事件中动用未登记的截断能力止损。
+    locator: 阶段一；以星辰契约案件作为入口，让唐家外围压力、黑市一次性交易与欲望方向精神侵蚀显影，并让晏林第一次在安若曦事件中动用未登记的截断能力止损。
     shape: progression
     progression_kind: single
     criteria:
@@ -315,7 +315,7 @@ nodes:
     type: 主线
     name: 陆佳凝合法出境组织与境外交接显影
     status: pending
-    locator: 阶段四后段至阶段五清算前；境内精神控制、合法旅游／务工等出境记录、境外失联去向与资产运营权转移发生可验证交叉，陆佳凝的合法出境组织、首次交接、风险重组与责任链切割由隐藏事实转为可追责对象。
+    locator: 阶段四—阶段五；境内精神控制、合法旅游／务工等出境记录、境外失联去向与资产运营权转移先发生可验证交叉，陆佳凝的合法出境组织、首次交接、风险重组与责任链切割再由隐藏事实转为可追责对象。
     shape: progression
     progression_kind: chain
     criteria:
@@ -1122,7 +1122,7 @@ nodes:
     downstream: "[PL-M-014｜苏璃与谢晚乔首次跨线可见与继续选择](../../主线/人物/内圈/多线首次可见与分别继续.md)、[PL-M-\
       015｜苏璃—唐雨薇、谢晚乔、安若曦—江岚三组关系线 分波知情与最低危机责任](../../主线/人物/内圈/多线分波知情与最低危机责任.md)。"
     related: ""
-    chapter_interface: 阶段三前段完成首次共同回路，再进入 苏璃—唐雨薇线与谢晚乔线 跨线可见。
+    chapter_interface: 阶段三完成首次共同回路，再进入 苏璃—唐雨薇线与谢晚乔线 跨线可见。
     construction_interface: ""
     sources:
       - "`BIBLE.md`"
@@ -1168,7 +1168,7 @@ nodes:
     type: 亲密线
     name: 许知夏许知秋的同场关系确认与首次共同兑现
     status: pending
-    locator: 阶段二中后段
+    locator: 阶段二
       许知夏—许知秋关系线关系确认与首次兑现；许知夏、许知秋沿不同路径各自动心、先完成姐妹间的独立意愿确认，再在同一场关系事件中共同提出请求、分别表态、三人同时建立关系，并于当晚完成首次共同兑现，成为晏林的非核心长期伴侣。
     shape: progression
     progression_kind: single
@@ -1186,7 +1186,7 @@ nodes:
       同游戏回路；`PL-I-027` 承接户外测试结束后的露营共同亲密；`PL-S-020` 与 `PL-S-021`
       分别承接岗位和安全所需的具体异常知情；`PL-M-016` 承接两人分别接入共同秩序。"
     related: ""
-    chapter_interface: 阶段二中后段调用；具体章号、客厅到私密空间的转场与身体流程由章节大纲和亲密场卡分配。
+    chapter_interface: 阶段二调用；具体章号、客厅到私密空间的转场与身体流程由章节大纲和亲密场卡分配。
     construction_interface: ""
     sources:
       - "`BIBLE.md`"
@@ -1342,7 +1342,7 @@ nodes:
     type: 亲密线
     name: 苏璃与唐雨薇从闺蜜进入独立女女关系
     status: pending
-    locator: 阶段二后段至阶段三前段；唐雨薇—晏林关系成立并与苏璃—晏林线并行后，苏璃辨认自己对唐雨薇不止是闺蜜感情，主动追求；唐雨薇在不出于补偿、报答或维持三人平衡的前提下独立选择苏璃。
+    locator: 阶段二—阶段三；唐雨薇—晏林关系成立并与苏璃—晏林线并行后，苏璃辨认自己对唐雨薇不止是闺蜜感情，主动追求；唐雨薇在不出于补偿、报答或维持三人平衡的前提下独立选择苏璃。
     shape: progression
     progression_kind: single
     criteria:
@@ -2627,7 +2627,7 @@ nodes:
     upstream: "`PL-I-006`、`PL-S-013`。"
     downstream: 工作室异常接待分层的持续执行；协商成阵中的危机责任边界。
     related: ""
-    chapter_interface: 阶段四前台异常知情与应急边界升级。
+    chapter_interface: 阶段四；前台异常知情与应急边界升级。
     construction_interface: ""
     sources:
       - "`BIBLE.md`"

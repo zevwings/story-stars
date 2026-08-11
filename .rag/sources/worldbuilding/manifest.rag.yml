@@ -90,13 +90,14 @@ routes:
       - state
       - state
   - examples:
+      - 夺契与残契
       - 契约自知
       - 战斗规则
       - 时代背景
       - 星辰之力
-      - 星辰之印
     file: systems.rag.yml
     types:
+      - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems

@@ -168,3 +168,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 夺契与残契
+    type: worldbuilding.systems
+    aliases: []
+    primary:
+      - worldbuilding/systems/夺契与残契.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 夺契与残契
+    status: confirmed
+    read_policy: primary_first
+    note: ""
