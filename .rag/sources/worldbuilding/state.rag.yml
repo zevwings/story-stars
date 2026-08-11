@@ -77,3 +77,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 能力申报与复核
+    type: state
+    aliases: []
+    primary:
+      - worldbuilding/society/能力申报与复核.md
+    related:
+      - worldbuilding/society/_index.md
+    tags:
+      - society
+      - 能力申报与复核
+    status: confirmed
+    read_policy: primary_first
+    note: ""

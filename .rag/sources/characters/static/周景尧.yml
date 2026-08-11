@@ -1,9 +1,11 @@
 key: 周景尧
 primary:
-  - characters/preentry/周景尧/主卡.md
+  - characters/minor/周景尧/主卡.md
+  - characters/minor/周景尧/形象.md
+  - characters/minor/周景尧/衣装.md
 related:
-  - characters/preentry/周景尧/关系/燕若淇.md
-  - characters/preentry/周景尧/关系/裴兰馨.md
+  - characters/minor/周景尧/关系/燕若淇.md
+  - characters/minor/周景尧/关系/裴兰馨.md
 specialty_required_when:
   - 亲密
   - 双修
@@ -26,5 +28,5 @@ specialty_required_when:
   - 星庭共居
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

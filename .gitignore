@@ -17,6 +17,9 @@
 !.codex/skills
 !.codex/skills/
 !.codex/skills/**
+!.codex/agents
+!.codex/agents/
+!.codex/agents/**
 claude-mem-*.tgz
 _mem/mem-*.md
 
@@ -32,15 +35,15 @@ __pycache__/
 !.analysis/blueprints/
 !.analysis/blueprints/**
 !.analysis/archived/
-.analysis/archived/*
-!.analysis/archived/科技与精神之海机制分析.md
-!.analysis/archived/统一星表观测网与新契约者发现登记蓝图.md
 !.analysis/plotlines/
 !.analysis/plotlines/**
 
 # GraphRAG 生成缓存。正式事实不在这里。
 .rag/generated/
 .rag/briefs/
+
+# 原型检索的临时图片缓存；人工维护的 .prototypes/ Markdown 仍提交。
+.prototypes/cache/
 
 # 正式剧情节点导出的机器可读派生图；按需由 sw plotline export 重建。
 /.story.plotlines.json
@@ -51,6 +54,8 @@ __pycache__/
 *~
 
 # Tool runtime output
+/.story.config.lock
+/.story-writer-runtime/
 .sessions/
 tmp/
 temp/

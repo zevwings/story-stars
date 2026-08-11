@@ -1,0 +1,438 @@
+{
+  "category": "character_dynamic",
+  "entity": "裴兰馨",
+  "group": null,
+  "source": "context/characters/裴兰馨.md",
+  "records": [
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "裴兰馨——万安影视文化总裁、裴家人员筛选与包装核心负责人、敕令权柄“令行禁止”的契约者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "待正式入场；正式章节尚未开始。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认；静态人物卡登记的经营责任、艺人控制与家族暗面事实不得提前当作已在当前时间点全部发生。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与周景尧曾有真实自愿的非排他利益型关系；当前具体往来与后续控制节点尚无定稿章节承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**观感年龄**",
+      "value": "成熟成年人；高完成度妆造和纤细长线会减轻表面年龄感，压力与失控则先从眼神、下颌和动作收紧处显影。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "单星契约者；敕令权柄“令行禁止”。精神之海具体评级尚未在正式真源登记。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势；能够持续承担公司会议、活动、出行与项目会见。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与周景尧的既往自愿关系已经成立；不由该事实反推当前仍存在亲密、授权或所有权。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "任万安影视文化总裁；当前没有定稿章节确认新的职位、监管或司法状态变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "统筹万安影视文化经营、项目投资、艺人商业价值判断、预算、曝光、合同、渠道与管理团队配置。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与周景尧为已经发生过的非排他利益型关系；与燕若淇、程叙及其他艺人线的具体事件进度须由定稿章节承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "待入场初始建档；年龄锚点已保存在静态人物主卡，本页只承接会随状态变化的观感年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（待入场建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已实现节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "静态人物卡登记的是稳定身份、能力边界、关系定调和完整责任设计，不等于所有规划事件在当前时间点已经完成。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "因既往关系存在，便把周景尧当前的身体、感情、职业和去留视为裴兰馨的既有权限；因她漂亮、疲惫或受家族影响而减轻本人决定责任。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "不恢复“只提供人员、不知道医院用途”的外围家属定位，也不把她写成只靠异能控制他人的单一能力型反派。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "长期在裴家品牌、商业活动、文化投资、项目经营、渠道维护和人才资源管理岗位轮转，已经接任万安影视文化总裁。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "与周景尧曾建立真实自愿的非排他利益型关系；该既往事实不产生未来所有权。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "单星敕令契约者；能够在当面交流、目标听见并理解、双向精神连接已经建立的条件下，限制单一目标的一道具体当下行为。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与周景尧",
+      "field": "**当前关系阶段**",
+      "value": "既往真实自愿的非排他利益型关系已经成立；当前具体往来尚无定稿章节确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与周景尧",
+      "field": "**最近变化**",
+      "value": "无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与周景尧",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与燕若淇",
+      "field": "**当前关系阶段**",
+      "value": "万安影视文化经营者与旗下新人艺人的结构性权力关系；具体侵害节点尚待定稿章节承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与燕若淇",
+      "field": "**最近变化**",
+      "value": "无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与燕若淇",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "目光先找到人、镜头或材料，头肩随后转正；在预算、档期、回款和人员之间快速作出资源判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "明亮、高完成度、反应快；公众可亲与经营精确可以迅速切换。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "漂亮与经营责任同时成立；现实职位权力和“令行禁止”必须分开；实际年龄锚点见静态人物主卡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "当前项目基线",
+      "value": "实际年龄锚点见静态人物主卡；任万安影视文化总裁，单星敕令契约者；与周景尧的既往自愿关系已经成立，正式章节尚未开始。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到[章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "入场年龄锚点、身份、经营职责、关系边界、形象和契约底子已经进入正式人物资料。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造或精神状态发生有证据的变化时更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不重复完整形象、衣装、犯罪责任与契约细则。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "裴兰馨主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "裴兰馨契约",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "裴兰馨",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "万安影视文化",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

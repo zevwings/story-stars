@@ -1,7 +1,9 @@
 key: 骆志莲
 primary:
-  - characters/preentry/骆志莲/主卡.md
+  - characters/minor/骆志莲/主卡.md
+  - characters/minor/骆志莲/形象.md
+  - characters/minor/骆志莲/衣装.md
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

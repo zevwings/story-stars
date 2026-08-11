@@ -46,6 +46,11 @@ members:
   - key: 周博
     primary:
       - characters/minor/周博/主卡.md
+  - key: 周景尧
+    primary:
+      - characters/minor/周景尧/主卡.md
+      - characters/minor/周景尧/形象.md
+      - characters/minor/周景尧/衣装.md
   - key: 周语棠
     primary:
       - characters/minor/周语棠/主卡.md
@@ -167,6 +172,12 @@ members:
       - characters/minor/舒歆/主卡.md
       - characters/minor/舒歆/形象.md
       - characters/minor/舒歆/衣装.md
+  - key: 裴兰馨
+    primary:
+      - characters/minor/裴兰馨/主卡.md
+      - characters/minor/裴兰馨/形象.md
+      - characters/minor/裴兰馨/衣装.md
+      - characters/minor/裴兰馨/契约.md
   - key: 裴崇礼
     primary:
       - characters/minor/裴崇礼/主卡.md
@@ -224,6 +235,16 @@ members:
       - characters/minor/顾清言/形象.md
       - characters/minor/顾清言/衣装.md
       - characters/minor/顾清言/契约.md
+  - key: 骆志莲
+    primary:
+      - characters/minor/骆志莲/主卡.md
+      - characters/minor/骆志莲/形象.md
+      - characters/minor/骆志莲/衣装.md
+  - key: 高承岳
+    primary:
+      - characters/minor/高承岳/主卡.md
+      - characters/minor/高承岳/形象.md
+      - characters/minor/高承岳/衣装.md
   - key: 黄锦一
     primary:
       - characters/minor/黄锦一/主卡.md
@@ -235,6 +256,6 @@ members:
       - characters/minor/齐心/形象.md
       - characters/minor/齐心/衣装.md
       - characters/minor/齐心/契约.md
-note: 共 47 人
+note: 共 51 人
 status: confirmed
 type: character.group

@@ -17,7 +17,7 @@
 | --- | --- | --- |
 | [systems](systems/_index.md) | 星辰契约体系的时代起源、成立条件与基础机制, 及星辰权柄、能力边界、精神结构、星辰控制、战斗与黑暗行为 | 已升格的正式设定 |
 | [factions](factions/_index.md) | 星辰契约官方机构、传统权贵、地下生态与黑暗契约者类型 | 已升格的正式设定 |
-| [technology](technology/_index.md) | 与星辰契约稳定交叉的人为技术，包括药剂、精神检测与复评 | 已升格的正式设定 |
+| [technology](technology/_index.md) | 与星辰契约稳定交叉的人为技术，包括药剂、精神检测与复评、近场精神异常筛查 | 已升格的正式设定 |
 | [society](society/_index.md) | 星辰契约社会的公开性、登记制度、官方协查、关系形态与地下匿名网络 | 已升格的正式设定 |
 | [regions](regions/_index.md) | 影射式架空的地理映射、城市命名与主城空间结构 | 已升格的正式设定 |
 | [organizations](organizations/_index.md) | 现实公司、机构与跨剧情线长期复用的组织 | 已升格的正式设定 |

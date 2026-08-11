@@ -1,16 +1,23 @@
 key: 预备人物
 members:
-  - key: 周景尧
-    primary:
-      - characters/preentry/周景尧/主卡.md
   - key: 姜禾
     primary:
       - characters/preentry/姜禾/主卡.md
+  - key: 孙雅琪
+    primary:
+      - characters/preentry/孙雅琪/主卡.md
+      - characters/preentry/孙雅琪/形象.md
+      - characters/preentry/孙雅琪/衣装.md
   - key: 应挽霞
     primary:
       - characters/preentry/应挽霞/主卡.md
       - characters/preentry/应挽霞/形象.md
       - characters/preentry/应挽霞/衣装.md
+  - key: 星澜
+    primary:
+      - characters/preentry/星澜/主卡.md
+      - characters/preentry/星澜/形象.md
+      - characters/preentry/星澜/衣装.md
   - key: 晓彤
     primary:
       - characters/preentry/晓彤/主卡.md
@@ -31,19 +38,16 @@ members:
       - characters/preentry/翠花/主卡.md
       - characters/preentry/翠花/形象.md
       - characters/preentry/翠花/衣装.md
-  - key: 裴兰馨
+  - key: 蒋曼琳
     primary:
-      - characters/preentry/裴兰馨/主卡.md
-      - characters/preentry/裴兰馨/契约.md
-  - key: 骆志莲
+      - characters/preentry/蒋曼琳/主卡.md
+      - characters/preentry/蒋曼琳/形象.md
+      - characters/preentry/蒋曼琳/衣装.md
+  - key: 雯雯
     primary:
-      - characters/preentry/骆志莲/主卡.md
-  - key: 高承岳
-    primary:
-      - characters/preentry/高承岳/主卡.md
-  - key: 鲁林霞
-    primary:
-      - characters/preentry/鲁林霞/主卡.md
-note: 共 11 人
+      - characters/preentry/雯雯/主卡.md
+      - characters/preentry/雯雯/形象.md
+      - characters/preentry/雯雯/衣装.md
+note: 共 10 人
 status: confirmed
 type: character.group

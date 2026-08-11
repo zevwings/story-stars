@@ -1,0 +1,408 @@
+{
+  "category": "character_dynamic",
+  "entity": "景雪瑶",
+  "group": null,
+  "source": "context/characters/景雪瑶.md",
+  "records": [
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "景雪瑶——第六位核心女主，独立唱作人与中国风音乐创作人，同心权柄及星辰之桥持有者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——独立音乐事业与晏林的既有伴侣关系持续运行，尚未通过正式演唱会和私人重逢进入当前叙事。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认；当前连续性重点是让事业离场、江州在场与明确回返同时成立，不把独立事业误写成长久缺席。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与晏林从大学时期延续至今的伴侣关系已经成立，当前尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "同心权柄与星辰契约已经登记；与晏林共同建立并登记的星辰之桥处于可静置、可按次启动的稳定状态。当前精神之海评级没有正式事实可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与晏林保持持续至今的伴侣关系；高依恋、低占有，以事业独立、弹性共处和明确回返运行。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "以“雪见”为公开艺名维持原创发行、录音、排练、演出、巡演与采风；同时担任野人户外非执行董事，只参与重大治理事项，不介入日常经营。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "独立唱作人与中国风音乐创作人；第四个独立核心关系簇；星辰之桥的同心桥端。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "具体当日位置尚无章节可确认；录音、排练、巡演与采风会造成阶段性离场，但异地不是关系默认状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认；开篇前继续推进独立创作与演出事业，并履行与晏林之间持续联系、双人约定和明确回返的关系责任。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认；职业排期会造成阶段性离场，需要以现实联系和可执行的重逢安排维持稳定在场。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与晏林的伴侣关系、共同觉醒、管理局登记和星辰之桥均已在大学时期成立；PL-S-302 与 PL-I-095 仍为 pending，尚未把公开职业面和私人关系面带入当前叙事。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；静态身份、职业、关系与契约已经进入正式人物资料，本页承接当前事业节律、位置不确定性和关系进度。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "PL-S-302、PL-I-095 均为 pending，尚未形成已实现状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她是拥有独立作品、职业判断和现实行动的创作者；第一位正式伴侣与星辰之桥桥端都不构成对其他关系的管理权。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "因巡演或采风被写成长期失联、默认异地或等待晏林召回；用同心权柄代替现实沟通、位置确认和本人判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "不得写成前任、外围回归者、尚待建立关系的人，或把 pending 的演唱会、私人重逢和当前叙事显影提前写成已经完成。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "在锦云大学迎新时认识晏林，并在大一期间与他建立正式伴侣关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "19 岁时与晏林在锦云山分别完成星辰觉醒，经管理局评估、登记与受控塑形准备后共同建立星辰之桥。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "以“雪见”为公开艺名形成独立唱作事业，并以创始期少数股东身份在正式治理后担任野人户外非执行董事。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "同心权柄与星辰之桥已经稳定成立；当前精神之海评级、控制画像及后续成长没有定稿章节可确认，不作推断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "持续至今的核心伴侣关系；事业独立下的弹性共处与明确回返已经成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化；正式演唱会与演出后私人重逢仍待进入当前叙事。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先主动分享新的声音、经验与发现，涉及作品判断或关系约定时会收拢注意力并把需要说清楚。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "活泼好奇与创作专注并存；长期关系已经稳定，但每次联系、约定和回返仍由现实行动兑现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "公开职业主体性应先于私人关系展示；阶段性离场不等于长期缺席；星辰之桥不提供定位、全知或自动开放。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "以“雪见”为公开艺名维持独立唱作事业，担任野人户外非执行董事；与晏林的大学伴侣关系、共同觉醒、管理局登记和星辰之桥均已成立。两人持续联系并保留明确回返，PL-S-302 与 PL-I-095 尚未实现。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "姓名、职业、野人治理身份、稳定关系、同心权柄与星辰之桥均已进入正式人物资料；本页只维护当前承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；开篇年龄锚点见静态人物主卡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "pending 剧情节点不作为当前已实现事实；节点完成后再依据定稿章节或作者确认更新本页。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "景雪瑶主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "景雪瑶契约",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "景雪瑶",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "晏林—景雪瑶关系档",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

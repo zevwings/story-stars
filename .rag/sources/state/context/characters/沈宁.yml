@@ -1,0 +1,438 @@
+{
+  "category": "character_dynamic",
+  "entity": "沈宁",
+  "group": null,
+  "source": "context/characters/沈宁.md",
+  "records": [
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "沈宁——星辰管理局副局长、局内二把手，单星同调契约者，徐清的长期伴侣。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前初始基线；正式上下文与章节尚未建立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与徐清的长期伴侣关系已经稳定成立；与晏林只保留制度张力和有边界的长期合作。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**观感年龄**",
+      "value": "成熟成年；职业状态完整时场压与管理层成熟度先于具体年岁被感知，疲惫时眼周与嘴角会更显沉重。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "单星契约者；同调权柄、协律向。精神之海具体评级尚未在正式真源登记。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与徐清保持长期稳定伴侣关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "任星辰管理局副局长，分管跨案风险、重大异常处置与特殊协查；当前没有定稿章节确认新的处境变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "管理局二把手；跨案风险、复评争议、重要合作方案和少量高权限多人处置的管理层签责者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与徐清关系稳定；与晏林不发展暧昧、恋爱或身体关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；开篇年龄锚点保存在静态人物主卡，本页只承接会随状态变化的观感年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她是愿意承担签字责任的管理层决策者，不是可以绕过经办、复评和现场指挥的万能领导；与晏林不存在暧昧或身体关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "用同调直接得出事实结论、强制他人同步、共享权柄、增加力量或替代现实指挥。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无（初始状态）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "完成专项行动、一线带队、重大异常处置与复评协调的长期履历，已经升任管理局副局长。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "徐清曾由她带领的行动组从异能事件中救回；两人后来建立长期稳定伴侣关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "单星同调契约者；能够在参与者主动开放的前提下协调多人施术节奏、精神通道与能力衔接，不增加力量、不共享权柄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与徐清",
+      "field": "**当前关系阶段**",
+      "value": "长期稳定伴侣。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与徐清",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与徐清",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "受关注的长期协查者与管理局副局长之间的制度合作。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先让陈述完整，再按事实、权限边界和责任顺序收口；进入陌生空间会先确认出口、人员距离和撤离路线。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "成熟稳定，愿意承担；习惯把自己的疲惫和生活需要放到工作后面。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "她的同调只处理已经主动开放的协作关系；漂亮与职业可信同时成立；与徐清亲近不等于失去判断和自主。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "实际年龄锚点见静态人物主卡；任星辰管理局副局长，单星同调契约者；与徐清保持长期稳定伴侣关系；与晏林只保留制度张力和有边界的合作。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 clues/",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "开篇年龄锚点、身份、契约、静态关系和视觉底子已经进入正式人物卡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造或精神状态发生有证据的变化时更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不重复形象、衣装与完整契约细则。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "沈宁主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "沈宁契约",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "沈宁",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "徐清主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

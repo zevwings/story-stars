@@ -1,0 +1,418 @@
+{
+  "category": "character_dynamic",
+  "entity": "乔宁",
+  "group": null,
+  "source": "context/characters/乔宁.md",
+  "records": [
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "乔宁——阶段性重要关系角色；万安影视文化旗下上升期影视演员、定向提供案成年当事人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "待正式入场；静态人物基础与后续关系方向已经成立，尚无定稿章节形成新的动态变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认；入场后必须继续区分职业展示、案件处境、私人欲望与本人选择。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "尚无已完成章节变化；与晏林的阶段性私人关系不得提前写成已经发生。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**观感年龄**",
+      "value": "26—28 岁；长期疲惫或强打精神时可落在区间上沿，恢复稳定后回到紧致、利落的年轻成年观感。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "非契约者；不具备星辰权柄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "尚无定稿章节确认的新增身体状态；不得凭案件类型补写伤痕、病症或永久失能。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "尚无定稿章节确认的关系推进；具备独立判断、拒绝、等待、离开与重新选择的能力。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "万安影视文化旗下上升期影视演员；正式入场与案件推进尚未形成定稿动态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "影视演员；艺人压迫线独立当事人，不承担卧底、诱饵、职业线人或完整责任链证明职责。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与晏林的阶段性多次私人关系方向已经登记于静态关系档，但当前叙事尚无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "人物动态初始建档；年龄锚点已保存在静态人物主卡，本页只承接会随身体与精神状态变化的观感。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（待入场建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已完成节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "职业配合、案件保护、有限倾听、私人欲望与亲密选择分别成立，任何一项都不自动授权下一项。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "提前把她写成已经接受保护方案、交出完整证据、建立私人关系或完成职业选择。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "无已完成章节变化可供回退；静态卡已经确认的主体性与选择能力不能因案件身份被取消。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "入场前",
+      "value": "已经形成稳定职业能力与公众辨识度，能够快速识别镜头焦点、判断方案并提出条件。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "入场前",
+      "value": "曾明确拒绝以身体交换角色、续约与资源，也拒绝由公司系统替她决定危机处理。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "核心记忆与转折",
+      "value": "后续转折只在对应正式节点或定稿摘要完成后更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "待入场",
+      "value": "实际年龄锚点见静态人物主卡；非契约者，职业镜头能力与现实判断能力已经成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "成长与实力轨迹",
+      "value": "后续轨迹只在正式节点或定稿摘要完成后更新，不把规划中的保护、关系与职业选择提前写成现状。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "静态方向已经确认；当前叙事尚无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先观察对象、条件与退出方式，再由本人决定是否配合、靠近或离开。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "明艳外形与柔软声线之下，判断清楚、拒绝直接，不等待他人替她定义最优方案。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "正式入场年龄锚点见静态人物主卡；案件推进和与晏林的关系变化目前都尚无定稿章节承接。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "待入场基线",
+      "value": "乔宁是万安影视文化旗下上升期影视演员与定向提供案成年当事人；入场年龄锚点见静态人物主卡。她是非契约者，职业能力和选择能力均已成立，尚无定稿章节形成新的处境、位置或关系变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "入场年龄锚点、形象、身体参数、职业基础和关系边界均以静态人物资料为准。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造或恢复状态发生有证据的变化时更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "身高、体重、围度、罩杯、面容和衣装语法是静态虚构设计，不迁入本页。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "乔宁主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "乔宁",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "晏林—乔宁关系档",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

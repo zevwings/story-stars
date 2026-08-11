@@ -1,0 +1,448 @@
+{
+  "category": "character_dynamic",
+  "entity": "孟舒桐",
+  "group": null,
+  "source": "context/characters/孟舒桐.md",
+  "records": [
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "孟舒桐——野人户外联合创始人、设计与产品总监，核心产品配角。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前——野人已稳定经营，她与创始团队已经历约五年创业协作。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "与方成越的稳定伴侣和共同创业关系已经成立；尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**观感年龄**",
+      "value": "约 26—29 岁；笑开时偏年轻，工作专注或疲惫时落在区间上沿。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "现有正式真源未登记星辰契约状态；本档不作推定。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "无已登记伤势；能够承担样衣评审、常规样品搬动、长时间站立和城市至近郊轻徒步测试。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与方成越为稳定伴侣；两人的私人关系不合并经营、设计与治理结论。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "在江州野人户外用品有限公司担任联合创始人、设计与产品总监，公司已进入稳定经营性盈利阶段。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "负责服装、帽子、软性配件、品牌视觉、品类统筹与产品整体表达；参与鞋履外观和使用场景评审。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "江州；具体当日位置尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认；开篇前维持野人设计与品类统筹职责。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "尚无定稿章节可确认。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与方成越的稳定伴侣关系及与晏林、高承岳、许知夏的既有专业协作已经成立；无新章节推进。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；开篇年龄锚点保存在静态人物主卡，本页只承接会随工作与身体状态变化的观感年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已实现节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她是拥有独立设计结论权的联合创始人，不是晏林的设计助理，也不因与方成越的伴侣关系接受经营判断替代专业判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "用清冷、抱臂、提高声量或抽象审美压过用户动作、样品结构、成本和量产边界。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "不得把她写成刚毕业的设计学生、只负责审美包装的搭配师，或同时包办鞋楦、供应链与质量签字的全能负责人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "大学时期",
+      "value": "与方成越因徒步、登山和摄影认识，并在创业团队形成前后确立伴侣关系。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "约五年前至开篇前",
+      "value": "与晏林、方成越等人共同创办野人，持续承担设计、品类统筹和品牌表达职责。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "开篇前",
+      "value": "野人形成鞋履、轻徒步服装和轻量配件三类产品，并进入稳定经营性盈利状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "专业能力来自约五年的产品开发、样品评审、供应商协商与品牌经营实践；现有真源未登记星辰契约或能力变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与方成越",
+      "field": "**当前关系阶段**",
+      "value": "稳定伴侣、共同创业者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与方成越",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与方成越",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "联合创始人与产品评审合作者。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "尚无定稿章节中的新变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "样衣评审先退开看整体，再要求试穿者运动，最后靠近检查结构并给出取舍。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "面容明亮、回应充分；进入判断后笑意停止、目光落点明确，成熟度来自承担结论而不是故作冷淡。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "她可以拥有高完成度妆造和鲜明漂亮度；品牌视觉、私人衣柜、工作评审与户外测试必须分层。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "尚无章节。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前",
+      "value": "实际年龄锚点见静态人物主卡；在江州担任野人户外联合创始人、设计与产品总监，与方成越为稳定伴侣，与晏林、高承岳、许知夏保持既有专业协作；无已确认的星辰契约状态。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 [章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 clues/",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "开篇年龄锚点、身份、职业、形象与关系边界已进入正式人物资料。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造或精神状态发生有证据的变化时更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "身高、围度和罩杯是静态虚构制衣参数，不随年龄字段迁入本页。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "孟舒桐主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "方成越主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孟舒桐",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "野人户外",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

@@ -88,14 +88,16 @@ routes:
       - state
       - state
       - state
+      - state
   - examples:
+      - 契约自知
       - 战斗规则
       - 时代背景
       - 星辰之力
       - 星辰之印
-      - 星辰之桥
     file: systems.rag.yml
     types:
+      - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems

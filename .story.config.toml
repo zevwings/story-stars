@@ -19,23 +19,48 @@ type = "character_dynamic"
 path = "context/artifacts"
 type = "artifact_dynamic"
 
-[[context.roots]]
-path = "intimacy/characters"
-type = "intimacy_static"
-
 [timeline.entity_names]
 state = []
 
 [[specialties]]
 name = "intimacy"
-label = "成人写法"
+enabled = true
 dir = "intimacy"
-keywords = ["亲密", "双修", "吻", "身体回应", "尺度", "暧昧", "回房", "成年", "HD", "A场", "B场", "胁迫", "受害方失衡", "SM", "BDSM", "共鸣", "星辰契约同步", "欲望显影", "星庭共居"]
-rules = ["story-writer://rules/intimacy/_index", "story-writer://rules/intimacy/亲密边界与红线"]
-state_categories = ["intimacy_static"]
+
+[installations.intimacy]
+schema_version = 1
+kind = "specialty"
+target = "intimacy"
+installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
+
+[installations.plotlines]
+schema_version = 1
+kind = "feature"
+target = "story/plotlines"
+installation_id = "48d21a1b-31a7-4ee2-95c9-dcf3beee62c3"
+
+[installations.construction]
+schema_version = 1
+kind = "feature"
+target = "story/construction"
+installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
+
+[installations.decisions]
+schema_version = 1
+kind = "feature"
+target = "story/decisions"
+installation_id = "a9f9350f-abc2-4b1a-a1fc-0d491ec6afe1"
 
 [features]
 
 plotlines = true
 construction = true
 decisions = true
+
+[orchestration]
+targets = ["codex"]
+
+[orchestration.codex]
+architect_model = "gpt-5.6-sol"
+implementer_model = "gpt-5.6-terra"
+reviewer_model = "gpt-5.6-sol"

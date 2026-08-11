@@ -155,3 +155,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 契约自知
+    type: worldbuilding.systems
+    aliases: []
+    primary:
+      - worldbuilding/systems/契约自知.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 契约自知
+    status: confirmed
+    read_policy: primary_first
+    note: ""

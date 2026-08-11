@@ -1,7 +1,9 @@
 key: 高承岳
 primary:
-  - characters/preentry/高承岳/主卡.md
+  - characters/minor/高承岳/主卡.md
+  - characters/minor/高承岳/形象.md
+  - characters/minor/高承岳/衣装.md
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

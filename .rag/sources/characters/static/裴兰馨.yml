@@ -1,8 +1,10 @@
 key: 裴兰馨
 primary:
-  - characters/preentry/裴兰馨/主卡.md
-  - characters/preentry/裴兰馨/契约.md
+  - characters/minor/裴兰馨/主卡.md
+  - characters/minor/裴兰馨/形象.md
+  - characters/minor/裴兰馨/衣装.md
+  - characters/minor/裴兰馨/契约.md
 status: confirmed
 tags:
-  - 预备人物
+  - 次要人物
 type: character.static

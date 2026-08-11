@@ -1,0 +1,458 @@
+{
+  "category": "character_dynamic",
+  "entity": "顾清言",
+  "group": null,
+  "source": "context/characters/顾清言.md",
+  "records": [
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**人物定位**",
+      "value": "风归创始人兼总经理、多层级娱乐场所网络实际控制人；主动涉黑经营者与齐心非法种印首案当事人。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前阶段关键词**",
+      "value": "开篇前、仍在经营、长期受印、观察结构稳定、尚未断链。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最强冲突**",
+      "value": "她已意识到上游犯罪越过可承受边界并会把第一环责任压向自己，但齐心的固化印、篡心／孤悬效果与现实观察链仍在限制退出和判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**当前最重要关系变化**",
+      "value": "无已完成章节变化；与晏林的有限同盟、私域极限暧昧、单次兑现与后续监管边界均不得提前写成已经发生。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "快速读取",
+      "field": "**最近一次关键变化发生在**",
+      "value": "无（开篇前基线建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**观感年龄**",
+      "value": "三十出头；经营状态完整时成熟利落，长期疲惫或排异显影时眼周、嘴角和身体重心会使成熟感上浮。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前实力 / 状态**",
+      "value": "湖境回响契约者，未登记；齐心强种形成的固化印、篡心／孤悬控制与现实观察链仍在运行，尚未断链、解印或进入疗养监管。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**伤势 / 身体状态**",
+      "value": "每月出现两至三次明显排异，每次约十五至三十分钟；可表现为偏头刺痛、眩晕、耳鸣、短暂失神或行动失稳，峰值时最接近原本的清醒判断。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**情感状态**",
+      "value": "与晏林的正式关系进度尚未由定稿章节建立；不得把规划中的暧昧、行动信任、单次兑现或监管告别写成现状。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前处境**",
+      "value": "仍以风归创始人兼总经理身份经营公开公司及多层级场所网络；受齐心既有控制与普通观察人员长期监视。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前职责 / 当前阵位**",
+      "value": "风归实际控制人与总经理；三家会所、四家中高端 KTV 及低端连锁 KTV 经营网络实际控制人；对私域与云顶涉案经营承担最终责任。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前位置**",
+      "value": "尚无定稿章节可确认；常态活动范围以风归、私域、云顶及经营网络所需场所为限，不据此写具体当日位置。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主目标**",
+      "value": "尚无定稿章节可确认；静态驱动是保住退出权与现实生路，但不得提前写成已经启动完整断链或取证计划。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**当前主要阻力**",
+      "value": "固化印与篡心／孤悬结构、现实观察链、本人经营责任和上游随时切割责任的风险同时存在。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键关系进度**",
+      "value": "与齐心的长期黑产合作与受印控制已经成立；与晏林、安若曦及管理局的止损、断链、治疗、调查和监管进度尚未形成定稿事实。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**状态变化原因**",
+      "value": "开篇前初始建档；开篇实际年龄保存在静态人物主卡，本页只承接会随身体、精神、妆造与控制状态变化的观感年龄。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**最近更新章节**",
+      "value": "无（开篇前建档）。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "状态区",
+      "field": "**关键章节节点**",
+      "value": "无已完成节点。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前最不能写歪的点**",
+      "value": "她既是非法种印受害者，也是主动涉黑经营并需要按具体行为承担责任的人；受害、救援、治疗和亲密均不提供免责。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合出现的反应**",
+      "value": "在没有有效判断窗口、准确授权和现实隔离条件时，突然完全摆脱控制；或已经预先保存完整证据包并安全安排所有人的退路。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "禁止误写",
+      "field": "**当前不适合退回的旧状态**",
+      "value": "不得把她写成只负责迎宾、敬酒的表面经理，也不得把经营温度缩写为轻佻、清冷或被动谜面。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "核心记忆与转折",
+      "value": "试图退出齐心合作后遭其利用既有精神连接强行种印；具体历史年龄锚点见静态人物主卡与契约档，本页不重复维护。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "核心记忆与转折",
+      "field": "核心记忆与转折",
+      "value": "尚无定稿章节形成断链、剥离、疗养监管或关系终止等新增转折。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "成长与实力轨迹",
+      "field": "开篇前",
+      "value": "湖境回响契约者；固化印与外部控制、现实观察结构稳定运行，排异持续存在。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与齐心",
+      "field": "**当前关系阶段**",
+      "value": "长期黑产合作方与非法种印控制者；既有合作不构成种印授权。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与齐心",
+      "field": "**最近变化**",
+      "value": "无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与齐心",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**当前关系阶段**",
+      "value": "尚无定稿章节建立正式关系进度；静态关系边界只提供未来写作约束，不等于已经发生。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**最近变化**",
+      "value": "无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与晏林",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与安若曦及管理局",
+      "field": "**当前关系阶段**",
+      "value": "尚未由定稿章节建立正式处置、治疗、保护、调查或监管进度。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与安若曦及管理局",
+      "field": "**最近变化**",
+      "value": "无已完成章节变化。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "关系推进记录 / 与安若曦及管理局",
+      "field": "**对应章节**",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的行为惯性**",
+      "value": "先接住人和场面，再用座次、杯盏、称呼与一句安排恢复秩序；风险扩大时停止整理，转而确认门、手机、监控和现实记录。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**这一阶段最该记住的情绪底色**",
+      "value": "温度可以真诚，也可以被她主动用作经营工具；撤回温度后是清醒与疲惫，不是纯真或无辜。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "近章连续性提醒",
+      "field": "**写到该人物时最容易漏掉的点**",
+      "value": "实际年龄锚点见静态主卡；当前仍未完成断链、解印、疗养监管、关系兑现或司法处置。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "出场记录",
+      "field": "出场记录",
+      "value": "暂无已定稿章节记录。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "剧情快照",
+      "field": "开篇前基线",
+      "value": "仍经营风归及场所网络，湖境回响契约未登记；齐心的固化印、篡心／孤悬影响与现实观察链尚未解除，排异持续发生。本人主动经营责任与受印事实同时成立。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到[章节摘要分组目录](../summaries/)",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化需要回填到 `clues/`",
+      "value": "无。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "待同步检查",
+      "field": "是否有变化已进入静态设定，不应继续只留在动态状态",
+      "value": "开篇年龄锚点、稳定形象、经营身份、责任边界、契约结构与静态关系边界已进入正式人物资料。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "本页不维护实际年龄；观感年龄只在疲惫、伤病、妆造、排异或控制状态发生有证据的变化时更新。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "备注",
+      "field": "备注",
+      "value": "未来的断链、剥离、疗养监管、受控探视、单次兑现与关系终止只在正式节点完成后更新，不把规划写成现状。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "顾清言主卡",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "顾清言",
+      "group": null,
+      "status": null,
+      "section": "正式真源引用",
+      "field": "正式真源引用",
+      "value": "顾清言契约",
+      "chapter_refs": [],
+      "valid_from": null
+    }
+  ]
+}

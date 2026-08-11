@@ -1,13 +1,13 @@
 # Story Project
 
-本仓库保存具体写作项目真源。公共写作规则、skills、工具和参考资料由 story-writer runtime 提供。
+本仓库保存具体写作项目真源。公共写作规则、skills、工具和参考资料由 story-writer runtime 提供。本文面向项目维护者，只作概览和导航，不定义故事事实或写作规则。
 
 ## 固定入口
 
-- `ENTRY.md`: 项目入口和读取导航。
+- `ENTRY.md`: 读取顺序与任务路由的唯一入口。
 - `BIBLE.md`: 项目最高真源。
 - `STYLE.md`: 项目文风真源。
-- `AGENTS.md`、`CLAUDE.md`、`GEMINI.md`: 不同 Agent 的入口文件。
+- `AGENTS.md`、`CLAUDE.md`: 不同 Agent 的启动文件与内容边界开关。
 
 ## 结构说明
 
@@ -23,13 +23,16 @@
 - `worldbuilding/`
 - 已启用专项目录: 由 `.story.config.toml` 的 `[[specialties]]` 声明。
 
-## 施工与派生目录
+## 施工、参考与派生目录
 
 - `story/construction/`: 已确认的执行规格；具体单元使用稳定 `CON-xxxx` ID，并由 `_status/` 五态管理。
+- `story/decisions/`: 延迟决策门，不提供故事事实。
+- `.prototypes/`: 人工维护、默认不读取的持久原型参考层。
+- `.analysis/`: 候选、推演、缺口、方案比较与历史过程。
 - 剧情线 Preview：使用 `story-writer plotline preview` 从正式剧情线直接打开，临时产物不写入本仓。
 - `.prewrite/`: 分章节写前上下文包。
 
-完整职责与真源边界见 `BIBLE.md`「十一、施工与派生目录」。
+完整真源层级见 `BIBLE.md`「二、真源层级」；施工、决策与派生目录的规范边界见「十一、施工与派生目录」。
 
 ## RAG 配置
 
@@ -48,4 +51,4 @@
 
 - 项目事实优先写项目内固定相对路径。
 - 公共规则和参考资料使用 story-writer runtime 路由。
-- 目录层级与派生层边界以 `BIBLE.md` 为准。
+- 读取顺序与任务路由以 `ENTRY.md` 为准；故事真源层级、目录权限和派生层边界以 `BIBLE.md` 为准。

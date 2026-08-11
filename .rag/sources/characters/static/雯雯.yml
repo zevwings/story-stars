@@ -1,0 +1,9 @@
+key: 雯雯
+primary:
+  - characters/preentry/雯雯/主卡.md
+  - characters/preentry/雯雯/形象.md
+  - characters/preentry/雯雯/衣装.md
+status: confirmed
+tags:
+  - 预备人物
+type: character.static

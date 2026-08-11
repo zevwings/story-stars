@@ -1,58 +1,48 @@
 # Entry Guide
 
-## 工程定位与真源层级
+## 文件职责
 
-本仓库是具体写作项目, 不保存 story-writer 插件源码。故事事实、目录权限、写作边界和重大设定判断, 以项目根目录 `BIBLE.md` 为最高真源。项目文风、作者腔、叙述口径和表达限制, 以项目根目录 `STYLE.md` 为文风真源。
+本文件是项目**读取顺序与任务路由的唯一入口**，不保存故事事实、文风规则或候选结论。
 
-若本文、Agent 入口、工具说明或 story-writer 公共规则与 `BIBLE.md` 冲突, 以 `BIBLE.md` 为准。若公共写作方法与 `STYLE.md` 冲突, 以 `STYLE.md` 为准。
+- 故事事实、目录权限、写作边界和重大设定判断，以 `BIBLE.md` 为最高真源。
+- 项目文风、作者腔、叙述口径和表达限制，以 `STYLE.md` 为文风真源。
+- story-writer runtime 提供公共方法、题材中立规则、模板与工具；已启用专项的协议与参考 vendoring 在项目专项目录中。两者都不保存本项目故事事实。
 
-## 读取顺序
+若 Agent 入口、本文、工具说明或 story-writer 公共规则与 `BIBLE.md` 冲突，以 `BIBLE.md` 为准；若公共写作方法与 `STYLE.md` 冲突，以 `STYLE.md` 为准。
 
-1. 先读 `BIBLE.md`。
-2. 写正文、续写、润色、审读、对白优化或亲密正文回写时, 再读 `STYLE.md`。
-3. 再按任务进入 `chapters/`, `characters/`, `context/`, `clues/`, `story/`, `worldbuilding/` 或已启用专项目录。
-4. 若任务涉及已登记施工包，先读 `story/construction/_index.md` 与 `_status/`，沿状态表中的施工单元链接读取当前任务命中的 `active` 或目标匹配的 `bound` 单元，并核对其正式剧情节点接口。
-5. 规划、章纲、预写、正文、亲密专项场景或定稿任务已经确定目标章、`PL-*` 或 `CON-*` 时，检查 `story/decisions/_index.md`；只展开命中的决策文件。
-6. 公共规则与参考材料通过 story-writer runtime 读取, 例如 `story-writer://rules/...` 与 `story-writer://references/...`。
-7. `story/decisions/` 只作流程门禁；`.rag/`, `.prewrite/`, `.analysis/` 不作为故事事实来源。剧情线 Preview 的临时产物位于系统临时目录。
+## 基础读取顺序
 
-## 项目目录
+1. 先完整读取 `BIBLE.md`。
+2. 写正文、续写、润色、审读、对白优化或亲密正文回写时，再完整读取 `STYLE.md`。
+3. 按任务进入目标正式目录；先读该目录 `_index.md`，再沿索引读取任务闭包内的文件，不全量扫库。
+4. 涉及已登记施工包时，先读 `story/construction/_index.md` 与 `_status/`，再沿状态登记的源文件链接读取目标单元。
+5. 规划、章纲、预写、正文、亲密专项场景或定稿任务已经确定目标章、`PL-*` 或 `CON-*` 时，检查 `story/decisions/_index.md`，只展开命中的决策文件。
+6. 最后按任务需要进入项目已 vendoring 的专项协议与参考；题材中立能力再进入 story-writer runtime。
 
-- `BIBLE.md`: 项目最高真源。
-- `STYLE.md`: 项目文风真源。
-- `chapters/`: 章节大纲、草稿、定稿和摘要。
-- `characters/`: 静态人物卡。
-- `context/`: 动态上下文、人物状态、摘要和时间线。
-- `clues/`: 线索生命周期。
-- `story/`: 故事结构、题材口径、分卷弧线和长期规划。
-- `story/decisions/`: 到明确执行点前必须解决的延迟决策门；不是故事事实。
-- `worldbuilding/`: 世界观正式设定。
-- 已启用专项目录: 由 `.story.config.toml` 的 `[[specialties]]` 声明。
+## 正式目录入口
 
-## 施工与派生目录
+- `chapters/`：章节大纲、草稿、定稿和摘要。
+- `characters/`：静态人物档案。
+- `context/`：动态上下文、人物状态、摘要和时间线。
+- `clues/`：线索生命周期。
+- `story/`：故事结构、题材口径、分卷弧线、剧情线和长期规划。
+- `worldbuilding/`：世界观正式设定。
+- 专项目录：由 `.story.config.toml` 的 `[[specialties]]` 声明，按对应 `_index.md` 进入。
 
-- `story/construction/`: 只服务正式剧情节点的已确认执行规格；入口为 `story/construction/_index.md`，生命周期、施工源文件、主要剧情线归属与正式节点接口以 `story/construction/_status/` 为准。
-- `story/decisions/`: 从 `_index.md` 进入；命中到期门时停止写入，作者确认并完成正式回写后删除对应登记和文件。
-- 剧情线 Preview：由 `story-writer plotline preview` 从正式剧情线直接生成，不在项目内维护工作台副本。
-- `.prewrite/`: 按章节生成的写前上下文包。
+## 特殊任务入口
 
-完整职责与边界见 `BIBLE.md`「十一、施工与派生目录」。
+- `story/construction/`：已确认执行规格的入口。具体状态、继承范围和正式节点接口服从 `BIBLE.md`「十一、施工与派生目录」及本目录 `_status/`。
+- `story/decisions/`：延迟决策门入口，只用于检查任务是否被到期决策阻塞，不提供故事事实。
+- `.prototypes/`：持久原型参考层。仅在作者明确要求原型研究、人物形象修改、地区视觉设计、生图设计或撞型检查时，先读 `.prototypes/README.md`，再从对应分类 `_index.md` 进入；普通写作、规划和事实查询不读取。
 
-## 写作边界
+## 非真源与落盘边界
 
-- 默认按任务闭包读取, 不全量扫库。
-- 进入正式内容目录时, 先读对应 `_index.md`, 再按索引进入具体文件。
-- 信息不足或可能冲突时, 先指出缺口, 不把推测补成正典。
-- 后续新增未确认设定、角色关系、线索真相和世界观改动时, 剧情线内部缺口写入对应 `.analysis/plotlines/`, 跨线或正式设定级问题统一写入 `.analysis/blueprints/`, 并在文件正文标明未决状态；已经形成明确目标、不同选择后果和最迟决策点的问题进入 `story/decisions/`。不得以占位字段或缺口清单进入正式真源。
-- 拍板时间、更新时间、更新原因、方案比较与废案过程属于分析或历史记录, 不进入正式真源或施工真源。
-- 普通修文默认只改目标草稿; 只有作者明确触发定稿、补录摘要或状态维护时, 才同步长期状态文件。
+- `.rag/`、`.prewrite/`、`.analysis/` 与剧情线 Preview 都不提供故事事实。
+- 候选、缺口、延迟决策和已确认施工规格的具体落盘边界，统一服从 `BIBLE.md`「九、写作硬规则」与「十一、施工与派生目录」，本文不另行定义。
+- 信息不足或可能冲突时，先指出缺口，不把推测补成正典。
 
 ## story-writer 边界
 
-story-writer runtime 提供 skills、rules、references、templates 和 tools。它是方法层, 不保存本项目故事事实。
+题材中立的公共规则与参考材料通过 story-writer runtime 读取，例如 `story-writer://rules/...` 与 `story-writer://references/...`。已启用专项不回退到 runtime 同名资源，而是从项目专项目录的 `_index.md` 进入 `protocols/`、`references/` 等入口。`packs/` 是 story-writer 源码仓内的离线参考库，不是本项目依赖；项目题材口径写在 `story/genres/`。
 
-`packs/` 是 story-writer 源码仓内的离线参考库, 不是本项目依赖。项目题材口径写在 `story/genres/`。
-
-## 工具
-
-工具说明和运行命令以 story-writer runtime 为准。入口文件只作路由提醒。
+工具说明和运行命令以 story-writer runtime 为准，本文件只负责项目内读取路由。
