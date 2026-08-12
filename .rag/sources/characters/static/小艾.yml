@@ -1,0 +1,9 @@
+key: 小艾
+primary:
+  - characters/preentry/小艾/主卡.md
+  - characters/preentry/小艾/形象.md
+  - characters/preentry/小艾/衣装.md
+status: confirmed
+tags:
+  - 预备人物
+type: character.static

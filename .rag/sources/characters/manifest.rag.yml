@@ -189,14 +189,29 @@ routes:
     key: 齐心
     static: characters/minor/齐心/主卡.md
   - character_id: ""
+    key: 冰冰
+    static: characters/preentry/冰冰/主卡.md
+  - character_id: ""
+    key: 姜姜
+    static: characters/preentry/姜姜/主卡.md
+  - character_id: ""
     key: 姜禾
     static: characters/preentry/姜禾/主卡.md
   - character_id: ""
     key: 孙雅琪
     static: characters/preentry/孙雅琪/主卡.md
   - character_id: ""
+    key: 小艾
+    static: characters/preentry/小艾/主卡.md
+  - character_id: ""
+    key: 小铁
+    static: characters/preentry/小铁/主卡.md
+  - character_id: ""
     key: 应挽霞
     static: characters/preentry/应挽霞/主卡.md
+  - character_id: ""
+    key: 慧慧
+    static: characters/preentry/慧慧/主卡.md
   - character_id: ""
     key: 星澜
     static: characters/preentry/星澜/主卡.md
@@ -207,11 +222,20 @@ routes:
     key: 林昭昭
     static: characters/preentry/林昭昭/主卡.md
   - character_id: ""
+    key: 欣欣
+    static: characters/preentry/欣欣/主卡.md
+  - character_id: ""
     key: 灵儿
     static: characters/preentry/灵儿/主卡.md
   - character_id: ""
+    key: 羲羲
+    static: characters/preentry/羲羲/主卡.md
+  - character_id: ""
     key: 翠花
     static: characters/preentry/翠花/主卡.md
+  - character_id: ""
+    key: 苒苒
+    static: characters/preentry/苒苒/主卡.md
   - character_id: ""
     key: 蒋曼琳
     static: characters/preentry/蒋曼琳/主卡.md

@@ -12,12 +12,14 @@ routes:
       - faction
   - examples:
       - 云顶 KTV
+      - 京城大学
       - 兔子快递
       - 兰纳安吉旅游集团
       - 心动酒吧
-      - 星辰监管所
     file: organizations.rag.yml
     types:
+      - worldbuilding.organizations
+      - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
@@ -65,6 +67,7 @@ routes:
       - 江州中央商务区
     file: places.rag.yml
     types:
+      - place
       - place
       - place
       - place

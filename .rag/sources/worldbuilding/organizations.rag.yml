@@ -246,3 +246,29 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 京城大学
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/京城大学.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 京城大学
+    status: confirmed
+    read_policy: primary_first
+    note: ""
+  - key: 江州体育学院
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/江州体育学院.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州体育学院
+    status: confirmed
+    read_policy: primary_first
+    note: ""
