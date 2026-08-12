@@ -49,6 +49,26 @@
       "entity": "秦瑶",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**秦瑶称晏林**",
+      "value": "云顶服务身份层内可称“主人”；退出身份层后恢复关系档中的普通称呼。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "秦瑶",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "“母狗／小母狗”等自称只证明当次脚本或本人选择正在运行，不证明永久从属，也不开放其他 C 档项目；每晚、每次重新确认语言与身份范围。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "秦瑶",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪得十分干练严谨，符合云顶场所规训下的统一精致规范。",

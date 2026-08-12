@@ -39,6 +39,26 @@
       "entity": "白玥",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**白玥称晏林**",
+      "value": "双方明确进入私人主从框架时可称“主人”，但不要求每场使用；暂停或退出框架后恢复“晏林”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "白玥",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "主从称呼只覆盖当次确认的私人亲密范围，不改变现实身份、停止权、案件责任或生活自主。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "白玥",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "极稀疏，修剪利落，边界干净——是长期经营形象留下的习惯，不是取悦谁的准备。",

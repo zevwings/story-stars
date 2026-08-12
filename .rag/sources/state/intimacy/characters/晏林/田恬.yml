@@ -49,6 +49,26 @@
       "entity": "田恬",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**田恬称晏林**",
+      "value": "双方当次确认进入权力角色后可称“主人”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "田恬",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "“小母狗”等自称可由田恬本人主动调用，只覆盖当次确认的身份与服务语言；退出角色后恢复日常称呼，不登记永久从属。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "田恬",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪成极为可爱精巧的小修长型，干净利落，符合其作为 Coser 的镜头美感习惯。",

@@ -39,6 +39,7 @@ routes:
       - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
+      - worldbuilding.organizations
   - examples:
       - 万安健康
       - 万安影视文化

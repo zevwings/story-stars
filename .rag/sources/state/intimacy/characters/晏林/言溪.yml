@@ -29,6 +29,26 @@
       "entity": "言溪",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**言溪称晏林**",
+      "value": "正式剧情当次建立 C 档身份层时，可由她主动使用双方确认的权力称呼；不预设固定词语。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "言溪",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "权力称呼与情欲自称分别按当场范围成立；退出角色或身份层后恢复“晏林”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "言溪",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪得十分精细，符合 Coser 镜头下各种角色衣装的完美隐蔽需要。",

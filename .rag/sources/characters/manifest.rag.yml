@@ -189,9 +189,6 @@ routes:
     key: 齐心
     static: characters/minor/齐心/主卡.md
   - character_id: ""
-    key: 冰冰
-    static: characters/preentry/冰冰/主卡.md
-  - character_id: ""
     key: 姜姜
     static: characters/preentry/姜姜/主卡.md
   - character_id: ""

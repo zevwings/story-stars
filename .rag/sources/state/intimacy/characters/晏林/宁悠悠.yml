@@ -49,6 +49,26 @@
       "entity": "宁悠悠",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**宁悠悠称晏林**",
+      "value": "当次确认 C 档权力角色后可称“主人”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "宁悠悠",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "她可以主动使用“小母狗”等降格自称，也保留改词、拒绝与退出角色的能力；称呼不产生永久从属。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "宁悠悠",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "天然修长整洁，带着成年女性未经修饰的自然柔嫩质感。",
