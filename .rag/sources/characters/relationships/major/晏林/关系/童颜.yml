@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 童颜
+pair:
+  - 晏林
+  - 童颜
+source_path: characters/major/晏林/关系/童颜.md
+source_schema: character.relationship@0
+source_hash: a835b5be7a64103a6605e3074f5c14a2b8397874a720242f50309456a0024a40
+addresses:
+  - id: "address:name:晏林:童颜"
+    schema_version: 1
+    speaker: 晏林
+    target: 童颜
+    public_or_work: —
+    private_or_daily: —
+    notes: 未登记稳定称呼
+    source_path: characters/major/晏林/关系/童颜.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 晏林 → 童颜 | — | — | 未登记稳定称呼 |"
+    source_hash: a835b5be7a64103a6605e3074f5c14a2b8397874a720242f50309456a0024a40
+  - id: "address:name:童颜:晏林"
+    schema_version: 1
+    speaker: 童颜
+    target: 晏林
+    public_or_work: 哥哥
+    private_or_daily: 爸爸（求安全）；晏林；“亲爱的”可偶发打趣
+    notes: “爸爸”起源于安全依恋，非父女关系；清醒表达欲望或停止时可直接叫晏林；“老公”永不出现。情趣性的“爸爸／主人”另读 `intimacy/characters/晏林/童颜.md`
+    source_path: characters/major/晏林/关系/童颜.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 童颜 → 晏林 | 哥哥 | 爸爸（求安全）；晏林；“亲爱的”可偶发打趣 | “爸爸”起源于安全依恋，非父女关系；清醒表达欲望或停止时可直接叫晏林；“老公”永不出现。情趣性的“爸爸／主人”另读 `intimacy/characters/晏林/童颜.md` |"
+    source_hash: a835b5be7a64103a6605e3074f5c14a2b8397874a720242f50309456a0024a40

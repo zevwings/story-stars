@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 万芳
+pair:
+  - 晏林
+  - 万芳
+source_path: characters/major/晏林/关系/万芳.md
+source_schema: character.relationship@0
+source_hash: "5fca847496c0c2b4274585bc1fd4d405e9c25773863bfb659bd8724cbd0cd1be"
+addresses:
+  - id: "address:name:晏林:万芳"
+    schema_version: 1
+    speaker: 晏林
+    target: 万芳
+    public_or_work: 慢慢；知晓真名后可称万芳
+    private_or_daily: 慢慢
+    notes: 正式姓名必须在晏林已经知情的场景使用
+    source_path: characters/major/晏林/关系/万芳.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 晏林 → 万芳 | 慢慢；知晓真名后可称万芳 | 慢慢 | 正式姓名必须在晏林已经知情的场景使用 |"
+    source_hash: "5fca847496c0c2b4274585bc1fd4d405e9c25773863bfb659bd8724cbd0cd1be"
+  - id: "address:name:万芳:晏林"
+    schema_version: 1
+    speaker: 万芳
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: 当次 HD 角色称呼不进入日常称呼表，亲密戏另读 `intimacy/characters/晏林/万芳.md`
+    source_path: characters/major/晏林/关系/万芳.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 万芳 → 晏林 | 晏林 | 晏林 | 当次 HD 角色称呼不进入日常称呼表，亲密戏另读 `intimacy/characters/晏林/万芳.md` |"
+    source_hash: "5fca847496c0c2b4274585bc1fd4d405e9c25773863bfb659bd8724cbd0cd1be"

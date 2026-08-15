@@ -2,6 +2,7 @@ key: 裴怀安
 primary:
   - characters/minor/裴怀安/主卡.md
   - characters/minor/裴怀安/契约.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

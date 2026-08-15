@@ -4,6 +4,7 @@ primary:
   - characters/major/白玥/形象.md
   - characters/major/白玥/衣装.md
   - characters/major/白玥/契约.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 主要人物

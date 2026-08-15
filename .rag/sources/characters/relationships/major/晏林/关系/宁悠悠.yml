@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 宁悠悠
+pair:
+  - 晏林
+  - 宁悠悠
+source_path: characters/major/晏林/关系/宁悠悠.md
+source_schema: character.relationship@0
+source_hash: "5b439b4abdad9be4e2c10d2a7d0ed90329cb1a56935f55b0d8850a3a6f581e31"
+addresses:
+  - id: "address:name:晏林:宁悠悠"
+    schema_version: 1
+    speaker: 晏林
+    target: 宁悠悠
+    public_or_work: —
+    private_or_daily: —
+    notes: 未登记稳定称呼
+    source_path: characters/major/晏林/关系/宁悠悠.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 晏林 → 宁悠悠 | — | — | 未登记稳定称呼 |"
+    source_hash: "5b439b4abdad9be4e2c10d2a7d0ed90329cb1a56935f55b0d8850a3a6f581e31"
+  - id: "address:name:宁悠悠:晏林"
+    schema_version: 1
+    speaker: 宁悠悠
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: HD 权力角色称呼与降格自称另读 `intimacy/characters/晏林/宁悠悠.md`；不产生永久从属
+    source_path: characters/major/晏林/关系/宁悠悠.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 26
+    source_quote: "| 宁悠悠 → 晏林 | 晏林 | 晏林 | HD 权力角色称呼与降格自称另读 `intimacy/characters/晏林/宁悠悠.md`；不产生永久从属 |"
+    source_hash: "5b439b4abdad9be4e2c10d2a7d0ed90329cb1a56935f55b0d8850a3a6f581e31"

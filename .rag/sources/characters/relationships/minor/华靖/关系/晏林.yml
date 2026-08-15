@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 华靖 → 晏林
+pair:
+  - 华靖
+  - 晏林
+source_path: characters/minor/华靖/关系/晏林.md
+source_schema: character.relationship@0
+source_hash: ddf5bb19f97ab3ad17baa74bffa5d3ae9b3001fc15693495c794a1b76533111f
+addresses:
+  - id: "address:name:华靖:晏林"
+    schema_version: 1
+    speaker: 华靖
+    target: 晏林
+    public_or_work: 晏老师；晏林
+    private_or_daily: 晏林
+    notes: “晏老师”只用于工作现场
+    source_path: characters/minor/华靖/关系/晏林.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 华靖 → 晏林 | 晏老师；晏林 | 晏林 | “晏老师”只用于工作现场 |"
+    source_hash: ddf5bb19f97ab3ad17baa74bffa5d3ae9b3001fc15693495c794a1b76533111f
+  - id: "address:name:晏林:华靖"
+    schema_version: 1
+    speaker: 晏林
+    target: 华靖
+    public_or_work: 华靖；正式现场职务称呼待具体单位确认
+    private_or_daily: 华靖
+    notes: 未确认具体职务前不擅自补称谓
+    source_path: characters/minor/华靖/关系/晏林.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 晏林 → 华靖 | 华靖；正式现场职务称呼待具体单位确认 | 华靖 | 未确认具体职务前不擅自补称谓 |"
+    source_hash: ddf5bb19f97ab3ad17baa74bffa5d3ae9b3001fc15693495c794a1b76533111f

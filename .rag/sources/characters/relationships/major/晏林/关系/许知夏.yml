@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 许知夏
+pair:
+  - 晏林
+  - 许知夏
+source_path: characters/major/晏林/关系/许知夏.md
+source_schema: character.relationship@0
+source_hash: "0902547b8323d40f70ae005a934073d2910b7b9b16984e85657e2ce194e233ba"
+addresses:
+  - id: "address:name:晏林:许知夏"
+    schema_version: 1
+    speaker: 晏林
+    target: 许知夏
+    public_or_work: —
+    private_or_daily: —
+    notes: 未登记稳定称呼
+    source_path: characters/major/晏林/关系/许知夏.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 晏林 → 许知夏 | — | — | 未登记稳定称呼 |"
+    source_hash: "0902547b8323d40f70ae005a934073d2910b7b9b16984e85657e2ce194e233ba"
+  - id: "address:name:许知夏:晏林"
+    schema_version: 1
+    speaker: 许知夏
+    target: 晏林
+    public_or_work: 来访者在场时称晏老师；闭店后称老板
+    private_or_daily: 老板；私人感情语境可称晏林
+    notes: 工作场始终使用“晏老师”；改口不改变岗位与信息权限
+    source_path: characters/major/晏林/关系/许知夏.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 许知夏 → 晏林 | 来访者在场时称晏老师；闭店后称老板 | 老板；私人感情语境可称晏林 | 工作场始终使用“晏老师”；改口不改变岗位与信息权限 |"
+    source_hash: "0902547b8323d40f70ae005a934073d2910b7b9b16984e85657e2ce194e233ba"

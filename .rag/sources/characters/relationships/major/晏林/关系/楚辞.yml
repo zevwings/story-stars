@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 楚辞
+pair:
+  - 晏林
+  - 楚辞
+source_path: characters/major/晏林/关系/楚辞.md
+source_schema: character.relationship@0
+source_hash: "19a6b1ef7793e0a2033904ade9a55f1132afc88d7a18a490276865fc8fe8987e"
+addresses:
+  - id: "address:name:晏林:楚辞"
+    schema_version: 1
+    speaker: 晏林
+    target: 楚辞
+    public_or_work: 楚辞
+    private_or_daily: 楚辞
+    notes: 不用固定爱称代替关系确认
+    source_path: characters/major/晏林/关系/楚辞.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 晏林 → 楚辞 | 楚辞 | 楚辞 | 不用固定爱称代替关系确认 |"
+    source_hash: "19a6b1ef7793e0a2033904ade9a55f1132afc88d7a18a490276865fc8fe8987e"
+  - id: "address:name:楚辞:晏林"
+    schema_version: 1
+    speaker: 楚辞
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: 不用固定爱称代替关系确认
+    source_path: characters/major/晏林/关系/楚辞.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 26
+    source_quote: "| 楚辞 → 晏林 | 晏林 | 晏林 | 不用固定爱称代替关系确认 |"
+    source_hash: "19a6b1ef7793e0a2033904ade9a55f1132afc88d7a18a490276865fc8fe8987e"

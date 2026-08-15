@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 王诗悦
+pair:
+  - 晏林
+  - 王诗悦
+source_path: characters/major/晏林/关系/王诗悦.md
+source_schema: character.relationship@0
+source_hash: "6d1297a059ead8cb496fce9075a9655f810a153a470baced95e2c77b32470fa0"
+addresses:
+  - id: "address:name:晏林:王诗悦"
+    schema_version: 1
+    speaker: 晏林
+    target: 王诗悦
+    public_or_work: —
+    private_or_daily: —
+    notes: 未登记稳定称呼
+    source_path: characters/major/晏林/关系/王诗悦.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 晏林 → 王诗悦 | — | — | 未登记稳定称呼 |"
+    source_hash: "6d1297a059ead8cb496fce9075a9655f810a153a470baced95e2c77b32470fa0"
+  - id: "address:name:王诗悦:晏林"
+    schema_version: 1
+    speaker: 王诗悦
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: HD 权力角色称呼与降格自称另读 `intimacy/characters/晏林/王诗悦.md`，不登记为固定口癖
+    source_path: characters/major/晏林/关系/王诗悦.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 26
+    source_quote: "| 王诗悦 → 晏林 | 晏林 | 晏林 | HD 权力角色称呼与降格自称另读 `intimacy/characters/晏林/王诗悦.md`，不登记为固定口癖 |"
+    source_hash: "6d1297a059ead8cb496fce9075a9655f810a153a470baced95e2c77b32470fa0"

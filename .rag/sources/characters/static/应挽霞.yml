@@ -1,8 +1,11 @@
+aliases:
+  - Nara
 key: 应挽霞
 primary:
   - characters/preentry/应挽霞/主卡.md
   - characters/preentry/应挽霞/形象.md
   - characters/preentry/应挽霞/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 预备人物

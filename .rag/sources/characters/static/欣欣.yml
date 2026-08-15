@@ -3,6 +3,7 @@ primary:
   - characters/preentry/欣欣/主卡.md
   - characters/preentry/欣欣/形象.md
   - characters/preentry/欣欣/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 预备人物

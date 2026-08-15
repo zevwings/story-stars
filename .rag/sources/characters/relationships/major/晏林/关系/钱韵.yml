@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 钱韵
+pair:
+  - 晏林
+  - 钱韵
+source_path: characters/major/晏林/关系/钱韵.md
+source_schema: character.relationship@0
+source_hash: "28d20ed86f3d73cd914b4401f65445da36639d62d01a6a361f1c29c286d29236"
+addresses:
+  - id: "address:name:晏林:钱韵"
+    schema_version: 1
+    speaker: 晏林
+    target: 钱韵
+    public_or_work: 钱韵；工作语境可称书书
+    private_or_daily: 钱韵
+    notes: “书书”不自动延伸为私人昵称
+    source_path: characters/major/晏林/关系/钱韵.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 晏林 → 钱韵 | 钱韵；工作语境可称书书 | 钱韵 | “书书”不自动延伸为私人昵称 |"
+    source_hash: "28d20ed86f3d73cd914b4401f65445da36639d62d01a6a361f1c29c286d29236"
+  - id: "address:name:钱韵:晏林"
+    schema_version: 1
+    speaker: 钱韵
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: HD 权力称呼不进入普通称呼表，亲密戏另读 `intimacy/characters/晏林/钱韵.md`
+    source_path: characters/major/晏林/关系/钱韵.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 钱韵 → 晏林 | 晏林 | 晏林 | HD 权力称呼不进入普通称呼表，亲密戏另读 `intimacy/characters/晏林/钱韵.md` |"
+    source_hash: "28d20ed86f3d73cd914b4401f65445da36639d62d01a6a361f1c29c286d29236"

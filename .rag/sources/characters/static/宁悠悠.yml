@@ -1,8 +1,11 @@
+aliases:
+  - 悠悠
 key: 宁悠悠
 primary:
   - characters/minor/宁悠悠/主卡.md
   - characters/minor/宁悠悠/形象.md
   - characters/minor/宁悠悠/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

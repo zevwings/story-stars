@@ -1,8 +1,11 @@
+aliases:
+  - 慢慢
 key: 万芳
 primary:
   - characters/minor/万芳/主卡.md
   - characters/minor/万芳/形象.md
   - characters/minor/万芳/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

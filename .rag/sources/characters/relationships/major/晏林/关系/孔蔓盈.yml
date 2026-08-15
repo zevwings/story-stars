@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 孔蔓盈
+pair:
+  - 晏林
+  - 孔蔓盈
+source_path: characters/major/晏林/关系/孔蔓盈.md
+source_schema: character.relationship@0
+source_hash: "1f113e14b0c7c9152d8e0237f9b9ca81dd34c2d8a2a0f9773a5ffdaf2e836f16"
+addresses:
+  - id: "address:name:晏林:孔蔓盈"
+    schema_version: 1
+    speaker: 晏林
+    target: 孔蔓盈
+    public_or_work: 盈盈；知晓真名后可称孔蔓盈
+    private_or_daily: 盈盈
+    notes: 正式姓名必须在晏林已经知情的场景使用
+    source_path: characters/major/晏林/关系/孔蔓盈.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 晏林 → 孔蔓盈 | 盈盈；知晓真名后可称孔蔓盈 | 盈盈 | 正式姓名必须在晏林已经知情的场景使用 |"
+    source_hash: "1f113e14b0c7c9152d8e0237f9b9ca81dd34c2d8a2a0f9773a5ffdaf2e836f16"
+  - id: "address:name:孔蔓盈:晏林"
+    schema_version: 1
+    speaker: 孔蔓盈
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: C 档权力称呼不进入普通称呼表，亲密戏另读 `intimacy/characters/晏林/孔蔓盈.md`
+    source_path: characters/major/晏林/关系/孔蔓盈.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 孔蔓盈 → 晏林 | 晏林 | 晏林 | C 档权力称呼不进入普通称呼表，亲密戏另读 `intimacy/characters/晏林/孔蔓盈.md` |"
+    source_hash: "1f113e14b0c7c9152d8e0237f9b9ca81dd34c2d8a2a0f9773a5ffdaf2e836f16"

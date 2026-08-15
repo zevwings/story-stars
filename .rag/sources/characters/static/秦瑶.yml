@@ -1,8 +1,11 @@
+aliases:
+  - 阿九
 key: 秦瑶
 primary:
   - characters/minor/秦瑶/主卡.md
   - characters/minor/秦瑶/形象.md
   - characters/minor/秦瑶/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

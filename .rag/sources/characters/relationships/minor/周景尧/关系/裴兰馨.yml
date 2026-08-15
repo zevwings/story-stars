@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 周景尧 → 裴兰馨
+pair:
+  - 周景尧
+  - 裴兰馨
+source_path: characters/minor/周景尧/关系/裴兰馨.md
+source_schema: character.relationship@0
+source_hash: dfab373470a23c4d179624a76d46d1436b512f4e251bffa8789d3a391ef5f572
+addresses:
+  - id: "address:name:周景尧:裴兰馨"
+    schema_version: 1
+    speaker: 周景尧
+    target: 裴兰馨
+    public_or_work: —
+    private_or_daily: —
+    notes: 尚未登记稳定称呼，不从既往关系自动补昵称
+    source_path: characters/minor/周景尧/关系/裴兰馨.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 周景尧 → 裴兰馨 | — | — | 尚未登记稳定称呼，不从既往关系自动补昵称 |"
+    source_hash: dfab373470a23c4d179624a76d46d1436b512f4e251bffa8789d3a391ef5f572
+  - id: "address:name:裴兰馨:周景尧"
+    schema_version: 1
+    speaker: 裴兰馨
+    target: 周景尧
+    public_or_work: —
+    private_or_daily: —
+    notes: 尚未登记稳定称呼，不从既往关系自动补昵称
+    source_path: characters/minor/周景尧/关系/裴兰馨.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 裴兰馨 → 周景尧 | — | — | 尚未登记稳定称呼，不从既往关系自动补昵称 |"
+    source_hash: dfab373470a23c4d179624a76d46d1436b512f4e251bffa8789d3a391ef5f572

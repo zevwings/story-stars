@@ -4,6 +4,7 @@ primary:
   - characters/minor/沈宁/形象.md
   - characters/minor/沈宁/衣装.md
   - characters/minor/沈宁/契约.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

@@ -1,8 +1,11 @@
+aliases:
+  - 静姐
 key: 于静
 primary:
   - characters/minor/于静/主卡.md
   - characters/minor/于静/形象.md
   - characters/minor/于静/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

@@ -3,6 +3,7 @@ primary:
   - characters/preentry/蒋曼琳/主卡.md
   - characters/preentry/蒋曼琳/形象.md
   - characters/preentry/蒋曼琳/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 预备人物

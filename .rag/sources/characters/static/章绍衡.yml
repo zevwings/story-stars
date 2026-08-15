@@ -3,6 +3,7 @@ primary:
   - characters/minor/章绍衡/主卡.md
   - characters/minor/章绍衡/形象.md
   - characters/minor/章绍衡/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

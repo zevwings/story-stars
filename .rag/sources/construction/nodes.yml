@@ -1,6 +1,10 @@
+schema: construction.source
+schema_version: 2
 truth_level: construction
 units:
-  - id: CON-0001
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0001
     truth_level: construction
     name: 第一场｜俞予安普通装：黑色蕾丝甜辣短裙
     package: 云顶KTV会所线
@@ -29,6 +33,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/01_俞予安.md
     registry_file: story/construction/_status/active.md
+    registry_line: 7
+    registry_quote: "| CON-0001 | [第一场｜俞予安普通装](../云顶KTV会所线/01_俞予安.md) | 亲密线 / 晏林 | PL-I-087、PL-S-091 | 云顶 KTV 会所线第 01 次亲密消费场及衣装 |  |  |"
     sections:
       - heading: 场次作用
         value: |-
@@ -115,7 +121,9 @@ units:
           - 背部、内衬、扣合和具体鞋履在参考中不可见，保持不锁定，待需要写穿脱或坐姿时再做现实化施工。
       - heading: 当前结论
         value: 云顶第 01 次亲密消费场的衣装采用“**黑色细肩带蕾丝短裙＋镂空软收腰＋多层荷叶短裙摆**”。整体方向由原先粗略的“红黑甜辣”收敛为“**黑色甜辣主体＋暗红妆面／小配饰＋极少量暖金腰部细节**”，既保留参考服装的完整观感，也给后续完整 COS 留出足够的变装落差。
-  - id: CON-0002
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0002
     truth_level: construction
     name: 第二场｜俞予安第一次 COS：清漪
     package: 云顶KTV会所线
@@ -152,6 +160,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/02_俞予安.md
     registry_file: story/construction/_status/active.md
+    registry_line: 8
+    registry_quote: "| CON-0002 | [第二场｜俞予安第一次 COS](../云顶KTV会所线/02_俞予安.md) | 亲密线 / 晏林 | PL-I-087、PL-I-088、PL-S-091 | 云顶 KTV 会所线第 02 次亲密消费场及衣装 |  |  |"
     sections:
       - heading: 场次作用
         value: |-
@@ -301,7 +311,9 @@ units:
         value: |-
           云顶第 02 次亲密消费场的衣装采用“**《完美世界》清漪天神书院新造型冷银蓝完整 COS**”，执行口径为“**清冷仙衣 × 反差侍奉**”。完整结构为“**乌黑高髻披发假发＋银白浅金青蓝高冠＋粉紫角色眼妆与冷色长耳坠＋浅蓝灰贴身承托主体＋银金翼状胸饰与青蓝核心＋中央银白珠链＋冰蓝半透脱肩袖＋湖蓝与冷白双侧长纱＋黑色稳定安全内层＋透明浅色高跟鞋**”。
           当前不锁定背面闭合、官方版本名、手持物、完整内衬边界与精确裙长；这些未知项不得覆盖已经确认的“冷银蓝、双侧高开口、中央珠链、黑色安全内层、流动长纱”五个核心锚点。
-  - id: CON-0003
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0003
     truth_level: construction
     name: 第三场｜俞予安＋王诗悦普通夜装相识：黑白同款抹胸与黑色短裤
     package: 云顶KTV会所线
@@ -332,6 +344,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/03_俞予安王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 9
+    registry_quote: "| CON-0003 | [第三场｜俞予安＋王诗悦普通夜装相识](../云顶KTV会所线/03_俞予安王诗悦.md) | 亲密线 / 晏林 | PL-I-034、PL-S-092 | 云顶 KTV 会所线第 03 次双人共同亲密消费场及衣装 |  | 小鱼儿与悦悦都参与；两人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -435,7 +449,9 @@ units:
         value: |-
           云顶第 03 次亲密消费场的衣装锁定为“**小鱼儿、悦悦同款异色纯色抹胸＋同款纯黑贴身超短裤**”：小鱼儿穿黑色上衣，悦悦穿白色上衣；两件上衣完全同版、无文字无装饰，两条短裤同色同材质。
           本场的双人辨识逻辑是“**下身统一，黑白分人**”。鞋履尚未由作者指定，当前只保留现实适配范围，不把参考图的白色中筒厚底靴固定下来。
-  - id: CON-0004
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0004
     truth_level: construction
     name: 第四场｜俞予安＋王诗悦双人 COS ①：轻量黑白女仆
     package: 云顶KTV会所线
@@ -467,6 +483,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/04_俞予安王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 10
+    registry_quote: "| CON-0004 | [第四场｜俞予安＋王诗悦双人 COS ①](../云顶KTV会所线/04_俞予安王诗悦.md) | 亲密线 / 晏林 | PL-I-034 | 云顶 KTV 会所线第 04 次双人共同亲密消费场及衣装 |  | 小鱼儿与悦悦都参与；两人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -577,7 +595,9 @@ units:
         value: |-
           云顶第 04 次亲密消费场的衣装锁定为“**小鱼儿＋悦悦同款轻量黑白女仆 COS**”：低光泽黑色短袖伞摆连衣裙、白色大翻领、细黑领结、白色肩部褶边、高腰短围裙、四枚黑色心形扣、背后软蝴蝶结、白色褶边发箍、白色过膝袜与黑色低跟鞋。
           两人不使用假发、瞳片、猫耳、项圈和大型道具。双人完成度来自同款并排，而不是配件数量。
-  - id: CON-0005
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0005
     truth_level: construction
     name: 第五场｜俞予安＋王诗悦双人 COS ②：黑白双天使
     package: 云顶KTV会所线
@@ -611,6 +631,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/05_俞予安王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 11
+    registry_quote: "| CON-0005 | [第五场｜俞予安＋王诗悦双人 COS ②](../云顶KTV会所线/05_俞予安王诗悦.md) | 亲密线 / 晏林 | PL-I-034 | 云顶 KTV 会所线第 05 次双人共同亲密消费场及衣装 |  | 小鱼儿与悦悦都参与；两人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -739,7 +761,9 @@ units:
         value: |-
           云顶第 05 次亲密消费场的衣装锁定为“**小鱼儿黑天使＋悦悦白天使**”：同版反色的中型可拆羽翼、纯色短抹胸、同色贴身短裤和细带中跟鞋。小鱼儿从羽翼到衣装全部使用黑色，悦悦全部使用白色，金属小件分别压为枪灰与冷银。
           完整拆解只有三层：**先整体卸下翅膀，再独立处理抹胸，最后处理短裤**。不设置长剑、光环、长裙、腰腹链条和复杂绑带，确保双人 COS ②比视觉上完整、实际操作仍然简单。
-  - id: CON-0006
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0006
     truth_level: construction
     name: 第六场｜王诗悦单人 COS：冷灰蓝 OL
     package: 云顶KTV会所线
@@ -773,6 +797,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/06_王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 12
+    registry_quote: "| CON-0006 | [第六场｜王诗悦单人 COS](../云顶KTV会所线/06_王诗悦.md) | 亲密线 / 晏林 | PL-I-094、PL-S-092 | 云顶 KTV 会所线第 06 次悦悦独立亲密消费场及衣装 |  | 悦悦首次不与小鱼儿同组；不自动建立后续重复权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -897,7 +923,9 @@ units:
         value: |-
           云顶第 06 次亲密消费场的衣装锁定为“**悦悦冷灰蓝 OL 单人 COS**”：冷灰蓝修身卷袖衬衣、炭黑高腰包臀超短裙、窄黑腰带、黑色尖头中高跟鞋、无框窄眼镜、无单位信息的黑色挂绳证件牌与薄黑文件夹。
           本场不使用假发、丝袜、真实员工证和复杂角色台词。悦悦通过眼镜、挂绳和文件夹完成一次轻量职业化进入，再通过依次摘除三件身份道具退出角色。
-  - id: CON-0007
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0007
     truth_level: construction
     name: 第七场｜何雯娜大胆现代夜装：黑色吊带抹胸与水洗黑牛仔超短裙
     package: 云顶KTV会所线
@@ -928,6 +956,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/07_何雯娜.md
     registry_file: story/construction/_status/active.md
+    registry_line: 13
+    registry_quote: "| CON-0007 | [第七场｜何雯娜大胆现代夜装](../云顶KTV会所线/07_何雯娜.md) | 亲密线 / 晏林 | PL-I-035、PL-S-093 | 云顶 KTV 会所线第 07 次娜娜单人亲密消费场及衣装 |  | 现场亲密主体只有晏林与娜娜。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1043,7 +1073,9 @@ units:
         value: |-
           云顶第 07 次单人亲密消费场的衣装锁定为“**黑色细吊带方领短抹胸＋水洗黑低腰牛仔超短裙＋烟灰半透短罩衫**”。整体采用深黑、炭灰与烟灰三层明度，在云顶暗光中保留纯黑夜装的利落感，又避免上衣和短裙糊成一个色块。
           本场不使用湿发、丝袜、腰链、蕾丝裙边和主题配件，牛仔超短裙内不设安全短裤。娜娜以现实剪裁、干燥材质和整理肩带／裙口的自然动作成立，明确与小鱼儿、悦悦承担的 COS 场分开。
-  - id: CON-0008
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0008
     truth_level: construction
     name: 第八场｜俞予安＋宁悠悠：成年学院风双子造型
     package: 云顶KTV会所线
@@ -1075,6 +1107,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/08_俞予安宁悠悠.md
     registry_file: story/construction/_status/active.md
+    registry_line: 14
+    registry_quote: "| CON-0008 | [第八场｜俞予安＋宁悠悠成年学院风](../云顶KTV会所线/08_俞予安宁悠悠.md) | 亲密线 / 晏林 | PL-I-036、PL-S-094 | 云顶 KTV 会所线第 08 次小鱼儿＋悠悠共同亲密消费场及衣装 |  | 小鱼儿与悠悠都参与；三人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1183,7 +1217,9 @@ units:
         value: |-
           云顶第 08 次共同亲密消费场的衣装锁定为“**小鱼儿＋悠悠成年学院风双子造型**”：两人穿同版纯白短袖短衬衣、同款深藏青软蝴蝶结和同类黑色乐福鞋／低跟玛丽珍鞋；小鱼儿搭配深灰藏青低对比格纹百褶短裙，悠悠搭配低饱和浅灰粉纯色百褶短裙。
           本场采用“上装与配件相同、裙装深浅异色”的组合方式。它保留原定的小鱼儿深色、悠悠浅色分工，同时避免从头到脚完全复制；不使用白色不透明连裤袜、真实学校标识和校园身份道具。
-  - id: CON-0009
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0009
     truth_level: construction
     name: 第九场｜俞予安＋王诗悦：黑白镜像夜场火辣装
     package: 云顶KTV会所线
@@ -1215,6 +1251,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/09_俞予安王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 15
+    registry_quote: "| CON-0009 | [第九场｜俞予安＋王诗悦黑白镜像夜装](../云顶KTV会所线/09_俞予安王诗悦.md) | 亲密线 / 晏林 | PL-I-034 | 云顶 KTV 会所线第 09 次小鱼儿＋悦悦共同亲密消费场及衣装 |  | 小鱼儿与悦悦都参与；三人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1327,7 +1365,9 @@ units:
         value: |-
           云顶第 09 次共同亲密消费场的衣装锁定为“**小鱼儿全白＋悦悦全黑的同版镜像夜场火辣装**”：两人只穿同版无肩带短抹胸与同版斜向堆褶超短裙，小鱼儿上下纯白，悦悦上下纯黑；裙内保留同色安全短裤，画面中不出现造型外套。
           本场不是 COS。它删除参考视频中的银色胸饰、廓形西装、单侧腿环、浅色假发与耳部造型，只保留抹胸、裸露腰腹和不对称堆褶短裙的现实剪裁；第 13 场则改为小鱼儿、悦悦的双人黑色情趣回归场，不再补建第三套双人 COS。
-  - id: CON-0010
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0010
     truth_level: construction
     name: 第十四场｜童颜：白色细吊带侧抽褶包臀超短裙
     package: 云顶KTV会所线
@@ -1357,6 +1397,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/10_童颜.md
     registry_file: story/construction/_status/active.md
+    registry_line: 16
+    registry_quote: "| CON-0010 | [第十四场｜童颜白色抽褶短裙](../云顶KTV会所线/10_童颜.md) | 亲密线 / 晏林 | PL-I-054、PL-I-055、PL-I-056、PL-S-095 | 云顶 KTV 会所线第 14 次童颜单人亲密消费场及衣装 |  | 同场依次承接付费相遇、第一次身体关系与睡后梦魇；作为集中消费段终点。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1462,7 +1504,9 @@ units:
         value: |-
           云顶第 14 次单人亲密消费场的衣装锁定为“**童颜白色细吊带侧抽褶包臀超短裙＋完整裸腿**”：浅 U 形细吊带上身以真实胸省、软杯和胸下承托适配丰满胸型，衣料从胸下顺着自然腰线贴回，再沿柔软臀线结束于大腿上段；裙摆以少量侧抽褶形成结构。
           本场删除参考视频中的白色长袜和黑色颈圈，不使用校服、学生配件、假发或角色道具。视觉顺序固定为“窄小柔心脸、横向舒展的深色眼睛与稳定目光 → 连续紧凑沙漏 → 超短白裙与完整腿部线条”，不让丰满曲线独自承担成年证明，也不将她的学生经历和受控处境情色化。
-  - id: CON-0011
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0011
     truth_level: construction
     name: 第十三场｜俞予安＋王诗悦：双人黑色情趣回归场
     package: 云顶KTV会所线
@@ -1496,6 +1540,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/11_俞予安王诗悦.md
     registry_file: story/construction/_status/active.md
+    registry_line: 17
+    registry_quote: "| CON-0011 | [第十三场｜俞予安＋王诗悦黑色情趣回归](../云顶KTV会所线/11_俞予安王诗悦.md) | 亲密线 / 晏林 | PL-I-034 | 云顶 KTV 会所线第 13 次小鱼儿＋悦悦共同亲密消费场及衣装 |  | 阿九三晚结束后的松散关系回归；小鱼儿与悦悦都参与，三人分别授权。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1627,7 +1673,9 @@ units:
         value: |-
           云顶第 13 次共同亲密消费场的衣装锁定为“**小鱼儿＋悦悦过膝黑色薄风衣＋双人黑色蕾丝胸衣裙与吊带丝袜**”：外出时两人分别扣合不透肤的过膝黑风衣；进入确认私密的室内空间后，风衣完整挂起，露出半杯胸衣、半透花纹束腰、极短荷叶蕾丝裙、可调吊袜带与黑色蕾丝边长袜。
           本场不是 COS。小鱼儿以更清楚的结构线、衣装检查和主动揭示成立，悦悦以更柔和的薄层、披发和自主跟进成立；猫耳、项圈、蕾丝手套、鞭子和角色语言全部删除。回归感来自两人在不依赖角色身份、也不要求动作完全同步的情况下，再次选择共同到场与共同揭示，并且各自保留重新穿回风衣、调整或退出的完整能力。
-  - id: CON-0012
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0012
     truth_level: construction
     name: 第十场｜秦瑶：灰黑做旧牛仔系带装
     package: 云顶KTV会所线
@@ -1658,6 +1706,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/12_秦瑶.md
     registry_file: story/construction/_status/active.md
+    registry_line: 18
+    registry_quote: "| CON-0012 | [第十场｜秦瑶灰黑做旧牛仔系带装](../云顶KTV会所线/12_秦瑶.md) | 亲密线 / 晏林 | PL-I-089、PL-S-096 | 云顶 KTV 会所线第 10 次阿九第一晚单人亲密消费场及衣装 |  | 只承接第一晚；第二、三晚分别由 `CON-0042`、`CON-0043` 承接。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -1766,7 +1816,9 @@ units:
         value: |-
           云顶第 10 次单人亲密消费场、即阿九第一晚的衣装锁定为“**阿九灰黑做旧牛仔系带装**”：室内主体由灰黑做旧牛仔短胸衣、前中枪灰孔眼与深灰交叉系带、同材质极低腰毛边超短裤、胯侧系带、裸腿和黑色高跟鞋组成；外出时增加一件后摆过臀、前摆切开、带腰部主扣与高位暗扣的宽松黑色长西装。
           本场不用纯黑、黑金、酒红、蕾丝、丝袜和完整情趣内层。视觉重点固定为水洗灰黑、毛边、枪灰孔眼、深灰系带、完整腰腹、胯侧开放和连续裸腿；同时必须先完成真实包厢消费与可选的有限亲密，再单独决定是否离场及后续付费亲密。人物心理、前史与剧情因果由阿九专项施工和正式剧情节点承接，本页只调用其外在状态。
-  - id: CON-0013
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0013
     truth_level: construction
     name: 晏林初案断流与双子星边界施工
     package: 晏林双子星与管理局线
@@ -1784,6 +1836,8 @@ units:
     content_indexed: true
     source_file: story/construction/晏林双子星与管理局线/01_晏林初案断流与双子星边界.md
     registry_file: story/construction/_status/active.md
+    registry_line: 19
+    registry_quote: "| CON-0013 | [晏林初案断流与双子星边界施工](../晏林双子星与管理局线/01_晏林初案断流与双子星边界.md) | 主线 / 人物 / 晏林 | PL-M-001、PL-M-025、PL-M-026、PL-M-027、PL-M-028、PL-M-029 | 未分章施工 |  | 固定初案断流，以及主体解释、六位核心女主分波完整知情、管理局分层权限、公共风险行动与授权复核的顺序。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -1810,7 +1864,9 @@ units:
           | 终局现场复核 | 固定有限可见结果 | 外部只能确认反派连接失效、调度错误及普通梦境任务摘要不足以解释全部结果 | 现场结果只能形成事件证据或能力推定，不能唯一证明断流、倒卷、双子星结构或四权柄分配；管理局只向任务人员调用最低必要机密信息 | `PL-M-028、PL-M-029`、`PL-S-007` |
           | 终局后授权复核 | 留下可追踪、可复核的主体异议 | 晏林在机密任务授权复核中提交本人书面异议，并绑定材料访问审计编号 | 异议不否认完整报备与公共安全责任，只反对无证据推定、非必要扩权和持续征用；本行只复核既有边界，不倒置前述告知和授权顺序 | `PL-M-025、PL-M-027`、`PL-S-007` |
           六位核心女主完成完整私人知情后，取得继续协商的条件；景雪瑶的知情继承大学时期星辰之桥建立事实，其余五人按风险相关性分波完成。共同告知、暂停、危机参与和职业分权规则仍由 `PL-S-193` 独立承接。
-  - id: CON-0014
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0014
     truth_level: construction
     name: 反派控制方法、有效反制与责任链施工
     package: 反派控制与责任链
@@ -1830,6 +1886,8 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/01_反派控制方法反制与责任链.md
     registry_file: story/construction/_status/active.md
+    registry_line: 20
+    registry_quote: "| CON-0014 | [反派控制方法、有效反制与责任链施工](../反派控制与责任链/01_反派控制方法反制与责任链.md) | 主线 / 组织 / 反派 | PL-M-017、PL-M-018、PL-S-049、PL-M-020—PL-M-022、PL-M-024、PL-M-030—PL-M-032、PL-M-036、PL-M-048、PL-M-050、PL-M-037、PL-M-049、PL-M-038 | 未分章施工 |  | 固定慈善晚会与私域接触、郑骆提前控制、华靖材料启动双线准备、齐陆与剩余六接口在同一行动窗口分别纳管、控制后八接口验证、晏林受控诱饵探查、刘秉文转送交接、顾清言带印陈述，以及“齐陆轴闭合—活现场锁定—两轴独立闭合—个人裁判”的顺序；园区内部接收、分层、逃离触发和诱饵行动细节分别由 `CON-0044`、`CON-0041`、`CON-0045` 承接。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -1881,7 +1939,9 @@ units:
           | 各自行动与保护 | 在各轴达到门槛时终止持续侵害 | 万安涉案接口、裴家实验药剂节点、三个园区及朱岑郁现实执行链按各自证据和风险分别进入控制；晏林在正式风险评估、持续同意和中止机制下承担一次受控诱饵行动，既有受保护当事人继续按各自保护方案行动 | 行动按风险与证据成熟度分时推进；医疗保护、陈述和公开分别承接 | `PL-S-286`、`PL-M-050`、`PL-M-037`、`PL-M-049` |
           | 责任闭合后 | 完成分层裁判与长期后果 | 齐心、陆佳凝、裴崇礼、裴怀民、裴怀安、裴兰馨、刘秉文与朱岑郁八名核心裁判对象具名取得结果；黄锦一实际知情并参加协商，却因朱岑郁收束兔子快递秘密链的实控、命令与可证明责任，以不知情抗辩脱身；丁宇、周博获得保护并承担刑事责任；穆珂宜按受害者与有限证人进入长期恢复 | 不让受控前史、逃离、材料贡献或华靖牺牲自动免责；兔子快递经最低整改后由黄锦一继续经营，兰纳安吉旅游集团重组，不展开公司处置过程；朱岑郁不替齐、陆或裴家吸收责任 | `PL-M-038`、`PL-S-233`—`PL-S-235`、各线独立结果节点 |
           本节只把园区接收、人员分层和处置升级的既成结果作为朱岑郁独立责任轴的前置，不直接施工 `PL-S-241、PL-S-242、PL-S-228、PL-S-229、PL-S-230`；前四项由 `CON-0044` 承接，`PL-S-230` 由 `CON-0041` 承接。
-  - id: CON-0015
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0015
     truth_level: construction
     name: 云梦号与楚辞关系链施工
     package: 云梦号会谈与关系线
@@ -1903,6 +1963,8 @@ units:
     content_indexed: true
     source_file: story/construction/云梦号会谈与关系线/01_云梦号与楚辞关系链.md
     registry_file: story/construction/_status/active.md
+    registry_line: 21
+    registry_quote: "| CON-0015 | [云梦号与楚辞关系链施工](../云梦号会谈与关系线/01_云梦号与楚辞关系链.md) | 主线 / 组织 / 反派 | PL-S-124、PL-M-033、PL-M-035、PL-M-034、PL-S-262、PL-S-263、PL-S-264、PL-I-083、PL-I-084、PL-I-085、PL-I-086、PL-S-225、PL-S-223、PL-S-224、PL-I-081、PL-I-080 | 未分章施工 |  | 固定晏林普通推荐与公开登船、云梦号会谈、航程限定关系，以及赵梦娜和楚辞在真实分离后分别建立第二层职业／档期回流关系的顺序。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -1973,7 +2035,9 @@ units:
           | 第二层确认前 | 完成位置与必要事实告知 | 晏林说明楚辞属于第二层、不进入共同生活与第一层结构；楚辞知道直接相关事实 | 不泄露其他伴侣隐私或完整关系名单，不讨论楚辞的外部私人关系 | `PL-M-046、PL-M-044、PL-M-047、PL-M-045` |
           | 主动重逢 | 建立职业／档期回流伴侣关系 | 楚辞经职业间隔后主动联系，并确认有稳定预期、由空档和本人思念推动的第二层关系 | 不固定排期、不写成方便情人或第一层候补 | `PL-I-080` |
           | 关系确认后 | 完成第一次非交易双人身体兑现 | 楚辞在非工作、非应酬、非资源交换的私人时间主动提出或明确接受，并至少一次提出要求、纠正节奏或拒绝推进 | 具体身体流程进入亲密设计卡；本次不生成未来留宿、身体或多人权限 | `PL-I-081` |
-  - id: CON-0017
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0017
     truth_level: construction
     name: 白玥订单与私域完整倒卷施工
     package: 白玥订单与倒卷线
@@ -1993,6 +2057,8 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/01_白玥订单倒卷与留证.md
     registry_file: story/construction/_status/active.md
+    registry_line: 22
+    registry_quote: "| CON-0017 | [白玥订单与私域完整倒卷施工](../白玥订单与倒卷线/01_白玥订单倒卷与留证.md) | 副线 / 人物 / 白玥 | PL-S-145、PL-S-146、PL-S-148、PL-S-150、PL-S-149、PL-S-147 | 未分章施工 |  | 固定晚会初见、杨柳明确拒绝、完整倒卷、裴怀民感知错位、晏林立即追白玥与私域现场压事。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2036,7 +2102,9 @@ units:
           - 不把私域压事写成杨柳追认陪侍、发生新的直接强制身体行为，或全部记录被无痕清除。
           - 不把完整倒卷后的欲望压力写成白玥自动同意后续身体关系；选择门槛由下一施工单元单独承接。
           - 不让白玥因其后一周内主动进入管理局程序而免除多笔订单和杨柳事件的主动责任。
-  - id: CON-0018
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0018
     truth_level: construction
     name: 顾清言止损、断链、解印、责任与疗养监管施工
     package: 顾清言止损解印线
@@ -2059,6 +2127,8 @@ units:
     content_indexed: true
     source_file: story/construction/顾清言止损解印线/01_顾清言止损断链解印责任与疗养监管.md
     registry_file: story/construction/_status/active.md
+    registry_line: 23
+    registry_quote: "| CON-0018 | [顾清言止损、断链、解印、责任与疗养监管施工](../顾清言止损解印线/01_顾清言止损断链解印责任与疗养监管.md) | 副线 / 人物 / 顾清言 | PL-S-129—PL-S-144、PL-S-067、PL-S-123、PL-S-125、PL-M-036、PL-M-037、PL-M-048、PL-S-288、PL-S-289、PL-I-046—PL-I-049 | 未分章施工 |  | 顾清言早已受印；固定经营与受印前史、姐弟式有限同盟、浅层交底、私域极限暧昧、秘密断链、带核潜伏、齐心受控后唯一一次身体兑现，以及终局隔离、解印、责任、疗养监管、关系告别、私域司法处置与永久失能。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2138,7 +2208,9 @@ units:
           | 账户交代与私域留存愿望 | 让顾清言留下现实余痕而不私下处分资产 | 顾清言交代匿名黑产账户及取用线索，并表达希望私域经司法处置后由晏林让它换一种方式继续存在 | 晏林不接收、转移或使用资金；账户进入冻结追缴，愿望不产生房间、经营、收益、进入或关系权限 | `PL-S-132`、`PL-M-048`、`PL-S-288` |
           | 疗养监管与有限探视 | 让关系以承担和有限余温完成 | 顾清言承担正式刑事判决，在集团疗养院依法监管区服刑；晏林可以经审批和现场监管探视 | 不复现身体关系，不用探视、释放后复选或重逢制造延迟收编；不建立恋爱、共同生活或长期伴侣 | `PL-S-011`、`PL-S-143`、`PL-M-036、PL-M-037、PL-M-038` |
           | 私域后续 | 保存场所而不保存顾清言的关系位置 | 阶段五完成查封、旧体系终止与司法处置前置；尾声晏林以合法资金经附条件限制竞价取得新经营权 | 功劳只支持资质背书、处置通知与同等条件优先；顾清言不回归、不参与管理、不保留任何旧权限 | `PL-S-288`、`PL-S-289`、`PL-I-049` |
-  - id: CON-0019
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0019
     truth_level: construction
     name: 管理局机密授权与受控合作施工
     package: 晏林双子星与管理局线
@@ -2156,6 +2228,8 @@ units:
     content_indexed: true
     source_file: story/construction/晏林双子星与管理局线/02_机密授权与受控合作.md
     registry_file: story/construction/_status/active.md
+    registry_line: 24
+    registry_quote: "| CON-0019 | [管理局机密授权与受控合作施工](../晏林双子星与管理局线/02_机密授权与受控合作.md) | 副线 / 人物 / 晏林 | PL-S-194、PL-S-195、PL-S-007 | 未分章施工 |  | 从正式剧情节点“未分章施工”迁入。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2178,7 +2252,9 @@ units:
           | 机密档案核验 | 把跨案疑点收束为当次任务所需的已登记能力 | 有权负责人按本人申报、受控演示与专项复核的证据状态确认晏林大学登记时已完整报备双子星与四项权柄，并只向任务人员说明最低必要能力、已验证条件、风险与退出条件 | 不把本人申报写成设备扫描结论，不把完整档案复制给普通经办层；核验不等于公开全部战术细节或复制晏林的契约自知 | `PL-S-194、PL-S-195` |
           | 合作方案签责 | 落实既有协作的访问审计与机密能力逐案授权 | 沈宁衔接管理层方案；常规任务只调用织梦方向，需要绘影、断流或倒卷时另行取得本人同意并记录范围 | 沈宁不兼任全部经办、风险评估、授权与审计；一次授权不自动延续 | `PL-M-028、PL-M-029、PL-M-025、PL-M-026、PL-M-027` |
           | 访问审计与保护 | 让管理局的重视同时承担边界责任 | 档案访问、复制、转交和权限扩张留痕；晏林可提出异议，管理局落实健康评估、控制训练、异常支持、任务风险准备和泄密防范 | 不写成基础能力教学、机构所有权、强制实验、全天监控或无限出勤 | `PL-M-028、PL-M-029、PL-M-025、PL-M-026、PL-M-027` |
-  - id: CON-0020
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0020
     truth_level: construction
     name: 俞予安松散付费关系施工
     package: 云顶KTV会所线
@@ -2195,6 +2271,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/俞予安松散付费关系.md
     registry_file: story/construction/_status/active.md
+    registry_line: 26
+    registry_quote: "| CON-0020 | [俞予安松散付费关系施工](../云顶KTV会所线/俞予安松散付费关系.md) | 亲密线 / 晏林 | PL-I-087、PL-I-088 | 云间商务 KTV 初次交易、云顶前两次单独复现、单独付费回路结束与后续关系转接 |  | 从正式剧情节点“未分章施工”迁入。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2212,7 +2290,9 @@ units:
           | 有限数次往来 | 建立独立兼职交易的普通样本 | 晏林第一次到云顶消费时刚好遇见当晚在场的小鱼儿，由 `CON-0001` 执行；此后才通过已有联系方式主动预约，云顶第 02 次由 `CON-0002` 执行。每次重新确认，至少一次由小鱼儿修改范围、拒绝追加或按约离开；一次入梦只有生活碎片 | 偶遇不写成小鱼儿带他入场，也不把重复关系写成永久身体授权、恋爱转正或调查入口；明确拒绝后不得强制入梦；本页不重复衣装和当次场内执行 | `PL-S-091`、`CON-0001`、`CON-0002` |
           | 阶段结束 | 完成松散入口功能并结束单独付费回路 | 云顶第 02 次结束后，两人的单独付费回路降频并阶段性结束；小鱼儿后续可分别进入与悦悦、悠悠的共同付费关系，但各关系须由对应节点独立成立 | 不把共同关系写成稳定双人关系重启，不以任何一次共同邀请覆盖另一关系或其他参与者的确认；不补伴侣身份、伴侣关系细节或具体家庭冲突 | `PL-I-034`、`PL-I-036` |
           | 终局转接 | 切开旧交易与后续私人选择 | 云顶关停后，小鱼儿与晏林的付费关系不再重启；低频、非付费的私人性关系另由 `PL-I-038` 确认 | 不统一决定小鱼儿是否继续其他商业接单；不把前期交易回写成恋爱前史，不以既往付款、熟悉或帮助生成后续权限 | `PL-I-038`、`CON-0026` |
-  - id: CON-0021
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0021
     truth_level: construction
     name: 齐心与陆佳凝邮轮共同邀请施工
     package: 云梦号会谈与关系线
@@ -2229,6 +2309,8 @@ units:
     content_indexed: true
     source_file: story/construction/云梦号会谈与关系线/02_齐心陆佳凝邮轮共同邀请.md
     registry_file: story/construction/_status/active.md
+    registry_line: 27
+    registry_quote: "| CON-0021 | [齐心与陆佳凝邮轮共同邀请施工](../云梦号会谈与关系线/02_齐心陆佳凝邮轮共同邀请.md) | 亲密线 / 齐心 | PL-I-026 | 未分章施工 |  | 从正式剧情节点“未分章施工”迁入。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2242,7 +2324,9 @@ units:
           | --- | --- | --- | --- | --- |
           | 云梦号私人时段 | 让既有四人回路首次接纳第三对伴侣 | 明确四人已有经验，朱岑郁、黄锦一首次加入；六人分别确认参与、范围、停止方式、隐私和场后联系；陆佳凝承担可撤回的规则组织位置 | 四人旧授权不覆盖新参与者；不固定交换组合和身体流程；不与闭门会谈同时发生 | `PL-M-033、PL-M-035、PL-M-034` |
           | 场后 | 退出亲密角色并回到现实责任 | 六人完成回位；李垣羲不因参与进入黑产知情圈，黄锦一回到兔子快递创始人、董事长、明面控制人及朱岑郁黑色合作核心人物的既有位置 | 正向关系不减轻任何已成立责任，也不扩大黄锦一已经拥有的公司权限或改变朱岑郁的幕后实控 | `PL-I-083` |
-  - id: CON-0022
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0022
     truth_level: construction
     name: 白玥长期匿名联系切割施工
     package: 反派控制与责任链
@@ -2259,6 +2343,8 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/02_裴家外围账户切割.md
     registry_file: story/construction/_status/active.md
+    registry_line: 28
+    registry_quote: "| CON-0022 | [白玥长期匿名联系切割施工](../反派控制与责任链/02_裴家外围账户切割.md) | 副线 / 组织 / 裴家 | PL-S-159、PL-S-161、PL-S-162 | 未分章施工 |  | 区分首次暗色星辰市场任务与后续专用匿名联系人，只固定具体联系人、中间人和关联市场身份的切割与剪裁甩锅，不设置统一后台，也不由该链直接指向裴家。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2275,7 +2361,9 @@ units:
           | 异常聚合后 | 降低长期联系连续性 | 裴家一侧中止专用联系人，更换或停用中间人和相关市场身份，并切断可继续向白玥发出要求的现实联系 | 只写具体联系人、中间人和市场身份；不把黑市或暗色星辰写成行动主体 | `PL-S-161` |
           | 切割生效 | 形成真实证据缺口 | 至少一段联系、身份或资金关联无法当场完整恢复 | 切割部分成功但不消灭白玥本人的行为痕迹，也不直接证明裴家身份 | `PL-S-161` |
           | 剪裁放料 | 把可见责任压向执行者 | 具体联系人、中间人或关联市场身份选择性释放白玥真实但不完整的接单、收款与施为记录 | 真实局部行为不等于完整责任链；不能由此指向裴家，裴家责任须由其他现实证据独立闭合 | `PL-S-156—PL-S-158`、`PL-S-162`、`PL-M-049` |
-  - id: CON-0023
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0023
     truth_level: construction
     name: 秦瑶债务侵害前史施工
     package: 秦瑶债务侵害线
@@ -2298,6 +2386,8 @@ units:
     content_indexed: true
     source_file: story/construction/秦瑶债务侵害线/01_秦瑶债务侵害前史.md
     registry_file: story/construction/_status/active.md
+    registry_line: 29
+    registry_quote: "| CON-0023 | [秦瑶债务侵害前史施工](../秦瑶债务侵害线/01_秦瑶债务侵害前史.md) | 副线 / 人物 / 秦瑶 | PL-S-107、PL-S-108、PL-S-109 | 阿九赌场签贷、暗示扩债、催收侵害与转送云顶的既往前史 |  | 固定三名施害者的参与结构、事件顺序与责任边界。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2352,7 +2442,9 @@ units:
           - 不把本场写成催收手段的合理延伸、抵债交易、危险魅力或情色启蒙。
           - 不以身体反应、求生配合、沉默或失去动作能力推定阿九愿意。
           - 不用阿九后来对晏林作出的具体选择反向替本场生成同意，也不因本场剥夺她此后针对具体对象重新作出选择的能力。
-  - id: CON-0024
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0024
     truth_level: construction
     name: 云顶关停与债务控制终止施工
     package: 云顶KTV会所线
@@ -2371,6 +2463,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/云顶关停与债务控制终止.md
     registry_file: story/construction/_status/active.md
+    registry_line: 30
+    registry_quote: "| CON-0024 | [云顶关停与债务控制终止施工](../云顶KTV会所线/云顶关停与债务控制终止.md) | 副线 / 组织 / 云顶KTV | PL-S-111 | 阶段四 |  | 固定关停安排形成、阿九个人脱离、于静收监与云顶实体关停的先后顺序；悠悠裸贷另线清零。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2404,7 +2498,9 @@ units:
           - 不让于静替顾清言完成上层认罪，也不让她成为替所有人吸责的唯一终点。
           - 不让阿九在关停安排形成前就完成正式债务和控制解除，也不把她留到实体实际关停后才脱离。
           - 不把阿九的告别亲密或其后任何未定生活写成案件安置、债务解除回报或晏林包办。
-  - id: CON-0025
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0025
     truth_level: construction
     name: 宁悠悠裸贷清零与影像余波施工
     package: 云顶KTV会所线
@@ -2423,6 +2519,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/宁悠悠裸贷清零与影像余波.md
     registry_file: story/construction/_status/active.md
+    registry_line: 31
+    registry_quote: "| CON-0025 | [宁悠悠裸贷清零与影像余波施工](../云顶KTV会所线/宁悠悠裸贷清零与影像余波.md) | 副线 / 人物 / 宁悠悠 | PL-S-110、PL-S-183 | 阶段四 |  | 只固定悠悠裸贷余额清零、已知影像传播停止与历史备份风险保留；不承接三人共同职业转向。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2447,7 +2545,9 @@ units:
           - 不把云顶旧人脉改写为线上撮合、固定经纪公司或其他共同经营网络。
           - 不由本单元决定悠悠、小鱼儿、悦悦是否继续或停止各自的商业接单；三人的学业、公开工作与其他现实职业选择分别成立。
           - 不把贷款或影像处置变成悠悠继续私人关系的交换条件。
-  - id: CON-0026
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0026
     truth_level: construction
     name: 俞予安宁悠悠王诗悦第三层偶发关系簇确认施工
     package: 云顶KTV会所线
@@ -2466,6 +2566,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/俞予安宁悠悠王诗悦第三层偶发关系簇确认.md
     registry_file: story/construction/_status/active.md
+    registry_line: 32
+    registry_quote: "| CON-0026 | [俞予安宁悠悠王诗悦第三层偶发关系簇确认施工](../云顶KTV会所线/俞予安宁悠悠王诗悦第三层偶发关系簇确认.md) | 亲密线 / 晏林 | PL-I-038 | 尾声 |  | 三人互为好闺蜜；阶段五不固定调用，尾声至多一次合并式亲密回声，后续可按一人、两人或三人分别回归且逐人授权。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2504,7 +2606,28 @@ units:
           - 不以小鱼儿一人的邀请替悠悠或悦悦确认，也不以任何人的到场替女性互动授权。
           - 不把三人写成主线随时可调用的身体池，不预授权下一次或家中场景；但不得反向禁止三位闺蜜共同与晏林发生四人亲密，或禁止同一组合在番外低频复现。
           - 不为小鱼儿、悦悦、悠悠补写伴侣姓名、身份、伴侣关系质地或具体家庭冲突；既有伴侣信息不承担道德判断、背德刺激或冲突功能。
-  - id: CON-0028
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0027
+    truth_level: construction
+    name: 秦瑶奶茶店生活与私人回归施工
+    package: ""
+    status: retired
+    plotline_owner: 副线 / 人物 / 秦瑶
+    plotline_interfaces: PL-S-085、PL-I-039
+    scope: 尾声
+    transition: CON-0028 的告别共餐、一次非交易亲密与分别
+    note: 作者取消固定奶茶店结局与持续私人回路；旧文件已删除。
+    summary: ""
+    headings: []
+    content_indexed: false
+    source_file: ""
+    registry_file: story/construction/_status/retired.md
+    registry_line: 7
+    registry_quote: "| CON-0027 | 秦瑶奶茶店生活与私人回归施工 | 副线 / 人物 / 秦瑶 | PL-S-085、PL-I-039 | 尾声 | CON-0028 的告别共餐、一次非交易亲密与分别 | 作者取消固定奶茶店结局与持续私人回路；旧文件已删除。 |"
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0028
     truth_level: construction
     name: 秦瑶连续三晚求助与临行回声施工
     package: 秦瑶债务侵害线
@@ -2527,6 +2650,8 @@ units:
     content_indexed: true
     source_file: story/construction/秦瑶债务侵害线/02_连续三晚求助与临行回声.md
     registry_file: story/construction/_status/active.md
+    registry_line: 33
+    registry_quote: "| CON-0028 | [秦瑶连续三晚求助与关停后回声施工](../秦瑶债务侵害线/02_连续三晚求助与临行回声.md) | 亲密线 / 晏林 | PL-I-089、PL-I-090、PL-I-091、PL-S-096、PL-S-179、PL-S-178、PL-S-177、PL-I-062、PL-I-063 | 阶段三连续三晚至阶段四关停后告别 |  | 固定连续三晚付费、逐层吐露、正式保护、关停安排形成后的个人脱离，以及实际关停后的告别共餐、一次非交易亲密与分别。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2586,7 +2711,9 @@ units:
           - 不把关停后的一次非交易告别亲密升级为恋爱、长期伴侣、稳定联系或预设职业终局。
       - heading: 当前结论
         value: 阿九的关系变化按“**阶段三连续三晚付费亲密 → 事后逐层吐露 → 第三晚崩溃 → C 档索取被拒绝并获得安抚 → 有限陈述与正式保护 → 阶段四关停决定及执行安排形成 → 个人赌债和云顶直接控制解除 → 云顶实体实际关停 → 主动告别邀约与共餐 → 一次非交易亲密 → 清醒分别并离开**”执行。此后城市、职业、住处、关系与是否重逢均保持开放，不再设置奶茶店重逢或持续私人回路。
-  - id: CON-0029
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0029
     truth_level: construction
     name: 私域递名、缴费与会员资格
     package: 云顶KTV会所线
@@ -2609,6 +2736,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/私域递名与会员资格.md
     registry_file: story/construction/_status/active.md
+    registry_line: 34
+    registry_quote: "| CON-0029 | [私域递名、缴费与会员资格施工](../云顶KTV会所线/私域递名与会员资格.md) | 副线 / 组织 / 云顶KTV | PL-S-097、PL-S-098 | 云顶稳定熟客阶段至私域会员资格取得 |  | 固定普通递名、本人缴费、正式会员资格与被动安全标记；首次进入由私人欲望触发，不等待白玥交底。 |"
     sections:
       - heading: 场景位置
         value: |-
@@ -2673,7 +2802,9 @@ units:
           - 不把被动标记写成读心、能力鉴定、准入资格、追加排查或白玥精神试探，也不让它取代公开身份与场所侧审核。
           - 不让晏林以野人户外名义报销私人消费，也不把公司资源转为私人调查资源。
           - 不以“后来用于调查”抹掉晏林最初真实存在的私人欲望。
-  - id: CON-0030
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0030
     truth_level: construction
     name: 白玥欲望余波、短暂缓冲与一周后管理局入案施工
     package: 白玥订单与倒卷线
@@ -2697,6 +2828,8 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/02_白玥欲望余波缓冲与一周后管理局入案.md
     registry_file: story/construction/_status/active.md
+    registry_line: 35
+    registry_quote: "| CON-0030 | [白玥欲望余波、短暂缓冲与一周后管理局入案施工](../白玥订单与倒卷线/02_白玥欲望余波缓冲与一周后管理局入案.md) | 亲密线 / 晏林 | PL-I-021、PL-I-053、PL-I-052、PL-I-051、PL-S-151、PL-S-152、PL-S-154、PL-S-155、PL-S-153 | 私域完整倒卷后约一周内 |  | 固定车内第一次、次日主动复选、约一周低压力互动与独立整理、本人入案、个人担保被否决、管理局提出方案、沈宁指定晏林种印与程序隔离；不提前完成后续证据核验和责任处置。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2789,7 +2922,9 @@ units:
           - 不让晏林代理汇报、筛选供词或凭私人关系成为唯一承办人。
           - 不让晏林的个人担保被正式接受；他可以成为种印者和有限安全提示接收者，但不能成为复核人、案件监管人或风险责任主体。
           - 白玥主动入案和种印后，责任处置、退出与长期关系确认仍分别推进。
-  - id: CON-0031
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0031
     truth_level: construction
     name: 私域首次游玩留宿与非付费共同兑现
     package: 云顶KTV会所线
@@ -2809,6 +2944,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/私域首次游玩留宿与非付费共同兑现.md
     registry_file: story/construction/_status/active.md
+    registry_line: 36
+    registry_quote: "| CON-0031 | [私域首次游玩留宿与非付费共同兑现施工](../云顶KTV会所线/私域首次游玩留宿与非付费共同兑现.md) | 亲密线 / 晏林 | PL-I-041、PL-S-099 | 阶段四 |  | 固定只有小鱼儿、悦悦同行的游玩、用餐、留宿、非付费无女女共同兑现与次日离开；悠悠、娜娜、阿九不进入本次行程。 |"
     sections:
       - heading: 场景位置
         value: |-
@@ -2843,7 +2980,9 @@ units:
           - 不安排小鱼儿与悦悦之间的女女身体互动，也不把无女女写成两人敌对、吃醋或互相回避。
           - 不把顾清言正式初遇、杨柳拒绝、白玥施术或裴怀民出现提前塞入本场。
           - 本场普通会所体验与私域另行存在的涉案经营分别成立，互不替代。
-  - id: CON-0032
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0032
     truth_level: construction
     name: 白玥入案后低暴露保护施工
     package: 白玥订单与倒卷线
@@ -2863,6 +3002,8 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/03_白玥入案后保护性转移与抓捕假象.md
     registry_file: story/construction/_status/active.md
+    registry_line: 37
+    registry_quote: "| CON-0032 | [白玥入案后低暴露保护施工](../白玥订单与倒卷线/03_白玥入案后保护性转移与抓捕假象.md) | 副线 / 人物 / 白玥 | PL-S-113 | 白玥入案程序完成后至相关官方行动前 |  | 以真实入案、程序隔离和保护选择已经完成为前置，固定低暴露保护、长期匿名联系停止响应、裴家错误归因与既有境外实验药剂转入国内；不制造抓捕假象，不让裴家确认管理局介入。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -2889,7 +3030,9 @@ units:
           - 不让管理局主动向裴家释放真假消息。
           - 不让白玥重新联系原专用匿名联系人取证、追索上游或充当诱饵。
           - 不用保护换取证言、亲密、种印同意或从宽。
-  - id: CON-0033
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0033
     truth_level: construction
     name: 乔宁亲密入梦、秘密介入与多次复选施工
     package: 乔宁独立线
@@ -2911,6 +3054,8 @@ units:
     content_indexed: true
     source_file: story/construction/乔宁独立线/01_乔宁行业私宴亲密入梦与多次复选.md
     registry_file: story/construction/_status/active.md
+    registry_line: 38
+    registry_quote: "| CON-0033 | [乔宁亲密入梦、秘密介入与多次复选施工](../乔宁独立线/01_乔宁行业私宴亲密入梦与多次复选.md) | 副线 / 人物 / 乔宁 | PL-I-042、PL-S-112、PL-S-272、PL-S-273、PL-S-274、PL-S-275、PL-I-092、PL-I-043 | 阶段四私宴选择、入梦、秘密调查与首次独立复选，至阶段五多次私人复选 |  | 固定乔宁主动入场、自愿亲密、破碎梦境、云梦号后管理局与警方秘密调查、阶段四一次独立复选及阶段五第二层责任／恢复回流关系；不承担艺人集体递交材料职责。 |"
     sections:
       - heading: 正文
         value: |-
@@ -2965,7 +3110,9 @@ units:
           - 不把多次关系写成固定服务、公司输送、私域排班、风归收编或等待转正。
       - heading: 当前结论
         value: 乔宁线按“**行业私宴主动接近 → 药效异常中索取但先行止损 → 恢复稳定后第一次清醒亲密 → 亲密后入梦 → 机密上送 → 助理记忆打开保护前八至十次暴露与公司内供 → 现实记录补强 → 乔宁知情保护 → 阶段四一次独立复选 → 阶段五多次私人复选 → 第二层责任／恢复回流伴侣关系**”执行。
-  - id: CON-0034
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0034
     truth_level: construction
     name: 风归熟客回流与逐次授权施工
     package: 风归熟客回流线
@@ -2986,6 +3133,8 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/01_风归熟客回流与逐次授权.md
     registry_file: story/construction/_status/active.md
+    registry_line: 39
+    registry_quote: "| CON-0034 | [风归熟客回流与逐次授权施工](../风归熟客回流线/01_风归熟客回流与逐次授权.md) | 副线 / 组织 / 风归 | PL-S-121、PL-S-127、PL-I-044、PL-I-045、PL-I-050 | 阶段四第一次止损后至会所组织调度结束与第二层回流转接 |  | 固定猫猫首位接待、甜甜及其他人员前期轮换、晏林不再换人、舒歆与言溪成为非付费固定主位、私密拍摄保密试探、真实职业缺席替补，以及主位结束后两人分别独立回流；同时关闭田恬、万芳的阶段接口，不承接钱韵职业后果。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -3038,7 +3187,9 @@ units:
           - 不让甜甜引导、训练或陪同楚辞入场；她只须早于楚辞出现，两人之间不建立因果依赖。
           - 不在会所阶段结束后调用田恬或万芳，也不为两人保留阶段外关系、客串或普通职业回声。
           - 不在本施工单元完成钱韵职业恢复、乔宁交叉、艺人显影或顾清言完整交底。
-  - id: CON-0035
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0035
     truth_level: construction
     name: 钱韵停排恢复、阶段内私人复选与关系完成施工
     package: 风归熟客回流线
@@ -3058,6 +3209,8 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/02_钱韵拒绝停排与有限恢复.md
     registry_file: story/construction/_status/active.md
+    registry_line: 40
+    registry_quote: "| CON-0035 | [钱韵停排恢复、阶段内私人复选与关系完成施工](../风归熟客回流线/02_钱韵拒绝停排与有限恢复.md) | 副线 / 人物 / 钱韵 | PL-S-268、PL-S-269、PL-S-270、PL-S-271、PL-I-093 | 阶段四，七日邮轮后，钱韵首次单次接受至阶段关系完成 |  | 固定第一次非付费接待、拒绝重复安排、三周停排、缺席、说情、公开工作恢复、现实间隔后的私人复选与阶段内有限复现，并在阶段结束后关闭全部出场接口；不把职业帮助写成亲密回报。 |"
     sections:
       - heading: 正文
         value: 本单元位于阶段四、七日邮轮结束后。风归回路前三个月只完成集中建立；钱韵的单次接待、拒绝、停排与恢复发生在固定主位转入低频回流之后，私人复选必须再经过独立现实间隔。
@@ -3096,7 +3249,9 @@ units:
           - 不让钱韵恢复公开工作自动启动乔宁交叉、公开作证或完整案件显影。
           - 不把私人复选写成钱韵偿还说情、证明感激或接受公司重新安排。
           - 不在阶段结束后为钱韵生成新的关系、职业回声或客串接口。
-  - id: CON-0036
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0036
     truth_level: construction
     name: 万安艺人压迫显影与秘密调查施工
     package: 万安艺人显影线
@@ -3120,6 +3275,8 @@ units:
     content_indexed: true
     source_file: story/construction/万安艺人显影线/01_万安艺人压迫显影与材料交叉.md
     registry_file: story/construction/_status/active.md
+    registry_line: 41
+    registry_quote: "| CON-0036 | [万安艺人压迫显影与秘密调查施工](../万安艺人显影线/01_万安艺人压迫显影与材料交叉.md) | 副线 / 组织 / 万安影视文化 | PL-S-114、PL-S-115、PL-S-118、PL-S-119、PL-S-265—PL-S-267、PL-S-243、PL-S-245—PL-S-252、PL-S-260、PL-S-261、PL-S-236—PL-S-240、PL-S-278—PL-S-287 | 阶段四乔宁保护后的万安调查扩展至阶段五万安责任、行动、托管与职业选择 |  | 承接乔宁个案已启动的双系统调查，固定管理局异常核验、警方现实调查、裴兰馨指令—助理执行—反馈链、公司内供与外部客户两条境内药剂渠道，以及侯瑞驰的现场医疗、低暴露保护和万安行动后自主选择；万安自身材料可独立启动行动。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -3205,7 +3362,9 @@ units:
           - 不让乔宁承担首批材料、全部名单、替同行作证或组织集体递交材料的职责。
           - 不把风归人员自动并入万安合同与责任链。
           - 不用托管、解约或复工作为所有当事人的统一恢复答案。
-  - id: CON-0037
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0037
     truth_level: construction
     name: 魏琳首次咨询、报警交接与复学收束施工
     package: 工作室咨询线
@@ -3226,6 +3385,8 @@ units:
     content_indexed: true
     source_file: story/construction/工作室咨询线/01_魏琳首次咨询与复学收束.md
     registry_file: story/construction/_status/active.md
+    registry_line: 42
+    registry_quote: "| CON-0037 | [魏琳首次咨询、报警交接与复学收束施工](../工作室咨询线/01_魏琳首次咨询与复学收束.md) | 副线 / 人物 / 魏琳 | PL-S-294—PL-S-297 | 阶段一首次咨询至阶段二复学收束 |  | 固定魏琳在教学楼顶楼目击坠亡、首次咨询、持续恢复、向父亲说明、本人报警、华靖接待、医院独立复诊评估与学校复学安排；不补她到达顶楼的时间和原因。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -3288,7 +3449,9 @@ units:
           - 不让晏林把梦境内容、咨询推断或能力读取交给警方充当事实证据。
           - 不写警方如何重新调查、调取材料、处理霸凌者或认定学校责任；事情进入正式程序即完成本场收束。
           - 不把本单元扩张为工作室普通运营权限或异常接待权限的完成证据；许知秋的 `PL-S-198`、`PL-S-199` 仍须由独立施工兑现。
-  - id: CON-0038
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0038
     truth_level: construction
     name: 言溪首次侍奉——貂蝉·马年限定 COS 战袍
     package: 风归熟客回流线
@@ -3323,6 +3486,8 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/03_言溪首次侍奉貂蝉战袍.md
     registry_file: story/construction/_status/active.md
+    registry_line: 44
+    registry_quote: "| CON-0038 | [言溪首次侍奉——貂蝉·马年限定 COS 战袍](../风归熟客回流线/03_言溪首次侍奉貂蝉战袍.md) | 亲密线 / 晏林 | PL-S-121、PL-I-045 | 阶段四风归熟客回流前期轮换段；言溪第一次面向晏林侍奉 |  | 固定一次性私人战袍及现实落地；不锁定具体身体流程、拍摄项目或后续复现频率。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -3470,7 +3635,9 @@ units:
         value: |-
           言溪第一次面向晏林侍奉的战袍固定为“**貂蝉·马年限定完整 COS**”。完整结构为“**乌黑高髻假发＋金黑红高冠＋红瞳花钿角色妆＋金色横向面饰＋黑金贴身上衣＋左侧红色大袖与圆形马纹主题件＋右侧白红脱肩袖＋红金长甲手饰＋白色红边金纹褶裥短内裙＋两侧红色外层裙片＋赤足**”。
           当前仍不锁定背面闭合、完整腰封和站立后的精确裙长；这些未知项不得覆盖视频中可确认的“红外白内、短裙、侧部开口、赤足”四个下身锚点。
-  - id: CON-0039
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0039
     truth_level: construction
     name: 岚隐山测试与套房公私切换
     package: 野人户外产品测试与中试议题线
@@ -3488,6 +3655,8 @@ units:
     content_indexed: true
     source_file: story/construction/野人户外产品测试与中试议题线/01_岚隐山测试与套房公私切换.md
     registry_file: story/construction/_status/active.md
+    registry_line: 45
+    registry_quote: "| CON-0039 | [岚隐山测试与套房公私切换](../野人户外产品测试与中试议题线/01_岚隐山测试与套房公私切换.md) | 副线 / 组织 / 野人户外 | PL-S-207、PL-S-208、PL-I-073、PL-I-027、PL-S-299 | 阶段一岚隐山户外测试、首次共同兑现、山地住宿回路建立及返程前皮蛋结契 |  | 出发前共同关系已经确认；固定白天完成测试、夜间先整理并备份数据，再切换到私人时间；返程前皮蛋目视真实星空结契，地点本身不具有特殊机制。 |"
     sections:
       - heading: 接口
         value: |-
@@ -3510,7 +3679,9 @@ units:
           - 不把当晚亲密写成公司任务、测试奖励或工作安排的一部分。
           - 不把皮蛋结契写成测试成果、岚隐山特殊机制或三人亲密产生的能力收益。
           - 不在本单元完成皮蛋对人类词音的适应或稳定传念沟通；该变化由 `PL-S-301` 跨越后续日常建立。
-  - id: CON-0040
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0040
     truth_level: construction
     name: 返程管理层复盘与中试议题
     package: 野人户外产品测试与中试议题线
@@ -3528,6 +3699,8 @@ units:
     content_indexed: true
     source_file: story/construction/野人户外产品测试与中试议题线/02_返程管理层复盘与中试议题.md
     registry_file: story/construction/_status/active.md
+    registry_line: 46
+    registry_quote: "| CON-0040 | [返程管理层复盘与中试议题](../野人户外产品测试与中试议题线/02_返程管理层复盘与中试议题.md) | 副线 / 组织 / 野人户外 | PL-S-209、PL-S-226、PL-S-227 | 阶段一返程管理层复盘与中试议题确认 |  | 固定先形成产品结论，再确认中试与质量控制缺口，最后暂缓重资产自建并保留租赁标准厂房评估。 |"
     sections:
       - heading: 接口
         value: |-
@@ -3546,7 +3719,9 @@ units:
         value: |-
           - 具体成本、厂房面积、设备清单、供应商、租期、地址、会议对白和最终投产日期。
           - 本次会议不提前兑现阶段五的租厂、建线和正式运行结果。
-  - id: CON-0041
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0041
     truth_level: construction
     name: 华靖告别、潜伏、证据移交与牺牲施工
     package: 反派控制与责任链
@@ -3566,6 +3741,8 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/03_华靖告别潜伏与证据移交.md
     registry_file: story/construction/_status/active.md
+    registry_line: 43
+    registry_quote: "| CON-0041 | [华靖告别、潜伏、证据移交与牺牲施工](../反派控制与责任链/03_华靖告别潜伏与证据移交.md) | 副线 / 人物 / 华靖 | PL-S-290、PL-S-291、PL-S-230—PL-S-235、PL-M-036、PL-M-048、PL-M-018、PL-M-037、PL-M-049 | 阶段四潜伏前告别至阶段五官方接手 |  | 固定夜宵告别、正式潜伏、十一人逃离、途中移交、华靖在接近大夏边境检查区前牺牲、三名幸存者返回保护及骨灰回鱼泉县；其材料先启动国内、跨境两线准备，国内齐陆及剩余六接口进入同一行动窗口、八接口统一验证后，再完成朱岑郁轴跨境闭合。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -3613,7 +3790,9 @@ units:
           - 不让顾清言、华靖或任一幸存者单独成为全知证人。
           - 不以警察牺牲自动完成反恐法律定性；只写行动等级因武装追击、袭警灭口、大量拘禁与紧迫风险共同升级。
           - 不在尾声重新展开电诈侦查过程。
-  - id: CON-0042
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0042
     truth_level: construction
     name: 第十一场｜秦瑶：白色解构衬衣与纯黑百褶超短裙
     package: 云顶KTV会所线
@@ -3641,6 +3820,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/13_秦瑶.md
     registry_file: story/construction/_status/active.md
+    registry_line: 47
+    registry_quote: "| CON-0042 | [第十一场｜秦瑶白色解构衬衣与纯黑百褶超短裙](../云顶KTV会所线/13_秦瑶.md) | 亲密线 / 晏林 | PL-I-090、PL-S-096 | 云顶 KTV 会所线第 11 次阿九第二晚单人亲密消费场及衣装 |  | 固定成年白衬衣夜装、真实包厢消费与有限亲密、迟疑后真实停止，以及重新选择后允许继续。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -3718,7 +3899,9 @@ units:
         value: |-
           云顶第 11 次单人亲密消费场、即阿九第二晚的衣装锁定为“**黑色长西装＋白色解构衬衣＋纯黑百褶超短裙＋薄黑丝袜＋黑色尖头高跟鞋**”。衣装从到场前已经穿好，包厢内通过解开、敞开或脱下西装完成公开移动与情趣服务状态的切换，不再携带额外情趣装或可撕丝袜模块。
           本场必须保留真实的开包、酒水／饮品、点歌和陪伴消费，允许在包厢内发生另行确认的有限亲密；是否离场及后续付费亲密另行决定。迟疑使动作真实停止，但阿九仍可以在重新辨认范围后说“没事，继续”，从而同时保住停止的真实性与她重新选择的权利。
-  - id: CON-0043
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0043
     truth_level: construction
     name: 第十二场｜秦瑶：深酒红蕾丝主体与暗红蕾丝袜
     package: 云顶KTV会所线
@@ -3746,6 +3929,8 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/14_秦瑶.md
     registry_file: story/construction/_status/active.md
+    registry_line: 48
+    registry_quote: "| CON-0043 | [第十二场｜秦瑶深酒红蕾丝主体与暗红蕾丝袜](../云顶KTV会所线/14_秦瑶.md) | 亲密线 / 晏林 | PL-I-091、PL-S-096 | 云顶 KTV 会所线第 12 次阿九第三晚单人亲密消费场及衣装 |  | 固定红色蕾丝主体到场前直接穿着、真实包厢消费与有限亲密；衣装流程先于事后吐露、崩溃与边界拒绝。 |"
     sections:
       - heading: 场次作用
         value: |-
@@ -3822,7 +4007,9 @@ units:
         value: |-
           云顶第 12 次单人亲密消费场、即阿九第三晚的衣装锁定为“**黑色长西装＋深酒红蕾丝连体／软束腰主体＋暗红蕾丝或细网大腿袜＋黑色吊袜带＋黑色尖头高跟鞋**”。红蕾丝主体与袜组在到场前已经穿好，公共移动只靠黑色长西装完成遮覆；进入包厢后解开、敞开或脱下西装即可进入情趣服务状态，不再携带或现场更换黑金外装。
           本场必须先完成真实的开包、酒水／饮品、点歌和陪伴消费，允许在包厢内发生另行确认的有限亲密；是否离场及后续付费亲密另行决定。衣装与职业训练全部发生在事后吐露和崩溃之前，后段只承接停止追问、拒绝 C 档伤害与普通安抚，不追加换装、撕毁或刺激升级。
-  - id: CON-0044
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0044
     truth_level: construction
     name: 境外园区接收、强迫用工与人员分层施工
     package: 反派控制与责任链
@@ -3841,6 +4028,8 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/04_境外园区接收强迫用工与人员分层.md
     registry_file: story/construction/_status/active.md
+    registry_line: 49
+    registry_quote: "| CON-0044 | [境外园区接收、强迫用工与人员分层施工](../反派控制与责任链/04_境外园区接收强迫用工与人员分层.md) | 副线 / 组织 / 境外电诈园区 | PL-S-241、PL-S-242、PL-S-228、PL-S-229 | 阶段四境外交接后至华靖正式潜伏前 |  | 固定不同公开入口汇入主园区、退出权被剥夺、技术岗与电销／线上转化岗分工、周博进入基层执行位置及高价值对象转入实验筛选方向；不承接阶段五处置升级和逃离。 |"
     sections:
       - heading: 使用边界
         value: |-
@@ -3871,7 +4060,9 @@ units:
           - 不以合同、护照、旅行安排或曾经同意工作推定持续拘禁和改派有效。
           - 不把周博统一写成纯粹受害者或纯粹经营者。
           - 不让园区经营责任、齐心的去向决定责任和裴家实验责任互相吸收。
-  - id: CON-0045
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0045
     truth_level: construction
     name: 晏林诱饵探查与裴家实验中心行动
     package: 反派控制与责任链
@@ -3890,6 +4081,8 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/05_晏林诱饵探查与裴家实验中心行动.md
     registry_file: story/construction/_status/active.md
+    registry_line: 50
+    registry_quote: "| CON-0045 | [晏林诱饵探查与裴家实验中心行动](../反派控制与责任链/05_晏林诱饵探查与裴家实验中心行动.md) | 主线 / 人物 / 晏林 | PL-M-050、PL-S-184—PL-S-186 | 阶段五八接口验证后至裴朱分轴责任闭合前 |  | 固定真实演唱会旅行、旅游端有限价值判断、两次改道、异常复筛、知心越阈、现实定位、裴怀安现场控制与姜禾获救的顺序。 |"
     sections:
       - heading: 使用范围
         value: |-
@@ -3921,7 +4114,9 @@ units:
           - 第一次转送建立计划仍可控的判断，二次改道快速缩短干预窗口。
           - 裴怀安亲自出现是样本价值升级的结果；知心示警是严重危险已经发生的结果。
           - 救援结束后立即转入医疗保护与现场保全，责任链在后续 `PL-S-186` 和 `PL-M-049` 中完成交叉闭合。
-  - id: CON-0046
+  - source_schema: construction.unit@0
+    registry_schema: construction.status-registry@0
+    id: CON-0046
     truth_level: construction
     name: 锦云山结契与最低必要揭密楔子施工
     package: 晏林双子星与管理局线
@@ -3941,6 +4136,8 @@ units:
     content_indexed: true
     source_file: story/construction/晏林双子星与管理局线/03_锦云山结契与最低必要揭密楔子.md
     registry_file: story/construction/_status/active.md
+    registry_line: 25
+    registry_quote: "| CON-0046 | [锦云山结契与最低必要揭密楔子施工](../晏林双子星与管理局线/03_锦云山结契与最低必要揭密楔子.md) | 副线 / 人物 / 晏林 | PL-S-303 | 楔子；未绑定具体章节 |  | 固定楔子止于第一次最低必要揭密与两人决定接受后续评估；不提前完成登记、能力复核、控制训练或星辰之桥。 |"
     sections:
       - heading: 执行目标
         value: 把两人的公共观星、分别结契、现实异常、公开救援接触和第一次最低必要揭密连成一条可演出的前史链，楔子结束于两人决定接受后续评估。

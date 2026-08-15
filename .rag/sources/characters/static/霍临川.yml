@@ -3,6 +3,7 @@ primary:
   - characters/minor/霍临川/主卡.md
   - characters/minor/霍临川/形象.md
   - characters/minor/霍临川/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

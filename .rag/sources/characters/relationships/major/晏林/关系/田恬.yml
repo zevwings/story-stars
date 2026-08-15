@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 田恬
+pair:
+  - 晏林
+  - 田恬
+source_path: characters/major/晏林/关系/田恬.md
+source_schema: character.relationship@0
+source_hash: "11eb785bb24a48c0a0f19dff7ac927a799a17b93a13f043e60463294ecf2e8f3"
+addresses:
+  - id: "address:name:晏林:田恬"
+    schema_version: 1
+    speaker: 晏林
+    target: 田恬
+    public_or_work: 甜甜；真实姓名公开后可称田恬
+    private_or_daily: 甜甜
+    notes: 正式姓名必须在已经公开的场景使用
+    source_path: characters/major/晏林/关系/田恬.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 晏林 → 田恬 | 甜甜；真实姓名公开后可称田恬 | 甜甜 | 正式姓名必须在已经公开的场景使用 |"
+    source_hash: "11eb785bb24a48c0a0f19dff7ac927a799a17b93a13f043e60463294ecf2e8f3"
+  - id: "address:name:田恬:晏林"
+    schema_version: 1
+    speaker: 田恬
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: HD 角色称呼与情欲自称另读 `intimacy/characters/晏林/田恬.md`；退出角色后恢复日常称呼
+    source_path: characters/major/晏林/关系/田恬.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 田恬 → 晏林 | 晏林 | 晏林 | HD 角色称呼与情欲自称另读 `intimacy/characters/晏林/田恬.md`；退出角色后恢复日常称呼 |"
+    source_hash: "11eb785bb24a48c0a0f19dff7ac927a799a17b93a13f043e60463294ecf2e8f3"

@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 周语棠
+pair:
+  - 晏林
+  - 周语棠
+source_path: characters/major/晏林/关系/周语棠.md
+source_schema: character.relationship@0
+source_hash: "64bec29bb12b13c1a7f3c6209ed23821b037a4dee9cbee67a6396df969a3a880"
+addresses:
+  - id: "address:name:晏林:周语棠"
+    schema_version: 1
+    speaker: 晏林
+    target: 周语棠
+    public_or_work: 海棠；知晓真名后可称周语棠
+    private_or_daily: 海棠
+    notes: 正式姓名必须在晏林已经知情的场景使用
+    source_path: characters/major/晏林/关系/周语棠.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 23
+    source_quote: "| 晏林 → 周语棠 | 海棠；知晓真名后可称周语棠 | 海棠 | 正式姓名必须在晏林已经知情的场景使用 |"
+    source_hash: "64bec29bb12b13c1a7f3c6209ed23821b037a4dee9cbee67a6396df969a3a880"
+  - id: "address:name:周语棠:晏林"
+    schema_version: 1
+    speaker: 周语棠
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: 不建立权力性固定称呼；HD 场景另读 `intimacy/characters/晏林/周语棠.md`
+    source_path: characters/major/晏林/关系/周语棠.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 周语棠 → 晏林 | 晏林 | 晏林 | 不建立权力性固定称呼；HD 场景另读 `intimacy/characters/晏林/周语棠.md` |"
+    source_hash: "64bec29bb12b13c1a7f3c6209ed23821b037a4dee9cbee67a6396df969a3a880"

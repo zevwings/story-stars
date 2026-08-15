@@ -5,6 +5,7 @@ primary:
   - characters/minor/华靖/衣装.md
 related:
   - characters/minor/华靖/关系/晏林.md
+source_schema: character.profile@0
 specialty_required_when:
   - 亲密
   - 双修

@@ -6,6 +6,7 @@ primary:
 related:
   - characters/minor/周景尧/关系/燕若淇.md
   - characters/minor/周景尧/关系/裴兰馨.md
+source_schema: character.profile@0
 specialty_required_when:
   - 亲密
   - 双修

@@ -4,6 +4,7 @@ primary:
   - characters/minor/温婉/形象.md
   - characters/minor/温婉/衣装.md
   - characters/minor/温婉/契约.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

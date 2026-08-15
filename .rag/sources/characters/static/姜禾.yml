@@ -1,6 +1,7 @@
 key: 姜禾
 primary:
   - characters/preentry/姜禾/主卡.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 预备人物

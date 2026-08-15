@@ -1,8 +1,11 @@
+aliases:
+  - 书书
 key: 钱韵
 primary:
   - characters/minor/钱韵/主卡.md
   - characters/minor/钱韵/形象.md
   - characters/minor/钱韵/衣装.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

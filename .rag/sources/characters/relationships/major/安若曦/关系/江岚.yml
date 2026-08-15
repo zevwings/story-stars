@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 安若曦 → 江岚
+pair:
+  - 安若曦
+  - 江岚
+source_path: characters/major/安若曦/关系/江岚.md
+source_schema: character.relationship@0
+source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"
+addresses:
+  - id: "address:name:安若曦:江岚"
+    schema_version: 1
+    speaker: 安若曦
+    target: 江岚
+    public_or_work: —
+    private_or_daily: —
+    notes: 尚未登记稳定称呼，不从恋人关系自动补昵称
+    source_path: characters/major/安若曦/关系/江岚.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 26
+    source_quote: "| 安若曦 → 江岚 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
+    source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"
+  - id: "address:name:江岚:安若曦"
+    schema_version: 1
+    speaker: 江岚
+    target: 安若曦
+    public_or_work: —
+    private_or_daily: —
+    notes: 尚未登记稳定称呼，不从恋人关系自动补昵称
+    source_path: characters/major/安若曦/关系/江岚.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 27
+    source_quote: "| 江岚 → 安若曦 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
+    source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"

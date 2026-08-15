@@ -4,6 +4,7 @@ primary:
   - characters/minor/齐心/形象.md
   - characters/minor/齐心/衣装.md
   - characters/minor/齐心/契约.md
+source_schema: character.profile@0
 status: confirmed
 tags:
   - 次要人物

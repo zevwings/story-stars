@@ -1,0 +1,37 @@
+version: 1
+type: character.relationship
+status: confirmed
+key: 晏林 → 赵梦娜
+pair:
+  - 晏林
+  - 赵梦娜
+source_path: characters/major/晏林/关系/赵梦娜.md
+source_schema: character.relationship@0
+source_hash: "9bccd91c9a12e2c72d23d2cee6bae1080cca47307e2192ea60c615d9802ac5c3"
+addresses:
+  - id: "address:name:晏林:赵梦娜"
+    schema_version: 1
+    speaker: 晏林
+    target: 赵梦娜
+    public_or_work: 赵梦娜
+    private_or_daily: 梦娜；赵梦娜
+    notes: 不以固定爱称制造共同生活或第一层位置错觉
+    source_path: characters/major/晏林/关系/赵梦娜.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 24
+    source_quote: "| 晏林 → 赵梦娜 | 赵梦娜 | 梦娜；赵梦娜 | 不以固定爱称制造共同生活或第一层位置错觉 |"
+    source_hash: "9bccd91c9a12e2c72d23d2cee6bae1080cca47307e2192ea60c615d9802ac5c3"
+  - id: "address:name:赵梦娜:晏林"
+    schema_version: 1
+    speaker: 赵梦娜
+    target: 晏林
+    public_or_work: 晏林
+    private_or_daily: 晏林
+    notes: 亲密变化主要落在语气、目光与距离
+    source_path: characters/major/晏林/关系/赵梦娜.md
+    source_schema: character.relationship@0
+    source_section: 称呼
+    source_line: 25
+    source_quote: "| 赵梦娜 → 晏林 | 晏林 | 晏林 | 亲密变化主要落在语气、目光与距离 |"
+    source_hash: "9bccd91c9a12e2c72d23d2cee6bae1080cca47307e2192ea60c615d9802ac5c3"
