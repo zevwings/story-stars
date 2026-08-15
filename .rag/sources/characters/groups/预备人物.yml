@@ -1,5 +1,10 @@
 key: 预备人物
 members:
+  - key: 依依
+    primary:
+      - characters/preentry/依依/主卡.md
+      - characters/preentry/依依/形象.md
+      - characters/preentry/依依/衣装.md
   - key: 姜姜
     primary:
       - characters/preentry/姜姜/主卡.md
@@ -78,11 +83,16 @@ members:
       - characters/preentry/蒋曼琳/主卡.md
       - characters/preentry/蒋曼琳/形象.md
       - characters/preentry/蒋曼琳/衣装.md
+  - key: 超越
+    primary:
+      - characters/preentry/超越/主卡.md
+      - characters/preentry/超越/形象.md
+      - characters/preentry/超越/衣装.md
   - key: 雯雯
     primary:
       - characters/preentry/雯雯/主卡.md
       - characters/preentry/雯雯/形象.md
       - characters/preentry/雯雯/衣装.md
-note: 共 17 人
+note: 共 19 人
 status: confirmed
 type: character.group

@@ -189,6 +189,9 @@ routes:
     key: 齐心
     static: characters/minor/齐心/主卡.md
   - character_id: ""
+    key: 依依
+    static: characters/preentry/依依/主卡.md
+  - character_id: ""
     key: 姜姜
     static: characters/preentry/姜姜/主卡.md
   - character_id: ""
@@ -236,6 +239,9 @@ routes:
   - character_id: ""
     key: 蒋曼琳
     static: characters/preentry/蒋曼琳/主卡.md
+  - character_id: ""
+    key: 超越
+    static: characters/preentry/超越/主卡.md
   - character_id: ""
     key: 雯雯
     static: characters/preentry/雯雯/主卡.md
