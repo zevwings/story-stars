@@ -62,3 +62,6 @@ temp/
 
 # 目录放行规则之后再次排除 macOS 元数据。
 .DS_Store
+
+# story-writer local RAG operation lock
+/.story.rag.lock
