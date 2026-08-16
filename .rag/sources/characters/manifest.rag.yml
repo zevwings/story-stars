@@ -228,6 +228,9 @@ routes:
     key: 灵儿
     static: characters/preentry/灵儿/主卡.md
   - character_id: ""
+    key: 琳琳
+    static: characters/preentry/琳琳/主卡.md
+  - character_id: ""
     key: 羲羲
     static: characters/preentry/羲羲/主卡.md
   - character_id: ""

@@ -40,6 +40,7 @@ routes:
       - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
+      - worldbuilding.organizations
   - examples:
       - 万安健康
       - 万安影视文化
@@ -101,6 +102,7 @@ routes:
       - 星辰之力
     file: systems.rag.yml
     types:
+      - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems

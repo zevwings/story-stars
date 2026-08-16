@@ -181,3 +181,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 星辰相性
+    type: worldbuilding.systems
+    aliases: []
+    primary:
+      - worldbuilding/systems/星辰相性.md
+    related:
+      - worldbuilding/systems/_index.md
+    tags:
+      - systems
+      - 星辰相性
+    status: confirmed
+    read_policy: primary_first
+    note: ""

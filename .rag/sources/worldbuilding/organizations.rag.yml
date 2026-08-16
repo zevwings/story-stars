@@ -285,3 +285,16 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 江州大学
+    type: worldbuilding.organizations
+    aliases: []
+    primary:
+      - worldbuilding/organizations/江州大学.md
+    related:
+      - worldbuilding/organizations/_index.md
+    tags:
+      - organizations
+      - 江州大学
+    status: confirmed
+    read_policy: primary_first
+    note: ""
