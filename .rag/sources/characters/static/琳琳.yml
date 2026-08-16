@@ -1,9 +1,10 @@
+character_id: CHR-0083
 key: 琳琳
 primary:
   - characters/preentry/琳琳/主卡.md
   - characters/preentry/琳琳/形象.md
   - characters/preentry/琳琳/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

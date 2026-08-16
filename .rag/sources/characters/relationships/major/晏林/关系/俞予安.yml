@@ -6,32 +6,36 @@ pair:
   - 晏林
   - 俞予安
 source_path: characters/major/晏林/关系/俞予安.md
-source_schema: character.relationship@0
-source_hash: "95090be270d1bbcca1b32af916a5abc6d81d2ffb0452d5b67f3c24d4729c7990"
+source_schema: character.relationship@1
+source_hash: "47f69c7fce7fb357475bb6ff298988dd6c63046503dd7e7d910973de4e4ef9ae"
 addresses:
-  - id: "address:name:晏林:俞予安"
+  - id: "address:CHR-0001:CHR-0052"
     schema_version: 1
+    speaker_id: CHR-0001
     speaker: 晏林
+    target_id: CHR-0052
     target: 俞予安
     public_or_work: —
     private_or_daily: —
     notes: 未登记稳定称呼
     source_path: characters/major/晏林/关系/俞予安.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 25
+    source_line: 27
     source_quote: "| 晏林 → 俞予安 | — | — | 未登记稳定称呼 |"
-    source_hash: "95090be270d1bbcca1b32af916a5abc6d81d2ffb0452d5b67f3c24d4729c7990"
-  - id: "address:name:俞予安:晏林"
+    source_hash: "47f69c7fce7fb357475bb6ff298988dd6c63046503dd7e7d910973de4e4ef9ae"
+  - id: "address:CHR-0052:CHR-0001"
     schema_version: 1
+    speaker_id: CHR-0052
     speaker: 俞予安
+    target_id: CHR-0001
     target: 晏林
     public_or_work: 晏林
     private_or_daily: 晏林
     notes: HD 角色称呼另读 `intimacy/characters/晏林/俞予安.md`；退出角色后恢复姓名与平等交流
     source_path: characters/major/晏林/关系/俞予安.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 26
+    source_line: 28
     source_quote: "| 俞予安 → 晏林 | 晏林 | 晏林 | HD 角色称呼另读 `intimacy/characters/晏林/俞予安.md`；退出角色后恢复姓名与平等交流 |"
-    source_hash: "95090be270d1bbcca1b32af916a5abc6d81d2ffb0452d5b67f3c24d4729c7990"
+    source_hash: "47f69c7fce7fb357475bb6ff298988dd6c63046503dd7e7d910973de4e4ef9ae"

@@ -1,9 +1,10 @@
+character_id: CHR-0021
 key: 朱岑郁
 primary:
   - characters/minor/朱岑郁/主卡.md
   - characters/minor/朱岑郁/形象.md
   - characters/minor/朱岑郁/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

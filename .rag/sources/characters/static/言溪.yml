@@ -1,11 +1,10 @@
-aliases:
-  - 梦露
+character_id: CHR-0045
 key: 言溪
 primary:
   - characters/minor/言溪/主卡.md
   - characters/minor/言溪/形象.md
   - characters/minor/言溪/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

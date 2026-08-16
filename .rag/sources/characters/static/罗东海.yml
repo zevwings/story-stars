@@ -1,10 +1,11 @@
+character_id: CHR-0025
 key: 罗东海
 primary:
   - characters/minor/罗东海/主卡.md
   - characters/minor/罗东海/形象.md
   - characters/minor/罗东海/衣装.md
   - characters/minor/罗东海/契约.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

@@ -1,3 +1,4 @@
+character_id: CHR-0001
 key: 晏林
 primary:
   - characters/major/晏林/主卡.md
@@ -32,7 +33,7 @@ related:
   - characters/major/晏林/关系/赵梦娜.md
   - characters/major/晏林/关系/钱韵.md
   - characters/major/晏林/关系/顾清言.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 specialty_required_when:
   - 亲密
   - 双修

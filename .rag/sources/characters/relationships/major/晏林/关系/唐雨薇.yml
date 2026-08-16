@@ -6,32 +6,36 @@ pair:
   - 晏林
   - 唐雨薇
 source_path: characters/major/晏林/关系/唐雨薇.md
-source_schema: character.relationship@0
-source_hash: "77e46450916750b1c1adae0eccbfeee79f36ac0eb886acb3a5bddadfb15d4741"
+source_schema: character.relationship@1
+source_hash: a2ed0733e1f5f7e91e5947847a9f2df491f58cf3101e79d3e80c927bf3eaa0d4
 addresses:
-  - id: "address:name:晏林:唐雨薇"
+  - id: "address:CHR-0001:CHR-0006"
     schema_version: 1
+    speaker_id: CHR-0001
     speaker: 晏林
+    target_id: CHR-0006
     target: 唐雨薇
     public_or_work: —
     private_or_daily: —
     notes: 未登记稳定称呼
     source_path: characters/major/晏林/关系/唐雨薇.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 26
+    source_line: 28
     source_quote: "| 晏林 → 唐雨薇 | — | — | 未登记稳定称呼 |"
-    source_hash: "77e46450916750b1c1adae0eccbfeee79f36ac0eb886acb3a5bddadfb15d4741"
-  - id: "address:name:唐雨薇:晏林"
+    source_hash: a2ed0733e1f5f7e91e5947847a9f2df491f58cf3101e79d3e80c927bf3eaa0d4
+  - id: "address:CHR-0006:CHR-0001"
     schema_version: 1
+    speaker_id: CHR-0006
     speaker: 唐雨薇
+    target_id: CHR-0001
     target: 晏林
     public_or_work: 晏林
     private_or_daily: 晏林
     notes: 不设甜腻型固定昵称；真正做出选择时直接叫全名，不用玩笑留退路
     source_path: characters/major/晏林/关系/唐雨薇.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 27
+    source_line: 29
     source_quote: "| 唐雨薇 → 晏林 | 晏林 | 晏林 | 不设甜腻型固定昵称；真正做出选择时直接叫全名，不用玩笑留退路 |"
-    source_hash: "77e46450916750b1c1adae0eccbfeee79f36ac0eb886acb3a5bddadfb15d4741"
+    source_hash: a2ed0733e1f5f7e91e5947847a9f2df491f58cf3101e79d3e80c927bf3eaa0d4

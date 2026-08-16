@@ -6,32 +6,36 @@ pair:
   - 安若曦
   - 江岚
 source_path: characters/major/安若曦/关系/江岚.md
-source_schema: character.relationship@0
-source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"
+source_schema: character.relationship@1
+source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"
 addresses:
-  - id: "address:name:安若曦:江岚"
+  - id: "address:CHR-0002:CHR-0004"
     schema_version: 1
+    speaker_id: CHR-0002
     speaker: 安若曦
+    target_id: CHR-0004
     target: 江岚
     public_or_work: —
     private_or_daily: —
     notes: 尚未登记稳定称呼，不从恋人关系自动补昵称
     source_path: characters/major/安若曦/关系/江岚.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 26
+    source_line: 28
     source_quote: "| 安若曦 → 江岚 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
-    source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"
-  - id: "address:name:江岚:安若曦"
+    source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"
+  - id: "address:CHR-0004:CHR-0002"
     schema_version: 1
+    speaker_id: CHR-0004
     speaker: 江岚
+    target_id: CHR-0002
     target: 安若曦
     public_or_work: —
     private_or_daily: —
     notes: 尚未登记稳定称呼，不从恋人关系自动补昵称
     source_path: characters/major/安若曦/关系/江岚.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 27
+    source_line: 29
     source_quote: "| 江岚 → 安若曦 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
-    source_hash: "3e332d268a45e8b3fd720a0898978aea85b17b435b81dc1d863268fee4924988"
+    source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"

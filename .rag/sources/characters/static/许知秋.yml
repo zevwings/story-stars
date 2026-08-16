@@ -1,9 +1,10 @@
+character_id: CHR-0008
 key: 许知秋
 primary:
   - characters/major/许知秋/主卡.md
   - characters/major/许知秋/形象.md
   - characters/major/许知秋/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 主要人物

@@ -1,9 +1,10 @@
+character_id: CHR-0046
 key: 郑文悦
 primary:
   - characters/minor/郑文悦/主卡.md
   - characters/minor/郑文悦/形象.md
   - characters/minor/郑文悦/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

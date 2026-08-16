@@ -1,7 +1,8 @@
+character_id: CHR-0032
 key: 周博
 primary:
   - characters/minor/周博/主卡.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

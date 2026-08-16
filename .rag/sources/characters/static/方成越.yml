@@ -1,9 +1,10 @@
+character_id: CHR-0024
 key: 方成越
 primary:
   - characters/minor/方成越/主卡.md
   - characters/minor/方成越/形象.md
   - characters/minor/方成越/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

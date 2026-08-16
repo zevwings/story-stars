@@ -1,9 +1,10 @@
+character_id: CHR-0077
 key: 慧慧
 primary:
   - characters/preentry/慧慧/主卡.md
   - characters/preentry/慧慧/形象.md
   - characters/preentry/慧慧/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

@@ -1,11 +1,10 @@
-aliases:
-  - 悠悠
+character_id: CHR-0056
 key: 宁悠悠
 primary:
   - characters/minor/宁悠悠/主卡.md
   - characters/minor/宁悠悠/形象.md
   - characters/minor/宁悠悠/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

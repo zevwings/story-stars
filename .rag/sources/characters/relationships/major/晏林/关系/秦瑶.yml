@@ -6,32 +6,36 @@ pair:
   - 晏林
   - 秦瑶
 source_path: characters/major/晏林/关系/秦瑶.md
-source_schema: character.relationship@0
-source_hash: "125c63cb4a014ebaa13d84560c201f4c4e3f33cb4ce39dcfc90a108582b397f7"
+source_schema: character.relationship@1
+source_hash: eb64d0d4b659570b045bf95d77c1ee7accd2f36055736d0f0ddd00743638dd3a
 addresses:
-  - id: "address:name:晏林:秦瑶"
+  - id: "address:CHR-0001:CHR-0050"
     schema_version: 1
+    speaker_id: CHR-0001
     speaker: 晏林
+    target_id: CHR-0050
     target: 秦瑶
     public_or_work: —
     private_or_daily: —
     notes: 未登记普通稳定称呼
     source_path: characters/major/晏林/关系/秦瑶.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 24
+    source_line: 26
     source_quote: "| 晏林 → 秦瑶 | — | — | 未登记普通稳定称呼 |"
-    source_hash: "125c63cb4a014ebaa13d84560c201f4c4e3f33cb4ce39dcfc90a108582b397f7"
-  - id: "address:name:秦瑶:晏林"
+    source_hash: eb64d0d4b659570b045bf95d77c1ee7accd2f36055736d0f0ddd00743638dd3a
+  - id: "address:CHR-0050:CHR-0001"
     schema_version: 1
+    speaker_id: CHR-0050
     speaker: 秦瑶
+    target_id: CHR-0001
     target: 晏林
     public_or_work: —
     private_or_daily: —
     notes: 云顶服务称呼与情欲自称属于 HD 身份层，另读 `intimacy/characters/晏林/秦瑶.md`；不得推出永久从属
     source_path: characters/major/晏林/关系/秦瑶.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 25
+    source_line: 27
     source_quote: "| 秦瑶 → 晏林 | — | — | 云顶服务称呼与情欲自称属于 HD 身份层，另读 `intimacy/characters/晏林/秦瑶.md`；不得推出永久从属 |"
-    source_hash: "125c63cb4a014ebaa13d84560c201f4c4e3f33cb4ce39dcfc90a108582b397f7"
+    source_hash: eb64d0d4b659570b045bf95d77c1ee7accd2f36055736d0f0ddd00743638dd3a

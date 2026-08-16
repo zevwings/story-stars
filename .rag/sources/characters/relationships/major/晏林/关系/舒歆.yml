@@ -6,32 +6,36 @@ pair:
   - 晏林
   - 舒歆
 source_path: characters/major/晏林/关系/舒歆.md
-source_schema: character.relationship@0
-source_hash: "44af686f29f01a1065ef05b757a7700e4c391484ac65bc5e7357c84a4724fdb4"
+source_schema: character.relationship@1
+source_hash: f303ea2089a3929cd652215d92a3c0c2656302808e39397f77f61b0ec29fdc9d
 addresses:
-  - id: "address:name:晏林:舒歆"
+  - id: "address:CHR-0001:CHR-0055"
     schema_version: 1
+    speaker_id: CHR-0001
     speaker: 晏林
+    target_id: CHR-0055
     target: 舒歆
     public_or_work: 猫猫；知晓真名后可称舒歆
     private_or_daily: 猫猫
     notes: 正式姓名必须在晏林已经知情的场景使用
     source_path: characters/major/晏林/关系/舒歆.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 25
+    source_line: 27
     source_quote: "| 晏林 → 舒歆 | 猫猫；知晓真名后可称舒歆 | 猫猫 | 正式姓名必须在晏林已经知情的场景使用 |"
-    source_hash: "44af686f29f01a1065ef05b757a7700e4c391484ac65bc5e7357c84a4724fdb4"
-  - id: "address:name:舒歆:晏林"
+    source_hash: f303ea2089a3929cd652215d92a3c0c2656302808e39397f77f61b0ec29fdc9d
+  - id: "address:CHR-0055:CHR-0001"
     schema_version: 1
+    speaker_id: CHR-0055
     speaker: 舒歆
+    target_id: CHR-0001
     target: 晏林
     public_or_work: 晏林
     private_or_daily: 晏林
     notes: 无固定权力称呼
     source_path: characters/major/晏林/关系/舒歆.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 26
+    source_line: 28
     source_quote: "| 舒歆 → 晏林 | 晏林 | 晏林 | 无固定权力称呼 |"
-    source_hash: "44af686f29f01a1065ef05b757a7700e4c391484ac65bc5e7357c84a4724fdb4"
+    source_hash: f303ea2089a3929cd652215d92a3c0c2656302808e39397f77f61b0ec29fdc9d

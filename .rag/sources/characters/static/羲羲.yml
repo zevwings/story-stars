@@ -1,9 +1,10 @@
+character_id: CHR-0076
 key: 羲羲
 primary:
   - characters/preentry/羲羲/主卡.md
   - characters/preentry/羲羲/形象.md
   - characters/preentry/羲羲/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

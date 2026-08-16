@@ -1,10 +1,11 @@
+character_id: CHR-0039
 key: 裴兰馨
 primary:
   - characters/minor/裴兰馨/主卡.md
   - characters/minor/裴兰馨/形象.md
   - characters/minor/裴兰馨/衣装.md
   - characters/minor/裴兰馨/契约.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

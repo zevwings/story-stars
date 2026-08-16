@@ -1,9 +1,10 @@
+character_id: CHR-0073
 key: 雯雯
 primary:
   - characters/preentry/雯雯/主卡.md
   - characters/preentry/雯雯/形象.md
   - characters/preentry/雯雯/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

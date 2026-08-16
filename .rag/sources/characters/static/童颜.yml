@@ -1,9 +1,10 @@
+character_id: CHR-0010
 key: 童颜
 primary:
   - characters/major/童颜/主卡.md
   - characters/major/童颜/形象.md
   - characters/major/童颜/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 主要人物

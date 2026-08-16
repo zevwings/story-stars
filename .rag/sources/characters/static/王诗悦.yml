@@ -1,11 +1,10 @@
-aliases:
-  - 悦悦
+character_id: CHR-0049
 key: 王诗悦
 primary:
   - characters/minor/王诗悦/主卡.md
   - characters/minor/王诗悦/形象.md
   - characters/minor/王诗悦/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

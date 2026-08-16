@@ -1,10 +1,11 @@
+character_id: CHR-0009
 key: 白玥
 primary:
   - characters/major/白玥/主卡.md
   - characters/major/白玥/形象.md
   - characters/major/白玥/衣装.md
   - characters/major/白玥/契约.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 主要人物

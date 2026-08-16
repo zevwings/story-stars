@@ -1,11 +1,10 @@
-aliases:
-  - 盈盈
+character_id: CHR-0057
 key: 孔蔓盈
 primary:
   - characters/minor/孔蔓盈/主卡.md
   - characters/minor/孔蔓盈/形象.md
   - characters/minor/孔蔓盈/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

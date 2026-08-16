@@ -1,9 +1,10 @@
+character_id: CHR-0054
 key: 燕若淇
 primary:
   - characters/minor/燕若淇/主卡.md
   - characters/minor/燕若淇/形象.md
   - characters/minor/燕若淇/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

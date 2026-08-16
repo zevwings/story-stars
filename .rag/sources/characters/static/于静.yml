@@ -1,11 +1,10 @@
-aliases:
-  - 静姐
+character_id: CHR-0051
 key: 于静
 primary:
   - characters/minor/于静/主卡.md
   - characters/minor/于静/形象.md
   - characters/minor/于静/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

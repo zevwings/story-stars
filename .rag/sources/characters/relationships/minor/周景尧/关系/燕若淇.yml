@@ -6,32 +6,36 @@ pair:
   - 周景尧
   - 燕若淇
 source_path: characters/minor/周景尧/关系/燕若淇.md
-source_schema: character.relationship@0
-source_hash: "41de92a60cf214e593900470a7a214df5180a67b56b1746f6676acc84dc22192"
+source_schema: character.relationship@1
+source_hash: "0ba1f3250f969892ba139ce0d88a6d2aff07fdebc2b2a7066f4bbb6ea3a99d48"
 addresses:
-  - id: "address:name:周景尧:燕若淇"
+  - id: "address:CHR-0030:CHR-0054"
     schema_version: 1
+    speaker_id: CHR-0030
     speaker: 周景尧
+    target_id: CHR-0054
     target: 燕若淇
     public_or_work: —
     private_or_daily: —
     notes: 尚未登记稳定称呼，不从现实恋人关系自动补昵称
     source_path: characters/minor/周景尧/关系/燕若淇.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 24
+    source_line: 26
     source_quote: "| 周景尧 → 燕若淇 | — | — | 尚未登记稳定称呼，不从现实恋人关系自动补昵称 |"
-    source_hash: "41de92a60cf214e593900470a7a214df5180a67b56b1746f6676acc84dc22192"
-  - id: "address:name:燕若淇:周景尧"
+    source_hash: "0ba1f3250f969892ba139ce0d88a6d2aff07fdebc2b2a7066f4bbb6ea3a99d48"
+  - id: "address:CHR-0054:CHR-0030"
     schema_version: 1
+    speaker_id: CHR-0054
     speaker: 燕若淇
+    target_id: CHR-0030
     target: 周景尧
     public_or_work: —
     private_or_daily: —
     notes: 尚未登记稳定称呼，不从现实恋人关系自动补昵称
     source_path: characters/minor/周景尧/关系/燕若淇.md
-    source_schema: character.relationship@0
+    source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 25
+    source_line: 27
     source_quote: "| 燕若淇 → 周景尧 | — | — | 尚未登记稳定称呼，不从现实恋人关系自动补昵称 |"
-    source_hash: "41de92a60cf214e593900470a7a214df5180a67b56b1746f6676acc84dc22192"
+    source_hash: "0ba1f3250f969892ba139ce0d88a6d2aff07fdebc2b2a7066f4bbb6ea3a99d48"

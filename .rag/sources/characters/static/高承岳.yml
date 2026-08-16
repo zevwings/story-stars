@@ -1,9 +1,10 @@
+character_id: CHR-0023
 key: 高承岳
 primary:
   - characters/minor/高承岳/主卡.md
   - characters/minor/高承岳/形象.md
   - characters/minor/高承岳/衣装.md
-source_schema: character.profile@0
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物
