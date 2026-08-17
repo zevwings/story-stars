@@ -4,7 +4,29 @@ primary:
   - characters/minor/何雯娜/主卡.md
   - characters/minor/何雯娜/形象.md
   - characters/minor/何雯娜/衣装.md
+related:
+  - characters/minor/何雯娜/衣装/黑色吊带抹胸水洗牛仔短裙.md
 source_schema: character.profile@1
+specialty_required_when:
+  - 亲密
+  - 双修
+  - 吻
+  - 身体回应
+  - 尺度
+  - 暧昧
+  - 回房
+  - 成年
+  - HD
+  - A场
+  - B场
+  - 胁迫
+  - 受害方失衡
+  - SM
+  - BDSM
+  - 共鸣
+  - 星辰契约同步
+  - 欲望显影
+  - 星庭共居
 status: confirmed
 tags:
   - 次要人物

@@ -1,0 +1,17 @@
+id: "outfit:CHR-0050:深酒红蕾丝暗红丝袜组"
+schema_version: 1
+type: character.outfit
+status: confirmed
+key: 秦瑶/深酒红蕾丝暗红丝袜组
+owner_id: CHR-0050
+owner: 秦瑶
+name: 深酒红蕾丝暗红丝袜组
+category: 私人造型
+owner_variant: 深酒红蕾丝、透网腰身、暗红蕾丝大腿袜
+usage: 核心的成熟私人造型
+source_path: characters/minor/秦瑶/衣装/深酒红蕾丝暗红丝袜组.md
+index_path: characters/minor/秦瑶/衣装/_index.md
+source_schema: character.outfit-index@1
+source_line: 11
+source_quote: "| [深酒红蕾丝暗红丝袜组](深酒红蕾丝暗红丝袜组.md) | 私人造型 | 深酒红蕾丝、透网腰身、暗红蕾丝大腿袜 | 核心的成熟私人造型 |"
+source_hash: "152a00421736499039b643326174abd47389e6f383c99b2f60c419fa1ad6790f"

@@ -1,0 +1,17 @@
+id: "outfit:CHR-0052:黑白轻量女仆双人装"
+schema_version: 1
+type: character.outfit
+status: confirmed
+key: 俞予安/黑白轻量女仆双人装
+owner_id: CHR-0052
+owner: 俞予安
+name: 黑白轻量女仆双人装
+category: 情趣／双人主题
+owner_variant: 本人量体制作的黑白女仆短裙
+usage: 轻量私域角色主题
+source_path: characters/minor/俞予安/衣装/黑白轻量女仆双人装.md
+index_path: characters/minor/俞予安/衣装/_index.md
+source_schema: character.outfit-index@1
+source_line: 12
+source_quote: "| [黑白轻量女仆双人装](黑白轻量女仆双人装.md) | 情趣／双人主题 | 本人量体制作的黑白女仆短裙 | 轻量私域角色主题 |"
+source_hash: b57f99d375114b069882dda58de2e2e4b1ac6c180bae6c815e1c8a1f8cb28bb4

@@ -7,7 +7,7 @@ pair:
   - 童颜
 source_path: characters/major/晏林/关系/童颜.md
 source_schema: character.relationship@1
-source_hash: "205f8f3d8cbce938351b86f044129e801dff2622c3fef9d69b55bb007cf6a900"
+source_hash: a8cbafebf730411898478f973abb65c07aff653bff7783903c2f6d6c22aefba0
 addresses:
   - id: "address:CHR-0001:CHR-0010"
     schema_version: 1
@@ -15,27 +15,27 @@ addresses:
     speaker: 晏林
     target_id: CHR-0010
     target: 童颜
-    public_or_work: —
-    private_or_daily: —
-    notes: 未登记稳定称呼
+    public_or_work: 童颜
+    private_or_daily: 童颜；其他称呼按正文自然形成
+    notes: 不用“小孩、学生妹”等低龄称谓制造张力
     source_path: characters/major/晏林/关系/童颜.md
     source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 26
-    source_quote: "| 晏林 → 童颜 | — | — | 未登记稳定称呼 |"
-    source_hash: "205f8f3d8cbce938351b86f044129e801dff2622c3fef9d69b55bb007cf6a900"
+    source_line: 27
+    source_quote: "| 晏林 → 童颜 | 童颜 | 童颜；其他称呼按正文自然形成 | 不用“小孩、学生妹”等低龄称谓制造张力 |"
+    source_hash: a8cbafebf730411898478f973abb65c07aff653bff7783903c2f6d6c22aefba0
   - id: "address:CHR-0010:CHR-0001"
     schema_version: 1
     speaker_id: CHR-0010
     speaker: 童颜
     target_id: CHR-0001
     target: 晏林
-    public_or_work: 哥哥
-    private_or_daily: 爸爸（求安全）；晏林；“亲爱的”可偶发打趣
-    notes: “爸爸”起源于安全依恋，非父女关系；清醒表达欲望或停止时可直接叫晏林；“老公”永不出现。情趣性的“爸爸／主人”另读 `intimacy/characters/晏林/童颜.md`
+    public_or_work: 晏林／哥哥
+    private_or_daily: 晏林；哥哥可保留
+    notes: 称呼不形成监护、父女结构或身体许可；深色情趣称呼只在独立关系与专项卡内逐次成立
     source_path: characters/major/晏林/关系/童颜.md
     source_schema: character.relationship@1
     source_section: 称呼
-    source_line: 27
-    source_quote: "| 童颜 → 晏林 | 哥哥 | 爸爸（求安全）；晏林；“亲爱的”可偶发打趣 | “爸爸”起源于安全依恋，非父女关系；清醒表达欲望或停止时可直接叫晏林；“老公”永不出现。情趣性的“爸爸／主人”另读 `intimacy/characters/晏林/童颜.md` |"
-    source_hash: "205f8f3d8cbce938351b86f044129e801dff2622c3fef9d69b55bb007cf6a900"
+    source_line: 28
+    source_quote: "| 童颜 → 晏林 | 晏林／哥哥 | 晏林；哥哥可保留 | 称呼不形成监护、父女结构或身体许可；深色情趣称呼只在独立关系与专项卡内逐次成立 |"
+    source_hash: a8cbafebf730411898478f973abb65c07aff653bff7783903c2f6d6c22aefba0
