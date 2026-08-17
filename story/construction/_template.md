@@ -1,5 +1,6 @@
 # CON-xxxx｜施工单元名称
 
+<!-- 文件名：CON-xxxx-{简短名称}.md -->
 <!-- sw-schema: construction.unit@1 -->
 
 > 本文件只保存作者已经确认、写作时必须继承的执行规格；生命周期状态仅在 `_status/` 登记。
