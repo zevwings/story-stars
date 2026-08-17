@@ -212,9 +212,6 @@ routes:
   - character_id: CHR-0077
     key: 慧慧
     static: characters/preentry/慧慧/主卡.md
-  - character_id: CHR-0072
-    key: 星澜
-    static: characters/preentry/星澜/主卡.md
   - character_id: CHR-0067
     key: 晓彤
     static: characters/preentry/晓彤/主卡.md

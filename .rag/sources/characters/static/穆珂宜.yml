@@ -2,6 +2,8 @@ character_id: CHR-0063
 key: 穆珂宜
 primary:
   - characters/minor/穆珂宜/主卡.md
+  - characters/minor/穆珂宜/形象.md
+  - characters/minor/穆珂宜/衣装.md
 source_schema: character.profile@1
 status: confirmed
 tags:
