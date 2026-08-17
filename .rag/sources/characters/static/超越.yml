@@ -1,0 +1,11 @@
+character_id: CHR-0082
+key: 超越
+primary:
+  - characters/preentry/超越/主卡.md
+  - characters/preentry/超越/形象.md
+  - characters/preentry/超越/衣装.md
+source_schema: character.profile@1
+status: confirmed
+tags:
+  - 预备人物
+type: character.static

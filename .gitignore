@@ -23,6 +23,10 @@
 claude-mem-*.tgz
 _mem/mem-*.md
 
+# Grok and Qwen local metadata
+/.grok/
+/.qwen/
+
 # Python local caches
 __pycache__/
 *.pyc
@@ -62,3 +66,6 @@ temp/
 
 # 目录放行规则之后再次排除 macOS 元数据。
 .DS_Store
+
+# story-writer local RAG operation lock
+/.story.rag.lock

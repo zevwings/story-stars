@@ -1,9 +1,11 @@
+character_id: CHR-0006
 key: 唐雨薇
 primary:
   - characters/major/唐雨薇/主卡.md
   - characters/major/唐雨薇/形象.md
   - characters/major/唐雨薇/衣装.md
   - characters/major/唐雨薇/契约.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 主要人物

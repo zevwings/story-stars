@@ -1,0 +1,11 @@
+character_id: CHR-0078
+key: 苒苒
+primary:
+  - characters/preentry/苒苒/主卡.md
+  - characters/preentry/苒苒/形象.md
+  - characters/preentry/苒苒/衣装.md
+source_schema: character.profile@1
+status: confirmed
+tags:
+  - 预备人物
+type: character.static

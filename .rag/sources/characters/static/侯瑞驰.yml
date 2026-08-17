@@ -1,8 +1,10 @@
+character_id: CHR-0027
 key: 侯瑞驰
 primary:
   - characters/minor/侯瑞驰/主卡.md
   - characters/minor/侯瑞驰/形象.md
   - characters/minor/侯瑞驰/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

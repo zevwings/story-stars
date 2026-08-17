@@ -12,12 +12,16 @@ routes:
       - faction
   - examples:
       - 云顶 KTV
+      - 京城大学
       - 兔子快递
       - 兰纳安吉旅游集团
       - 心动酒吧
-      - 星辰监管所
     file: organizations.rag.yml
     types:
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
+      - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
       - worldbuilding.organizations
@@ -74,6 +78,7 @@ routes:
       - place
       - place
       - place
+      - place
   - examples:
       - 伴侣与关系形态
       - 保密与公开性
@@ -90,13 +95,15 @@ routes:
       - state
       - state
   - examples:
+      - 夺契与残契
       - 契约自知
       - 战斗规则
       - 时代背景
       - 星辰之力
-      - 星辰之印
     file: systems.rag.yml
     types:
+      - worldbuilding.systems
+      - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems
       - worldbuilding.systems

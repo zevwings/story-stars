@@ -1,8 +1,10 @@
+character_id: CHR-0043
 key: 黄锦一
 primary:
   - characters/minor/黄锦一/主卡.md
   - characters/minor/黄锦一/形象.md
   - characters/minor/黄锦一/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

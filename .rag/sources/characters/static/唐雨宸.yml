@@ -1,8 +1,10 @@
+character_id: CHR-0013
 key: 唐雨宸
 primary:
   - characters/minor/唐雨宸/主卡.md
   - characters/minor/唐雨宸/形象.md
   - characters/minor/唐雨宸/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

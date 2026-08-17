@@ -1,0 +1,17 @@
+id: "outfit:CHR-0048:黑色吊带抹胸水洗牛仔短裙"
+schema_version: 1
+type: character.outfit
+status: confirmed
+key: 何雯娜/黑色吊带抹胸水洗牛仔短裙
+owner_id: CHR-0048
+owner: 何雯娜
+name: 黑色吊带抹胸水洗牛仔短裙
+category: 日常／夜间社交
+owner_variant: 黑色短抹胸＋烟灰罩衫＋水洗牛仔短裙
+usage: “黑色主动”方向的核心个人夜装
+source_path: characters/minor/何雯娜/衣装/黑色吊带抹胸水洗牛仔短裙.md
+index_path: characters/minor/何雯娜/衣装/_index.md
+source_schema: character.outfit-index@1
+source_line: 9
+source_quote: "| [黑色吊带抹胸水洗牛仔短裙](黑色吊带抹胸水洗牛仔短裙.md) | 日常／夜间社交 | 黑色短抹胸＋烟灰罩衫＋水洗牛仔短裙 | “黑色主动”方向的核心个人夜装 |"
+source_hash: a4df137cb9e6ed1250affdca0ee0199d95bff0fc0ea5477082bb73cbfac48cd6

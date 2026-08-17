@@ -1,8 +1,10 @@
+character_id: CHR-0058
 key: 周语棠
 primary:
   - characters/minor/周语棠/主卡.md
   - characters/minor/周语棠/形象.md
   - characters/minor/周语棠/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

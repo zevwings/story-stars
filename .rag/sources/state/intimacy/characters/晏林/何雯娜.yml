@@ -49,6 +49,26 @@
       "entity": "何雯娜",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**何雯娜称晏林**",
+      "value": "当次明确进入权力角色后可称“主人”；她会先确认称呼从何时开始、何时退出。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "何雯娜",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "降格自称与“主人”分别确认，不由职业配合或 C 档自动推出；退出角色后恢复关系档中的日常称呼。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "何雯娜",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "按本人的日常整理习惯修剪得干练整洁，不与学校、兼职或当次服务绑定。",

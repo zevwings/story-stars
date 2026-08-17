@@ -1,3 +1,4 @@
+character_id: CHR-0001
 key: 晏林
 primary:
   - characters/major/晏林/主卡.md
@@ -5,6 +6,7 @@ primary:
   - characters/major/晏林/衣装.md
   - characters/major/晏林/契约.md
 related:
+  - characters/major/晏林/亲密基线.md
   - characters/major/晏林/关系/万芳.md
   - characters/major/晏林/关系/乔宁.md
   - characters/major/晏林/关系/何雯娜.md
@@ -15,7 +17,6 @@ related:
   - characters/major/晏林/关系/宁悠悠.md
   - characters/major/晏林/关系/安若曦.md
   - characters/major/晏林/关系/景雪瑶.md
-  - characters/major/晏林/关系/本人基线.md
   - characters/major/晏林/关系/楚辞.md
   - characters/major/晏林/关系/江岚.md
   - characters/major/晏林/关系/王诗悦.md
@@ -32,6 +33,7 @@ related:
   - characters/major/晏林/关系/赵梦娜.md
   - characters/major/晏林/关系/钱韵.md
   - characters/major/晏林/关系/顾清言.md
+source_schema: character.profile@1
 specialty_required_when:
   - 亲密
   - 双修

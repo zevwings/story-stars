@@ -1,8 +1,10 @@
+character_id: CHR-0061
 key: 田恬
 primary:
   - characters/minor/田恬/主卡.md
   - characters/minor/田恬/形象.md
   - characters/minor/田恬/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

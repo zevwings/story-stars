@@ -1,9 +1,11 @@
+character_id: CHR-0038
 key: 顾清言
 primary:
   - characters/minor/顾清言/主卡.md
   - characters/minor/顾清言/形象.md
   - characters/minor/顾清言/衣装.md
   - characters/minor/顾清言/契约.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

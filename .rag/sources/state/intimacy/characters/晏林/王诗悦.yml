@@ -49,6 +49,26 @@
       "entity": "王诗悦",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**王诗悦称晏林**",
+      "value": "当次已确认权力角色时可低频称“主人”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "王诗悦",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "权力称呼服务观看与姿态控制；贬称或降格自称须另项确认，不由展示意愿自动推出，退出角色后恢复日常称呼。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "王诗悦",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪得精致干练，符合车模与 Coser 多变服装造型的完美展示需要。",

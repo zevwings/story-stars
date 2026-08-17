@@ -1,0 +1,11 @@
+character_id: CHR-0079
+key: 姜姜
+primary:
+  - characters/preentry/姜姜/主卡.md
+  - characters/preentry/姜姜/形象.md
+  - characters/preentry/姜姜/衣装.md
+source_schema: character.profile@1
+status: confirmed
+tags:
+  - 预备人物
+type: character.static

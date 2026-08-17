@@ -1,8 +1,10 @@
+character_id: CHR-0040
 key: 乔宁
 primary:
   - characters/minor/乔宁/主卡.md
   - characters/minor/乔宁/形象.md
   - characters/minor/乔宁/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

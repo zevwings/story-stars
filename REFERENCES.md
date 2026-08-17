@@ -1,7 +1,7 @@
 # 项目引用方向说明
 
 > 本页是项目目录引用关系的辅助说明图，不保存故事事实，也不构成正式真源或新增规则。
-> 引用类型与允许方向以 `story-writer://rules/core/正式真源引用方向` 为准；若本页与 `BIBLE.md`、项目正式目录或 runtime 规则冲突，以后者为准。
+> 引用类型与允许方向以 `POLICY.md` 与 `story-writer://rules/core/正式真源引用方向` 为准；若本页与正式真源或 runtime 规则冲突，以后者为准。
 
 ## 怎样读图
 
@@ -15,8 +15,10 @@
 ```mermaid
 flowchart TB
     Bible["BIBLE.md<br/>项目最高真源"]
+    Policy["POLICY.md<br/>流程与目录门禁"]
     World["worldbuilding/<br/>世界观"]
     Character["characters/<br/>正式人物"]
+    Architecture["story/architecture.md<br/>稳定关系结构"]
     Genre["story/genres/<br/>题材口径"]
     Specialty["已启用专项<br/>mechanisms / references / 专项档案"]
     Clue["clues/<br/>线索"]
@@ -27,14 +29,19 @@ flowchart TB
 
     World -->|"depends_on"| Bible
     World -->|"内部设定"| World
+    Policy -. "门禁" .-> Bible
 
     Character -->|"世界设定"| World
     Character -->|"静态人物事实"| Character
+
+    Architecture -->|"作品级承诺"| Bible
+    Architecture -->|"人物静态事实"| Character
 
     Specialty -->|"专项人物档案"| Character
     Specialty -->|"专项设定"| World
 
     Plotline -->|"最高口径"| Bible
+    Plotline -->|"关系结构"| Architecture
     Plotline -->|"题材口径"| Genre
     Plotline -->|"人物事实"| Character
     Plotline -->|"世界设定"| World

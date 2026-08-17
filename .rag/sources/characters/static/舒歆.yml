@@ -1,8 +1,10 @@
+character_id: CHR-0055
 key: 舒歆
 primary:
   - characters/minor/舒歆/主卡.md
   - characters/minor/舒歆/形象.md
   - characters/minor/舒歆/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

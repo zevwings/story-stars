@@ -1,6 +1,8 @@
+character_id: CHR-0031
 key: 丁宇
 primary:
   - characters/minor/丁宇/主卡.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

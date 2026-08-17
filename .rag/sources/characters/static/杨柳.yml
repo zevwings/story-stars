@@ -1,8 +1,10 @@
+character_id: CHR-0041
 key: 杨柳
 primary:
   - characters/minor/杨柳/主卡.md
   - characters/minor/杨柳/形象.md
   - characters/minor/杨柳/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

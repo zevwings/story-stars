@@ -49,6 +49,26 @@
       "entity": "孔蔓盈",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**孔蔓盈称晏林**",
+      "value": "正式剧情当次建立 C 档身份层时，可由她主动使用双方确认的权力称呼；不预设固定词语。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孔蔓盈",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "权力称呼与情欲自称只覆盖当次已经成立的范围；主动开口不扩张其他项目权限，退出身份层后恢复“晏林”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "孔蔓盈",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪极为运动整洁，符合其经常拍摄舞蹈短视频与紧身舞服的镜头规范。",

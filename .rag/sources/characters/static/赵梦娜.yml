@@ -1,8 +1,10 @@
+character_id: CHR-0042
 key: 赵梦娜
 primary:
   - characters/minor/赵梦娜/主卡.md
   - characters/minor/赵梦娜/形象.md
   - characters/minor/赵梦娜/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

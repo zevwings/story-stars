@@ -120,3 +120,17 @@ entries:
     status: confirmed
     read_policy: primary_first
     note: ""
+  - key: 鱼泉县
+    type: place
+    aliases: []
+    primary:
+      - worldbuilding/regions/江州/鱼泉县.md
+    related:
+      - worldbuilding/regions/_index.md
+    tags:
+      - regions
+      - 江州
+      - 鱼泉县
+    status: confirmed
+    read_policy: primary_first
+    note: ""

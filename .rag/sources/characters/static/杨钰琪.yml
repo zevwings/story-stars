@@ -1,8 +1,10 @@
+character_id: CHR-0053
 key: 杨钰琪
 primary:
   - characters/minor/杨钰琪/主卡.md
   - characters/minor/杨钰琪/形象.md
   - characters/minor/杨钰琪/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

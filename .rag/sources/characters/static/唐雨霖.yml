@@ -1,8 +1,10 @@
+character_id: CHR-0015
 key: 唐雨霖
 primary:
   - characters/minor/唐雨霖/主卡.md
   - characters/minor/唐雨霖/形象.md
   - characters/minor/唐雨霖/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

@@ -1,256 +1,309 @@
 key: 次要人物
 members:
-  - key: 丁宇
+  - character_id: CHR-0031
+    key: 丁宇
     primary:
       - characters/minor/丁宇/主卡.md
-  - key: 万芳
+  - character_id: CHR-0060
+    key: 万芳
     primary:
       - characters/minor/万芳/主卡.md
       - characters/minor/万芳/形象.md
       - characters/minor/万芳/衣装.md
-  - key: 乔宁
+  - character_id: CHR-0040
+    key: 乔宁
     primary:
       - characters/minor/乔宁/主卡.md
       - characters/minor/乔宁/形象.md
       - characters/minor/乔宁/衣装.md
-  - key: 于静
+  - character_id: CHR-0051
+    key: 于静
     primary:
       - characters/minor/于静/主卡.md
       - characters/minor/于静/形象.md
       - characters/minor/于静/衣装.md
-  - key: 何雯娜
+  - character_id: CHR-0048
+    key: 何雯娜
     primary:
       - characters/minor/何雯娜/主卡.md
       - characters/minor/何雯娜/形象.md
       - characters/minor/何雯娜/衣装.md
-  - key: 侯瑞驰
+  - character_id: CHR-0027
+    key: 侯瑞驰
     primary:
       - characters/minor/侯瑞驰/主卡.md
       - characters/minor/侯瑞驰/形象.md
       - characters/minor/侯瑞驰/衣装.md
-  - key: 俞予安
+  - character_id: CHR-0052
+    key: 俞予安
     primary:
       - characters/minor/俞予安/主卡.md
       - characters/minor/俞予安/形象.md
       - characters/minor/俞予安/衣装.md
-  - key: 刘秉文
+  - character_id: CHR-0019
+    key: 刘秉文
     primary:
       - characters/minor/刘秉文/主卡.md
       - characters/minor/刘秉文/形象.md
       - characters/minor/刘秉文/衣装.md
-  - key: 华靖
+  - character_id: CHR-0029
+    key: 华靖
     primary:
       - characters/minor/华靖/主卡.md
       - characters/minor/华靖/形象.md
       - characters/minor/华靖/衣装.md
-  - key: 周博
+  - character_id: CHR-0032
+    key: 周博
     primary:
       - characters/minor/周博/主卡.md
-  - key: 周景尧
+  - character_id: CHR-0030
+    key: 周景尧
     primary:
       - characters/minor/周景尧/主卡.md
       - characters/minor/周景尧/形象.md
       - characters/minor/周景尧/衣装.md
-  - key: 周语棠
+  - character_id: CHR-0058
+    key: 周语棠
     primary:
       - characters/minor/周语棠/主卡.md
       - characters/minor/周语棠/形象.md
       - characters/minor/周语棠/衣装.md
-  - key: 唐雨宸
+  - character_id: CHR-0013
+    key: 唐雨宸
     primary:
       - characters/minor/唐雨宸/主卡.md
       - characters/minor/唐雨宸/形象.md
       - characters/minor/唐雨宸/衣装.md
-  - key: 唐雨霖
+  - character_id: CHR-0015
+    key: 唐雨霖
     primary:
       - characters/minor/唐雨霖/主卡.md
       - characters/minor/唐雨霖/形象.md
       - characters/minor/唐雨霖/衣装.md
-  - key: 孔蔓盈
+  - character_id: CHR-0057
+    key: 孔蔓盈
     primary:
       - characters/minor/孔蔓盈/主卡.md
       - characters/minor/孔蔓盈/形象.md
       - characters/minor/孔蔓盈/衣装.md
-  - key: 孟舒桐
+  - character_id: CHR-0047
+    key: 孟舒桐
     primary:
       - characters/minor/孟舒桐/主卡.md
       - characters/minor/孟舒桐/形象.md
       - characters/minor/孟舒桐/衣装.md
-  - key: 宁悠悠
+  - character_id: CHR-0056
+    key: 宁悠悠
     primary:
       - characters/minor/宁悠悠/主卡.md
       - characters/minor/宁悠悠/形象.md
       - characters/minor/宁悠悠/衣装.md
-  - key: 徐清
+  - character_id: CHR-0014
+    key: 徐清
     primary:
       - characters/minor/徐清/主卡.md
       - characters/minor/徐清/形象.md
       - characters/minor/徐清/衣装.md
-  - key: 方成越
+  - character_id: CHR-0024
+    key: 方成越
     primary:
       - characters/minor/方成越/主卡.md
       - characters/minor/方成越/形象.md
       - characters/minor/方成越/衣装.md
-  - key: 曲修远
+  - character_id: CHR-0028
+    key: 曲修远
     primary:
       - characters/minor/曲修远/主卡.md
       - characters/minor/曲修远/形象.md
       - characters/minor/曲修远/衣装.md
-  - key: 朱岑郁
+  - character_id: CHR-0021
+    key: 朱岑郁
     primary:
       - characters/minor/朱岑郁/主卡.md
       - characters/minor/朱岑郁/形象.md
       - characters/minor/朱岑郁/衣装.md
-  - key: 李垣羲
+  - character_id: CHR-0044
+    key: 李垣羲
     primary:
       - characters/minor/李垣羲/主卡.md
       - characters/minor/李垣羲/形象.md
       - characters/minor/李垣羲/衣装.md
-  - key: 杨柳
+  - character_id: CHR-0041
+    key: 杨柳
     primary:
       - characters/minor/杨柳/主卡.md
       - characters/minor/杨柳/形象.md
       - characters/minor/杨柳/衣装.md
-  - key: 杨钰琪
+  - character_id: CHR-0053
+    key: 杨钰琪
     primary:
       - characters/minor/杨钰琪/主卡.md
       - characters/minor/杨钰琪/形象.md
       - characters/minor/杨钰琪/衣装.md
-  - key: 沈宁
+  - character_id: CHR-0036
+    key: 沈宁
     primary:
       - characters/minor/沈宁/主卡.md
       - characters/minor/沈宁/形象.md
       - characters/minor/沈宁/衣装.md
       - characters/minor/沈宁/契约.md
-  - key: 温婉
+  - character_id: CHR-0034
+    key: 温婉
     primary:
       - characters/minor/温婉/主卡.md
       - characters/minor/温婉/形象.md
       - characters/minor/温婉/衣装.md
       - characters/minor/温婉/契约.md
-  - key: 燕若淇
+  - character_id: CHR-0054
+    key: 燕若淇
     primary:
       - characters/minor/燕若淇/主卡.md
       - characters/minor/燕若淇/形象.md
       - characters/minor/燕若淇/衣装.md
-  - key: 王诗悦
+  - character_id: CHR-0049
+    key: 王诗悦
     primary:
       - characters/minor/王诗悦/主卡.md
       - characters/minor/王诗悦/形象.md
       - characters/minor/王诗悦/衣装.md
-  - key: 田恬
+  - character_id: CHR-0061
+    key: 田恬
     primary:
       - characters/minor/田恬/主卡.md
       - characters/minor/田恬/形象.md
       - characters/minor/田恬/衣装.md
-  - key: 秦瑶
+  - character_id: CHR-0050
+    key: 秦瑶
     primary:
       - characters/minor/秦瑶/主卡.md
       - characters/minor/秦瑶/形象.md
       - characters/minor/秦瑶/衣装.md
-  - key: 程叙
+  - character_id: CHR-0018
+    key: 程叙
     primary:
       - characters/minor/程叙/主卡.md
       - characters/minor/程叙/形象.md
       - characters/minor/程叙/衣装.md
-  - key: 穆珂宜
+  - character_id: CHR-0063
+    key: 穆珂宜
     primary:
       - characters/minor/穆珂宜/主卡.md
-  - key: 章绍衡
+      - characters/minor/穆珂宜/形象.md
+      - characters/minor/穆珂宜/衣装.md
+  - character_id: CHR-0022
+    key: 章绍衡
     primary:
       - characters/minor/章绍衡/主卡.md
       - characters/minor/章绍衡/形象.md
       - characters/minor/章绍衡/衣装.md
-  - key: 罗东海
+  - character_id: CHR-0025
+    key: 罗东海
     primary:
       - characters/minor/罗东海/主卡.md
       - characters/minor/罗东海/形象.md
       - characters/minor/罗东海/衣装.md
       - characters/minor/罗东海/契约.md
-  - key: 舒歆
+  - character_id: CHR-0055
+    key: 舒歆
     primary:
       - characters/minor/舒歆/主卡.md
       - characters/minor/舒歆/形象.md
       - characters/minor/舒歆/衣装.md
-  - key: 裴兰馨
+  - character_id: CHR-0039
+    key: 裴兰馨
     primary:
       - characters/minor/裴兰馨/主卡.md
       - characters/minor/裴兰馨/形象.md
       - characters/minor/裴兰馨/衣装.md
       - characters/minor/裴兰馨/契约.md
-  - key: 裴崇礼
+  - character_id: CHR-0016
+    key: 裴崇礼
     primary:
       - characters/minor/裴崇礼/主卡.md
       - characters/minor/裴崇礼/形象.md
       - characters/minor/裴崇礼/衣装.md
       - characters/minor/裴崇礼/契约.md
-  - key: 裴怀安
+  - character_id: CHR-0033
+    key: 裴怀安
     primary:
       - characters/minor/裴怀安/主卡.md
       - characters/minor/裴怀安/契约.md
-  - key: 裴怀民
+  - character_id: CHR-0017
+    key: 裴怀民
     primary:
       - characters/minor/裴怀民/主卡.md
       - characters/minor/裴怀民/形象.md
       - characters/minor/裴怀民/衣装.md
       - characters/minor/裴怀民/契约.md
-  - key: 言溪
+  - character_id: CHR-0045
+    key: 言溪
     primary:
       - characters/minor/言溪/主卡.md
       - characters/minor/言溪/形象.md
       - characters/minor/言溪/衣装.md
-  - key: 赵梦娜
+  - character_id: CHR-0042
+    key: 赵梦娜
     primary:
       - characters/minor/赵梦娜/主卡.md
       - characters/minor/赵梦娜/形象.md
       - characters/minor/赵梦娜/衣装.md
-  - key: 郑文悦
+  - character_id: CHR-0046
+    key: 郑文悦
     primary:
       - characters/minor/郑文悦/主卡.md
       - characters/minor/郑文悦/形象.md
       - characters/minor/郑文悦/衣装.md
-  - key: 钱韵
+  - character_id: CHR-0059
+    key: 钱韵
     primary:
       - characters/minor/钱韵/主卡.md
       - characters/minor/钱韵/形象.md
       - characters/minor/钱韵/衣装.md
-  - key: 阮清黎
+  - character_id: CHR-0035
+    key: 阮清黎
     primary:
       - characters/minor/阮清黎/主卡.md
       - characters/minor/阮清黎/形象.md
       - characters/minor/阮清黎/衣装.md
-  - key: 陆佳凝
+  - character_id: CHR-0037
+    key: 陆佳凝
     primary:
       - characters/minor/陆佳凝/主卡.md
       - characters/minor/陆佳凝/形象.md
       - characters/minor/陆佳凝/衣装.md
-  - key: 霍临川
+  - character_id: CHR-0026
+    key: 霍临川
     primary:
       - characters/minor/霍临川/主卡.md
       - characters/minor/霍临川/形象.md
       - characters/minor/霍临川/衣装.md
-  - key: 顾清言
+  - character_id: CHR-0038
+    key: 顾清言
     primary:
       - characters/minor/顾清言/主卡.md
       - characters/minor/顾清言/形象.md
       - characters/minor/顾清言/衣装.md
       - characters/minor/顾清言/契约.md
-  - key: 骆志莲
+  - character_id: CHR-0062
+    key: 骆志莲
     primary:
       - characters/minor/骆志莲/主卡.md
       - characters/minor/骆志莲/形象.md
       - characters/minor/骆志莲/衣装.md
-  - key: 高承岳
+  - character_id: CHR-0023
+    key: 高承岳
     primary:
       - characters/minor/高承岳/主卡.md
       - characters/minor/高承岳/形象.md
       - characters/minor/高承岳/衣装.md
-  - key: 黄锦一
+  - character_id: CHR-0043
+    key: 黄锦一
     primary:
       - characters/minor/黄锦一/主卡.md
       - characters/minor/黄锦一/形象.md
       - characters/minor/黄锦一/衣装.md
-  - key: 齐心
+  - character_id: CHR-0020
+    key: 齐心
     primary:
       - characters/minor/齐心/主卡.md
       - characters/minor/齐心/形象.md

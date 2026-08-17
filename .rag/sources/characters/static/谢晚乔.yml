@@ -1,9 +1,11 @@
+character_id: CHR-0005
 key: 谢晚乔
 primary:
   - characters/major/谢晚乔/主卡.md
   - characters/major/谢晚乔/形象.md
   - characters/major/谢晚乔/衣装.md
   - characters/major/谢晚乔/契约.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 主要人物

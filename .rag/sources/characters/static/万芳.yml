@@ -1,8 +1,10 @@
+character_id: CHR-0060
 key: 万芳
 primary:
   - characters/minor/万芳/主卡.md
   - characters/minor/万芳/形象.md
   - characters/minor/万芳/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 次要人物

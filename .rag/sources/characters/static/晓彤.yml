@@ -1,8 +1,10 @@
+character_id: CHR-0067
 key: 晓彤
 primary:
   - characters/preentry/晓彤/主卡.md
   - characters/preentry/晓彤/形象.md
   - characters/preentry/晓彤/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

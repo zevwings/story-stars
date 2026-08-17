@@ -1,8 +1,10 @@
+character_id: CHR-0068
 key: 灵儿
 primary:
   - characters/preentry/灵儿/主卡.md
   - characters/preentry/灵儿/形象.md
   - characters/preentry/灵儿/衣装.md
+source_schema: character.profile@1
 status: confirmed
 tags:
   - 预备人物

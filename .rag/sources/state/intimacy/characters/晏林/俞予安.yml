@@ -49,6 +49,26 @@
       "entity": "俞予安",
       "group": null,
       "status": null,
+      "section": "HD 角色称呼",
+      "field": "**俞予安称晏林**",
+      "value": "当次角色服务明确包含权力称呼时可称“主人”。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "俞予安",
+      "group": null,
+      "status": null,
+      "section": "HD 角色称呼",
+      "field": "**身份边界**",
+      "value": "“小母狗”等降格自称可以在角色中临场试探、接受或改词；角色结束即恢复姓名与平等交流，不登记永久从属。",
+      "chapter_refs": [],
+      "valid_from": null
+    },
+    {
+      "entity": "俞予安",
+      "group": null,
+      "status": null,
       "section": "私密构造 / 外部",
       "field": "**阴毛**",
       "value": "修剪得极其干净利落，符合其作为活动模特与 Coser 频繁穿戴各种高割线衣装的专业要求。",
