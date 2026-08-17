@@ -23,6 +23,10 @@
 claude-mem-*.tgz
 _mem/mem-*.md
 
+# Grok and Qwen local metadata
+/.grok/
+/.qwen/
+
 # Python local caches
 __pycache__/
 *.pyc
