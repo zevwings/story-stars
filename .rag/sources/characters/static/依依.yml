@@ -3,7 +3,7 @@ key: 依依
 primary:
   - characters/preentry/依依/主卡.md
   - characters/preentry/依依/形象.md
-  - characters/preentry/依依/衣装.md
+  - characters/preentry/依依/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

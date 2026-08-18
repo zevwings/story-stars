@@ -3,7 +3,7 @@ key: 钱韵
 primary:
   - characters/minor/钱韵/主卡.md
   - characters/minor/钱韵/形象.md
-  - characters/minor/钱韵/衣装.md
+  - characters/minor/钱韵/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:
