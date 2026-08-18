@@ -17,13 +17,16 @@ required_paths = [
 
 [package]
 module_id = "intimacy"
-version = "1.0.1"
+version = "1.0.2"
 runtime_api = 1
 label = "亲密写作"
 keywords = [
-    "亲密",
-    "回房",
+    "[亲密:A场]",
+    "亲密 A 场",
     "身体回应",
+    "尺度施工",
+    "软切黑",
+    "亲密机制",
     "HD",
 ]
 rules = [
@@ -33,16 +36,26 @@ rules = [
 state_categories = ["intimacy_static"]
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:98988602f45ad678cee231874b139a0e859406dffb96c44cb9bf3ff42a1ef360"
+fingerprint = "sha256:13db0f3f14ba0fb1eec2c079d34760c31e45ca902ca048887858b470abcd2336"
 managed_roots = [
+    "_index.md",
     "protocols",
+    "references/_index.md",
     "references/library",
 ]
 required_paths = [
+    "_index.md",
     "protocols/_index.md",
     "protocols/workflows/_index.md",
+    "references/_index.md",
     "references/library/_index.md",
 ]
+
+[[package.files]]
+path = "_index.md"
+mode = 420
+size = 1645
+sha256 = "53cd8a4fe27171ed3916812d8f559a29565fa7c202940e3a9119c3645f838572"
 
 [[package.files]]
 path = "protocols/B场HD四维细则.md"
@@ -89,8 +102,8 @@ sha256 = "7595e23f5c04b9a61aeeac823673499548de5289cf889e4d87e07cd00d36882d"
 [[package.files]]
 path = "protocols/_index.md"
 mode = 420
-size = 2797
-sha256 = "450519344b90d73a2b9efb31401cc5ab8f3b5e4d27570e2c57ee9035332abd9b"
+size = 3115
+sha256 = "954bdb9c43b80ef3f9402b9282ade207d33ef1018a909e71a628bec40a0366b0"
 
 [[package.files]]
 path = "protocols/workflows/_index.md"
@@ -175,6 +188,12 @@ path = "protocols/黑暗HD流程.md"
 mode = 420
 size = 658
 sha256 = "e3ab5fe5874b200912d945d5e36fbf92e6f48b18ce9ed30ee7c844af0d847fcb"
+
+[[package.files]]
+path = "references/_index.md"
+mode = 420
+size = 1927
+sha256 = "4a40e1a7cf6900ffbbfca5ec821abf2375d123f1e426e7fd29c6eb12c55ff1ca"
 
 [[package.files]]
 path = "references/library/11_女性身体_A.md"
@@ -465,27 +484,15 @@ size = 2499
 sha256 = "e6a19a63d785aea960bdc80461f945b97fc6534dee6c639ab69e3e0e14bc2ed4"
 
 [metadata]
-label = "成人写法"
+label = "亲密写作"
 keywords = [
-    "亲密",
-    "双修",
-    "吻",
+    "[亲密:A场]",
+    "亲密 A 场",
     "身体回应",
-    "尺度",
-    "暧昧",
-    "回房",
-    "成年",
+    "尺度施工",
+    "软切黑",
+    "亲密机制",
     "HD",
-    "A场",
-    "B场",
-    "胁迫",
-    "受害方失衡",
-    "SM",
-    "BDSM",
-    "共鸣",
-    "星辰契约同步",
-    "欲望显影",
-    "星庭共居",
 ]
 rules = [
     "protocols/_index.md",

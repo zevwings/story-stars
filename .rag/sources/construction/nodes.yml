@@ -668,7 +668,7 @@ units:
           - **正式节点**：[PL-M-001｜晏林断流安若曦的外来欲望连接](../../plotlines/主线/人物/晏林/安若曦-外来欲望连接断流.md)
           | 阶段 / 顺序 | 场景功能 | 必须发生 | 执行边界 | 关联线路 |
           | --- | --- | --- | --- | --- |
-          | 断流与离场 | 完成第一次绘影遮蔽并留下错误观察结果 | 晏林用绘影制造错误位置，再通过现实移动脱离；反派侧现场执行者最先发现所见位置与现实结果不一致 | 绘影不替代现实位移；本案不进入管理局材料，也不暴露双子星结构或四权柄分配 | `PL-M-030、PL-M-031、PL-M-032`、`PL-M-028、PL-M-029、PL-M-025、PL-M-026、PL-M-027` |
+          | 断流、遮蔽与离场 | 完成第一次断流止损与绘影遮蔽，并留下错误观察结果 | 晏林先识别安若曦的拒绝与异常身体反应不匹配，沿施术者主动暴露的连接断流正在输入的欲望干扰；连接被切断后，欲望契约者撤退；晏林再用绘影制造错误位置，并通过现实移动脱离，反派侧现场执行者最先发现所见位置与现实结果不一致 | 断流只中止正在输入的欲望干扰，不摧毁契约或通道，也不追踪黑市链条；绘影不替代现实位移；本案不进入管理局材料，也不暴露双子星结构或四权柄分配 | `PL-M-001`、`PL-M-030、PL-M-031、PL-M-032`、`PL-M-028、PL-M-029、PL-M-025、PL-M-026、PL-M-027` |
       - heading: PL-M-025—PL-M-029｜双子星主体解释权与分层公开边界
         value: |-
           - **正式节点**：[PL-M-025｜晏林主体解释权](../../plotlines/主线/人物/晏林/晏林主体解释权.md)、[PL-M-026｜内圈完整私人知情](../../plotlines/主线/人物/晏林/内圈完整私人知情.md)、[PL-M-027｜管理局分层权限](../../plotlines/主线/人物/晏林/管理局分层权限.md)、[PL-M-028｜敌对资源化模型被否定](../../plotlines/主线/人物/晏林/敌对资源化模型被否定.md)、[PL-M-029｜公共风险行动验证新边界](../../plotlines/主线/人物/晏林/公共风险行动验证新边界.md)
@@ -1090,7 +1090,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0020-俞予安松散付费关系.md
     registry_file: story/construction/_status/active.md
-    registry_line: 26
+    registry_line: 25
     registry_quote: "| CON-0020 | [CON-0020｜俞予安松散付费关系施工](../云顶KTV会所线/CON-0020-俞予安松散付费关系.md) | 亲密线 / 晏林 | PL-I-087、PL-I-088 | 云间商务 KTV 初次交易、云顶前两次单独复现、单独付费回路结束与后续关系转接 |  | 从正式剧情节点“未分章施工”迁入。 |"
     sections:
       - heading: 使用边界
@@ -1128,7 +1128,7 @@ units:
     content_indexed: true
     source_file: story/construction/云梦号会谈与关系线/CON-0021-齐心与陆佳凝邮轮共同邀请.md
     registry_file: story/construction/_status/active.md
-    registry_line: 27
+    registry_line: 26
     registry_quote: "| CON-0021 | [CON-0021｜齐心与陆佳凝邮轮共同邀请施工](../云梦号会谈与关系线/CON-0021-齐心与陆佳凝邮轮共同邀请.md) | 亲密线 / 齐心 | PL-I-026 | 未分章施工 |  | 从正式剧情节点“未分章施工”迁入。 |"
     sections:
       - heading: 使用边界
@@ -1162,7 +1162,7 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/CON-0022-白玥长期匿名联系切割.md
     registry_file: story/construction/_status/active.md
-    registry_line: 28
+    registry_line: 27
     registry_quote: "| CON-0022 | [CON-0022｜白玥长期匿名联系切割施工](../反派控制与责任链/CON-0022-白玥长期匿名联系切割.md) | 副线 / 组织 / 裴家 | PL-S-159、PL-S-161、PL-S-162 | 未分章施工 |  | 区分首次暗色星辰市场任务与后续专用匿名联系人，只固定具体联系人、中间人和关联市场身份的切割与剪裁甩锅，不设置统一后台，也不由该链直接指向裴家。 |"
     sections:
       - heading: 使用边界
@@ -1205,7 +1205,7 @@ units:
     content_indexed: true
     source_file: story/construction/秦瑶债务侵害线/CON-0023-秦瑶债务侵害前史.md
     registry_file: story/construction/_status/active.md
-    registry_line: 29
+    registry_line: 28
     registry_quote: "| CON-0023 | [CON-0023｜秦瑶债务侵害前史施工](../秦瑶债务侵害线/CON-0023-秦瑶债务侵害前史.md) | 副线 / 人物 / 秦瑶 | PL-S-107、PL-S-108、PL-S-109 | 阿九赌场签贷、暗示扩债、催收侵害与转送云顶的既往前史 |  | 固定三名施害者的参与结构、事件顺序与责任边界。 |"
     sections:
       - heading: 使用边界
@@ -1282,7 +1282,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0024-云顶关停与债务控制终止.md
     registry_file: story/construction/_status/active.md
-    registry_line: 30
+    registry_line: 29
     registry_quote: "| CON-0024 | [CON-0024｜云顶关停与债务控制终止施工](../云顶KTV会所线/CON-0024-云顶关停与债务控制终止.md) | 副线 / 组织 / 云顶KTV | PL-S-111 | 阶段四 |  | 固定关停安排形成、阿九个人脱离、于静收监与云顶实体关停的先后顺序；悠悠裸贷另线清零。 |"
     sections:
       - heading: 使用边界
@@ -1338,7 +1338,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0025-宁悠悠裸贷清零与影像余波.md
     registry_file: story/construction/_status/active.md
-    registry_line: 31
+    registry_line: 30
     registry_quote: "| CON-0025 | [CON-0025｜宁悠悠裸贷清零与影像余波施工](../云顶KTV会所线/CON-0025-宁悠悠裸贷清零与影像余波.md) | 副线 / 人物 / 宁悠悠 | PL-S-110、PL-S-183 | 阶段四 |  | 只固定悠悠裸贷余额清零、已知影像传播停止与历史备份风险保留；不承接三人共同职业转向。 |"
     sections:
       - heading: 使用边界
@@ -1385,7 +1385,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0026-俞予安宁悠悠王诗悦第三层偶发关系簇确认.md
     registry_file: story/construction/_status/active.md
-    registry_line: 32
+    registry_line: 31
     registry_quote: "| CON-0026 | [CON-0026｜俞予安宁悠悠王诗悦第三层偶发关系簇确认施工](../云顶KTV会所线/CON-0026-俞予安宁悠悠王诗悦第三层偶发关系簇确认.md) | 亲密线 / 晏林 | PL-I-038 | 尾声 |  | 三人互为好闺蜜；阶段五不固定调用，尾声至多一次合并式亲密回声，后续可按一人、两人或三人分别回归且逐人授权。 |"
     sections:
       - heading: 使用边界
@@ -1469,7 +1469,7 @@ units:
     content_indexed: true
     source_file: story/construction/秦瑶债务侵害线/CON-0028-秦瑶连续三晚求助与关停后回声.md
     registry_file: story/construction/_status/active.md
-    registry_line: 33
+    registry_line: 32
     registry_quote: "| CON-0028 | [CON-0028｜秦瑶连续三晚求助与关停后回声施工](../秦瑶债务侵害线/CON-0028-秦瑶连续三晚求助与关停后回声.md) | 亲密线 / 晏林 | PL-I-089、PL-I-090、PL-I-091、PL-S-096、PL-S-179、PL-S-178、PL-S-177、PL-I-062、PL-I-063 | 阶段三连续三晚至阶段四关停后告别 |  | 固定连续三晚付费、逐层吐露、正式保护、关停安排形成后的个人脱离，以及实际关停后的告别共餐、一次非交易亲密与分别。 |"
     sections:
       - heading: 使用边界
@@ -1555,7 +1555,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0029-私域递名、缴费与会员资格.md
     registry_file: story/construction/_status/active.md
-    registry_line: 34
+    registry_line: 33
     registry_quote: "| CON-0029 | [CON-0029｜私域递名、缴费与会员资格施工](../云顶KTV会所线/CON-0029-私域递名、缴费与会员资格.md) | 副线 / 组织 / 云顶KTV | PL-S-097、PL-S-098 | 云顶稳定熟客阶段至私域会员资格取得 |  | 固定普通递名、本人缴费、正式会员资格与被动安全标记；首次进入由私人欲望触发，不等待白玥交底。 |"
     sections:
       - heading: 场景位置
@@ -1642,7 +1642,7 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/CON-0030-白玥归案、程序隔离与有限监管印.md
     registry_file: story/construction/_status/active.md
-    registry_line: 35
+    registry_line: 34
     registry_quote: "| CON-0030 | [CON-0030｜白玥归案、程序隔离与有限监管印施工](../白玥订单与倒卷线/CON-0030-白玥归案、程序隔离与有限监管印.md) | 副线 / 人物 / 白玥 | PL-S-151、PL-S-152、PL-S-153、PL-S-154、PL-S-155 | 私域完整倒卷后的直接归案与程序链 |  | 固定紧急阻却、管理局接管、分开问询、利益冲突披露、个人担保被否决、普通监督与自愿有限监管印双方案；本单元不发生身体关系。 |"
     sections:
       - heading: 使用边界
@@ -1697,7 +1697,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0031-私域首次游玩留宿与非付费共同兑现.md
     registry_file: story/construction/_status/active.md
-    registry_line: 39
+    registry_line: 38
     registry_quote: "| CON-0031 | [CON-0031｜私域首次游玩留宿与非付费共同兑现施工](../云顶KTV会所线/CON-0031-私域首次游玩留宿与非付费共同兑现.md) | 亲密线 / 晏林 | PL-I-041、PL-S-099 | 阶段四 |  | 固定只有小鱼儿、悦悦同行的游玩、用餐、留宿、非付费无女女共同兑现与次日离开；悠悠、娜娜、阿九不进入本次行程。 |"
     sections:
       - heading: 场景位置
@@ -1755,7 +1755,7 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/CON-0032-白玥入案后低暴露保护.md
     registry_file: story/construction/_status/active.md
-    registry_line: 40
+    registry_line: 39
     registry_quote: "| CON-0032 | [CON-0032｜白玥入案后低暴露保护施工](../白玥订单与倒卷线/CON-0032-白玥入案后低暴露保护.md) | 副线 / 人物 / 白玥 | PL-S-113 | 白玥入案程序完成后至相关官方行动前 |  | 以真实入案、程序隔离和保护选择已经完成为前置，固定低暴露保护、长期匿名联系停止响应、裴家错误归因与既有境外实验药剂转入国内；不制造抓捕假象，不让裴家确认管理局介入。 |"
     sections:
       - heading: 使用边界
@@ -1807,7 +1807,7 @@ units:
     content_indexed: true
     source_file: story/construction/乔宁独立线/CON-0033-乔宁亲密入梦、秘密介入与主动回归.md
     registry_file: story/construction/_status/active.md
-    registry_line: 41
+    registry_line: 40
     registry_quote: "| CON-0033 | [CON-0033｜乔宁亲密入梦、秘密介入与主动回归施工](../乔宁独立线/CON-0033-乔宁亲密入梦、秘密介入与主动回归.md) | 副线 / 人物 / 乔宁 | PL-I-042、PL-S-112、PL-S-272、PL-S-273、PL-S-274、PL-S-275、PL-I-092、PL-I-043 | 阶段四私宴选择、入梦、秘密调查与首次独立复选，至阶段五主动非身体回归 |  | 固定乔宁主动入场、自愿亲密、破碎梦境、云梦号后管理局与警方秘密调查、阶段四一次独立复选及阶段五第二层责任／恢复回流关系；不承担艺人集体递交材料职责。 |"
     sections:
       - heading: 正文
@@ -1886,7 +1886,7 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/CON-0034-风归熟客回流与逐次授权.md
     registry_file: story/construction/_status/active.md
-    registry_line: 42
+    registry_line: 41
     registry_quote: "| CON-0034 | [CON-0034｜风归熟客回流与逐次授权施工](../风归熟客回流线/CON-0034-风归熟客回流与逐次授权.md) | 副线 / 组织 / 风归 | PL-S-121、PL-S-127、PL-I-044、PL-I-045、PL-I-050 | 阶段四第一次止损后至会所组织调度结束与第二层回流转接 |  | 固定猫猫首位接待、甜甜及其他人员前期轮换、晏林不再换人、舒歆与言溪成为非付费固定主位、私密拍摄保密试探、真实职业缺席替补，以及主位结束后两人分别独立回流；同时关闭田恬、万芳的阶段接口，不承接钱韵职业后果。 |"
     sections:
       - heading: 使用边界
@@ -1962,7 +1962,7 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/CON-0035-钱韵停排恢复、阶段内私人复选与关系完成.md
     registry_file: story/construction/_status/active.md
-    registry_line: 43
+    registry_line: 42
     registry_quote: "| CON-0035 | [CON-0035｜钱韵停排恢复、阶段内私人复选与关系完成施工](../风归熟客回流线/CON-0035-钱韵停排恢复、阶段内私人复选与关系完成.md) | 副线 / 人物 / 钱韵 | PL-S-268、PL-S-269、PL-S-270、PL-S-271、PL-I-093 | 阶段四，七日邮轮后，钱韵首次单次接受至阶段关系完成 |  | 固定第一次非付费接待、拒绝重复安排、三周停排、缺席、说情、公开工作恢复、现实间隔后的私人复选与阶段内有限复现，并在阶段结束后关闭全部出场接口；不把职业帮助写成亲密回报。 |"
     sections:
       - heading: 正文
@@ -2028,7 +2028,7 @@ units:
     content_indexed: true
     source_file: story/construction/万安艺人显影线/CON-0036-万安艺人压迫显影与秘密调查.md
     registry_file: story/construction/_status/active.md
-    registry_line: 44
+    registry_line: 43
     registry_quote: "| CON-0036 | [CON-0036｜万安艺人压迫显影与秘密调查施工](../万安艺人显影线/CON-0036-万安艺人压迫显影与秘密调查.md) | 副线 / 组织 / 万安影视文化 | PL-S-114、PL-S-115、PL-S-118、PL-S-119、PL-S-265—PL-S-267、PL-S-243、PL-S-245—PL-S-252、PL-S-260、PL-S-261、PL-S-236—PL-S-240、PL-S-278—PL-S-287 | 阶段四乔宁保护后的万安调查扩展至阶段五万安责任、行动、托管与职业选择 |  | 承接乔宁个案已启动的双系统调查，固定管理局异常核验、警方现实调查、裴兰馨指令—助理执行—反馈链、公司内供与外部客户两条境内药剂渠道，以及侯瑞驰的现场医疗、低暴露保护和万安行动后自主选择；万安自身材料可独立启动行动。 |"
     sections:
       - heading: 使用边界
@@ -2138,7 +2138,7 @@ units:
     content_indexed: true
     source_file: story/construction/工作室咨询线/CON-0037-魏琳首次咨询、报警交接与复学收束.md
     registry_file: story/construction/_status/active.md
-    registry_line: 45
+    registry_line: 44
     registry_quote: "| CON-0037 | [CON-0037｜魏琳首次咨询、报警交接与复学收束施工](../工作室咨询线/CON-0037-魏琳首次咨询、报警交接与复学收束.md) | 副线 / 人物 / 魏琳 | PL-S-294—PL-S-297 | 阶段一首次咨询至阶段二复学收束 |  | 固定魏琳在教学楼顶楼目击坠亡、首次咨询、持续恢复、向父亲说明、本人报警、华靖接待、医院独立复诊评估与学校复学安排；不补她到达顶楼的时间和原因。 |"
     sections:
       - heading: 使用边界
@@ -2225,7 +2225,7 @@ units:
     content_indexed: true
     source_file: story/construction/风归熟客回流线/CON-0038-言溪首次侍奉-貂蝉·马年限定COS战袍.md
     registry_file: story/construction/_status/active.md
-    registry_line: 47
+    registry_line: 46
     registry_quote: "| CON-0038 | [CON-0038｜言溪首次侍奉——貂蝉·马年限定 COS 战袍](../风归熟客回流线/CON-0038-言溪首次侍奉-貂蝉·马年限定COS战袍.md) | 亲密线 / 晏林 | PL-S-121、PL-I-045 | 阶段四风归熟客回流前期轮换段；言溪第一次面向晏林侍奉 |  | 固定一次性私人战袍及现实落地；不锁定具体身体流程、拍摄项目或后续复现频率。 |"
     sections:
       - heading: 施工作用
@@ -2278,7 +2278,7 @@ units:
     content_indexed: true
     source_file: story/construction/野人户外产品测试与中试议题线/CON-0039-岚隐山测试与套房公私切换.md
     registry_file: story/construction/_status/active.md
-    registry_line: 48
+    registry_line: 47
     registry_quote: "| CON-0039 | [CON-0039｜岚隐山测试与套房公私切换](../野人户外产品测试与中试议题线/CON-0039-岚隐山测试与套房公私切换.md) | 副线 / 组织 / 野人户外 | PL-S-207、PL-S-208、PL-I-073、PL-I-027、PL-S-299 | 阶段一岚隐山户外测试、首次共同兑现、山地住宿回路建立及返程前皮蛋结契 |  | 出发前共同关系已经确认；固定白天完成测试、夜间先整理并备份数据，再切换到私人时间；返程前皮蛋目视真实星空结契，地点本身不具有特殊机制。 |"
     sections:
       - heading: 接口
@@ -2322,7 +2322,7 @@ units:
     content_indexed: true
     source_file: story/construction/野人户外产品测试与中试议题线/CON-0040-返程管理层复盘与中试议题.md
     registry_file: story/construction/_status/active.md
-    registry_line: 49
+    registry_line: 48
     registry_quote: "| CON-0040 | [CON-0040｜返程管理层复盘与中试议题](../野人户外产品测试与中试议题线/CON-0040-返程管理层复盘与中试议题.md) | 副线 / 组织 / 野人户外 | PL-S-209、PL-S-226、PL-S-227 | 阶段一返程管理层复盘与中试议题确认 |  | 固定先形成产品结论，再确认中试与质量控制缺口，最后暂缓重资产自建并保留租赁标准厂房评估。 |"
     sections:
       - heading: 接口
@@ -2364,7 +2364,7 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/CON-0041-华靖告别、潜伏、证据移交与牺牲.md
     registry_file: story/construction/_status/active.md
-    registry_line: 46
+    registry_line: 45
     registry_quote: "| CON-0041 | [CON-0041｜华靖告别、潜伏、证据移交与牺牲施工](../反派控制与责任链/CON-0041-华靖告别、潜伏、证据移交与牺牲.md) | 副线 / 人物 / 华靖 | PL-S-290、PL-S-291、PL-S-230—PL-S-235、PL-M-036、PL-M-048、PL-M-018、PL-M-037、PL-M-049 | 阶段四潜伏前告别至阶段五官方接手 |  | 固定夜宵告别、正式潜伏、十一人逃离、途中移交、华靖在接近大夏边境检查区前牺牲、三名幸存者返回保护及骨灰回鱼泉县；其材料先启动国内、跨境两线准备，国内齐陆及剩余六接口进入同一行动窗口、八接口统一验证后，再完成朱岑郁轴跨境闭合。 |"
     sections:
       - heading: 使用边界
@@ -2436,7 +2436,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0042-第十一场-秦瑶黑色抹胸露腹包臀超短裙.md
     registry_file: story/construction/_status/active.md
-    registry_line: 50
+    registry_line: 49
     registry_quote: "| CON-0042 | [CON-0042｜第十一场｜秦瑶黑色抹胸露腹包臀超短裙](../云顶KTV会所线/CON-0042-第十一场-秦瑶黑色抹胸露腹包臀超短裙.md) | 亲密线 / 晏林 | PL-I-090、PL-S-096 | 云顶 KTV 会所线第 11 次阿九第二晚单人亲密消费场及衣装 |  | 固定黑色短抹胸、裸腹与包臀超短裙，承接真实包厢消费与有限亲密、迟疑后真实停止，以及重新选择后允许继续。 |"
     sections:
       - heading: 施工作用
@@ -2491,7 +2491,7 @@ units:
     content_indexed: true
     source_file: story/construction/云顶KTV会所线/CON-0043-第十二场-秦瑶深酒红蕾丝主体与暗红蕾丝袜.md
     registry_file: story/construction/_status/active.md
-    registry_line: 51
+    registry_line: 50
     registry_quote: "| CON-0043 | [CON-0043｜第十二场｜秦瑶深酒红蕾丝主体与暗红蕾丝袜](../云顶KTV会所线/CON-0043-第十二场-秦瑶深酒红蕾丝主体与暗红蕾丝袜.md) | 亲密线 / 晏林 | PL-I-091、PL-S-096 | 云顶 KTV 会所线第 12 次阿九第三晚单人亲密消费场及衣装 |  | 固定红色蕾丝主体到场前直接穿着、真实包厢消费与有限亲密；衣装流程先于事后吐露、崩溃与边界拒绝。 |"
     sections:
       - heading: 施工作用
@@ -2543,7 +2543,7 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/CON-0044-境外园区接收、强迫用工与人员分层.md
     registry_file: story/construction/_status/active.md
-    registry_line: 52
+    registry_line: 51
     registry_quote: "| CON-0044 | [CON-0044｜境外园区接收、强迫用工与人员分层施工](../反派控制与责任链/CON-0044-境外园区接收、强迫用工与人员分层.md) | 副线 / 组织 / 境外电诈园区 | PL-S-241、PL-S-242、PL-S-228、PL-S-229 | 阶段四境外交接后至华靖正式潜伏前 |  | 固定不同公开入口汇入主园区、退出权被剥夺、技术岗与电销／线上转化岗分工、周博进入基层执行位置及高价值对象转入实验筛选方向；不承接阶段五处置升级和逃离。 |"
     sections:
       - heading: 使用边界
@@ -2596,7 +2596,7 @@ units:
     content_indexed: true
     source_file: story/construction/反派控制与责任链/CON-0045-晏林诱饵探查与裴家实验中心行动.md
     registry_file: story/construction/_status/active.md
-    registry_line: 53
+    registry_line: 52
     registry_quote: "| CON-0045 | [CON-0045｜晏林诱饵探查与裴家实验中心行动](../反派控制与责任链/CON-0045-晏林诱饵探查与裴家实验中心行动.md) | 主线 / 人物 / 晏林 | PL-M-050、PL-S-184—PL-S-186 | 阶段五八接口验证后至裴朱分轴责任闭合前 |  | 固定真实演唱会旅行、旅游端有限价值判断、两次改道、异常复筛、知心越阈、现实定位、裴怀安现场控制与姜禾获救的顺序。 |"
     sections:
       - heading: 使用范围
@@ -2635,10 +2635,10 @@ units:
     truth_level: construction
     name: 锦云山结契与最低必要揭密楔子施工
     package: 晏林双子星与管理局线
-    status: active
+    status: bound
     plotline_owner: 副线 / 人物 / 晏林
     plotline_interfaces: PL-S-303
-    scope: 楔子；未绑定具体章节
+    scope: chapters/ch000/outline.md
     transition: ""
     note: 固定楔子止于第一次最低必要揭密与两人决定接受后续评估；不提前完成登记、能力复核、控制训练或星辰之桥。
     summary: 把两人的公共观星、分别结契、现实异常、公开救援接触和第一次最低必要揭密连成一条可演出的前史链，楔子结束于两人决定接受后续评估。
@@ -2650,9 +2650,9 @@ units:
       - 固定终点
     content_indexed: true
     source_file: story/construction/晏林双子星与管理局线/CON-0046-锦云山结契与最低必要揭密楔子.md
-    registry_file: story/construction/_status/active.md
-    registry_line: 25
-    registry_quote: "| CON-0046 | [CON-0046｜锦云山结契与最低必要揭密楔子施工](../晏林双子星与管理局线/CON-0046-锦云山结契与最低必要揭密楔子.md) | 副线 / 人物 / 晏林 | PL-S-303 | 楔子；未绑定具体章节 |  | 固定楔子止于第一次最低必要揭密与两人决定接受后续评估；不提前完成登记、能力复核、控制训练或星辰之桥。 |"
+    registry_file: story/construction/_status/bound.md
+    registry_line: 7
+    registry_quote: "| CON-0046 | [CON-0046｜锦云山结契与最低必要揭密楔子施工](../晏林双子星与管理局线/CON-0046-锦云山结契与最低必要揭密楔子.md) | 副线 / 人物 / 晏林 | PL-S-303 | `chapters/ch000/outline.md` |  | 固定楔子止于第一次最低必要揭密与两人决定接受后续评估；不提前完成登记、能力复核、控制训练或星辰之桥。 |"
     sections:
       - heading: 执行目标
         value: 把两人的公共观星、分别结契、现实异常、公开救援接触和第一次最低必要揭密连成一条可演出的前史链，楔子结束于两人决定接受后续评估。
@@ -2700,7 +2700,7 @@ units:
     content_indexed: true
     source_file: story/construction/白玥订单与倒卷线/CON-0047-白玥归案、敌对合作、身体确认与双星和弦.md
     registry_file: story/construction/_status/active.md
-    registry_line: 36
+    registry_line: 35
     registry_quote: "| CON-0047 | [CON-0047｜白玥归案、敌对合作、身体确认与双星和弦施工](../白玥订单与倒卷线/CON-0047-白玥归案、敌对合作、身体确认与双星和弦.md) | 亲密线 / 晏林 | PL-I-021、PL-I-096 | 归案、管理局接管与最低程序隔离成立后 |  | 固定敌对受控合作、星辰强相吸、多次分别授权的身体确认、至少一次现实守界、双向开放与双星和弦；不固定 HD 场型或场次。 |"
     sections:
       - heading: 使用边界
@@ -2754,7 +2754,7 @@ units:
     content_indexed: true
     source_file: story/construction/童颜独立生活与第二层回流线/CON-0048-童颜独立欲望、自由兑现与第二层回流.md
     registry_file: story/construction/_status/active.md
-    registry_line: 37
+    registry_line: 36
     registry_quote: "| CON-0048 | [CON-0048｜童颜独立欲望、自由兑现与第二层回流施工](../童颜独立生活与第二层回流线/CON-0048-童颜独立欲望、自由兑现与第二层回流.md) | 亲密线 / 晏林 | PL-I-057、PL-I-058、PL-I-061 | 阶段四；独立生活成立后至第二层确认 |  | 固定非交易关系确认→自由兑现→真实缺席→主动回归链；高需求与称呼均不扩大未来权限。 |"
     sections:
       - heading: 施工作用
@@ -2800,7 +2800,7 @@ units:
     content_indexed: true
     source_file: story/construction/童颜家庭协商与主动脱离线/CON-0049-童颜家庭协商、父母双梦与主动脱离.md
     registry_file: story/construction/_status/active.md
-    registry_line: 38
+    registry_line: 37
     registry_quote: "| CON-0049 | [CON-0049｜童颜家庭协商、父母双梦与主动脱离](../童颜家庭协商与主动脱离线/CON-0049-童颜家庭协商、父母双梦与主动脱离.md) | 副线 / 人物 / 童颜 | PL-S-163、PL-S-164、PL-S-165、PL-S-166 | 阶段三；第一次付费夜翌日之后 |  | 固定回家协商失败→清醒求援并决定离开→晏林现实介入→父母双梦交叉显影→主动离开→临时落脚与帮助分账。 |"
     sections:
       - heading: 施工作用

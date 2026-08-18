@@ -26,6 +26,12 @@ state = []
 name = "intimacy"
 enabled = true
 dir = "intimacy"
+overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
+
+[[specialties]]
+name = "social-relations"
+enabled = true
+dir = "social-relations"
 
 [installations.intimacy]
 schema_version = 1
@@ -45,17 +51,16 @@ kind = "feature"
 target = "story/construction"
 installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
 
-[installations.decisions]
+[installations.social-relations]
 schema_version = 1
-kind = "feature"
-target = "story/decisions"
-installation_id = "a9f9350f-abc2-4b1a-a1fc-0d491ec6afe1"
+kind = "specialty"
+target = "social-relations"
+installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
 
 [features]
 
 plotlines = true
 construction = true
-decisions = true
 
 [orchestration]
 targets = ["codex"]
