@@ -9,25 +9,28 @@ related:
   - characters/minor/周景尧/关系/裴兰馨.md
 source_schema: character.profile@1
 specialty_required_when:
-  - 亲密
-  - 双修
-  - 吻
+  - "[亲密:A场]"
+  - 亲密 A 场
   - 身体回应
-  - 尺度
-  - 暧昧
-  - 回房
-  - 成年
+  - 尺度施工
+  - 软切黑
+  - 亲密机制
   - HD
-  - A场
-  - B场
-  - 胁迫
-  - 受害方失衡
-  - SM
-  - BDSM
-  - 共鸣
+  - 双修
   - 星辰契约同步
   - 欲望显影
   - 星庭共居
+  - "[社会关系]"
+  - 人情世故链
+  - 人情事故链
+  - 办事链
+  - 真人反应链
+  - 真人反射链
+  - 关系动员路径
+  - 人情关系网
+  - 办事关系网
+  - 中间人网络
+  - 消息扩散链
 status: confirmed
 tags:
   - 次要人物

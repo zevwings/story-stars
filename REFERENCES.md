@@ -7,7 +7,7 @@
 
 - `A --> B` 表示 A 引用并依赖 B，即 B 是 A 的上游真源。
 - 实线表示 `depends_on`，参与依赖环检查。
-- 虚线表示 `interface`、`evidence`、`decision_gate` 或派生层读取，不是事实依赖。
+- 虚线表示 `interface`、`evidence`、`construction_gate` 或派生层读取，不是事实依赖。
 - `index`、`related` 和 `backlink` 只负责导航，不在主图中展开。
 
 ## 正式依赖
@@ -68,7 +68,7 @@ flowchart LR
     Chapter["chapters/"]
     Clue["clues/"]
     Context["context/"]
-    Decision["story/decisions/<br/>流程门禁"]
+    Gate["story/construction/_gates/<br/>临时流程门禁"]
     Formal["正式真源"]
     Derived[".analysis / .prewrite / .rag / Preview"]
 
@@ -76,13 +76,13 @@ flowchart LR
     Construction -. "interface" .-> Plotline
     Clue -. "evidence" .-> Chapter
     Context -. "evidence" .-> Chapter
-    Decision -. "decision_gate" .-> Plotline
-    Decision -. "decision_gate" .-> Construction
-    Decision -. "decision_gate" .-> Chapter
+    Gate -. "construction_gate" .-> Plotline
+    Gate -. "construction_gate" .-> Construction
+    Gate -. "construction_gate" .-> Chapter
     Derived -. "只读" .-> Formal
 ```
 
-剧情节点与施工单元之间的 `interface` 可以双向存在；`decision_gate` 只能从 decisions 指向正式目标，正式目标不得反向引用决策文件。
+剧情节点与施工单元之间的 `interface` 可以双向存在；`construction_gate` 只能从 `_gates/` 指向正式目标，正式目标和普通 `CON-*` 不得反向引用具体 Gate。
 
 ## 关键禁止方向
 
@@ -91,7 +91,7 @@ flowchart LR
     World["worldbuilding/"] -. "禁止 depends_on" .-> Character["characters/"]
     Character -. "禁止 depends_on" .-> Narrative["剧情节点 / 阶段页 / 施工单元<br/>专项人物档案 / 章节 / 动态上下文"]
     Plotline["story/plotlines/"] -. "禁止反向依赖" .-> Arc["story/arcs/"]
-    Formal["任何正式真源"] -. "禁止反向引用" .-> Decision["story/decisions/"]
+    Formal["任何正式真源"] -. "禁止反向引用" .-> Gate["story/construction/_gates/"]
     Formal -. "禁止依赖" .-> Derived[".analysis / .prewrite / .rag / Preview"]
 ```
 

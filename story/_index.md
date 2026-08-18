@@ -13,4 +13,4 @@
 - [题材口径](genres/_index.md)
 - [阶段弧线](arcs/_index.md)：承载阶段进入状态、正式节点调用、阶段终点、知情边界与不得提前；未确认章序与场景参数留在 `.analysis/`，确认后的具体执行规格进入 `story/construction/`。
 - [正式剧情节点](plotlines/_index.md)：承载已确认且需跨阶段继承的主线、副线与亲密线变化及完成判据；不复制阶段编排或施工细节。
-- [决策门](decisions/_index.md)：登记当前可延后、但在明确剧情节点、施工单元或章节执行前必须解决的问题；只控制流程，不提供故事事实。
+- [施工执行规格](construction/_index.md)：普通 `CON-*` 承载已确认执行规格；`construction/_gates/` 承载只控制命中 operation、且不提供故事事实的临时门禁。

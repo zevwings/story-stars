@@ -4,7 +4,7 @@
 
 ## 项目门禁
 
-进入项目 `$SPECIALTY_ROOT/` 前, 先确认 `.story.config.toml` 已启用该专项, 或项目存在明确的 `$SPECIALTY_ROOT/_index.md`。未启用时不临时创建专项目录。
+进入项目亲密专项前, 必须先运行 `sw specialty resolve intimacy --root "$STORY_PROJECT_ROOT"`。仅当 `activation=enabled`、`ready=true` 且无 blocking diagnostic 时, 才将 `$STORY_PROJECT_ROOT/<specialty.target>` 设为 `$SPECIALTY_ROOT` 并读取本协议。目录或 `$SPECIALTY_ROOT/_index.md` 存在不构成启用证据; 其他状态立即停止, 不创建、补齐或写入专项目录。
 
 ## 必读顺序
 
@@ -15,7 +15,7 @@
 5. 命中专项机制时读取 `$SPECIALTY_ROOT/mechanisms/_index.md` 与具体机制页
 6. 读取正式大纲或作者已经指定的 A / B / dark；公共规则和下游 skill 不重新判定
 7. [亲密边界与红线](./亲密边界与红线.md) 与对应公共施工规则
-8. 需要具体写法素材时读取 `$SPECIALTY_ROOT/references/_index.md`
+8. 需要 package 通用写法素材时读取 `$SPECIALTY_ROOT/references/library/_index.md`; 需要项目自有素材时再读 `$SPECIALTY_ROOT/references/_index.md`
 
 本页是公共层唯一的场型定性委托入口：正向 / dark 的最终定性只服从项目 `BIBLE.md`、项目题材页与当场正式事实。其余公共规则、参考页与 skill 只处理已经完成定性的施工流程，不得另立判据，也不得根据机制名称、尺度强弱、身份落差、题材标签或单项风险自行改判。
 

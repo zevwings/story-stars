@@ -36,6 +36,14 @@
 
 施工索引以 `_status/` 中登记的路径为内容清单。`active`、`bound` 建立完整正文索引；`consumed`、`superseded`、`retired` 只保留状态、兑现位置与源路径，历史正文需要复查时再按源路径读取。目录遍历只用于发现漏登记文件，不作为内容入口。
 
+## Construction Gate
+
+- 已进入施工阶段但可以延后决定的问题，从 [`_gate-template.md`](./_gate-template.md) 创建到 `_gates/GATE-xxxx-{名称}.md`。
+- Gate 必须命中至少一个 `active` 或 `bound` 的 `CON-*`；没有正式施工目标的候选继续留在 `.analysis/`。
+- 普通规划与写作通过 `sw project gates --operation <operation> --target <CON-xxxx>` 只查询 frontmatter，不读取候选方案正文。
+- 作者决定后先更新全部正式回写目标并验证，最后删除 Gate；正式目标不得反向引用具体 `GATE-*`。
+- `_gates/` 不属于施工正文索引，不登记到五态状态表，也不进入 Construction RAG。
+
 ## 当前施工包
 
 - [野人户外产品测试与中试议题线施工](野人户外产品测试与中试议题线/_index.md)：承接岚隐山的白天实测、套房数据整理与公私切换，以及返程后的管理层复盘、中试缺口确认和重资产自建暂缓。

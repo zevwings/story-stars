@@ -16,7 +16,7 @@
 - 正式事实只写入 `BIBLE.md`、`STYLE.md` 或对应正式目录；索引、关联导航、证据与施工接口不等于事实依赖。
 - `worldbuilding/` 不依赖人物、剧情节点、章节或动态上下文；`characters/` 可以依赖世界观与静态人物事实，但不反向定义剧情、施工、章节或动态状态。
 - `story/arcs/` 调用 `story/plotlines/`，剧情节点不反向引用阶段页。节点与施工单元的双向链接只是执行接口。
-- `story/decisions/` 只以 `decision_gate` 指向目标；正式文件不得反向引用决策文件。`.prototypes/`、`.analysis/`、`.prewrite/`、`.rag/` 与 Preview 可读正式真源，正式文件不得把它们作为事实来源。
+- `story/construction/_gates/` 只以 `construction_gate` 指向正式施工、剧情节点或章节回写目标；任何正式文件和普通 `CON-*` 都不得反向引用具体 `GATE-*`。`.prototypes/`、`.analysis/`、`.prewrite/`、`.rag/`、Gate 与 Preview 可读正式真源，正式文件不得把它们作为事实来源。
 
 ## P-003：写入与确认
 
@@ -31,9 +31,9 @@
 - 不得增设逐动作询问、逐词映射、权限矩阵或场次授权记录。普通亲密按人物卡与前后文自然书写。
 - 只有大纲明确把拒绝、越界、影像、第三方或精神介入设为剧情事件时，才专项承接其过程与后果。
 
-## P-005：施工、决策与派生层
+## P-005：施工、执行门禁与派生层
 
 - `story/construction/` 只服务已登记的正式剧情节点；从其 `_index.md` 和 `_status/` 进入。普通任务只继承 `active`，指定目标再读取匹配 `bound`。每个 `CON-xxxx` 恰好登记一次，并保存施工源、唯一主要剧情线和至少一个正式节点接口；不能挂接正式节点的内容留在 `.analysis/`。
+- `story/construction/_gates/` 保存已经进入施工阶段、但可以延后到明确 operation 再决定的问题。Gate 必须命中至少一个 `active` 或 `bound` 的 `CON-*`，只读取 frontmatter 判断阻塞，不进入 Construction 状态表、普通继承或 RAG；只有作者明确要求处理具体 Gate 时才读取正文。作者决定后先回写并验证全部正式目标，最后删除 Gate，不保留 resolved 副本。
 - Preview 仅读取配置、`story/plotlines/`、其状态与 `story/arcs/`；临时 HTML、payload 与 manifest 不进入仓库。`.prewrite/` 是章节上下文包，不能替代正式章纲、人物状态、线索状态或世界观。
 - `.analysis/` 保存候选、推演、缺口、待确认项和历史过程；剧情线内部缺口进入 `.analysis/plotlines/`，跨线或正式设定级分析进入 `.analysis/blueprints/`。
-- `story/decisions/` 保存有明确目标、后果和最迟决策点的延迟决策门。`scheduled` 不阻塞无关任务；`blocking` 或命中最迟时点时阻塞目标。作者确认后先回写正式真源，再删除决策登记和文件。
