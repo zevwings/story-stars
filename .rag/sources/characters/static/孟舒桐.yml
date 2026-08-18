@@ -3,7 +3,7 @@ key: 孟舒桐
 primary:
   - characters/minor/孟舒桐/主卡.md
   - characters/minor/孟舒桐/形象.md
-  - characters/minor/孟舒桐/衣装.md
+  - characters/minor/孟舒桐/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

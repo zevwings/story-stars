@@ -3,7 +3,7 @@ key: 杨柳
 primary:
   - characters/minor/杨柳/主卡.md
   - characters/minor/杨柳/形象.md
-  - characters/minor/杨柳/衣装.md
+  - characters/minor/杨柳/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

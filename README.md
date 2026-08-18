@@ -40,7 +40,7 @@
 - `.story.config.toml` 保存稳定项目身份及 RAG / GraphRAG 路由配置，不是故事正典。
 - `construction` GraphRAG 域只索引 `_status/` 已登记单元，普通查询只返回 `active`，指定目标时补入匹配的 `bound`。
 - `project.truth_roots` 和各模块 `roots` 声明基础扫描入口, 用来定位章节、人物动态上下文、线索、故事规划和世界观目录。
-- `characters.roots[].static_cards` 声明静态角色档案包含哪些卡片; 默认是 `主卡.md`、`形象.md`、`衣装.md`。
+- `characters.roots[].static_cards` 声明静态角色档案包含哪些卡片; 默认是 `主卡.md`、`形象.md`、`衣装/_GRAMMAR.md`。
 - `context.roots` 默认只声明必然存在的 `context/characters`; 器物、武器等动态目录需要启用时再按项目实际目录追加。
 - `context.boundary_terms` 用于把命中的边界词加入 `.prewrite/<chapter>/context/` 上下文包候选查询; 默认空数组。
 - `worldbuilding.type_map` 与 `group_output_map` 是索引分组规则, 不代表世界观事实本身。

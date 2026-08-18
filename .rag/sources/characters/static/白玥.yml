@@ -3,7 +3,7 @@ key: 白玥
 primary:
   - characters/major/白玥/主卡.md
   - characters/major/白玥/形象.md
-  - characters/major/白玥/衣装.md
+  - characters/major/白玥/衣装/_GRAMMAR.md
   - characters/major/白玥/契约.md
 source_schema: character.profile@1
 status: confirmed

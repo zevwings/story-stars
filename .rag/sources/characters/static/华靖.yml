@@ -3,7 +3,7 @@ key: 华靖
 primary:
   - characters/minor/华靖/主卡.md
   - characters/minor/华靖/形象.md
-  - characters/minor/华靖/衣装.md
+  - characters/minor/华靖/衣装/_GRAMMAR.md
 related:
   - characters/minor/华靖/关系/晏林.md
 source_schema: character.profile@1
