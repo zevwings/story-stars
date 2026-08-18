@@ -5,80 +5,80 @@ members:
     primary:
       - characters/major/唐雨薇/主卡.md
       - characters/major/唐雨薇/形象.md
-      - characters/major/唐雨薇/衣装.md
+      - characters/major/唐雨薇/衣装/_GRAMMAR.md
       - characters/major/唐雨薇/契约.md
   - character_id: CHR-0002
     key: 安若曦
     primary:
       - characters/major/安若曦/主卡.md
       - characters/major/安若曦/形象.md
-      - characters/major/安若曦/衣装.md
+      - characters/major/安若曦/衣装/_GRAMMAR.md
       - characters/major/安若曦/契约.md
   - character_id: CHR-0001
     key: 晏林
     primary:
       - characters/major/晏林/主卡.md
       - characters/major/晏林/形象.md
-      - characters/major/晏林/衣装.md
+      - characters/major/晏林/衣装/_GRAMMAR.md
       - characters/major/晏林/契约.md
   - character_id: CHR-0012
     key: 景雪瑶
     primary:
       - characters/major/景雪瑶/主卡.md
       - characters/major/景雪瑶/形象.md
-      - characters/major/景雪瑶/衣装.md
+      - characters/major/景雪瑶/衣装/_GRAMMAR.md
       - characters/major/景雪瑶/契约.md
   - character_id: CHR-0011
     key: 楚辞
     primary:
       - characters/major/楚辞/主卡.md
       - characters/major/楚辞/形象.md
-      - characters/major/楚辞/衣装.md
+      - characters/major/楚辞/衣装/_GRAMMAR.md
   - character_id: CHR-0004
     key: 江岚
     primary:
       - characters/major/江岚/主卡.md
       - characters/major/江岚/形象.md
-      - characters/major/江岚/衣装.md
+      - characters/major/江岚/衣装/_GRAMMAR.md
       - characters/major/江岚/契约.md
   - character_id: CHR-0009
     key: 白玥
     primary:
       - characters/major/白玥/主卡.md
       - characters/major/白玥/形象.md
-      - characters/major/白玥/衣装.md
+      - characters/major/白玥/衣装/_GRAMMAR.md
       - characters/major/白玥/契约.md
   - character_id: CHR-0010
     key: 童颜
     primary:
       - characters/major/童颜/主卡.md
       - characters/major/童颜/形象.md
-      - characters/major/童颜/衣装.md
+      - characters/major/童颜/衣装/_GRAMMAR.md
   - character_id: CHR-0003
     key: 苏璃
     primary:
       - characters/major/苏璃/主卡.md
       - characters/major/苏璃/形象.md
-      - characters/major/苏璃/衣装.md
+      - characters/major/苏璃/衣装/_GRAMMAR.md
       - characters/major/苏璃/契约.md
   - character_id: CHR-0007
     key: 许知夏
     primary:
       - characters/major/许知夏/主卡.md
       - characters/major/许知夏/形象.md
-      - characters/major/许知夏/衣装.md
+      - characters/major/许知夏/衣装/_GRAMMAR.md
   - character_id: CHR-0008
     key: 许知秋
     primary:
       - characters/major/许知秋/主卡.md
       - characters/major/许知秋/形象.md
-      - characters/major/许知秋/衣装.md
+      - characters/major/许知秋/衣装/_GRAMMAR.md
   - character_id: CHR-0005
     key: 谢晚乔
     primary:
       - characters/major/谢晚乔/主卡.md
       - characters/major/谢晚乔/形象.md
-      - characters/major/谢晚乔/衣装.md
+      - characters/major/谢晚乔/衣装/_GRAMMAR.md
       - characters/major/谢晚乔/契约.md
 note: 共 12 人
 status: confirmed

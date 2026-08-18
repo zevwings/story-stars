@@ -3,7 +3,7 @@ key: 楚辞
 primary:
   - characters/major/楚辞/主卡.md
   - characters/major/楚辞/形象.md
-  - characters/major/楚辞/衣装.md
+  - characters/major/楚辞/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

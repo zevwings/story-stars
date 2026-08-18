@@ -3,7 +3,7 @@ key: 江岚
 primary:
   - characters/major/江岚/主卡.md
   - characters/major/江岚/形象.md
-  - characters/major/江岚/衣装.md
+  - characters/major/江岚/衣装/_GRAMMAR.md
   - characters/major/江岚/契约.md
 source_schema: character.profile@1
 status: confirmed

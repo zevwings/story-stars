@@ -3,7 +3,7 @@ key: 方成越
 primary:
   - characters/minor/方成越/主卡.md
   - characters/minor/方成越/形象.md
-  - characters/minor/方成越/衣装.md
+  - characters/minor/方成越/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

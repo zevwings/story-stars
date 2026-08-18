@@ -6,12 +6,12 @@ key: 言溪/貂蝉·马年限定红黑暗金战袍
 owner_id: CHR-0045
 owner: 言溪
 name: 貂蝉·马年限定红黑暗金战袍
-category: COS
+category: 完整造型（多件组合）／COS
 owner_variant: 红黑暗金非对称战袍＋青蓝马纹主题盘
 usage: 室内完整角色展示、角色摄影或经剧情确认的私人角色体验
 source_path: characters/minor/言溪/衣装/貂蝉-马年限定.md
 index_path: characters/minor/言溪/衣装/_index.md
 source_schema: character.outfit-index@1
-source_line: 9
-source_quote: "| [貂蝉·马年限定红黑暗金战袍](貂蝉-马年限定.md) | COS | 红黑暗金非对称战袍＋青蓝马纹主题盘 | 室内完整角色展示、角色摄影或经剧情确认的私人角色体验 |"
-source_hash: "702b8cb1c648625623a8caa180347648ca1d2caa95749f8f00dcf907292dc3df"
+source_line: 15
+source_quote: "| [貂蝉·马年限定红黑暗金战袍](貂蝉-马年限定.md) | 完整造型（多件组合）／COS | 红黑暗金非对称战袍＋青蓝马纹主题盘 | 室内完整角色展示、角色摄影或经剧情确认的私人角色体验 |"
+source_hash: "1035d9a200137c3dfbf2bde9bf4511bbad27eea1f9345b835a938eba3a0fff94"

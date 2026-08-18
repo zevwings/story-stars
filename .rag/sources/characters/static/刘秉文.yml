@@ -3,7 +3,7 @@ key: 刘秉文
 primary:
   - characters/minor/刘秉文/主卡.md
   - characters/minor/刘秉文/形象.md
-  - characters/minor/刘秉文/衣装.md
+  - characters/minor/刘秉文/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:
