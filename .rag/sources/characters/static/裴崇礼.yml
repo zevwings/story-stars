@@ -3,7 +3,7 @@ key: 裴崇礼
 primary:
   - characters/minor/裴崇礼/主卡.md
   - characters/minor/裴崇礼/形象.md
-  - characters/minor/裴崇礼/衣装.md
+  - characters/minor/裴崇礼/衣装/_GRAMMAR.md
   - characters/minor/裴崇礼/契约.md
 source_schema: character.profile@1
 status: confirmed

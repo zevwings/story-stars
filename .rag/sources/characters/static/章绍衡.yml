@@ -3,7 +3,7 @@ key: 章绍衡
 primary:
   - characters/minor/章绍衡/主卡.md
   - characters/minor/章绍衡/形象.md
-  - characters/minor/章绍衡/衣装.md
+  - characters/minor/章绍衡/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

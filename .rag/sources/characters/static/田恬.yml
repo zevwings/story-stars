@@ -3,7 +3,7 @@ key: 田恬
 primary:
   - characters/minor/田恬/主卡.md
   - characters/minor/田恬/形象.md
-  - characters/minor/田恬/衣装.md
+  - characters/minor/田恬/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

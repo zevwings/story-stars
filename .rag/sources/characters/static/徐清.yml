@@ -3,7 +3,7 @@ key: 徐清
 primary:
   - characters/minor/徐清/主卡.md
   - characters/minor/徐清/形象.md
-  - characters/minor/徐清/衣装.md
+  - characters/minor/徐清/衣装/_GRAMMAR.md
 source_schema: character.profile@1
 status: confirmed
 tags:

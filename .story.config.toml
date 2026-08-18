@@ -9,7 +9,7 @@ id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
 [[characters.roots]]
 path = "characters"
 type = "character.static"
-static_cards = ["主卡.md", "形象.md", "衣装.md", "契约.md"]
+static_cards = ["主卡.md", "形象.md", "衣装/_GRAMMAR.md", "契约.md"]
 
 [[context.roots]]
 path = "context/characters"
