@@ -9,6 +9,11 @@ related:
   - characters/major/苏璃/关系/唐雨薇.md
 source_schema: character.profile@1
 specialty_required_when:
+  - "[衣装目录]"
+  - 收录为服装参考
+  - 衣装目录查重
+  - 衣装参考迁移
+  - CLO-
   - "[亲密:A场]"
   - 亲密 A 场
   - 身体回应
@@ -20,6 +25,8 @@ specialty_required_when:
   - 星辰契约同步
   - 欲望显影
   - 星庭共居
+  - "[社会学]"
+  - 社会学分析
   - "[社会关系]"
   - 人情世故链
   - 人情事故链

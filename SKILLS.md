@@ -69,7 +69,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-prewrite <任务目标>`
 - 典型触发语：`预展开第X章`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`prewrite`
 
 ### `$chapter-reviewer`
@@ -79,7 +79,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-reviewer <任务目标>`
 - 典型触发语：`读者审读`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$chapter-writer`
@@ -89,7 +89,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-writer <任务目标>`
 - 典型触发语：`续写章节正文`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`
 
 ### `$character-builder`
@@ -99,7 +99,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$character-builder <任务目标>`
 - 典型触发语：`新增角色`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
 
 ### `$clue-manager`
@@ -189,7 +189,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$outline-generator <任务目标>`
 - 典型触发语：`生成大纲`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`, `prewrite`, `story`
 
 ### `$plotline-manager`
@@ -289,7 +289,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-planner <任务目标>`
 - 典型触发语：`规划后续剧情`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:social-relations`
+- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$story-review`

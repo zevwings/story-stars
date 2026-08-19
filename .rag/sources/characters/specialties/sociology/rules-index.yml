@@ -1,0 +1,7 @@
+required:
+  - protocols/_index.md
+  - protocols/社会关系场总纲.md
+scope: characters.specialty.sociology.rules_index
+specialty: sociology
+status: routing_only
+version: 1

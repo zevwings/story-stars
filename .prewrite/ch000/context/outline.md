@@ -122,10 +122,10 @@
 - `worldbuilding/systems/契约自知.md`
 - `worldbuilding/society/觉醒与登记.md`
 - `worldbuilding/factions/星辰管理局.md`
-- `social-relations/protocols/社会关系场总纲.md`
-- `social-relations/protocols/关系动员与办事链.md`
-- `social-relations/protocols/真人反应链.md`
-- `social-relations/protocols/人情账与关系余波.md`
+- `specialties/sociology/protocols/社会关系场总纲.md`
+- `specialties/sociology/protocols/关系动员与办事链.md`
+- `specialties/sociology/protocols/真人反应链.md`
+- `specialties/sociology/protocols/人情账与关系余波.md`
 
 ## 候选扩读门
 - 首轮围绕 `ENTRY.md`、`BIBLE.md`、目标 outline 与本摘要生成候选；目标路径明确时不再遍历章节索引。

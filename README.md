@@ -45,7 +45,7 @@
 - `worldbuilding.type_map` 与 `group_output_map` 是索引分组规则, 不代表世界观事实本身。
 - `context.timeline.required_characters` 声明开写前状态卡必读的角色；未确定必读角色时不声明。
 - 若某些文件或目录不应进入 GraphRAG（包括施工域）, 写入 `.graphragignore`。
-- `[[specialties]]` 只声明可选写作专项模块; 专项资料仍写入对应目录, 例如 `intimacy/`, 不写进 `.story.config.toml`。
+- `[[specialties]]` 只声明可选写作专项模块; 专项资料仍写入对应目录, 例如 `specialties/intimacy/`, 不写进 `.story.config.toml`。
 
 ## 边界
 

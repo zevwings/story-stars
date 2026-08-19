@@ -7,7 +7,7 @@ pair:
   - 白玥
 source_path: characters/major/晏林/关系/白玥.md
 source_schema: character.relationship@1
-source_hash: "1acb119448c0725d4f31b9b103f0bbfcc95568ace4bbb72e86834b4bbf6778fd"
+source_hash: e69fe28fbc7880b4786b491c4bffbee06d880437867d554979793961816ddf86
 addresses:
   - id: "address:CHR-0001:CHR-0009"
     schema_version: 1
@@ -23,7 +23,7 @@ addresses:
     source_section: 称呼
     source_line: 27
     source_quote: "| 晏林 → 白玥 | 白玥 | 白玥 | 未登记普通固定爱称 |"
-    source_hash: "1acb119448c0725d4f31b9b103f0bbfcc95568ace4bbb72e86834b4bbf6778fd"
+    source_hash: e69fe28fbc7880b4786b491c4bffbee06d880437867d554979793961816ddf86
   - id: "address:CHR-0009:CHR-0001"
     schema_version: 1
     speaker_id: CHR-0009
@@ -32,10 +32,10 @@ addresses:
     target: 晏林
     public_or_work: 晏林
     private_or_daily: 晏林
-    notes: 私人主从关系中的 HD 角色称呼另读 `intimacy/characters/晏林/白玥.md`；不因长期关系变成现实身份
+    notes: 私人主从关系中的 HD 角色称呼另读 `specialties/intimacy/characters/晏林/白玥.md`；不因长期关系变成现实身份
     source_path: characters/major/晏林/关系/白玥.md
     source_schema: character.relationship@1
     source_section: 称呼
     source_line: 28
-    source_quote: "| 白玥 → 晏林 | 晏林 | 晏林 | 私人主从关系中的 HD 角色称呼另读 `intimacy/characters/晏林/白玥.md`；不因长期关系变成现实身份 |"
-    source_hash: "1acb119448c0725d4f31b9b103f0bbfcc95568ace4bbb72e86834b4bbf6778fd"
+    source_quote: "| 白玥 → 晏林 | 晏林 | 晏林 | 私人主从关系中的 HD 角色称呼另读 `specialties/intimacy/characters/晏林/白玥.md`；不因长期关系变成现实身份 |"
+    source_hash: e69fe28fbc7880b4786b491c4bffbee06d880437867d554979793961816ddf86

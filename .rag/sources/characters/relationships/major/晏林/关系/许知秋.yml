@@ -7,7 +7,7 @@ pair:
   - 许知秋
 source_path: characters/major/晏林/关系/许知秋.md
 source_schema: character.relationship@1
-source_hash: "4fc2f03d043eac41b66d97f316d2193553fb04980438d105b979257abba714fb"
+source_hash: "26dfdc931acb55e7b39642b305c0f185af86c5f74dcfa6bd1130c276d2b447bf"
 addresses:
   - id: "address:CHR-0001:CHR-0008"
     schema_version: 1
@@ -23,7 +23,7 @@ addresses:
     source_section: 称呼
     source_line: 26
     source_quote: "| 晏林 → 许知秋 | — | — | 未登记稳定称呼 |"
-    source_hash: "4fc2f03d043eac41b66d97f316d2193553fb04980438d105b979257abba714fb"
+    source_hash: "26dfdc931acb55e7b39642b305c0f185af86c5f74dcfa6bd1130c276d2b447bf"
   - id: "address:CHR-0008:CHR-0001"
     schema_version: 1
     speaker_id: CHR-0008
@@ -38,4 +38,4 @@ addresses:
     source_section: 称呼
     source_line: 27
     source_quote: "| 许知秋 → 晏林 | 来访者在场时称晏老师；闭店后称老板 | 老板；私人感情语境可称晏林 | 工作场始终使用“晏老师”；改口不改变岗位与信息权限 |"
-    source_hash: "4fc2f03d043eac41b66d97f316d2193553fb04980438d105b979257abba714fb"
+    source_hash: "26dfdc931acb55e7b39642b305c0f185af86c5f74dcfa6bd1130c276d2b447bf"

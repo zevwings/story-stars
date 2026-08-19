@@ -25,18 +25,23 @@ state = []
 [[specialties]]
 name = "intimacy"
 enabled = true
-dir = "intimacy"
+dir = "specialties/intimacy"
 overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
 
 [[specialties]]
-name = "social-relations"
+name = "sociology"
 enabled = true
-dir = "social-relations"
+dir = "specialties/sociology"
+
+[[specialties]]
+name = "clothes"
+enabled = true
+dir = "specialties/clothes"
 
 [installations.intimacy]
 schema_version = 1
 kind = "specialty"
-target = "intimacy"
+target = "specialties/intimacy"
 installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
 
 [installations.plotlines]
@@ -51,11 +56,17 @@ kind = "feature"
 target = "story/construction"
 installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
 
-[installations.social-relations]
+[installations.sociology]
 schema_version = 1
 kind = "specialty"
-target = "social-relations"
+target = "specialties/sociology"
 installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
+
+[installations.clothes]
+schema_version = 1
+kind = "specialty"
+target = "specialties/clothes"
+installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
 
 [features]
 

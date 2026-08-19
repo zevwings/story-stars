@@ -7,7 +7,7 @@ pair:
   - 江岚
 source_path: characters/major/安若曦/关系/江岚.md
 source_schema: character.relationship@1
-source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"
+source_hash: af9a800bc0a8ce537829e845557dd964bc1e3870f15d899aa02dec3832f44395
 addresses:
   - id: "address:CHR-0002:CHR-0004"
     schema_version: 1
@@ -23,7 +23,7 @@ addresses:
     source_section: 称呼
     source_line: 28
     source_quote: "| 安若曦 → 江岚 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
-    source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"
+    source_hash: af9a800bc0a8ce537829e845557dd964bc1e3870f15d899aa02dec3832f44395
   - id: "address:CHR-0004:CHR-0002"
     schema_version: 1
     speaker_id: CHR-0004
@@ -38,4 +38,4 @@ addresses:
     source_section: 称呼
     source_line: 29
     source_quote: "| 江岚 → 安若曦 | — | — | 尚未登记稳定称呼，不从恋人关系自动补昵称 |"
-    source_hash: "0774462807391506edd96d12dfc3a7f84c929d22c737b55f5bbb9827fd24ccef"
+    source_hash: af9a800bc0a8ce537829e845557dd964bc1e3870f15d899aa02dec3832f44395

@@ -38,7 +38,7 @@
 
 ## 特殊任务入口
 
-- `intimacy/项目路由.md`：已启用亲密专项的项目自有读取顺序、题材边界与参考入口；使用前仍必须以 `sw specialty resolve intimacy` 确认安装副本可用。
+- `specialties/intimacy/项目路由.md`：已启用亲密专项的项目自有读取顺序、题材边界与参考入口；使用前仍必须以 `sw specialty resolve intimacy` 确认安装副本可用。
 - `story/construction/`：已确认执行规格与临时 Construction Gate 的入口。普通 `CON-*` 的状态、继承范围和正式节点接口服从 `POLICY.md` 与本目录 `_status/`；`_gates/` 只控制命中的 operation，普通任务不得读取其正文。
 - `.prototypes/`：持久原型参考层。仅在作者明确要求原型研究、人物形象修改、服装原型／定制设计、地区视觉设计、生图设计或撞型检查时，先读 `.prototypes/README.md`，再从对应分类 `_index.md` 进入；普通写作、规划和事实查询不读取。
 

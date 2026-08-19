@@ -7,7 +7,7 @@ pair:
   - 唐雨薇
 source_path: characters/major/苏璃/关系/唐雨薇.md
 source_schema: character.relationship@1
-source_hash: "9a230357f9ff6ea4ba00b53cebf2c50fae8760b463ab6f4533e0fda78fd2e407"
+source_hash: "6f757cd8e356acd6a9fbd686298376244c0a3f2b3351244ac827469edf4aecc6"
 addresses:
   - id: "address:CHR-0003:CHR-0006"
     schema_version: 1
@@ -23,7 +23,7 @@ addresses:
     source_section: 称呼
     source_line: 28
     source_quote: "| 苏璃 → 唐雨薇 | — | — | 尚未登记稳定称呼，不从闺蜜或恋人关系自动补昵称 |"
-    source_hash: "9a230357f9ff6ea4ba00b53cebf2c50fae8760b463ab6f4533e0fda78fd2e407"
+    source_hash: "6f757cd8e356acd6a9fbd686298376244c0a3f2b3351244ac827469edf4aecc6"
   - id: "address:CHR-0006:CHR-0003"
     schema_version: 1
     speaker_id: CHR-0006
@@ -38,4 +38,4 @@ addresses:
     source_section: 称呼
     source_line: 29
     source_quote: "| 唐雨薇 → 苏璃 | — | — | 尚未登记稳定称呼，不从闺蜜或恋人关系自动补昵称 |"
-    source_hash: "9a230357f9ff6ea4ba00b53cebf2c50fae8760b463ab6f4533e0fda78fd2e407"
+    source_hash: "6f757cd8e356acd6a9fbd686298376244c0a3f2b3351244ac827469edf4aecc6"

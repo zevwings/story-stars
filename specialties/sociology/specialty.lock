@@ -1,0 +1,243 @@
+schema_version = 2
+module_id = "sociology"
+kind = "specialty"
+installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
+required_paths = [
+    "_index.md",
+    "protocols/_index.md",
+    "references/_index.md",
+    "references/library/_index.md",
+]
+
+[package]
+module_id = "sociology"
+version = "0.2.0"
+runtime_api = 1
+label = "应用社会学"
+keywords = [
+    "[社会学]",
+    "社会学分析",
+    "[社会关系]",
+    "人情世故链",
+    "人情事故链",
+    "办事链",
+    "真人反应链",
+    "真人反射链",
+    "关系动员路径",
+    "人情关系网",
+    "办事关系网",
+    "中间人网络",
+    "消息扩散链",
+]
+rules = [
+    "protocols/_index.md",
+    "protocols/社会关系场总纲.md",
+]
+state_categories = []
+check_priority = "P2"
+fingerprint_algorithm = "sha256-v1"
+fingerprint = "sha256:f97fe73392d0f739b930aa9757f857885872a202504a550605bb585075a2f240"
+managed_roots = [
+    "_index.md",
+    "protocols",
+    "references/_index.md",
+    "references/library",
+]
+required_paths = [
+    "_index.md",
+    "protocols/_index.md",
+    "references/_index.md",
+    "references/library/_index.md",
+]
+
+[[package.files]]
+path = "_index.md"
+mode = 420
+size = 2157
+sha256 = "7a606412426ce241fd7410cdb5189fae3e38c270bb07ac6273980fc4cd39e46e"
+
+[[package.files]]
+path = "protocols/_index.md"
+mode = 420
+size = 991
+sha256 = "eabafab64151dcd77f69324ea565f28e75c1889153627a34866f44caf02876fa"
+
+[[package.files]]
+path = "protocols/人情账与关系余波.md"
+mode = 420
+size = 1693
+sha256 = "ad22e88c934fa2eb6e93d3efda1248ff52ec7d63999e8a4e32b62f0f8d4f0695"
+
+[[package.files]]
+path = "protocols/关系动员与办事链.md"
+mode = 420
+size = 2159
+sha256 = "59cdd76d86c0d4bb7f2751974fd293746662ba920743eabf87821a7de6e49e0f"
+
+[[package.files]]
+path = "protocols/拒绝推脱与降格办理.md"
+mode = 420
+size = 1716
+sha256 = "46ed9a57aebfe20b0b2eccd3f8fbaa04e1092fa07fc384c6c6d39649e4701c5d"
+
+[[package.files]]
+path = "protocols/真人反应链.md"
+mode = 420
+size = 2365
+sha256 = "6a6ee803a9568b3a31421772a3a30029622b755add81aa9f669e84bafd135026"
+
+[[package.files]]
+path = "protocols/社会关系场写前写后校验.md"
+mode = 420
+size = 2937
+sha256 = "22768a06a2d880051ca0920b4ab40e2e70e25b2513b9c1e5f9a70f7afde86f26"
+
+[[package.files]]
+path = "protocols/社会关系场总纲.md"
+mode = 420
+size = 2358
+sha256 = "ee64742c609665ae904e90387e7c4cc2d7cc78409f2b54f80fb38181c2068786"
+
+[[package.files]]
+path = "references/_index.md"
+mode = 420
+size = 2248
+sha256 = "4cdc14b95a6d9691cce1feca0bafab2542fee070386b885730011be52fc8be70"
+
+[[package.files]]
+path = "references/library/01_关系基础与亲疏距离.md"
+mode = 420
+size = 1315
+sha256 = "56cc0d2b1c118f020f79b876464538da554c1c6458e897cf45eda20eab089d39"
+
+[[package.files]]
+path = "references/library/02_中间人与递话.md"
+mode = 420
+size = 1140
+sha256 = "1accfc7c92c8efba270c91adb6efe1a073157d0e7c8c2049ece74dbdcfb854ef"
+
+[[package.files]]
+path = "references/library/03_面子与公开程度.md"
+mode = 420
+size = 1260
+sha256 = "dd5dda8aa806dc1c7be2985557e8c3b345c08d844bf4ddf38c223e13f6b652c5"
+
+[[package.files]]
+path = "references/library/04_人情交换与回报预期.md"
+mode = 420
+size = 1190
+sha256 = "85ad52058c7c7414763270c889bab6f0b7f5522aedc33f832e99deabee72cca1"
+
+[[package.files]]
+path = "references/library/05_家族与亲属网络.md"
+mode = 420
+size = 1143
+sha256 = "3969afa726e9a03742ea71dd298dcf889d805a3ae7e5f5f5da41e338c8559bcc"
+
+[[package.files]]
+path = "references/library/06_职场与组织关系.md"
+mode = 420
+size = 1760
+sha256 = "d89010c03d7eb8ebf6be5ae78de51889eeacd0a9490812927a60b0e477cb85d2"
+
+[[package.files]]
+path = "references/library/07_商业引荐与饭局.md"
+mode = 420
+size = 1119
+sha256 = "dcc5dff0abc3b36c4e79ea4791d707d76151ffee5f1693f08f9eefb811e940dd"
+
+[[package.files]]
+path = "references/library/08_熟人办事与制度程序.md"
+mode = 420
+size = 1623
+sha256 = "0f867ade3a3232c2b3a3d4fd722c4b08a098159d5f21b6992f7993edb9319890"
+
+[[package.files]]
+path = "references/library/09_软拒绝与关系降温.md"
+mode = 420
+size = 1567
+sha256 = "b9b2d09002b448f1cb926ac0ada9ad11a35a9d8d063a278c7f1cc55aa4f0759f"
+
+[[package.files]]
+path = "references/library/10_真人反应与消息扩散.md"
+mode = 420
+size = 1773
+sha256 = "9d80ae4903761cf5003a5d877651a133e6d64022caf0ec0bf7684697916ef124"
+
+[[package.files]]
+path = "references/library/11_文学场景提炼.md"
+mode = 420
+size = 1423
+sha256 = "0bec4e24c1dbd3171f91c34b184e9349059b6bcb1251195a88b0f4c0bf669dee"
+
+[[package.files]]
+path = "references/library/12_处世书反例库.md"
+mode = 420
+size = 2602
+sha256 = "6d2e646e3cbfe348d9197950f79f9f548c1f09510c567792e63f888ac3074d5d"
+
+[[package.files]]
+path = "references/library/13_制度化与关系作用的变形.md"
+mode = 420
+size = 2216
+sha256 = "a66645e1aa540fd6aaeda219dee3f2c4294ed5ae71f754c10966a694db8c38b0"
+
+[[package.files]]
+path = "references/library/14_城市流动与网络重组.md"
+mode = 420
+size = 2099
+sha256 = "3373dfc7f67c29b5a1eba4d00adf8240993914eaf9dddca4ed82dd3b31e65632"
+
+[[package.files]]
+path = "references/library/15_拒绝语用与对话序列.md"
+mode = 420
+size = 2422
+sha256 = "652604fe8f0f5d8ee451e6570825d62c338477ab9e76dbef4a3ce6536ae024dc"
+
+[[package.files]]
+path = "references/library/16_数字社交与可见边界.md"
+mode = 420
+size = 2193
+sha256 = "74cb965875ef165afc46d2b18d7a47070bd5695f23c9eafcbdc880da957544a5"
+
+[[package.files]]
+path = "references/library/17_互动秩序与情绪劳动.md"
+mode = 420
+size = 1904
+sha256 = "dc3578a909a228e4e78b8f1c4dfe1cb3fca919c7087ef80315ecb722eb769123"
+
+[[package.files]]
+path = "references/library/18_闲话转述与群体边界.md"
+mode = 420
+size = 2201
+sha256 = "029ef00dda3c5b5f25cbd8dd2b73b128d8338910dfa0299bfc888702d3815f39"
+
+[[package.files]]
+path = "references/library/_index.md"
+mode = 420
+size = 5734
+sha256 = "b80513f773798fccb82b733d56bd09bdbc874a5cac8cda86cf5c34a3f821996f"
+
+[metadata]
+label = "应用社会学"
+keywords = [
+    "[社会学]",
+    "社会学分析",
+    "[社会关系]",
+    "人情世故链",
+    "人情事故链",
+    "办事链",
+    "真人反应链",
+    "真人反射链",
+    "关系动员路径",
+    "人情关系网",
+    "办事关系网",
+    "中间人网络",
+    "消息扩散链",
+]
+rules = [
+    "protocols/_index.md",
+    "protocols/社会关系场总纲.md",
+]
+state_categories = []
+check_priority = "P2"

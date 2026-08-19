@@ -2,7 +2,7 @@
 
 > 本页是晏林**唯一**的关系摘要 / 索引层，也是 A 场（正文管线）的首选速查层；[主卡](../主卡.md) 不再维护关系表。完整静态配对档见本目录 `<对象>.md`。
 >
-> 关系的按章推进走 `context/characters/晏林.md`，不写在这里。露骨 HD 层隔离在 `intimacy/characters/晏林/`，仅 `intimacy-hd-*` 读取；深色带档位等 HD 速查以 `intimacy/characters/晏林/_index.md` 为准，不进本页。
+> 关系的按章推进走 `context/characters/晏林.md`，不写在这里。露骨 HD 层隔离在 `specialties/intimacy/characters/晏林/`，仅 `intimacy-hd-*` 读取；深色带档位等 HD 速查以 `specialties/intimacy/characters/晏林/_index.md` 为准，不进本页。
 >
 > 本索引只登记稳定关系定位与写作边界，不登记剧情节点、阶段顺序、完成判据或未来事件。
 
@@ -59,4 +59,4 @@
 
 ## 亲密称呼速查
 
-不维护中央称呼矩阵，也不在本索引重复抄录。普通与私人称呼以本目录各 `关系/<对象>.md` 的有向称呼表为唯一真源；露骨 HD、权力角色、情欲自称及其他亲密专项叫法只从 `intimacy/characters/晏林/` 对应档案读取。
+不维护中央称呼矩阵，也不在本索引重复抄录。普通与私人称呼以本目录各 `关系/<对象>.md` 的有向称呼表为唯一真源；露骨 HD、权力角色、情欲自称及其他亲密专项叫法只从 `specialties/intimacy/characters/晏林/` 对应档案读取。
