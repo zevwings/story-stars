@@ -7,7 +7,7 @@ pair:
   - 景雪瑶
 source_path: characters/major/晏林/关系/景雪瑶.md
 source_schema: character.relationship@1
-source_hash: bec41e583e10f41b5e491fba9540c47b6b2cf4be831fbd3d45b7dd4761ff78ff
+source_hash: "77b508f56a8f2cde8a477f5e4d1ea5adb44a4e1406b48b28a4fa1818f3a39a3e"
 addresses:
   - id: "address:CHR-0001:CHR-0012"
     schema_version: 1
@@ -23,7 +23,7 @@ addresses:
     source_section: 称呼
     source_line: 43
     source_quote: "| 晏林 → 景雪瑶 | 雪见；正式档案或郑重语境称景雪瑶 | 瑶瑶 | “雪见”对应公开职业身份，“瑶瑶”用于熟人与私人日常 |"
-    source_hash: bec41e583e10f41b5e491fba9540c47b6b2cf4be831fbd3d45b7dd4761ff78ff
+    source_hash: "77b508f56a8f2cde8a477f5e4d1ea5adb44a4e1406b48b28a4fa1818f3a39a3e"
   - id: "address:CHR-0012:CHR-0001"
     schema_version: 1
     speaker_id: CHR-0012
@@ -38,4 +38,4 @@ addresses:
     source_section: 称呼
     source_line: 44
     source_quote: "| 景雪瑶 → 晏林 | 晏林；校园身份或回忆语境可称学长 | 晏林哥哥；老公；晏林 | 三种昵称不是固定升级阶段；认真、担心约定落空或索要明确回应时完整叫“晏林”。当前无景雪瑶 HD 配对档，不从普通昵称推导专用称呼 |"
-    source_hash: bec41e583e10f41b5e491fba9540c47b6b2cf4be831fbd3d45b7dd4761ff78ff
+    source_hash: "77b508f56a8f2cde8a477f5e4d1ea5adb44a4e1406b48b28a4fa1818f3a39a3e"

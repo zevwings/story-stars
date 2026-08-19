@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=62f0af7fba6735194ab6e8a4915d79e95990da401e1d106eb5ccfe7d2f0b2acb -->
+<!-- story-writer-managed: skills-guide/v1 sha256=980d44605740fc38417c3eebb54082b1427924a6fe14231666a3f05b56a22117 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -264,7 +264,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$session-resume`
 
-从 sw session 托管的 session-handoff、session-checkpoint、任务标识或明确路径恢复未完成的小说任务。校验记录 fingerprint，重新核验项目入口、BIBLE、目标文件、真源闭包和 Git 状态，识别过时前提后继续执行下一项安全动作。触发词: session resume、恢复上次小说任务、从交接继续、读取断点继续、继续上个 session。普通的续写正文或继续写本章应使用 chapter-writer。
+从 sw session 托管的 session-handoff、session-checkpoint、任务标识或明确路径恢复未完成的小说任务。校验记录 fingerprint，重新核验项目入口、最高故事真源、目标文件、真源闭包和 Git 状态，识别过时前提后继续执行下一项安全动作。触发词: session resume、恢复上次小说任务、从交接继续、读取断点继续、继续上个 session。普通的续写正文或继续写本章应使用 chapter-writer。
 
 - 调用格式：`$session-resume <任务目标>`
 - 典型触发语：`session resume`
@@ -294,7 +294,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$story-planner`
 
-未来故事规划与冲突检查。对照已定稿章节、BIBLE、正式人物/世界观/线索、阶段弧线、剧情节点和施工规格, 梳理尚未实现的剧情依赖, 产出剧情规划线路图、决策清单和未来 3-5 章就绪队列。触发词: 规划后续剧情、梳理剧情线、生成剧情线路图、检查剧情规划冲突、检查人情世故链、关系网因果规划、阶段编排、章节分配、下一章写什么、把阶段整理到可写。
+未来故事规划与冲突检查。对照已定稿章节、项目最高故事真源、正式人物/世界观/线索、阶段弧线、剧情节点和施工规格, 梳理尚未实现的剧情依赖, 产出剧情规划线路图、决策清单和未来 3-5 章就绪队列。触发词: 规划后续剧情、梳理剧情线、生成剧情线路图、检查剧情规划冲突、检查人情世故链、关系网因果规划、阶段编排、章节分配、下一章写什么、把阶段整理到可写。
 
 - 调用格式：`$story-planner <任务目标>`
 - 典型触发语：`规划后续剧情`
@@ -331,4 +331,4 @@ sw install --target codex
 sw setup sync --root /path/to/story-project --sync-agent-links --agent-target agents
 ```
 
-`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到项目 `zen/`，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
