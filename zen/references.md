@@ -14,7 +14,7 @@
 
 ```mermaid
 flowchart TB
-    Bible["bible.md<br/>项目最高真源"]
+    Bible["bible.md<br/>故事最高真源"]
     Policy["policy.md<br/>流程与目录门禁"]
     World["worldbuilding/<br/>世界观"]
     Character["characters/<br/>正式人物"]

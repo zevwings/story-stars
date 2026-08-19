@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=980d44605740fc38417c3eebb54082b1427924a6fe14231666a3f05b56a22117 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=e4c7e769b2ef66be8a0c04b9933c090cfb54291ba843e99c8a543c0111bfe787 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -59,7 +59,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-finalizer <任务目标>`
 - 典型触发语：`定稿第X章`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`chapters`, `characters`, `context`, `clues`, `story`, `worldbuilding`, `construction`, `plotlines`, `rag`
 
 ### `$chapter-prewrite`
@@ -69,7 +69,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-prewrite <任务目标>`
 - 典型触发语：`预展开第X章`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`prewrite`
 
 ### `$chapter-reviewer`
@@ -79,7 +79,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-reviewer <任务目标>`
 - 典型触发语：`读者审读`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:sociology`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$chapter-writer`
@@ -89,7 +89,7 @@ $create-pull-request 创建 PR
 - 调用格式：`$chapter-writer <任务目标>`
 - 典型触发语：`续写章节正文`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`
 
 ### `$character-builder`
@@ -124,13 +124,13 @@ $create-pull-request 创建 PR
 
 ### `$construction-gate-manager`
 
-Construction Gate 创建、查询、更新与关闭。只有明确要求创建施工门禁、处理 GATE-*、完成施工门禁或迁移旧 DEC-* 时使用；普通规划和写作只做 frontmatter 门禁查询，不调用本 Skill 读取候选正文。
+Construction Gate 创建、查询、更新与关闭。只有明确要求创建施工门禁、处理 GATE-* 或完成施工门禁时使用；普通规划和写作只做 frontmatter 门禁查询，不调用本 Skill 读取候选正文。
 
 - 调用格式：`$construction-gate-manager <任务目标>`
 - 典型触发语：`处理 GATE`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
-- 写入范围：`chapters`, `construction`, `decisions`, `plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
+- 写入范围：`chapters`, `construction`, `plotlines`
 
 ### `$create-pull-request`
 
@@ -149,7 +149,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$grilling <任务目标>`
 - 典型触发语：`压力测试`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`analysis`
 
 ### `$intimacy-hd-dark-planner`
@@ -159,7 +159,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$intimacy-hd-dark-planner <任务目标>`
 - 典型触发语：`黑暗HD设计`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-dark-writer`
@@ -169,7 +169,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$intimacy-hd-dark-writer <任务目标>`
 - 典型触发语：`写黑暗HD正文`
 - 模式：`project-write`
-- 条件依赖：`skill:intimacy-hd-dark-planner`, `feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`skill:intimacy-hd-dark-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-planner`
@@ -179,7 +179,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$intimacy-hd-planner <任务目标>`
 - 典型触发语：`B场HD设计`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-writer`
@@ -189,7 +189,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$intimacy-hd-writer <任务目标>`
 - 典型触发语：`写B场正文`
 - 模式：`project-write`
-- 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$outline-generator`
@@ -199,7 +199,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$outline-generator <任务目标>`
 - 典型触发语：`生成大纲`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`, `prewrite`, `story`
 
 ### `$plotline-manager`
@@ -229,7 +229,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$precommit-checker <任务目标>`
 - 典型触发语：`预提交检查`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`rag`
 
 ### `$session-checkpoint`
@@ -279,7 +279,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-auditor <任务目标>`
 - 典型触发语：`群像健康`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`analysis`
 
 ### `$story-orchestration`
@@ -289,7 +289,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-orchestration <任务目标>`
 - 典型触发语：`复杂任务编排`
 - 模式：`delegated-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`delegated`
 
 ### `$story-planner`
@@ -299,7 +299,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-planner <任务目标>`
 - 典型触发语：`规划后续剧情`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`, `specialty:sociology`
+- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$story-review`
@@ -309,7 +309,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-review <任务目标>`
 - 典型触发语：`story review`
 - 模式：`read-only`
-- 条件依赖：`feature:construction`, `feature:decisions`, `feature:plotlines`
+- 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：—
 
 ### `$world-builder`

@@ -42,10 +42,6 @@ __pycache__/
 !.analysis/plotlines/
 !.analysis/plotlines/**
 
-# GraphRAG 生成缓存。正式事实不在这里。
-.rag/generated/
-.rag/briefs/
-
 # 原型检索的临时图片缓存；人工维护的 .prototypes/ Markdown 仍提交。
 .prototypes/cache/
 
@@ -54,7 +50,7 @@ __pycache__/
 *.swo
 *~
 
-# story-writer 本地状态：并发锁、续接记录、事务、staging 与可恢复 trash；不保存故事真源。
+# Project-local story-writer state; generated and not committed.
 /.sw/
 tmp/
 temp/
