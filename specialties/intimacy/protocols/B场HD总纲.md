@@ -5,7 +5,7 @@
 ## 进入条件
 
 - 参与者满足项目年龄与内容边界。
-- 场景已按项目 `BIBLE.md` 与题材页定性为正向。
+- 场景已按项目 `zen/bible.md` 与题材页定性为正向。
 - 项目要求的意愿、知情、停止与承载条件成立。
 - 已存在 `design.a.md` 与 `design.b.md`。
 - 人物关系阶段、当次动机和场后落点明确。
@@ -35,7 +35,7 @@ B 场不是单纯增加尺度。每场至少完成:
 
 按顺序读取:
 
-1. `BIBLE.md`、`STYLE.md`
+1. `zen/bible.md`、`zen/style.md`
 2. `story/genres/_index.md`
 3. `$SPECIALTY_ROOT/mechanisms/_index.md`
 4. `$SPECIALTY_ROOT/references/_index.md`

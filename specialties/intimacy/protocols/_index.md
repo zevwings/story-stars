@@ -8,8 +8,8 @@
 
 ## 必读顺序
 
-1. `$STORY_PROJECT_ROOT/BIBLE.md`
-2. `$STORY_PROJECT_ROOT/STYLE.md`
+1. `$STORY_PROJECT_ROOT/zen/bible.md`
+2. `$STORY_PROJECT_ROOT/zen/style.md`
 3. `$STORY_PROJECT_ROOT/story/genres/_index.md` 与命中的题材页
 4. 当前场景事实、人物卡、关系状态和已有设计卡
 5. 命中专项机制时读取 `$SPECIALTY_ROOT/mechanisms/_index.md` 与具体机制页
@@ -17,7 +17,7 @@
 7. [亲密边界与红线](./亲密边界与红线.md) 与对应公共施工规则
 8. 需要 package 通用写法素材时读取 `$SPECIALTY_ROOT/references/library/_index.md`; 需要项目自有素材时再读 `$SPECIALTY_ROOT/references/_index.md`
 
-本页是公共层唯一的场型定性委托入口：正向 / dark 的最终定性只服从项目 `BIBLE.md`、项目题材页与当场正式事实。其余公共规则、参考页与 skill 只处理已经完成定性的施工流程，不得另立判据，也不得根据机制名称、尺度强弱、身份落差、题材标签或单项风险自行改判。
+本页是公共层唯一的场型定性委托入口：正向 / dark 的最终定性只服从项目 `zen/bible.md`、项目题材页与当场正式事实。其余公共规则、参考页与 skill 只处理已经完成定性的施工流程，不得另立判据，也不得根据机制名称、尺度强弱、身份落差、题材标签或单项风险自行改判。
 
 ## 场型路由
 

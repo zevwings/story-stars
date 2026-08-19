@@ -169,8 +169,8 @@
 
 ## 正式真源引用
 
-- `BIBLE.md`
-- `STYLE.md`
+- `zen/bible.md`
+- `zen/style.md`
 - `story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md`
 - `characters/major/晏林/主卡.md`
 - `characters/major/晏林/契约.md`

@@ -49,18 +49,13 @@ __pycache__/
 # 原型检索的临时图片缓存；人工维护的 .prototypes/ Markdown 仍提交。
 .prototypes/cache/
 
-# 正式剧情节点导出的机器可读派生图；按需由 sw plotline export 重建。
-/.story.plotlines.json
-
 # Editor and temporary files
 *.swp
 *.swo
 *~
 
-# Tool runtime output
-/.story.config.lock
-/.story-writer-runtime/
-.sessions/
+# story-writer 本地状态：并发锁、续接记录、事务、staging 与可恢复 trash；不保存故事真源。
+/.sw/
 tmp/
 temp/
 
@@ -68,6 +63,3 @@ temp/
 .DS_Store
 
 /logs/
-
-# story-writer local RAG operation lock
-/.story.rag.lock

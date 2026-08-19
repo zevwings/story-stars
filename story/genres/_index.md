@@ -10,9 +10,9 @@
 
 ## 读取规则
 
-1. 先读 [BIBLE.md](../../BIBLE.md)，正文任务再读 [STYLE.md](../../STYLE.md)。
+1. 先读 [zen/bible.md](../../zen/bible.md)，正文任务再读 [zen/style.md](../../zen/style.md)。
 2. 仅在任务命中题材、惯例、场型或禁区时读取本目录；按命中主题进入单页，不全量扫描。
-3. 本目录低于 [BIBLE.md](../../BIBLE.md)、[STYLE.md](../../STYLE.md)、[故事架构](../architecture.md)、[世界观索引](../../worldbuilding/_index.md)、[人物索引](../../characters/_index.md) 和已定稿章节。冲突时以这些真源为准。
+3. 本目录低于 [zen/bible.md](../../zen/bible.md)、[zen/style.md](../../zen/style.md)、[故事架构](../architecture.md)、[世界观索引](../../worldbuilding/_index.md)、[人物索引](../../characters/_index.md) 和已定稿章节。冲突时以这些真源为准。
 4. 世界机制与社会客观事实进入 [世界观索引](../../worldbuilding/_index.md)；人物和关系状态进入 [人物索引](../../characters/_index.md) 或 [故事架构](../architecture.md)；阶段编排进入 [阶段弧线](../arcs/_index.md)；具体场景进入剧情节点、施工或章节。
 
 ## 可选取材

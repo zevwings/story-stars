@@ -72,7 +72,7 @@
 
 ## 正式真源引用
 
-- `BIBLE.md`
+- `zen/bible.md`
 - `characters/minor/俞予安/主卡.md`
 - `characters/minor/王诗悦/主卡.md`
 - `worldbuilding/organizations/万安集团/万安影视文化.md`

@@ -1,7 +1,7 @@
 # B 场黑暗 HD 微观感官与双声部规则
 
 > 本规则属于 `story-writer` 方法层规则，专门规范黑暗 HD / 压迫场场景在微观生成层面的感官拆解、双声部性心理轴、反派词汇口径与双声部立场。
-> 本规则服从项目根目录 `BIBLE.md` 与 `story/genres/_index.md` 命中的黑暗 / 压迫题材页。
+> 本规则服从项目根目录 `zen/bible.md` 与 `story/genres/_index.md` 命中的黑暗 / 压迫题材页。
 
 ---
 

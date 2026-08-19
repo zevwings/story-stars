@@ -1,7 +1,7 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=14e311aca4e468ac53a1740c1816581586ec30295f7e6c9240f44ba250f5a706 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=62f0af7fba6735194ab6e8a4915d79e95990da401e1d106eb5ccfe7d2f0b2acb -->
 # Story-writer Skills 使用手册
 
-> 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `POLICY.md`、`ENTRY.md`、`BIBLE.md`、`STYLE.md` 或各 Skill 的完整执行规则。
+> 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
 
 ## 如何使用
 
@@ -102,6 +102,16 @@ $create-pull-request 创建 PR
 - 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
 
+### `$clothes-designer`
+
+衣装分析、完整造型与单件搭配设计、私密或情趣衣装张力、项目服装参考收录、撞型检查和定向转写。触发词: 分析衣服、分析衣装、设计衣装、服装搭配、怎样搭配、情趣服装、私密衣装、收录为服装参考、衣装目录、CLO、角色固定衣装、场景衣装。
+
+- 调用格式：`$clothes-designer <任务目标>`
+- 典型触发语：`设计衣装`
+- 模式：`project-write`
+- 条件依赖：`feature:construction`, `specialty:clothes`
+- 写入范围：`analysis`, `characters`, `construction`, `specialty`
+
 ### `$clue-manager`
 
 线索全生命周期管理。触发词: 埋线索、查线索、推进线索、检查线索一致性、收束线索。
@@ -124,7 +134,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 
 ### `$create-pull-request`
 
-为已接入 story-writer 的正式写作项目安全创建或更新 GitHub Pull Request：要求项目根存在 ENTRY.md 与 BIBLE.md，按 feature/fix/refactor/docs/chore 约定建分支，执行 precommit-checker 与必要的 story-review，精确暂存、提交和普通推送， 并核对远端 branch 与 PR head OID。用户明确要求在写作项目中创建 Pull Request、创建 PR、提交并发 PR 或更新当前 PR 时使用；不用于 story-writer 工具仓或缺少正式项目入口的资料仓，不负责修改故事内容、merge、rebase、amend、 force-push、合并后清理或切回主分支。
+为已接入 story-writer 的正式写作项目安全创建或更新 GitHub Pull Request：要求项目布局能解析 entry.md 与 bible.md，按 feature/fix/refactor/docs/chore 约定建分支，执行 precommit-checker 与必要的 story-review，精确暂存、提交和普通推送， 并核对远端 branch 与 PR head OID。用户明确要求在写作项目中创建 Pull Request、创建 PR、提交并发 PR 或更新当前 PR 时使用；不用于 story-writer 工具仓或缺少正式项目入口的资料仓，不负责修改故事内容、merge、rebase、amend、 force-push、合并后清理或切回主分支。
 
 - 调用格式：`$create-pull-request <任务目标>`
 - 典型触发语：`创建 Pull Request`, `创建 PR`
@@ -244,7 +254,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$session-manager`
 
-扫描、判断、选择、软删除、恢复或永久清理小说任务续接记录。读取 `.sessions/` 中的 handoff/checkpoint，核验当前真源、目标文件、Git 与验证证据，区分 active、blocked、complete-candidate、complete-verified、conflicted 和 unverifiable。触发词: 扫描 sessions、检查会话完成状态、列出已完成的 sessions、删除已完成会话、清理续接记录、删除某个 session、恢复已删除 session、永久删除 session、清空 session 回收记录。只管理 story-writer 续接记录，不管理 Codex 聊天任务。
+扫描、判断、选择、软删除、恢复或永久清理小说任务续接记录。读取 `.sw/sessions/` 中的 handoff/checkpoint，核验当前真源、目标文件、Git 与验证证据，区分 active、blocked、complete-candidate、complete-verified、conflicted 和 unverifiable。触发词: 扫描 sessions、检查会话完成状态、列出已完成的 sessions、删除已完成会话、清理续接记录、删除某个 session、恢复已删除 session、永久删除 session、清空 session 回收记录。只管理 story-writer 续接记录，不管理 Codex 聊天任务。
 
 - 调用格式：`$session-manager <任务目标>`
 - 典型触发语：`扫描 sessions`
@@ -321,4 +331,4 @@ sw install --target codex
 sw setup sync --root /path/to/story-project --sync-agent-links --agent-target agents
 ```
 
-`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到项目根，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `SKILLS.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到项目 `zen/`，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。

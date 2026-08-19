@@ -1,7 +1,7 @@
 # 项目引用方向说明
 
 > 本页是项目目录引用关系的辅助说明图，不保存故事事实，也不构成正式真源或新增规则。
-> 引用类型与允许方向以 `POLICY.md` 与 `story-writer://rules/core/正式真源引用方向` 为准；若本页与正式真源或 runtime 规则冲突，以后者为准。
+> 引用类型与允许方向以 `policy.md` 与 `story-writer://rules/core/正式真源引用方向` 为准；若本页与正式真源或 runtime 规则冲突，以后者为准。
 
 ## 怎样读图
 
@@ -14,8 +14,8 @@
 
 ```mermaid
 flowchart TB
-    Bible["BIBLE.md<br/>项目最高真源"]
-    Policy["POLICY.md<br/>流程与目录门禁"]
+    Bible["bible.md<br/>项目最高真源"]
+    Policy["policy.md<br/>流程与目录门禁"]
     World["worldbuilding/<br/>世界观"]
     Character["characters/<br/>正式人物"]
     Architecture["story/architecture.md<br/>稳定关系结构"]

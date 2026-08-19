@@ -36,6 +36,6 @@
 
 ## 正式真源引用
 
-> 只列使本机制成立的事实依赖；只允许 `BIBLE.md` 与其他 `worldbuilding/` 条目。
+> 只列使本机制成立的事实依赖；只允许 `zen/bible.md` 与其他 `worldbuilding/` 条目。
 
 -

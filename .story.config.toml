@@ -1,10 +1,11 @@
 # 工具身份、RAG / GraphRAG 配置。
 # 本文件用于稳定项目身份、检索、路由和 brief 候选生成, 不是故事正典。
-# 正式事实仍以 chapters/、characters/、context/、clues/、story/、worldbuilding/ 等真源目录为准。
+# 作品级真源位于 zen/；具体事实以 chapters/、characters/、context/、clues/、story/、worldbuilding/ 等正式目录为准。
 # 已确认剧情线执行规格位于 story/construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
 
 [project]
 id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
+layout = "zen-v1"
 
 [[characters.roots]]
 path = "characters"

@@ -71,7 +71,7 @@
 
 ## 正式真源引用
 
-- `BIBLE.md`
+- `zen/bible.md`
 - `characters/minor/俞予安/主卡.md`
 - `story/plotlines/亲密线/晏林/小鱼儿与晏林建立松散付费关系.md`
 - `story/plotlines/副线/组织/云顶KTV/多人梦境碎片形成核查方向.md`
