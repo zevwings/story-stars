@@ -42,6 +42,10 @@ __pycache__/
 !.analysis/plotlines/
 !.analysis/plotlines/**
 
+# GraphRAG 生成缓存。正式事实不在这里。
+.rag/generated/
+.rag/briefs/
+
 # 原型检索的临时图片缓存；人工维护的 .prototypes/ Markdown 仍提交。
 .prototypes/cache/
 
