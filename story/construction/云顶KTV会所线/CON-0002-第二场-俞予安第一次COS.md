@@ -1,6 +1,8 @@
-# CON-0002｜第二场｜俞予安第一次 COS：清漪
+---
+schema: construction.unit@1
+---
 
-<!-- sw-schema: construction.unit@1 -->
+# CON-0002｜第二场｜俞予安第一次 COS：清漪
 
 > 本文件只保存作者已经确认、写作时必须继承的执行规格；生命周期状态仅在 `_status/` 登记。
 

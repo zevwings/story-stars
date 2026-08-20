@@ -1,6 +1,8 @@
-# 已取消施工单元
+---
+schema: construction.status-registry@1
+---
 
-<!-- sw-schema: construction.status-registry@1 -->
+# 已取消施工单元
 
 > `retired` 表示规格未经兑现即被明确取消，默认不再进入写作检索。必须填写取消原因。
 

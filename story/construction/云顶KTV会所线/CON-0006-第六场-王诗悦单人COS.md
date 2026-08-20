@@ -1,6 +1,8 @@
-# CON-0006｜第六场｜王诗悦单人主题装：冷灰蓝 OL
+---
+schema: construction.unit@1
+---
 
-<!-- sw-schema: construction.unit@1 -->
+# CON-0006｜第六场｜王诗悦单人主题装：冷灰蓝 OL
 
 > 本文件只保存作者已经确认、写作时必须继承的执行规格；生命周期状态仅在 `_status/` 登记。
 

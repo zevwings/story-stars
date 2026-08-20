@@ -1,6 +1,8 @@
-# 已挂接施工单元
+---
+schema: construction.status-registry@1
+---
 
-<!-- sw-schema: construction.status-registry@1 -->
+# 已挂接施工单元
 
 > `bound` 表示规格已挂接到具体章节或场景，仍需在匹配该目标的任务中读取。
 

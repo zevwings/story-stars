@@ -1,6 +1,8 @@
-# 已替代施工单元
+---
+schema: construction.status-registry@1
+---
 
-<!-- sw-schema: construction.status-registry@1 -->
+# 已替代施工单元
 
 > `superseded` 表示规格已由另一施工单元替代，默认不再进入写作检索。必须填写新的 `CON-xxxx`。
 

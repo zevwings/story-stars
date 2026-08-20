@@ -1,6 +1,8 @@
-# CON-0038｜言溪首次侍奉——貂蝉·马年限定 COS 战袍
+---
+schema: construction.unit@1
+---
 
-<!-- sw-schema: construction.unit@1 -->
+# CON-0038｜言溪首次侍奉——貂蝉·马年限定 COS 战袍
 
 > 本文件只保存作者已经确认、写作时必须继承的执行规格；生命周期状态仅在 `_status/` 登记。
 

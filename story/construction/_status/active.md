@@ -1,6 +1,8 @@
-# 生效中施工单元
+---
+schema: construction.status-registry@1
+---
 
-<!-- sw-schema: construction.status-registry@1 -->
+# 生效中施工单元
 
 > `active` 表示规格已经确认、仍然生效，尚未绑定唯一消费位置。普通 construction 查询默认只返回本表内容。
 

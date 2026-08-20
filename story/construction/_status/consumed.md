@@ -1,6 +1,8 @@
-# 已兑现施工单元
+---
+schema: construction.status-registry@1
+---
 
-<!-- sw-schema: construction.status-registry@1 -->
+# 已兑现施工单元
 
 > `consumed` 表示规格已被定稿章节或更高层真源完整吸收，默认不再进入写作检索。必须填写兑现位置。
 
