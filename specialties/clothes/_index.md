@@ -1,6 +1,6 @@
 # Clothes Specialty
 
-本专项提供衣装分析、设计、项目参考收录和正式转写方法。它只管理方法与项目参考，不拥有角色衣装、场景衣装或正文事实。
+本专项提供外部衣装拆解、项目参考收录、人物衣装组合和正式转写方法。它只管理方法与项目参考，不拥有角色衣装、场景衣装或正文事实。
 
 进入本目录前必须运行：
 
@@ -21,3 +21,5 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 - [协议索引](protocols/_index.md)
 - [参考层索引](references/_index.md)
+
+公开 Skill 分工：`clothes-decomposer` 负责外部素材到 catalog；`clothes-designer` 负责 catalog 到人物衣装 owner。

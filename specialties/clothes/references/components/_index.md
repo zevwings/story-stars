@@ -55,11 +55,11 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 ## 项目分类覆盖
 
-Story Stars 启用 Clothes Specialty `0.0.6` 提供的项目分类覆盖，唯一分类权威是 [衣装结构与穿着层级](衣装结构与穿着层级.md)：
+Story Stars 启用 Clothes Specialty 当前协议提供的项目分类覆盖，唯一分类权威是 [衣装结构与穿着层级](衣装结构与穿着层级.md)：
 
 - 本项目只生成分类表 `组合形式=multi-piece` 的 `look`；通用协议允许的 `single-piece` 只作为旧档迁移输入，不作为本项目输出；
 - 本项目以 `top | bottom | dress | jumpsuit | bodysuit | swimsuit | hosiery | footwear | accessory` 替换通用默认 `piece_type`；
-- `catalog/looks/` 按八种 `primary_use` 建英文目录，`catalog/pieces/` 按上述九种 `piece_type` 建英文目录；
+- `catalog/looks/` 按八种“主要用途”建英文目录，`catalog/pieces/` 按上述九种“单件类型”建英文目录；
 - 项目分类不能新增 `record_kind`、组合形式值、用途、状态、frontmatter 字段或 Markdown 结构；
 - 组件、实体、目录和索引若不一致，停止受影响的收录或迁移，不混用通用默认类型与项目类型。
 
@@ -68,5 +68,5 @@ Story Stars 启用 Clothes Specialty `0.0.6` 提供的项目分类覆盖，唯�
 - 使用中文主词，英文和行业俗称只作检索别名。
 - 新术语必须有准确含义、观察点、影响、证据边界和易混词；不收商品营销词。
 - 看不清时使用通俗、可证实的描述，不为了显得专业强行套词。
-- 不新增 Clothes Specialty `0.0.6` 未定义的 frontmatter 字段；单件类型和组合形式的项目覆盖只按本索引指定的唯一分类权威执行。
+- 不新增 Clothes Specialty 当前协议未定义的 frontmatter 字段；单件类型和组合形式的项目覆盖只按本索引指定的唯一分类权威执行。
 - 修改本目录规则不能静默改变既有 `CLO-*` 身份、状态或正式故事事实。
