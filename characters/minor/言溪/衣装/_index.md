@@ -1,6 +1,8 @@
-# 言溪｜具体衣装索引
+---
+schema: character.outfit-index@1
+---
 
-<!-- sw-schema: character.outfit-index@1 -->
+# 言溪｜具体衣装索引
 
 > 本目录登记言溪已经确认、可以跨场调用的具体衣装。上级 [衣装语法](_GRAMMAR.md) 继续定义她的整体审美语法；具体场景是否穿用、如何组合与拆减，由正式剧情或施工单元决定。
 

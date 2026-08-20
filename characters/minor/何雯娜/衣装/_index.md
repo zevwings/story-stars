@@ -1,6 +1,8 @@
-# 何雯娜｜具体衣装索引
+---
+schema: character.outfit-index@1
+---
 
-<!-- sw-schema: character.outfit-index@1 -->
+# 何雯娜｜具体衣装索引
 
 > 本目录登记何雯娜已经确认、可以跨场调用的具体衣装。上级 [衣装语法](_GRAMMAR.md) 继续定义她的整体审美语法；具体场景是否穿用、怎样组合，由正式剧情或施工单元决定。
 

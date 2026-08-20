@@ -1,6 +1,8 @@
-# [本角色] → [对象]｜关系档
+---
+schema: character.relationship@1
+---
 
-<!-- sw-schema: character.relationship@1 -->
+# [本角色] → [对象]｜关系档
 
 > 本页是「本角色」对「对象」这一配对的静态关系档。人物本体见 [主卡](../主卡.md)。
 >
