@@ -5,13 +5,14 @@ installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
 required_paths = [
     "_index.md",
     "protocols/_index.md",
+    "protocols/templates/sociology.md",
     "references/_index.md",
     "references/library/_index.md",
 ]
 
 [package]
 module_id = "sociology"
-version = "0.2.0"
+version = "0.2.1"
 runtime_api = 1
 label = "应用社会学"
 keywords = [
@@ -36,7 +37,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:f97fe73392d0f739b930aa9757f857885872a202504a550605bb585075a2f240"
+fingerprint = "sha256:c53845f02c194b605edfcb891ca1779ba2098e686d808c97127cdf12ed5d17c9"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -46,6 +47,7 @@ managed_roots = [
 required_paths = [
     "_index.md",
     "protocols/_index.md",
+    "protocols/templates/sociology.md",
     "references/_index.md",
     "references/library/_index.md",
 ]
@@ -59,8 +61,14 @@ sha256 = "7a606412426ce241fd7410cdb5189fae3e38c270bb07ac6273980fc4cd39e46e"
 [[package.files]]
 path = "protocols/_index.md"
 mode = 420
-size = 991
-sha256 = "eabafab64151dcd77f69324ea565f28e75c1889153627a34866f44caf02876fa"
+size = 1112
+sha256 = "c3116a8b9054834bf219a3b9a45c1196e66437bbdca699dd02ffd65a81bd05c7"
+
+[[package.files]]
+path = "protocols/templates/sociology.md"
+mode = 420
+size = 1195
+sha256 = "ee418c586d1b7d7090175ebdfd87dc7d7721fa311a7b5c54a817de73e207c199"
 
 [[package.files]]
 path = "protocols/人情账与关系余波.md"
@@ -89,8 +97,8 @@ sha256 = "6a6ee803a9568b3a31421772a3a30029622b755add81aa9f669e84bafd135026"
 [[package.files]]
 path = "protocols/社会关系场写前写后校验.md"
 mode = 420
-size = 2937
-sha256 = "22768a06a2d880051ca0920b4ab40e2e70e25b2513b9c1e5f9a70f7afde86f26"
+size = 2057
+sha256 = "0f391c3f838e472b661507d35da029347cdb6167a208d246a19ec8929803c947"
 
 [[package.files]]
 path = "protocols/社会关系场总纲.md"

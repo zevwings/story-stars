@@ -14,7 +14,7 @@ required_paths = [
 
 [package]
 module_id = "clothes"
-version = "0.0.2"
+version = "0.0.6"
 runtime_api = 1
 label = "衣装设计与目录"
 keywords = [
@@ -31,7 +31,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:352809a128533269611248f9e6755d4dc44c6d71a90b437f6286ea8e806e3152"
+fingerprint = "sha256:951c09041d07fbc68a5e95bbd5c2707825835fc74edea127f8c9f57da02b5ee2"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -57,38 +57,38 @@ sha256 = "649a97ce259e267359d736d529eae66376a7a3c53ac7d0803834c88af2ec581f"
 [[package.files]]
 path = "protocols/_index.md"
 mode = 420
-size = 715
-sha256 = "9b3bfaadbde6562422ac16ac0f8ddfabd1869ca63651226cf60a3233fb691b49"
+size = 1204
+sha256 = "fd57cd9f3030d6594ded8aced339e75eedae996a7afebc101ce98bcee01af645"
 
 [[package.files]]
 path = "protocols/衣装分析与设计协议.md"
 mode = 420
-size = 3088
-sha256 = "a5eeb350ca84f7048614dac253771b2d04bbd274e32cff8e725e30aaa0a2473d"
+size = 3566
+sha256 = "53690776384d7cadce03b7dee03bb4ab85c057238341524d354f9d86c1f68670"
 
 [[package.files]]
 path = "protocols/衣装收录与状态协议.md"
 mode = 420
-size = 3257
-sha256 = "07e36c81d81a8aa8b993b4ce49c0e9acbd086355f0e653c6454f57fe512dd00d"
+size = 6832
+sha256 = "d97f9e0bec71bb92ef3257a1531d0dcb5ce2f4872cc5564e4edfbf71509a4d2a"
 
 [[package.files]]
 path = "protocols/衣装正式转写协议.md"
 mode = 420
-size = 3044
-sha256 = "1a298f5545c7d45af66f921b3f8aa76e5b3a9bd8486e043e4f85002a67ff06e1"
+size = 3059
+sha256 = "a23048d3b466449722abe074b6c367a57dbfc02aabae5177d908cc108ed39afd"
 
 [[package.files]]
 path = "references/_index.md"
 mode = 420
-size = 842
-sha256 = "8431a3a17232fa12ad019e2d2aea9647b220283726f0067044b7b34e1024269a"
+size = 962
+sha256 = "9a1a3985ee9a7eadf03b4c41f7f4467ba43ffcd1480635d13ae8223e949c4bb4"
 
 [[package.files]]
 path = "references/library/_index.md"
 mode = 420
-size = 282
-sha256 = "7c4ec2f93e640f4bc12c68ce4974eab0f01940403719b16f5265285361978cc1"
+size = 300
+sha256 = "e812bc4e4e8d913aff6d2d44e18266fb5e033e5d0df3e20c8b540d59316a224f"
 
 [metadata]
 label = "衣装设计与目录"

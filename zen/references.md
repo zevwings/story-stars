@@ -70,7 +70,7 @@ flowchart LR
     Context["context/"]
     Gate["story/construction/_gates/<br/>临时流程门禁"]
     Formal["正式真源"]
-    Derived[".analysis / .prewrite / .rag / Preview"]
+    Derived[".analysis / .prewrite / .sw/generated / Preview"]
 
     Plotline -. "interface" .-> Construction
     Construction -. "interface" .-> Plotline
@@ -92,7 +92,7 @@ flowchart LR
     Character -. "禁止 depends_on" .-> Narrative["剧情节点 / 阶段页 / 施工单元<br/>专项人物档案 / 章节 / 动态上下文"]
     Plotline["story/plotlines/"] -. "禁止反向依赖" .-> Arc["story/arcs/"]
     Formal["任何正式真源"] -. "禁止反向引用" .-> Gate["story/construction/_gates/"]
-    Formal -. "禁止依赖" .-> Derived[".analysis / .prewrite / .rag / Preview"]
+    Formal -. "禁止依赖" .-> Derived[".analysis / .prewrite / .sw/generated / Preview"]
 ```
 
 ## 工具检查

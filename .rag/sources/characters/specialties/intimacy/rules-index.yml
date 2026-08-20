@@ -1,7 +1,0 @@
-required:
-  - protocols/_index.md
-  - protocols/亲密边界与红线.md
-scope: characters.specialty.intimacy.rules_index
-specialty: intimacy
-status: routing_only
-version: 1

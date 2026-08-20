@@ -16,7 +16,7 @@
 4. 已启用专项目录：由 `.story.config.toml` 声明；专项协议不覆盖上述真源。
 5. `story/construction/`：普通 `CON-*` 保存挂接正式剧情节点的执行规格；`_gates/` 保存临时执行门禁。两者都不是长期正典，Gate 不提供故事事实。
 6. `.prototypes/`：默认不读的原型参考层，不是故事事实。
-7. `.rag/`、`.prewrite/`、`.analysis/` 与 Preview：派生或分析层，不是真源。
+7. `.sw/generated/`、`.prewrite/`、`.analysis/` 与 Preview：派生或分析层，不是真源。
 
 读取顺序与任务路由以 `entry.md` 为准；引用方向、候选落盘、施工、执行门禁与派生层约束以 `policy.md` 为准。各正式目录从自己的 `_index.md` 进入。
 

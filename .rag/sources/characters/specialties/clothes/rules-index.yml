@@ -1,7 +1,0 @@
-required:
-  - protocols/_index.md
-  - protocols/衣装分析与设计协议.md
-scope: characters.specialty.clothes.rules_index
-specialty: clothes
-status: routing_only
-version: 1

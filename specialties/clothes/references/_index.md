@@ -10,7 +10,7 @@
 
 ## 项目目录
 
-- `components/`：受控术语、结构和检索标签；不为泛化词条分配 `CLO-*`。
+- `components/`：受控术语、结构、检索标签与可选的项目分类覆盖；不为泛化词条分配 `CLO-*`。项目启用分类覆盖时，由 `components/_index.md` 指定唯一分类权威文件。
 - `catalog/looks/<primary-use>/`：可直接转写的完整造型。
 - `catalog/pieces/<piece-type>/`：有独立复用价值的实际衣物或穿戴配饰。
 

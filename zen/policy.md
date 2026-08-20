@@ -9,14 +9,14 @@
 
 ## P-001：禁止使用 GitNexus
 
-本仓库禁止使用任何 GitNexus skill、MCP 工具、CLI 命令及其他等价入口，包括索引、查询、调用关系追踪、影响分析、重构分析、PR review 或索引修复。此门禁不禁止 story-writer 的 GraphRAG 或项目 `.rag/` 流程；后者仍须遵守本文件、`entry.md` 与正式真源。
+本仓库禁止使用任何 GitNexus skill、MCP 工具、CLI 命令及其他等价入口，包括索引、查询、调用关系追踪、影响分析、重构分析、PR review 或索引修复。此门禁不禁止 story-writer 的 GraphRAG 直接索引流程；后者仍须遵守本文件、`entry.md` 与正式真源。
 
 ## P-002：真源与引用方向
 
 - 正式事实只写入 `bible.md`、`style.md` 或对应正式目录；索引、关联导航、证据与施工接口不等于事实依赖。
 - `worldbuilding/` 不依赖人物、剧情节点、章节或动态上下文；`characters/` 可以依赖世界观与静态人物事实，但不反向定义剧情、施工、章节或动态状态。
 - `story/arcs/` 调用 `story/plotlines/`，剧情节点不反向引用阶段页。节点与施工单元的双向链接只是执行接口。
-- `story/construction/_gates/` 只以 `construction_gate` 指向正式施工、剧情节点或章节回写目标；任何正式文件和普通 `CON-*` 都不得反向引用具体 `GATE-*`。`.prototypes/`、`.analysis/`、`.prewrite/`、`.rag/`、`.sw/`、Gate 与 Preview 可读正式真源，正式文件不得把它们作为事实来源。
+- `story/construction/_gates/` 只以 `construction_gate` 指向正式施工、剧情节点或章节回写目标；任何正式文件和普通 `CON-*` 都不得反向引用具体 `GATE-*`。`.prototypes/`、`.analysis/`、`.prewrite/`、`.sw/generated/`、Gate 与 Preview 可读正式真源，正式文件不得把它们作为事实来源。
 
 ## P-003：写入与确认
 

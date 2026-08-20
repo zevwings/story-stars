@@ -66,6 +66,6 @@
 ## 正式真源引用
 
 > 这里只列使本节点成立的事实依赖。允许引用 `zen/bible.md`、`story/genres/`、`characters/`、`worldbuilding/`、`clues/`、已启用专项及其他正式剧情节点。
-> 阶段归属不得通过引用 `story/arcs/` 表达；施工单元只写入上方接口；不得引用 `chapters/`、`context/`、`.analysis/`、`.prewrite/` 或 `.rag/`。
+> 阶段归属不得通过引用 `story/arcs/` 表达；施工单元只写入上方接口；不得引用 `chapters/`、`context/`、`.analysis/`、`.prewrite/` 或 `.sw/generated/`。
 
 -
