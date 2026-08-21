@@ -2,7 +2,7 @@
 
 默认使用中文回答。
 
-先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `zen-v1`；路径识别不区分大小写，新建内容统一使用规范小写，根目录项目文件不受支持。
+先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `layout = "zen"` 与 `layout_version = 1`；路径识别不区分大小写，新建内容统一使用规范小写，根目录项目文件不受支持。
 
 ## 小说任务模式路由
 

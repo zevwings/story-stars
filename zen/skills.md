@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=e4c7e769b2ef66be8a0c04b9933c090cfb54291ba843e99c8a543c0111bfe787 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=3de3666db211bac776e150adf13e6ea4aff616737c3e5a5917ac72917f19bed5 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -28,10 +28,11 @@ $chapter-finalizer 定稿第12章
 
 ```text
 $plotline-visualizer 生成阶段总览图
-$session-resume <record-id>
+$session resume <record-id>
 $character-builder 新增角色李青
 $world-builder 检查能力体系冲突
 $create-pull-request 创建 PR
+$merge-pull-request #123
 ```
 
 ## 字段说明
@@ -50,7 +51,7 @@ $create-pull-request 创建 PR
 <!-- BEGIN GENERATED: project-skill-guide -->
 ## 全部公开 Skills
 
-> 本节由 `sw skills generate` 从已发布 Skill contract 生成；请勿手工编辑。
+> 本节由 `sw repository skills generate` 从已发布 Skill contract 生成；请勿手工编辑。
 
 ### `$chapter-finalizer`
 
@@ -102,15 +103,25 @@ $create-pull-request 创建 PR
 - 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
 
+### `$clothes-decomposer`
+
+从外部图片、视频、截图组或文档拆解衣装，并按证据边界收录或更新项目 clothes catalog。触发词: 拆解服装、从视频拆衣装、从图片拆衣装、从文档拆衣装、根据 CLO 文档拆解、收录服装参考、更新 CLO、衣装目录查重。人物衣装组合与正式转写使用 clothes-designer。
+
+- 调用格式：`$clothes-decomposer <任务目标>`
+- 典型触发语：`拆解服装`
+- 模式：`project-write`
+- 条件依赖：`specialty:clothes`
+- 写入范围：`specialty`
+
 ### `$clothes-designer`
 
-衣装分析、完整造型与单件搭配设计、私密或情趣衣装张力、项目服装参考收录、撞型检查和定向转写。触发词: 分析衣服、分析衣装、设计衣装、服装搭配、怎样搭配、情趣服装、私密衣装、收录为服装参考、衣装目录、CLO、角色固定衣装、场景衣装。
+从项目 clothes catalog 选择 `set`／`piece`、补齐穿着组合并适配人物衣装，在作者确认后自足写入角色衣装目录。触发词: 设计衣装、为角色搭配、组合 CLO、角色固定衣装、写入角色衣装、人物衣装。外部图片、视频或文档拆解与 catalog 收录使用 clothes-decomposer。
 
 - 调用格式：`$clothes-designer <任务目标>`
 - 典型触发语：`设计衣装`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `specialty:clothes`
-- 写入范围：`analysis`, `characters`, `construction`, `specialty`
+- 条件依赖：`specialty:clothes`
+- 写入范围：`characters`, `specialty`
 
 ### `$clue-manager`
 
@@ -192,6 +203,16 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
+### `$merge-pull-request`
+
+为已接入 story-writer 的正式写作项目安全合并 GitHub Pull Request：用户显式调用并提供 PR 号或 URL 后， 将多 commit PR 在临时 worktree 中收束为单 commit，使用精确 force-with-lease 推送，重新验证新 head 的 checks 与 reviews， 再以 head OID 原子匹配执行 squash merge。触发语：合并 Pull Request、合并 PR。不用于 story-writer 工具仓、fork PR、 内容 review 或修复，不删除分支、清理工作树或切回主分支。
+
+- 调用格式：`$merge-pull-request <任务目标>`
+- 典型触发语：`合并 Pull Request`, `合并 PR`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`git`
+
 ### `$outline-generator`
 
 总大纲/分章大纲生成、卡文情节建议、回路规划。触发词: 生成大纲、重做大纲、卡文、给情节思路、规划回路、设计办事链、人情世故链、关系动员路径。
@@ -204,7 +225,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$plotline-manager`
 
-正式剧情线与剧情节点管理。用于创建、修改、拆分、合并、移动、取消、替代或查询项目已登记的线路；同步 story/plotlines 索引与状态引用，不写正文、不把未确认方案写成正式节点。触发词: 创建剧情线、修改剧情线、增加剧情节点、拆分剧情线、合并剧情线、取消剧情线、替代剧情线、主线、副线、plotline。
+正式剧情线与剧情节点管理。用于创建、修改、拆分、合并、移动、取消、替代或查询项目已登记的线路；同步剧情线索引与状态引用，不写正文、不把未确认方案写成正式节点。触发词: 创建剧情线、修改剧情线、增加剧情节点、拆分剧情线、合并剧情线、取消剧情线、替代剧情线、主线、副线、plotline。
 
 - 调用格式：`$plotline-manager <任务目标>`
 - 典型触发语：`创建剧情线`
@@ -232,45 +253,16 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`rag`
 
-### `$session-checkpoint`
+### `$session`
 
-保存仍在进行中的小说任务断点。核验当前目标、目标文件、最近完成证据、工作区状态和下一步，通过 sw session 在项目内生成不提交、紧凑且可过期的 checkpoint。触发词: session checkpoint、小说任务断点、保存当前写作进度、暂停一下稍后继续、上下文快满了。不得用于跨任务完整交接、章节摘要、定稿或正式上下文维护。
+小说任务续接统一入口。使用 session checkpoint 保存短期断点，session handoff 创建跨会话交接，session resume 恢复未完成任务，扫描 sessions 或使用 session manager 审计、软删除、恢复和永久清理续接记录。普通正文续写应使用 chapter-writer。
 
-- 调用格式：`$session-checkpoint <任务目标>`
-- 典型触发语：`session checkpoint`
-- 模式：`project-write`
+- 调用格式：`$session <checkpoint|handoff|resume|manager> <任务目标>`
+- 典型触发语：`session checkpoint`, `session handoff`, `session resume`, `扫描 sessions`
+- 模式：`routed`
+- 子操作：`checkpoint:project-write/sessions`, `handoff:project-write/sessions`, `resume:delegated-write/delegated`, `manager:project-write/sessions`
 - 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-handoff`
-
-小说任务跨会话、跨任务或跨 Agent 交接。核验项目真源、目标文件、Git 工作区、已完成证据、未决决策和唯一下一步，通过 sw session 在项目内生成不提交的可恢复 handoff 记录。触发词: session handoff、小说任务交接、交接当前故事工作、把进度交给下个会话、换会话继续。不得用于普通章节摘要、定稿或仅需短暂停顿的 checkpoint。
-
-- 调用格式：`$session-handoff <任务目标>`
-- 典型触发语：`session handoff`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-manager`
-
-扫描、判断、选择、软删除、恢复或永久清理小说任务续接记录。读取 `.sw/sessions/` 中的 handoff/checkpoint，核验当前真源、目标文件、Git 与验证证据，区分 active、blocked、complete-candidate、complete-verified、conflicted 和 unverifiable。触发词: 扫描 sessions、检查会话完成状态、列出已完成的 sessions、删除已完成会话、清理续接记录、删除某个 session、恢复已删除 session、永久删除 session、清空 session 回收记录。只管理 story-writer 续接记录，不管理 Codex 聊天任务。
-
-- 调用格式：`$session-manager <任务目标>`
-- 典型触发语：`扫描 sessions`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-resume`
-
-从 sw session 托管的 session-handoff、session-checkpoint、任务标识或明确路径恢复未完成的小说任务。校验记录 fingerprint，重新核验项目入口、最高故事真源、目标文件、真源闭包和 Git 状态，识别过时前提后继续执行下一项安全动作。触发词: session resume、恢复上次小说任务、从交接继续、读取断点继续、继续上个 session。普通的续写正文或继续写本章应使用 chapter-writer。
-
-- 调用格式：`$session-resume <任务目标>`
-- 典型触发语：`session resume`
-- 模式：`delegated-write`
-- 条件依赖：—
-- 写入范围：`delegated`
+- 写入范围：`sessions`, `delegated`
 
 ### `$story-auditor`
 

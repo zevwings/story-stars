@@ -5,7 +5,8 @@
 
 [project]
 id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
-layout = "zen-v1"
+layout = "zen"
+layout_version = 1
 
 [[characters.roots]]
 path = "characters"
