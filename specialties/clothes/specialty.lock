@@ -15,7 +15,7 @@ required_paths = [
 
 [package]
 module_id = "clothes"
-version = "0.0.8"
+version = "0.0.11"
 runtime_api = 1
 label = "衣装拆解、设计与目录"
 keywords = [
@@ -35,7 +35,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:9c31d901ae814ca1b1b21f80030693caa44cfee2191bc0663a1734b3e653005c"
+fingerprint = "sha256:c6a813aef25eb896e9a629d47186db9f971ddbbda6f95caf0767c697b65a1c0e"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -56,8 +56,8 @@ required_paths = [
 [[package.files]]
 path = "_index.md"
 mode = 420
-size = 1294
-sha256 = "4895cf285811eead163e9b2bded2c64f14b25481a66e9827aead999a145ab84e"
+size = 1369
+sha256 = "3d62ec7e757b510cb295676d55e0631d2a09ba39330ddec213b7411138f5ef73"
 
 [[package.files]]
 path = "protocols/_index.md"
@@ -80,8 +80,8 @@ sha256 = "085aba05d003c67fbee344659e7690a9d731be176cd8aeb18deb70e620a56e75"
 [[package.files]]
 path = "protocols/衣装正式转写协议.md"
 mode = 420
-size = 4838
-sha256 = "d93b209f7bac5a1467ed316cccdd3bfaf9cbf2e15979e933521a43cd2d020f28"
+size = 5694
+sha256 = "88b88a076f2cba7fddc6f888ae1d49b45cd7586a8565060b1c4a34c16c837865"
 
 [[package.files]]
 path = "protocols/视觉衣装拆解协议.md"
@@ -92,14 +92,14 @@ sha256 = "ac0687573b2071a7f79586a9ef208204681e9cde46a993d4bec68e7dab40bbce"
 [[package.files]]
 path = "references/_index.md"
 mode = 420
-size = 962
-sha256 = "9a1a3985ee9a7eadf03b4c41f7f4467ba43ffcd1480635d13ae8223e949c4bb4"
+size = 1069
+sha256 = "57811b395538e0a32f12b30bfe627004fd2e09e5106ee032fafc2067643f7624"
 
 [[package.files]]
 path = "references/library/_index.md"
 mode = 420
-size = 300
-sha256 = "49916eedf673b7342588e65985e4a027a1783ffd30bfd76d936239490c8d98be"
+size = 301
+sha256 = "cec347a961a4fe3c829dfa989945afec84439a584c98316c2ef56fd4910f9aa9"
 
 [metadata]
 label = "衣装拆解、设计与目录"

@@ -1,6 +1,8 @@
 # 衣装 Catalog 渐进拆分与收录计划
 
-> 状态：分析蓝图，非故事真源，非 Catalog 收录结果。
+> 状态：已完成并归档；最终暂存快照已通过校验；非故事真源。
+>
+> 归档日期：2026-08-21。
 >
 > 本文只规定后续如何分析、拆分和收录，不直接建立任何 `CLO-*`。人物衣装、施工事实和 Catalog 记录仍分别以各自正式文件为准，正式文件不得反向依赖本文。
 
@@ -51,7 +53,7 @@
 已经确认的两个冲突处理如下：
 
 - 秦瑶：旧施工中的白衬衫、短裙方案不能覆盖当前 `CON-0042` 已采用的黑色抹胸露腹包臀超短裙；
-- 童颜：旧设计曾移除白色长袜，但当前 `CON-0010` 已固定白色过膝袜，后续分析必须服从当前施工。
+- 童颜：旧版 `CON-0010` 的侧抽褶包臀裙与白色过膝袜已被作者确认的新造型取代；当前施工固定为纯白胸下分割收腰微伞裙、纯白蕾丝边自持大腿丝袜与纯白细带稳固中跟凉鞋，旧分支与旧施工不得回流。
 
 ## 四、Catalog ID 契约
 
@@ -236,28 +238,42 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 完成结果：
 
 - 本批不建立 `look`。黑色短抹胸、烟灰网纱罩衫与水洗牛仔短裙没有共享不可替换的设计系统，替换任一单件只会形成另一套普通搭配，不会破坏固有套装身份。
-- [CLO-00012｜黑色细吊带方领支撑短抹胸](../../specialties/clothes/references/catalog/pieces/top/CLO-00012_黑色细吊带方领支撑短抹胸.md) 作为 `piece + top + standalone` 保留。
-- [CLO-00013｜水洗炭黑中低腰牛仔超短裙](../../specialties/clothes/references/catalog/pieces/bottom/CLO-00013_水洗炭黑中低腰牛仔超短裙.md) 作为 `piece + bottom + standalone` 保留。
-- [CLO-00014｜烟灰色透薄短款网纱罩衫](../../specialties/clothes/references/catalog/pieces/top/CLO-00014_烟灰色透薄短款网纱罩衫.md) 作为 `piece + top + required` 保留；它必须与不透明内搭共同使用，不能按 `optional` 处理。
-- 三条记录均保持 `candidate_ready`，正式去向只指向何雯娜自足的 [黑色吊带抹胸水洗牛仔短裙](../../characters/minor/何雯娜/衣装/黑色吊带抹胸水洗牛仔短裙.md)。Catalog 不反向定义人物拥有物、当次穿用或授权。
+- [CLO-00012｜黑色细吊带方领支撑短抹胸](../../../specialties/clothes/references/catalog/pieces/top/CLO-00012_黑色细吊带方领支撑短抹胸.md) 作为 `piece + top + standalone` 保留。
+- [CLO-00013｜水洗炭黑中低腰牛仔超短裙](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00013_水洗炭黑中低腰牛仔超短裙.md) 作为 `piece + bottom + standalone` 保留。
+- [CLO-00014｜烟灰色透薄短款网纱罩衫](../../../specialties/clothes/references/catalog/pieces/top/CLO-00014_烟灰色透薄短款网纱罩衫.md) 作为 `piece + top + required` 保留；它必须与不透明内搭共同使用，不能按 `optional` 处理。
+- 三条记录均保持 `candidate_ready`，正式去向只指向何雯娜自足的 [黑色吊带抹胸水洗牛仔短裙](../../../characters/minor/何雯娜/衣装/黑色吊带抹胸水洗牛仔短裙.md)。Catalog 不反向定义人物拥有物、当次穿用或授权。
 - 鞋履只在正式 owner 中保留黑色细带中跟、简洁短靴或银灰短跟鞋的选择范围；本批不据此新增或绑定固定鞋履实体。
 
 ### 批次 4：秦瑶——冲突敏感型衣装
 
 目标：逐一整理三套当前正式衣装，并清除旧方案对判断的干扰。
 
-每套必须先建立“当前正式事实—当前施工—旧分支细节”的差异表。旧白衬衫方案不得重新进入当前衣装身份；只有与当前方案不冲突的材质、结构和动作细节可以吸收。
+完成结果：
 
-### 批次 5：童颜——仅场景候选
+- 本批不建立 `look`。三套人物衣装都是由可跨造型独立复用的普通 `piece` 组合而成，组合本身没有不可替换的成套身份。
+- 灰黑做旧牛仔系带装拆为 [CLO-00015｜灰黑做旧牛仔交叉系带短胸衣](../../../specialties/clothes/references/catalog/pieces/top/CLO-00015_灰黑做旧牛仔交叉系带短胸衣.md) 与 [CLO-00016｜灰黑做旧低腰系带牛仔超短裤](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00016_灰黑做旧低腰系带牛仔超短裤.md)。
+- 黑色抹胸露腹包臀超短裙拆为 [CLO-00017｜纯黑无肩带防滑极短抹胸](../../../specialties/clothes/references/catalog/pieces/top/CLO-00017_纯黑无肩带防滑极短抹胸.md)、[CLO-00018｜黑色中低腰无缝包臀超短裙](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00018_黑色中低腰无缝包臀超短裙.md) 与 [CLO-00019｜黑色亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00019_黑色亮面尖头细高跟鞋.md)。
+- 深酒红蕾丝暗红丝袜组拆为 [CLO-00020｜深酒红吊带蕾丝连衣短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00020_深酒红吊带蕾丝连衣短裙.md)、[CLO-00021｜红色亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00021_红色亮面尖头细高跟鞋.md) 与 [CLO-00022｜暗红宽幅雕花蕾丝吊带丝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00022_暗红宽幅雕花蕾丝吊带丝袜.md)。
+- 八条记录均为 `candidate_ready`，正式去向分别与秦瑶三份自足人物衣装对称；`CON-0012`、`CON-0042`、`CON-0043` 已同步当前分件。旧白衬衫方案明确放弃，不进入任何 Catalog 身份。
 
-目标：分析 `CON-0010` 中的白裙与白色过膝袜组合是否值得进入 Catalog。
+### 批次 5：童颜——CON-0010 单场衣装
 
-限制：
+目标：明确 `CON-0010` 场景衣装的每个实体是正式收录、复用现有实体还是放弃，并与人物衣装和未来日常衣装分账。
 
-- 当前人物衣装目录没有正式具体 owner；
-- 本批只能形成 Catalog 候选，不得顺手补写童颜正式衣装；
-- 白色过膝袜以当前施工为事实，不能沿用旧分支的移除方案；
-- 若作者希望它成为童颜固定衣装，需要另行进行正式人物衣装转写与确认。
+完成结果：
+
+- 场景主体正式收录为 [CLO-00030｜细肩带胸下分割收腰微伞连体短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00030_细肩带胸下分割收腰微伞连体短裙.md)。来源图只确认冰蓝／浅雾蓝，童颜版本采用作者确认的低光泽纯白项目色版；换色不改变结构身份，因此不另建 CLO。
+- 场景腿部层正式收录为 [CLO-00031｜纯白窄幅蕾丝边自持大腿丝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00031_纯白窄幅蕾丝边自持大腿丝袜.md)，取代旧白色过膝袜。
+- 场景足部层正式收录并采用 [CLO-00029｜纯白极简细带稳固中跟凉鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00029_纯白极简细带稳固中跟凉鞋.md)。
+- [CLO-00027｜纯白细肩带侧抽褶包臀连体超短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00027_纯白细肩带侧抽褶包臀连体超短裙.md) 与 [CLO-00028｜纯白防滑过膝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00028_纯白防滑过膝袜.md) 保留为无正式去向的 `candidate_ready` 可复用实体；二者不进入本次 `CON-0010` 场景造型，也不因此失去未来调用资格。
+- 新造型已自足写入童颜 [纯白细肩带收腰微伞短裙](../../../characters/major/童颜/衣装/纯白细肩带收腰微伞短裙.md)，但它是 `CON-0010` 的单场穿用记录：场所临时安排、非个人持有、不得跨场默认调用。人物 owner 的存在不把它改写为稳定衣柜资产。
+- 当前 [CON-0010](../../../story/construction/云顶KTV会所线/CON-0010-第十四场-童颜纯白微伞短裙.md) 与相关剧情线接口均已切换到新造型；旧文件名和旧衣装快照退出正式引用。
+
+### 独立转写：童颜未来日常衣装
+
+- [纯白方领压褶短裙组](../../../characters/major/童颜/衣装/纯白方领压褶短裙组.md) 是童颜建立个人衣柜后的日常衣装，不属于批次 5，也不解释 `CON-0010`。
+- 该人物衣装采用 [CLO-00023｜纯白法式方领立体收腰压褶连体短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00023_纯白法式方领立体收腰压褶连体短裙.md)、[CLO-00025｜纯白中筒袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00025_纯白中筒袜.md) 与 [CLO-00026｜纯白极简低帮帆布鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00026_纯白极简低帮帆布鞋.md)。
+- [CLO-00024｜纯白细吊带横向抽褶花苞连体短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00024_纯白细吊带横向抽褶花苞连体短裙.md) 独立保留为无正式去向的 `candidate_ready` 可复用实体；它不属于这套未来日常衣装，也不属于批次 5。
 
 ## 十、单批工作流程
 
@@ -267,7 +283,7 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 2. **读取旧证据**：只提取不冲突的详细结构、材质、颜色、穿脱和动作信息；
 3. **重建完整造型**：先写出足够详细的一整套衣装，不先拆零件；
 4. **判断实体边界**：决定 `look`、`piece`、共享双人实体及颜色款关系；
-5. **执行撞型检查**：与已确认候选和正式 Catalog 对比结构、用途、颜色款和 owner；
+5. **执行分析层去重检查**：在分析记录中核对已确认候选和正式 Catalog 的结构、用途、颜色款和 owner；Catalog 实体正文只说明当前衣装自身特点，不写衣装间比较；
 6. **输出分析结论**：列出保留项、拆分项、不拆理由、冲突裁决和待确认问题；
 7. **作者确认**：作者明确认可名称、边界、用途和拆分结果；
 8. **预约并写入**：只有五位 ID 门禁已通过，才分配下一个 ID 并建立正式记录；
@@ -287,24 +303,28 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 - [ ] 五位 ID 契约与 validator 已经就绪；
 - [ ] 写入后通过 Catalog 校验，且未修改无关故事事实。
 
-## 十二、当前状态与唯一下一步
+## 十二、最终状态与 high-water mark
 
 当前状态：
 
-- 批次 0 已完成：Clothes Specialty 已升级到 `0.0.7`，五位 ID、validator 与 reservation 能力已就绪，`resolve ready=true`。
+- 批次 0 已完成：Clothes Specialty 当前为 `0.0.11`，五位 ID、validator 与 reservation 能力已就绪，`resolve ready=true`。
 - 批次 1 已完成：言溪固定 COS 以 `CLO-00001` 单一 `look` 收录，不拆 `piece`。
 - 批次 2 已完成：俞予安、王诗悦共享组和独有造型已完成查重与收录，未按人物复制共享实体。
 - 批次 3 已完成：何雯娜普通夜装不建立 `look`，拆为 `CLO-00012`、`CLO-00013`、`CLO-00014` 三个可复用 `piece`。
-- 截至批次 3 验收基线，Catalog 已使用 `CLO-00001` 至 `CLO-00022`；后续批次的新增编号、目录和正式去向以届时现行实体与索引为准。
+- 批次 4 已完成：秦瑶三套衣装拆为 `CLO-00015` 至 `CLO-00022` 八个可复用 `piece`，不建立 `look`，旧白衬衫方案退出。
+- 批次 5 已完成：童颜 `CON-0010` 只采用 `CLO-00030 + CLO-00031 + CLO-00029`；`CLO-00027/28` 继续作为无正式去向的可复用候选。童颜未来日常衣装以 `CLO-00023 + CLO-00025 + CLO-00026` 独立转写；`CLO-00024` 同样独立保留，不冒充任何人物衣装。
+- 当前 `CLO-00001` 至 `CLO-00031` 均已有物化 Catalog 实体，最高物化 ID 为 `CLO-00031`。`CLO-00032` 已预约但未物化，本蓝图将其确认为取消后的永久空缺。
+- `CLO-00030` 已物化且唯一，但没有对应 reservation 文件；本次以作者指定且已经形成正式双向采用的稳定 ID 接受该历史分配，不追补伪造 reservation，也不重新编号。
+- 当前 high-water mark 为 `CLO-00032`，下一次分配必须从 `CLO-00033` 开始，不得回收任何空缺。
 
-唯一下一步是“批次 4：秦瑶——冲突敏感型衣装”。开始前先核对三套正式衣装与 `CON-0012`、`CON-0042`、`CON-0043`，不得让旧白衬衫方案回流。
+六名角色的本蓝图批次均已完成并转入正式 Catalog；未被当前人物或场景采用的 `candidate_ready` 实体继续保留，等待未来独立调用。Catalog 实体正文只描述自身特点，衣装间的去重、取舍与映射判断仅保留在分析层。剩余动作只有合并最终 Git 暂存快照并完成验证，不再开启新的衣装实体决策。
 
 ## 十三、蓝图关闭条件
 
-满足以下条件后，本文可以删除或归档：
+本次采用归档而非删除，以保留批次拆分、候选去向与 high-water mark 的历史说明。归档前必须满足：
 
 - 五位 ID 契约已经进入 Clothes Specialty 正式协议和验证器；
-- 六名角色的候选批次都已完成、明确放弃或转入正式 Catalog；
+- 六名角色的候选批次都已完成，并已明确当前采用关系或无正式去向的可复用状态；
 - 所有共享、换色、拆分和冲突决定均已由正式记录承接；
 - 没有正式人物衣装、施工或 Catalog 文件引用本文；
 - 本文不再包含任何尚未落地的决定。

@@ -15,7 +15,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 - `protocols/`、本 `_index.md`、`references/_index.md` 与 `references/library/` 由 package 管理。
 - `references/components/` 与 `references/catalog/` 由当前项目管理，只在出现真实内容时创建。
 - 跨场景稳定审美与组合语法归人物 `衣装/_GRAMMAR.md`，具体衣装归同目录子档并由 `衣装/_index.md` 登记；单场衣装规格归对应 `CON-*`；正文事实归章节正文。
-- 正式 owner 必须自足，不得只写 `CLO-*` 或反向依赖本专项参考档案。
+- 正式 owner 必须自足；可以列出实际采用的 `CLO-*` 导航用于双向追溯，但不得只写编号或反向依赖本专项参考档案才能成立。
 
 ## 入口
 
