@@ -241,7 +241,7 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 - [CLO-00012｜黑色细吊带方领支撑短抹胸](../../../specialties/clothes/references/catalog/pieces/top/CLO-00012_黑色细吊带方领支撑短抹胸.md) 作为 `piece + top + standalone` 保留。
 - [CLO-00013｜水洗炭黑中低腰牛仔超短裙](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00013_水洗炭黑中低腰牛仔超短裙.md) 作为 `piece + bottom + standalone` 保留。
 - [CLO-00014｜烟灰色透薄短款网纱罩衫](../../../specialties/clothes/references/catalog/pieces/top/CLO-00014_烟灰色透薄短款网纱罩衫.md) 作为 `piece + top + required` 保留；它必须与不透明内搭共同使用，不能按 `optional` 处理。
-- 三条记录均保持 `candidate_ready`，正式去向只指向何雯娜自足的 [黑色吊带抹胸水洗牛仔短裙](../../../characters/minor/何雯娜/衣装/黑色吊带抹胸水洗牛仔短裙.md)。Catalog 不反向定义人物拥有物、当次穿用或授权。
+- 三条记录均保持 `candidate_ready`，正式去向只指向何雯娜自足的 [浅米白侧镂空吊带水洗炭黑牛仔短裙](../../../characters/minor/何雯娜/衣装/浅米白侧镂空吊带水洗炭黑牛仔短裙.md)。Catalog 不反向定义人物拥有物、当次穿用或授权。
 - 鞋履只在正式 owner 中保留黑色细带中跟、简洁短靴或银灰短跟鞋的选择范围；本批不据此新增或绑定固定鞋履实体。
 
 ### 批次 4：秦瑶——冲突敏感型衣装
@@ -252,8 +252,8 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 
 - 本批不建立 `look`。三套人物衣装都是由可跨造型独立复用的普通 `piece` 组合而成，组合本身没有不可替换的成套身份。
 - 灰黑做旧牛仔系带装拆为 [CLO-00015｜灰黑做旧牛仔交叉系带短胸衣](../../../specialties/clothes/references/catalog/pieces/top/CLO-00015_灰黑做旧牛仔交叉系带短胸衣.md) 与 [CLO-00016｜灰黑做旧低腰系带牛仔超短裤](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00016_灰黑做旧低腰系带牛仔超短裤.md)。
-- 黑色抹胸露腹包臀超短裙拆为 [CLO-00017｜纯黑无肩带防滑极短抹胸](../../../specialties/clothes/references/catalog/pieces/top/CLO-00017_纯黑无肩带防滑极短抹胸.md)、[CLO-00018｜黑色中低腰无缝包臀超短裙](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00018_黑色中低腰无缝包臀超短裙.md) 与 [CLO-00019｜黑色亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00019_黑色亮面尖头细高跟鞋.md)。
-- 深酒红蕾丝暗红丝袜组拆为 [CLO-00020｜深酒红吊带蕾丝连衣短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00020_深酒红吊带蕾丝连衣短裙.md)、[CLO-00021｜红色亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00021_红色亮面尖头细高跟鞋.md) 与 [CLO-00022｜暗红宽幅雕花蕾丝吊带丝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00022_暗红宽幅雕花蕾丝吊带丝袜.md)。
+- 黑色抹胸露腹包臀超短裙拆为 [CLO-00017｜纯黑无肩带防滑极短抹胸](../../../specialties/clothes/references/catalog/pieces/top/CLO-00017_纯黑无肩带防滑极短抹胸.md)、[CLO-00018｜黑色中低腰无缝包臀超短裙](../../../specialties/clothes/references/catalog/pieces/bottom/CLO-00018_黑色中低腰无缝包臀超短裙.md) 与 [CLO-00019｜经典亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00019_经典亮面尖头细高跟鞋.md)。
+- 深酒红蕾丝暗红丝袜组拆为 [CLO-00020｜深酒红吊带蕾丝连衣短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00020_深酒红吊带蕾丝连衣短裙.md)、[CLO-00019｜经典亮面尖头细高跟鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00019_经典亮面尖头细高跟鞋.md) 的深酒红/正红镜面色版与 [CLO-00022｜暗红宽幅雕花蕾丝吊带丝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00022_暗红宽幅雕花蕾丝吊带丝袜.md)。
 - 八条记录均为 `candidate_ready`，正式去向分别与秦瑶三份自足人物衣装对称；`CON-0012`、`CON-0042`、`CON-0043` 已同步当前分件。旧白衬衫方案明确放弃，不进入任何 Catalog 身份。
 
 ### 批次 5：童颜——CON-0010 单场衣装
@@ -266,7 +266,7 @@ Catalog 用于提供参考身份和查重，不替代两名角色各自的正式
 - 场景腿部层正式收录为 [CLO-00031｜纯白窄幅蕾丝边自持大腿丝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00031_纯白窄幅蕾丝边自持大腿丝袜.md)，取代旧白色过膝袜。
 - 场景足部层正式收录并采用 [CLO-00029｜纯白极简细带稳固中跟凉鞋](../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00029_纯白极简细带稳固中跟凉鞋.md)。
 - [CLO-00027｜纯白细肩带侧抽褶包臀连体超短裙](../../../specialties/clothes/references/catalog/pieces/dress/CLO-00027_纯白细肩带侧抽褶包臀连体超短裙.md) 与 [CLO-00028｜纯白防滑过膝袜](../../../specialties/clothes/references/catalog/pieces/hosiery/CLO-00028_纯白防滑过膝袜.md) 保留为无正式去向的 `candidate_ready` 可复用实体；二者不进入本次 `CON-0010` 场景造型，也不因此失去未来调用资格。
-- 新造型已自足写入童颜 [纯白细肩带收腰微伞短裙](../../../characters/major/童颜/衣装/纯白细肩带收腰微伞短裙.md)，但它是 `CON-0010` 的单场穿用记录：场所临时安排、非个人持有、不得跨场默认调用。人物 owner 的存在不把它改写为稳定衣柜资产。
+- 新造型已自足写入 [CON-0010｜童颜纯白微伞短裙](../../../story/construction/云顶KTV会所线/CON-0010-第十四场-童颜纯白微伞短裙.md)，它是 `CON-0010` 的单场穿用记录：场所临时安排、非个人持有、不得跨场默认调用。施工 owner 的存在不把它改写为稳定衣柜资产。
 - 当前 [CON-0010](../../../story/construction/云顶KTV会所线/CON-0010-第十四场-童颜纯白微伞短裙.md) 与相关剧情线接口均已切换到新造型；旧文件名和旧衣装快照退出正式引用。
 
 ### 独立转写：童颜未来日常衣装

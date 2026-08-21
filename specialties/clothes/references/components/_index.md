@@ -8,10 +8,10 @@
 sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 ```
 
-只有 `activation=enabled`、`ready=true` 且没有 blocking diagnostic 时才使用这些规则。`look | piece`、稳定 ID、状态和正式 owner 的公共契约仍服从 package-managed 协议：
+只有 `activation=enabled`、`ready=true` 且没有 blocking diagnostic 时才使用这些规则。`set | piece`、稳定 ID、catalog 完成门禁和正式 owner 的公共契约仍服从 package-managed 协议：
 
 - [衣装分析与设计协议](../../protocols/衣装分析与设计协议.md)
-- [衣装收录与状态协议](../../protocols/衣装收录与状态协议.md)
+- [衣装收录协议](../../protocols/衣装收录协议.md)
 - [衣装正式转写协议](../../protocols/衣装正式转写协议.md)
 
 ## 文件入口
@@ -19,7 +19,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 | 文件 | 职责 |
 |---|---|
 | [衣装档案写作规范](衣装档案写作规范.md) | 项目衣装档案的证据分层、正文模板、色版身份、品类专项字段与验收要求 |
-| [衣装结构与穿着层级](衣装结构与穿着层级.md) | 本项目唯一分类权威；定义 `look`、`piece`、临时搭配候选、结构组成、九种单件类型、穿着层级与拆件边界 |
+| [衣装结构与穿着层级](衣装结构与穿着层级.md) | 本项目唯一分类权威；定义 `set`、`piece`、临时搭配候选、九种单件类型、穿着层级与拆件边界 |
 | [服装术语与观察词典](服装术语与观察词典.md) | 款式、廓形、松量、结构、材料、工艺、辅料、穿着表现等受控术语 |
 | [色彩图案与材质](色彩图案与材质.md) | 配色构成、色版、图案形成方式、材料层级、触感推断和穿着维护 |
 | [审美与视觉效果](审美与视觉效果.md) | 漂亮、清纯、清冷、欲感、勾人等判断的因果分析和视觉刺激机制 |
@@ -48,7 +48,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 - 本目录只保存泛化规则，不分配 `CLO-*`，不保存实际衣物实体。
 - 实际成套装束与单件进入同级 `catalog/`，每个 `CLO-*` 只有一个实体位置。
-- 普通上装＋下装等临时搭配不进入 `catalog/looks/`。
+- 普通上装＋下装等临时搭配不进入 `catalog/sets/`。
 - 参考档不会自动成为角色拥有物、稳定偏好、场次动作或剧情结果。
 - 正式人物衣装或 Construction 必须自足重写实际采用内容，不得只写 `CLO-*` 或反向依赖本目录。
 - 迁移批次、源文件数量、ID 冲突、分类异常和待确认术语留在分析层，不写进这些长期规则。
@@ -57,10 +57,10 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 Story Stars 启用 Clothes Specialty 当前协议提供的项目分类覆盖，唯一分类权威是 [衣装结构与穿着层级](衣装结构与穿着层级.md)：
 
-- 本项目只生成分类表 `组合形式=multi-piece` 的 `look`；通用协议允许的 `single-piece` 只作为旧档迁移输入，不作为本项目输出；
+- 本项目的 `set` 天然由至少两个物理独立核心分件构成，不生成“组合形式”字段；旧 `look`、`single-piece` 或 `multi-piece` 只作为 `clothes.catalog@1` 待迁移输入；
 - 本项目以 `top | bottom | dress | jumpsuit | bodysuit | swimsuit | hosiery | footwear | accessory` 替换通用默认 `piece_type`；
-- `catalog/looks/` 按八种“主要用途”建英文目录，`catalog/pieces/` 按上述九种“单件类型”建英文目录；
-- 项目分类不能新增 `record_kind`、组合形式值、用途、状态、frontmatter 字段或 Markdown 结构；
+- `catalog/sets/` 按八种“主要用途”建英文目录，`catalog/pieces/` 按上述九种“单件类型”建英文目录；
+- 项目分类不能新增 `record_kind`、用途、frontmatter 字段或 Markdown 结构，也不能重新引入“组合形式”；
 - 组件、实体、目录和索引若不一致，停止受影响的收录或迁移，不混用通用默认类型与项目类型。
 
 ## 维护规则
@@ -68,5 +68,5 @@ Story Stars 启用 Clothes Specialty 当前协议提供的项目分类覆盖，�
 - 使用中文主词，英文和行业俗称只作检索别名。
 - 新术语必须有准确含义、观察点、影响、证据边界和易混词；不收商品营销词。
 - 看不清时使用通俗、可证实的描述，不为了显得专业强行套词。
-- 不新增 Clothes Specialty 当前协议未定义的 frontmatter 字段；单件类型和组合形式的项目覆盖只按本索引指定的唯一分类权威执行。
-- 修改本目录规则不能静默改变既有 `CLO-*` 身份、状态或正式故事事实。
+- 不新增 Clothes Specialty 当前协议未定义的 frontmatter 字段；单件类型和目录覆盖只按本索引指定的唯一分类权威执行。
+- 修改本目录规则不能静默改变既有 `CLO-*` 身份或正式故事事实。
