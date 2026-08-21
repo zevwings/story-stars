@@ -1,0 +1,83 @@
+# 工具身份、RAG / GraphRAG 配置。
+# 本文件用于稳定项目身份、检索、路由和 brief 候选生成, 不是故事正典。
+# 作品级真源位于 zen/；具体事实以 chapters/、characters/、context/、clues/、story/、worldbuilding/ 等正式目录为准。
+# 已确认剧情线执行规格位于 story/construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
+
+[project]
+id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
+layout = "zen-v1"
+
+[[characters.roots]]
+path = "characters"
+type = "character.static"
+static_cards = ["主卡.md", "形象.md", "衣装/_GRAMMAR.md", "契约.md"]
+
+[[context.roots]]
+path = "context/characters"
+type = "character_dynamic"
+
+[[context.roots]]
+path = "context/artifacts"
+type = "artifact_dynamic"
+
+[timeline.entity_names]
+state = []
+
+[[specialties]]
+name = "intimacy"
+enabled = true
+dir = "specialties/intimacy"
+overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
+
+[[specialties]]
+name = "sociology"
+enabled = true
+dir = "specialties/sociology"
+
+[[specialties]]
+name = "clothes"
+enabled = true
+dir = "specialties/clothes"
+
+[installations.intimacy]
+schema_version = 1
+kind = "specialty"
+target = "specialties/intimacy"
+installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
+
+[installations.plotlines]
+schema_version = 1
+kind = "feature"
+target = "story/plotlines"
+installation_id = "48d21a1b-31a7-4ee2-95c9-dcf3beee62c3"
+
+[installations.construction]
+schema_version = 1
+kind = "feature"
+target = "story/construction"
+installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
+
+[installations.sociology]
+schema_version = 1
+kind = "specialty"
+target = "specialties/sociology"
+installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
+
+[installations.clothes]
+schema_version = 1
+kind = "specialty"
+target = "specialties/clothes"
+installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
+
+[features]
+
+plotlines = true
+construction = true
+
+[orchestration]
+targets = ["codex"]
+
+[orchestration.codex]
+architect_model = "gpt-5.6-sol"
+implementer_model = "gpt-5.6-terra"
+reviewer_model = "gpt-5.6-sol"

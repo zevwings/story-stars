@@ -1,0 +1,61 @@
+# story/construction/ 是施工真源；.prewrite/ 与 .analysis/ 用于派生材料和待确认事项，默认不忽略。
+
+# macOS local metadata
+
+# Claude local metadata
+.claude/*
+!.claude/settings.json
+!.claude/skills
+!.claude/skills/
+!.claude/skills/**
+!.claude/scripts/
+!.claude/scripts/**
+
+# Codex local metadata
+.codex/*
+!.codex/config.toml
+!.codex/skills
+!.codex/skills/
+!.codex/skills/**
+!.codex/agents
+!.codex/agents/
+!.codex/agents/**
+claude-mem-*.tgz
+_mem/mem-*.md
+
+# Grok and Qwen local metadata
+/.grok/
+/.qwen/
+
+# Python local caches
+__pycache__/
+*.pyc
+.venv/
+.uv-cache/
+
+# Local metadata for analysis, export, and validation outputs
+.analysis/*
+!.analysis/README.md
+!.analysis/blueprints/
+!.analysis/blueprints/**
+!.analysis/archived/
+!.analysis/plotlines/
+!.analysis/plotlines/**
+
+# 原型检索的临时图片缓存；人工维护的 .prototypes/ Markdown 仍提交。
+.prototypes/cache/
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+
+# Project-local story-writer state; generated and not committed.
+/.sw/
+tmp/
+temp/
+
+# 目录放行规则之后再次排除 macOS 元数据。
+.DS_Store
+
+/logs/
