@@ -69,6 +69,10 @@ kind = "specialty"
 target = "specialties/clothes"
 installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
 
+[visuals]
+metadata_root = "visuals"
+asset_root = "visual-assets"
+
 [features]
 
 plotlines = true
