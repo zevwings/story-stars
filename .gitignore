@@ -17,9 +17,6 @@
 !.codex/skills
 !.codex/skills/
 !.codex/skills/**
-!.codex/agents
-!.codex/agents/
-!.codex/agents/**
 claude-mem-*.tgz
 _mem/mem-*.md
 
