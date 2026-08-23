@@ -75,10 +75,7 @@ installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
 plotlines = true
 construction = true
 
-[orchestration]
-targets = ["codex"]
-
-[orchestration.codex]
+[agents.codex]
 architect_model = "gpt-5.6-sol"
 implementer_model = "gpt-5.6-terra"
 reviewer_model = "gpt-5.6-sol"

@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=3de3666db211bac776e150adf13e6ea4aff616737c3e5a5917ac72917f19bed5 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=dff9541fc2d4a6a6a65c1023e0017760e8e5e85413c093bc8538db260d359708 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -205,7 +205,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$merge-pull-request`
 
-为已接入 story-writer 的正式写作项目安全合并 GitHub Pull Request：用户显式调用并提供 PR 号或 URL 后， 将多 commit PR 在临时 worktree 中收束为单 commit，使用精确 force-with-lease 推送，重新验证新 head 的 checks 与 reviews， 再以 head OID 原子匹配执行 squash merge。触发语：合并 Pull Request、合并 PR。不用于 story-writer 工具仓、fork PR、 内容 review 或修复，不删除分支、清理工作树或切回主分支。
+为已接入 story-writer 的正式写作项目安全合并 GitHub Pull Request：用户显式调用并提供 PR 号或 URL 后， 将多 commit PR 在临时 worktree 中收束为单 commit，使用精确 force-with-lease 推送，重新验证新 head 的 checks 与 reviews， 再以 head OID 原子匹配执行 squash merge，切换并快进本地 PR base，精确清理远程与本地 PR 分支。触发语：合并 Pull Request、 合并 PR。不用于 story-writer 工具仓、fork PR、内容 review 或修复。
 
 - 调用格式：`$merge-pull-request <任务目标>`
 - 典型触发语：`合并 Pull Request`, `合并 PR`
@@ -319,8 +319,8 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 ## 安装与刷新
 
 ```bash
-sw install --target codex
-sw setup sync --root /path/to/story-project --sync-agent-links --agent-target agents
+sw setup sync --root /path/to/story-project
+sw agent sync --root /path/to/story-project --target codex
 ```
 
-`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw setup sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；项目 Agent Skill/MCP 由 `sw agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
