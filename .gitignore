@@ -23,6 +23,9 @@
 claude-mem-*.tgz
 _mem/mem-*.md
 
+# Agent integrations are synchronized locally and are not committed.
+/.agents/
+
 # Grok and Qwen local metadata
 /.grok/
 /.qwen/
