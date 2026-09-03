@@ -18,7 +18,7 @@ required_paths = [
 
 [package]
 module_id = "intimacy"
-version = "1.0.5"
+version = "1.0.8"
 runtime_api = 1
 label = "亲密写作"
 keywords = [
@@ -37,7 +37,7 @@ rules = [
 state_categories = ["intimacy_static"]
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:dd41ec8f2599f17ba500b3dcb1853f9733a1d106215427442905639efe3fede3"
+fingerprint = "sha256:3b90a2adeda2d9bbaff213c9f30100fe4e2eda57f7da163e68aad597dab6e7f1"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -56,8 +56,8 @@ required_paths = [
 [[package.files]]
 path = "_index.md"
 mode = 420
-size = 2003
-sha256 = "a75eedabd5711003ddd67e554ec297ae6876e05f109d1448466e247c791eaa60"
+size = 2009
+sha256 = "63e76fc2eb2f436678f93182b3699ae92631ef7238e680869e73625aebbc79c3"
 
 [[package.files]]
 path = "protocols/B场HD四维细则.md"
@@ -68,20 +68,20 @@ sha256 = "1b708d4fe225c768d6698e32a6ed63edb5899162fe1959de3542aa11fbf0ba7a"
 [[package.files]]
 path = "protocols/B场HD微观感官与才艺解构.md"
 mode = 420
-size = 3453
-sha256 = "18887306e15aabe6dc70bae4c12f13ae5d332e41495d457261c8f75ccfee9057"
+size = 3468
+sha256 = "5dd55609c726279d6556b15cf7387726d00331a9af27eeed36118fc214c938ed"
 
 [[package.files]]
 path = "protocols/B场HD总纲.md"
 mode = 420
-size = 1936
-sha256 = "4ed4ca87c9c9f0c8a60487f96beeffcf2cbff62c424deac0ab227e326a41f327"
+size = 1954
+sha256 = "4f6c0df844c0d678b3dc4e602b91334061bdfa340159e3c0c852994f79e51d58"
 
 [[package.files]]
 path = "protocols/B场HD模式红线.md"
 mode = 420
-size = 395
-sha256 = "abe2c2eade17eb818cd47f582334b415a846f505f0c9bb2b71cd66b180041e01"
+size = 401
+sha256 = "a57b7f015c9e780fcf4914076171df7dcf1fbd0de23b7ba197089babd36db9d2"
 
 [[package.files]]
 path = "protocols/B场HD节奏镜头.md"
@@ -92,20 +92,20 @@ sha256 = "b99a503b7bd43e2e4410d303749cfdc00d27e69321f98686280ba4171a6f3b4c"
 [[package.files]]
 path = "protocols/B场黑暗HD微观感官与双声部规则.md"
 mode = 420
-size = 4083
-sha256 = "e33d2ab63d4da471593829058c5c46d57659d027d5f5788c2701a146a78e0162"
+size = 4080
+sha256 = "9b5d4b7612c17ff35215acc01e4514c348902bb8fbd5acb61b18dddda48b63df"
 
 [[package.files]]
 path = "protocols/HD约束总览.md"
 mode = 420
-size = 632
-sha256 = "7595e23f5c04b9a61aeeac823673499548de5289cf889e4d87e07cd00d36882d"
+size = 644
+sha256 = "1c56618a12dce5fd15e235bdfd9f92323967b5249220856055f985960d6821db"
 
 [[package.files]]
 path = "protocols/_index.md"
 mode = 420
-size = 3310
-sha256 = "f61efc4cdbb8872e8ae4854075b15d8b8bfbb8269ff3214fe6d0efaa40a74b4d"
+size = 3332
+sha256 = "4323871bdb5375bff160e1627b9bde193b35c0e1b09d1c78c3e7a73d100cc49d"
 
 [[package.files]]
 path = "protocols/templates/intimacy.md"
@@ -116,32 +116,32 @@ sha256 = "49450f455d06856fb5a972157b55e83d260e5ed1b5773c9db9bc6d296742d450"
 [[package.files]]
 path = "protocols/workflows/_index.md"
 mode = 420
-size = 836
-sha256 = "2a35ebcdb26b490a1212319eb8df1ea1a771ebde72647fd9b0d8ee848a5f1325"
+size = 840
+sha256 = "9a20dc2a3a480409b5976e595e0b3a0c4a061f92c6b3edcbd35cf2d009de5d16"
 
 [[package.files]]
 path = "protocols/workflows/dark-planner/design-protocol.md"
 mode = 420
-size = 3254
-sha256 = "93c684e2385b8f2dcc3cbc67315957acdcb7c380e0357f4397d69a0427ece058"
+size = 3257
+sha256 = "4e1c04c65e0f730c559ff24736a7871d4e2a9c4358150b813057b0cf5a2a5a3a"
 
 [[package.files]]
 path = "protocols/workflows/dark-writer/execution-protocol.md"
 mode = 420
-size = 3271
-sha256 = "014c1b2c75a373f455a2f6a9dffa12761f28757ee4c7fb3bfc639b2001a36bd8"
+size = 3274
+sha256 = "83ed36961c18988654d6d4004ea8099b80c133208221d72e3bd5257a446c84bd"
 
 [[package.files]]
 path = "protocols/workflows/planner/choreography-logic.md"
 mode = 420
-size = 3266
-sha256 = "4a31d7dafa2d547231472843b16a52844cb2cde914a244b80512668bc1070c41"
+size = 3270
+sha256 = "6244a8d4b468ba8c54d96d857a2e2a8b82795b0bbb6bd0c3b14733caa33e9baf"
 
 [[package.files]]
 path = "protocols/workflows/planner/distillation-protocol.md"
 mode = 420
-size = 1325
-sha256 = "c4c53246e738f7c34270012afaa2477cc019eb10b649b04d8b33b9e7faaec406"
+size = 1331
+sha256 = "fe6301901cdd6bdda70eb5216b03ccf240ebd9c03a6a7cab9400342eff2b41c6"
 
 [[package.files]]
 path = "protocols/workflows/planner/material-extraction.md"
@@ -164,20 +164,20 @@ sha256 = "26ca522f84a4345e07448c88e716cc9962ae9964da64102bc36da8ac299eee99"
 [[package.files]]
 path = "protocols/亲密写前写后校验.md"
 mode = 420
-size = 647
-sha256 = "6dd6a99f2782e139b3e0a5acd19b9966d65e9162e5c3bb7a51fbf151fdab2a3d"
+size = 658
+sha256 = "68eefcea37fe64002bc5e0a99032279ad78ca0ab7421891e656aceca9624164a"
 
 [[package.files]]
 path = "protocols/亲密设计规划协议.md"
 mode = 420
-size = 1566
-sha256 = "29d12052136a2a2f700d1afa980741719d09bced2d9e8fadac4cafde1b165e6c"
+size = 1618
+sha256 = "b080ee04a7beef996be9a1d5839bfe6a2530146ec69077552bf37191be264bd3"
 
 [[package.files]]
 path = "protocols/亲密边界与红线.md"
 mode = 420
-size = 1252
-sha256 = "868be6d6f5c8c277fc8c396e40b6feca6fc3279405f9fb47427974c7adfbc01c"
+size = 1270
+sha256 = "cd9057b8a1cd39a5f2a828887ccc2456a715a9752d4943ef1e6106c659fb0621"
 
 [[package.files]]
 path = "protocols/正向亲密质量检查清单.md"
@@ -194,8 +194,8 @@ sha256 = "c3fde2f6250cd48a4fe5044fc884f6c5b8c8bb5fb6621f31ae4349b4bb9a26a7"
 [[package.files]]
 path = "protocols/黑暗HD流程.md"
 mode = 420
-size = 658
-sha256 = "6490170762a343b4c4cbea0b24d421c915aa8a859fabf129b722a6ee67227c43"
+size = 719
+sha256 = "1765ed20955a1b1e3fb6eb51222ff7bee0ee3451fdead9d84fa8fbea05580656"
 
 [[package.files]]
 path = "references/_index.md"
@@ -212,8 +212,8 @@ sha256 = "5cd7f3186ace4a5bc1a7bf7d3de7b2dc25425868b234816da51187282231013f"
 [[package.files]]
 path = "references/library/12_女性身体_B.md"
 mode = 420
-size = 25851
-sha256 = "19e6432f8b1c627f04996e49bfd7cb6c9c3fbb213f5cf20b6e9639af9dea189d"
+size = 25955
+sha256 = "ef91b42253d22551f0086b93086d460c40c67255a50fccd90b58a0c2da4d1e36"
 
 [[package.files]]
 path = "references/library/13_男性身体_A.md"
@@ -242,8 +242,8 @@ sha256 = "df586fb5224006c816f05407d8c8851f41b79ec6c2e034ae359d13f465a7aeda"
 [[package.files]]
 path = "references/library/17_词汇库_A.md"
 mode = 420
-size = 5105
-sha256 = "ed33ed87ec8c49eb43a3755c0d167ec31deb04526425ff13896c47cb2a9c0bde"
+size = 5151
+sha256 = "94a673fced0bb2a7452cf1ce376a20ed8d67252380769a22a0f0ed307ed7f9f7"
 
 [[package.files]]
 path = "references/library/18_词汇库_B.md"
@@ -266,8 +266,8 @@ sha256 = "dbc24a8f1988e945251c14211b1d2ac6f43ba1d21daa2d38099890cc517b26cd"
 [[package.files]]
 path = "references/library/23_语言技法.md"
 mode = 420
-size = 17071
-sha256 = "4ff84ebfb5f7fd246e9d094b1f9a5c6ffc235269126033292ac94c5fec0da3bb"
+size = 17662
+sha256 = "fbbd85248070c35b750ba4a58209dceb0a8d5bfed789b68d6e0d5eccdd3615b2"
 
 [[package.files]]
 path = "references/library/24_体位与动作_A.md"
@@ -284,8 +284,8 @@ sha256 = "3fb659bac7090a19a20fd2aba6e9c571351953c6d214cb0fb273d31231698683"
 [[package.files]]
 path = "references/library/26_结构.md"
 mode = 420
-size = 21407
-sha256 = "6875096c9aead774fe2a0e9e12d76eef1224f039bf994de23bd4e185781b4b15"
+size = 21526
+sha256 = "476fb2a20ac9177ef8361244a641863183932acc99e0dcf5cbbc62aac3feb3d0"
 
 [[package.files]]
 path = "references/library/27_转场.md"
@@ -308,8 +308,8 @@ sha256 = "b87a7d6f4a95d2521832ffd418ebb08cfbf19201b3e6604f0c4627f315a6b76c"
 [[package.files]]
 path = "references/library/31_A场美学与性张力.md"
 mode = 420
-size = 24809
-sha256 = "b3e426ca28238faa6fcd1c370b478eed4963cc212dd6d566409ecd84e13eb905"
+size = 24723
+sha256 = "b17b40749816b88c412ea50c1a5e2cca0c2e58ffe7b45f04e7d922c03801eb3e"
 
 [[package.files]]
 path = "references/library/32_美学意象.md"
@@ -350,14 +350,14 @@ sha256 = "cd94e8b43dc86175b1f9dcb46590ea9d7d52f80b4972f60c0de447c677457b23"
 [[package.files]]
 path = "references/library/41_边界与协商.md"
 mode = 420
-size = 8674
-sha256 = "f74f4cb90f0d6c430a0cf792e27e74d9e551d7cf53477c8faefa7490d45ab9ee"
+size = 8665
+sha256 = "fc06056ea3ad6267981243b7fe08da689f5febff3ed0ce1cce49bb12db266b16"
 
 [[package.files]]
 path = "references/library/42_情绪与心理.md"
 mode = 420
-size = 35862
-sha256 = "e17cdd3babad6a20f54a92a80fb560193b7a6eed2c5d80e1d47f4c03d40e3b6c"
+size = 36323
+sha256 = "0dfbf74ed740b2bf9d8956d3491f5df279a59e010d5b73aabb34cc6635641f73"
 
 [[package.files]]
 path = "references/library/43_关系与情节.md"
@@ -368,14 +368,14 @@ sha256 = "023757c47538d2e5427d29b37b4841e4655119d3cc385c0de65a88a2e2bd6274"
 [[package.files]]
 path = "references/library/44_身体文化与欲望书写.md"
 mode = 420
-size = 6908
-sha256 = "4ad1d43c0fd9d2d8ca2789124b6cfa41fb0808db794859afb7cc40408e8958df"
+size = 6924
+sha256 = "34f257b440d78d56591bc24818a8538f0129f008ab1e5ceb6a5b4a6b601d431f"
 
 [[package.files]]
 path = "references/library/91_黑暗HD压迫场.md"
 mode = 420
-size = 4545
-sha256 = "c62486333b9f8bd37335a11e780f3cec27615179c345c6856677a66bf5e5d501"
+size = 4568
+sha256 = "9938e386adbe397cee85462991cbaf02d0cfb0100c952426d499f151506f6b73"
 
 [[package.files]]
 path = "references/library/92_黑暗HD类型谱系.md"
@@ -398,26 +398,26 @@ sha256 = "22b63bd44b2832a9e4db1fc2311e7ecd0a629f4c74f891661a0d288324a8dd56"
 [[package.files]]
 path = "references/library/95_黑暗HD动作与伤害.md"
 mode = 420
-size = 3904
-sha256 = "d3d0e94fed07287f50d0ddf5bfa5b98affd552f7533861e1aaf34580692d6d6d"
+size = 3886
+sha256 = "fe22bf445b9451a54de8c92cdcbcfda7e01f0a75fc3127d08a2b883f114fb171"
 
 [[package.files]]
 path = "references/library/_index.md"
 mode = 420
-size = 7846
-sha256 = "4eca4537445e24e8ad776510a6de60ece1630d51eab28b1b676bd04c7b2e1fc4"
+size = 7942
+sha256 = "0da765ed5163c6ad435aa8724449d323bd0ff73a4653a42df9c7248c44d0f561"
 
 [[package.files]]
 path = "references/library/scenarios/11_宿敌与征服.md"
 mode = 420
-size = 1750
-sha256 = "e67313a41644fca5a065a7962f4c01b07da03e693883398ba8aa5d2a42365f69"
+size = 1953
+sha256 = "007268c41862388ae0882684c1d0670460cc93c8caee41bee44343eccf948ddb"
 
 [[package.files]]
 path = "references/library/scenarios/12_契约与交易.md"
 mode = 420
-size = 2161
-sha256 = "c6180efcdffc32dd1ae0fde7f4bace93e84992e750fbe35ffdf0a544aa245a60"
+size = 2150
+sha256 = "3baa45673d0b7be2049f3a5f421d7aebea6967e6e1a078f0194f547d5647b075"
 
 [[package.files]]
 path = "references/library/scenarios/13_深度依恋.md"
@@ -428,8 +428,8 @@ sha256 = "86df80bb0aa9dc2f5f7e60489da903a7d7f294ce05b4fcaed42242344382b2f4"
 [[package.files]]
 path = "references/library/scenarios/14_多人博弈.md"
 mode = 420
-size = 1738
-sha256 = "b803180846a711adb8cccf7927a6bde039689839b0da4acaf3bc247270da5ec6"
+size = 1749
+sha256 = "57ac11c70766118cbb99caa151bf2df6b4f03803e83b29b71ef83a5891633466"
 
 [[package.files]]
 path = "references/library/scenarios/15_偷情禁区.md"
@@ -440,8 +440,8 @@ sha256 = "62cbd138f37ffea099257d1a73116fb06c82296bbf09b3642bc7f5bb9a5abf1c"
 [[package.files]]
 path = "references/library/scenarios/21_禁忌与位阶.md"
 mode = 420
-size = 1928
-sha256 = "16e9bc61ab534a3bcfc96cddda2cd5321744bb26fccb230d95775154d0c47c40"
+size = 2098
+sha256 = "a49ef3cff9a73445ce4fd9b72d016ea2d54efc3197181de035ded7259c6c74b6"
 
 [[package.files]]
 path = "references/library/scenarios/22_视觉剥夺与扮演.md"
@@ -452,8 +452,8 @@ sha256 = "1b419ea4c8b3446dc557b06c24acd5e06df4a3d3ab483a9b37c927782c520db1"
 [[package.files]]
 path = "references/library/scenarios/23_权力与调教.md"
 mode = 420
-size = 1733
-sha256 = "8ce38e622804ee33b7c8afb474f1d0e66f3fe78916da10b7e471d3d9ea1c84ac"
+size = 2142
+sha256 = "4c8ae24412884f04dddc336f52811abc8119b681a2cc178b7949c9c6d50ea5f5"
 
 [[package.files]]
 path = "references/library/scenarios/24_特殊癖好.md"
@@ -464,8 +464,8 @@ sha256 = "1651a3b343e8b4eec626a1b925c8265f4078aa120a8a8c5124fcac1398b8a301"
 [[package.files]]
 path = "references/library/scenarios/25_主奴关系.md"
 mode = 420
-size = 1720
-sha256 = "9b9b6d53150545c5ec8c6dc10b1d4f16f6a4566c4310d58a840fa3d4037cd3b1"
+size = 1724
+sha256 = "de53a3b57b40d5867890941920178b8c58b7eb2351ea11bdecbb6db61a4cdb02"
 
 [[package.files]]
 path = "references/library/scenarios/31_虚幻与意识.md"
@@ -476,8 +476,8 @@ sha256 = "386c4ed5299502b78abe5b83711c2045fa698109b9dd98f9e1d853ee0f6520b1"
 [[package.files]]
 path = "references/library/scenarios/32_极端环境与救赎.md"
 mode = 420
-size = 1775
-sha256 = "ee8fc746a5ff072af03230f069a987a1a6d10974f7a772d24ff344de12c44e52"
+size = 1778
+sha256 = "04e85138f573d0cb9fcf485ede47910a0d170a5b8458485177c10930ed137e4c"
 
 [[package.files]]
 path = "references/library/scenarios/33_自我亲密.md"
@@ -488,8 +488,8 @@ sha256 = "8abc468c031fc98718511dc2d0c01064d07eeeb71b3ca0f22000cba089240559"
 [[package.files]]
 path = "references/library/scenarios/_index.md"
 mode = 420
-size = 2499
-sha256 = "ea3b52975dcb77b29f7f521b6cec6d81c584b29ecdfc56155d7f115388efea4f"
+size = 2526
+sha256 = "5b47ca4243260b6b4c0b07a234ddb707b1be25d5e61ae6b317ff8ee100758bc5"
 
 [metadata]
 label = "亲密写作"
