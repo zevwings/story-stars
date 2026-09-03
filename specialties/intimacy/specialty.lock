@@ -18,7 +18,7 @@ required_paths = [
 
 [package]
 module_id = "intimacy"
-version = "1.0.4"
+version = "1.0.5"
 runtime_api = 1
 label = "亲密写作"
 keywords = [
@@ -37,7 +37,7 @@ rules = [
 state_categories = ["intimacy_static"]
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:8bf6de5f9a2de2d922ccf803bfb1bbec4379c7f223de957627d633dbc2919c8f"
+fingerprint = "sha256:dd41ec8f2599f17ba500b3dcb1853f9733a1d106215427442905639efe3fede3"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -56,8 +56,8 @@ required_paths = [
 [[package.files]]
 path = "_index.md"
 mode = 420
-size = 1645
-sha256 = "b871232a52b9f426dc5b63fd105506854a8789f8c77fcce44ec588470278932d"
+size = 2003
+sha256 = "a75eedabd5711003ddd67e554ec297ae6876e05f109d1448466e247c791eaa60"
 
 [[package.files]]
 path = "protocols/B场HD四维细则.md"
@@ -104,8 +104,8 @@ sha256 = "7595e23f5c04b9a61aeeac823673499548de5289cf889e4d87e07cd00d36882d"
 [[package.files]]
 path = "protocols/_index.md"
 mode = 420
-size = 3298
-sha256 = "c8181451c6e215833ee9366780432709475c142c6a41b61aa9afdeac0500691a"
+size = 3310
+sha256 = "f61efc4cdbb8872e8ae4854075b15d8b8bfbb8269ff3214fe6d0efaa40a74b4d"
 
 [[package.files]]
 path = "protocols/templates/intimacy.md"
@@ -200,8 +200,8 @@ sha256 = "6490170762a343b4c4cbea0b24d421c915aa8a859fabf129b722a6ee67227c43"
 [[package.files]]
 path = "references/_index.md"
 mode = 420
-size = 1927
-sha256 = "4a40e1a7cf6900ffbbfca5ec821abf2375d123f1e426e7fd29c6eb12c55ff1ca"
+size = 1969
+sha256 = "9cecc4d2179cafcedd51c7258492cb8c6a27eeebfde414a7755f641f0741c48b"
 
 [[package.files]]
 path = "references/library/11_女性身体_A.md"

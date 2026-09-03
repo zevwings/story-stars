@@ -13,7 +13,9 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 ## 所有权
 
 - `protocols/`、本 `_index.md`、`references/_index.md` 与 `references/library/` 由 package 管理。
-- `references/components/` 与 `references/catalog/` 由当前项目管理，只在出现真实内容时创建。
+- `references/catalog/` 由 scaffold 首次种下并交给当前项目管理；具体用途或单件类型目录只在出现真实 `CLO-*` 时创建。
+- `references/components/` 由当前项目管理，只在启用项目分类覆盖或形成真实组件内容时创建。
+- `references/supplements/` 由当前项目管理，只保存不属于 catalog 或 components 的补充参考。
 - 跨场景稳定审美与组合语法归人物 `衣装/_GRAMMAR.md`，具体衣装归同目录子档并由 `衣装/_index.md` 登记；单场衣装规格归对应 `CON-*`；正文事实归章节正文。
 - 正式 owner 必须自足；可以列出实际采用的 `CLO-*` 导航用于双向追溯，但不得只写编号或反向依赖本专项参考档案才能成立。
 
@@ -21,5 +23,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 - [协议索引](protocols/_index.md)
 - [参考层索引](references/_index.md)
+- `references/catalog/`：项目衣装参考库；fresh enable 时种下，旧安装按需创建
+- `references/supplements/`：项目补充参考；fresh enable 时种下，旧安装按需创建
 
 公开 Skill 分工：`clothes-decomposer` 负责外部素材到 catalog；`clothes-designer` 负责 catalog 到人物衣装 owner。

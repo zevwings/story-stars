@@ -15,7 +15,7 @@ required_paths = [
 
 [package]
 module_id = "clothes"
-version = "0.2.0"
+version = "0.2.1"
 runtime_api = 1
 label = "衣装拆解、设计与目录"
 keywords = [
@@ -35,7 +35,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:99244b444fc55471582f9bd418e7711d12e9432472691b80febbd6489fa8cb10"
+fingerprint = "sha256:69993b359c882ad8b5e661e8a5d3831d161a750418a7e4975e594e7b28cc4208"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -56,8 +56,8 @@ required_paths = [
 [[package.files]]
 path = "_index.md"
 mode = 420
-size = 1369
-sha256 = "3d62ec7e757b510cb295676d55e0631d2a09ba39330ddec213b7411138f5ef73"
+size = 1836
+sha256 = "03f0a279cc68ce3811de4a3e990a2064aea983c2d23e04892783c188deedfcf6"
 
 [[package.files]]
 path = "protocols/_index.md"
@@ -92,8 +92,8 @@ sha256 = "5235d61f2c6239bb6aa96fc8b497e88d1a1a691203eae405983ffe7dddbee294"
 [[package.files]]
 path = "references/_index.md"
 mode = 420
-size = 1230
-sha256 = "a8482fc9fb84cd1f5754238ad2e76ca71fd7e3116a8995353dfbfed68b16ae45"
+size = 1653
+sha256 = "f0f5dc016bee9f1727250cbc287f637e11c9f48c066b4474000bb22033946f83"
 
 [[package.files]]
 path = "references/library/_index.md"

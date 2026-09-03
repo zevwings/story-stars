@@ -47,14 +47,14 @@
 | --- | --- | --- | --- |
 | 晏林 | 保住两人的现实安全，理解自己的双重异常；不替景雪瑶选择 | 收束自身负荷、询问景雪瑶、配合普通排查、判断转介边界，最后自行接受后续评估 | `characters/major/晏林/主卡.md`；`characters/major/晏林/契约.md` |
 | 景雪瑶 | 核对自己的独立体验，获得明确而不过量的下一步 | 主动陈述、校正晏林的概括、向联络人追问风险与代价，最后自行接受后续评估 | `characters/major/景雪瑶/主卡.md`；`characters/major/景雪瑶/契约.md` |
-| 晴夜轮值协作者 | 先保证游客现实安全，再谨慎处理疑似异常 | 完成普通救援和风险排查；近距离观察后启动内部转介，不在公共现场揭密 | `worldbuilding/regions/江州/锦云山.md`；`worldbuilding/society/觉醒与登记.md` |
+| 晴夜轮值协作者 | 先保证游客现实安全，再谨慎处理疑似异常 | 完成普通救援和风险排查；近距离观察后启动内部转介，不在公共现场揭密 | `worldbuilding/regions/桷洲/锦云山.md`；`worldbuilding/society/觉醒与登记.md` |
 | 管理局联络人 | 在保密与当事人选择边界内建立后续评估入口 | 非公开说明最低必要事实、支持范围、登记代价与拒绝后果，让两人分别决定 | `worldbuilding/factions/星辰管理局.md`；`CON-0046` |
 
 ## 引用设定
 
 | 设定 / 机制 / 地点 | 本章调用方式 | 真源 |
 | --- | --- | --- |
-| 锦云山望江峰 | 普通公众可进入的观景平台；晴夜轮值承担公开救援和异常评估接口，不是结契增益点或管理局基地 | `worldbuilding/regions/江州/锦云山.md` |
+| 锦云山望江峰 | 普通公众可进入的观景平台；晴夜轮值承担公开救援和异常评估接口，不是结契增益点或管理局基地 | `worldbuilding/regions/桷洲/锦云山.md` |
 | 星辰回应与契约成立 | 黎明前仍可目视真实星空时，两人分别完成回应；晏林一次建立双子星两份契约 | `worldbuilding/systems/星辰契约.md`；两人契约卡 |
 | 契约自知 | 两人直接知道各自已经成形的操作路径和收束趋向，但不知道制度名称、等级和法律后果 | `worldbuilding/systems/契约自知.md` |
 | 有限发现与登记 | 公开救援先于私下转介；拒绝登记不自动构成犯罪，登记会带来真实信息代价 | `worldbuilding/society/觉醒与登记.md` |
@@ -177,7 +177,7 @@
 - `characters/major/晏林/关系/景雪瑶.md`
 - `characters/major/景雪瑶/主卡.md`
 - `characters/major/景雪瑶/契约.md`
-- `worldbuilding/regions/江州/锦云山.md`
+- `worldbuilding/regions/桷洲/锦云山.md`
 - `worldbuilding/systems/星辰契约.md`
 - `worldbuilding/systems/契约自知.md`
 - `worldbuilding/society/觉醒与登记.md`

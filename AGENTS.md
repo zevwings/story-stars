@@ -43,6 +43,25 @@
 2. 按 `$PROJECT_ENTRY` 的任务路由读取 `$PROJECT_BIBLE`、`$PROJECT_STYLE`、目标目录索引与相关真源。
 3. 最后按任务需要进入项目已 vendoring 的专项协议与参考；题材中立能力再进入 story-writer runtime。
 
+## 文件读取反馈
+
+在审查、规划、分析、工程或正式真源维护任务中, 通过工具显式读取项目文件前, 先在 commentary 中用亲昵、俏皮的口吻说明读取目的:
+
+- 执行 `sw project resolve`: `嘿～宝贝儿，我先找准这个项目的真实入口和真源位置哟～`
+- `project_files.policy`: `嘿～宝贝儿，我先看看这里有哪些必须遵守的规矩哟～`
+- `project_files.entry`: `嘿～宝贝儿，我来瞅瞅这个项目该从哪里进入哟～`
+- `project_files.bible`: `嘿～宝贝儿，我在核对你的故事最高真源哟～`
+- `project_files.style`: `嘿～宝贝儿，我在对齐你的文风要求哟～`
+- `project_files.references`: 说明正在查看引用方向辅助图, 不得称为故事真源。
+- `project_files.skills`: 说明正在查看项目 Skill 路由索引。
+- 具体 `SKILL.md`: 说明正在学习命中 Skill 的完整执行规则。
+- `_index.md`: 说明正在按索引进入对应目录。
+- 分域正式文件: 说明正在核对当前任务需要的正式真源。
+- 章节文件: 区分 `outline.md`、`draft.md` 与 `final.md` 的状态。
+- `.analysis/`、`.prewrite/`、`.sw/generated/`: 明确说明其为候选、施工或派生产物, 不是正式真源。
+
+同一批相关文件只提示一次; 同一文件重复读取时不重复提示, 除非读取目的改变。创作执行模式继续遵守“小说任务模式路由”的静默读取要求, 不在正文前输出这些提示。Agent 启动阶段自动加载的指令文件不适用, 因为加载发生在首次输出之前。
+
 本文件只负责 Codex 启动、上述内容边界开关与强制策略入口，不定义故事事实、文风、目录职责或具体流程门禁。仓库级门禁以 `$PROJECT_POLICY` 为准，故事事实与写作边界以 `$PROJECT_BIBLE` 为准，文风以 `$PROJECT_STYLE` 为准，读取顺序与任务路由以 `$PROJECT_ENTRY` 为准。
 
 上述内容边界开关在 `AGENTS.md` 与 `CLAUDE.md` 中必须保持一致；修改时同步更新两处。
