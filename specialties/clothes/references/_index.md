@@ -5,7 +5,9 @@
 ## 所有权
 
 - 本 `_index.md` 与 `library/` 由 clothes package 管理。
-- `components/` 与 `catalog/` 由当前项目管理，只在首次写入真实内容时创建。
+- `catalog/` 由 scaffold 首次种下并交给当前项目管理；具体分类目录只在首次写入真实 `CLO-*` 时创建。
+- `components/` 由当前项目管理，只在启用项目分类覆盖或形成真实组件内容时创建。
+- `supplements/` 由 scaffold 首次种下并交给当前项目管理，只保存不属于 catalog 或 components 的补充参考。
 - package 不预装项目组件、`CLO-*`、固定配色、人物偏好或通用女性服装百科。
 
 ## 项目目录
@@ -13,5 +15,6 @@
 - `components/`：受控术语、结构、检索标签与可选的项目分类覆盖；不为泛化词条分配 `CLO-*`。项目启用分类覆盖时，由 `components/_index.md` 指定唯一分类权威文件。
 - `catalog/sets/<primary-use>/`：至少两个物理独立核心分件形成的稳定套组；可以覆盖完整穿搭，也可以保留由人物适配补齐的必需层。
 - `catalog/pieces/<piece-type>/`：有独立复用价值的实际衣物或穿戴配饰。
+- `supplements/`：当前小说追加的衣装研究与观察材料；只作补充，不覆盖协议、library、components 或 catalog 实体。
 
 每个 `CLO-*` 只有一个实体位置。其它用途用字段记录，不建立副本。`set` 不等于人物完整造型；正式人物衣装可以链接实际采用的 `CLO-*` 用于双向追溯，但必须补齐穿着组合并保存本次采用的自足规格，不依赖本目录才能成立；Construction 同样不得把 catalog 当作事实替身。

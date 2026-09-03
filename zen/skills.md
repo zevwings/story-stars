@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=dff9541fc2d4a6a6a65c1023e0017760e8e5e85413c093bc8538db260d359708 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=19c723845d48801a5aa9ad541d38e4291329550d2f3f78404473001b7366056a -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -202,6 +202,26 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 模式：`project-write`
 - 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
+
+### `$media-extract-review`
+
+通过受管 `sm extract review` 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 media-extractor，正式衣装收录使用 clothes-decomposer。
+
+- 调用格式：`$media-extract-review <任务目标>`
+- 典型触发语：`筛选归类`, `识别去重`, `合并候选`, `拆分候选`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`, `analysis`
+
+### `$media-extractor`
+
+调度 `sm extract` 从本地图片、视频或目录提取可审核的人物与衣装候选，跟踪明确输入的命令级收敛并处理一次有界重跑；提取成功后的持久结果不依赖 `.sw/media` 输入暂存文件。触发词: 提取媒体、提取图片、提取视频。已有候选的筛选归类、识别去重、合并或拆分使用 media-extract-review。
+
+- 调用格式：`$media-extractor <任务目标>`
+- 典型触发语：`提取媒体`, `提取图片`, `提取视频`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`
 
 ### `$merge-pull-request`
 

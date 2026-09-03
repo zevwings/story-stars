@@ -1,12 +1,16 @@
 # story/construction/ 是施工真源；.prewrite/ 与 .analysis/ 用于派生材料和待确认事项，默认不忽略。
 
 # Agents
-/.claude/
 /.agents/
+/.claude/
 /.codex/
+/.gemini/
 /.grok/
 /.qwen/
-
+/.mcp.json
+/opencode.json
+/.codebuddy/
+/.workbuddy-ai/
 # Python local caches
 __pycache__/
 *.pyc
