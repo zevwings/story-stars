@@ -1,0 +1,97 @@
+schema_version = 1
+fingerprint_algorithm = "sha256-v1"
+library_fingerprint = "sha256:84d772311fd09cb0cf51b97f8aacc3fbf40b34b2384b15983538b274ede9af97"
+managed_roots = ["chapters/library", "prewrite/library", "characters/library", "context/library", "clues/library", "story/library", "worldbuilding/library"]
+
+[[files]]
+id = "chapters.draft"
+path = "chapters/library/draft.md"
+sha256 = "53f881ee8aab4da8a605adc9a8bed88c0c2688083cecf29769d4577098d0f22f"
+[[files]]
+id = "chapters.outline"
+path = "chapters/library/outline.md"
+sha256 = "eed29ed4341eabef040111f5fd00e1d09b269ce29539f317b996a79905f45dba"
+[[files]]
+id = "chapters.revision"
+path = "chapters/library/revision.md"
+sha256 = "86a4dc40d22f4e9658eac0dc998ce1d9ea1c079f519326222a170a7d642d5b46"
+[[files]]
+id = "chapters.summary"
+path = "chapters/library/summary.md"
+sha256 = "c45d47b6dc22216f73dfce8ee0af25111a99557ecf20d26dcd0827d31d8393e3"
+[[files]]
+id = "characters.profile"
+path = "characters/library/主卡.md"
+sha256 = "96a88e6ade0b7313995d33f5afe5aa7c79bd3ab961ca705cc8a1c9acc7a71642"
+[[files]]
+id = "characters.relationship-index"
+path = "characters/library/关系/_index.md"
+sha256 = "92ea6e485f636cb9c4ffe3b6be48f262aa57dc860cf06d098d8c9ccb3eb5ba08"
+[[files]]
+id = "characters.relationship"
+path = "characters/library/关系/_template.md"
+sha256 = "9e89fcf6ae926860aae22098082cbef3434b83adb2a1caed1dcf792e896ffb2d"
+[[files]]
+id = "characters.appearance"
+path = "characters/library/形象.md"
+sha256 = "376067dd2b6497c9a4f80d0c3b85e29a2756260723729e4128f37696fdfec231"
+[[files]]
+id = "characters.outfit-grammar"
+path = "characters/library/衣装/_GRAMMAR.md"
+sha256 = "31cd38d52efce9461b2bf1bfd9490b85fcc33cfe30af357ff34edaad3ac08ca0"
+[[files]]
+id = "characters.outfit-index"
+path = "characters/library/衣装/_index.md"
+sha256 = "8eeeeafe12180dfe1a3785f9ffa56e967ffe5b7fc6b117935b94d0b897f8693c"
+[[files]]
+id = "characters.outfit"
+path = "characters/library/衣装/具体衣装.md"
+sha256 = "1fcba24e0d2780ad1e8a5b6481e2fb0a3f9d3e481378b7e878e0047c9b3b8afe"
+[[files]]
+id = "clues.lifecycle"
+path = "clues/library/clue.md"
+sha256 = "7f8e73b69032893302fa0de3ebdf226be7088a0e6290f9383067e7df397f22ca"
+[[files]]
+id = "context.character"
+path = "context/library/character.md"
+sha256 = "427a9d82852377af80d527da461b07e773bc8763e73c11ee53e591b7cb5ef865"
+[[files]]
+id = "context.segment-summary"
+path = "context/library/segment-summary.md"
+sha256 = "46b65bebf4e1e6407fd23c13572ee28459ef324153bf0826f9fa9c996bae4082"
+[[files]]
+id = "prewrite.beat-sheet"
+path = "prewrite/library/beat-sheet.md"
+sha256 = "e08813bd7708d3d59514402c794bc8a0ed16f27bdfb19e5097280e291a232a4e"
+[[files]]
+id = "prewrite.continuity"
+path = "prewrite/library/continuity.md"
+sha256 = "782cc6b15698c24e1a9034febfc18d0bb750f0190358108c4f2867638d6a790d"
+[[files]]
+id = "prewrite.dialogue-design"
+path = "prewrite/library/dialogue-design.md"
+sha256 = "e69867808b1ee061bc20154718e58b214f5e05412bc9f3146f796b595190cc20"
+[[files]]
+id = "prewrite.expanded-outline"
+path = "prewrite/library/expanded-outline.md"
+sha256 = "59ce17191eca24b72dc29cad5c055b3e9fef6cd829f5caffacdc1d5697ff3af6"
+[[files]]
+id = "prewrite.risks"
+path = "prewrite/library/risks.md"
+sha256 = "f4d187a84473df11b6bd94285601f04581ac04f2295f8774e01e78b58c219a17"
+[[files]]
+id = "story.genre"
+path = "story/library/genre.md"
+sha256 = "e9e19adcd36393b81d81c90cccf927db2d6a99c36454994184387812236566df"
+[[files]]
+id = "worldbuilding.category-index"
+path = "worldbuilding/library/category-index.md"
+sha256 = "b496c4f236e93921033426a02d0d8a1ffbd8c7946cb40c7a0217572a6ba21b3c"
+[[files]]
+id = "worldbuilding.entry"
+path = "worldbuilding/library/entry.md"
+sha256 = "b6dc3b262608121ca86e75804171faab8968e64eb64ca5c54c4694a764a5a9da"
+[[files]]
+id = "worldbuilding.system"
+path = "worldbuilding/library/system.md"
+sha256 = "99dead652bf42e230e949548068ddbe8b06d72bae36934d782a587c9380e7b6d"

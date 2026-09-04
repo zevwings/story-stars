@@ -1,0 +1,9 @@
+schema_version = 1
+
+[[source_schemas]]
+name = "project.character.contract"
+version = 1
+contract = "characters/contract.toml"
+validator = "markdown-structure@1"
+projection = "validation_only"
+domains = ["characters"]

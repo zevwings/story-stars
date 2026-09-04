@@ -4,14 +4,14 @@
 
 ## 目录边界
 
-- `_template/` 是项目内的公共施工模板，不是某章产物；项目可以调整措辞或增加项目字段，但不得删除下游消费者依赖的必需栏目。
+- 公共施工模板由 `zen/templates/prewrite/_index.md` 路由；library 受 lock 管理，项目定制写入 supplements 并显式登记 override。
 - `chXXX/` 是目标章施工件；章号必须与正式章节索引登记一致。
-- `chXXX/context/` 由 `sw rag context` 生成，不在 `_template/` 中维护静态副本。
-- 清理临时施工件时只处理明确的 `chXXX/`，不删除本 README 或 `_template/`。
+- `chXXX/context/` 由 `sw rag context` 生成，不在模板库中维护静态副本。
+- 清理临时施工件时只处理明确的 `chXXX/`，不删除本 README 或 `zen/templates/prewrite/`。
 
 ## 使用边界
 
-- `chapter-prewrite` 按本轮任务和现有材料的实际缺口选择产物，再读取 `_template/` 中对应文件；基础模式也不默认生成整套文件。没有新增施工价值且作者未指定产物时，不创建章节目录。
+- `chapter-prewrite` 按本轮任务和现有材料的实际缺口选择产物，再通过 `prewrite.chapter` bundle 读取对应文件；基础模式也不默认生成整套文件。没有新增施工价值且作者未指定产物时，不创建章节目录。
 - 目标模板缺失时停止对应产物，不回退到分发仓或旧 MCP 模板 URI。
 - 模板只定义结构；何时生成、必选与可选条件、事实边界、失效判定和回退均由 `chapter-prewrite` 负责。
 - 专项施工件仍由已启用的 Specialty 协议定义，不把 `intimacy.md` 或 `sociology.md` 的专项语义写入公共模板。

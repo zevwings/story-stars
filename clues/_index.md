@@ -14,9 +14,7 @@
 - [暗示线索](hinted/_index.md): 已被暗示、触碰或局部显影的线索。
 - [已揭示线索](revealed/_index.md): 已揭示核心事实的线索。
 - [已收束线索](resolved/_index.md): 已完成回收或阶段闭环的线索。
-- [_template.md](_template.md): 单条线索登记模板。
-
-新建线索时，复制 `_template.md` 到对应状态目录，填写当前依据、读者所知、角色所知、不能提前说破的内容和状态流转记录。
+新建线索时，用 `sw template resolve --id clues.lifecycle --root "$STORY_PROJECT_ROOT"` 解析有效模板并写入对应状态目录，填写当前依据、读者所知、角色所知、不能提前说破的内容和状态流转记录。
 
 ## 读取规则
 
