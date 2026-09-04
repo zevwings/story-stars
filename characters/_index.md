@@ -7,7 +7,7 @@
 - [主要人物](major/_index.md)
 - [次要人物](minor/_index.md)
 - [预备人物](preentry/_index.md)
-- [人物模板](_template/_index.md)（新建人物先建主卡；形象、衣装与角色专属契约档案按调用需要创建）
+- 新建人物时，用 `sw template resolve --bundle characters.create --root "$STORY_PROJECT_ROOT"` 一次解析可用模板；`characters.profile` 必选，形象、衣装与本项目契约档案按需采用。
 - 新建人物或改名时，先核对三个分层索引及相关人物主卡；正式姓名、艺名、公开身份名与稳定常用名写入人物主卡，依赖说话者或关系语境的称呼不作为人物实体别名，统一写入对应 `关系/<对象>.md` 的有向称呼表。
 - 人物互称不设中央矩阵：按角色进入 `关系/<对象>.md`，在“称呼”表中按“说话者 → 对象”读取。关系档采用 owner-centric 单档，反向查找可运行 `sw rag characters address --speaker <角色>` 或 `--target <角色>`；亲密戏再按关系档指针读取 `../specialties/intimacy/characters/`。
 

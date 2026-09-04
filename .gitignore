@@ -37,6 +37,7 @@ __pycache__/
 /.sw/
 tmp/
 temp/
+scratch/
 
 # Logs and other runtime files
 /logs/

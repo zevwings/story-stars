@@ -1,3 +1,17 @@
 # 写前施工层
 
-本目录存放写前 brief、上下文筛选和临时施工材料。这里不是正式正典，不替代章节大纲、人物动态、线索状态或世界观真源。
+本目录存放写前上下文筛选和临时施工材料。这里不是正式正典，不替代章节大纲、人物动态、线索状态或世界观真源。
+
+## 目录边界
+
+- 公共施工模板由 `zen/templates/prewrite/_index.md` 路由；library 受 lock 管理，项目定制写入 supplements 并显式登记 override。
+- `chXXX/` 是目标章施工件；章号必须与正式章节索引登记一致。
+- `chXXX/context/` 由 `sw rag context` 生成，不在模板库中维护静态副本。
+- 清理临时施工件时只处理明确的 `chXXX/`，不删除本 README 或 `zen/templates/prewrite/`。
+
+## 使用边界
+
+- `chapter-prewrite` 按本轮任务和现有材料的实际缺口选择产物，再通过 `prewrite.chapter` bundle 读取对应文件；基础模式也不默认生成整套文件。没有新增施工价值且作者未指定产物时，不创建章节目录。
+- 目标模板缺失时停止对应产物，不回退到分发仓或旧 MCP 模板 URI。
+- 模板只定义结构；何时生成、必选与可选条件、事实边界、失效判定和回退均由 `chapter-prewrite` 负责。
+- 专项施工件仍由已启用的 Specialty 协议定义，不把 `intimacy.md` 或 `sociology.md` 的专项语义写入公共模板。
