@@ -1,0 +1,18 @@
+schema_version = 2
+
+[[source_schemas]]
+name = "exclusive.character.profile-stars"
+version = 1
+contract = "exclusive/characters/profile-stars.toml"
+validator = "markdown-structure@2"
+projection = "validation_only"
+domains = ["characters"]
+
+[[source_schemas]]
+name = "exclusive.character.contract"
+version = 1
+contract = "exclusive/characters/contract.toml"
+validator = "markdown-structure@2"
+projection = "validation_only"
+domains = ["characters"]
+sources = ["characters/*/*/契约.md"]

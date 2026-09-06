@@ -16,7 +16,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 - `references/catalog/` 由 scaffold 首次种下并交给当前项目管理；具体用途或单件类型目录只在出现真实 `CLO-*` 时创建。
 - `references/components/` 由当前项目管理，只在启用项目分类覆盖或形成真实组件内容时创建。
 - `references/supplements/` 由当前项目管理，只保存不属于 catalog 或 components 的补充参考。
-- 跨场景稳定审美与组合语法归人物 `衣装/_GRAMMAR.md`，具体衣装归同目录子档并由 `衣装/_index.md` 登记；单场衣装规格归对应 `CON-*`；正文事实归章节正文。
+- 跨场景稳定审美与组合语法归人物 `衣装/衣装语法.md`，具体衣装归同目录子档并由 `衣装/_index.md` 登记；单场衣装规格归对应 `CON-*`；正文事实归章节正文。
 - 正式 owner 必须自足；可以列出实际采用的 `CLO-*` 导航用于双向追溯，但不得只写编号或反向依赖本专项参考档案才能成立。
 
 ## 入口

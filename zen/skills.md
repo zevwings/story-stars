@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=19c723845d48801a5aa9ad541d38e4291329550d2f3f78404473001b7366056a -->
+<!-- story-writer-managed: skills-guide/v1 sha256=fac140442ac09e90235d7101981dd4d78ef638090cbc59aaf905631957c31ba8 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -7,7 +7,7 @@
 
 - 可以直接描述任务，由 Agent 根据 Skill 的 `description` 和项目规则选择入口。
 - 需要固定入口时，使用显式调用：`$skill-name <目标或参数>`。
-- 先阅读每张 Skill 卡的触发语、模式、条件依赖和写入范围；实际停止条件以 runtime 中对应 `SKILL.md` 为准。
+- 先按任务路由选择入口；需要核对触发语、条件依赖和写入范围时再展开完整清单。执行前读取 runtime 中对应 `SKILL.md`，以其为准。
 - `Feature / Specialty` 是条件依赖，不代表每次调用都会读取或启用对应能力。
 - 本页是安装快照。当 runtime 更新后，使用 `sw setup sync` 安全刷新。
 
@@ -16,24 +16,36 @@
 ```text
 $story-planner 规划后续 3-5 章
 $outline-generator 生成第12章大纲
-$chapter-prewrite 预展开第12章
 $chapter-writer 写第12章
 $chapter-reviewer 完整审读第12章
 $chapter-finalizer 定稿第12章
 ```
 
+`chapter-prewrite` 是可选步骤：需要补充写前材料时调用 `$chapter-prewrite 预展开第12章`，只生成有实际缺口或作者明确指定的产物。上述流程不要求从头重跑，也不自动定稿。
+
 待合入内容审查使用 `$story-review staged`；已实现故事和群像健康审计使用 `$story-auditor comprehensive`；提交前工程检查使用 `$precommit-checker 提交前检查`。三者不能互相替代。
 
-其他常用示例：
+## 任务路由
 
-```text
-$plotline-visualizer 生成阶段总览图
-$session resume <record-id>
-$character-builder 新增角色李青
-$world-builder 检查能力体系冲突
-$create-pull-request 创建 PR
-$merge-pull-request #123
-```
+| 任务 | 入口 |
+| --- | --- |
+| 未来阶段规划 / 具体章纲 | `$story-planner` / `$outline-generator` |
+| 写前展开 / 对话、社会关系或 A 场设计 | `$chapter-prewrite` 对应模式 |
+| 写正文 / 局部修订 / 整章重写 | `$chapter-writer` draft / revise / rewrite |
+| 读者读感 / 编辑审稿 / 一致性 | `$chapter-reviewer` reader / editor / consistency |
+| 定稿 / 补录摘要 | `$chapter-finalizer`，须明确要求 |
+| 人物 / 世界观 / 线索 / 剧情节点 | `$character-builder` / `$world-builder` / `$clue-manager` / `$plotline-manager` |
+| 剧情线预览 | `$plotline-visualizer` |
+| 媒体提取 / 候选裁决 / 衣装收录 / 人物采用 | `$media-extractor` / `$media-extract-review` / `$clothes-decomposer` / `$clothes-designer` |
+| 已实现故事与群像审计 / 内容变更审查 / 提交前检查 | `$story-auditor` / `$story-review` / `$precommit-checker` |
+| 创作决策拷问 / 多 Agent 编排 / 处理施工 Gate | `$grilling` / `$story-orchestration` / `$construction-gate-manager`，按各自触发条件进入 |
+| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$session` checkpoint / handoff / resume / manager |
+| 创建 PR / 合并 PR | `$create-pull-request` / `$merge-pull-request`，分别明确授权 |
+| 正向 HD 设计 / 正文 | `$intimacy-hd-planner` / `$intimacy-hd-writer`，仅手动触发 |
+| 黑暗 HD 设计 / 正文 | `$intimacy-hd-dark-planner` / `$intimacy-hd-dark-writer`，仅手动触发 |
+
+<details>
+<summary>完整 Skill 清单、触发语、依赖与写入范围</summary>
 
 ## 字段说明
 
@@ -335,6 +347,8 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 写入范围：`bible`, `worldbuilding`
 
 <!-- END GENERATED: project-skill-guide -->
+
+</details>
 
 ## 安装与刷新
 
