@@ -1,0 +1,12 @@
+contract_version = 2
+allow_unknown_sections = true
+
+[[sections]]
+heading_path = ["星辰契约摘要"]
+required = true
+non_empty = true
+
+[[sections]]
+heading_path = ["能力边界"]
+required = true
+non_empty = true

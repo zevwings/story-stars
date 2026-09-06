@@ -20,6 +20,6 @@
 
 `references/supplements/` 由当前项目管理，只追加项目参考，不覆盖 `protocols/` 或 `references/library/`。旧安装升级时不自动补种 scaffold；目录缺失且首次确有补充参考时，由项目创建 `_index.md` 后再写入。
 
-`mechanisms/` 只存放专项内部长期复用机制; 全书题材口径仍归 `story/genres/`, 正式世界观仍归 `worldbuilding/` 与 `bible.md`。
+`mechanisms/` 只存放专项内部长期复用机制; 全书题材口径仍归 `story/genres/`, 正式世界观仍归 `worldbuilding/` 与 `$PROJECT_BIBLE`。
 
 `mechanisms/` 是规范层, 有事实约束力; `references/` 是参考层, 只提供词条与写法素材, 不构成事实, 冲突时以 `mechanisms/` 为准。
