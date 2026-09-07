@@ -17,10 +17,6 @@ static_cards = ["主卡.md", "形象.md", "衣装/衣装语法.md", "契约.md"]
 path = "context/characters"
 type = "character_dynamic"
 
-[[context.roots]]
-path = "context/artifacts"
-type = "artifact_dynamic"
-
 [timeline.entity_names]
 state = []
 
