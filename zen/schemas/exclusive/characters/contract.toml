@@ -1,0 +1,7 @@
+contract_version = 2
+allow_unknown_sections = true
+
+[[sections]]
+heading_path = ["一页速览"]
+required = true
+non_empty = true

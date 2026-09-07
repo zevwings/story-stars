@@ -13,6 +13,7 @@ sw specialty resolve sociology --root "$STORY_PROJECT_ROOT"
 ## 所有权
 
 - `protocols/`、本 `_index.md`、`references/_index.md` 与 `references/library/` 由 package 管理。
+- `references/supplements/` 由 scaffold 首次种下并交给当前项目管理，只保存社会学补充参考。
 - 稳定人物关系、中间人网络与称谓事实归人物关系卡；组织程序、资源边界与制度事实归对应世界观真源；题材级社会口径归 `story/genres/`；场景发生及其余波归剧情、章节与动态状态真源。
 - 本专项不建立平行的 `characters/`、`chapters/`、`context/` 或 `mechanisms/`；设计卡属于具体章节施工时，写入该章节既有的 outline / prewrite / Construction 载体。
 - 正式 owner 必须自足，不得只引用本专项协议或参考来代替项目事实。
@@ -21,6 +22,7 @@ sw specialty resolve sociology --root "$STORY_PROJECT_ROOT"
 
 - [协议索引](protocols/_index.md)
 - [参考层索引](references/_index.md)
+- `references/supplements/`：项目补充参考；fresh enable 时种下，旧安装按需创建
 
 ## 当前覆盖面
 
@@ -30,4 +32,4 @@ sw specialty resolve sociology --root "$STORY_PROJECT_ROOT"
 - `stratification`：身份、资源、公开程度与权力差异。
 - `guanxi`：人情、面子、办事链与关系余波。
 
-这些名称是检索维度，不是必须复制到写作仓库的空目录。新增材料达到独立导航规模前，继续通过 `protocols/` 与 `references/library/` 的索引组织。
+这些名称是检索维度，不是必须复制到写作仓库的空目录。package 通用材料继续通过 `protocols/` 与 `references/library/` 的索引组织；当前小说追加的参考统一进入 `references/supplements/`，但不得建立平行事实库。

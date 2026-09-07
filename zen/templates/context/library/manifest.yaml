@@ -1,0 +1,17 @@
+schema_version: 1
+domain: context
+templates:
+  - id: context.character
+    summary: 建立人物动态状态
+    target: context/characters/{character}
+    output_schema: character.context@1
+    primary:
+      path: library/character.md
+    supplements: []
+  - id: context.segment-summary
+    summary: 建立连续章节分段摘要
+    target: context/summaries/{range}
+    primary:
+      path: library/segment-summary.md
+    supplements: []
+bundles: []

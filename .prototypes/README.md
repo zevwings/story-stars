@@ -30,4 +30,6 @@
 - `regions/`：地区、地貌、建筑、交通与环境原型，以及架空化改造边界。
 - `cache/`：临时下载的检索图片，不提交版本库。
 
+人物与地区原型档及其索引的项目专属模板由 `zen/templates/prototypes/exclusive/manifest.yaml` 登记，通过 `sw template` 解析和渲染；`.prototypes/` 只保存实际原型资料，不再保留 `_template.md` 副本。
+
 新增原型大类时必须已经存在真实内容，不为预想用途创建空的大类。已建立原型库内部可按其 `README.md` 预建稳定类型目录；服装库的固定类型以 `clothes/_index.md` 为准。

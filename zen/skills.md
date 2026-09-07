@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=e4c7e769b2ef66be8a0c04b9933c090cfb54291ba843e99c8a543c0111bfe787 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=fac140442ac09e90235d7101981dd4d78ef638090cbc59aaf905631957c31ba8 -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -7,7 +7,7 @@
 
 - 可以直接描述任务，由 Agent 根据 Skill 的 `description` 和项目规则选择入口。
 - 需要固定入口时，使用显式调用：`$skill-name <目标或参数>`。
-- 先阅读每张 Skill 卡的触发语、模式、条件依赖和写入范围；实际停止条件以 runtime 中对应 `SKILL.md` 为准。
+- 先按任务路由选择入口；需要核对触发语、条件依赖和写入范围时再展开完整清单。执行前读取 runtime 中对应 `SKILL.md`，以其为准。
 - `Feature / Specialty` 是条件依赖，不代表每次调用都会读取或启用对应能力。
 - 本页是安装快照。当 runtime 更新后，使用 `sw setup sync` 安全刷新。
 
@@ -16,23 +16,36 @@
 ```text
 $story-planner 规划后续 3-5 章
 $outline-generator 生成第12章大纲
-$chapter-prewrite 预展开第12章
 $chapter-writer 写第12章
 $chapter-reviewer 完整审读第12章
 $chapter-finalizer 定稿第12章
 ```
 
+`chapter-prewrite` 是可选步骤：需要补充写前材料时调用 `$chapter-prewrite 预展开第12章`，只生成有实际缺口或作者明确指定的产物。上述流程不要求从头重跑，也不自动定稿。
+
 待合入内容审查使用 `$story-review staged`；已实现故事和群像健康审计使用 `$story-auditor comprehensive`；提交前工程检查使用 `$precommit-checker 提交前检查`。三者不能互相替代。
 
-其他常用示例：
+## 任务路由
 
-```text
-$plotline-visualizer 生成阶段总览图
-$session-resume <record-id>
-$character-builder 新增角色李青
-$world-builder 检查能力体系冲突
-$create-pull-request 创建 PR
-```
+| 任务 | 入口 |
+| --- | --- |
+| 未来阶段规划 / 具体章纲 | `$story-planner` / `$outline-generator` |
+| 写前展开 / 对话、社会关系或 A 场设计 | `$chapter-prewrite` 对应模式 |
+| 写正文 / 局部修订 / 整章重写 | `$chapter-writer` draft / revise / rewrite |
+| 读者读感 / 编辑审稿 / 一致性 | `$chapter-reviewer` reader / editor / consistency |
+| 定稿 / 补录摘要 | `$chapter-finalizer`，须明确要求 |
+| 人物 / 世界观 / 线索 / 剧情节点 | `$character-builder` / `$world-builder` / `$clue-manager` / `$plotline-manager` |
+| 剧情线预览 | `$plotline-visualizer` |
+| 媒体提取 / 候选裁决 / 衣装收录 / 人物采用 | `$media-extractor` / `$media-extract-review` / `$clothes-decomposer` / `$clothes-designer` |
+| 已实现故事与群像审计 / 内容变更审查 / 提交前检查 | `$story-auditor` / `$story-review` / `$precommit-checker` |
+| 创作决策拷问 / 多 Agent 编排 / 处理施工 Gate | `$grilling` / `$story-orchestration` / `$construction-gate-manager`，按各自触发条件进入 |
+| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$session` checkpoint / handoff / resume / manager |
+| 创建 PR / 合并 PR | `$create-pull-request` / `$merge-pull-request`，分别明确授权 |
+| 正向 HD 设计 / 正文 | `$intimacy-hd-planner` / `$intimacy-hd-writer`，仅手动触发 |
+| 黑暗 HD 设计 / 正文 | `$intimacy-hd-dark-planner` / `$intimacy-hd-dark-writer`，仅手动触发 |
+
+<details>
+<summary>完整 Skill 清单、触发语、依赖与写入范围</summary>
 
 ## 字段说明
 
@@ -50,7 +63,7 @@ $create-pull-request 创建 PR
 <!-- BEGIN GENERATED: project-skill-guide -->
 ## 全部公开 Skills
 
-> 本节由 `sw skills generate` 从已发布 Skill contract 生成；请勿手工编辑。
+> 本节由 `sw repository skills generate` 从已发布 Skill contract 生成；请勿手工编辑。
 
 ### `$chapter-finalizer`
 
@@ -102,15 +115,25 @@ $create-pull-request 创建 PR
 - 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
 
+### `$clothes-decomposer`
+
+从外部图片、视频、截图组或文档拆解衣装，并按证据边界收录或更新项目 clothes catalog。触发词: 拆解服装、从视频拆衣装、从图片拆衣装、从文档拆衣装、根据 CLO 文档拆解、收录服装参考、更新 CLO、衣装目录查重。人物衣装组合与正式转写使用 clothes-designer。
+
+- 调用格式：`$clothes-decomposer <任务目标>`
+- 典型触发语：`拆解服装`
+- 模式：`project-write`
+- 条件依赖：`specialty:clothes`
+- 写入范围：`specialty`
+
 ### `$clothes-designer`
 
-衣装分析、完整造型与单件搭配设计、私密或情趣衣装张力、项目服装参考收录、撞型检查和定向转写。触发词: 分析衣服、分析衣装、设计衣装、服装搭配、怎样搭配、情趣服装、私密衣装、收录为服装参考、衣装目录、CLO、角色固定衣装、场景衣装。
+从项目 clothes catalog 选择 `set`／`piece`、补齐穿着组合并适配人物衣装，在作者确认后自足写入角色衣装目录。触发词: 设计衣装、为角色搭配、组合 CLO、角色固定衣装、写入角色衣装、人物衣装。外部图片、视频或文档拆解与 catalog 收录使用 clothes-decomposer。
 
 - 调用格式：`$clothes-designer <任务目标>`
 - 典型触发语：`设计衣装`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `specialty:clothes`
-- 写入范围：`analysis`, `characters`, `construction`, `specialty`
+- 条件依赖：`specialty:clothes`
+- 写入范围：`characters`, `specialty`
 
 ### `$clue-manager`
 
@@ -192,6 +215,36 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
+### `$media-extract-review`
+
+通过受管 `sm extract review` 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 media-extractor，正式衣装收录使用 clothes-decomposer。
+
+- 调用格式：`$media-extract-review <任务目标>`
+- 典型触发语：`筛选归类`, `识别去重`, `合并候选`, `拆分候选`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`, `analysis`
+
+### `$media-extractor`
+
+调度 `sm extract` 从本地图片、视频或目录提取可审核的人物与衣装候选，跟踪明确输入的命令级收敛并处理一次有界重跑；提取成功后的持久结果不依赖 `.sw/media` 输入暂存文件。触发词: 提取媒体、提取图片、提取视频。已有候选的筛选归类、识别去重、合并或拆分使用 media-extract-review。
+
+- 调用格式：`$media-extractor <任务目标>`
+- 典型触发语：`提取媒体`, `提取图片`, `提取视频`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`
+
+### `$merge-pull-request`
+
+为已接入 story-writer 的正式写作项目安全合并 GitHub Pull Request：用户显式调用并提供 PR 号或 URL 后， 将多 commit PR 在临时 worktree 中收束为单 commit，使用精确 force-with-lease 推送，重新验证新 head 的 checks 与 reviews， 再以 head OID 原子匹配执行 squash merge，切换并快进本地 PR base，精确清理远程与本地 PR 分支。触发语：合并 Pull Request、 合并 PR。不用于 story-writer 工具仓、fork PR、内容 review 或修复。
+
+- 调用格式：`$merge-pull-request <任务目标>`
+- 典型触发语：`合并 Pull Request`, `合并 PR`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`git`
+
 ### `$outline-generator`
 
 总大纲/分章大纲生成、卡文情节建议、回路规划。触发词: 生成大纲、重做大纲、卡文、给情节思路、规划回路、设计办事链、人情世故链、关系动员路径。
@@ -204,7 +257,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$plotline-manager`
 
-正式剧情线与剧情节点管理。用于创建、修改、拆分、合并、移动、取消、替代或查询项目已登记的线路；同步 story/plotlines 索引与状态引用，不写正文、不把未确认方案写成正式节点。触发词: 创建剧情线、修改剧情线、增加剧情节点、拆分剧情线、合并剧情线、取消剧情线、替代剧情线、主线、副线、plotline。
+正式剧情线与剧情节点管理。用于创建、修改、拆分、合并、移动、取消、替代或查询项目已登记的线路；同步剧情线索引与状态引用，不写正文、不把未确认方案写成正式节点。触发词: 创建剧情线、修改剧情线、增加剧情节点、拆分剧情线、合并剧情线、取消剧情线、替代剧情线、主线、副线、plotline。
 
 - 调用格式：`$plotline-manager <任务目标>`
 - 典型触发语：`创建剧情线`
@@ -232,45 +285,16 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`feature:construction`, `feature:plotlines`
 - 写入范围：`rag`
 
-### `$session-checkpoint`
+### `$session`
 
-保存仍在进行中的小说任务断点。核验当前目标、目标文件、最近完成证据、工作区状态和下一步，通过 sw session 在项目内生成不提交、紧凑且可过期的 checkpoint。触发词: session checkpoint、小说任务断点、保存当前写作进度、暂停一下稍后继续、上下文快满了。不得用于跨任务完整交接、章节摘要、定稿或正式上下文维护。
+小说任务续接统一入口。使用 session checkpoint 保存短期断点，session handoff 创建跨会话交接，session resume 恢复未完成任务，扫描 sessions 或使用 session manager 审计、软删除、恢复和永久清理续接记录。普通正文续写应使用 chapter-writer。
 
-- 调用格式：`$session-checkpoint <任务目标>`
-- 典型触发语：`session checkpoint`
-- 模式：`project-write`
+- 调用格式：`$session <checkpoint|handoff|resume|manager> <任务目标>`
+- 典型触发语：`session checkpoint`, `session handoff`, `session resume`, `扫描 sessions`
+- 模式：`routed`
+- 子操作：`checkpoint:project-write/sessions`, `handoff:project-write/sessions`, `resume:delegated-write/delegated`, `manager:project-write/sessions`
 - 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-handoff`
-
-小说任务跨会话、跨任务或跨 Agent 交接。核验项目真源、目标文件、Git 工作区、已完成证据、未决决策和唯一下一步，通过 sw session 在项目内生成不提交的可恢复 handoff 记录。触发词: session handoff、小说任务交接、交接当前故事工作、把进度交给下个会话、换会话继续。不得用于普通章节摘要、定稿或仅需短暂停顿的 checkpoint。
-
-- 调用格式：`$session-handoff <任务目标>`
-- 典型触发语：`session handoff`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-manager`
-
-扫描、判断、选择、软删除、恢复或永久清理小说任务续接记录。读取 `.sw/sessions/` 中的 handoff/checkpoint，核验当前真源、目标文件、Git 与验证证据，区分 active、blocked、complete-candidate、complete-verified、conflicted 和 unverifiable。触发词: 扫描 sessions、检查会话完成状态、列出已完成的 sessions、删除已完成会话、清理续接记录、删除某个 session、恢复已删除 session、永久删除 session、清空 session 回收记录。只管理 story-writer 续接记录，不管理 Codex 聊天任务。
-
-- 调用格式：`$session-manager <任务目标>`
-- 典型触发语：`扫描 sessions`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-resume`
-
-从 sw session 托管的 session-handoff、session-checkpoint、任务标识或明确路径恢复未完成的小说任务。校验记录 fingerprint，重新核验项目入口、最高故事真源、目标文件、真源闭包和 Git 状态，识别过时前提后继续执行下一项安全动作。触发词: session resume、恢复上次小说任务、从交接继续、读取断点继续、继续上个 session。普通的续写正文或继续写本章应使用 chapter-writer。
-
-- 调用格式：`$session-resume <任务目标>`
-- 典型触发语：`session resume`
-- 模式：`delegated-write`
-- 条件依赖：—
-- 写入范围：`delegated`
+- 写入范围：`sessions`, `delegated`
 
 ### `$story-auditor`
 
@@ -324,11 +348,13 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 <!-- END GENERATED: project-skill-guide -->
 
+</details>
+
 ## 安装与刷新
 
 ```bash
-sw install --target codex
-sw setup sync --root /path/to/story-project --sync-agent-links --agent-target agents
+sw setup sync --root /path/to/story-project
+sw agent sync --root /path/to/story-project --target codex
 ```
 
-`sw install` 把 runtime Skills 接入用户的 Agent 平台；`sw setup sync` 把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`，并可按显式参数创建项目侧 `.agents/skills/` 链接。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw setup sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；项目 Agent Skill/MCP 由 `sw agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。

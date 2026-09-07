@@ -12,6 +12,8 @@
 
 ## 生命周期
 
+生命周期状态统一由 `_status/` 维护；各施工页保存执行规格与具体接口，复用本节的状态归属规则。
+
 - [active](./_status/active.md)：已确认并生效；普通检索默认读取。
 - [bound](./_status/bound.md)：已挂接具体章节或场景；仅匹配目标时读取。
 - [consumed](./_status/consumed.md)：已被定稿或更高层真源完整吸收；默认排除。

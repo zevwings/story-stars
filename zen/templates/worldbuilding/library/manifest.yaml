@@ -1,0 +1,24 @@
+schema_version: 1
+domain: worldbuilding
+templates:
+  - id: worldbuilding.category-index
+    summary: 建立世界观分类入口
+    target: worldbuilding/{category}/_index.md
+    primary:
+      path: library/category-index.md
+    supplements: []
+  - id: worldbuilding.entry
+    summary: 建立普通世界观条目
+    target: worldbuilding/{category}/{entry}
+    output_schema: worldbuilding.entry@1
+    primary:
+      path: library/entry.md
+    supplements: []
+  - id: worldbuilding.system
+    summary: 建立机制类世界观专题
+    target: worldbuilding/{category}/{system}
+    output_schema: worldbuilding.entry@1
+    primary:
+      path: library/system.md
+    supplements: []
+bundles: []

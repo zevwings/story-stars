@@ -1,0 +1,37 @@
+schema_version: 1
+domain: prewrite
+templates:
+  - id: prewrite.continuity
+    summary: 补充本章不可缺失的最简连续性记忆
+    target: .prewrite/{chapter}/continuity.md
+    primary:
+      path: library/continuity.md
+    supplements: []
+  - id: prewrite.expanded-outline
+    summary: 扩写正式章纲中需要施工的场景
+    target: .prewrite/{chapter}/expanded-outline.md
+    primary:
+      path: library/expanded-outline.md
+    supplements: []
+  - id: prewrite.beat-sheet
+    summary: 建立场景节拍
+    target: .prewrite/{chapter}/beat-sheet.md
+    primary:
+      path: library/beat-sheet.md
+    supplements: []
+  - id: prewrite.risks
+    summary: 记录写前风险与处置
+    target: .prewrite/{chapter}/risks.md
+    primary:
+      path: library/risks.md
+    supplements: []
+  - id: prewrite.dialogue-design
+    summary: 校准本章对话承重与人物声线
+    target: .prewrite/{chapter}/dialogue-design.md
+    primary:
+      path: library/dialogue-design.md
+    supplements: []
+bundles:
+  - id: prewrite.chapter
+    required: []
+    optional: [prewrite.continuity, prewrite.expanded-outline, prewrite.beat-sheet, prewrite.risks, prewrite.dialogue-design]

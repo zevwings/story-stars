@@ -12,7 +12,7 @@ required_paths = [
 
 [package]
 module_id = "sociology"
-version = "0.2.1"
+version = "0.2.2"
 runtime_api = 1
 label = "应用社会学"
 keywords = [
@@ -37,7 +37,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:c53845f02c194b605edfcb891ca1779ba2098e686d808c97127cdf12ed5d17c9"
+fingerprint = "sha256:16f9d875ca14f061d2d2feff80a50a5e9694a3acaaefba6b49c3e28b77eff083"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -55,8 +55,8 @@ required_paths = [
 [[package.files]]
 path = "_index.md"
 mode = 420
-size = 2157
-sha256 = "7a606412426ce241fd7410cdb5189fae3e38c270bb07ac6273980fc4cd39e46e"
+size = 2451
+sha256 = "19255639cff905570af081acdbd23f2dd92bf3c74d615b44e4d39ece6a1fbac6"
 
 [[package.files]]
 path = "protocols/_index.md"
@@ -109,8 +109,8 @@ sha256 = "ee64742c609665ae904e90387e7c4cc2d7cc78409f2b54f80fb38181c2068786"
 [[package.files]]
 path = "references/_index.md"
 mode = 420
-size = 2248
-sha256 = "4cdc14b95a6d9691cce1feca0bafab2542fee070386b885730011be52fc8be70"
+size = 2293
+sha256 = "089cc69ff1fd830fec5babc84369ea89f248d44336924877f4e0aa210a4122ac"
 
 [[package.files]]
 path = "references/library/01_关系基础与亲疏距离.md"
