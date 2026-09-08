@@ -6,7 +6,8 @@
 
 | ID | 名称 | 文件 | 适用说明 |
 | --- | --- | --- | --- |
-| `presets.modern-urban-3d-realism` | 现代都市 3D 写实 | [modern-urban-3d-realism.md](modern-urban-3d-realism.md) | 本项目默认视觉基座；按需再叠加用途与星辰异能模块 |
+| `presets.modern-urban-stylized-3d` | 现代都市风格化 3D | [modern-urban-stylized-3d.md](modern-urban-stylized-3d.md) | 本项目默认视觉基座；按需叠加用途与异能模块 |
+| `presets.modern-urban-3d-realism` | 现代都市 3D 写实 | [modern-urban-3d-realism.md](modern-urban-3d-realism.md) | 可选写实预设，明确选用时采用 |
 
 ## 创建模板
 
