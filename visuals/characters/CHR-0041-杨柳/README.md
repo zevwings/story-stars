@@ -20,10 +20,10 @@
 
 图片保存在 [身份参考池](images/sources/identity/)，均为外部参考，尚无批准身份。
 
-| 图片 | 来源 | 用途 |
-| --- | --- | --- |
-| [reference-01-front-oblique.jpg](images/sources/identity/reference-01-front-oblique.jpg) | [堆糖](https://www.duitang.com/blog/?id=1361434100) | 参考近正面五官关系与面颊体积 |
-| [reference-02-oblique.jpg](images/sources/identity/reference-02-oblique.jpg) | [Marie Claire](https://www.marieclaire.com.tw/fashion/news/59137) | 参考鼻梁、面颊与下颌连接 |
+| 图片 | 用途 |
+| --- | --- |
+| [01-front-oblique.jpg](images/sources/identity/01-front-oblique.jpg) | 参考近正面五官关系与面颊体积 |
+| [02-oblique.jpg](images/sources/identity/02-oblique.jpg) | 参考鼻梁、面颊与下颌连接 |
 
 ## 生产记录
 

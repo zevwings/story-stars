@@ -22,13 +22,13 @@ visuals/
         ├── README.md              # 角色视觉说明、长期偏好与参考资料
         ├── images/
         │   ├── sources/
-        │   │   ├── identity/        # 身份参考池：reference-{nn}-{view}
+        │   │   ├── identity/        # 身份参考池：{nn}-{view}
         │   │   └── renders/         # 衣装、场景等呈现参考池
         │   └── approved/            # 已获批 identity / renders 图片
         └── records/                 # identity / renders 的请求、Prompt、manifest
 ```
 
-来源按用途放在角色 images/sources/identity/ 或 images/sources/renders/，不按版本或批次建目录。参考来源、用途和状态统一记入角色 README.md 的参考资料段；收录参考本身不表示建立长期表现偏好，图片目录不另建 README 或参考 manifest。身份参考命名 reference-{nn}-{view}.<实际扩展名>，场景参考用内容描述替代 view；各参考池独立递增编号。left/right 指鼻尖朝画面左/右，不确定角度不标度数。参考资料按用途和图片编号关联来源，多来源分别登记。
+来源按用途放在角色 images/sources/identity/ 或 images/sources/renders/，不按版本或批次建目录。参考图片的用途和状态统一记入角色 README.md 的参考资料段；收录参考本身不表示建立长期表现偏好，图片目录不另建 README 或参考 manifest。身份参考命名为 `{nn}-{view}.{ext}`，场景参考命名为 `{nn}-{description}.{ext}`。各参考池独立从 01 递增编号，至少两位，编号不绑定视角，删除后不重排；ext 保持真实格式。视角使用 front、front-oblique、oblique、left、right、left-profile、right-profile，可追加 -tilted 表示偏头；left/right 指鼻尖朝画面左/右，oblique 表示侧转但未确定左右。无法可靠判断视角时使用 `{nn}.{ext}`，不猜测角度。只保存实际已有参考，不要求凑齐视角，不创建占位文件。
 
 已归档源文件保持路径和内容稳定；重复文件校验 hash 后直接引用，新内容使用新编号，不覆盖旧件。实际生成记录保存所用路径和 hash。只有 approved/identity 与对应生产记录使用身份版本。
 
@@ -42,8 +42,8 @@ README、索引与创建模板都是首次创建后由项目维护的文件。�
 
 | 任务入口与时机 | 创建位置 | 保存内容 |
 | --- | --- | --- |
-| `character-identity-builder collect`，明确收录身份参考 | `characters/<角色目录>/images/sources/identity/` | 图片；来源、用途和状态写入角色 README.md |
-| `character-image-generator collect`，明确收录衣装或场景参考 | `characters/<角色目录>/images/sources/renders/` | 图片；来源、用途和状态写入角色 README.md |
+| `character-identity-builder collect`，明确收录身份参考 | `characters/<角色目录>/images/sources/identity/` | 图片；用途和状态写入角色 README.md |
+| `character-image-generator collect`，明确收录衣装或场景参考 | `characters/<角色目录>/images/sources/renders/` | 图片；用途和状态写入角色 README.md |
 | `preferences`，明确保存长期偏好 | `characters/<角色目录>/README.md` | 角色表现偏好、公共模块引用及适用范围 |
 | 定脸或场景生成，开始产生候选 | 项目根下 `.sw/visuals/<任务>/`，位于视觉根之外 | 候选与中间文件；先确认 Git 忽略覆盖 |
 | 作者批准主脸或补充角度 | 角色 `images/approved/identity/vN/` 与 `records/identity/vN/` | 获批图片，以及 request、prompt、manifest |
@@ -64,7 +64,7 @@ README、索引与创建模板都是首次创建后由项目维护的文件。�
 
 ## 参考、批准图片和生产记录
 
-- **sources**：可供选择的外部或上游参考。收录只表示保存素材；是否批准为主脸是另一项决定。普通参考的来源、用途和状态集中在角色 README.md，完整内容模板见 [角色创建模板](characters/_template.md)。
+- **sources**：可供选择的外部或上游参考。收录只表示保存素材；是否批准为主脸是另一项决定。普通参考的用途和状态集中在角色 README.md，完整内容模板见 [角色创建模板](characters/_template.md)。
 - **approved**：作者明确接受的图片。定脸版本按 `vN` 保存，场景按 `<scene-name>/vN` 保存，已有版本不覆盖。
 - **records**：实际生产的请求、完整 Prompt 与 manifest。真正用于生成时才登记实际输入路径和 hash；普通参考收集不创建 manifest。
 - **current.json**：唯一当前身份入口。先保存并校验图片与记录，最后更新指针；历史场景绑定当时使用的不可变身份版本。
@@ -74,7 +74,7 @@ README、索引与创建模板都是首次创建后由项目维护的文件。�
 
 JSON 中的资产和记录路径相对视觉根；正式人物卡路径相对项目根；Markdown 导航链接相对所在文件。归档内容不依赖临时候选路径。
 
-正式五官、年龄、身形和衣装事实仍维护在项目 `characters/`；视觉根下的 `characters/` 只组织视觉资产。角色 `README.md` 保存正式资料引用、跨任务表现选择、参考来源与用途以及已有生产记录导航，单次姿态、衣装与场景要求进入当次生产记录。
+正式五官、年龄、身形和衣装事实仍维护在项目 `characters/`；视觉根下的 `characters/` 只组织视觉资产。角色 `README.md` 保存正式资料引用、跨任务表现选择、参考用途以及已有生产记录导航，单次姿态、衣装与场景要求进入当次生产记录。
 
 ## 启用与关闭
 
