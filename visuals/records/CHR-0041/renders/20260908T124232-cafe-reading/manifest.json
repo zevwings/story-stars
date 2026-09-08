@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "character_id": "CHR-0041",
+  "character_name": "杨柳",
+  "render_id": "20260908T124232-cafe-reading",
+  "approved_at": "2026-09-08T12:42:32.974744+08:00",
+  "approval_evidence": "作者：批准",
+  "identity_version": "v2",
+  "identity_manifest": "records/CHR-0041/identity/v2/manifest.json",
+  "identity_references": [
+    {
+      "role": "front",
+      "path": "images/CHR-0041/approved/identity/v2/front.png",
+      "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b"
+    },
+    {
+      "role": "left-45",
+      "path": "images/CHR-0041/approved/identity/v2/left-45.png",
+      "sha256": "d2ca1d777c9f6f0d53753962e6394254495ab1e9efcbb78df8adb476914bbd6a"
+    }
+  ],
+  "other_references": [
+    {
+      "path": "images/CHR-0041/sources/renders/20260908T124232-cafe-reading/reference-01-original.png",
+      "role": "clothing-setting-palette-only",
+      "sha256": "55314f01f99de997772be9d75b747559b7fa34c15b6e0c988e7820b757fa9121",
+      "source_type": "generated-presentation-reference-not-approved-scene"
+    }
+  ],
+  "formal_cards": [
+    {
+      "path": "characters/minor/杨柳/主卡.md",
+      "sha256": "df025ee2e283f1a117d4c4385d701096d72e43b0ded7af213022be4ec45022c3"
+    },
+    {
+      "path": "characters/minor/杨柳/形象.md",
+      "sha256": "62f834b0699cf94de64268548c02e5b89def3ceaeb72cdd490c25bfc6000f134"
+    },
+    {
+      "path": "characters/minor/杨柳/衣装/衣装语法.md",
+      "sha256": "cdfa75723856aee5e7b4fdddfc11940a8bcf9d67607afc886a9b0cb989a852f3"
+    }
+  ],
+  "request": {
+    "path": "records/CHR-0041/renders/20260908T124232-cafe-reading/request.md",
+    "sha256": "d788e7d6a216f81d5432092aac762fa1ced3aeda6dc44e212623c6af6ab4f3f1"
+  },
+  "prompt": {
+    "path": "records/CHR-0041/renders/20260908T124232-cafe-reading/prompt.md",
+    "sha256": "42f4eff805030dae79f534f630c8d99bd308525d760c74396d3c1bd2a54cdde1"
+  },
+  "assets": [
+    {
+      "role": "scene",
+      "candidate_mapping": "scene-cafe-02.png -> image-01.png",
+      "path": "images/CHR-0041/approved/renders/20260908T124232-cafe-reading/image-01.png",
+      "sha256": "c8bc79a6cb2f9e3243d3b9648edb27d363d8a71ea6e315caaf8d7f4a371fbd4f",
+      "width": 1122,
+      "height": 1402,
+      "generation": {
+        "status": "approved",
+        "purpose": "cross-styling-validation-action-refinement",
+        "identity_version": "v2",
+        "tool": "image_gen.imagegen",
+        "requested_model": null,
+        "actual_model": null,
+        "model_evidence": "平台未暴露",
+        "parameters": {
+          "prompt": "图1是杨柳的批准正脸，图2是同一人的批准侧转图；两图决定面容。图3仅提供衣装、咖啡馆布置与配色。生成同一位25岁成年女性在窗边读书的半身画面，保留浓眉长杏眼、顺直鼻梁、丰润唇形与原有面颊下颌比例。她肩背放松，身体略向桌面前倾，头部轻轻低下、略朝画面左侧，眼睛自然睁开看向书页，嘴唇放松。桌上放一本摊开的书，一只手轻压书页，另一只手用指尖掀起一页；两只手与手腕完整可见，动作和纸张接触自然。沿用牛仔蓝薄棉衬衫、黑色高腰裤、深黑长发与白色陶瓷杯，领口自然开合。保持现代中国都市咖啡馆、窗外住宅楼和绿化、柔和窗光。全画面采用与身份图一致的半写实动漫线条、柔和色块阴影和概括材质。镜头略退，让脸、双手、书与杯子完整入画，4:5竖幅单图，无可辨读文字、水印或拼版。",
+          "referenced_image_paths": [
+            "images/CHR-0041/approved/identity/v2/front.png",
+            "images/CHR-0041/approved/identity/v2/left-45.png",
+            "images/CHR-0041/sources/renders/20260908T124232-cafe-reading/reference-01-original.png"
+          ]
+        },
+        "references": [
+          {
+            "role": "front",
+            "path": "images/CHR-0041/approved/identity/v2/front.png",
+            "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b"
+          },
+          {
+            "role": "left-45",
+            "path": "images/CHR-0041/approved/identity/v2/left-45.png",
+            "sha256": "d2ca1d777c9f6f0d53753962e6394254495ab1e9efcbb78df8adb476914bbd6a"
+          },
+          {
+            "path": "images/CHR-0041/sources/renders/20260908T124232-cafe-reading/reference-01-original.png",
+            "role": "clothing-setting-palette-only",
+            "sha256": "55314f01f99de997772be9d75b747559b7fa34c15b6e0c988e7820b757fa9121",
+            "source_type": "generated-presentation-reference-not-approved-scene"
+          }
+        ],
+        "formal_cards": [
+          {
+            "path": "characters/minor/杨柳/主卡.md",
+            "sha256": "df025ee2e283f1a117d4c4385d701096d72e43b0ded7af213022be4ec45022c3"
+          },
+          {
+            "path": "characters/minor/杨柳/形象.md",
+            "sha256": "62f834b0699cf94de64268548c02e5b89def3ceaeb72cdd490c25bfc6000f134"
+          },
+          {
+            "path": "characters/minor/杨柳/衣装/衣装语法.md",
+            "sha256": "cdfa75723856aee5e7b4fdddfc11940a8bcf9d67607afc886a9b0cb989a852f3"
+          }
+        ],
+        "output": {
+          "path": "images/CHR-0041/approved/renders/20260908T124232-cafe-reading/image-01.png",
+          "sha256": "c8bc79a6cb2f9e3243d3b9648edb27d363d8a71ea6e315caaf8d7f4a371fbd4f",
+          "width": 1122,
+          "height": 1402
+        },
+        "parameter_path_note": "实际输入原件路径映射到永久归档副本，hash一致",
+        "prompt_file": "records/CHR-0041/renders/20260908T124232-cafe-reading/prompt.md"
+      }
+    }
+  ],
+  "upstream_presentation_generation": {
+    "status": "generated-unapproved",
+    "purpose": "cross-styling-validation",
+    "identity_version": "v2",
+    "tool": "image_gen.imagegen",
+    "requested_model": null,
+    "actual_model": null,
+    "model_evidence": "平台未暴露",
+    "parameters": {
+      "prompt": "参考图1为杨柳的主要面容依据，图2辅助保持侧转结构，两图是同一位25岁成年女性。保留略长鹅蛋轮廓、浓眉长杏眼、顺直鼻梁、丰润唇形和暖象牙肤色。生成现代中国都市咖啡馆窗边的日常半身插画：深黑长发自然披落，穿牛仔蓝薄棉衬衫与墨黑高腰直筒裤，袖口挽至前臂，衣料自然宽松。她坐在木桌旁，肩背放松，头部向画面左侧轻转，带轻微闭唇笑，双手自然放在桌上，白色陶瓷杯置于旁边。平视、腰部以上构图，脸部清楚；窗外可见概括的现代住宅楼和绿化。沿用批准图的半写实动漫线条、柔和色块阴影和概括发束，柔和日光配合室内暖色，皮肤以绘画色面表达。一张独立4:5竖图，无文字、水印或拼版。",
+      "referenced_image_paths": [
+        "images/CHR-0041/approved/identity/v2/front.png",
+        "images/CHR-0041/approved/identity/v2/left-45.png"
+      ]
+    },
+    "references": [
+      {
+        "role": "front",
+        "path": "images/CHR-0041/approved/identity/v2/front.png",
+        "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b"
+      },
+      {
+        "role": "left-45",
+        "path": "images/CHR-0041/approved/identity/v2/left-45.png",
+        "sha256": "d2ca1d777c9f6f0d53753962e6394254495ab1e9efcbb78df8adb476914bbd6a"
+      }
+    ],
+    "formal_cards": [
+      {
+        "path": "characters/minor/杨柳/主卡.md",
+        "sha256": "df025ee2e283f1a117d4c4385d701096d72e43b0ded7af213022be4ec45022c3"
+      },
+      {
+        "path": "characters/minor/杨柳/形象.md",
+        "sha256": "62f834b0699cf94de64268548c02e5b89def3ceaeb72cdd490c25bfc6000f134"
+      },
+      {
+        "path": "characters/minor/杨柳/衣装/衣装语法.md",
+        "sha256": "cdfa75723856aee5e7b4fdddfc11940a8bcf9d67607afc886a9b0cb989a852f3"
+      }
+    ],
+    "output": {
+      "path": "images/CHR-0041/sources/renders/20260908T124232-cafe-reading/reference-01-original.png",
+      "sha256": "55314f01f99de997772be9d75b747559b7fa34c15b6e0c988e7820b757fa9121",
+      "width": 1122,
+      "height": 1402
+    },
+    "parameter_path_note": "实际路径映射至永久副本",
+    "prompt_file": "records/CHR-0041/renders/20260908T124232-cafe-reading/prompt.md"
+  },
+  "validation": "作者接受本场景；不作为身份参考；未验证其他角度和场景"
+}

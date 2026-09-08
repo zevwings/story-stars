@@ -66,15 +66,20 @@ kind = "specialty"
 target = "specialties/clothes"
 installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
 
+[installations.visuals]
+schema_version = 1
+kind = "feature"
+target = "visuals"
+installation_id = "2f8ede4f-abd7-40e7-aaac-f0fbd5a95c4e"
+
 [visuals]
-metadata_root = "visuals"
-asset_root = "visual-assets"
+root = "visuals"
 
 [features]
 
 plotlines = true
 construction = true
-
+visuals = true
 [agents.codex]
 architect_model = "gpt-5.6-sol"
 implementer_model = "gpt-5.6-terra"

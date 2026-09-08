@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "character_id": "CHR-0041",
+  "character_name": "杨柳",
+  "identity_version": "v2",
+  "approved_at": "2026-09-08T04:35:57.542944+00:00",
+  "approval_evidence": "作者对45°候选确认：可行",
+  "source_mode": "reference-generated",
+  "canonical": {
+    "age": 25,
+    "face": "饱满略长鹅蛋脸，适度眉骨颧面、柔软中面部、自然收束下颌",
+    "eyes": "浓密黑眉、较深眼窝、深棕长杏眼",
+    "nose_lips": "高鼻根、顺直鼻梁、自然圆润鼻尖鼻翼、丰润唇形",
+    "color": "深黑至极深棕自然发色，中性偏暖象牙肤底"
+  },
+  "face_signature": [
+    "略长鹅蛋轮廓与自然收束下颌",
+    "浓眉与横向舒展长杏眼",
+    "顺直鼻梁与丰润唇形"
+  ],
+  "approved_visual_details": [
+    "动漫化眼睛开度",
+    "下颌较原写实候选收束"
+  ],
+  "style": "现代中国都市半写实动漫",
+  "input_snapshots": [
+    {
+      "project_path": "characters/minor/杨柳/主卡.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/01-主卡.md.txt",
+      "sha256": "df025ee2e283f1a117d4c4385d701096d72e43b0ded7af213022be4ec45022c3"
+    },
+    {
+      "project_path": "characters/minor/杨柳/形象.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/02-形象.md.txt",
+      "sha256": "62f834b0699cf94de64268548c02e5b89def3ceaeb72cdd490c25bfc6000f134"
+    },
+    {
+      "project_path": "characters/minor/杨柳/衣装/衣装语法.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/03-衣装语法.md.txt",
+      "sha256": "cdfa75723856aee5e7b4fdddfc11940a8bcf9d67607afc886a9b0cb989a852f3"
+    },
+    {
+      "project_path": "visuals/README.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/04-README.md.txt",
+      "sha256": "ae936374b63609e593919b0555298e17cdad46cafa7ef5b9da4b7782d8b4cad9"
+    },
+    {
+      "project_path": "visuals/characters/_index.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/05-_index.md.txt",
+      "sha256": "be75aa2524eb229c643bdb029f6f9777077469f7baa3a77a07eaf90af07869b7"
+    },
+    {
+      "project_path": "visuals/prompts/presets/modern-urban-3d-realism.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/06-modern-urban-3d-realism.md.txt",
+      "sha256": "62d190bdd72385ce43b9a5d874395261a5af86ee19e4bd7e74dc8d67b1284453"
+    },
+    {
+      "project_path": "visuals/prompts/settings/contemporary-fictional-metropolis.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/07-contemporary-fictional-metropolis.md.txt",
+      "sha256": "23cbb56debacfb36d3b44ea92992d312e104a407411ae2cabf017f5e20004a0f"
+    },
+    {
+      "project_path": "visuals/prompts/rendering/3d-cinematic-realism.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/08-3d-cinematic-realism.md.txt",
+      "sha256": "ba3b5859b704ff1056e5b2526ed74413678853b2601eeb95ace4926184095f6d"
+    },
+    {
+      "project_path": "visuals/prompts/purposes/character-identity.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/09-character-identity.md.txt",
+      "sha256": "d8c9cb40662485304fa90aa462d6f6bd315901ccf90d5cac80033dfa7cbba7de"
+    },
+    {
+      "project_path": "visuals/prompts/cinematography/soft-daylight-portrait.md",
+      "snapshot": "records/CHR-0041/identity/v1/snapshots/10-soft-daylight-portrait.md.txt",
+      "sha256": "323056bd99b1ef2f94ee3741fcf273fd163eddb6cf00f32eada725324788ad09"
+    }
+  ],
+  "formal_cards": [
+    {
+      "path": "characters/minor/杨柳/主卡.md",
+      "sha256": "df025ee2e283f1a117d4c4385d701096d72e43b0ded7af213022be4ec45022c3"
+    },
+    {
+      "path": "characters/minor/杨柳/形象.md",
+      "sha256": "62f834b0699cf94de64268548c02e5b89def3ceaeb72cdd490c25bfc6000f134"
+    },
+    {
+      "path": "characters/minor/杨柳/衣装/衣装语法.md",
+      "sha256": "cdfa75723856aee5e7b4fdddfc11940a8bcf9d67607afc886a9b0cb989a852f3"
+    }
+  ],
+  "references": [
+    {
+      "file": "images/CHR-0041/sources/identity/v1/reference-01-original.jpg",
+      "title": "紫色卫衣近正面照",
+      "source_page": "https://www.duitang.com/blog/?id=1361434100",
+      "requested_url": "https://c-ssl.duitang.com/uploads/blog/202108/20/20210820102033_9d007.jpg",
+      "response_url": "https://c-ssl.duitang.com/uploads/blog/202108/20/20210820102033_9d007.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 303838,
+      "sha256": "36202554917f03f71ebddf03849a5253d0a2e961e9808f6e3a2a1eee744029d5",
+      "use": "首轮图 1：近正面五官关系与面颊体积；有笑容、低头与柔化，不作为中性正面证据。",
+      "width": 750,
+      "height": 1333,
+      "role": "upstream-partial-feature-reference"
+    },
+    {
+      "file": "images/CHR-0041/sources/identity/v1/reference-02-original.jpg",
+      "title": "牛仔外套斜侧照",
+      "source_page": "https://www.marieclaire.com.tw/fashion/news/59137",
+      "requested_url": "https://ian.marieclaire.com.tw/assets/mc/202107/61027257F04151627550295.jpeg?format=jpg&t=sc&w=1200%2C675",
+      "response_url": "https://ian.marieclaire.com.tw/assets/mc/202107/61027257F04151627550295.jpeg?format=jpg&t=sc&w=1200%2C675",
+      "content_type": "image/jpeg",
+      "bytes": 224296,
+      "sha256": "5adfbba90e92767d2d11a9c698e34024b70d41507890bd28d5d0a59d02972689",
+      "use": "首轮图 2：鼻梁、面颊与下颌连接；不继承暖调、衣装、背景与表情。",
+      "width": 1200,
+      "height": 801,
+      "role": "upstream-partial-feature-reference"
+    },
+    {
+      "role": "upstream-generated-reference",
+      "path": "images/CHR-0041/sources/identity/v1/candidate-01.png",
+      "sha256": "d42bcb6d14ab647c3a378ab81db69a03a54d67d4905d4d30b6254f743a0b6a2a",
+      "width": 1122,
+      "height": 1402
+    }
+  ],
+  "upstream_generation": {
+    "status": "upstream-generated",
+    "tool": "image_gen.imagegen",
+    "requested_model": null,
+    "actual_model": null,
+    "model_evidence": "平台未暴露模型标识",
+    "prompt_file": "records/CHR-0041/identity/v1/prompt.md",
+    "parameters": {
+      "prompt": "生成一张虚构角色杨柳的独立正面身份肖像，电影级 3D 写实渲染，采用中国现代都市人物的视觉参照。\n\n附图 1 仅辅助观察近正面五官关系与自然面颊体积；附图 2 仅辅助观察鼻梁、面颊与下颌的结构连接。按以下角色设定组合面貌，参考图中的笑容、衣装、背景、调色和可见标记不自动继承。\n\n杨柳，25 岁成年女性，职业偶像。脸型饱满而略长，呈鹅蛋形；额头舒展，眉骨和颧面结构清楚而适度，中面部保留年轻成年人的柔软体积，下颌自然收束。浓密深黑眉毛，毛流清楚；较深的眼窝具有柔和过渡，大而舒展的深棕长杏眼兼具横向长度与自然开度。高而流畅的鼻梁，鼻尖与鼻翼保留自然圆度；嘴唇丰润，唇峰清楚，下唇略有体量。深黑丰量长发、中性偏暖的象牙肤色，面部辨识度来自五官之间的结构关系。\n\n单人、正面、平视，头肩构图，头部自然摆正，双眼清晰，嘴唇自然闭合，表情放松。头发让出双侧眉眼与下颌轮廓；清透而完整的日常妆面，贴根眼线与自然睫毛体量、暖珊瑚唇色，象牙白无标识圆领细针织上衣，让视觉中心落在面容。\n\n柔和中性窗光配合环境补光，面部受光均匀，同时保留眉眼、鼻梁和面颊的立体转折。背景为简洁暖灰色，细腻皮肤保留自然纹理与柔和次表面散射，发丝走向真实，针织衣料有重量感；物理合理的光照与克制景深。画面漂亮、完成度高，保持自然成年比例。输出一张 4:5 竖幅肖像，无拼版、字幕或水印。\n",
+      "referenced_image_paths": [
+        "images/CHR-0041/sources/identity/v1/reference-01-original.jpg",
+        "images/CHR-0041/sources/identity/v1/reference-02-original.jpg"
+      ]
+    },
+    "references": [
+      {
+        "path": "images/CHR-0041/sources/identity/v1/reference-01-original.jpg",
+        "sha256": "36202554917f03f71ebddf03849a5253d0a2e961e9808f6e3a2a1eee744029d5",
+        "role": "partial-feature-reference"
+      },
+      {
+        "path": "images/CHR-0041/sources/identity/v1/reference-02-original.jpg",
+        "sha256": "5adfbba90e92767d2d11a9c698e34024b70d41507890bd28d5d0a59d02972689",
+        "role": "partial-feature-reference"
+      }
+    ],
+    "output": {
+      "path": "images/CHR-0041/sources/identity/v1/candidate-01.png",
+      "sha256": "d42bcb6d14ab647c3a378ab81db69a03a54d67d4905d4d30b6254f743a0b6a2a",
+      "width": 1122,
+      "height": 1402
+    },
+    "parameter_path_note": "实际提交路径已映射到归档副本；文件hash验证一致"
+  },
+  "assets": [
+    {
+      "role": "front",
+      "path": "images/CHR-0041/approved/identity/v2/front.png",
+      "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b",
+      "width": 1122,
+      "height": 1402,
+      "generation": {
+        "status": "approved",
+        "purpose": "anime-style-exploration",
+        "tool": "image_gen.imagegen",
+        "actual_model": null,
+        "model_evidence": "平台未暴露",
+        "override": "本次要求覆盖3D写实，采用半写实动漫；未保存为长期偏好",
+        "parameters": {
+          "prompt": "将附图中的虚构成年女性角色杨柳转绘为精致的现代都市半写实动漫插画。她25岁。附图只作为角色脸型、五官关系、发型、衣装、姿态和配色参考；本次明确改变渲染媒介，让画面一眼看出是绘制的动漫角色，而非真人摄影或写实3D。\n保留饱满略长的鹅蛋脸、自然收束而圆润的下颌、浓眉与舒展深棕长杏眼、高而顺直的鼻梁、丰润暖珊瑚色唇形、深黑丰量长发和暖象牙肤色，保留成年比例与第一版温柔松弛的观感。眼睛适度动漫化但保持原来的横向杏眼形态和眼距，鼻梁用简洁而有体积的明暗形表现，唇形保留自然体积。避免把她变成幼态巨眼小尖鼻的通用少女脸。\n画法采用清晰细腻的手绘轮廓线、精选的内部线条、大块柔和赛璐璐阴影与少量绘画渐变，五官边缘简洁，眼睛以设计过的色块和克制高光表达；皮肤使用干净平滑的绘画色面，不画摄影毛孔；头发组织为优雅大束形状和少量发丝线条，不逐根模拟；针织用概括的纹理笔触表达，不做照片级微观材质。立体而明确的二维插画审美，现代中国都市人物设计。\n保持正面平视头肩构图、轻微闭唇笑、象牙白圆领针织上衣、暖灰简洁背景和柔和光线。只输出一张4:5竖幅独立图片，无文字水印或拼版。",
+          "referenced_image_paths": [
+            "images/CHR-0041/sources/identity/v1/candidate-01.png"
+          ]
+        },
+        "input_sha256": "d42bcb6d14ab647c3a378ab81db69a03a54d67d4905d4d30b6254f743a0b6a2a",
+        "output": {
+          "path": "images/CHR-0041/approved/identity/v1/front.png",
+          "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b",
+          "width": 1122,
+          "height": 1402
+        },
+        "parameter_path_note": "实际提交路径已映射到归档副本；文件hash验证一致",
+        "references": [
+          {
+            "path": "images/CHR-0041/sources/identity/v1/candidate-01.png",
+            "sha256": "d42bcb6d14ab647c3a378ab81db69a03a54d67d4905d4d30b6254f743a0b6a2a",
+            "role": "generated-face-and-style-reference"
+          }
+        ],
+        "prompt_file": "records/CHR-0041/identity/v1/prompt.md"
+      }
+    },
+    {
+      "role": "left-45",
+      "path": "images/CHR-0041/approved/identity/v2/left-45.png",
+      "sha256": "d2ca1d777c9f6f0d53753962e6394254495ab1e9efcbb78df8adb476914bbd6a",
+      "width": 1122,
+      "height": 1402,
+      "generation": {
+        "status": "approved",
+        "tool": "image_gen.imagegen",
+        "actual_model": null,
+        "model_evidence": "平台未暴露",
+        "parameters": {
+          "prompt": "以参考图中的成年杨柳（25岁）为同一角色，生成头部向画面左侧转约45°的三分之二侧脸，双眼仍可见，视线随脸朝向。保持原图的脸部比例、长杏眼、顺直鼻梁、丰润唇形和面颊体积，下颌自然收束。沿用半写实动漫线条、柔和色块阴影、深黑长发、象牙白针织上衣、轻微闭唇笑与暖灰背景。平视头肩构图，一张独立4:5竖图，无文字或拼版。保持相同的成年年龄感与二维绘画媒介，头部转动时五官遵循透视，保留参考的结构辨识度。",
+          "referenced_image_paths": [
+            "images/CHR-0041/approved/identity/v1/front.png"
+          ]
+        },
+        "output": {
+          "path": "images/CHR-0041/approved/identity/v2/left-45.png",
+          "sha256": "d2ca1d777c9f6f0d53753962e6394254495ab1e9efcbb78df8adb476914bbd6a",
+          "width": 1122,
+          "height": 1402
+        },
+        "angle_convention": "left-45表示鼻尖朝画面左方，约45度；不声称精确测量角度",
+        "requested_model": null,
+        "parameter_path_note": "调用时的同hash原件映射至永久归档路径",
+        "prompt_file": "records/CHR-0041/identity/v2/prompt.md",
+        "prompt_section": "45°扩展",
+        "references": [
+          {
+            "path": "images/CHR-0041/approved/identity/v1/front.png",
+            "sha256": "8d31205adea1cddf5aa4ed0191cfd3bcfd5d3b0a59d2954d4664470ef447467b",
+            "role": "approved-front",
+            "note": "调用时使用同hash候选原件，随后归档"
+          }
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "front": "作者批准",
+    "cross_angle": "正面与画面左转约45°目视对照，作者接受；另一侧及纯侧面未验证",
+    "cross_styling": "未验证",
+    "cast_comparison": "首个角色，尚无跨角色比较"
+  },
+  "request": "records/CHR-0041/identity/v2/request.md",
+  "prompt": "records/CHR-0041/identity/v2/prompt.md",
+  "previous_manifest": "records/CHR-0041/identity/v1/manifest.json"
+}
