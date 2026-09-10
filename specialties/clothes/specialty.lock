@@ -15,7 +15,7 @@ required_paths = [
 
 [package]
 module_id = "clothes"
-version = "0.2.2"
+version = "0.2.3"
 runtime_api = 1
 label = "衣装拆解、设计与目录"
 keywords = [
@@ -35,7 +35,7 @@ rules = [
 state_categories = []
 check_priority = "P2"
 fingerprint_algorithm = "sha256-v1"
-fingerprint = "sha256:64baed2195fd73e96fdc408f408551c0c003ba531ce87d0cc68051e26dd8a62d"
+fingerprint = "sha256:0235d06cf114ad83d3b512ac2e1fa72e0bc96f652f679444c4f3faca361d93b5"
 managed_roots = [
     "_index.md",
     "protocols",
@@ -74,8 +74,8 @@ sha256 = "c6a69995d3a9b703889cdd9fb9e40e8cc18bff0e58d4346dc712fc8b0d3855e7"
 [[package.files]]
 path = "protocols/衣装收录协议.md"
 mode = 420
-size = 7423
-sha256 = "9736f83524556a526f72686a8131c9c14af6f3ad0e382905e5be1b16d3bac104"
+size = 7445
+sha256 = "fc1562435658ec09ee8ba7f2a7891b59e5b1304e7c7acacc3b31d25522f980d1"
 
 [[package.files]]
 path = "protocols/衣装正式转写协议.md"
