@@ -22,7 +22,7 @@ flowchart TB
     Genre["story/genres/<br/>题材口径"]
     Specialty["已启用专项<br/>mechanisms / references / 专项档案"]
     Clue["clues/<br/>线索"]
-    Plotline["story/plotlines/<br/>正式剧情节点"]
+    Plotline["specialties/plotlines/<br/>正式剧情节点"]
     Arc["story/arcs/<br/>阶段编排"]
     Context["context/<br/>当前动态上下文"]
     Chapter["chapters/<br/>定稿章节"]
@@ -63,12 +63,12 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    Plotline["story/plotlines/"]
-    Construction["story/construction/ 或 .construction/"]
+    Plotline["specialties/plotlines/"]
+    Construction["specialties/plotlines/_construction/ 或 .construction/"]
     Chapter["chapters/"]
     Clue["clues/"]
     Context["context/"]
-    Gate["story/construction/_gates/<br/>临时流程门禁"]
+    Gate["specialties/plotlines/_gates/<br/>临时流程门禁"]
     Formal["正式真源"]
     Derived[".analysis / .prewrite / .sw/generated / Preview"]
 
@@ -90,8 +90,8 @@ flowchart LR
 flowchart LR
     World["worldbuilding/"] -. "禁止 depends_on" .-> Character["characters/"]
     Character -. "禁止 depends_on" .-> Narrative["剧情节点 / 阶段页 / 施工单元<br/>专项人物档案 / 章节 / 动态上下文"]
-    Plotline["story/plotlines/"] -. "禁止反向依赖" .-> Arc["story/arcs/"]
-    Formal["任何正式真源"] -. "禁止反向引用" .-> Gate["story/construction/_gates/"]
+    Plotline["specialties/plotlines/"] -. "禁止反向依赖" .-> Arc["story/arcs/"]
+    Formal["任何正式真源"] -. "禁止反向引用" .-> Gate["specialties/plotlines/_gates/"]
     Formal -. "禁止依赖" .-> Derived[".analysis / .prewrite / .sw/generated / Preview"]
 ```
 
@@ -100,15 +100,15 @@ flowchart LR
 在写作项目根目录执行：
 
 ```bash
-sw check references
+sw project check --scope references
 ```
 
 从其他目录执行时，可选指定项目根：
 
 ```bash
-sw check references --root <project>
+sw project check --scope references --root <project>
 ```
 
 该命令只把非模板文件 `## 正式真源引用` 小节中的路径视为 `depends_on`，并检查允许方向与依赖环；普通导航、证据和接口不会混入依赖图。
 
-当前仍为 `report-only`，用于报告违规，不代替正式规则或 `sw check links`。
+当前仍为 `report-only`，用于报告违规，不代替正式规则或 `sw project check --scope links`。

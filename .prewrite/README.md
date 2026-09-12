@@ -4,10 +4,10 @@
 
 ## 目录边界
 
-- 公共施工模板由 `zen/templates/prewrite/_index.md` 路由；library 受 lock 管理，项目定制写入 supplements 并显式登记 override。
+- 公共施工模板由 `.story.lock.toml` 锁定的 Zen 包持有，通过 `sw zen template resolve --bundle prewrite.chapter --root "$STORY_PROJECT_ROOT"` 解析；项目定制在 `templates/prewrite/manifest.yaml` 中声明，片段直接放在同域目录下，目录约定见 [项目写作模板](../templates/README.md)。
 - `chXXX/` 是目标章施工件；章号必须与正式章节索引登记一致。
 - `chXXX/context/` 由 `sw rag context` 生成，不在模板库中维护静态副本。
-- 清理临时施工件时只处理明确的 `chXXX/`，不删除本 README 或 `zen/templates/prewrite/`。
+- 清理临时施工件时只处理明确的 `chXXX/`，不删除本 README 或项目自有的 `templates/`。
 
 ## 使用边界
 

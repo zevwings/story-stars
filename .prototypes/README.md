@@ -15,7 +15,7 @@
 - 原型档可以单向链接 `characters/` 或 `worldbuilding/` 的正式目标；正式施工需要采用服装结果时，须把已确认规格重新写入对应 `CON-*`，不得让施工单元依赖原型档。
 - 正式人物卡与世界观文件不得把本目录列为事实来源。
 - 原型档中的现实人物、现实地区、图片、账号、经历、数据、妆造和服装都不自动属于小说对象。
-- 作者确认后的最终结果必须同步到正式文件；人物外观与稳定衣装以 `characters/` 为准，地区与空间事实以 `worldbuilding/` 为准，场次执行以对应正式剧情节点和 `story/construction/` 为准。
+- 作者确认后的最终结果必须同步到正式文件；人物外观与稳定衣装以 `characters/` 为准，地区与空间事实以 `worldbuilding/` 为准，场次执行以对应正式剧情节点和 `specialties/plotlines/_construction/` 为准。
 
 ## 年龄分层覆写规则
 
@@ -30,6 +30,6 @@
 - `regions/`：地区、地貌、建筑、交通与环境原型，以及架空化改造边界。
 - `cache/`：临时下载的检索图片，不提交版本库。
 
-人物与地区原型档及其索引的项目专属模板由 `zen/templates/prototypes/exclusive/manifest.yaml` 登记，通过 `sw template` 解析和渲染；`.prototypes/` 只保存实际原型资料，不再保留 `_template.md` 副本。
+人物与地区原型档及其索引的项目专属模板由 `templates/prototypes/manifest.yaml` 登记，通过 `sw zen template` 解析和渲染；`.prototypes/` 只保存实际原型资料，不再保留 `_template.md` 副本。
 
 新增原型大类时必须已经存在真实内容，不为预想用途创建空的大类。已建立原型库内部可按其 `README.md` 预建稳定类型目录；服装库的固定类型以 `clothes/_index.md` 为准。

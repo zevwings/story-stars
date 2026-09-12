@@ -1,6 +1,6 @@
 # 故事架构
 
-> 本文件是全书稳定关系结构的正式真源。具体人物静态事实见 [人物索引](../characters/_index.md)，阶段实施见 [阶段弧线](arcs/_index.md)，跨阶段变化见 [剧情线索引](plotlines/_index.md)。
+> 本文件是全书稳定关系结构的正式真源。具体人物静态事实见 [人物索引](../characters/_index.md)，阶段实施见 [阶段弧线](arcs/_index.md)，跨阶段变化见 [剧情线索引](../specialties/plotlines/_index.md)。
 
 ## 一、伴侣与私人关系分层
 

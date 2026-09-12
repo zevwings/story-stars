@@ -8,15 +8,15 @@
 - 只展开所选节点；相关线路与上下游不会自动扩读。
 
 ## 状态来源
-- 待分配：`story/plotlines/_status/pending.md`
-- 进行中：`story/plotlines/_status/active.md`
-- 已完成：`story/plotlines/_status/completed.md`
-- 已退役：`story/plotlines/_status/retired.md`
+- 待分配：`specialties/plotlines/_status/pending.md`
+- 进行中：`specialties/plotlines/_status/active.md`
+- 已完成：`specialties/plotlines/_status/completed.md`
+- 已退役：`specialties/plotlines/_status/retired.md`
 
 ## 待分配候选
 - PL-S-303｜锦云山结契与最低必要揭密
-  节点：`story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md`
-  状态依据：`story/plotlines/_status/pending.md`
+  节点：`specialties/plotlines/secondary/人物/晏林/锦云山结契与最低必要揭密.md`
+  状态依据：`specialties/plotlines/_status/pending.md`
   摘要：晏林与景雪瑶在锦云山望江峰分别完成星辰回应后，经晴夜轮值的公开救援与异常评估接口接触管理局，完成第一次最低必要揭密，并决定接受后续评估与登记安排。
   完成判据：- [ ] 正文或定稿摘要明确两人在公共观星地点分别完成星辰回应。 - [ ] 正文或定稿摘要明确公开救援身份先于星辰契约揭密和正式登记。 - [ ] 正文或定稿摘要明确第一次揭密只到必要事实，并以两人决定接受后续评估结束。
 

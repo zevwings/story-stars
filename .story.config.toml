@@ -1,12 +1,11 @@
 # 工具身份、RAG / GraphRAG 配置。
 # 本文件用于稳定项目身份、检索、路由和 brief 候选生成, 不是故事正典。
 # 作品级真源位于 zen/；具体事实以 chapters/、characters/、context/、clues/、story/、worldbuilding/ 等正式目录为准。
-# 已确认剧情线执行规格位于 story/construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
+# 已确认剧情线执行规格位于 specialties/plotlines/_construction/；construction GraphRAG 域按 _status/ 登记生成派生索引。
 
 [project]
 id = "46e68a09-6a00-4171-82b4-f0a2ec988252"
 layout = "zen"
-layout_version = "0.0.2"
 
 [[characters.roots]]
 path = "characters"
@@ -20,66 +19,41 @@ type = "character_dynamic"
 [timeline.entity_names]
 state = []
 
-[[specialties]]
-name = "intimacy"
+[dependencies.zen]
+version = "0.0.1"
+
+[dependencies.specialties.clothes]
+version = "0.0.1"
+
+[specialties.clothes]
 enabled = true
-dir = "specialties/intimacy"
+
+[dependencies.specialties.intimacy]
+version = "0.0.1"
+
+[specialties.intimacy]
+enabled = true
 overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
 
-[[specialties]]
-name = "sociology"
+[dependencies.specialties.plotlines]
+version = "0.0.1"
+
+[specialties.plotlines]
 enabled = true
-dir = "specialties/sociology"
+line_types = ["intimacy"]
 
-[[specialties]]
-name = "clothes"
+[dependencies.specialties.sociology]
+version = "0.0.1"
+
+[specialties.sociology]
 enabled = true
-dir = "specialties/clothes"
 
-[installations.intimacy]
-schema_version = 1
-kind = "specialty"
-target = "specialties/intimacy"
-installation_id = "3d5cb19c-1a48-4641-930c-8629ccb2d010"
+[dependencies.specialties.visuals]
+version = "0.0.1"
 
-[installations.plotlines]
-schema_version = 1
-kind = "feature"
-target = "story/plotlines"
-installation_id = "48d21a1b-31a7-4ee2-95c9-dcf3beee62c3"
+[specialties.visuals]
+enabled = true
 
-[installations.construction]
-schema_version = 1
-kind = "feature"
-target = "story/construction"
-installation_id = "d0ede3cb-9aa4-4c23-b964-248751198c0f"
-
-[installations.sociology]
-schema_version = 1
-kind = "specialty"
-target = "specialties/sociology"
-installation_id = "4aecbb85-7d07-441d-9eba-807227f46084"
-
-[installations.clothes]
-schema_version = 1
-kind = "specialty"
-target = "specialties/clothes"
-installation_id = "b7eb2581-e109-4f2f-8f22-cb1e5255c09a"
-
-[installations.visuals]
-schema_version = 1
-kind = "feature"
-target = "visuals"
-installation_id = "2f8ede4f-abd7-40e7-aaac-f0fbd5a95c4e"
-
-[visuals]
-root = "visuals"
-
-[features]
-
-plotlines = true
-construction = true
-visuals = true
 [agents.codex]
 architect_model = "gpt-5.6-sol"
 implementer_model = "gpt-5.6-terra"

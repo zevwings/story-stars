@@ -2,7 +2,7 @@
 
 默认使用中文回答。
 
-先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `layout = "zen"` 与 `layout_version = 1`；路径识别不区分大小写，新建内容统一使用规范小写，根目录项目文件不受支持。
+先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `layout = "zen"`；Zen 精确版本由 `dependencies.zen.version` 声明，包身份和摘要由 `.story.lock.toml` 锁定；项目入口路径使用规范大小写，新建内容统一使用规范小写，根目录项目文件不受支持。
 
 ## 小说任务模式路由
 
@@ -41,7 +41,7 @@
 
 1. 执行任何项目任务前，先完整读取 `$PROJECT_ENTRY`。
 2. 按 `$PROJECT_ENTRY` 的任务路由读取 `$PROJECT_BIBLE`、`$PROJECT_STYLE`、目标目录索引与相关真源。
-3. 最后按任务需要进入项目已 vendoring 的专项协议与参考；题材中立能力再进入 story-writer runtime。
+3. 最后按任务需要进入 resolver 返回的锁定 Specialty 公共协议与参考；题材中立能力再进入 story-writer runtime。
 
 ## 文件读取反馈
 
