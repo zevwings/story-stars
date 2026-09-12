@@ -98,7 +98,7 @@
 ### 正式真源引用
 - `zen/bible.md`
 - `zen/style.md`
-- `story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md`
+- `specialties/plotlines/secondary/人物/晏林/锦云山结契与最低必要揭密.md`
 - `characters/major/晏林/主卡.md`
 - `characters/major/晏林/契约.md`
 - `characters/major/晏林/关系/景雪瑶.md`
@@ -109,10 +109,10 @@
 - `worldbuilding/systems/契约自知.md`
 - `worldbuilding/society/觉醒与登记.md`
 - `worldbuilding/factions/星辰管理局.md`
-- `specialties/sociology/protocols/社会关系场总纲.md`
-- `specialties/sociology/protocols/关系动员与办事链.md`
-- `specialties/sociology/protocols/真人反应链.md`
-- `specialties/sociology/protocols/人情账与关系余波.md`
+- 锁定公共资源 sociology 包的《社会关系场总纲》（从 resolver 返回的 `resources.protocol.path` 进入）（由 resolver 定位）
+- 锁定公共资源 sociology 包的《关系动员与办事链》（从 resolver 返回的 `resources.protocol.path` 进入）（由 resolver 定位）
+- 锁定公共资源 sociology 包的《真人反应链》（从 resolver 返回的 `resources.protocol.path` 进入）（由 resolver 定位）
+- 锁定公共资源 sociology 包的《人情账与关系余波》（从 resolver 返回的 `resources.protocol.path` 进入）（由 resolver 定位）
 
 ## 候选扩读门
 - 首轮围绕已解析的项目入口、项目真典、目标 outline 与本摘要生成候选；目标路径明确时不再遍历章节索引。

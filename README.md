@@ -24,10 +24,10 @@
 
 ## 施工、参考与派生目录
 
-- `story/construction/`: 普通 `CON-*` 保存已确认执行规格并由 `_status/` 五态管理；`_gates/` 保存临时执行门禁，不提供故事事实。
+- `specialties/plotlines/_construction/`: 普通 `CON-*` 保存已确认执行规格并由 `_status/` 五态管理；`_gates/` 保存临时执行门禁，不提供故事事实。
 - `.prototypes/`: 人工维护、默认不读取的持久原型参考层。
 - `.analysis/`: 候选、推演、缺口、方案比较与历史过程。
-- 剧情线 Preview：使用 `story-writer plotline preview` 从正式剧情线直接打开，临时产物不写入本仓。
+- 剧情线 Preview：使用 `sw specialty plotlines preview` 从正式剧情线直接打开，临时产物不写入本仓。
 - `.prewrite/`: 分章节写前上下文包。
 
 完整真源层级见 `zen/bible.md`；施工、执行门禁与派生目录的规范边界见 `zen/policy.md`。

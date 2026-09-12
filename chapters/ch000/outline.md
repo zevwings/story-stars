@@ -50,14 +50,14 @@
 
 | 内容 | 本章状态 | 真源 |
 | --- | --- | --- |
-| `PL-S-303`｜锦云山结契与最低必要揭密 | 本章计划完整兑现；在正文或定稿摘要满足完成判据前仍为 `pending` | `story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md` |
-| `CON-0046`｜楔子施工 | 已绑定 `ch000`；约束场景顺序、最低揭密内容、信息边界和固定终点 | `story/construction/晏林双子星与管理局线/CON-0046-锦云山结契与最低必要揭密楔子.md` |
+| `PL-S-303`｜锦云山结契与最低必要揭密 | 本章计划完整兑现；在正文或定稿摘要满足完成判据前仍为 `pending` | `specialties/plotlines/secondary/人物/晏林/锦云山结契与最低必要揭密.md` |
+| `CON-0046`｜楔子施工 | 已绑定 `ch000`；约束场景顺序、最低揭密内容、信息边界和固定终点 | `specialties/plotlines/_construction/晏林双子星与管理局线/CON-0046-锦云山结契与最低必要揭密楔子.md` |
 
 ## 正式剧情节点
 
 ### 本章完成
 
-- [`PL-S-303`｜锦云山结契与最低必要揭密](../../story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md)：以公共地点分别结契、公开救援先行、最低必要揭密和两人分别接受后续评估为完整终点。
+- [`PL-S-303`｜锦云山结契与最低必要揭密](../../specialties/plotlines/secondary/人物/晏林/锦云山结契与最低必要揭密.md)：以公共地点分别结契、公开救援先行、最低必要揭密和两人分别接受后续评估为完整终点。
 
 ## 社会关系链
 
@@ -134,7 +134,7 @@
 
 - `zen/bible.md`
 - `zen/style.md`
-- `story/plotlines/副线/人物/晏林/锦云山结契与最低必要揭密.md`
+- `specialties/plotlines/secondary/人物/晏林/锦云山结契与最低必要揭密.md`
 - `characters/major/晏林/主卡.md`
 - `characters/major/晏林/契约.md`
 - `characters/major/晏林/关系/景雪瑶.md`
@@ -145,7 +145,6 @@
 - `worldbuilding/systems/契约自知.md`
 - `worldbuilding/society/觉醒与登记.md`
 - `worldbuilding/factions/星辰管理局.md`
-- `specialties/sociology/protocols/社会关系场总纲.md`
-- `specialties/sociology/protocols/关系动员与办事链.md`
-- `specialties/sociology/protocols/真人反应链.md`
-- `specialties/sociology/protocols/人情账与关系余波.md`
+## 公共方法参考
+
+通过 `sw specialty sociology resolve --root <项目根>` 定位锁定 sociology 包的 protocol 资源入口，按需读取《社会关系场总纲》《关系动员与办事链》《真人反应链》《人情账与关系余波》。这些协议提供方法，不属于本章故事事实来源。

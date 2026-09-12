@@ -1,0 +1,43 @@
+lock_version = 1
+
+[[packages]]
+kind = "specialty"
+name = "clothes"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:90592acba5c1c1835af107e7e0e94b41e4a930b4c53861a117f9c8d567a0edf9"
+
+[[packages]]
+kind = "specialty"
+name = "intimacy"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:e335161c9851ce0bc90af2c4be8c72aef092e8bc0cf01ca9514b38579e256f39"
+
+[[packages]]
+kind = "specialty"
+name = "plotlines"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:7b4f46edcd16cefe1f20b31e17fd5e5e334cc4b84d92db4310ea7c2c06045fbc"
+
+[[packages]]
+kind = "specialty"
+name = "sociology"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:1911d1cf8399d9ce58578eab84cebdbe3dc05b01f07b7ed44d23e9027580cbb3"
+
+[[packages]]
+kind = "specialty"
+name = "visuals"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:20ddb992dc4cbeed23d291d69d7122e6d7b1ca463e646be1235d8b84daf9f9fe"
+
+[[packages]]
+kind = "zen"
+name = "zen"
+format = "sw-public-package-v1"
+version = "0.0.1"
+digest = "sha256:8be447307dd6f4c1b7149b69d7ca7914aae363fab842c0ad89064a29934c739c"

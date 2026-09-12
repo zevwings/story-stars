@@ -1,15 +1,15 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=e8c75a48bd951643688f2c5d6b6d811d4f2dd1dc0cbaa25476c2fdad093e579e -->
+<!-- story-writer-managed: skills-guide/v1 sha256=7e66ff49ff98b680752ff5dcde447c3bdee548a25bb09530963e4e86656d6d36 -->
 # Story-writer Skills 使用手册
 
-> 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
+> 本文件随锁定 Zen 包生成，由 `sw project sync --init` 创建、`sw project sync` 刷新。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
 
 ## 如何使用
 
 - 可以直接描述任务，由 Agent 根据 Skill 的 `description` 和项目规则选择入口。
 - 需要固定入口时，使用显式调用：`$skill-name <目标或参数>`。
 - 先按任务路由选择入口；需要核对触发语、条件依赖和写入范围时再展开完整清单。执行前读取 runtime 中对应 `SKILL.md`，以其为准。
-- `Feature / Specialty` 是条件依赖，不代表每次调用都会读取或启用对应能力。
-- 本页是安装快照。当 runtime 更新后，使用 `sw setup sync` 安全刷新。
+- `Specialty` 是条件依赖，不代表每次调用都会读取或启用对应能力。
+- 本页是锁定 Zen 的指引快照。依赖显式切换后，使用 `sw project sync` 安全刷新。
 
 ## 常用工作链
 
@@ -58,7 +58,7 @@ $chapter-finalizer 定稿第12章
 - `delegated`：实际写入范围由被调用的领域 Skill 合同决定。
 - `repository`：当前 Git 仓库的协作规则、目录与验证入口。
 - `git`：工作树、index、分支、提交、远端引用或 Pull Request 状态。
-- `条件依赖`：只有项目启用对应 Feature / Specialty 或流程需要前置 Skill 时才生效。
+- `条件依赖`：只有项目启用对应 Specialty 或流程需要前置 Skill 时才生效。
 
 视觉资料维护：身份参考用 `$character-identity-builder collect`；衣装、场景参考用 `$character-image-generator collect`；长期偏好用 `$character-image-generator preferences`。这三类操作不生成图片，也不要求已有批准主脸。
 
@@ -74,7 +74,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$chapter-finalizer <任务目标>`
 - 典型触发语：`定稿第X章`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`chapters`, `characters`, `context`, `clues`, `story`, `worldbuilding`, `construction`, `plotlines`, `rag`
 
 ### `$chapter-prewrite`
@@ -84,7 +84,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$chapter-prewrite <任务目标>`
 - 典型触发语：`预展开第X章`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`prewrite`
 
 ### `$chapter-reviewer`
@@ -94,7 +94,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$chapter-reviewer <任务目标>`
 - 典型触发语：`读者审读`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$chapter-writer`
@@ -104,7 +104,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$chapter-writer <任务目标>`
 - 典型触发语：`续写章节正文`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`
 
 ### `$character-builder`
@@ -114,7 +114,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$character-builder <任务目标>`
 - 典型触发语：`新增角色`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
 
 ### `$character-identity-builder`
@@ -164,7 +164,7 @@ $chapter-finalizer 定稿第12章
 - 调用格式：`$clue-manager <任务目标>`
 - 典型触发语：`埋线索`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`clues`
 
 ### `$construction-gate-manager`
@@ -174,7 +174,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$construction-gate-manager <任务目标>`
 - 典型触发语：`处理 GATE`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`chapters`, `construction`, `plotlines`
 
 ### `$create-pull-request`
@@ -194,7 +194,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$grilling <任务目标>`
 - 典型触发语：`压力测试`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`analysis`
 
 ### `$intimacy-hd-dark-planner`
@@ -204,7 +204,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$intimacy-hd-dark-planner <任务目标>`
 - 典型触发语：`黑暗HD设计`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-dark-writer`
@@ -214,7 +214,7 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 调用格式：`$intimacy-hd-dark-writer <任务目标>`
 - 典型触发语：`写黑暗HD正文`
 - 模式：`project-write`
-- 条件依赖：`skill:intimacy-hd-dark-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`skill:intimacy-hd-dark-planner`, `specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-planner`
@@ -224,7 +224,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$intimacy-hd-planner <任务目标>`
 - 典型触发语：`B场HD设计`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$intimacy-hd-writer`
@@ -234,7 +234,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$intimacy-hd-writer <任务目标>`
 - 典型触发语：`写B场正文`
 - 模式：`project-write`
-- 条件依赖：`skill:intimacy-hd-planner`, `feature:construction`, `feature:plotlines`, `specialty:intimacy`
+- 条件依赖：`skill:intimacy-hd-planner`, `specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
 ### `$media-extract-review`
@@ -274,7 +274,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$outline-generator <任务目标>`
 - 典型触发语：`生成大纲`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:intimacy`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`chapters`, `prewrite`, `story`
 
 ### `$plotline-manager`
@@ -284,7 +284,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$plotline-manager <任务目标>`
 - 典型触发语：`创建剧情线`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`analysis`, `construction`, `plotlines`
 
 ### `$plotline-visualizer`
@@ -294,7 +294,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$plotline-visualizer <任务目标>`
 - 典型触发语：`生成剧情线图片`
 - 模式：`project-write`
-- 条件依赖：`feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`derived`
 
 ### `$precommit-checker`
@@ -304,7 +304,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$precommit-checker <任务目标>`
 - 典型触发语：`预提交检查`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`rag`
 
 ### `$session`
@@ -325,7 +325,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-auditor <任务目标>`
 - 典型触发语：`群像健康`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`analysis`
 
 ### `$story-orchestration`
@@ -335,7 +335,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-orchestration <任务目标>`
 - 典型触发语：`复杂任务编排`
 - 模式：`delegated-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：`delegated`
 
 ### `$story-planner`
@@ -345,7 +345,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-planner <任务目标>`
 - 典型触发语：`规划后续剧情`
 - 模式：`project-write`
-- 条件依赖：`feature:construction`, `feature:plotlines`, `specialty:sociology`
+- 条件依赖：`specialty:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
 ### `$story-review`
@@ -355,7 +355,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 调用格式：`$story-review <任务目标>`
 - 典型触发语：`story review`
 - 模式：`read-only`
-- 条件依赖：`feature:construction`, `feature:plotlines`
+- 条件依赖：`specialty:plotlines`
 - 写入范围：—
 
 ### `$world-builder`
@@ -375,8 +375,10 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 ## 安装与刷新
 
 ```bash
-sw setup sync --root /path/to/story-project
-sw agent sync --root /path/to/story-project --target codex
+sw project sync --root /path/to/story-project
+sw project agent sync --root /path/to/story-project --target codex
 ```
 
-`sw setup sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；项目 Agent Skill/MCP 由 `sw agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw project sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；项目 Agent Skill/MCP 由 `sw project agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+
+<!-- sw:zen sw-public-package-v1 zen@0.0.1 sha256:8be447307dd6f4c1b7149b69d7ca7914aae363fab842c0ad89064a29934c739c -->

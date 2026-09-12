@@ -1,0 +1,33 @@
+schema_version: 1
+domain: characters
+augmentations:
+  - template: characters.profile
+    supplements:
+      - path: profile-career.md
+        slot: profile.identity.after
+      - path: profile-stars.md
+        slot: profile.capabilities.after
+        schema: exclusive.character.profile-stars@1
+      - path: profile-navigation.md
+        slot: profile.capabilities.after
+  - template: characters.relationship
+    supplements:
+      - path: relationship-intimacy.md
+        slot: relationship.intimacy.after
+  - template: characters.outfit
+    supplements:
+      - path: outfit-intimacy.md
+        slot: outfit.interaction.after
+templates:
+  - id: characters.contract
+    summary: 建立角色专属星辰契约档案
+    target: characters/{tier}/{character}/契约.md
+    output_schema: exclusive.character.contract@1
+    primary:
+      path: contract.md
+    supplements: []
+bundle_augmentations:
+  - bundle: characters.create
+    required: []
+    optional: [characters.contract]
+bundles: []

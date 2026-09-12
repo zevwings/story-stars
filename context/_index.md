@@ -14,6 +14,7 @@
 - [chapter_summaries.md](./chapter_summaries.md): 章节摘要总表或摘要路由。
 - [summaries/](./summaries/_index.md): 分段、分卷或分章摘要。
 - [characters/](./characters/_index.md): 人物动态状态，包括观感年龄、实力、关系、伤势、位置、心理状态和出场承接；实际年龄锚点见静态人物主卡。
+- [artifacts/](./artifacts/_index.md)：已确认的动态器物状态登记入口。
 - [timeline.md](./timeline.md): 已定稿章节形成的上下文时间线。
 
 ## 关联边界
