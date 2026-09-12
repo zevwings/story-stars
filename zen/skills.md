@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=fac140442ac09e90235d7101981dd4d78ef638090cbc59aaf905631957c31ba8 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=e8c75a48bd951643688f2c5d6b6d811d4f2dd1dc0cbaa25476c2fdad093e579e -->
 # Story-writer Skills 使用手册
 
 > 本文件由 story-writer runtime 生成并由 `sw setup sync` 安装。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -60,6 +60,8 @@ $chapter-finalizer 定稿第12章
 - `git`：工作树、index、分支、提交、远端引用或 Pull Request 状态。
 - `条件依赖`：只有项目启用对应 Feature / Specialty 或流程需要前置 Skill 时才生效。
 
+视觉资料维护：身份参考用 `$character-identity-builder collect`；衣装、场景参考用 `$character-image-generator collect`；长期偏好用 `$character-image-generator preferences`。这三类操作不生成图片，也不要求已有批准主脸。
+
 <!-- BEGIN GENERATED: project-skill-guide -->
 ## 全部公开 Skills
 
@@ -114,6 +116,26 @@ $chapter-finalizer 定稿第12章
 - 模式：`project-write`
 - 条件依赖：`feature:construction`, `specialty:intimacy`, `specialty:sociology`
 - 写入范围：`analysis`, `characters`, `context`, `rag`
+
+### `$character-identity-builder`
+
+从正式角色卡和可选参考图片生成面容 Prompt、面容候选或直接采用主脸。也支持仅收录身份参考、保存当前任务的长期视觉偏好；用于角色定脸、参考脸生成、角色视觉预检及按需补充多角度身份图；作者批准主脸后即可用于场景生图。
+
+- 调用格式：`$character-identity-builder <任务目标>`
+- 典型触发语：`角色视觉预检`, `角色定脸`, `收录身份参考`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`derived`
+
+### `$character-image-generator`
+
+结合角色主脸、主卡、形象和衣装资料进行角色生图，生成单角色衣装或场景 Prompt 与图片，也支持收录场景参考、收录衣装参考和保存视觉偏好。Prompt-only 可使用未批准参考或仅卡片；实际生图需要批准主脸，定脸使用 character-identity-builder。
+
+- 调用格式：`$character-image-generator <任务目标>`
+- 典型触发语：`角色生图`, `收录场景参考`, `收录衣装参考`, `保存视觉偏好`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`derived`
 
 ### `$clothes-decomposer`
 
