@@ -1,4 +1,4 @@
-# story/construction/ 是施工真源；.prewrite/ 与 .analysis/ 用于派生材料和待确认事项，默认不忽略。
+# specialties/plotlines/_construction/ 是施工真源；.prewrite/ 与 .analysis/ 用于派生材料和待确认事项，默认不忽略。
 
 # Agents
 /.agents/

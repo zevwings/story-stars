@@ -10,9 +10,9 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 只有 `activation=enabled`、`ready=true` 且没有 blocking diagnostic 时才使用这些规则。`set | piece`、稳定 ID、catalog 完成门禁和正式 owner 的公共契约仍服从 package-managed 协议：
 
-- [衣装分析与设计协议](../../protocols/衣装分析与设计协议.md)
-- [衣装收录协议](../../protocols/衣装收录协议.md)
-- [衣装正式转写协议](../../protocols/衣装正式转写协议.md)
+- 衣装分析与设计协议（锁定公共资源：clothes 包的《衣装分析与设计协议》（从 resolver 返回的 `resources.protocol.path` 进入），由 resolver 定位）
+- 衣装收录协议（锁定公共资源：clothes 包的《衣装收录协议》（从 resolver 返回的 `resources.protocol.path` 进入），由 resolver 定位）
+- 衣装正式转写协议（锁定公共资源：clothes 包的《衣装正式转写协议》（从 resolver 返回的 `resources.protocol.path` 进入），由 resolver 定位）
 
 ## 文件入口
 
