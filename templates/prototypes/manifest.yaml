@@ -1,0 +1,30 @@
+schema_version: 1
+domain: prototypes
+augmentations: []
+templates:
+  - id: prototypes.character
+    summary: 建立项目专属人物视觉原型档
+    target: .prototypes/characters/{character}
+    primary:
+      path: character.md
+    supplements: []
+  - id: prototypes.character-index
+    summary: 初始化项目专属人物原型索引
+    target: .prototypes/characters/_index.md
+    primary:
+      path: character-index.md
+    supplements: []
+  - id: prototypes.region
+    summary: 建立项目专属地区原型档
+    target: .prototypes/regions/{region}
+    primary:
+      path: region.md
+    supplements: []
+  - id: prototypes.region-index
+    summary: 初始化项目专属地区原型索引
+    target: .prototypes/regions/_index.md
+    primary:
+      path: region-index.md
+    supplements: []
+bundle_augmentations: []
+bundles: []

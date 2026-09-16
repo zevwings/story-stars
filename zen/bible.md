@@ -14,7 +14,7 @@
 2. `style.md`：文风真源。
 3. 正式目录：`chapters/`、`characters/`、`context/`、`clues/`、`story/`、`worldbuilding/`。
 4. 已启用专项目录：由 `.story.config.toml` 声明；专项协议不覆盖上述真源。
-5. `story/construction/`：普通 `CON-*` 保存挂接正式剧情节点的执行规格；`_gates/` 保存临时执行门禁。两者都不是长期正典，Gate 不提供故事事实。
+5. `specialties/plotlines/_construction/`：普通 `CON-*` 保存挂接正式剧情节点的执行规格；`specialties/plotlines/_gates/` 保存临时执行门禁。两者都不是长期正典，Gate 不提供故事事实。
 6. `.prototypes/`：默认不读的原型参考层，不是故事事实。
 7. `.sw/generated/`、`.prewrite/`、`.analysis/` 与 Preview：派生或分析层，不是真源。
 
