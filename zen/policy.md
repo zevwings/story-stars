@@ -37,3 +37,8 @@
 - `specialties/plotlines/_gates/` 保存已经进入施工阶段、但可以延后到明确 operation 再决定的问题。Gate 必须命中至少一个 `active` 或 `bound` 的 `CON-*`，只读取 frontmatter 判断阻塞，不进入 Construction 状态表、普通继承或 RAG；只有作者明确要求处理具体 Gate 时才读取正文。作者决定后先回写并验证全部正式目标，最后删除 Gate，不保留 resolved 副本。
 - Preview 仅读取配置、`specialties/plotlines/`、其状态与 `story/arcs/`；临时 HTML、payload 与 manifest 不进入仓库。`.prewrite/` 是章节上下文包，不能替代正式章纲、人物状态、线索状态或世界观。
 - `.analysis/` 保存候选、推演、缺口、待确认项和历史过程；剧情线内部缺口进入 `.analysis/plotlines/`，跨线或正式设定级分析进入 `.analysis/blueprints/`。
+
+## P-006：衣装参考实体命名
+
+- `specialties/clothes/references/catalog/pieces/` 与 `sets/` 下的衣装参考实体文件统一使用 `CLO-编号_名称.md`，保留已有编号；`CLO` 前缀是新建文件小写规则的明确例外。
+- 目录名继续使用规范小写；索引和其他路径引用必须与实际文件名大小写一致。

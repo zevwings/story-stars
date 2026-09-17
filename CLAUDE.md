@@ -2,7 +2,7 @@
 
 默认使用中文回答。
 
-先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `layout = "zen"`；Zen 精确版本由 `dependencies.zen.version` 声明，包身份和摘要由 `.story.lock.toml` 锁定；项目入口路径使用规范大小写，新建内容统一使用规范小写，根目录项目文件不受支持。
+先运行 `sw project resolve --root <项目根目录>`，将返回的 `project_files.policy`、`project_files.entry`、`project_files.bible`、`project_files.style` 分别绑定为 `$PROJECT_POLICY`、`$PROJECT_ENTRY`、`$PROJECT_BIBLE`、`$PROJECT_STYLE`；`project_files.references` 与 `project_files.skills` 分别定位辅助引用图和受管 Skill 索引。项目只支持 `layout = "zen"`；Zen 精确版本由 `dependencies.zen.version` 声明，包身份和摘要由 `.story.lock.toml` 锁定；项目入口路径使用规范大小写，新建内容统一使用规范小写（衣装参考实体文件的 `CLO-*` 前缀例外，详见 `zen/policy.md`），根目录项目文件不受支持。
 
 ## 强制项目策略
 

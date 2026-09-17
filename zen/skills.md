@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=7e66ff49ff98b680752ff5dcde447c3bdee548a25bb09530963e4e86656d6d36 -->
+<!-- story-writer-managed: skills-guide/v1 sha256=7f150ad55a72c0f69218bf1e10c5fe929864aab6d218c5224c912a518fc877cb -->
 # Story-writer Skills 使用手册
 
 > 本文件随锁定 Zen 包生成，由 `sw project sync --init` 创建、`sw project sync` 刷新。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -23,7 +23,7 @@ $chapter-finalizer 定稿第12章
 
 `chapter-prewrite` 是可选步骤：需要补充写前材料时调用 `$chapter-prewrite 预展开第12章`，只生成有实际缺口或作者明确指定的产物。上述流程不要求从头重跑，也不自动定稿。
 
-待合入内容审查使用 `$story-review staged`；已实现故事和群像健康审计使用 `$story-auditor comprehensive`；提交前工程检查使用 `$precommit-checker 提交前检查`。三者不能互相替代。
+待合入内容审查使用 `$story-pull-request-review staged`；已实现故事和群像健康审计使用 `$story-auditor comprehensive`；提交前工程检查使用 `sw project check --staged`。三者不能互相替代。
 
 ## 任务路由
 
@@ -37,10 +37,10 @@ $chapter-finalizer 定稿第12章
 | 人物 / 世界观 / 线索 / 剧情节点 | `$character-builder` / `$world-builder` / `$clue-manager` / `$plotline-manager` |
 | 剧情线预览 | `$plotline-visualizer` |
 | 媒体提取 / 候选裁决 / 衣装收录 / 人物采用 | `$media-extractor` / `$media-extract-review` / `$clothes-decomposer` / `$clothes-designer` |
-| 已实现故事与群像审计 / 内容变更审查 / 提交前检查 | `$story-auditor` / `$story-review` / `$precommit-checker` |
+| 已实现故事与群像审计 / 内容变更审查 / 提交前检查 | `$story-auditor` / `$story-pull-request-review` / `sw project check --staged` |
 | 创作决策拷问 / 多 Agent 编排 / 处理施工 Gate | `$grilling` / `$story-orchestration` / `$construction-gate-manager`，按各自触发条件进入 |
-| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$session` checkpoint / handoff / resume / manager |
-| 创建 PR / 合并 PR | `$create-pull-request` / `$merge-pull-request`，分别明确授权 |
+| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$session-checkpoint` / `$session-handoff` / `$session-resume` / `$session-manager` |
+| 创建 PR / 合并 PR | `$story-pull-request-create` / `$story-pull-request-merge`，分别明确授权 |
 | 正向 HD 设计 / 正文 | `$intimacy-hd-planner` / `$intimacy-hd-writer`，仅手动触发 |
 | 黑暗 HD 设计 / 正文 | `$intimacy-hd-dark-planner` / `$intimacy-hd-dark-writer`，仅手动触发 |
 
@@ -89,7 +89,7 @@ $chapter-finalizer 定稿第12章
 
 ### `$chapter-reviewer`
 
-章节诊断统一入口。支持 reader、editor、consistency 与组合模式。触发词: 审读第X章、读者审读、编辑审稿、检查AI味、检查AI腔、检查模板化、机械感、人味不足、检查矛盾、检查世界观、检查命名、检查时间线、检查知情边界、检查人情世故链、检查人情事故链、检查办事链、检查真人反应链、检查真人反射链、完整审读。只诊断，不改文；针对待合入内容变更的问题归因使用 story-review。
+章节诊断统一入口。支持 reader、editor、consistency 与组合模式。触发词: 审读第X章、读者审读、编辑审稿、检查AI味、检查AI腔、检查模板化、机械感、人味不足、检查矛盾、检查世界观、检查命名、检查时间线、检查知情边界、检查人情世故链、检查人情事故链、检查办事链、检查真人反应链、检查真人反射链、完整审读。只诊断，不改文；针对待合入内容变更的问题归因使用 story-pull-request-review。
 
 - 调用格式：`$chapter-reviewer <任务目标>`
 - 典型触发语：`读者审读`
@@ -177,22 +177,12 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`chapters`, `construction`, `plotlines`
 
-### `$create-pull-request`
-
-为已接入 story-writer 的正式写作项目安全创建或更新 GitHub Pull Request：要求项目布局能解析 entry.md 与 bible.md，按 feature/fix/refactor/docs/chore 约定建分支，执行 precommit-checker 与必要的 story-review，精确暂存、提交和普通推送， 并核对远端 branch 与 PR head OID。用户明确要求在写作项目中创建 Pull Request、创建 PR、提交并发 PR 或更新当前 PR 时使用；不用于 story-writer 工具仓或缺少正式项目入口的资料仓，不负责修改故事内容、merge、rebase、amend、 force-push、合并后清理或切回主分支。
-
-- 调用格式：`$create-pull-request <任务目标>`
-- 典型触发语：`创建 Pull Request`, `创建 PR`
-- 模式：`project-write`
-- 条件依赖：`skill:precommit-checker`
-- 写入范围：`git`
-
 ### `$grilling`
 
-小说重大创作决策的单问单答压力测试。读取当前项目真源，动态拷问核心命题、人物、世界观、剧情线、章节方案和关键场景，在作者确认达成共同理解后把决策摘要写入 .analysis/grilling/。仅在作者明确要求拷问、追问、问透、压力测试、grill 或通过问答分析小说设计时使用；普通的帮我看看、讨论、深度分析、具体分析、润色、审读或写作不触发。
+grilling：通过单问单答压力测试重大工程或小说设计，确认共同理解后保存候选决策；仅明确要求拷问、追问、问透或压力测试时触发，不自动实施。
 
 - 调用格式：`$grilling <任务目标>`
-- 典型触发语：`压力测试`
+- 典型触发语：`grilling`
 - 模式：`project-write`
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`analysis`
@@ -239,7 +229,7 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ### `$media-extract-review`
 
-通过受管 `sm extract review` 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 media-extractor，正式衣装收录使用 clothes-decomposer。
+通过受管 `sm extract review` CLI 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 media-extractor，正式衣装收录使用 clothes-decomposer。
 
 - 调用格式：`$media-extract-review <任务目标>`
 - 典型触发语：`筛选归类`, `识别去重`, `合并候选`, `拆分候选`
@@ -256,16 +246,6 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 模式：`project-write`
 - 条件依赖：—
 - 写入范围：`runtime`, `derived`
-
-### `$merge-pull-request`
-
-为已接入 story-writer 的正式写作项目安全合并 GitHub Pull Request：用户显式调用并提供 PR 号或 URL 后， 将多 commit PR 在临时 worktree 中收束为单 commit，使用精确 force-with-lease 推送，重新验证新 head 的 checks 与 reviews， 再以 head OID 原子匹配执行 squash merge，切换并快进本地 PR base，精确清理远程与本地 PR 分支。触发语：合并 Pull Request、 合并 PR。不用于 story-writer 工具仓、fork PR、内容 review 或修复。
-
-- 调用格式：`$merge-pull-request <任务目标>`
-- 典型触发语：`合并 Pull Request`, `合并 PR`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`git`
 
 ### `$outline-generator`
 
@@ -297,30 +277,49 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`derived`
 
-### `$precommit-checker`
+### `$session-checkpoint`
 
-小说项目提交前检查。刷新并验证 GraphRAG，检查 Markdown 断链、正式剧情节点、Git 暂存范围、派生缓存误提交和真源层级错放；只输出终端结论，不生成报告文档、不修改小说正式内容、不暂存或提交。触发词: 预提交检查、提交前检查、检查小说项目、检查未同步、检查断链、precommit-checker。只执行工程门禁；小说内容变更审查使用 story-review。
+session-checkpoint：保存当前任务短期断点，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
 
-- 调用格式：`$precommit-checker <任务目标>`
-- 典型触发语：`预提交检查`
+- 调用格式：`$session-checkpoint <任务目标>`
+- 典型触发语：`session-checkpoint`
 - 模式：`project-write`
-- 条件依赖：`specialty:plotlines`
-- 写入范围：`rag`
-
-### `$session`
-
-小说任务续接统一入口。使用 session checkpoint 保存短期断点，session handoff 创建跨会话交接，session resume 恢复未完成任务，扫描 sessions 或使用 session manager 审计、软删除、恢复和永久清理续接记录。普通正文续写应使用 chapter-writer。
-
-- 调用格式：`$session <checkpoint|handoff|resume|manager> <任务目标>`
-- 典型触发语：`session checkpoint`, `session handoff`, `session resume`, `扫描 sessions`
-- 模式：`routed`
-- 子操作：`checkpoint:project-write/sessions`, `handoff:project-write/sessions`, `resume:delegated-write/delegated`, `manager:project-write/sessions`
 - 条件依赖：—
-- 写入范围：`sessions`, `delegated`
+- 写入范围：`sessions`
+
+### `$session-handoff`
+
+session-handoff：创建跨会话完整交接，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$session-handoff <任务目标>`
+- 典型触发语：`session-handoff`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`sessions`
+
+### `$session-manager`
+
+session-manager：审计、关闭、软删除、恢复和永久清理续接记录，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$session-manager <任务目标>`
+- 典型触发语：`session-manager`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`sessions`
+
+### `$session-resume`
+
+session-resume：核验记录并恢复原任务，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$session-resume <任务目标>`
+- 典型触发语：`session-resume`
+- 模式：`delegated-write`
+- 条件依赖：—
+- 写入范围：`delegated`
 
 ### `$story-auditor`
 
-故事审计统一入口。支持 implementation、cast-health 与 comprehensive。检查已定稿实现、摘要与状态同步债，或人物群像健康。只诊断，不规划未来、不改真源；不用于审查待合入变更，此类任务使用 story-review。
+故事审计统一入口。支持 implementation、cast-health 与 comprehensive。检查已定稿实现、摘要与状态同步债，或人物群像健康。只诊断，不规划未来、不改真源；不用于审查待合入变更，此类任务使用 story-pull-request-review。
 
 - 调用格式：`$story-auditor <任务目标>`
 - 典型触发语：`群像健康`
@@ -348,15 +347,36 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`specialty:plotlines`, `specialty:sociology`
 - 写入范围：`analysis`
 
-### `$story-review`
+### `$story-pull-request-create`
 
-小说内容变更审查。用于审查待合入的小说改动，定位本次变更新增或加重的事实冲突、连续性断裂、状态遗漏与真源回归。支持 PR、分支、commit range、staged 及本地候选变更。触发词: story review、小说变更审查、小说 PR review、审查故事改动、审查当前分支、审查 staged 小说变更、检查这个 PR 的故事问题。只读，不修改文件、不提交、不做泛文学审稿。
+story-pull-request-create：为工具仓或写作仓发布已有改动，创建或更新 PR；不修改任务内容，不负责合并。仅要求 commit 或 push 时不触发。
 
-- 调用格式：`$story-review <任务目标>`
-- 典型触发语：`story review`
-- 模式：`read-only`
+- 调用格式：`$story-pull-request-create <任务目标>`
+- 典型触发语：`story-pull-request-create`
+- 模式：`project-write`
+- 条件依赖：`skill:story-pull-request-review`
+- 写入范围：`git`
+
+### `$story-pull-request-merge`
+
+story-pull-request-merge：显式提供 PR 号或 URL 后执行单 commit 收束、精确 lease、合并门禁、squash merge 与精确分支清理；不审查或修复内容。
+
+- 调用格式：`$story-pull-request-merge <任务目标>`
+- 典型触发语：`story-pull-request-merge`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`git`
+
+### `$story-pull-request-review`
+
+story-pull-request-review：审查 staged、指定 diff 或 PR，默认只读；story-pull-request-review 修复执行一轮，story-pull-request-review 修到通过执行收敛闭环。按仓库类型检查工程或故事回归，不做泛文学审稿。
+
+- 调用格式：`$story-pull-request-review staged|<base>...HEAD|<PR号或URL> [修复|修到通过]`
+- 典型触发语：`story-pull-request-review`, `story-pull-request-review 修复`, `story-pull-request-review 修到通过`
+- 模式：`routed`
+- 子操作：`review:read-only/none`, `fix:delegated-write/delegated`, `converge:delegated-write/delegated`
 - 条件依赖：`specialty:plotlines`
-- 写入范围：—
+- 写入范围：`delegated`
 
 ### `$world-builder`
 
@@ -376,9 +396,9 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 
 ```bash
 sw project sync --root /path/to/story-project
-sw project agent sync --root /path/to/story-project --target codex
+sw distribution agent sync --target codex
 ```
 
-`sw project sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；项目 Agent Skill/MCP 由 `sw project agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
+`sw project sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；公共 Skills 由 suite 安装到 `~/.agents/skills`，用户级 MCP/hooks/角色由 `sw distribution agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
 
-<!-- sw:zen sw-public-package-v1 zen@0.0.1 sha256:8be447307dd6f4c1b7149b69d7ca7914aae363fab842c0ad89064a29934c739c -->
+<!-- sw:zen sw-public-package-v1 zen@0.0.1 sha256:4337de648b4ef44d38a810891273bdbab1b20d332a1efea8cf39bdf5ff64e5a9 -->
