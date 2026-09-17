@@ -27,7 +27,7 @@
 - `clues/`：线索生命周期。
 - `story/`：故事结构、题材口径、分卷弧线、剧情线和长期规划。
 - `worldbuilding/`：世界观正式设定。
-- 专项目录：由 `.story.config.toml` 的 `[specialties.<name>]` 声明；公共方法使用 resolver 返回的具名资源（包声明 entry 时取 `dependencies[].resources.entry.path`），项目内容使用对应 `project_root` 和项目自有索引。
+- 专项目录：由 `.story.config.toml` 的 `[dependencies.specialties.<name>]` 声明；公共方法使用 resolver 返回的具名资源（包声明 entry 时取 `dependencies[].resources.entry.path`），项目内容使用对应 `project_root` 和项目自有索引。
 - 专项目录所有权：公共 `_index.md`、`protocols/`、`references/_index.md` 与 `references/library/` 由锁定 Specialty 包持有，不复制到项目；当前项目的补充参考统一写入 `references/supplements/`，其它内容只写入该 Specialty 明确声明的项目自有目录。
 
 按任务命中从下列正式入口继续读取，不在本文复制规则正文：

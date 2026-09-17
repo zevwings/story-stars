@@ -19,42 +19,27 @@ type = "character_dynamic"
 [timeline.entity_names]
 state = []
 
-[dependencies.zen]
-version = "0.0.1"
-
 [dependencies.specialties.clothes]
 version = "0.0.1"
-
-[specialties.clothes]
 enabled = true
 
 [dependencies.specialties.intimacy]
 version = "0.0.1"
-
-[specialties.intimacy]
 enabled = true
 overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
 
 [dependencies.specialties.plotlines]
 version = "0.0.1"
-
-[specialties.plotlines]
 enabled = true
 line_types = ["intimacy"]
 
 [dependencies.specialties.sociology]
 version = "0.0.1"
-
-[specialties.sociology]
 enabled = true
 
 [dependencies.specialties.visuals]
 version = "0.0.1"
-
-[specialties.visuals]
 enabled = true
 
-[agents.codex]
-architect_model = "gpt-5.6-sol"
-implementer_model = "gpt-5.6-terra"
-reviewer_model = "gpt-5.6-sol"
+[dependencies.zen]
+version = "0.0.1"
