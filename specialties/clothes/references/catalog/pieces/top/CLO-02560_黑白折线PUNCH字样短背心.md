@@ -22,10 +22,6 @@ record_kind: piece
 
 ## 来源与边界
 
-以下受管图片于 2026-09-18 视觉核验，逻辑图片 ID 与原媒体摘要用于回查；临时抽帧路径不作为长期来源。
-
-- 候选 `cand-outfit-1db96c683049f9f1bbea3f0b`；Collection `douyin:圣帝吖_Diana-MS4wLjABAAAA4xz-bvn5KIBY884fKf6SaoSxqXH_pC4WlsqmiXVGq-Y`。图片逻辑 ID `sha256:22dbc3f76261ffd377b8e9d25dbb212bac724a3056b46bbd6bb16a4ec7e92d73`；图片字节摘要 `sha256:4a04f5a2a2981ec408d9474077c3e7d053e798e4238166eb394d29a5651b576b`。来源 `2023-07-11_20-55-38_鸡哔你_7254543912335953192.mp4`，0.700 秒（PTS 10752/15360）；原媒体摘要 `sha256:bc93dca06668e7e8322d4aad253c10998aaf3ed8d89ea89621183bbeeb8c3e66`；placement `placement-456ce7277ffa944e8423ec1e01e8a95fb7a533c8f4114fc5466e106e4ad69881`。
-
 画面确认：黑白连续折线纹宽肩带短背心，白色窄边圆领与袖窿，平直白色宽下摆配黑色双线和PUNCH字样。
 
 文档明示：没有实物规格或商品参数文档。结构不确定项见下文；没有推定不可见的内部工艺。项目设计边界：用途、季节与搭配条件是依据可见结构提出的适配判断，不代表来源人物的身份或偏好；没有新增候选色版，不建立人物拥有或穿着事实。

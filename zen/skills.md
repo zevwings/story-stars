@@ -1,4 +1,4 @@
-<!-- story-writer-managed: skills-guide/v1 sha256=7f150ad55a72c0f69218bf1e10c5fe929864aab6d218c5224c912a518fc877cb -->
+<!-- story-writer-managed: skills-guide/v1 sha256=c5f29e99eb61d4c810718cc1b78e05201a677be724528b068e341f53e0e54dba -->
 # Story-writer Skills 使用手册
 
 > 本文件随锁定 Zen 包生成，由 `sw project sync --init` 创建、`sw project sync` 刷新。它只说明公开写作 Skills 的选择和调用，不保存故事事实，也不替代项目 `policy.md`、`entry.md`、`bible.md`、`style.md` 或各 Skill 的完整执行规则。
@@ -36,10 +36,10 @@ $chapter-finalizer 定稿第12章
 | 定稿 / 补录摘要 | `$chapter-finalizer`，须明确要求 |
 | 人物 / 世界观 / 线索 / 剧情节点 | `$character-builder` / `$world-builder` / `$clue-manager` / `$plotline-manager` |
 | 剧情线预览 | `$plotline-visualizer` |
-| 媒体提取 / 候选裁决 / 衣装收录 / 人物采用 | `$media-extractor` / `$media-extract-review` / `$clothes-decomposer` / `$clothes-designer` |
+| 媒体提取 / 候选裁决 / 衣装收录 / 人物采用 | `$story-media-extractor` / `$story-media-extract-review` / `$clothes-decomposer` / `$clothes-designer` |
 | 已实现故事与群像审计 / 内容变更审查 / 提交前检查 | `$story-auditor` / `$story-pull-request-review` / `sw project check --staged` |
-| 创作决策拷问 / 多 Agent 编排 / 处理施工 Gate | `$grilling` / `$story-orchestration` / `$construction-gate-manager`，按各自触发条件进入 |
-| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$session-checkpoint` / `$session-handoff` / `$session-resume` / `$session-manager` |
+| 创作决策拷问 / 多 Agent 编排 / 处理施工 Gate | `$story-grilling` / `$story-orchestration` / `$construction-gate-manager`，按各自触发条件进入 |
+| 保存断点 / 完整交接 / 恢复 / 管理记录 | `$story-session-checkpoint` / `$story-session-handoff` / `$story-session-resume` / `$story-session-manager` |
 | 创建 PR / 合并 PR | `$story-pull-request-create` / `$story-pull-request-merge`，分别明确授权 |
 | 正向 HD 设计 / 正文 | `$intimacy-hd-planner` / `$intimacy-hd-writer`，仅手动触发 |
 | 黑暗 HD 设计 / 正文 | `$intimacy-hd-dark-planner` / `$intimacy-hd-dark-writer`，仅手动触发 |
@@ -177,16 +177,6 @@ Construction Gate 创建、查询、更新与关闭。只有明确要求创建�
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`chapters`, `construction`, `plotlines`
 
-### `$grilling`
-
-grilling：通过单问单答压力测试重大工程或小说设计，确认共同理解后保存候选决策；仅明确要求拷问、追问、问透或压力测试时触发，不自动实施。
-
-- 调用格式：`$grilling <任务目标>`
-- 典型触发语：`grilling`
-- 模式：`project-write`
-- 条件依赖：`specialty:plotlines`
-- 写入范围：`analysis`
-
 ### `$intimacy-hd-dark-planner`
 
 黑暗 HD / 压迫场设计。仅作者手动触发。基于 A 场基线产出 design.b.dark.md (本场无 design.a.md 时第一步就地生成); 不写正文, 不回写主文, 不处理正向 B 场。触发词: 黑暗HD设计、压迫场设计、反派强制设计、双声部黑暗设计、失衡后果设计。
@@ -227,26 +217,6 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`skill:intimacy-hd-planner`, `specialty:plotlines`, `specialty:intimacy`
 - 写入范围：`specialty`
 
-### `$media-extract-review`
-
-通过受管 `sm extract review` CLI 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 media-extractor，正式衣装收录使用 clothes-decomposer。
-
-- 调用格式：`$media-extract-review <任务目标>`
-- 典型触发语：`筛选归类`, `识别去重`, `合并候选`, `拆分候选`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`runtime`, `derived`, `analysis`
-
-### `$media-extractor`
-
-调度 `sm extract` 从本地图片、视频或目录提取可审核的人物与衣装候选，跟踪明确输入的命令级收敛并处理一次有界重跑；提取成功后的持久结果不依赖 `.sw/media` 输入暂存文件。触发词: 提取媒体、提取图片、提取视频。已有候选的筛选归类、识别去重、合并或拆分使用 media-extract-review。
-
-- 调用格式：`$media-extractor <任务目标>`
-- 典型触发语：`提取媒体`, `提取图片`, `提取视频`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`runtime`, `derived`
-
 ### `$outline-generator`
 
 总大纲/分章大纲生成、卡文情节建议、回路规划。触发词: 生成大纲、重做大纲、卡文、给情节思路、规划回路、设计办事链、人情世故链、关系动员路径。
@@ -277,46 +247,6 @@ B 场 HD 设计。仅作者手动触发。基于 A 场基线产出 design.b.md (
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`derived`
 
-### `$session-checkpoint`
-
-session-checkpoint：保存当前任务短期断点，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
-
-- 调用格式：`$session-checkpoint <任务目标>`
-- 典型触发语：`session-checkpoint`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-handoff`
-
-session-handoff：创建跨会话完整交接，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
-
-- 调用格式：`$session-handoff <任务目标>`
-- 典型触发语：`session-handoff`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-manager`
-
-session-manager：审计、关闭、软删除、恢复和永久清理续接记录，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
-
-- 调用格式：`$session-manager <任务目标>`
-- 典型触发语：`session-manager`
-- 模式：`project-write`
-- 条件依赖：—
-- 写入范围：`sessions`
-
-### `$session-resume`
-
-session-resume：核验记录并恢复原任务，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
-
-- 调用格式：`$session-resume <任务目标>`
-- 典型触发语：`session-resume`
-- 模式：`delegated-write`
-- 条件依赖：—
-- 写入范围：`delegated`
-
 ### `$story-auditor`
 
 故事审计统一入口。支持 implementation、cast-health 与 comprehensive。检查已定稿实现、摘要与状态同步债，或人物群像健康。只诊断，不规划未来、不改真源；不用于审查待合入变更，此类任务使用 story-pull-request-review。
@@ -326,6 +256,36 @@ session-resume：核验记录并恢复原任务，适用于工具仓与写作仓
 - 模式：`project-write`
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`analysis`
+
+### `$story-grilling`
+
+story-grilling：通过单问单答压力测试重大工程或小说设计，确认共同理解后保存候选决策；仅明确要求拷问、追问、问透或压力测试时触发，不自动实施。
+
+- 调用格式：`$story-grilling <任务目标>`
+- 典型触发语：`story-grilling`
+- 模式：`project-write`
+- 条件依赖：`specialty:plotlines`
+- 写入范围：`analysis`
+
+### `$story-media-extract-review`
+
+通过受管 `sm extract review` CLI 对已有媒体候选执行筛选归类、识别去重、合并候选和拆分候选，支持按 collection 与候选过滤条件复核及明确范围内的自主长任务。触发词: 筛选归类、识别去重、合并候选、拆分候选。新媒体提取使用 story-media-extractor，正式衣装收录使用 clothes-decomposer。
+
+- 调用格式：`$story-media-extract-review <任务目标>`
+- 典型触发语：`筛选归类`, `识别去重`, `合并候选`, `拆分候选`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`, `analysis`
+
+### `$story-media-extractor`
+
+调度 `sm extract` 从本地图片、视频或目录提取可审核的人物与衣装候选，跟踪明确输入的命令级收敛并处理一次有界重跑；提取成功后的持久结果不依赖 `.sw/media` 输入暂存文件。触发词: 提取媒体、提取图片、提取视频。已有候选的筛选归类、识别去重、合并或拆分使用 story-media-extract-review。
+
+- 调用格式：`$story-media-extractor <任务目标>`
+- 典型触发语：`提取媒体`, `提取图片`, `提取视频`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`runtime`, `derived`
 
 ### `$story-orchestration`
 
@@ -378,6 +338,46 @@ story-pull-request-review：审查 staged、指定 diff 或 PR，默认只读；
 - 条件依赖：`specialty:plotlines`
 - 写入范围：`delegated`
 
+### `$story-session-checkpoint`
+
+story-session-checkpoint：保存当前任务短期断点，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$story-session-checkpoint <任务目标>`
+- 典型触发语：`story-session-checkpoint`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`sessions`
+
+### `$story-session-handoff`
+
+story-session-handoff：创建跨会话完整交接，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$story-session-handoff <任务目标>`
+- 典型触发语：`story-session-handoff`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`sessions`
+
+### `$story-session-manager`
+
+story-session-manager：审计、关闭、软删除、恢复和永久清理续接记录，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$story-session-manager <任务目标>`
+- 典型触发语：`story-session-manager`
+- 模式：`project-write`
+- 条件依赖：—
+- 写入范围：`sessions`
+
+### `$story-session-resume`
+
+story-session-resume：核验记录并恢复原任务，适用于工具仓与写作仓。记录不代表任务完成；普通正文续写不触发。
+
+- 调用格式：`$story-session-resume <任务目标>`
+- 典型触发语：`story-session-resume`
+- 模式：`delegated-write`
+- 条件依赖：—
+- 写入范围：`delegated`
+
 ### `$world-builder`
 
 世界观构建与设定冲突处理。触发词: 新建设定、补世界观、修改世界观、能力体系、组织、地理、特殊空间、物件、资源、社会规则、项目机制、设定冲突。
@@ -401,4 +401,4 @@ sw distribution agent sync --target codex
 
 `sw project sync` 只把本手册安装或安全刷新到 resolver 返回的 `project_files.skills`；公共 Skills 由 suite 安装到 `~/.agents/skills`，用户级 MCP/hooks/角色由 `sw distribution agent sync --target ...` 独立管理。不要手工修改受管的 `skills.md`；需要项目专属用法时，写入项目自己的说明文档并链接到本页。
 
-<!-- sw:zen sw-public-package-v1 zen@0.0.1 sha256:4337de648b4ef44d38a810891273bdbab1b20d332a1efea8cf39bdf5ff64e5a9 -->
+<!-- sw:zen sw-public-package-v1 zen@0.0.3 sha256:78a626a627a3a14d00fc0ff96f0b024141131843697bf537ed7440b4092f9dca -->

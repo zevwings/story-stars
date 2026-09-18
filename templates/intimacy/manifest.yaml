@@ -1,0 +1,30 @@
+schema_version: 2
+domain: intimacy
+augmentations: []
+templates:
+  - id: intimacy.character
+    summary: 项目角色专项档案
+    target: specialties/intimacy/characters/{character}/{partner}
+    primary:
+      path: character.md
+    supplements: []
+  - id: intimacy.design-a
+    summary: 项目 A 场设计
+    target: specialties/intimacy/chapters/{chapter}/{scene}/design.a.md
+    primary:
+      path: design-a.md
+    supplements: []
+  - id: intimacy.design-b-solo
+    summary: 项目双人或单主轴设计
+    target: specialties/intimacy/chapters/{chapter}/{scene}/design.b.md
+    primary:
+      path: design-b-solo.md
+    supplements: []
+  - id: intimacy.design-b-multi
+    summary: 项目多人设计
+    target: specialties/intimacy/chapters/{chapter}/{scene}/design.b.md
+    primary:
+      path: design-b-multi.md
+    supplements: []
+bundle_augmentations: []
+bundles: []
