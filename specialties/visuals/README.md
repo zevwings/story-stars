@@ -7,7 +7,7 @@
 1. 运行 `sw specialty visuals resolve --root <项目根>`，以匹配 visuals 依赖的 `project_root` 定位本目录，并运行 `sw specialty visuals validate --root <项目根>` 校验业务就绪，不猜测路径。生成、采纳及写入要求 enabled=true、ready=true；关闭后仍可只读经校验的保留资料，具体条件见下文。
 2. 读取本文件和 [_index.md](_index.md)，按任务进入目标分类索引。
 3. 只读取选定条目及其明确引用；预设读取所引用的基础模块，角色目录从 characters/_index.md 按正式角色 ID 定位，按登记链接读取可选 README.md 和图片。
-4. 新建角色资料时读取 角色创建模板（由 `sw specialty visuals resolve` 返回的 `resources.template-character.path` 读取），按任务填入实际内容并更新角色索引；复用已有资料不必读取模板。公共提示词仍按对应分类索引创建。
+4. 新建角色资料时读取 角色创建模板（通过 `sw template render --id visuals.character --root <项目根>` 获取），按任务填入实际内容并更新角色索引；复用已有资料不必读取模板。公共提示词仍按对应分类索引创建。
 5. 将选定模块、适用的人物偏好和当次要求整理为完整 Prompt；生产记录保留偏好来源及快照、当次覆盖项、模块 ID、文件引用和实际提交文本。
 
 ## 目录与所有权
@@ -31,11 +31,11 @@ specialties/visuals/
 
 已归档源文件保持路径和内容稳定；重复文件校验 hash 后直接引用，新内容使用新编号，不覆盖旧件。实际生成记录保存所用路径和 hash。只有 approved/identity 与对应生产记录使用身份版本。
 
-README 与索引首次创建后由项目维护；角色创建模板从锁定 visuals 包的 `resources.template-character.path` 读取。再次 enable 只补缺失文件，不覆盖已填写内容。模板只提供空结构；人物、预设、请求与图像按实际任务创建，不预建个人 profile、looks 或另一套批准指针。
+README 与索引首次创建后由项目维护；角色创建模板通过 `sw template render --id visuals.character --root <项目根>` 获取。再次 enable 只补缺失文件，不覆盖已填写内容。模板只提供空结构；人物、预设、请求与图像按实际任务创建，不预建个人 profile、looks 或另一套批准指针。
 
 ## 谁在什么时候创建
 
-`sw specialty visuals enable` 建立缺失的基础骨架。角色资料由 Agent 执行对应 Skill 时，依据明确任务按需创建；`skills.md` 是调用手册，`_template.md` 是内容模板，它们本身不执行目录创建。生成、收录和偏好写入均先核对 Specialty 已启用且就绪。
+`sw specialty visuals enable` 建立缺失的基础骨架。角色资料由 Agent 执行对应 Skill 时，依据明确任务按需创建；`skills.md` 是调用手册，`visuals.character` 是内容模板，它们本身不执行目录创建。生成、收录和偏好写入均先核对 Specialty 已启用且就绪。
 
 下表路径相对视觉根，`<角色目录>` 由 `characters/_index.md` 按正式角色 ID 定位；首次建立时采用安全的 `<角色ID>-<角色名>` 名称。
 
@@ -63,7 +63,7 @@ README 与索引首次创建后由项目维护；角色创建模板从锁定 vis
 
 ## 参考、批准图片和生产记录
 
-- **sources**：可供选择的外部或上游参考。收录只表示保存素材；是否批准为主脸是另一项决定。普通参考的用途和状态集中在角色 README.md，完整内容模板见 角色创建模板（由 `sw specialty visuals resolve` 返回的 `resources.template-character.path` 读取）。
+- **sources**：可供选择的外部或上游参考。收录只表示保存素材；是否批准为主脸是另一项决定。普通参考的用途和状态集中在角色 README.md，完整内容模板见 角色创建模板（通过 `sw template render --id visuals.character --root <项目根>` 获取）。
 - **approved**：作者明确接受的图片。定脸版本按 `vN` 保存，场景按 `<scene-name>/vN` 保存，已有版本不覆盖。
 - **records**：实际生产的请求、完整 Prompt 与 manifest。真正用于生成时才登记实际输入路径和 hash；普通参考收集不创建 manifest。
 - **current.json**：唯一当前身份入口。先保存并校验图片与记录，最后更新指针；历史场景绑定当时使用的不可变身份版本。

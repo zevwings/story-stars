@@ -1,0 +1,11 @@
+schema_version: 2
+domain: plotlines
+augmentations:
+  - template: plotlines.node
+    supplements:
+      - path: node-project-fields.md
+        slot: node.project-fields
+      - path: node-project-interfaces.md
+templates: []
+bundle_augmentations: []
+bundles: []

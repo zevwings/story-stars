@@ -1,6 +1,6 @@
 # 角色视觉资产
 
-按正式角色 ID 进入登记目录。目录职责见 [视觉资料说明](../README.md)，新建资料见 创建模板（由 `sw specialty visuals resolve` 返回的 `resources.template-character.path` 读取）。
+按正式角色 ID 进入登记目录。目录职责见 [视觉资料说明](../README.md)，新建资料见 创建模板（通过 `sw template render --id visuals.character --root <项目根>` 获取）。
 
 ## 条目
 
