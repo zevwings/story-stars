@@ -4,12 +4,14 @@
 
 ## 固定入口
 
-- `zen/entry.md`: 读取顺序与任务路由的唯一入口。
+- `sw zen resolve --root <项目根目录>`：解析锁定公共基线及 active 项目扩展。
+- `zen/resources.toml`：登记项目扩展；未登记文件不自动生效。
+- `zen/entry.md`: 追加到公共 entry 的项目路由。
 - `zen/bible.md`: 故事事实与作品级承诺的最高真源。
-- `zen/policy.md`: 仓库级流程、引用、施工与派生层门禁。
+- `zen/policy.md`: 追加到公共 policy 的项目流程、引用、施工与派生层门禁。
 - `zen/style.md`: 项目文风真源。
 - `zen/references.md`: 目录引用方向的辅助图解。
-- `zen/skills.md`: story-writer 生成的 Skill 选择与调用手册。
+- `story-writer://references/usage/skills.md`: 当前 runtime 的 Skill 选择与调用手册。
 - `AGENTS.md`、`CLAUDE.md`: 不同 Agent 的启动文件与内容边界开关。
 
 ## 故事目录
@@ -20,7 +22,7 @@
 - `context/`
 - `story/`
 - `worldbuilding/`
-- 已启用专项目录: 由 `.story.config.toml` 的 `[[specialties]]` 声明。
+- 已启用专项目录: 由 `.story.config.toml` 的 `[dependencies.specialties.<name>]` 声明。
 
 ## 施工、参考与派生目录
 
@@ -42,4 +44,4 @@
 
 - 项目事实优先写项目内固定相对路径。
 - 公共规则和参考资料使用 story-writer runtime 路由。
-- 读取顺序与任务路由以 `zen/entry.md` 为准；故事真源层级以 `zen/bible.md` 为准；目录权限和派生层边界以 `zen/policy.md` 为准。
+- 读取顺序与任务路由服从公共 entry 与已登记的 `zen/entry.md` 扩展；故事真源层级以 `zen/bible.md` 为准；目录权限和派生层边界服从公共 policy 与已登记的 `zen/policy.md` 扩展。

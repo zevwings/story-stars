@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 domain: characters
 augmentations:
   - template: characters.profile
@@ -16,8 +16,14 @@ augmentations:
         slot: relationship.intimacy.after
   - template: characters.outfit
     supplements:
+      - path: outfit-catalog.md
+        slot: outfit.sources.after
       - path: outfit-intimacy.md
         slot: outfit.interaction.after
+  - template: characters.outfit-grammar
+    supplements:
+      - path: outfit-lifestyle.md
+        slot: outfit-grammar.scenes
 templates:
   - id: characters.contract
     summary: 建立角色专属星辰契约档案

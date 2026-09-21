@@ -4,40 +4,40 @@ lock_version = 1
 kind = "specialty"
 name = "clothes"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:90592acba5c1c1835af107e7e0e94b41e4a930b4c53861a117f9c8d567a0edf9"
+version = "0.0.3"
+digest = "sha256:d64d5d46e2e0c9151f5267d90ebe422916eb1312406edf37ef240c692617a45e"
 
 [[packages]]
 kind = "specialty"
 name = "intimacy"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:bb2cb6138247fdd2b82bc027e93a4ac344295be41cef0a30a06ff5e9b09c015e"
+version = "0.0.2"
+digest = "sha256:9a7281700163c046e689dbefaa708e6542f788f782f3de8bbaf60984670512c5"
 
 [[packages]]
 kind = "specialty"
 name = "plotlines"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:f45b9067ca01daf804ae4b67201954fbd4428fd602ecb9f3a03b6426ab28cd98"
+version = "0.0.2"
+digest = "sha256:e588ca50b2af372d50861de329326876297d0547c127de667044e6ad9d2eae7a"
 
 [[packages]]
 kind = "specialty"
 name = "sociology"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:1911d1cf8399d9ce58578eab84cebdbe3dc05b01f07b7ed44d23e9027580cbb3"
+version = "0.0.2"
+digest = "sha256:28243a67b36a5d04295ba1463deaf531b05ff4da83dfc1fb8cf5b052a7bdcfa3"
 
 [[packages]]
 kind = "specialty"
 name = "visuals"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:20ddb992dc4cbeed23d291d69d7122e6d7b1ca463e646be1235d8b84daf9f9fe"
+version = "0.0.2"
+digest = "sha256:529b7da56a48fd08015220024eceaffde32e7af864bd823f991f87eb95e3e620"
 
 [[packages]]
 kind = "zen"
 name = "zen"
 format = "sw-public-package-v1"
-version = "0.0.1"
-digest = "sha256:4337de648b4ef44d38a810891273bdbab1b20d332a1efea8cf39bdf5ff64e5a9"
+version = "0.0.4"
+digest = "sha256:9cea6796379f5d35147cb17308edc793e51606be8a158c3b5e073dd8c451c631"
