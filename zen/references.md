@@ -1,7 +1,7 @@
 # 项目引用方向说明
 
-> 本页是项目目录引用关系的辅助说明图，不保存故事事实，也不构成正式真源或新增规则。
-> 引用类型与允许方向以 `policy.md` 与 `story-writer://rules/core/正式真源引用方向` 为准；若本页与正式真源或 runtime 规则冲突，以后者为准。
+> 本页是 `zen/resources.toml` 登记的 `project-references` 追加扩展，保留本项目目录关系的辅助图解，不保存故事事实，也不新增或放宽引用规则。
+> 引用类型与允许方向服从锁定 Zen 的公共 references 合同、公共 policy 与本项目 `policy.md` 扩展。图中故事架构等项目导航用于定位上下文，不额外授权公共合同允许表之外的 `depends_on`；事实以正式真源为准。
 
 ## 怎样读图
 
@@ -34,14 +34,14 @@ flowchart TB
     Character -->|"世界设定"| World
     Character -->|"静态人物事实"| Character
 
-    Architecture -->|"作品级承诺"| Bible
-    Architecture -->|"人物静态事实"| Character
+    Architecture -. "作品级承诺导航" .-> Bible
+    Architecture -. "静态人物导航" .-> Character
 
     Specialty -->|"专项人物档案"| Character
     Specialty -->|"专项设定"| World
 
     Plotline -->|"最高口径"| Bible
-    Plotline -->|"关系结构"| Architecture
+    Plotline -. "项目上下文导航" .-> Architecture
     Plotline -->|"题材口径"| Genre
     Plotline -->|"人物事实"| Character
     Plotline -->|"世界设定"| World
@@ -64,7 +64,7 @@ flowchart TB
 ```mermaid
 flowchart LR
     Plotline["specialties/plotlines/"]
-    Construction["specialties/plotlines/_construction/ 或 .construction/"]
+    Construction["specialties/plotlines/_construction/"]
     Chapter["chapters/"]
     Clue["clues/"]
     Context["context/"]
@@ -109,6 +109,6 @@ sw project check --scope references
 sw project check --scope references --root <project>
 ```
 
-该命令只把非模板文件 `## 正式真源引用` 小节中的路径视为 `depends_on`，并检查允许方向与依赖环；普通导航、证据和接口不会混入依赖图。
+该命令只把非模板文件 `## 正式真源引用` 小节中的路径视为 `depends_on`，并检查目标是否存在、允许方向与依赖环；普通导航、证据和接口不会混入依赖图，仍由 `sw project check --scope links` 检查普通 Markdown 链接与资源。
 
 当前仍为 `report-only`，用于报告违规，不代替正式规则或 `sw project check --scope links`。

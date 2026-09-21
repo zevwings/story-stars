@@ -20,26 +20,26 @@ type = "character_dynamic"
 state = []
 
 [dependencies.specialties.clothes]
-version = "0.0.1"
+version = "0.0.3"
 enabled = true
 
 [dependencies.specialties.intimacy]
-version = "0.0.1"
+version = "0.0.2"
 enabled = true
 overrides = { keywords_add = ["双修", "星辰契约同步", "欲望显影", "星庭共居"] }
 
 [dependencies.specialties.plotlines]
-version = "0.0.1"
+version = "0.0.2"
 enabled = true
 line_types = ["intimacy"]
 
 [dependencies.specialties.sociology]
-version = "0.0.1"
+version = "0.0.2"
 enabled = true
 
 [dependencies.specialties.visuals]
-version = "0.0.1"
+version = "0.0.2"
 enabled = true
 
 [dependencies.zen]
-version = "0.0.1"
+version = "0.0.4"

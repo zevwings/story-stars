@@ -1,6 +1,6 @@
 # story-stars Project Policy
 
-本文件仅适用于当前 `story-stars` 仓库，不作为其他项目的共享策略。
+本文件是 `zen/resources.toml` 登记的 `project-policy` 追加扩展，仅适用于当前 `story-stars` 仓库。执行时先完整读取锁定 Zen 的公共 policy，再读取本文；两者共同构成项目门禁，本文只能追加限制，不能覆盖或放宽公共基线。
 
 ## 执行原则
 

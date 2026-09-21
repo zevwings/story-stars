@@ -1,0 +1,22 @@
+schema_version = 1
+
+[[resources]]
+id = "story-stars-policy"
+category = "policy"
+path = "zen/policy.md"
+target = "project-policy"
+relation = "append"
+
+[[resources]]
+id = "story-stars-entry"
+category = "entry"
+path = "zen/entry.md"
+target = "project-entry"
+relation = "append"
+
+[[resources]]
+id = "story-stars-references"
+category = "references"
+path = "zen/references.md"
+target = "project-references"
+relation = "append"

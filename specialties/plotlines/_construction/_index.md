@@ -40,7 +40,7 @@
 
 ## Construction Gate
 
-- 已进入施工阶段但可以延后决定的问题，从 `_gate-template.md`（由 `sw specialty plotlines resolve` 返回的 `resources.template-gate.path` 读取） 创建到 `../_gates/GATE-xxxx-{名称}.md`。
+- 已进入施工阶段但可以延后决定的问题，通过 `sw template render --id plotlines.gate --root <项目根>` 获取模板后 创建到 `../_gates/GATE-xxxx-{名称}.md`。
 - Gate 必须命中至少一个 `active` 或 `bound` 的 `CON-*`；没有正式施工目标的候选继续留在 `.analysis/`。
 - 普通规划与写作通过 `sw specialty plotlines gates --operation <operation> --target <CON-xxxx>` 只查询 frontmatter，不读取候选方案正文。
 - 作者决定后先更新全部正式回写目标并验证，最后删除 Gate；正式目标不得反向引用具体 `GATE-*`。
@@ -62,3 +62,7 @@
 - [风归熟客回流线施工](风归熟客回流线/_index.md)：承接风归前期轮换、舒歆与言溪成为面向晏林的非付费固定主位、私密拍摄保密试探、真实职业缺席替补、会所组织调度关闭及两人分别转入第二层职业／档期回流关系；同时完成田恬、万芳的阶段退出，以及钱韵拒绝、三周停排、公开工作恢复、阶段内私人复选与关系完成。
 - [万安艺人显影线施工](万安艺人显影线/_index.md)：承接异常入口、秘密调查、万安组织压迫显影、万安自身行动门槛与合法业务托管；不等待四轴统一收网。
 - [工作室咨询线施工](工作室咨询线/_index.md)：承接魏琳首次咨询、休学恢复、向父亲说明、报警交接、复诊评估与复学收束的已确认执行顺序。
+
+## 创建模板
+
+使用 `sw template render --id plotlines.construction --root <项目根>` 获取公共施工模板；文件名采用 `CON-xxxx-{简短名称}.md`，按本目录登记规则建立正式节点接口。

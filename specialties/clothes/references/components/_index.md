@@ -19,7 +19,7 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 | 文件 | 职责 |
 |---|---|
 | [衣装档案写作规范](衣装档案写作规范.md) | 项目衣装档案的证据分层、正文模板、色版身份、品类专项字段与验收要求 |
-| [衣装结构与穿着层级](衣装结构与穿着层级.md) | 本项目唯一分类权威；定义 `set`、`piece`、临时搭配候选、九种单件类型、穿着层级与拆件边界 |
+| [衣装结构与穿着层级](衣装结构与穿着层级.md) | 本项目唯一分类权威；定义 `set`、`piece`、临时搭配候选、九种基础单元类型（沿用“单件类型”字段）、穿着层级与拆件边界 |
 | [素材分类与检索标签](素材分类与检索标签.md) | 外部衣装素材的用途一级／二级、结构一级／二级、辅助检索标签及旧分类映射；不替代 catalog 分类权威 |
 | [服装术语与观察词典](服装术语与观察词典.md) | 款式、廓形、松量、结构、材料、工艺、辅料、穿着表现等受控术语 |
 | [色彩图案与材质](色彩图案与材质.md) | 配色构成、色版、图案形成方式、材料层级、触感推断和穿着维护 |
@@ -67,7 +67,8 @@ sw specialty resolve clothes --root "$STORY_PROJECT_ROOT"
 
 Story Stars 启用 Clothes Specialty 当前协议提供的项目分类覆盖，唯一分类权威是 [衣装结构与穿着层级](衣装结构与穿着层级.md)：
 
-- 本项目的 `set` 天然由至少两个物理独立核心分件构成，不生成“组合形式”字段；旧 `look`、`single-piece` 或 `multi-piece` 只作为 `clothes.catalog@1` 待迁移输入；
+- 本项目的 `set` 天然由至少两个核心基础衣装单元构成，不生成“组合形式”字段；旧 `look`、`single-piece` 或 `multi-piece` 只作为 `clothes.catalog@1` 待迁移输入；
+- 本项目将 `piece` 定义为基础衣装单元，原生配套内衣与泳装各按一个单元维护，内部部件不强制拆档，也不重复建立 Set；具体边界只在分类权威文件维护。
 - 本项目以 `top | bottom | dress | jumpsuit | bodysuit | swimsuit | hosiery | footwear | accessory` 替换通用默认 `piece_type`；
 - `catalog/sets/` 按八种“主要用途”建英文目录，`catalog/pieces/` 按上述九种“单件类型”建英文目录；
 - 项目分类不能新增 `record_kind`、用途、frontmatter 字段或 Markdown 结构，也不能重新引入“组合形式”；
