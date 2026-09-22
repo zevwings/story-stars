@@ -1,10 +1,10 @@
 ---
-schema: clothes.catalog@2
-id: CLO-00000
+schema: clothes.catalog@3
+id: CLO-TOP-00000
 record_kind: piece
 ---
 
-# CLO-00000 单件名称
+# CLO-TOP-00000 单件名称
 
 ## 分类
 

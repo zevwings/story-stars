@@ -54,7 +54,7 @@ Set 至少包含两个核心基础衣装单元，并具有不依赖临时搭配�
 
 ## 档案结构速查
 
-文件名、frontmatter 与 H1 使用同一实际 ID；frontmatter 仅包含 `schema: clothes.catalog@2`、`id`、`record_kind: set`。实际生成与校验以锁定公共协议为准。
+文件名、frontmatter 与 H1 使用同一实际 ID；frontmatter 仅包含 `schema: clothes.catalog@3`、`id`、`record_kind: set`。实际生成与校验以锁定公共协议为准。
 
 正文按以下顺序组织：
 

@@ -20,7 +20,7 @@ type = "character_dynamic"
 state = []
 
 [dependencies.specialties.clothes]
-version = "0.0.3"
+version = "0.0.5"
 enabled = true
 
 [dependencies.specialties.intimacy]

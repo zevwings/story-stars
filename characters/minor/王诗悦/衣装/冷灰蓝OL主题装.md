@@ -8,17 +8,17 @@
 - **造型摘要**：冷灰蓝卷袖合身衬衣、炭灰高腰包臀超短裙配窄黑腰带构成核心职业轮廓，银色半框眼镜维持知性焦点，6cm 黑色哑光尖头高跟鞋拉升挺拔身段，领口下隐现的黑色蕾丝内衣则建立冷色外壳与深色内层的反差。
 - **叙事用途**：让王诗悦通过眼镜、领口和内外层次主动控制观看，在克制职业轮廓下逐步显露黑色蕾丝内层，不模拟真实公司活动或上下级关系。
 - **Catalog 关联（仅作追溯导航）**：
-  1. [CLO-00011 冷灰蓝职场 OL 主题短裙装](../../../../specialties/clothes/references/catalog/sets/cos/CLO-00011_冷灰蓝职场OL主题短裙装.md)（主体套组）
-  2. [CLO-00032 超轻银色半框平光眼镜](../../../../specialties/clothes/references/catalog/pieces/accessory/CLO-00032_超轻银色半框平光眼镜.md)（面部配饰）
-  3. [CLO-00033 黑色哑光尖头细高跟鞋](../../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00033_黑色哑光尖头细高跟鞋.md)（足部鞋履）
+  1. [CLO-COS-00005 冷灰蓝职场 OL 主题短裙装](../../../../specialties/clothes/references/catalog/sets/cos/CLO-COS-00005_冷灰蓝职场OL主题短裙装.md)（主体套组）
+  2. [CLO-ACCESSORY-00001 超轻银色半框平光眼镜](../../../../specialties/clothes/references/catalog/pieces/accessory/CLO-ACCESSORY-00001_超轻银色半框平光眼镜.md)（面部配饰）
+  3. [CLO-FOOTWEAR-00005 黑色哑光尖头细高跟鞋](../../../../specialties/clothes/references/catalog/pieces/footwear/CLO-FOOTWEAR-00005_黑色哑光尖头细高跟鞋.md)（足部鞋履）
 
 ## 人物最终版本
 
 - **贴身基础层**：成套黑色情趣蕾丝内衣。文胸采用低心位承托杯、平滑内衬、平整蕾丝覆面、侧翼支撑和可调肩带，稳定承接 75E 丰满胸型；配套内裤采用中低腰、高腿口和平整包边，贴身穿着于短裙一体平角安全裤之内，避免在贴身外层下形成明显勒痕。
-- **主体下装层**：炭灰高腰包臀超短裙（[CLO-00011](../../../../specialties/clothes/references/catalog/sets/cos/CLO-00011_冷灰蓝职场OL主题短裙装.md)），自带一体化同色纯棉平角安全裤，后腰双道立体收省紧贴腰臀，配 1.5cm 细黑牛皮带与哑银方扣；侧摆带 3-5cm 短开衩。
-- **主体上装层**：合身冷灰蓝衬衣（[CLO-00011](../../../../specialties/clothes/references/catalog/sets/cos/CLO-00011_冷灰蓝职场OL主题短裙装.md)），袖口卷至手肘下方并以暗扣固定，下摆整齐扎入包臀裙高腰头内；最上方两枚可见纽扣保持解开，第 2 与第 3 扣位之间以两枚隐藏暗扣控制前襟，完整状态只在小 V 领边缘隐约露出黑色蕾丝上缘。
-- **腿足层**：默认裸腿、不搭配丝袜或长袜；搭配约 6cm 极简尖头细高跟（[CLO-00033](../../../../specialties/clothes/references/catalog/pieces/footwear/CLO-00033_黑色哑光尖头细高跟鞋.md)），黑色哑光皮面配防滑静音底，兼顾挺拔比例与步态稳健。
-- **面部配饰与妆发**：佩戴超轻银色上半框平光眼镜（[CLO-00032](../../../../specialties/clothes/references/catalog/pieces/accessory/CLO-00032_超轻银色半框平光眼镜.md)），配透明镜片与亲肤硅胶鼻托，作为固定知性焦点；使用本人深色大波浪长发（不使用假发），配冷灰粉成年知性妆面，眼镜不遮挡圆润杏眼的专注注视。
+- **主体下装层**：炭灰高腰包臀超短裙（[CLO-COS-00005](../../../../specialties/clothes/references/catalog/sets/cos/CLO-COS-00005_冷灰蓝职场OL主题短裙装.md)），自带一体化同色纯棉平角安全裤，后腰双道立体收省紧贴腰臀，配 1.5cm 细黑牛皮带与哑银方扣；侧摆带 3-5cm 短开衩。
+- **主体上装层**：合身冷灰蓝衬衣（[CLO-COS-00005](../../../../specialties/clothes/references/catalog/sets/cos/CLO-COS-00005_冷灰蓝职场OL主题短裙装.md)），袖口卷至手肘下方并以暗扣固定，下摆整齐扎入包臀裙高腰头内；最上方两枚可见纽扣保持解开，第 2 与第 3 扣位之间以两枚隐藏暗扣控制前襟，完整状态只在小 V 领边缘隐约露出黑色蕾丝上缘。
+- **腿足层**：默认裸腿、不搭配丝袜或长袜；搭配约 6cm 极简尖头细高跟（[CLO-FOOTWEAR-00005](../../../../specialties/clothes/references/catalog/pieces/footwear/CLO-FOOTWEAR-00005_黑色哑光尖头细高跟鞋.md)），黑色哑光皮面配防滑静音底，兼顾挺拔比例与步态稳健。
+- **面部配饰与妆发**：佩戴超轻银色上半框平光眼镜（[CLO-ACCESSORY-00001](../../../../specialties/clothes/references/catalog/pieces/accessory/CLO-ACCESSORY-00001_超轻银色半框平光眼镜.md)），配透明镜片与亲肤硅胶鼻托，作为固定知性焦点；使用本人深色大波浪长发（不使用假发），配冷灰粉成年知性妆面，眼镜不遮挡圆润杏眼的专注注视。
 
 ## 穿着结构与动作反馈
 

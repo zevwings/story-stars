@@ -1,10 +1,10 @@
 ---
-schema: clothes.catalog@2
-id: CLO-00000
+schema: clothes.catalog@3
+id: CLO-DAILY-00000
 record_kind: set
 ---
 
-# CLO-00000 成套装束名称
+# CLO-DAILY-00000 成套装束名称
 
 ## 分类
 

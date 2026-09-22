@@ -40,5 +40,5 @@
 
 ## P-006：衣装参考实体命名
 
-- `specialties/clothes/references/catalog/pieces/` 与 `sets/` 下的衣装参考实体文件统一使用 `CLO-编号_名称.md`，保留已有编号；`CLO` 前缀是新建文件小写规则的明确例外。
+- `specialties/clothes/references/catalog/pieces/` 与 `sets/` 下的衣装参考实体文件统一使用 `CLO-分类大写-五位序号_名称.md`，各分类独立递增；名称或排序变化不改编号，跨分类迁移须领取新号并同步引用，删除不补洞、不复用；`CLO` 与分类大写前缀是新建文件小写规则的明确例外。
 - 目录名继续使用规范小写；索引和其他路径引用必须与实际文件名大小写一致。
