@@ -4,8 +4,8 @@ lock_version = 1
 kind = "specialty"
 name = "clothes"
 format = "sw-public-package-v1"
-version = "0.0.3"
-digest = "sha256:d64d5d46e2e0c9151f5267d90ebe422916eb1312406edf37ef240c692617a45e"
+version = "0.0.5"
+digest = "sha256:314021c7e1f32fff8a25b600cc34c1a3bf3135f320950befd31f2dd5b890ba01"
 
 [[packages]]
 kind = "specialty"

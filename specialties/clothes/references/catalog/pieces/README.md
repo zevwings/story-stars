@@ -45,7 +45,7 @@
 
 ## 档案结构速查
 
-文件名、frontmatter 与 H1 使用同一实际 ID；frontmatter 仅包含 `schema: clothes.catalog@2`、`id`、`record_kind: piece`。实际生成与校验以锁定公共协议为准，不复制占位 ID 作为实体。
+文件名、frontmatter 与 H1 使用同一实际 ID；frontmatter 仅包含 `schema: clothes.catalog@3`、`id`、`record_kind: piece`。实际生成与校验以锁定公共协议为准，不复制占位 ID 作为实体。
 
 正文按以下顺序组织：
 
