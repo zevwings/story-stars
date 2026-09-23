@@ -5,7 +5,7 @@ kind = "specialty"
 name = "clothes"
 format = "sw-public-package-v1"
 version = "0.0.5"
-digest = "sha256:314021c7e1f32fff8a25b600cc34c1a3bf3135f320950befd31f2dd5b890ba01"
+digest = "sha256:6d7d5f4026e94bb96013ef4c649e6cf13c125e42586366e5146b6ceeecd02868"
 
 [[packages]]
 kind = "specialty"
